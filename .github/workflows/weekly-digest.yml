@@ -34,9 +34,10 @@ jobs:
       - name: Run weekly rollup
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          ANTHROPIC_BASE_URL: ${{ secrets.ANTHROPIC_BASE_URL }}
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-          DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
+          LLM_PROVIDER: openai
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          OPENAI_BASE_URL: https://api.myweb3.cc/v1
+          OPENAI_MODEL: gpt-5.4-mini
           DIGEST_REPO: ${{ github.repository }}
         run: pnpm weekly
 
