@@ -348,12 +348,16 @@ async function main(): Promise<void> {
     summary: summariesByLang[lang].openclawSummary,
   });
 
-  const [zhComparison, zhPeersComparison, enComparison, enPeersComparison] = await Promise.all([
+  const comparisonResults = await Promise.allSettled([
     callLlm(buildComparisonPrompt(zhSummaries.cliDigests, dateStr, "zh")),
     callLlm(buildPeersComparisonPrompt(makeOpenclawDigest("zh"), zhSummaries.peerDigests, dateStr, "zh")),
     callLlm(buildComparisonPrompt(enSummaries.cliDigests, dateStr, "en")),
     callLlm(buildPeersComparisonPrompt(makeOpenclawDigest("en"), enSummaries.peerDigests, dateStr, "en")),
   ]);
+  const [zhComparison, zhPeersComparison, enComparison, enPeersComparison] = comparisonResults.map((r) => {
+    if (r.status === "rejected") { console.warn("  Comparative LLM call failed:", r.reason); return ""; }
+    return r.value;
+  });
 
   const comparisonByLang = { zh: zhComparison, en: enComparison };
   const peersComparisonByLang = { zh: zhPeersComparison, en: enPeersComparison };
