@@ -355,7 +355,10 @@ async function main(): Promise<void> {
     callLlm(buildPeersComparisonPrompt(makeOpenclawDigest("en"), enSummaries.peerDigests, dateStr, "en")),
   ]);
   const [zhComparison, zhPeersComparison, enComparison, enPeersComparison] = comparisonResults.map((r) => {
-    if (r.status === "rejected") { console.warn("  Comparative LLM call failed:", r.reason); return ""; }
+    if (r.status === "rejected") {
+      console.warn("  Comparative LLM call failed:", r.reason);
+      return "";
+    }
     return r.value;
   });
 
