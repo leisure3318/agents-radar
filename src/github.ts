@@ -102,7 +102,8 @@ async function fetchItemPage(
   if (itemType === "issues") params["since"] = since.toISOString();
 
   const items = await githubGet<GitHubItem[]>(`https://api.github.com/repos/${repo}/${itemType}`, params);
-  return itemType === "pulls" ? items.filter((i) => new Date(i.updated_at) >= since) : items;
+  // Filter by created_at to show only genuinely new items, not old items that received comments.
+  return items.filter((i) => new Date(i.created_at) >= since);
 }
 
 // ---------------------------------------------------------------------------
@@ -110,7 +111,10 @@ async function fetchItemPage(
 // ---------------------------------------------------------------------------
 
 /**
- * Fetch items updated since `since`.
+ * Fetch items created since `since` (not just updated).
+ * Only truly new issues/PRs are returned — items that merely received comments
+ * are excluded so each day's digest contains only fresh content.
+ *
  * Paginated repos: keeps fetching until a page ends before `since` or MAX_PAGES reached.
  * Regular repos: single page of 50.
  */
@@ -122,7 +126,7 @@ export async function fetchRecentItems(
   if (!cfg.paginated) {
     const params: Record<string, string> = {
       state: "all",
-      sort: "updated",
+      sort: "created",
       direction: "desc",
       per_page: "50",
     };
@@ -131,16 +135,17 @@ export async function fetchRecentItems(
       `https://api.github.com/repos/${cfg.repo}/${itemType}`,
       params,
     );
-    return itemType === "pulls" ? items.filter((i) => new Date(i.updated_at) >= since) : items;
+    return items.filter((i) => new Date(i.created_at) >= since);
   }
 
   const all: GitHubItem[] = [];
   for (let page = 1; page <= MAX_PAGES; page++) {
     const items = await fetchItemPage(cfg.repo, itemType, since, page);
     if (items.length === 0) break;
-    all.push(...items);
+    all.push(...items.filter((i) => new Date(i.created_at) >= since));
     const last = items[items.length - 1];
-    if (last && new Date(last.updated_at) < since) break;
+    // Stop paginating once we've passed the creation window.
+    if (last && new Date(last.created_at) < since) break;
     if (items.length < 100) break;
   }
   return all;

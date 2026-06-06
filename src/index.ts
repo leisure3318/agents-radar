@@ -40,6 +40,7 @@ import {
   saveCommunityReport,
 } from "./report-savers.ts";
 import { loadWebState, fetchSiteContent, type WebFetchResult, type WebState } from "./web.ts";
+import { loadSeenItems, saveSeenItems, filterUnseen, filterUnseenReleases, markSeen } from "./seen-items.ts";
 import { fetchTrendingData, type TrendingData } from "./trending.ts";
 import { fetchHnData, type HnData } from "./hn.ts";
 import { fetchPhData, type PhData } from "./ph.ts";
@@ -300,6 +301,7 @@ async function main(): Promise<void> {
 
   // 1. Fetch all data in parallel
   const webState = loadWebState();
+  const seenState = loadSeenItems();
   const {
     fetched,
     skillsData,
@@ -312,6 +314,15 @@ async function main(): Promise<void> {
     devtoData,
     lobstersData,
   } = await fetchAllData(since, webState);
+
+  // Remove items already reported in previous runs (cross-day dedup safety net).
+  for (const f of fetched) {
+    f.issues = filterUnseen(f.cfg.id, f.issues, seenState);
+    f.prs = filterUnseen(f.cfg.id, f.prs, seenState);
+    f.releases = filterUnseenReleases(f.cfg.id, f.releases, seenState);
+    markSeen(f.cfg.id, [...f.issues, ...f.prs], f.releases, seenState);
+  }
+  saveSeenItems(seenState);
 
   const peerIds = new Set(OPENCLAW_PEERS.map((p) => p.id));
   const fetchedCli = fetched.filter((f) => f.cfg.id !== OPENCLAW.id && !peerIds.has(f.cfg.id));
