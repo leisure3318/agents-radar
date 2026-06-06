@@ -282,7 +282,14 @@ export async function createGitHubIssue(title: string, body: string, label: stri
     headers: { ...headers(), "Content-Type": "application/json" },
     body: JSON.stringify({ title, body, labels: [label] }),
   });
-  if (!resp.ok) throw new Error(`Failed to create issue: ${await resp.text()}`);
+  if (!resp.ok) {
+    const text = await resp.text();
+    if (resp.status === 410) {
+      console.warn(`  Issues disabled in ${digestRepo}, skipping issue creation.`);
+      return "";
+    }
+    throw new Error(`Failed to create issue: ${text}`);
+  }
   const data = (await resp.json()) as { html_url: string };
   return data.html_url;
 }
