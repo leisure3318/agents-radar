@@ -1,0 +1,118 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code 单日50个Issue",
+      "Claude Code连发v2.1.167/166",
+      "Codex推rust-v0.138.0-alpha.6",
+      "OpenCode与Pi高频迭代",
+      "Qwen Code夜版推进加速",
+      "长会话治理成全场焦点"
+    ],
+    "ai-agents": [
+      "OpenClaw发v2026.6.5-beta.1",
+      "OpenClaw今日62 Issue、59 PR",
+      "QQBot先清理thinking再发",
+      "MCP tool result兼容更强",
+      "版本语义改成月度patch",
+      "核心路径仍处高压修复期"
+    ],
+    "ai-trending": [
+      "superpowers单日+1008星",
+      "Agent-Reach单日+700星",
+      "CopilotKit单日+613星",
+      "PaddleOCR单日+449星",
+      "openai/whisper单日+155星",
+      "Agent技能与网页接入爆发"
+    ],
+    "ai-web": [
+      "Anthropic获65B美元融资",
+      "Anthropic密集推Claude Opus 4.8",
+      "How we contain Claude成焦点",
+      "Claude被用于化学研究",
+      "OpenAI推进AWS分发与Codex",
+      "AI治理与安全叙事升温"
+    ],
+    "ai-hn": [
+      "Show HN：故意削弱编码agent",
+      "Claude化学研究引发讨论",
+      "AI疫苗首次人体试验上HN",
+      "类比提示词方法帖登场",
+      "HN热议Prompt Injection安全",
+      "社区自问：为何反AI"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro赞4679、下载551万",
+      "DeepSeek-V4-Flash下载343万",
+      "Gemma 4 12B-it热度飙升",
+      "MiniCPM5-1B成轻量热门",
+      "NVIDIA 550B MoE持续刷榜",
+      "JetBrains Thinking模型走热"
+    ],
+    "ai-community": [
+      "AI拒修漏洞，20天后赔420万",
+      "开源编码harness挑战前沿模型",
+      "碳感知训练调度成话题",
+      "代码健康分能预测Bug吗",
+      "LoCoMo与LongMemEval再受关注",
+      "人机协作仍是编码常态"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code shipped v2.1.166 and v2.1.167",
+      "OpenAI Codex hit 10 PRs and 2 alpha releases",
+      "Qwen Code posted a new nightly release",
+      "OpenCode saw 10 issues and 10 PRs",
+      "Gemini CLI logged 9 issues today",
+      "AI CLI tools are converging on reliability"
+    ],
+    "ai-agents": [
+      "OpenClaw logged 62 issues and 59 PRs",
+      "v2026.6.5-beta.1 shipped today",
+      "QQBot now strips raw <thinking> tags",
+      "Gateway startup regressions are piling up",
+      "Session state and routing bugs dominate",
+      "Docker hangs and abort fixes are queued"
+    ],
+    "ai-trending": [
+      "CopilotKit surged +613 stars today",
+      "Agent-Reach is spiking on GitHub Trending",
+      "open-notebook is gaining momentum",
+      "MemPalace is hot for memory and retrieval",
+      "Ollama tops 173,388 stars",
+      "DeepSeek, Gemma and Qwen lead open models"
+    ],
+    "ai-web": [
+      "Claude Opus 4.8 headlines Anthropic's update",
+      "Claude Design adds a new product surface",
+      "Effort controls and fast mode are rolling out",
+      "Project Glasswing boosts security work",
+      "Anthropic filed a confidential S-1",
+      "OpenAI titles point to Codex and governance"
+    ],
+    "ai-hn": [
+      "HN is fixated on AI's S&P 500 test",
+      "Meta chatbot abuse hit Instagram security",
+      "OpenAI's Lockdown Mode sparked concern",
+      "Ask HN: 'Why is HN so anti-AI?' blew up",
+      "Coding agents got interest, but cautious",
+      "Security and skepticism dominated the day"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro tops 5.5M downloads",
+      "DeepSeek-V4-Flash hits 3.4M downloads",
+      "NVIDIA spans LLM, ASR, OCR and video",
+      "GGUF and NF4 variants are driving adoption",
+      "MiniCPM5-1B is trending for compact use",
+      "Multimodal models keep rising on HF"
+    ],
+    "ai-community": [
+      "AI code reliability is the top concern",
+      "Security workflows still need human judgment",
+      "Open models beat frontier ones in a coding harness",
+      "Carbon-aware training is gaining traction",
+      "Lobste.rs focused on LLM limits and post-training",
+      "Local models and token savings are hot topics"
+    ]
+  }
+}
