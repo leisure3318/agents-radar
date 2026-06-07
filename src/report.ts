@@ -95,6 +95,25 @@ export async function callLlm(prompt: string, maxTokens = LLM_TOKENS_DEFAULT): P
   }
 }
 
+/** Set SKIP_EN_DIGEST=false to re-enable English LLM calls. */
+const SKIP_EN_LLM = (process.env["SKIP_EN_DIGEST"] ?? "true") !== "false";
+
+export const EN_DIGEST_PLACEHOLDER =
+  "_(English digest skipped to save LLM tokens — see the Chinese report for full details.)_";
+
+/**
+ * Like `callLlm`, but skips the call entirely for English when SKIP_EN_DIGEST
+ * is enabled (default), returning a placeholder instead of spending tokens.
+ */
+export async function callLlmLang(
+  lang: Lang,
+  prompt: string,
+  maxTokens = LLM_TOKENS_DEFAULT,
+): Promise<string> {
+  if (lang === "en" && SKIP_EN_LLM) return EN_DIGEST_PLACEHOLDER;
+  return callLlm(prompt, maxTokens);
+}
+
 // ---------------------------------------------------------------------------
 // File output
 // ---------------------------------------------------------------------------

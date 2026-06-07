@@ -28,7 +28,13 @@ import {
   buildSkillsPrompt,
 } from "./prompts.ts";
 import { buildTrendingPrompt, buildHighlightsPrompt, type ReportHighlights } from "./prompts-data.ts";
-import { callLlm, saveFile, autoGenFooter, LLM_TOKENS_TRENDING } from "./report.ts";
+import {
+  callLlmLang,
+  saveFile,
+  autoGenFooter,
+  LLM_TOKENS_TRENDING,
+  EN_DIGEST_PLACEHOLDER,
+} from "./report.ts";
 import { buildCliReportContent, buildOpenclawReportContent } from "./report-builders.ts";
 import {
   saveWebReport,
@@ -187,10 +193,16 @@ async function fetchAllData(
 // ---------------------------------------------------------------------------
 
 /** Call LLM with logging and error fallback. */
-async function summarize(id: string, prompt: string, failMsg: string, maxTokens?: number): Promise<string> {
+async function summarize(
+  id: string,
+  prompt: string,
+  failMsg: string,
+  lang: Lang = "zh",
+  maxTokens?: number,
+): Promise<string> {
   console.log(`  [${id}] Calling LLM for summary...`);
   try {
-    return await callLlm(prompt, maxTokens);
+    return await callLlmLang(lang, prompt, maxTokens);
   } catch (err) {
     console.error(`  [${id}] LLM call failed: ${err}`);
     return failMsg;
@@ -203,12 +215,13 @@ async function summarizeRepo(
   prompt: string,
   noActivityMsg: string,
   failMsg: string,
+  lang: Lang = "zh",
 ): Promise<RepoDigest> {
   if (!issues.length && !prs.length && !releases.length) {
     console.log(`  [${cfg.id}] No activity, skipping LLM call`);
     return { config: cfg, issues, prs, releases, summary: noActivityMsg };
   }
-  const summary = await summarize(cfg.id, prompt, failMsg);
+  const summary = await summarize(cfg.id, prompt, failMsg, lang);
   return { config: cfg, issues, prs, releases, summary };
 }
 
@@ -233,7 +246,13 @@ async function generateSummaries(
   const [cliDigests, openclawSummary, skillsSummary, peerDigests, trendingSummary] = await Promise.all([
     Promise.all(
       fetchedCli.map((f) =>
-        summarizeRepo(f, buildCliPrompt(f.cfg, f.issues, f.prs, f.releases, dateStr, lang), noActivity, fail),
+        summarizeRepo(
+          f,
+          buildCliPrompt(f.cfg, f.issues, f.prs, f.releases, dateStr, lang),
+          noActivity,
+          fail,
+          lang,
+        ),
       ),
     ),
     summarizeRepo(
@@ -250,11 +269,13 @@ async function generateSummaries(
       ),
       noActivity,
       fail,
+      lang,
     ).then((d) => d.summary),
     summarize(
       "claude-code-skills",
       buildSkillsPrompt(skillsData.prs, skillsData.issues, dateStr, lang),
       MSG.skillsFailed[lang],
+      lang,
     ),
     Promise.all(
       fetchedPeers.map((f) =>
@@ -263,6 +284,7 @@ async function generateSummaries(
           buildPeerPrompt(f.cfg, f.issues, f.prs, f.releases, dateStr, undefined, undefined, lang),
           noActivity,
           fail,
+          lang,
         ),
       ),
     ),
@@ -275,6 +297,7 @@ async function generateSummaries(
         "trending",
         buildTrendingPrompt(trendingData, dateStr, lang),
         MSG.trendingFailed[lang],
+        lang,
         LLM_TOKENS_TRENDING,
       );
     })(),
@@ -349,10 +372,16 @@ async function main(): Promise<void> {
   });
 
   const comparisonResults = await Promise.allSettled([
-    callLlm(buildComparisonPrompt(zhSummaries.cliDigests, dateStr, "zh")),
-    callLlm(buildPeersComparisonPrompt(makeOpenclawDigest("zh"), zhSummaries.peerDigests, dateStr, "zh")),
-    callLlm(buildComparisonPrompt(enSummaries.cliDigests, dateStr, "en")),
-    callLlm(buildPeersComparisonPrompt(makeOpenclawDigest("en"), enSummaries.peerDigests, dateStr, "en")),
+    callLlmLang("zh", buildComparisonPrompt(zhSummaries.cliDigests, dateStr, "zh")),
+    callLlmLang(
+      "zh",
+      buildPeersComparisonPrompt(makeOpenclawDigest("zh"), zhSummaries.peerDigests, dateStr, "zh"),
+    ),
+    callLlmLang("en", buildComparisonPrompt(enSummaries.cliDigests, dateStr, "en")),
+    callLlmLang(
+      "en",
+      buildPeersComparisonPrompt(makeOpenclawDigest("en"), enSummaries.peerDigests, dateStr, "en"),
+    ),
   ]);
   const [zhComparison = "", zhPeersComparison = "", enComparison = "", enPeersComparison = ""] =
     comparisonResults.map((r) => {
@@ -463,23 +492,22 @@ async function main(): Promise<void> {
 
   console.log("  Generating highlights for Telegram...");
   const highlights: Record<Lang, ReportHighlights> = { zh: {}, en: {} };
+  const parseHighlights = (raw: string): ReportHighlights | null => {
+    if (raw === EN_DIGEST_PLACEHOLDER) return null;
+    return JSON.parse(
+      raw
+        .replace(/```json?\n?/g, "")
+        .replace(/```/g, "")
+        .trim(),
+    ) as ReportHighlights;
+  };
   try {
     const [zhRaw, enRaw] = await Promise.all([
-      callLlm(buildHighlightsPrompt(zhReports, "zh"), 2048),
-      callLlm(buildHighlightsPrompt(enReports, "en"), 2048),
+      callLlmLang("zh", buildHighlightsPrompt(zhReports, "zh"), 2048),
+      callLlmLang("en", buildHighlightsPrompt(enReports, "en"), 2048),
     ]);
-    highlights.zh = JSON.parse(
-      zhRaw
-        .replace(/```json?\n?/g, "")
-        .replace(/```/g, "")
-        .trim(),
-    );
-    highlights.en = JSON.parse(
-      enRaw
-        .replace(/```json?\n?/g, "")
-        .replace(/```/g, "")
-        .trim(),
-    );
+    highlights.zh = parseHighlights(zhRaw) ?? highlights.zh;
+    highlights.en = parseHighlights(enRaw) ?? highlights.en;
   } catch (err) {
     console.error(`  [highlights] Generation failed: ${err}`);
   }

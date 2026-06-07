@@ -22,7 +22,7 @@ import {
   buildHfPrompt,
   buildCommunityPrompt,
 } from "./prompts-data.ts";
-import { callLlm, saveFile, LLM_TOKENS_WEB } from "./report.ts";
+import { callLlmLang, saveFile, LLM_TOKENS_WEB } from "./report.ts";
 import { createGitHubIssue } from "./github.ts";
 import { saveWebState, type WebFetchResult, type WebState } from "./web.ts";
 import type { HnData } from "./hn.ts";
@@ -51,7 +51,11 @@ export async function saveWebReport(
   if (hasNewContent) {
     console.log(`  [web/${lang}] Calling LLM for web content report...`);
     try {
-      const webSummary = await callLlm(buildWebReportPrompt(webResults, dateStr, lang), LLM_TOKENS_WEB);
+      const webSummary = await callLlmLang(
+        lang,
+        buildWebReportPrompt(webResults, dateStr, lang),
+        LLM_TOKENS_WEB,
+      );
       const isFirstRun = webResults.some((r) => r.isFirstRun);
       const totalNew = webResults.reduce((sum, r) => sum + r.newItems.length, 0);
 
@@ -152,7 +156,7 @@ export async function saveHnReport(
 
   console.log(`  [hn/${lang}] Calling LLM for HN report...`);
   try {
-    const hnSummary = await callLlm(buildHnPrompt(hnData, dateStr, lang));
+    const hnSummary = await callLlmLang(lang, buildHnPrompt(hnData, dateStr, lang));
     const fileName = lang === "en" ? "ai-hn-en.md" : "ai-hn.md";
     const header =
       lang === "en"
@@ -199,7 +203,7 @@ export async function savePhReport(
 
   console.log(`  [ph/${lang}] Calling LLM for Product Hunt report...`);
   try {
-    const phSummary = await callLlm(buildPhPrompt(phData, dateStr, lang));
+    const phSummary = await callLlmLang(lang, buildPhPrompt(phData, dateStr, lang));
     const fileName = lang === "en" ? "ai-ph-en.md" : "ai-ph.md";
     const header =
       lang === "en"
@@ -246,7 +250,7 @@ export async function saveArxivReport(
 
   console.log(`  [arxiv/${lang}] Calling LLM for ArXiv report...`);
   try {
-    const summary = await callLlm(buildArxivPrompt(arxivData, dateStr, lang));
+    const summary = await callLlmLang(lang, buildArxivPrompt(arxivData, dateStr, lang));
     const fileName = lang === "en" ? "ai-arxiv-en.md" : "ai-arxiv.md";
     const header =
       lang === "en"
@@ -293,7 +297,7 @@ export async function saveHfReport(
 
   console.log(`  [hf/${lang}] Calling LLM for Hugging Face report...`);
   try {
-    const summary = await callLlm(buildHfPrompt(hfData, dateStr, lang));
+    const summary = await callLlmLang(lang, buildHfPrompt(hfData, dateStr, lang));
     const fileName = lang === "en" ? "ai-hf-en.md" : "ai-hf.md";
     const header =
       lang === "en"
@@ -342,7 +346,7 @@ export async function saveCommunityReport(
 
   console.log(`  [community/${lang}] Calling LLM for community report...`);
   try {
-    const summary = await callLlm(buildCommunityPrompt(devtoData, lobstersData, dateStr, lang));
+    const summary = await callLlmLang(lang, buildCommunityPrompt(devtoData, lobstersData, dateStr, lang));
     const fileName = lang === "en" ? "ai-community-en.md" : "ai-community.md";
     const devtoCount = devtoData.articles.length;
     const lobstersCount = lobstersData.stories.length;
