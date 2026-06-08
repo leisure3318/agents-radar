@@ -1,52 +1,52 @@
 {
   "zh": {
     "ai-cli": [
-      "OpenCode 15项更新领跑",
-      "OpenAI Codex 14项高活跃",
-      "Qwen Code 发布 nightly v0.17.1",
-      "Claude Code 10个Issue集中爆发",
-      "Linux版 Claude Desktop 呼声高",
-      "稳定性成CLI生态主战场"
+      "OpenCode 10 Issue/9 PR领跑",
+      "Claude Code 权限绕过成焦点",
+      "OpenAI Codex 10 Issue高活跃",
+      "Gemini CLI 盯上SSRF防护",
+      "Qwen Code 长循环Hook卡点",
+      "Copilot CLI 关注协议一致性"
     ],
     "ai-agents": [
-      "OpenClaw 24小时14 Issue、23 PR",
-      "安全配置反转问题被集中讨论",
-      "会话状态与消息投递成焦点",
-      "memory 与 cron 兼容性待修",
-      "Telegram/Anthropic路径持续推进",
-      "5个PR已关闭，偏稳定性修复"
+      "OpenClaw 8Issue/26PR高压",
+      "session-state 迁移SQLite",
+      "iMessage 恢复+去重补偿",
+      "auth/migration 成风险链路",
+      "7个PR关闭，开始收敛",
+      "P1/P2问题集中暴露"
     ],
     "ai-trending": [
-      "turbovec 单日暴涨+1,554",
-      "hermes-agent 涨幅+1,112",
-      "last30days-skill 冲到+1,111",
-      "taste-skill 单日+1,103",
-      "ollama 173,512星稳居入口",
-      "llama.cpp 今日仍涨+158"
+      "hermes-agent 今日+1112",
+      "last30days-skill +1111",
+      "taste-skill +1103 冲榜",
+      "llama.cpp 今日+158",
+      "Ollama 17.3万星",
+      "Firecrawl 13万星"
     ],
     "ai-hn": [
-      "Claude Desktop Linux帖472分",
-      "I design with Claude拿277分",
-      "Lathe：用LLM学领域不跳过",
-      "Age of Empires论文104分102评",
-      "HN热议AI成本与商业模式",
-      "token与MoE研究帖持续受关注"
+      "Lathe 302分55评爆红",
+      "Nightwatch：只读AI SRE",
+      "Claude Code rate限额上状态栏",
+      "Web Speed 做MCP工具地图",
+      "LLM类人论帖110分110评",
+      "Tokens 解释文补课热"
     ],
     "ai-hf": [
-      "DeepSeek-V4-Pro 4700赞、551万下载",
-      "DeepSeek-V4-Flash 获1435赞",
-      "LocateAnything-3B 点赞1535",
-      "Gemma-4-12B-it 多模态上榜",
-      "MiniCPM5-1B 轻量端侧热",
-      "GGUF/NVFP4/FP8 版本猛增"
+      "DeepSeek-V4-Pro 4705赞/540万下",
+      "DeepSeek-V4-Flash 1437赞",
+      "MiniCPM5-1B 轻量中文热",
+      "LFM2.5-8B-A1B MoE受捧",
+      "LocateAnything-3B 1551赞",
+      "Gemma-4-12B-it 多模态升温"
     ],
     "ai-community": [
-      "AI自测翻车，成本冲到$2.8M",
-      "LLM成本归因成FinOps刚需",
-      "AI代理审计日志不算证据",
-      "生产RAG只做Dense会失效",
-      "8x提效神话遭工程师反思",
-      "Lobste.rs持续审视模型原理"
+      "2.8M美元自测帖引爆讨论",
+      "Default eval model 调整引关注",
+      "AI生成代码归属权被质疑",
+      "AI Agent Safety 要停牌",
+      "5个LLM对抗评测全翻车",
+      "Hybrid Search 修复RAG痛点"
     ]
   },
   "en": {}

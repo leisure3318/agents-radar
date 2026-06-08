@@ -1,136 +1,137 @@
 # AI 开源趋势日报 2026-06-08
 
-> 数据来源: GitHub Trending + GitHub Search API | 生成时间: 2026-06-08 04:13 UTC
+> 数据来源: GitHub Trending + GitHub Search API | 生成时间: 2026-06-08 08:10 UTC
 
 ---
 
-# AI 开源趋势日报｜2026-06-08
+# 《AI 开源趋势日报》｜2026-06-08
 
-## 1) 过滤说明
-已按“AI/ML 明确相关”进行筛选，**剔除** OpenCV、ChinaTextbook、GhostTrack、pg_durable 等非本次主线项目。  
-本日报聚焦 **LLM / Agent / RAG / 本地推理 / 知识层** 生态；像 OpenCV 这类广义 CV 基础库虽属 ML 范畴，但未纳入今天的重点趋势。
-
----
-
-## 2) 今日速览
-今天的开源 AI 热度，明显从“模型本身”转向了“**Agent 工具链 + 记忆/RAG + 本地化部署**”。  
-Trending 榜单里，**agent skill / harness** 相关项目爆发最明显，说明社区正围绕 Claude Code、Codex、OpenCode 等工具做“能力外挂”。  
-同时，**open-notebook、open-webui、project-nomad** 这类本地/离线/私有化应用继续升温，反映出隐私与可控部署需求增强。  
-底层基础设施方面，**llama.cpp、vLLM、Ollama、向量库与记忆层**仍在稳定吸星，说明“模型可用”之后，大家更关注“如何高效接入和长期使用”。
+> 筛选口径：仅保留 **AI/ML 明确相关** 的仓库；Trending 榜单中的非 AI 项目已略去。  
+> 说明：Trending 仅提供**今日新增 stars**，若主题搜索中也出现同仓库，则补充其**累计 stars**。
 
 ---
 
-## 3) 各维度热门项目
+## 1) 今日速览
+
+今天最值得关注的不是单一模型，而是围绕模型执行能力的 **“代理栈”爆发**：skill/harness、记忆、浏览器自动化、CLI/MCP 兼容层一起冲高，`last30days-skill`、`taste-skill`、`hermes-agent`、`goose` 的高增量非常直观。第二个明显方向是 **本地化与自托管**，`llama.cpp`、`Ollama`、`Open WebUI`、`Open Notebook` 继续吃到离线、隐私和成本红利。RAG 也在升级，`graphify`、`mem0`、`PageIndex`、`turbovec` 指向 **知识图谱、长期记忆和向量less/低存储检索**。这与 Claude Code、Codex、Gemini CLI 等开发者生态扩张高度同频，说明“开发者工作流”正在成为开源竞赛主战场。
+
+---
+
+## 2) 各维度热门项目
 
 ### 🔧 AI 基础工具
-- [ollama/ollama](https://github.com/ollama/ollama) — ⭐173,512  
-  本地运行多模型的事实标准入口，继续受益于私有化、低门槛部署潮。
-- [ggml-org/llama.cpp](https://github.com/ggml-org/llama.cpp) — ⭐总 stars 未提供；今日 **+158**  
-  轻量高效的推理核心，代表端侧/自托管推理路线的持续热度。
-- [huggingface/transformers](https://github.com/huggingface/transformers) — ⭐161,402  
-  仍是模型定义、训练与推理的主框架，基础设施地位非常稳。
-- [vllm-project/vllm](https://github.com/vllm-project/vllm) — ⭐82,178  
-  高吞吐推理与服务引擎，适合生产部署场景。
-- [firecrawl/firecrawl](https://github.com/firecrawl/firecrawl) — ⭐129,945  
-  面向 AI 的网页抓取/检索 API，已成为 RAG 与 Agent 数据入口的重要工具。
-- [RyanCodrai/turbovec](https://github.com/RyanCodrai/turbovec) — ⭐总 stars 未提供；今日 **+1,554**  
-  面向向量索引/检索的高关注新项目，今天涨幅非常亮眼，属于“检索基础设施”新热点。
+- [ggml-org/llama.cpp](https://github.com/ggml-org/llama.cpp) — **今日 +158**（Trending；总 stars 未在数据中提供）  
+  C/C++ 本地推理底座，仍是轻量部署、离线运行和边缘侧 AI 的核心基础设施。
+- [ollama/ollama](https://github.com/ollama/ollama) — ⭐ **173,540**  
+  最主流的本地模型运行入口之一，兼容多模型，显著降低本地 LLM 使用门槛。
+- [vllm-project/vllm](https://github.com/vllm-project/vllm) — ⭐ **82,197**  
+  高吞吐、低内存的推理/服务引擎，是生产级 LLM serving 的关键底座。
+- [firecrawl/firecrawl](https://github.com/firecrawl/firecrawl) — ⭐ **130,008**  
+  面向 AI 的网页搜索、抓取与交互 API，已成为大量 agent/检索链路的“网页层”标准件。
+- [opencv/opencv](https://github.com/opencv/opencv) — **今日 +65**（Trending；总 stars 未在数据中提供）  
+  经典视觉库依旧活跃，说明 CV/多模态依然是 AI 生态的重要底层能力。
 
 ### 🤖 AI 智能体 / 工作流
-- [affaan-m/ECC](https://github.com/affaan-m/ECC) — ⭐209,978  
-  Agent harness 性能优化系统，围绕技能、记忆、安全与研究流程做工程化增强。
-- [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) — ⭐186,211；今日 **+1,112**  
-  今天最强涨幅之一，典型的“会成长的 Agent”方向。
-- [mvanhorn/last30days-skill](https://github.com/mvanhorn/last30days-skill) — ⭐总 stars 未提供；今日 **+1,111**  
-  面向多源研究的 AI agent skill，体现“Agent + 研究流程”热度爆发。
-- [Leonxlnx/taste-skill](https://github.com/Leonxlnx/taste-skill) — ⭐总 stars 未提供；今日 **+1,103**  
-  给 AI 加“审美/品味”的 skill，说明社区开始追求输出质量与风格控制。
-- [aaif-goose/goose](https://github.com/aaif-goose/goose) — ⭐总 stars 未提供；今日 **+322**  
-  可扩展 AI agent，强调安装、执行、编辑、测试的一体化工具链。
-- [browser-use/browser-use](https://github.com/browser-use/browser-use) — ⭐97,659  
-  让网页对 AI agent 可操作，是浏览器自动化的重要基础件。
-- [shareAI-lab/learn-claude-code](https://github.com/shareAI-lab/learn-claude-code) — ⭐65,273  
-  从 0 到 1 的 nano agent harness，直接踩中 Claude Code 生态热度。
-- [OpenHands/OpenHands](https://github.com/OpenHands/OpenHands) — ⭐76,185  
-  经典 AI-Driven Development 项目，开发者自动化工作流代表。
+- [mvanhorn/last30days-skill](https://github.com/mvanhorn/last30days-skill) — **今日 +1,111**（Trending；总 stars 未在数据中提供）  
+  面向多源信息研究的 AI skill，代表“技能即能力”的新一轮 agent 组件化趋势。
+- [Leonxlnx/taste-skill](https://github.com/Leonxlnx/taste-skill) — **今日 +1,103**（Trending；总 stars 未在数据中提供）  
+  给 AI 增加“品味/审美约束”的 skill 模块，反映社区开始关注输出质量而非仅能否完成任务。
+- [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) — ⭐ **186,500**；**今日 +1,112**  
+  可持续成长的 agent 框架，兼顾记忆、技能与扩展性，是当前 agent 路线的代表项目之一。
+- [affaan-m/ECC](https://github.com/affaan-m/ECC) — ⭐ **210,173**  
+  面向 Claude Code/Codex/OpenCode 等的 agent harness 优化系统，说明“代理编排与性能调优”已成独立赛道。
+- [aaif-goose/goose](https://github.com/aaif-goose/goose) — **今日 +322**（Trending；总 stars 未在数据中提供）  
+  可安装、执行、编辑、测试的开源 AI agent，强调“能真正干活”的开发者工作流。
+- [langgenius/dify](https://github.com/langgenius/dify) — ⭐ **144,380**  
+  生产级 agentic workflow 平台，适合企业把模型能力编排成可交付流程。
+- [OpenHands/OpenHands](https://github.com/OpenHands/OpenHands) — ⭐ **76,204**  
+  AI 驱动开发平台，持续代表“AI 进入软件工程主流程”的开源方向。
+- [browser-use/browser-use](https://github.com/browser-use/browser-use) — ⭐ **97,690**  
+  让网站对 AI agent 变得可操作，典型的“网页自动化 + agent 执行层”项目。
 
 ### 📦 AI 应用
-- [lfnovo/open-notebook](https://github.com/lfnovo/open-notebook) — ⭐总 stars 未提供；今日 **+554**  
-  NotebookLM 的开源替代，今天是应用层最亮眼的热门之一。
-- [open-webui/open-webui](https://github.com/open-webui/open-webui) — ⭐140,533  
-  本地与云模型统一入口，仍是“AI 聊天/工作台”类产品的头部项目。
-- [Mintplex-Labs/anything-llm](https://github.com/Mintplex-Labs/anything-llm) — ⭐61,221  
-  local-first 知识工作台，适合做私有知识问答与团队协作。
-- [CherryHQ/cherry-studio](https://github.com/CherryHQ/cherry-studio) — ⭐47,039  
-  面向多模型的 AI productivity studio，兼顾智能聊天与代理能力。
-- [Crosstalk-Solutions/project-nomad](https://github.com/Crosstalk-Solutions/project-nomad) — ⭐总 stars 未提供；今日 **+309**  
-  离线生存电脑 + AI 的组合，体现“边缘/离线可用性”需求。
-- [hugohe3/ppt-master](https://github.com/hugohe3/ppt-master) — ⭐25,088  
-  从文档生成可编辑 PPT，属于典型垂直生产力应用。
-- [ZhuLinsen/daily_stock_analysis](https://github.com/ZhuLinsen/daily_stock_analysis) — ⭐41,194  
-  LLM 驱动的股票分析与推送系统，AI + 金融垂直场景代表。
-- [OpenBB-finance/OpenBB](https://github.com/OpenBB-finance/OpenBB) — ⭐68,767  
-  金融数据平台正在向“分析师 + AI Agent”形态演进。
+- [lfnovo/open-notebook](https://github.com/lfnovo/open-notebook) — **今日 +554**（Trending；总 stars 未在数据中提供）  
+  NotebookLM 的开源替代品，强调更强灵活性与可扩展性，属于高需求的知识助手应用。
+- [open-webui/open-webui](https://github.com/open-webui/open-webui) — ⭐ **140,564**  
+  友好的本地/自托管 AI UI，依然是大多数人接入本地模型的第一站。
+- [CherryHQ/cherry-studio](https://github.com/CherryHQ/cherry-studio) — ⭐ **47,051**  
+  面向生产力的 AI 工作台，覆盖对话、自动化与多助手编排。
+- [iOfficeAI/AionUi](https://github.com/iOfficeAI/AionUi) — ⭐ **27,789**  
+  面向多种 CLI agent 的本地协作应用，体现“把多个模型/CLI 统一在一个桌面工作流”需求。
+- [Crosstalk-Solutions/project-nomad](https://github.com/Crosstalk-Solutions/project-nomad) — **今日 +309**（Trending；总 stars 未在数据中提供）  
+  离线生存电脑 + AI 的概念型应用，强调在弱网/离线场景下的智能支持。
+- [yikart/AiToEarn](https://github.com/yikart/AiToEarn) — **今日 +183**（Trending；总 stars 未在数据中提供）  
+  “AI to Earn” 的垂直应用，体现 AI 商业化/变现类产品仍具社区热度。
+- [OpenBB-finance/OpenBB](https://github.com/OpenBB-finance/OpenBB) — ⭐ **68,770**  
+  面向分析师、量化和 AI agent 的金融数据平台，属于 AI + 行业工作流融合的典型案例。
+- [netdata/netdata](https://github.com/netdata/netdata) — ⭐ **79,089**  
+  AI 赋能的全栈可观测性平台，说明 AI 正加速进入运维与监控产品。
 
 ### 🧠 大模型 / 训练
-- [tensorflow/tensorflow](https://github.com/tensorflow/tensorflow) — ⭐195,608  
-  经典 ML 框架，仍是广义训练生态的重要底座。
-- [pytorch/pytorch](https://github.com/pytorch/pytorch) — ⭐100,590  
-  深度学习主力框架，模型训练与研究的核心基础设施。
-- [huggingface/transformers](https://github.com/huggingface/transformers) — ⭐161,402  
-  模型开发和微调的核心框架，多模态支持也持续增强。
-- [hiyouga/LlamaFactory](https://github.com/hiyouga/LlamaFactory) — ⭐71,968  
-  100+ LLM/VLM 的统一高效微调工具，贴近实际落地需求。
-- [rasbt/LLMs-from-scratch](https://github.com/rasbt/LLMs-from-scratch) — ⭐96,839  
-  经典“从零实现 LLM”教程仓库，长期高关注。
-- [skyzh/tiny-llm](https://github.com/skyzh/tiny-llm) — ⭐4,254  
-  更偏系统学习与推理服务实践，适合关注 Apple Silicon/轻量化栈的开发者。
+- [huggingface/transformers](https://github.com/huggingface/transformers) — ⭐ **161,408**  
+  事实标准级模型框架，覆盖文本、视觉、音频和多模态，依旧是上层应用与训练的核心入口。
+- [pytorch/pytorch](https://github.com/pytorch/pytorch) — ⭐ **100,597**  
+  动态神经网络与 GPU 加速的核心底座，训练生态的主干仍未改变。
+- [tensorflow/tensorflow](https://github.com/tensorflow/tensorflow) — ⭐ **195,606**  
+  经典机器学习框架，虽非最热话题，但仍是企业和传统 ML 场景的重要基础设施。
+- [hiyouga/LlamaFactory](https://github.com/hiyouga/LlamaFactory) — ⭐ **71,981**  
+  100+ LLM/VLM 的统一高效微调工具，是当前“快速定制模型”的热门选项。
+- [rasbt/LLMs-from-scratch](https://github.com/rasbt/LLMs-from-scratch) — ⭐ **96,846**  
+  从零实现 ChatGPT-like LLM 的教程型仓库，长期保持高关注，适合理解底层原理。
+- [ultralytics/ultralytics](https://github.com/ultralytics/ultralytics) — ⭐ **58,137**  
+  YOLO 生态的核心仓库，说明视觉模型训练与部署仍具强需求。
+- [open-compass/opencompass](https://github.com/open-compass/opencompass) — ⭐ **7,064**  
+  LLM 评测平台，虽然不是训练框架，但在模型选型与对比中非常关键。
 
 ### 🔍 RAG / 知识库
-- [infiniflow/ragflow](https://github.com/infiniflow/ragflow) — ⭐82,143  
-  强调 RAG + Agent 的一体化引擎，是企业知识层热门项目。
-- [run-llama/llama_index](https://github.com/run-llama/llama_index) — ⭐49,983  
-  文档 Agent 与 OCR 能力结合，依然是 RAG 领域核心项目。
-- [mem0ai/mem0](https://github.com/mem0ai/mem0) — ⭐57,997  
-  面向 Agent 的通用记忆层，解决“长期上下文”问题。
-- [thedotmack/claude-mem](https://github.com/thedotmack/claude-mem) — ⭐81,146  
-  跨会话持久上下文，反映“记忆即产品能力”的趋势。
-- [qdrant/qdrant](https://github.com/qdrant/qdrant) — ⭐31,902  
-  高性能向量数据库，AI 检索基础设施代表。
-- [milvus-io/milvus](https://github.com/milvus-io/milvus) — ⭐44,674  
-  大规模向量数据库老牌项目，仍然是 RAG 栈核心组件。
-- [weaviate/weaviate](https://github.com/weaviate/weaviate) — ⭐16,289  
-  面向 AI 的对象+向量混合检索，企业场景常用。
-- [safishamsi/graphify](https://github.com/safishamsi/graphify) — ⭐62,154  
-  将代码、SQL、文档等转为可查询知识图谱，偏“结构化知识增强”路线。
-- [topoteretes/cognee](https://github.com/topoteretes/cognee) — ⭐17,716  
-  面向 AI Agents 的记忆平台，主打轻量接入。
-- [VectifyAI/PageIndex](https://github.com/VectifyAI/PageIndex) — ⭐32,729  
-  “vectorless、reasoning-based RAG” 方向，代表检索层的新探索。
+- [RyanCodrai/turbovec](https://github.com/RyanCodrai/turbovec) — **今日 +1,554**（Trending；总 stars 未在数据中提供）  
+  基于 Rust 的向量索引，今日增量极高，说明“更快、更轻量”的检索底座正在获得关注。
+- [infiniflow/ragflow](https://github.com/infiniflow/ragflow) — ⭐ **82,170**  
+  将 RAG 与 agent 能力融合的检索引擎，代表新一代上下文层基础设施。
+- [mem0ai/mem0](https://github.com/mem0ai/mem0) — ⭐ **58,021**  
+  面向 agent 的通用记忆层，主打跨会话长期记忆。
+- [run-llama/llama_index](https://github.com/run-llama/llama_index) — ⭐ **49,988**  
+  文档代理与 OCR/RAG 编排平台，仍是知识接入和检索编排的重要框架。
+- [safishamsi/graphify](https://github.com/safishamsi/graphify) — ⭐ **62,548**  
+  将代码、文档、论文等转成可查询知识图谱，代表“知识图谱 + Agent”趋势。
+- [VectifyAI/PageIndex](https://github.com/VectifyAI/PageIndex) — ⭐ **32,742**  
+  向量less、基于推理的 RAG 方案，体现社区开始探索低存储/高可解释检索路径。
+- [milvus-io/milvus](https://github.com/milvus-io/milvus) — ⭐ **44,676**  
+  规模化向量数据库代表，仍是企业 RAG 场景的重要选项。
+- [qdrant/qdrant](https://github.com/qdrant/qdrant) — ⭐ **31,908**  
+  高性能向量库与检索引擎，适合大规模 AI 搜索与 RAG 系统。
+- [thedotmack/claude-mem](https://github.com/thedotmack/claude-mem) — ⭐ **81,174**  
+  跨会话持续上下文层，说明“记忆能力”已经成为 agent 体验的刚需。
 
 ---
 
-## 4) 趋势信号分析
-今天最强信号是 **Agent skill / harness 化**：社区不再只做单个 Agent，而是给 Agent 增加技能、记忆、研究流程与浏览器执行能力，说明“可用的工作流”比“会聊天的模型”更受欢迎。第二个信号是 **本地化与离线化** 继续升温，llama.cpp、open-notebook、project-nomad、open-webui 共同指向私有部署、低成本和数据主权。第三个信号是 **RAG/记忆层工程化**：mem0、claude-mem、RAGFlow、PageIndex 等项目把“长期上下文、结构化检索、vectorless RAG”推到台前。整体来看，AI 开源生态正从模型能力竞争，转向 **工具链 + 工作流 + 知识底座** 的系统竞争。
+## 3) 趋势信号分析
+
+从今天的热榜看，社区关注点已从“会回答”转向“能执行”：skill/harness、记忆、浏览器自动化、CLI/MCP 兼容层一起爆发，`last30days-skill`、`taste-skill`、`hermes-agent`、`goose` 的超高今日增量就是最直观信号。第二个明显方向是本地化与自托管，`llama.cpp`、`Ollama`、`Open WebUI`、`Open Notebook` 持续升温，反映离线、隐私和成本红利仍在释放。RAG 也在升级，`graphify`、`mem0`、`PageIndex`、`turbovec` 指向知识图谱、长期记忆和向量less/低存储检索。整体上，这与 Claude Code、Codex、Gemini CLI 等开发者生态扩张高度同频，说明“开发者工作流”正在成为开源竞赛主战场。
 
 ---
 
-## 5) 社区关注热点
-- **Agent harness / skills 套件**  
-  重点看 [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent)、[mvanhorn/last30days-skill](https://github.com/mvanhorn/last30days-skill)、[Leonxlnx/taste-skill](https://github.com/Leonxlnx/taste-skill)、[aaif-goose/goose](https://github.com/aaif-goose/goose)。  
-  理由：今天新增 stars 极高，说明“给 Agent 装能力”比单纯做对话更有市场。
+## 4) 社区关注热点
 
-- **本地/离线 AI 应用**  
-  重点看 [lfnovo/open-notebook](https://github.com/lfnovo/open-notebook)、[open-webui/open-webui](https://github.com/open-webui/open-webui)、[Crosstalk-Solutions/project-nomad](https://github.com/Crosstalk-Solutions/project-nomad)。  
-  理由：私有化、可控、离线可用正在成为显著卖点。
+- **Agent skill / harness 标准化**
+  - 关注：[last30days-skill](https://github.com/mvanhorn/last30days-skill)、[taste-skill](https://github.com/Leonxlnx/taste-skill)、[affaan-m/ECC](https://github.com/affaan-m/ECC)、[NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent)
+  - 理由：社区正在把“提示词技巧”升级成可复用、可组合、可评测的能力模块。
 
-- **记忆层与 RAG 基座**  
-  重点看 [mem0ai/mem0](https://github.com/mem0ai/mem0)、[thedotmack/claude-mem](https://github.com/thedotmack/claude-mem)、[infiniflow/ragflow](https://github.com/infiniflow/ragflow)、[VectifyAI/PageIndex](https://github.com/VectifyAI/PageIndex)。  
-  理由：Agent 真正落地，核心瓶颈就是长期记忆与高质量检索。
+- **本地模型入口与自托管 UI**
+  - 关注：[llama.cpp](https://github.com/ggml-org/llama.cpp)、[Ollama](https://github.com/ollama/ollama)、[open-webui](https://github.com/open-webui/open-webui)、[open-notebook](https://github.com/lfnovo/open-notebook)
+  - 理由：私有化部署、多模型切换、可控体验仍是最稳定的真实需求。
 
-- **推理与部署栈**  
-  重点看 [ollama/ollama](https://github.com/ollama/ollama)、[ggml-org/llama.cpp](https://github.com/ggml-org/llama.cpp)、[vllm-project/vllm](https://github.com/vllm-project/vllm)、[RyanCodrai/turbovec](https://github.com/RyanCodrai/turbovec)。  
-  理由：模型能力普及后，部署效率、吞吐与成本控制成为新竞争点。
+- **RAG 从向量检索走向记忆/知识图谱**
+  - 关注：[mem0](https://github.com/mem0ai/mem0)、[graphify](https://github.com/safishamsi/graphify)、[PageIndex](https://github.com/VectifyAI/PageIndex)、[turbovec](https://github.com/RyanCodrai/turbovec)
+  - 理由：长期记忆、低存储 RAG 和结构化知识正在成为下一代上下文层。
+
+- **浏览器与网页自动化**
+  - 关注：[browser-use](https://github.com/browser-use/browser-use)、[Firecrawl](https://github.com/firecrawl/firecrawl)、[OpenCLI](https://github.com/jackwener/OpenCLI)
+  - 理由：让 agent 真正“操作网页”是从聊天到执行的关键一步。
+
+- **面向业务场景的 AI 应用**
+  - 关注：[OpenBB](https://github.com/OpenBB-finance/OpenBB)、[Cherry Studio](https://github.com/CherryHQ/cherry-studio)、[AionUi](https://github.com/iOfficeAI/AionUi)
+  - 理由：AI 正在从通用能力转向财务、协作与生产力等垂直工作流。
 
 ---
 *本日报由 [agents-radar](https://github.com/leisure3318/agents-radar) 自动生成。*
