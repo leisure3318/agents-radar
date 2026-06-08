@@ -1,52 +1,52 @@
 {
   "zh": {
     "ai-cli": [
-      "Gemini CLI Issues 11领跑",
-      "OpenAI Codex PR/Issue双10",
-      "OpenCode PR/Issue双10",
-      "Claude Code盯模型可靠性",
-      "Qwen Code推进fallback长会话",
-      "全生态今日无新Release"
+      "OpenCode 15项更新领跑",
+      "OpenAI Codex 14项高活跃",
+      "Qwen Code 发布 nightly v0.17.1",
+      "Claude Code 10个Issue集中爆发",
+      "Linux版 Claude Desktop 呼声高",
+      "稳定性成CLI生态主战场"
     ],
     "ai-agents": [
-      "OpenClaw今日日报58Issue/52PR",
-      "仅6个PR收口，评审压力大",
-      "消息丢失与记忆稳定性告急",
-      "#91252修复SKILL.md句柄泄漏",
-      "#91263放宽trusted policy",
-      "NFS状态卷避开SQLite WAL"
+      "OpenClaw 24小时14 Issue、23 PR",
+      "安全配置反转问题被集中讨论",
+      "会话状态与消息投递成焦点",
+      "memory 与 cron 兼容性待修",
+      "Telegram/Anthropic路径持续推进",
+      "5个PR已关闭，偏稳定性修复"
     ],
     "ai-trending": [
-      "hermes-agent今日+1112冲顶",
-      "last30days-skill今日+1111爆发",
-      "taste-skill今日+1103受捧",
-      "browser-use星标97,638",
-      "firecrawl星标129,894",
-      "llama.cpp今日+158仍强势"
+      "turbovec 单日暴涨+1,554",
+      "hermes-agent 涨幅+1,112",
+      "last30days-skill 冲到+1,111",
+      "taste-skill 单日+1,103",
+      "ollama 173,512星稳居入口",
+      "llama.cpp 今日仍涨+158"
     ],
     "ai-hn": [
-      "Claude Linux桌面帖443分",
-      "252条评论催官方桌面",
-      "Claude设计替代Figma热议",
-      "LLM拟人化论文101/87",
-      "Tokens是什么科普上线",
-      "推理价格演化引讨论"
+      "Claude Desktop Linux帖472分",
+      "I design with Claude拿277分",
+      "Lathe：用LLM学领域不跳过",
+      "Age of Empires论文104分102评",
+      "HN热议AI成本与商业模式",
+      "token与MoE研究帖持续受关注"
     ],
     "ai-hf": [
-      "DeepSeek-V4-Pro 4696赞",
-      "DeepSeek-V4-Flash 334万下载",
-      "MiniCPM5-1B小模型上榜",
-      "Gemma-4-12B-it 688赞",
-      "Nemotron-3-Ultra 550B登场",
-      "GGUF/FP8/NF4量化版热"
+      "DeepSeek-V4-Pro 4700赞、551万下载",
+      "DeepSeek-V4-Flash 获1435赞",
+      "LocateAnything-3B 点赞1535",
+      "Gemma-4-12B-it 多模态上榜",
+      "MiniCPM5-1B 轻量端侧热",
+      "GGUF/NVFP4/FP8 版本猛增"
     ],
     "ai-community": [
-      "多Agent执行安全危机",
-      "审计日志不算证据",
-      "LLM成本最容易失控",
-      "按团队拆分LLM开销",
-      "混合搜索修复生产RAG",
-      "本地AI跑编码Agent"
+      "AI自测翻车，成本冲到$2.8M",
+      "LLM成本归因成FinOps刚需",
+      "AI代理审计日志不算证据",
+      "生产RAG只做Dense会失效",
+      "8x提效神话遭工程师反思",
+      "Lobste.rs持续审视模型原理"
     ]
   },
   "en": {}
