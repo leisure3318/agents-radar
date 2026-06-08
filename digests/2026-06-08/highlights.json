@@ -1,0 +1,53 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Gemini CLI Issues 11领跑",
+      "OpenAI Codex PR/Issue双10",
+      "OpenCode PR/Issue双10",
+      "Claude Code盯模型可靠性",
+      "Qwen Code推进fallback长会话",
+      "全生态今日无新Release"
+    ],
+    "ai-agents": [
+      "OpenClaw今日日报58Issue/52PR",
+      "仅6个PR收口，评审压力大",
+      "消息丢失与记忆稳定性告急",
+      "#91252修复SKILL.md句柄泄漏",
+      "#91263放宽trusted policy",
+      "NFS状态卷避开SQLite WAL"
+    ],
+    "ai-trending": [
+      "hermes-agent今日+1112冲顶",
+      "last30days-skill今日+1111爆发",
+      "taste-skill今日+1103受捧",
+      "browser-use星标97,638",
+      "firecrawl星标129,894",
+      "llama.cpp今日+158仍强势"
+    ],
+    "ai-hn": [
+      "Claude Linux桌面帖443分",
+      "252条评论催官方桌面",
+      "Claude设计替代Figma热议",
+      "LLM拟人化论文101/87",
+      "Tokens是什么科普上线",
+      "推理价格演化引讨论"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro 4696赞",
+      "DeepSeek-V4-Flash 334万下载",
+      "MiniCPM5-1B小模型上榜",
+      "Gemma-4-12B-it 688赞",
+      "Nemotron-3-Ultra 550B登场",
+      "GGUF/FP8/NF4量化版热"
+    ],
+    "ai-community": [
+      "多Agent执行安全危机",
+      "审计日志不算证据",
+      "LLM成本最容易失控",
+      "按团队拆分LLM开销",
+      "混合搜索修复生产RAG",
+      "本地AI跑编码Agent"
+    ]
+  },
+  "en": {}
+}
