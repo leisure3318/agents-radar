@@ -57,6 +57,7 @@ import { fetchLobstersData, type LobstersData } from "./lobsters.ts";
 import { loadConfig } from "./config.ts";
 import { toCstDateStr, toUtcStr } from "./date.ts";
 import { type Lang, MSG, ISSUE_LABELS, CLI_ISSUE_TITLE, OPENCLAW_ISSUE_TITLE } from "./i18n.ts";
+import { filterSeenRepos, markReposSeen, cleanOldEntries } from "./dedup.ts";
 
 // ---------------------------------------------------------------------------
 // Repo config — loaded from config.yml, falls back to built-in defaults
@@ -352,11 +353,21 @@ async function main(): Promise<void> {
   const fetchedOpenclaw = fetched.find((f) => f.cfg.id === OPENCLAW.id)!;
   const fetchedPeers = fetched.filter((f) => peerIds.has(f.cfg.id));
 
+  // Deduplicate trending repos: filter out items seen in the last N days, then mark today's batch
+  cleanOldEntries();
+  const dedupDays = parseInt(process.env["TRENDING_DEDUP_DAYS"] ?? "7", 10);
+  const filteredTrendingData: TrendingData = {
+    ...trendingData,
+    trendingRepos: filterSeenRepos(trendingData.trendingRepos, "html", dedupDays),
+    searchRepos: filterSeenRepos(trendingData.searchRepos, "search", dedupDays),
+  };
+  markReposSeen([...filteredTrendingData.trendingRepos, ...filteredTrendingData.searchRepos], dateStr);
+
   // 2. Generate per-repo LLM summaries in parallel (zh + en simultaneously)
   console.log("  Generating summaries in ZH and EN in parallel...");
   const [zhSummaries, enSummaries] = await Promise.all([
-    generateSummaries(fetchedCli, fetchedOpenclaw, skillsData, fetchedPeers, trendingData, dateStr, "zh"),
-    generateSummaries(fetchedCli, fetchedOpenclaw, skillsData, fetchedPeers, trendingData, dateStr, "en"),
+    generateSummaries(fetchedCli, fetchedOpenclaw, skillsData, fetchedPeers, filteredTrendingData, dateStr, "zh"),
+    generateSummaries(fetchedCli, fetchedOpenclaw, skillsData, fetchedPeers, filteredTrendingData, dateStr, "en"),
   ]);
 
   // 3. Generate cross-repo comparisons in parallel (zh + en)
@@ -438,7 +449,7 @@ async function main(): Promise<void> {
 
   await Promise.all([
     saveTrendingReport(
-      trendingData,
+      filteredTrendingData,
       zhSummaries.trendingSummary,
       utcStr,
       dateStr,
@@ -447,7 +458,7 @@ async function main(): Promise<void> {
       "zh",
     ),
     saveTrendingReport(
-      trendingData,
+      filteredTrendingData,
       enSummaries.trendingSummary,
       utcStr,
       dateStr,
