@@ -33,9 +33,11 @@ export function filterSeenRepos<T extends { fullName: string }>(
   try {
     const cutoff = new Date(Date.now() - days * 86_400_000).toISOString().slice(0, 10);
     const seen = new Set(
-      (db.prepare("SELECT full_name FROM seen_repos WHERE last_seen >= ?").all(cutoff) as { full_name: string }[]).map(
-        (r) => r.full_name,
-      ),
+      (
+        db.prepare("SELECT full_name FROM seen_repos WHERE last_seen >= ?").all(cutoff) as {
+          full_name: string;
+        }[]
+      ).map((r) => r.full_name),
     );
     const filtered = repos.filter((r) => !seen.has(r.fullName));
     console.log(

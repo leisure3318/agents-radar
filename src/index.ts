@@ -366,8 +366,24 @@ async function main(): Promise<void> {
   // 2. Generate per-repo LLM summaries in parallel (zh + en simultaneously)
   console.log("  Generating summaries in ZH and EN in parallel...");
   const [zhSummaries, enSummaries] = await Promise.all([
-    generateSummaries(fetchedCli, fetchedOpenclaw, skillsData, fetchedPeers, filteredTrendingData, dateStr, "zh"),
-    generateSummaries(fetchedCli, fetchedOpenclaw, skillsData, fetchedPeers, filteredTrendingData, dateStr, "en"),
+    generateSummaries(
+      fetchedCli,
+      fetchedOpenclaw,
+      skillsData,
+      fetchedPeers,
+      filteredTrendingData,
+      dateStr,
+      "zh",
+    ),
+    generateSummaries(
+      fetchedCli,
+      fetchedOpenclaw,
+      skillsData,
+      fetchedPeers,
+      filteredTrendingData,
+      dateStr,
+      "en",
+    ),
   ]);
 
   // 3. Generate cross-repo comparisons in parallel (zh + en)
