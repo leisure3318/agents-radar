@@ -1,6 +1,6 @@
 {
   "anthropic": {
-    "lastChecked": "2026-06-09T01:29:17.492Z",
+    "lastChecked": "2026-06-09T03:42:21.934Z",
     "seenUrls": {
       "https://www.anthropic.com/news/responsible-scaling-policy-v3": "2026-02-25T23:57:06.000Z",
       "https://www.anthropic.com/research/deprecation-updates-opus-3": "2026-02-25T20:58:11.000Z",
@@ -378,11 +378,11 @@
       "https://www.anthropic.com/news/series-h": "2026-06-01T15:29:46.000Z",
       "https://www.anthropic.com/news/claude-opus-4-8": "2026-06-01T10:18:23.000Z",
       "https://www.anthropic.com/news/milan-office-opening": "2026-05-28T13:00:32.000Z",
-      "https://www.anthropic.com/research/agents-in-biology": "2026-06-09T01:14:06.000Z"
+      "https://www.anthropic.com/research/agents-in-biology": "2026-06-09T01:51:37.000Z"
     }
   },
   "openai": {
-    "lastChecked": "2026-06-09T01:29:18.636Z",
+    "lastChecked": "2026-06-09T03:42:18.342Z",
     "seenUrls": {
       "https://openai.com/index/arvind-kc-chief-people-officer/": "2026-05-29T00:25:33.242Z",
       "https://openai.com/index/put-ai-to-work-for-your-product-team/": "2026-05-28T11:05:40.405Z",
@@ -622,7 +622,7 @@
       "https://openai.com/index/building-towards-age-prediction/": "2026-06-03T18:57:47.948Z",
       "https://openai.com/index/teen-safety-freedom-and-privacy/": "2026-06-03T18:58:57.713Z",
       "https://openai.com/index/our-approach-to-age-prediction/": "2026-06-06T02:30:45.969Z",
-      "https://openai.com/index/ai-literacy-resources-for-teens-and-parents/": "2026-06-03T18:58:43.693Z",
+      "https://openai.com/index/ai-literacy-resources-for-teens-and-parents/": "2026-06-09T03:29:41.201Z",
       "https://openai.com/index/updating-model-spec-with-teen-protections/": "2026-06-04T10:29:27.156Z",
       "https://openai.com/index/introducing-data-residency-in-asia/": "2026-05-22T19:03:21.048Z",
       "https://openai.com/index/introducing-openai-o1-preview/": "2026-05-15T16:33:28.727Z",
@@ -794,12 +794,12 @@
       "https://openai.com/index/understanding-neural-networks-through-sparse-circuits/": "2026-06-03T20:07:25.391Z",
       "https://openai.com/index/openai-to-acquire-neptune/": "2026-05-29T00:25:11.989Z",
       "https://openai.com/index/a-business-that-scales-with-the-value-of-intelligence/": "2026-05-29T00:25:34.353Z",
-      "https://openai.com/index/accelerating-science-gpt-5/": "2026-05-22T18:55:10.566Z",
+      "https://openai.com/index/accelerating-science-gpt-5/": "2026-06-09T03:35:46.159Z",
       "https://openai.com/index/introducing-chatgpt-go/": "2026-05-22T18:59:04.910Z",
       "https://openai.com/index/introducing-canvas/": "2026-05-22T19:03:26.012Z",
       "https://openai.com/index/introducing-chatgpt-edu/": "2026-05-22T19:13:33.559Z",
       "https://openai.com/index/introducing-nextgenai/": "2026-05-29T00:25:31.801Z",
-      "https://openai.com/index/built-to-benefit-everyone/": "2026-05-22T19:15:19.540Z",
+      "https://openai.com/index/built-to-benefit-everyone/": "2026-06-09T03:40:59.718Z",
       "https://openai.com/business/guides-and-resources/chatgpt-usage-and-adoption-patterns-at-work/": "2026-05-22T19:41:16.840Z",
       "https://openai.com/index/edu-for-countries/": "2026-05-22T19:09:01.175Z",
       "https://openai.com/index/openai-and-future-partner-on-specialist-content/": "2026-05-29T00:25:35.542Z",

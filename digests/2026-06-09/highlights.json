@@ -1,68 +1,68 @@
 {
   "zh": {
     "ai-cli": [
-      "Claude Code 发布 v2.1.169",
-      "OpenAI Codex 今日 4 次发布",
-      "Pi 升级到 v0.79.0",
-      "DeepSeek TUI 发布 v0.8.54",
-      "OpenCode 今日 10 Issue 10 PR",
-      "Gemini CLI 推出 nightly"
+      "69条更新，问题压过PR",
+      "Claude Code 18个Issue最高",
+      "Codex 13个PR冲工程化",
+      "OpenCode补稳CI与headless",
+      "Pi聚焦agent runtime与compaction",
+      "Qwen/DeepSeek补多Provider"
     ],
     "ai-agents": [
-      "OpenClaw 24小时 52 Issue",
-      "OpenClaw 再发 beta.5",
-      "QQBot 先剥离 thinking 内容",
-      "MCP 工具结果兼容性增强",
-      "控制台启动提速 PR#91531",
-      "OpenClaw 还有 beta.3 发布"
+      "OpenClaw 19个Issue+33个PR",
+      "#91551修复config.patch数组替换",
+      "#91550给native hook设deadline",
+      "#91547修Docker seed包策略",
+      "会话恢复与消息丢失成焦点",
+      "认证与Provider兼容继续收敛"
     ],
     "ai-trending": [
-      "last30days-skill 暴涨 +3558",
-      "Agent-Reach 今日 +679",
-      "google/skills 今日 +461",
-      "openai/plugins 今日 +296",
-      "whichllm 今日 +143",
-      "Scrapegraph-ai 26,947⭐"
+      "last30days-skill今日+3558",
+      "Agent-Reach成热门智能体",
+      "goose今日+699 stars",
+      "browser-use：97,824 stars",
+      "ollama：173,634 stars",
+      "whichllm今日+143 stars"
     ],
     "ai-web": [
-      "Anthropic：Agent 进军生命科学",
-      "NCBI Virus 需确定性检索层",
-      "gget virus 让准确率近100%",
-      "OpenAI 今日增 3 页仅元数据",
-      "Agent 可靠性转向数据基础设施",
-      "生物数据库要为 Agent 重构"
+      "Anthropic押注生物学Agent底座",
+      "NCBI Virus成核心案例",
+      "gget virus让准确率近100%",
+      "确定性检索层优先于大模型",
+      "科学工作流转向可验证工具链",
+      "Agent科研瓶颈在数据基础设施"
     ],
     "ai-hn": [
-      "OpenAI S-1/IPO 占据榜首",
-      "Intuned 浏览器自动化获102分",
-      "Command Center 主打高质量编程",
-      "Apple 第三代基础模型亮相",
-      "Anthropic 研究 N-day 漏洞",
-      "社区继续争论 AI slop"
+      "OpenAI S-1/IPO传闻刷屏HN",
+      "ChatGPT大改版引爆讨论",
+      "Intuned主打可靠浏览器自动化",
+      "Apple第三代基础模型亮相",
+      "Anthropic测N-day漏洞影响",
+      "HN热议LLM的危险未知数"
     ],
     "ai-arxiv": [
-      "未知未知证书：显式说不知道",
-      "SAEExplainer 解释稀疏特征",
-      "可逆潜空间控制 LLM 行为",
-      "Sparrow 稀疏 rollout 降成本",
-      "GAIA 脚手架效应被实证比较",
-      "多目标 bandit 加主动查询"
+      "LLM RL：重审divergence regularization",
+      "Neutral Mask质疑RLHF深度对齐",
+      "长上下文压缩：End-to-End方案",
+      "Muon被证实更鲁棒更可迁移",
+      "CHAP定义人机协作协议",
+      "Multi-Turn评测深度研究Agent"
     ],
     "ai-hf": [
-      "DeepSeek-V4-Pro：4722赞/539万下",
-      "DeepSeek-V4-Flash：1447赞/326万下",
-      "Gemma-4-12B-it：750赞/55万下",
-      "HRM-Text-1B：728赞/16万下",
-      "Nemotron-3 Ultra 550B 现身",
-      "QAT/FP4 量化继续走红"
+      "DeepSeek-V4-Pro：4724赞/539万下",
+      "DeepSeek-V4-Flash：1449赞/326万下",
+      "Gemma 4-12B-it：754赞/55万下",
+      "NVIDIA Nemotron 550B旗舰登场",
+      "HRM-Text-1B轻量模型受捧",
+      "LiquidAI LFM2.5-8B-A1B升温"
     ],
     "ai-community": [
-      "AI Skill 包装经验却被裁",
-      "Prompt Engineering 被判死刑",
-      "Claude Code 扩展轻量优先",
-      "AI Agents 面临 RTT 攻击",
-      "5 个 LLM 对抗评测全失败",
-      "RAG+pgvector TypeScript 全流程"
+      "AI技能化案例引爆职业讨论",
+      "Claude Code扩展选型指南热传",
+      "Prompt Engineering宣告过时",
+      "系统工程成AI应用新共识",
+      "AI生成代码的归属权被质疑",
+      "AI Agents的RTT漏洞引关注"
     ]
   },
   "en": {}

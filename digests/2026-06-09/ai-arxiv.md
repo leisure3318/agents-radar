@@ -1,15 +1,16 @@
 # ArXiv AI 研究日报 2026-06-09
 
-> 数据来源: [ArXiv](https://arxiv.org/) (cs.AI, cs.CL, cs.LG) | 共 33 篇论文 | 生成时间: 2026-06-09 01:29 UTC
+> 数据来源: [ArXiv](https://arxiv.org/) (cs.AI, cs.CL, cs.LG) | 共 50 篇论文 | 生成时间: 2026-06-09 03:42 UTC
 
 ---
 
 # ArXiv AI 研究日报（2026-06-09）
-从今日 33 篇 AI 相关论文中精选整理，覆盖 cs.AI / cs.CL / cs.LG 为主。
 
 ## 1) 今日速览
-今天的论文明显聚焦在三条主线：**LLM 的可控性、可解释性与可信评估**，包括“无知证书”、SAE 解释和激活控制等方向；**智能体与长上下文 RL 的效率优化**，如稀疏 rollout、scaffold 影响评估与交互式决策；以及**方法论上的可证性与节省算力**，例如 lossless 数据剪枝、有限样本风险证书、continual learning 理论化。  
-应用侧则继续向**气象、医疗、生物与机器人**等高价值场景下沉，强调结构先验、物理约束与时序长期依赖。整体看，研究重心正在从“模型更大”转向“模型更可控、更省算力、更能在真实任务中稳定工作”。
+今天的投稿明显集中在 **LLM 后训练/对齐**、**智能体评测与协作协议**、以及 **长上下文与效率优化** 三条主线。  
+一方面，研究者在重新审视 RLHF、DPO/PPO 类方法的稳定性、信息压缩与安全边界；另一方面，面向真实任务的智能体开始从“单轮答题”走向“多轮反馈、协作、工具调用和个性化”。  
+此外，长上下文压缩、优化器改进、训练可塑性保持等基础效率问题依旧是热点，说明“更强能力”正在与“更低成本”同步推进。  
+应用层面，机器人安全、手机个性化代理、低资源翻译、语音恢复和科学模拟接口也在快速落地。
 
 ---
 
@@ -17,95 +18,111 @@
 
 ### 🧠 大语言模型（架构、训练、对齐、评估）
 
-- **[Calibration of Structured Ignorance Certificates for Diagnosing Unknown Unknowns in Reasoning Models](http://arxiv.org/abs/2606.08571v1)**  
-  作者：Subramanyam Sahoo  
-  一句话：提出 JSON 格式的 Structured Ignorance Certificates，用于让推理模型显式表达“不知道”，对提升 LLM 的不确定性校准与安全部署很有价值。
+1. **[Rethinking the Divergence Regularization in LLM RL](http://arxiv.org/abs/2606.09821v1)**  
+   作者：Yao et al.  
+   一句话：系统讨论 LLM 强化学习中的 divergence regularization 设计，直指 PPO 等方法在 off-policy 场景下的稳定性与效果权衡，值得做后训练的研究者重点关注。
 
-- **[SAEExplainer: Interpreting SAE Features with Activation-Guided Preference Optimization](http://arxiv.org/abs/2606.08496v1)**  
-  作者：Jingyi He et al.  
-  一句话：把激活偏好优化引入 SAE 特征解释，试图从“稀疏特征是什么”推进到“这些特征代表什么”，是 LLM 解释性研究的实用增强版。
+2. **[The Neutral Mask: How RLHF Provides Shallow Alignment while Leaving Partisan Structure Intact in a Large Language Model](http://arxiv.org/abs/2606.09735v1)**  
+   作者：Wendy K. Tam  
+   一句话：从机制层面质疑 RLHF 的“深度对齐”效果，指出其可能只是在表层塑形而未改变模型内部偏见结构，对对齐研究很有启发。
 
-- **[Beyond Linear Activation Steering: Invertible Latent Transformations for Controlling LLM Behavior](http://arxiv.org/abs/2606.08454v1)**  
-  作者：Tuc Nguyen, Thai Le  
-  一句话：将行为控制从线性 steering 扩展到可逆潜空间变换，为低成本、推理时的 LLM 行为控制提供了更灵活的工具。
+3. **[End-to-End Context Compression at Scale](http://arxiv.org/abs/2606.09659v1)**  
+   作者：Li et al.  
+   一句话：面向长上下文推理的 KV cache 压缩做端到端规模化设计，试图同时兼顾质量、速度和可部署性，是长文本 LLM 落地的关键方向。
 
-- **[Sparrow: Sparse Rollout for Stable and Efficient Long-context RL of Large Language Models](http://arxiv.org/abs/2606.08446v1)**  
-  作者：Yang Zhou et al.  
-  一句话：针对 RLVR 中超长 CoT 导致的 rollout 成本爆炸，提出稀疏 rollout 以兼顾稳定性与效率，直接切中长上下文强化学习的瓶颈。
+4. **[Muon Learns More Robust and Transferable Features than Adam](http://arxiv.org/abs/2606.09658v1)**  
+   作者：Ruan et al.  
+   一句话：比较 Muon 与 Adam/SGD 的特征学习性质，强调 Muon 在鲁棒性和迁移性上的优势，可能影响下一代预训练优化器选择。
+
+5. **[IS-CoT: Breaking the Long-form Generation Collapse via Interleaved Structural Thinking](http://arxiv.org/abs/2606.09709v1)**  
+   作者：Sun et al.  
+   一句话：针对长文生成“长度塌缩”问题，提出交错结构思维机制，兼顾长篇连贯性与可控性，适合关注长文写作/生成的团队。
 
 ---
 
 ### 🤖 智能体与推理（规划、工具使用、多智能体、思维链）
 
-- **[Scaffold Effects on GAIA: A Controlled Comparison](http://arxiv.org/abs/2606.08529v1)**  
-  作者：Jason Starace  
-  一句话：通过预注册控制实验比较不同 scaffold，量化“模型本身能力”与“脚手架带来的能力增益”之间的差距，对智能体评测非常关键。
+6. **[Collaborative Human-Agent Protocol (CHAP)](http://arxiv.org/abs/2606.09751v1)**  
+   作者：Shahid et al.  
+   一句话：提出面向生产环境的人机协作协议，覆盖规划、工具调用、人工介入与责任边界，反映智能体正从“演示”进入“运营”。
 
-- **[Provably Efficient Personalized Multi-Objective Bandits with Proactive Conversational Queries](http://arxiv.org/abs/2606.08410v1)**  
-  作者：Linfeng Cao et al.  
-  一句话：把个性化偏好学习与多目标 bandit、主动对话查询结合起来，并给出高效性保证，适合交互式智能体与推荐决策场景。
+7. **[Multi-Turn Evaluation of Deep Research Agents Under Process-Level Feedback](http://arxiv.org/abs/2606.09748v1)**  
+   作者：Sabharwal et al.  
+   一句话：把 deep research agent 的评测从单轮输出推进到多轮反馈改进，直接回答“智能体能否在反馈中变得更好”。
 
-- **[A Joint Finite-Sample Certificate for Adaptive Selective Conformal Risk Control](http://arxiv.org/abs/2606.08517v1)**  
-  作者：Xiaoli Yu, Jiamiao Liu  
-  一句话：给出同时约束选择风险、接收率和部署效用的有限样本证书，为“拒答/选择性预测”式推理系统提供更稳健的理论支撑。
+8. **[iOSWorld: A Benchmark for Personally Intelligent Phone Agents](http://arxiv.org/abs/2606.09764v1)**  
+   作者：Jang et al.  
+   一句话：引入“个性化手机代理”基准，强调基于设备内身份、历史和偏好的真实推理能力，比传统移动 agent benchmark 更贴近实际。
+
+9. **[Learning to Attack and Defend: Adaptive Red Teaming of Language Models via GRPO](http://arxiv.org/abs/2606.09701v1)**  
+   作者：Bullwinkel et al.  
+   一句话：用强化学习做自适应红队与防御共训练，说明 LLM 安全评测正从静态测试转向动态博弈。
+
+10. **[SIGA: Self-Evolving Coding-Agent Adapters for Scientific Simulation](http://arxiv.org/abs/2606.09774v1)**  
+    作者：Ho et al.  
+    一句话：聚焦科学模拟器的专用输入语言学习，提出可自进化的 coding-agent adapter，降低领域科学家使用门槛。
 
 ---
 
 ### 🔧 方法与框架（新技术、基准测试、效率优化）
 
-- **[Reinforcement Learning for Flow-Matching Policies with Density Transport](http://arxiv.org/abs/2606.08602v1)**  
-  作者：Boshu Lei et al.  
-  一句话：把策略改进看作动作密度向高奖励区域的输运，为连续控制中的 flow-matching policy 微调提供了新型 RL 视角。
+11. **[Preserving Plasticity in Continual Learning via Dynamical Isometry](http://arxiv.org/abs/2606.09762v1)**  
+    作者：Rosseau et al.  
+    一句话：从 dynamical isometry 解释持续学习中的可塑性衰减问题，为“学得进、学得久”的模型训练提供可操作理论。
 
-- **[OrderDP: A Theoretically Guaranteed Lossless Dynamic Data Pruning Framework](http://arxiv.org/abs/2606.08574v1)**  
-  作者：Chenhan Jin et al.  
-  一句话：主打“理论保证的无损动态剪枝”，适合在尽量不掉点的前提下显著降低训练开销，是数据效率方向的代表作。
+12. **[Tight Sample Complexity of Transformers](http://arxiv.org/abs/2606.09731v1)**  
+    作者：Yang, Srebro, Li  
+    一句话：紧致刻画 Transformer 的 VC 维和样本复杂度，属于理解模型容量与泛化边界的基础理论工作。
 
-- **[Improving Bayesian Optimization via Training-Aware Conditional Diffusion Models](http://arxiv.org/abs/2606.08438v1)**  
-  作者：Yilin Zheng et al.  
-  一句话：用训练感知的条件扩散模型增强 BO 采样策略，瞄准黑盒优化中的更强提议分布与更高搜索效率。
+13. **[Hybrid Robustness Verification for Spatio-Temporal Neural Networks](http://arxiv.org/abs/2606.09746v1)**  
+    作者：Varghese, Wicker, Lomuscio  
+    一句话：提出时空神经网络的混合鲁棒验证框架，兼顾保守性与计算开销，适合安全关键场景。
 
-- **[Theoretical Foundations of Continual Learning via Drift-Plus-Penalty](http://arxiv.org/abs/2606.08452v1)**  
-  作者：Nazreen Shah et al.  
-  一句话：用 drift-plus-penalty 建立 continual learning 的理论基础，试图解释“如何在学新任务时少忘旧知识”。
+14. **[In-Context Learning for Latent Space Bayesian Optimization](http://arxiv.org/abs/2606.09664v1)**  
+    作者：Vu, Lähdesmäki, Martinelli  
+    一句话：把 ICL 与 latent-space BO 结合，面向分子/蛋白等结构化对象的样本高效优化，方法论很强。
 
 ---
 
 ### 📊 应用（垂直领域、多模态、代码生成）
 
-- **[Physics-Guided Dual Decoding and Spectral Supervision for Global 3D Hydrometeor Prediction](http://arxiv.org/abs/2606.08563v1)**  
-  作者：Dandan Chen, Yaqiang Wang  
-  一句话：面向全球三维水凝物预测，引入物理引导与光谱监督，针对零膨胀、长尾分布问题提升预报的细节与稳定性。
+15. **[Data Synthesis and Parameter-Efficient Fine-Tuning for Low-Resource NMT: A Case Study on Q'eqchi' Mayan](http://arxiv.org/abs/2606.09767v1)**  
+    作者：Chulzhanov et al.  
+    一句话：通过数据合成与 PEFT 改进低资源土著语言翻译，兼顾性能与数据主权，应用价值很高。
 
-- **[Routine laboratory trajectories encode the onset of organ-level complications in cancer](http://arxiv.org/abs/2606.08538v1)**  
-  作者：Jannik Lübberstedt et al.  
-  一句话：用 transformer 从长期化验轨迹中捕捉癌症治疗中的器官并发症早期信号，体现了时序医疗数据的临床潜力。
+16. **[Echo-Memory: A Controlled Study of Memory in Action World Models](http://arxiv.org/abs/2606.09803v1)**  
+    作者：King et al.  
+    一句话：系统研究 action-conditioned world model 的记忆问题，揭示多段视频生成中的“遗忘”机制，适合多模态生成研究者。
 
-- **[Querying Counterfactuals on Tissue Graphs with Supervised Disentanglement](http://arxiv.org/abs/2606.08493v1)**  
-  作者：Abdul Moeed et al.  
-  一句话：面向组织图上的反事实查询，尝试回答“改变邻域环境后细胞表达会怎样变”，对空间转录组与机制推断很有意义。
+17. **[SpatialWorld: Benchmarking Interactive Spatial Reasoning of Multimodal Agents in Real-World Tasks](http://arxiv.org/abs/2606.09669v1)**  
+    作者：Gao et al.  
+    一句话：把空间推理从静态 VQA 推向交互式真实任务评测，是多模态 agent 走向现实空间操作的重要基准。
+
+18. **[MeCo: One-Step MeanFlow-based Corrector for Multi-Channel Speech Separation](http://arxiv.org/abs/2606.09677v1)**  
+    作者：Kim, Choi  
+    一句话：为多通道语音分离引入一步式生成校正器，提升听感质量，体现生成式方法向音频增强迁移。
 
 ---
 
 ## 3) 研究趋势信号
-今天的投稿清晰显示：LLM 研究正从“更强回答”转向“**更会承认不知道、更可解释、更可控**”；智能体评测开始强调 scaffold 分离与能力归因；同时，效率类工作集中在长上下文 RL、无损剪枝和可证风险控制上。应用上，生物医疗、气象与机器人持续吸收通用模型方法，但更依赖结构先验、物理约束与时序建模，说明 AI 正加速向“可部署、可验证”的工程阶段演进。
+今日论文显示，AI 研究正在从“单点性能提升”转向“**可控、可协作、可验证**”的系统能力建设：LLM 侧关注 RL 稳定性、长上下文压缩与对齐深度；智能体侧则强调多轮反馈、人机协作协议、个性化与安全红队；方法层面继续围绕可塑性、样本复杂度和鲁棒验证打基础。与此同时，低资源语言、语音恢复、空间推理和科学模拟等垂直场景，正成为检验通用模型真实能力的重要试金石。
 
 ---
 
 ## 4) 值得精读
-1. **[Calibration of Structured Ignorance Certificates for Diagnosing Unknown Unknowns in Reasoning Models](http://arxiv.org/abs/2606.08571v1)**  
-   理由：直指 LLM 安全与校准痛点，若能稳定表达“不知道”，对高风险部署意义很大。
+1. **[Rethinking the Divergence Regularization in LLM RL](http://arxiv.org/abs/2606.09821v1)**  
+   理由：直接关系到 LLM 后训练的核心稳定性问题，且很可能对 PPO/RLHF 的实践策略产生影响。
 
-2. **[Sparrow: Sparse Rollout for Stable and Efficient Long-context RL of Large Language Models](http://arxiv.org/abs/2606.08446v1)**  
-   理由：长上下文 RL 成本是当前硬瓶颈，这篇有望提供直接可落地的加速路径。
+2. **[Collaborative Human-Agent Protocol (CHAP)](http://arxiv.org/abs/2606.09751v1)**  
+   理由：这是少见的“面向生产环境”的智能体协议论文，能帮助理解未来 agent 如何与人协作、分工和担责。
 
-3. **[OrderDP: A Theoretically Guaranteed Lossless Dynamic Data Pruning Framework](http://arxiv.org/abs/2606.08574v1)**  
-   理由：兼顾理论保证与训练效率，适合关注数据效率、训练成本和大规模训练系统的读者。
+3. **[End-to-End Context Compression at Scale](http://arxiv.org/abs/2606.09659v1)**  
+   理由：长上下文是当前 LLM 落地的硬瓶颈，这篇论文兼顾算法、系统与可部署性，实用价值很高。
 
-如果你愿意，我还可以继续把这份日报整理成：
-- **表格版**
-- **适合公众号/Newsletter 的精简版**
-- **按“LLM / Agent / 方法 / 应用”再细分成可直接转发的周报格式**
+如果你愿意，我还可以把这份日报进一步整理成：
+- **“按影响力排序版”**
+- **“适合研究/创业的选题版”**
+- **“面向投资/产品的解读版”**
 
 ---
 *本日报由 [agents-radar](https://github.com/leisure3318/agents-radar) 自动生成。*
