@@ -1,174 +1,143 @@
 # Hugging Face 热门模型日报 2026-06-10
 
-> 数据来源: [Hugging Face Hub](https://huggingface.co/) | 共 30 个模型 | 生成时间: 2026-06-10 01:38 UTC
+> 数据来源: [Hugging Face Hub](https://huggingface.co/) | 共 30 个模型 | 生成时间: 2026-06-10 03:56 UTC
 
 ---
 
 # Hugging Face 热门模型日报（2026-06-10）
 
-> 注：部分模型同时具备多模态、量化或社区微调属性，以下按**主要用途**归类。
-
 ## 今日速览
-今天榜单最强信号是 **Gemma 4** 继续扩张：官方 any-to-any 版本、社区 GGUF/量化版同时上榜，说明统一多模态底座正在成为主战场。  
-**DeepSeek-V4-Pro** 以最高点赞和下载领跑通用 LLM，显示大参数通用模型仍是生态核心。  
-与此同时，**视频、音频、ASR、OCR、视觉定位** 等专用模型密集出现，模型生态正在从“聊天”快速走向“任务组件化”。  
-下载量最高的往往是 **GGUF、NF4、FP8、NVFP4** 等部署友好版本，说明“可本地跑、可低成本部署”依然最吃香。
+今天的榜单仍由**通用大模型 + 多模态底座**主导，Gemma 4、DeepSeek、Nemotron、Qwen/Step 等家族持续占位。  
+同时，**图像、视频、音频、OCR** 等生成/理解模型明显升温，说明 HF 上的模型消费正在从纯聊天扩展到全栈多模态。  
+另一个强信号是**量化与本地部署**：GGUF、QAT、NF4、FP8、NVFP4 版本密集上榜，社区对“能跑、好部署、成本低”的需求非常明确。  
+大厂官方权重与社区衍生版并行，HF 已经不仅是发布站，更是开放权重生态的核心分发阵地。
 
 ---
 
-## 🧠 语言模型（LLM、对话模型、指令微调）
+## 热门模型
 
-- [deepseek-ai/DeepSeek-V4-Pro](https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro)  
-  作者：deepseek-ai｜点赞：4,740｜下载：4,302,553  
-  旗舰通用对话/推理模型，点赞和下载双高，代表了当前最强的通用 LLM 关注度。
+### 🧠 语言模型（LLM、对话模型、指令微调）
+- [DeepSeek-V4-Pro](https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro) ｜ 作者：deepseek-ai ｜ 点赞：4,742 ｜ 下载：4,302,553  
+  通用文本生成旗舰，热度和下载都断层领先，依然是最强“流量入口”之一。
 
-- [sapientinc/HRM-Text-1B](https://huggingface.co/sapientinc/HRM-Text-1B)  
-  作者：sapientinc｜点赞：734｜下载：133,351  
-  1B 级文本模型，主打高效文本建模与推理，属于“轻量但有方法论”的热门项目。
+- [NVIDIA-Nemotron-3-Ultra-550B-A55B-BF16](https://huggingface.co/nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B-BF16) ｜ 作者：nvidia ｜ 点赞：175 ｜ 下载：56,864  
+  超大规模 MoE 旗舰权重，代表大厂继续押注高参数、高能力通用模型。
 
-- [LiquidAI/LFM2.5-8B-A1B](https://huggingface.co/LiquidAI/LFM2.5-8B-A1B)  
-  作者：LiquidAI｜点赞：572｜下载：137,138  
-  以 MoE/轻量推理见长的文本模型，热度来自高效架构与可部署性。
+- [HRM-Text-1B](https://huggingface.co/sapientinc/HRM-Text-1B) ｜ 作者：sapientinc ｜ 点赞：735 ｜ 下载：133,351  
+  轻量文本生成模型，靠“新架构/新训练思路”吸引关注，属于研究型热点。
 
-- [JetBrains/Mellum2-12B-A2.5B-Thinking](https://huggingface.co/JetBrains/Mellum2-12B-A2.5B-Thinking)  
-  作者：JetBrains｜点赞：272｜下载：17,571  
-  面向“思考/代码推理”场景的文本模型，开发者社区关注度较高。
+- [Nex-N2-Pro](https://huggingface.co/nex-agi/Nex-N2-Pro) ｜ 作者：nex-agi ｜ 点赞：162 ｜ 下载：783  
+  基于 Qwen3.5 MoE 的社区模型，说明中小团队仍在围绕强底座做高频二次创新。
 
-- [nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B-BF16](https://huggingface.co/nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B-BF16)  
-  作者：nvidia｜点赞：175｜下载：56,864  
-  超大规模通用模型，代表 NVIDIA 在高端基础模型上的持续投入。
+- [Mellum2-12B-A2.5B-Thinking](https://huggingface.co/JetBrains/Mellum2-12B-A2.5B-Thinking) ｜ 作者：JetBrains ｜ 点赞：274 ｜ 下载：17,571  
+  面向“Thinking/推理”风格的模型，适合编程与复杂任务分解，偏工具型 LLM。
 
-- [nex-agi/Nex-N2-Pro](https://huggingface.co/nex-agi/Nex-N2-Pro)  
-  作者：nex-agi｜点赞：161｜下载：783  
-  基于 MoE/对话体系的文本模型，小体量但上榜，说明新兴厂牌仍在吸引尝鲜流量。
+- [LFM2.5-8B-A1B](https://huggingface.co/LiquidAI/LFM2.5-8B-A1B) ｜ 作者：LiquidAI ｜ 点赞：573 ｜ 下载：137,138  
+  轻量 MoE 路线代表，兼顾效率与效果，符合当前“更小但更强”的部署趋势。
 
-- [nex-agi/Nex-N2-mini](https://huggingface.co/nex-agi/Nex-N2-mini)  
-  作者：nex-agi｜点赞：110｜下载：748  
-  更小的同系列模型，适合低成本试验与边缘部署。
+- [Nex-N2-mini](https://huggingface.co/nex-agi/Nex-N2-mini) ｜ 作者：nex-agi ｜ 点赞：114 ｜ 下载：748  
+  小型 MoE 版本，主打低门槛尝试和边缘部署，体现了本地化轻量模型需求。
+
+- [NVIDIA-Nemotron-3-Ultra-550B-A55B-NVFP4](https://huggingface.co/nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B-NVFP4) ｜ 作者：nvidia ｜ 点赞：154 ｜ 下载：71,818  
+  官方低精度版本，说明超大模型也在向更低成本推理与部署演进。
 
 ---
 
-## 🎨 多模态与生成（图像、视频、音频、文本到X）
+### 🎨 多模态与生成（图像、视频、音频、文本到X）
+- [google/gemma-4-12B-it](https://huggingface.co/google/gemma-4-12B-it) ｜ 作者：google ｜ 点赞：822 ｜ 下载：581,354  
+  Gemma 4 的指令/多模态版本，覆盖图文理解与生成，是当前最受关注的通用底座之一。
 
-- [nvidia/LocateAnything-3B](https://huggingface.co/nvidia/LocateAnything-3B)  
-  作者：nvidia｜点赞：1,731｜下载：123,922  
-  视觉定位/grounding 模型，热度高说明“看图找物、定位理解”需求正在升温。
+- [google/gemma-4-12B](https://huggingface.co/google/gemma-4-12B) ｜ 作者：google ｜ 点赞：483 ｜ 下载：122,464  
+  Gemma 4 基座版，适合二次微调和研究，代表 Google 在开放多模态底座上的持续推进。
 
-- [google/gemma-4-12B-it](https://huggingface.co/google/gemma-4-12B-it)  
-  作者：google｜点赞：813｜下载：581,354  
-  Gemma 4 官方指令版，统一覆盖图文输入输出，是本轮多模态底座代表之一。
+- [nvidia/LocateAnything-3B](https://huggingface.co/nvidia/LocateAnything-3B) ｜ 作者：nvidia ｜ 点赞：1,735 ｜ 下载：123,922  
+  视觉定位/grounding 模型，面向“找图中某物并定位”的 agent 任务，实用性很强。
 
-- [google/gemma-4-12B](https://huggingface.co/google/gemma-4-12B)  
-  作者：google｜点赞：480｜下载：122,464  
-  官方基础版，作为统一多模态/对话底座，持续吸引开发者关注。
+- [ideogram-ai/ideogram-4-fp8](https://huggingface.co/ideogram-ai/ideogram-4-fp8) ｜ 作者：ideogram-ai ｜ 点赞：443 ｜ 下载：5,915  
+  高质量文生图模型的 FP8 版本，强调出图质量与更容易部署。
 
-- [ideogram-ai/ideogram-4-fp8](https://huggingface.co/ideogram-ai/ideogram-4-fp8)  
-  作者：ideogram-ai｜点赞：441｜下载：5,915  
-  图像生成模型的 FP8 版本，说明高质量文生图正在向高效推理迁移。
+- [ideogram-ai/ideogram-4-nf4](https://huggingface.co/ideogram-ai/ideogram-4-nf4) ｜ 作者：ideogram-ai ｜ 点赞：290 ｜ 下载：5,250  
+  同系列 NF4 量化版，说明图像生成也在快速拥抱低显存推理。
 
-- [stepfun-ai/Step-3.7-Flash](https://huggingface.co/stepfun-ai/Step-3.7-Flash)  
-  作者：stepfun-ai｜点赞：358｜下载：46,729  
-  高效多模态/视觉语言模型，兼顾速度与通用性，适合应用层落地。
+- [bosonai/higgs-audio-v3-tts-4b](https://huggingface.co/bosonai/higgs-audio-v3-tts-4b) ｜ 作者：bosonai ｜ 点赞：285 ｜ 下载：16,207  
+  文本转语音 TTS 模型，音频生成方向继续升温，且偏实用落地。
 
-- [ideogram-ai/ideogram-4-nf4](https://huggingface.co/ideogram-ai/ideogram-4-nf4)  
-  作者：ideogram-ai｜点赞：287｜下载：5,250  
-  Ideogram 4 的 NF4 量化图像生成版，热度来自“高质 + 低成本”组合。
+- [nvidia/nemotron-3.5-asr-streaming-0.6b](https://huggingface.co/nvidia/nemotron-3.5-asr-streaming-0.6b) ｜ 作者：nvidia ｜ 点赞：322 ｜ 下载：4,181  
+  流式语音识别模型，主打低延迟在线场景，适合实时助手与转写系统。
 
-- [nvidia/Cosmos3-Nano](https://huggingface.co/nvidia/Cosmos3-Nano)  
-  作者：nvidia｜点赞：214｜下载：36,739  
-  小型 Cosmos 生成/世界模型，反映视频/世界建模方向的持续推进。
+- [MisoLabs/MisoTTS](https://huggingface.co/MisoLabs/MisoTTS) ｜ 作者：MisoLabs ｜ 点赞：175 ｜ 下载：0  
+  新发布的 TTS 模型，虽然下载尚未起量，但已经进入社区关注视野。
 
-- [ByteDance/Bernini-R](https://huggingface.co/ByteDance/Bernini-R)  
-  作者：ByteDance｜点赞：193｜下载：281  
-  图像到视频生成/渲染模型，下载虽少但关注度高，属于前沿方向。
+- [google/magenta-realtime-2](https://huggingface.co/google/magenta-realtime-2) ｜ 作者：google ｜ 点赞：164 ｜ 下载：18,216  
+  实时 text-to-audio 模型，体现 Google 在低延迟音频生成上的新推进。
 
-- [jdopensource/JoyAI-Echo](https://huggingface.co/jdopensource/JoyAI-Echo)  
-  作者：jdopensource｜点赞：114｜下载：4,502  
-  文本到视频模型，体现短视频/生成式内容链路的扩张。
+- [stepfun-ai/Step-3.7-Flash](https://huggingface.co/stepfun-ai/Step-3.7-Flash) ｜ 作者：stepfun-ai ｜ 点赞：359 ｜ 下载：46,729  
+  视觉语言/多模态模型，强调“Flash”式效率与响应速度，适合高吞吐场景。
 
-- [Comfy-Org/Ideogram-4](https://huggingface.co/Comfy-Org/Ideogram-4)  
-  作者：Comfy-Org｜点赞：112｜下载：0  
-  更像是 ComfyUI 生态里的 Ideogram 4 集成/工作流包，反映图像生成插件化扩散。
+- [ByteDance/Bernini-R](https://huggingface.co/ByteDance/Bernini-R) ｜ 作者：ByteDance ｜ 点赞：197 ｜ 下载：281  
+  文/图到视频方向的生成模型，反映视频生成正从概念验证走向工程化。
 
----
+- [jdopensource/JoyAI-Echo](https://huggingface.co/jdopensource/JoyAI-Echo) ｜ 作者：jdopensource ｜ 点赞：115 ｜ 下载：4,502  
+  文生视频模型，标签还覆盖音视频生成，属于多模态内容生成的新热点。
 
-## 🔧 专用模型（代码、数学、医疗、嵌入）
+- [Comfy-Org/Ideogram-4](https://huggingface.co/Comfy-Org/Ideogram-4) ｜ 作者：Comfy-Org ｜ 点赞：115 ｜ 下载：0  
+  更像是 ComfyUI 生态下的工作流/封装资源，说明社区正在围绕 Ideogram 4 做应用层整合。
 
-- [nvidia/nemotron-3.5-asr-streaming-0.6b](https://huggingface.co/nvidia/nemotron-3.5-asr-streaming-0.6b)  
-  作者：nvidia｜点赞：319｜下载：4,181  
-  流式自动语音识别模型，适合实时转写场景，属于应用刚需型模型。
+- [nvidia/Cosmos3-Nano](https://huggingface.co/nvidia/Cosmos3-Nano) ｜ 作者：nvidia ｜ 点赞：215 ｜ 下载：36,739  
+  Cosmos 3 的小型版本，面向更广义的多模态/世界模型生态，属于 NVIDIA 的战略方向。
 
-- [bosonai/higgs-audio-v3-tts-4b](https://huggingface.co/bosonai/higgs-audio-v3-tts-4b)  
-  作者：bosonai｜点赞：282｜下载：16,207  
-  文本到语音模型，说明音频生成正成为独立赛道。
-
-- [PaddlePaddle/PaddleOCR-VL-1.6](https://huggingface.co/PaddlePaddle/PaddleOCR-VL-1.6)  
-  作者：PaddlePaddle｜点赞：280｜下载：10,139  
-  OCR + 视觉语言模型，适合文档理解与票据/表单识别场景。
-
-- [MisoLabs/MisoTTS](https://huggingface.co/MisoLabs/MisoTTS)  
-  作者：MisoLabs｜点赞：175｜下载：0  
-  TTS 语音合成模型，虽然下载未起量，但说明语音赛道仍在持续孵化。
-
-- [google/magenta-realtime-2](https://huggingface.co/google/magenta-realtime-2)  
-  作者：google｜点赞：164｜下载：18,216  
-  实时文本到音频/音乐生成模型，体现“低延迟生成”方向的热度。
-
-- [CohereLabs/North-Mini-Code-1.0](https://huggingface.co/CohereLabs/North-Mini-Code-1.0)  
-  作者：CohereLabs｜点赞：160｜下载：1,784  
-  面向代码生成的专用模型，属于开发者向高效编码助手迁移的代表。
+- [PaddlePaddle/PaddleOCR-VL-1.6](https://huggingface.co/PaddlePaddle/PaddleOCR-VL-1.6) ｜ 作者：PaddlePaddle ｜ 点赞：282 ｜ 下载：10,139  
+  OCR + 视觉语言模型，偏文档理解与文字识别，落地场景非常明确。
 
 ---
 
-## 📦 微调与量化（社区微调、GGUF、AWQ）
+### 🔧 专用模型（代码、数学、医疗、嵌入）
+- [CohereLabs/North-Mini-Code-1.0](https://huggingface.co/CohereLabs/North-Mini-Code-1.0) ｜ 作者：CohereLabs ｜ 点赞：173 ｜ 下载：1,784  
+  编程专用模型，虽然下载不高，但“代码能力”仍是专用模型最稳定的需求之一。
 
-- [HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive](https://huggingface.co/HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive)  
-  作者：HauhauCS｜点赞：1,594｜下载：2,983,909  
-  Qwen3.6 MoE 的社区改写版，超高下载量说明“个性化/本地化/去对齐”微调仍有巨大需求。
+---
 
-- [unsloth/gemma-4-12b-it-GGUF](https://huggingface.co/unsloth/gemma-4-12b-it-GGUF)  
-  作者：unsloth｜点赞：532｜下载：660,140  
-  Gemma-4 指令版 GGUF 打包，面向本地部署，下载量极高，说明轻量化分发最受欢迎。
+### 📦 微调与量化（社区微调、GGUF、AWQ）
+- [unsloth/gemma-4-12b-it-GGUF](https://huggingface.co/unsloth/gemma-4-12b-it-GGUF) ｜ 作者：unsloth ｜ 点赞：534 ｜ 下载：660,140  
+  Gemma 4 的 GGUF 量化版，下载量很高，典型的本地部署友好包。
 
-- [unsloth/gemma-4-12B-it-qat-GGUF](https://huggingface.co/unsloth/gemma-4-12B-it-qat-GGUF)  
-  作者：unsloth｜点赞：171｜下载：127,332  
-  QAT + GGUF 组合，强调低显存与易部署，是本地推理的重要形态。
+- [HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive](https://huggingface.co/HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive) ｜ 作者：HauhauCS ｜ 点赞：1,597 ｜ 下载：2,983,909  
+  Qwen3.6 的社区衍生 GGUF/uncensored 版本，说明“可本地跑 + 更少对齐限制”依然有强需求。
 
-- [nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B-NVFP4](https://huggingface.co/nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B-NVFP4)  
-  作者：nvidia｜点赞：153｜下载：71,818  
-  NVFP4 低精度版本，代表超大模型向高效部署继续下沉。
+- [unsloth/gemma-4-12B-it-qat-GGUF](https://huggingface.co/unsloth/gemma-4-12B-it-qat-GGUF) ｜ 作者：unsloth ｜ 点赞：172 ｜ 下载：127,332  
+  QAT + GGUF 组合，代表社区正在把训练感知量化与本地推理结合起来。
 
-- [OBLITERATUS/Gemma-4-12B-OBLITERATED](https://huggingface.co/OBLITERATUS/Gemma-4-12B-OBLITERATED)  
-  作者：OBLITERATUS｜点赞：140｜下载：8,106  
-  社区改写/去对齐风格的 Gemma 4 版本，反映二次加工和个性化需求活跃。
+- [OBLITERATUS/Gemma-4-12B-OBLITERATED](https://huggingface.co/OBLITERATUS/Gemma-4-12B-OBLITERATED) ｜ 作者：OBLITERATUS ｜ 点赞：148 ｜ 下载：8,106  
+  Gemma 4 的社区改写/去对齐版本，反映出围绕热门底座的二次加工非常活跃。
 
-- [unsloth/gemma-4-26B-A4B-it-qat-GGUF](https://huggingface.co/unsloth/gemma-4-26B-A4B-it-qat-GGUF)  
-  作者：unsloth｜点赞：115｜下载：96,059  
-  更大参数的 QAT GGUF 版本，体现“更强模型也要可本地跑”的趋势。
+- [unsloth/gemma-4-26B-A4B-it-qat-GGUF](https://huggingface.co/unsloth/gemma-4-26B-A4B-it-qat-GGUF) ｜ 作者：unsloth ｜ 点赞：115 ｜ 下载：96,059  
+  更大参数版本的量化包，说明社区不仅在追求小模型，也在做大模型“可用化”。
 
-- [google/gemma-4-12B-it-qat-q4_0-gguf](https://huggingface.co/google/gemma-4-12B-it-qat-q4_0-gguf)  
-  作者：google｜点赞：114｜下载：63,049  
-  官方量化版，直接回应本地部署、低成本推理的需求。
+- [google/gemma-4-12B-it-qat-q4_0-gguf](https://huggingface.co/google/gemma-4-12B-it-qat-q4_0-gguf) ｜ 作者：google ｜ 点赞：116 ｜ 下载：63,049  
+  官方 GGUF Q4_0 版，表示大厂也在正面拥抱本地化、低成本部署生态。
+
+- [ideogram-ai/ideogram-4-nf4](https://huggingface.co/ideogram-ai/ideogram-4-nf4) ｜ 作者：ideogram-ai ｜ 点赞：290 ｜ 下载：5,250  
+  图像生成模型的低比特版本，代表量化已经从文本模型扩展到图像模型。
+
+- [nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B-NVFP4](https://huggingface.co/nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B-NVFP4) ｜ 作者：nvidia ｜ 点赞：154 ｜ 下载：71,818  
+  官方低精度推理版本，说明超大模型正在通过量化进入更现实的部署阶段。
 
 ---
 
 ## 生态信号
-本周最强势的仍是 **Gemma 4、DeepSeek、Nemotron、Qwen 派生和 LiquidAI** 等通用底座；其中 Gemma 4 已形成“官方权重 + 社区量化”的完整梯队。开源/可下载权重的热度明显高于服务型闭源产品，且 **GGUF、NF4、FP8、NVFP4** 等部署友好格式下载更猛。与此同时，视频、音频、ASR、OCR 和视觉定位等专用多模态模型快速增多，说明模型生态正从“聊天模型”走向“任务组件库”。
-
----
+Gemma 4、DeepSeek、Nemotron、Qwen/Step、Ideogram 这些家族势头最强，且同一底座常同时出现官方版、社区版和多种量化包。榜单几乎被开放权重占满，厂商级模型正在把 Hugging Face 当作首发与分发阵地。量化侧尤其活跃：GGUF、QAT、NF4、FP8、NVFP4 频出，说明“本地可跑、低成本推理”仍是核心诉求。
 
 ## 值得探索
+- [deepseek-ai/DeepSeek-V4-Pro](https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro)  
+  通用能力最强、生态关注度最高，适合做基准参考。
 
-1. **[deepseek-ai/DeepSeek-V4-Pro](https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro)**  
-   适合做通用能力基线，当前榜单的绝对头部，最能代表“强通用模型”的用户偏好。
+- [google/gemma-4-12B-it](https://huggingface.co/google/gemma-4-12B-it)  
+  代表开放多模态底座的新一代方向，适合研究图文统一建模。
 
-2. **[google/gemma-4-12B-it](https://huggingface.co/google/gemma-4-12B-it)**  
-   官方多模态指令版，适合评估图文统一能力；如果要本地部署，可优先看它的 GGUF/量化分支。
+- [nvidia/LocateAnything-3B](https://huggingface.co/nvidia/LocateAnything-3B)  
+  很适合做视觉 grounding、Agent 看图定位和工具调用实验。  
 
-3. **[nvidia/LocateAnything-3B](https://huggingface.co/nvidia/LocateAnything-3B)**  
-   视觉定位/grounding 很有应用前景，适合研究“模型如何把理解转成定位与执行”。
-
-如果你愿意，我也可以把这份日报进一步整理成 **表格版 CSV/Markdown 表**，或输出成适合公众号/Notion 的排版格式。
+如果你愿意，我可以把这份日报再整理成**适合公众号发布的版式**，或补一版**“按涨幅/下载率/家族聚类”的深度分析**。
 
 ---
 *本日报由 [agents-radar](https://github.com/leisure3318/agents-radar) 自动生成。*
