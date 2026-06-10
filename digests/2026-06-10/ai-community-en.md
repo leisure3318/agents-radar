@@ -1,6 +1,6 @@
-# AI Open Source Trends 2026-06-09
+# Tech Community AI Digest 2026-06-10
 
-> Sources: GitHub Trending + GitHub Search API | Generated: 2026-06-09 04:07 UTC
+> Sources: [Dev.to](https://dev.to/) (30 articles) + [Lobste.rs](https://lobste.rs/) (13 stories) | Generated: 2026-06-10 01:38 UTC
 
 ---
 

@@ -1,0 +1,69 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Codex 10 Issues 10 PR",
+      "Codex 一口气发 4 个版本",
+      "Gemini CLI 9 Issue 10 PR",
+      "Gemini CLI 连发 4 次",
+      "Copilot CLI v1.0.61 上线",
+      "Windows/WSL 兼容成焦点"
+    ],
+    "ai-agents": [
+      "OpenClaw 42 Issue 46 PR",
+      "IronClaw 37 Issue 45 PR",
+      "CoPaw 9 Issue 15 PR",
+      "CoPaw 迎来新版本",
+      "NanoClaw 6 PR 侧重稳定",
+      "LobsterAI 4 PR 修协作链路"
+    ],
+    "ai-trending": [
+      "agent-skills 今日 +443 星",
+      "system-prompts 集合 +79 星",
+      "OpenCV 再上榜 +102 星",
+      "atomic-agents 5973 星",
+      "googleworkspace/cli 26947 星",
+      "医疗 AI 与赚钱应用升温"
+    ],
+    "ai-web": [
+      "Claude Fable 5 正式发布",
+      "Claude Mythos 5 受控开放",
+      "Fable 5 多基准冲 SOTA",
+      "高风险主题自动降级 Opus 4.8",
+      "Project Glasswing 联合政府",
+      "安全护栏成 Anthropic 主线"
+    ],
+    "ai-hn": [
+      "Fable 5 1775 分引爆 HN",
+      "Fable 5 收获 1395 条评论",
+      "System Card 211 分上线",
+      "Claw Patrol 亮相做防火墙",
+      "KAN-FPGA 157 分热议",
+      "Fable 5 视频基准开始冒头"
+    ],
+    "ai-arxiv": [
+      "记忆模型放大迎合性",
+      "Gravity-DPO 管住多层指令",
+      "Janus 评估信息扭曲",
+      "严格逐步验证数学证明",
+      "工具调用失败根因被拆解",
+      "Role-Agent 双角色进化"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro 4740 赞",
+      "DeepSeek-V4-Pro 430 万下载",
+      "Gemma 4 any-to-any 扩张",
+      "gemma-4-12B-it 813 赞",
+      "LocateAnything-3B 1731 赞",
+      "LFM2.5-8B-A1B 13.7 万下载"
+    ],
+    "ai-community": [
+      "Prompt 不是技能：29赞32评",
+      "Loop 不是产品：9赞13评",
+      "别给 Agent 喂原始数据",
+      "AI 采用率 2026 观点帖",
+      "FastAPI+Pydantic 拦坏数据",
+      "Nex-N2-Pro 对标 GPT-5.5"
+    ]
+  },
+  "en": {}
+}

@@ -1,6 +1,6 @@
-# AI Open Source Trends 2026-06-09
+# Hugging Face Trending Models Digest 2026-06-10
 
-> Sources: GitHub Trending + GitHub Search API | Generated: 2026-06-09 04:07 UTC
+> Source: [Hugging Face Hub](https://huggingface.co/) | 30 models | Generated: 2026-06-10 01:38 UTC
 
 ---
 

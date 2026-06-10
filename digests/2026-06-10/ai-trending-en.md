@@ -1,6 +1,6 @@
-# AI Open Source Trends 2026-06-09
+# AI Open Source Trends 2026-06-10
 
-> Sources: GitHub Trending + GitHub Search API | Generated: 2026-06-09 04:07 UTC
+> Sources: GitHub Trending + GitHub Search API | Generated: 2026-06-10 01:38 UTC
 
 ---
 
