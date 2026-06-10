@@ -46,7 +46,6 @@ import {
   saveCommunityReport,
 } from "./report-savers.ts";
 import { loadWebState, fetchSiteContent, type WebFetchResult, type WebState } from "./web.ts";
-import { loadSeenItems, saveSeenItems, filterUnseen, filterUnseenReleases, markSeen } from "./seen-items.ts";
 import { fetchTrendingData, type TrendingData } from "./trending.ts";
 import { fetchHnData, type HnData } from "./hn.ts";
 import { fetchPhData, type PhData } from "./ph.ts";
@@ -57,7 +56,16 @@ import { fetchLobstersData, type LobstersData } from "./lobsters.ts";
 import { loadConfig } from "./config.ts";
 import { toCstDateStr, toUtcStr } from "./date.ts";
 import { type Lang, MSG, ISSUE_LABELS, CLI_ISSUE_TITLE, OPENCLAW_ISSUE_TITLE } from "./i18n.ts";
-import { filterSeenRepos, markReposSeen, cleanOldEntries } from "./dedup.ts";
+import {
+  openDedupDb,
+  filterSeenRepos,
+  markReposSeen,
+  filterUnseenItems,
+  markItemsSeen,
+  filterUnseenReleases,
+  markReleasesSeen,
+  cleanOldEntries,
+} from "./dedup.ts";
 
 // ---------------------------------------------------------------------------
 // Repo config — loaded from config.yml, falls back to built-in defaults
@@ -325,7 +333,6 @@ async function main(): Promise<void> {
 
   // 1. Fetch all data in parallel
   const webState = loadWebState();
-  const seenState = loadSeenItems();
   const {
     fetched,
     skillsData,
@@ -339,29 +346,39 @@ async function main(): Promise<void> {
     lobstersData,
   } = await fetchAllData(since, webState);
 
-  // Remove items already reported in previous runs (cross-day dedup safety net).
+  // Cross-day dedup cache (SQLite): drop issues/PRs/releases/trending repos
+  // already reported within the configured lookback window.
+  const dedupDb = openDedupDb();
+  const itemDedupDays = parseInt(process.env["ITEM_DEDUP_DAYS"] ?? "30", 10);
+  const trendingDedupDays = parseInt(process.env["TRENDING_DEDUP_DAYS"] ?? "7", 10);
+
   for (const f of fetched) {
-    f.issues = filterUnseen(f.cfg.id, f.issues, seenState);
-    f.prs = filterUnseen(f.cfg.id, f.prs, seenState);
-    f.releases = filterUnseenReleases(f.cfg.id, f.releases, seenState);
-    markSeen(f.cfg.id, [...f.issues, ...f.prs], f.releases, seenState);
+    f.issues = filterUnseenItems(dedupDb, f.cfg.id, f.issues, itemDedupDays);
+    f.prs = filterUnseenItems(dedupDb, f.cfg.id, f.prs, itemDedupDays);
+    f.releases = filterUnseenReleases(dedupDb, f.cfg.id, f.releases, itemDedupDays);
+    markItemsSeen(dedupDb, f.cfg.id, [...f.issues, ...f.prs], dateStr);
+    markReleasesSeen(dedupDb, f.cfg.id, f.releases, dateStr);
   }
-  saveSeenItems(seenState);
 
   const peerIds = new Set(OPENCLAW_PEERS.map((p) => p.id));
   const fetchedCli = fetched.filter((f) => f.cfg.id !== OPENCLAW.id && !peerIds.has(f.cfg.id));
   const fetchedOpenclaw = fetched.find((f) => f.cfg.id === OPENCLAW.id)!;
   const fetchedPeers = fetched.filter((f) => peerIds.has(f.cfg.id));
 
-  // Deduplicate trending repos: filter out items seen in the last N days, then mark today's batch
-  cleanOldEntries();
-  const dedupDays = parseInt(process.env["TRENDING_DEDUP_DAYS"] ?? "7", 10);
+  // Deduplicate trending repos: filter out repos seen in the last N days, then mark today's batch
   const filteredTrendingData: TrendingData = {
     ...trendingData,
-    trendingRepos: filterSeenRepos(trendingData.trendingRepos, "html", dedupDays),
-    searchRepos: filterSeenRepos(trendingData.searchRepos, "search", dedupDays),
+    trendingRepos: filterSeenRepos(dedupDb, trendingData.trendingRepos, "html", trendingDedupDays),
+    searchRepos: filterSeenRepos(dedupDb, trendingData.searchRepos, "search", trendingDedupDays),
   };
-  markReposSeen([...filteredTrendingData.trendingRepos, ...filteredTrendingData.searchRepos], dateStr);
+  markReposSeen(
+    dedupDb,
+    [...filteredTrendingData.trendingRepos, ...filteredTrendingData.searchRepos],
+    dateStr,
+  );
+
+  cleanOldEntries(dedupDb, trendingDedupDays, itemDedupDays);
+  dedupDb.close();
 
   // 2. Generate per-repo LLM summaries in parallel (zh + en simultaneously)
   console.log("  Generating summaries in ZH and EN in parallel...");

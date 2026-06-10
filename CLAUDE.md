@@ -52,6 +52,7 @@ The pipeline runs in four sequential phases, each implemented as a named async f
 | File | Responsibility |
 |------|---------------|
 | `src/index.ts` | Orchestration: repo config, phase functions, `main()` |
+| `src/dedup.ts` | Cross-day dedup cache (SQLite, `digests/dedup.db`): seen repos/issues/PRs/releases |
 | `src/i18n.ts` | Centralized bilingual strings: `Lang` type, report titles, issue labels, footer text, `REPORT_LABELS`, `NOTIFY_LABELS` |
 | `src/github.ts` | GitHub API helpers: `fetchRecentItems`, `fetchRecentReleases`, `fetchSkillsData`, `createGitHubIssue`; shared `RepoFetch` type |
 | `src/prompts.ts` | LLM prompt builders for repo reports: `buildCliPrompt`, `buildPeerPrompt`, `buildComparisonPrompt`, `buildPeersComparisonPrompt`, `buildSkillsPrompt` |
@@ -106,6 +107,7 @@ Files written to `digests/YYYY-MM-DD/`:
 - GitHub issue label colors are defined in `LABEL_COLORS` in `src/github.ts`. Add new labels there.
 - `sampleNote(total, sampled)` in `src/prompts.ts` formats the "(共 N 条，展示前 M 条)" note. Reuse it — do not inline the same string format.
 - Web state (`digests/web-state.json`) is committed to git on every run. It is the source of truth for which URLs have been seen.
+- Cross-day dedup (`digests/dedup.db`, SQLite) is committed to git on every run. It tracks seen trending repos (`TRENDING_DEDUP_DAYS`, default 7), and seen issues/PRs/releases (`ITEM_DEDUP_DAYS`, default 30) so they aren't reported twice.
 
 ## Web UI & RSS Feed
 
