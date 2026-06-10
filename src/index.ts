@@ -64,6 +64,14 @@ import {
   markItemsSeen,
   filterUnseenReleases,
   markReleasesSeen,
+  filterUnseenHfModels,
+  markHfModelsSeen,
+  filterUnseenArxivPapers,
+  markArxivPapersSeen,
+  filterUnseenDevtoArticles,
+  markDevtoArticlesSeen,
+  filterUnseenLobstersStories,
+  markLobstersStoriesSeen,
   cleanOldEntries,
 } from "./dedup.ts";
 
@@ -351,6 +359,9 @@ async function main(): Promise<void> {
   const dedupDb = openDedupDb();
   const itemDedupDays = parseInt(process.env["ITEM_DEDUP_DAYS"] ?? "30", 10);
   const trendingDedupDays = parseInt(process.env["TRENDING_DEDUP_DAYS"] ?? "7", 10);
+  const hfDedupDays = parseInt(process.env["HF_DEDUP_DAYS"] ?? "7", 10);
+  const arxivDedupDays = parseInt(process.env["ARXIV_DEDUP_DAYS"] ?? "7", 10);
+  const communityDedupDays = parseInt(process.env["COMMUNITY_DEDUP_DAYS"] ?? "7", 10);
 
   for (const f of fetched) {
     f.issues = filterUnseenItems(dedupDb, f.cfg.id, f.issues, itemDedupDays);
@@ -377,7 +388,40 @@ async function main(): Promise<void> {
     dateStr,
   );
 
-  cleanOldEntries(dedupDb, trendingDedupDays, itemDedupDays);
+  // Deduplicate HF trending models: filter out models seen in the last N days, then mark today's batch
+  const filteredHfData: HfData = {
+    ...hfData,
+    models: filterUnseenHfModels(dedupDb, hfData.models, hfDedupDays),
+  };
+  markHfModelsSeen(dedupDb, filteredHfData.models, dateStr);
+
+  // Deduplicate ArXiv papers: filter out papers seen in the last N days, then mark today's batch
+  const filteredArxivData: ArxivData = {
+    ...arxivData,
+    papers: filterUnseenArxivPapers(dedupDb, arxivData.papers, arxivDedupDays),
+  };
+  markArxivPapersSeen(dedupDb, filteredArxivData.papers, dateStr);
+
+  // Deduplicate Dev.to/Lobsters community posts: filter out posts seen in the last N days, then mark today's batch
+  const filteredDevtoData: DevtoData = {
+    ...devtoData,
+    articles: filterUnseenDevtoArticles(dedupDb, devtoData.articles, communityDedupDays),
+  };
+  markDevtoArticlesSeen(dedupDb, filteredDevtoData.articles, dateStr);
+
+  const filteredLobstersData: LobstersData = {
+    ...lobstersData,
+    stories: filterUnseenLobstersStories(dedupDb, lobstersData.stories, communityDedupDays),
+  };
+  markLobstersStoriesSeen(dedupDb, filteredLobstersData.stories, dateStr);
+
+  cleanOldEntries(dedupDb, {
+    repoDays: trendingDedupDays,
+    itemDays: itemDedupDays,
+    hfDays: hfDedupDays,
+    arxivDays: arxivDedupDays,
+    communityDays: communityDedupDays,
+  });
   dedupDb.close();
 
   // 2. Generate per-repo LLM summaries in parallel (zh + en simultaneously)
@@ -503,12 +547,28 @@ async function main(): Promise<void> {
     saveHnReport(hnData, utcStr, dateStr, digestRepo, autoGenFooter("en"), "en"),
     savePhReport(phData, utcStr, dateStr, digestRepo, autoGenFooter("zh"), "zh"),
     savePhReport(phData, utcStr, dateStr, digestRepo, autoGenFooter("en"), "en"),
-    saveArxivReport(arxivData, utcStr, dateStr, digestRepo, autoGenFooter("zh"), "zh"),
-    saveArxivReport(arxivData, utcStr, dateStr, digestRepo, autoGenFooter("en"), "en"),
-    saveHfReport(hfData, utcStr, dateStr, digestRepo, autoGenFooter("zh"), "zh"),
-    saveHfReport(hfData, utcStr, dateStr, digestRepo, autoGenFooter("en"), "en"),
-    saveCommunityReport(devtoData, lobstersData, utcStr, dateStr, digestRepo, autoGenFooter("zh"), "zh"),
-    saveCommunityReport(devtoData, lobstersData, utcStr, dateStr, digestRepo, autoGenFooter("en"), "en"),
+    saveArxivReport(filteredArxivData, utcStr, dateStr, digestRepo, autoGenFooter("zh"), "zh"),
+    saveArxivReport(filteredArxivData, utcStr, dateStr, digestRepo, autoGenFooter("en"), "en"),
+    saveHfReport(filteredHfData, utcStr, dateStr, digestRepo, autoGenFooter("zh"), "zh"),
+    saveHfReport(filteredHfData, utcStr, dateStr, digestRepo, autoGenFooter("en"), "en"),
+    saveCommunityReport(
+      filteredDevtoData,
+      filteredLobstersData,
+      utcStr,
+      dateStr,
+      digestRepo,
+      autoGenFooter("zh"),
+      "zh",
+    ),
+    saveCommunityReport(
+      filteredDevtoData,
+      filteredLobstersData,
+      utcStr,
+      dateStr,
+      digestRepo,
+      autoGenFooter("en"),
+      "en",
+    ),
   ]);
 
   // 5. Generate highlights for Telegram notification

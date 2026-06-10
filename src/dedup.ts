@@ -32,6 +32,22 @@ export function openDedupDb(): Database.Database {
       last_seen TEXT NOT NULL,
       PRIMARY KEY (repo_id, tag_name)
     );
+    CREATE TABLE IF NOT EXISTS seen_hf_models (
+      model_id TEXT PRIMARY KEY,
+      last_seen TEXT NOT NULL
+    );
+    CREATE TABLE IF NOT EXISTS seen_arxiv_papers (
+      paper_id TEXT PRIMARY KEY,
+      last_seen TEXT NOT NULL
+    );
+    CREATE TABLE IF NOT EXISTS seen_devto_articles (
+      article_id INTEGER PRIMARY KEY,
+      last_seen TEXT NOT NULL
+    );
+    CREATE TABLE IF NOT EXISTS seen_lobsters_stories (
+      story_url TEXT PRIMARY KEY,
+      last_seen TEXT NOT NULL
+    );
   `);
   return db;
 }
@@ -161,22 +177,210 @@ export function markReleasesSeen(
 }
 
 // ---------------------------------------------------------------------------
+// HuggingFace models
+// ---------------------------------------------------------------------------
+
+/** Filter out HF models seen within the last `days` days. */
+export function filterUnseenHfModels<T extends { id: string }>(
+  db: Database.Database,
+  models: T[],
+  days: number = DEFAULT_REPO_DAYS,
+): T[] {
+  if (models.length === 0) return models;
+  const cutoff = cutoffDate(days);
+  const seen = new Set(
+    (
+      db.prepare("SELECT model_id FROM seen_hf_models WHERE last_seen >= ?").all(cutoff) as {
+        model_id: string;
+      }[]
+    ).map((r) => r.model_id),
+  );
+  const filtered = models.filter((m) => !seen.has(m.id));
+  console.log(
+    `  [dedup/hf] ${models.length} models → ${filtered.length} new (${models.length - filtered.length} skipped, ${days}d window)`,
+  );
+  return filtered;
+}
+
+/** Mark HF models as seen with today's date. */
+export function markHfModelsSeen(db: Database.Database, models: { id: string }[], dateStr: string): void {
+  if (models.length === 0) return;
+  const upsert = db.prepare(
+    "INSERT INTO seen_hf_models (model_id, last_seen) VALUES (?, ?) ON CONFLICT(model_id) DO UPDATE SET last_seen = excluded.last_seen",
+  );
+  const insertMany = db.transaction((rows: { id: string }[]) => {
+    for (const row of rows) upsert.run(row.id, dateStr);
+  });
+  insertMany(models);
+}
+
+// ---------------------------------------------------------------------------
+// ArXiv papers
+// ---------------------------------------------------------------------------
+
+/** Filter out ArXiv papers seen within the last `days` days. */
+export function filterUnseenArxivPapers<T extends { id: string }>(
+  db: Database.Database,
+  papers: T[],
+  days: number = DEFAULT_REPO_DAYS,
+): T[] {
+  if (papers.length === 0) return papers;
+  const cutoff = cutoffDate(days);
+  const seen = new Set(
+    (
+      db.prepare("SELECT paper_id FROM seen_arxiv_papers WHERE last_seen >= ?").all(cutoff) as {
+        paper_id: string;
+      }[]
+    ).map((r) => r.paper_id),
+  );
+  const filtered = papers.filter((p) => !seen.has(p.id));
+  console.log(
+    `  [dedup/arxiv] ${papers.length} papers → ${filtered.length} new (${papers.length - filtered.length} skipped, ${days}d window)`,
+  );
+  return filtered;
+}
+
+/** Mark ArXiv papers as seen with today's date. */
+export function markArxivPapersSeen(db: Database.Database, papers: { id: string }[], dateStr: string): void {
+  if (papers.length === 0) return;
+  const upsert = db.prepare(
+    "INSERT INTO seen_arxiv_papers (paper_id, last_seen) VALUES (?, ?) ON CONFLICT(paper_id) DO UPDATE SET last_seen = excluded.last_seen",
+  );
+  const insertMany = db.transaction((rows: { id: string }[]) => {
+    for (const row of rows) upsert.run(row.id, dateStr);
+  });
+  insertMany(papers);
+}
+
+// ---------------------------------------------------------------------------
+// Dev.to articles
+// ---------------------------------------------------------------------------
+
+/** Filter out Dev.to articles seen within the last `days` days. */
+export function filterUnseenDevtoArticles<T extends { id: number }>(
+  db: Database.Database,
+  articles: T[],
+  days: number = DEFAULT_REPO_DAYS,
+): T[] {
+  if (articles.length === 0) return articles;
+  const cutoff = cutoffDate(days);
+  const seen = new Set(
+    (
+      db.prepare("SELECT article_id FROM seen_devto_articles WHERE last_seen >= ?").all(cutoff) as {
+        article_id: number;
+      }[]
+    ).map((r) => r.article_id),
+  );
+  const filtered = articles.filter((a) => !seen.has(a.id));
+  console.log(
+    `  [dedup/devto] ${articles.length} articles → ${filtered.length} new (${articles.length - filtered.length} skipped, ${days}d window)`,
+  );
+  return filtered;
+}
+
+/** Mark Dev.to articles as seen with today's date. */
+export function markDevtoArticlesSeen(
+  db: Database.Database,
+  articles: { id: number }[],
+  dateStr: string,
+): void {
+  if (articles.length === 0) return;
+  const upsert = db.prepare(
+    "INSERT INTO seen_devto_articles (article_id, last_seen) VALUES (?, ?) ON CONFLICT(article_id) DO UPDATE SET last_seen = excluded.last_seen",
+  );
+  const insertMany = db.transaction((rows: { id: number }[]) => {
+    for (const row of rows) upsert.run(row.id, dateStr);
+  });
+  insertMany(articles);
+}
+
+// ---------------------------------------------------------------------------
+// Lobsters stories
+// ---------------------------------------------------------------------------
+
+/** Filter out Lobsters stories seen within the last `days` days. */
+export function filterUnseenLobstersStories<T extends { url: string }>(
+  db: Database.Database,
+  stories: T[],
+  days: number = DEFAULT_REPO_DAYS,
+): T[] {
+  if (stories.length === 0) return stories;
+  const cutoff = cutoffDate(days);
+  const seen = new Set(
+    (
+      db.prepare("SELECT story_url FROM seen_lobsters_stories WHERE last_seen >= ?").all(cutoff) as {
+        story_url: string;
+      }[]
+    ).map((r) => r.story_url),
+  );
+  const filtered = stories.filter((s) => !seen.has(s.url));
+  console.log(
+    `  [dedup/lobsters] ${stories.length} stories → ${filtered.length} new (${stories.length - filtered.length} skipped, ${days}d window)`,
+  );
+  return filtered;
+}
+
+/** Mark Lobsters stories as seen with today's date. */
+export function markLobstersStoriesSeen(
+  db: Database.Database,
+  stories: { url: string }[],
+  dateStr: string,
+): void {
+  if (stories.length === 0) return;
+  const upsert = db.prepare(
+    "INSERT INTO seen_lobsters_stories (story_url, last_seen) VALUES (?, ?) ON CONFLICT(story_url) DO UPDATE SET last_seen = excluded.last_seen",
+  );
+  const insertMany = db.transaction((rows: { url: string }[]) => {
+    for (const row of rows) upsert.run(row.url, dateStr);
+  });
+  insertMany(stories);
+}
+
+// ---------------------------------------------------------------------------
 // Maintenance
 // ---------------------------------------------------------------------------
 
+export interface DedupCleanupDays {
+  repoDays?: number;
+  itemDays?: number;
+  hfDays?: number;
+  arxivDays?: number;
+  communityDays?: number;
+}
+
 /** Remove stale entries to keep the DB small. */
-export function cleanOldEntries(
-  db: Database.Database,
-  repoDays: number = DEFAULT_REPO_DAYS,
-  itemDays: number = DEFAULT_ITEM_DAYS,
-): void {
+export function cleanOldEntries(db: Database.Database, days: DedupCleanupDays = {}): void {
+  const {
+    repoDays = DEFAULT_REPO_DAYS,
+    itemDays = DEFAULT_ITEM_DAYS,
+    hfDays = DEFAULT_REPO_DAYS,
+    arxivDays = DEFAULT_REPO_DAYS,
+    communityDays = DEFAULT_REPO_DAYS,
+  } = days;
   const repos = db.prepare("DELETE FROM seen_repos WHERE last_seen < ?").run(cutoffDate(repoDays));
   const items = db.prepare("DELETE FROM seen_items WHERE last_seen < ?").run(cutoffDate(itemDays));
   const releases = db.prepare("DELETE FROM seen_releases WHERE last_seen < ?").run(cutoffDate(itemDays));
-  const total = repos.changes + items.changes + releases.changes;
+  const hfModels = db.prepare("DELETE FROM seen_hf_models WHERE last_seen < ?").run(cutoffDate(hfDays));
+  const arxivPapers = db
+    .prepare("DELETE FROM seen_arxiv_papers WHERE last_seen < ?")
+    .run(cutoffDate(arxivDays));
+  const devtoArticles = db
+    .prepare("DELETE FROM seen_devto_articles WHERE last_seen < ?")
+    .run(cutoffDate(communityDays));
+  const lobstersStories = db
+    .prepare("DELETE FROM seen_lobsters_stories WHERE last_seen < ?")
+    .run(cutoffDate(communityDays));
+  const total =
+    repos.changes +
+    items.changes +
+    releases.changes +
+    hfModels.changes +
+    arxivPapers.changes +
+    devtoArticles.changes +
+    lobstersStories.changes;
   if (total > 0) {
     console.log(
-      `  [dedup] Cleaned ${repos.changes} repos, ${items.changes} items, ${releases.changes} releases`,
+      `  [dedup] Cleaned ${repos.changes} repos, ${items.changes} items, ${releases.changes} releases, ${hfModels.changes} hf models, ${arxivPapers.changes} arxiv papers, ${devtoArticles.changes} devto articles, ${lobstersStories.changes} lobsters stories`,
     );
   }
 }
