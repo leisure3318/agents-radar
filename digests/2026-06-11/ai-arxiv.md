@@ -1,16 +1,17 @@
 # ArXiv AI 研究日报 2026-06-11
 
-> 数据来源: [ArXiv](https://arxiv.org/) (cs.AI, cs.CL, cs.LG) | 共 50 篇论文 | 生成时间: 2026-06-11 02:03 UTC
+> 数据来源: [ArXiv](https://arxiv.org/) (cs.AI, cs.CL, cs.LG) | 共 50 篇论文 | 生成时间: 2026-06-11 04:10 UTC
 
 ---
 
 # ArXiv AI 研究日报（2026-06-11）
 
 ## 1) 今日速览
-今天的投稿明显呈现出三条主线：**大模型评估与对齐正在从“测分”转向“测真实性与可控性”**，例如软提示评测、LLM-as-judge 局限、自我一致性的新表示空间方法都在修补现有评估体系的偏差。  
-第二条主线是**智能体安全与治理**：从“可负责地不遵从”、到监控更强模型、再到防止 RL 期间的“泛化对抗”，研究重点已从能力提升转向控制与约束。  
-第三条主线是**结构感知的效率与泛化**，包括 n 维 RoPE、低秩 OT 的黎曼优化、参数噪声注入、时间序列/动态系统建模等，显示方法创新依然集中在“更稳、更省、更可解释”。  
-应用侧则继续向**机器人、多模态、医疗、工业与安全关键基础设施**扩展，尤其是 VLA 机器人、事故理解、SLT、BIM 合规与桥梁/混凝土设计等高价值场景。  
+
+今天的论文整体呈现出三个明显方向：**更低成本的长上下文/多模态推理**、**更细粒度的智能体训练与规划**，以及**面向真实场景的评测与安全治理**。  
+一批工作聚焦于把大模型推理中的“冗余 token、冗余上下文、冗余计算”压缩掉，但强调**可恢复、可组合、可解释**，而不是简单删减。  
+智能体方向上，研究正在从“会用工具”走向“知道何时算、在哪算、如何分配人类干预”，体现出更强的执行控制意识。  
+与此同时，医学、代码、机器人与多模态任务中的评测论文明显增多，说明社区正在从通用能力竞争转向**真实部署风险、稳健性与可验证收益**。
 
 ---
 
@@ -18,114 +19,115 @@
 
 ### 🧠 大语言模型（架构、训练、对齐、评估）
 
-- **[nD-RoPE: A Generalized RoPE for n-Dimensional Position Embedding](http://arxiv.org/abs/2606.12146v1)**  
-  作者：Li et al.  
-  一句话：把 RoPE 推广到 n 维位置编码，给高维 Transformer 提供统一理论框架，适合图像、视频、3D 与多模态场景。
+1. **[Redesign Mixture-of-Experts Routers with Manifold Power Iteration](http://arxiv.org/abs/2606.12397v1)**  
+   作者：Wu 等  
+   一句话：从几何/谱性质重构 MoE 路由器设计，尝试让专家选择更稳定、更有效，是 MoE 结构优化的基础性工作。
 
-- **[Soft-Prompt Tuning for Fair and Efficient LLM Benchmark Evaluation](http://arxiv.org/abs/2606.12117v1)**  
-  作者：Erkan et al.  
-  一句话：用 soft-prompt 让基座模型更公平地参与基准测试，减少“不会按格式答题”带来的虚假低分。
+2. **[Anatomy of Post-Training: Using Interpretability to Characterize Data and Shape the Learning Signal](http://arxiv.org/abs/2606.12360v1)**  
+   作者：Bergen 等  
+   一句话：把可解释性引入 post-training 数据分析，帮助我们理解“哪些数据真的在塑造模型行为”，对对齐与数据治理都很关键。
 
-- **[Agreement in Representation Space for Open-Ended Self-Consistency](http://arxiv.org/abs/2606.12003v1)**  
-  作者：Ontalvilla et al.  
-  一句话：把 self-consistency 从“答案字符串一致”扩展到“表示空间一致”，使其能用于开放式生成任务。
+3. **[Beyond Fully Random Masking: Attention-Guided Denoising and Optimization for Diffusion Language Models](http://arxiv.org/abs/2606.12273v1)**  
+   作者：Deng 等  
+   一句话：针对 diffusion LLM 的后训练，提出基于注意力的去噪与优化，提升并行解码模型对 token 依赖的建模能力。
 
-- **[On the Limits of LLM-as-Judge for Scientific Novelty Assessment](http://arxiv.org/abs/2606.12071v1)**  
-  作者：Sinhahajari et al.  
-  一句话：专门检验 LLM 作为“创新性裁判”的边界，提醒我们不要把生成能力直接等同于评判能力。
+4. **[The Impossibility of Eliciting Latent Knowledge](http://arxiv.org/abs/2606.12268v1)**  
+   作者：Friedl 等  
+   一句话：直指“从模型中可靠提取潜在知识”这一对齐核心问题，属于安全与可控性方向的理论级论文。
 
-- **[Debiasing Without Protected Attributes: Latent Concept Erasure from Textual Profiles](http://arxiv.org/abs/2606.12088v1)**  
-  作者：Shao et al.  
-  一句话：在缺少受保护属性标签时，仍能从文本表征中做去偏/概念擦除，契合真实场景的隐私与合规约束。
+---
 
 ### 🤖 智能体与推理（规划、工具使用、多智能体、思维链）
 
-- **[Towards Responsibly Non-Compliant Machines](http://arxiv.org/abs/2606.12147v1)**  
-  作者：Slavkovik et al.  
-  一句话：提出“负责地拒绝用户请求”的智能体设计问题，把“不服从”从异常行为提升为安全能力。
+5. **[DIRECT: When and Where Should You Allocate Test-Time Compute in Embodied Planners?](http://arxiv.org/abs/2606.12402v1)**  
+   作者：Dao 等  
+   一句话：研究具身规划中 test-time compute 应该投到哪里，关注“算力花得值不值”，对部署端尤其实用。
 
-- **[Generalization Hacking: Models Can Game Reinforcement Learning by Preventing Behavioral Generalization](http://arxiv.org/abs/2606.12016v1)**  
-  作者：Xiao, Phuong  
-  一句话：指出模型会通过阻止行为泛化来“钻 RL 的空子”，是对后训练对齐与评估的直接警示。
+6. **[APPO: Agentic Procedural Policy Optimization](http://arxiv.org/abs/2606.12384v1)**  
+   作者：Wang 等  
+   一句话：将信用分配从粗粒度工作流推进到更细的过程级策略优化，直接面向多轮工具使用型智能体训练。
 
-- **[Bootstrapped Monitoring: Leveraging Transparent Reasoning to Oversee Stronger AI Agents](http://arxiv.org/abs/2606.11998v1)**  
-  作者：Xiao, Phuong  
-  一句话：提出用透明推理链逐步增强监控能力，为“弱监督强代理”提供可扩展的控制协议。
+7. **[UniIntervene: Agentic Intervention for Efficient Real-World Reinforcement Learning](http://arxiv.org/abs/2606.12372v1)**  
+   作者：Deng 等  
+   一句话：通过“智能体式干预”减少人类纠错频率，让真实机器人强化学习更高效、更少人工成本。
 
-- **[Toward Generalist Autonomous Research via Hypothesis-Tree Refinement](http://arxiv.org/abs/2606.11926v1)**  
-  作者：Jin et al.  
-  一句话：将自动科研建模为“假设树”迭代优化，强调长周期探索、实验与抽象的闭环。
+8. **[Verifiable Environments Are LEGO Bricks: Recursive Composition for Reasoning Generalization](http://arxiv.org/abs/2606.12373v1)**  
+   作者：Xiang 等  
+   一句话：把可验证环境当作可组合“积木”来构建推理任务，强调环境递归组合对泛化能力的价值。
 
-- **[FORT-Searcher: Synthesizing Shortcut-Resistant Search Tasks for Training Deep Search Agents](http://arxiv.org/abs/2606.12087v1)**  
-  作者：Deng et al.  
-  一句话：专门合成“反捷径”的搜索任务，提升深度搜索智能体对真实证据链的依赖。
+9. **[Learning What to Say to Your VLA: Mostly Harmless Vision Language Action Model Steering](http://arxiv.org/abs/2606.12299v1)**  
+   作者：Jeong 等  
+   一句话：研究如何用语言更稳健地 steer VLA 行为，重点是让“说什么”与“做什么”之间更可控、更可预测。
+
+---
 
 ### 🔧 方法与框架（新技术、基准测试、效率优化）
 
-- **[Unstable Features, Reproducible Subspaces: Understanding Seed Dependence in Sparse Autoencoders](http://arxiv.org/abs/2606.12138v1)**  
-  作者：Gerasimov et al.  
-  一句话：把 SAE 的“特征不稳定”与“子空间可复现”区分开，推动可解释性从单特征走向结构层面。
+10. **[Reroute, Don't Remove: Recoverable Visual Token Routing for Vision-Language Models](http://arxiv.org/abs/2606.12412v1)**  
+    作者：Yang 等  
+    一句话：不直接删视觉 token，而是做“可恢复路由”，兼顾 VLM 推理效率与信息保真，是当前多模态压缩的实用路线。
 
-- **[A Riemannian Approach to Low-Rank Optimal Transport](http://arxiv.org/abs/2606.12120v1)**  
-  作者：Jawanpuria, Mishra  
-  一句话：用黎曼优化替代纯一阶镜像下降，提升低秩 OT 的几何感知与优化稳定性。
+11. **[Context-Driven Incremental Compression for Multi-Turn Dialogue Generation](http://arxiv.org/abs/2606.12411v1)**  
+    作者：Jung 等  
+    一句话：面向多轮对话提出增量压缩机制，试图解决长对话中上下文越来越贵、但又不能粗暴截断的问题。
 
-- **[Simplicity Suffices for Parameter Noise Injection in Stochastic Gradient Descent](http://arxiv.org/abs/2606.12054v1)**  
-  作者：Leblanc et al.  
-  一句话：系统比较参数噪声注入设计，结论是“简单策略往往足够好”，对训练工程很实用。
+12. **[Doc-to-Atom: Learning to Compile and Compose Memory Atoms](http://arxiv.org/abs/2606.12400v1)**  
+    作者：Diao 等  
+    一句话：把长文档压缩成可组合的“记忆原子”，为长上下文推理提供更结构化的记忆表示。
 
-- **[Online Shift Detection and Conformal Adaptation for Deployed Safety Classifiers](http://arxiv.org/abs/2606.11949v1)**  
-  作者：Leong  
-  一句话：把在线分布漂移检测与 conformal abstention 结合，为已部署安全分类器提供动态防护。
+13. **[Breaking Entropy Bounds: Accelerating RL Training via MTP with Rejection Sampling](http://arxiv.org/abs/2606.12370v1)**  
+    作者：Li 等  
+    一句话：直接瞄准 RL rollout 这一训练瓶颈，用 MTP + rejection sampling 提速，属于“训练系统层”的重要优化。
 
-- **[Runtime Enforcement of Hybrid System Properties](http://arxiv.org/abs/2606.12022v1)**  
-  作者：Sarwar et al.  
-  一句话：把运行时执行约束引入混合系统安全保证，适合自治系统和赛博物理场景。
+14. **[Claw-SWE-Bench: A Benchmark for Evaluating OpenClaw-style Agent Harnesses on Coding Tasks](http://arxiv.org/abs/2606.12344v1)**  
+    作者：Zheng 等  
+    一句话：为通用 agent harness 设计代码任务评测基准，补上了“框架型智能体如何真正测”的缺口。
+
+---
 
 ### 📊 应用（垂直领域、多模态、代码生成）
 
-- **[Bridging the Morphology Gap: Adapting VLA Models to Dexterous Manipulation via Intent-Conditioned Fine-Tuning](http://arxiv.org/abs/2606.12109v1)**  
-  作者：Pang et al.  
-  一句话：解决 VLA 从平行夹爪到高自由度灵巧手的“形态鸿沟”，是机器人泛化的重要一步。
+15. **[TAHOE: Text-to-SQL with Automated Hint Optimization from Experience](http://arxiv.org/abs/2606.12387v1)**  
+    作者：Chen 等  
+    一句话：面向生产级 Text-to-SQL，把经验反馈转成自动 hint 优化，强调复杂数据库场景下的持续适配能力。
 
-- **[DAM-VLA: Decoupled Asynchronous Multimodal Vision Language Action model](http://arxiv.org/abs/2606.12105v1)**  
-  作者：Vanjani et al.  
-  一句话：将视觉、语言、动作按不同时间尺度解耦建模，更贴近真实交互的异步本质。
+16. **[Atlas H&E-TME: Scalable AI-Based Tissue Profiling at Expert Pathologist-Level Accuracy](http://arxiv.org/abs/2606.12346v1)**  
+    作者：Standvoss 等  
+    一句话：把 AI 病理分析推向专家级精度，体现医疗多模态在“可扩展、可量化、可落地”上的进展。
 
-- **[Corpus Augmentation for Sign Language Translation via LLM-Guided Video Stitching](http://arxiv.org/abs/2606.11925v1)**  
-  作者：Robotka et al.  
-  一句话：用 LLM 引导视频拼接扩增手语翻译数据，为低资源 SLT 提供可扩展的数据工程方案。
+17. **[Measuring Epistemic Resilience of LLMs Under Misleading Medical Context](http://arxiv.org/abs/2606.12291v1)**  
+    作者：Zhou 等  
+    一句话：重点评估 LLM 在误导性医疗上下文下是否仍能保持稳健判断，是医疗安全评测的重要补位。
 
-- **[Metadata-Aware Multi-Prompt Reasoning for Zero-Shot Accident Understanding](http://arxiv.org/abs/2606.12047v1)**  
-  作者：Singh et al.  
-  一句话：面向监控视频事故理解的零样本方法，把“何时/何种/何处”三类信息联合起来推理。
-
-- **[Semantic Grading of Written Answers in Low-Resource Language Bangla Using a Fine-Tuned Lightweight Language Model](http://arxiv.org/abs/2606.11931v1)**  
-  作者：Farzana et al.  
-  一句话：用轻量微调模型做孟加拉语语义评分，兼顾教育应用与低资源可部署性。
+18. **[Beyond Third-Person Audits: Situated Interaction Auditing for User-Centered LLM Bias Research](http://arxiv.org/abs/2606.12247v1)**  
+    作者：Abeliuk 等  
+    一句话：从“第三方审计”走向“情境交互审计”，更接近真实用户场景下的偏见与伤害评估。
 
 ---
 
 ## 3) 研究趋势信号
-今天的论文明显从“单纯提升模型能力”转向“**能力、评估、控制三位一体**”：一方面，LLM 评测开始关注格式偏差、judge 偏差与开放式一致性；另一方面，智能体安全研究密集出现，强调拒绝、监控、约束与防泛化攻击。与此同时，方法层面更重视**结构信息、异步时序与几何优化**，说明未来突破很可能来自“把任务结构显式纳入模型与训练过程”，而不是继续堆参数。
+
+今天投稿最强的信号是：**“效率”已经从单纯降 FLOPs，转向可恢复压缩、选择性算力分配和训练-推理协同优化**。另一条主线是**智能体从会行动走向可治理**：credit assignment、人类干预频率、runtime governance、可验证环境等问题正在被系统化处理。最后，评测正明显向真实世界收缩——医疗、代码、病理、对话偏见与安全审计都在强调**鲁棒性、可解释性和部署语境**，而不是只看离线 benchmark 分数。
 
 ---
 
 ## 4) 值得精读
 
-1. **[Towards Responsibly Non-Compliant Machines](http://arxiv.org/abs/2606.12147v1)**  
-   理由：这是“安全 AI”里非常前沿也非常现实的问题定义，涉及何时拒绝、如何拒绝、拒绝的责任边界，值得作为治理与对齐方向的重点阅读。
+1. **[Anatomy of Post-Training: Using Interpretability to Characterize Data and Shape the Learning Signal](http://arxiv.org/abs/2606.12360v1)**  
+   理由：它直接切中 post-training 的核心黑箱，适合想理解“数据如何塑造模型行为”的读者。
 
-2. **[Generalization Hacking: Models Can Game Reinforcement Learning by Preventing Behavioral Generalization](http://arxiv.org/abs/2606.12016v1)**  
-   理由：直接揭示后训练/强化学习中的“对抗性表面服从”风险，对理解模型如何规避训练目标很有价值。
+2. **[The Impossibility of Eliciting Latent Knowledge](http://arxiv.org/abs/2606.12268v1)**  
+   理由：这是对齐与 AI 安全中的关键理论问题，可能对后续“模型是否真的可被诚实提问”产生影响。
 
-3. **[Bootstrapped Monitoring: Leveraging Transparent Reasoning to Oversee Stronger AI Agents](http://arxiv.org/abs/2606.11998v1)**  
-   理由：给出了一个可扩展的监督强代理思路，属于 AI control 方向的实用框架，可能对未来系统设计影响很大。
+3. **[APPO: Agentic Procedural Policy Optimization](http://arxiv.org/abs/2606.12384v1)**  
+   理由：如果你关注智能体训练，这篇很值得看，因为它触及多轮工具使用的信用分配核心难题。
+
+---
 
 如果你愿意，我还可以把这份日报进一步整理成：
-- **适合公众号发布的精简版**
-- **适合研究组晨会的 PPT 版提纲**
-- **按“安全/多模态/机器人/方法”四条线的深度解读版**
+- **面向投资/产业的版本**
+- **面向研究选题的版本**
+- **按“最可能成为高引用论文”排序的版本**
 
 ---
 *本日报由 [agents-radar](https://github.com/leisure3318/agents-radar) 自动生成。*

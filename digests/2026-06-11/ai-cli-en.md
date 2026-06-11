@@ -1,6 +1,6 @@
 # AI CLI Tools Community Digest 2026-06-11
 
-> Generated: 2026-06-11 02:03 UTC | Tools covered: 9
+> Generated: 2026-06-11 04:10 UTC | Tools covered: 9
 
 - [Claude Code](https://github.com/anthropics/claude-code)
 - [OpenAI Codex](https://github.com/openai/codex)
@@ -48,21 +48,21 @@ _(English digest skipped to save LLM tokens — see the Chinese report for full 
 <details>
 <summary><strong>Gemini CLI</strong> — <a href="https://github.com/google-gemini/gemini-cli">google-gemini/gemini-cli</a></summary>
 
-_(English digest skipped to save LLM tokens — see the Chinese report for full details.)_
+No activity in the last 24 hours.
 
 </details>
 
 <details>
 <summary><strong>GitHub Copilot CLI</strong> — <a href="https://github.com/github/copilot-cli">github/copilot-cli</a></summary>
 
-_(English digest skipped to save LLM tokens — see the Chinese report for full details.)_
+No activity in the last 24 hours.
 
 </details>
 
 <details>
 <summary><strong>Kimi Code CLI</strong> — <a href="https://github.com/MoonshotAI/kimi-cli">MoonshotAI/kimi-cli</a></summary>
 
-_(English digest skipped to save LLM tokens — see the Chinese report for full details.)_
+No activity in the last 24 hours.
 
 </details>
 

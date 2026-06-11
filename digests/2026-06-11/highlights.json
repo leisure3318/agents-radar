@@ -1,68 +1,68 @@
 {
   "zh": {
     "ai-cli": [
-      "Claude Code v2.1.172新发",
-      "OpenCode连发v1.17.1-3",
-      "DeepSeek TUI升到v0.8.57",
-      "OpenAI Codex alpha版更新",
-      "Copilot CLI零PR引关注",
-      "TUI稳定性成全场焦点"
+      "Claude Code今日10个Issue",
+      "OpenAI Codex：10 PR同步推进",
+      "OpenCode聚焦Windows与鉴权",
+      "Qwen Code有6个PR在推进",
+      "CLI生态转向IDE/桌面集成",
+      "跨平台稳定性成共同焦点"
     ],
     "ai-agents": [
-      "OpenClaw发v2026.6.6-beta.1",
-      "11 Issues、31 PR高压迭代",
-      "安全边界全面收紧",
-      "MCP stdio成回归重点",
-      "transcripts与继承被收紧",
-      "19个PR已合并落地"
+      "OpenClaw：7 Issue+18 PR",
+      "18个PR全未合并，节奏慢",
+      "#92086上新Security Matrix",
+      "#92021防MCP重放body/method",
+      "Feishu/Slack/Discord齐适配",
+      "消息投递与心跳成焦点"
     ],
     "ai-trending": [
-      "superpowers单日+1104星",
-      "Embodied Robotics合集1815星",
-      "train-llm-from-scratch+247",
-      "picollm主打端侧推理312星",
-      "hivemind瞄准多智能体协作",
-      "MoneyPrinterTurbo热度不减"
+      "Trending榜单今日为空",
+      "AI-For-Beginners仍有48,054星",
+      "唯一入选：AI教育仓库",
+      "社区热度偏向入门课程",
+      "新爆发项目信号不足",
+      "课程化内容更易长尾传播"
     ],
     "ai-web": [
-      "Anthropic发《生物学中的agent》",
-      "gget virus后准确率近100%",
-      "确定性检索层成关键",
-      "Claude/GPT都难稳达标",
-      "OpenAI仅露Oracle Cloud索引",
-      "科研agent先补基础设施"
+      "Anthropic发文：生物学agent",
+      "gget virus后准确率接近100%",
+      "强调确定性检索胜过堆模型",
+      "OpenAI仅新增Oracle Cloud页",
+      "Claude正定义“可用agent”",
+      "科研基础设施需agent友好"
     ],
     "ai-hn": [
-      "Claude桌面起1.8GB VM",
-      "347分/243评引爆争议",
-      "Anthropic命名规律被反推",
-      "Fedora里agent跑偏",
-      "150M模型抽RAG证据",
-      "iPhone本地实时音乐生成"
+      "Anthropic/Fable话题霸榜HN",
+      "Fable护栏帖：289分265评",
+      "Claude Desktop虚拟机帖365分",
+      "模型命名推演帖293分82评",
+      "研究者对护栏反感明显",
+      "价格战与商业化讨论升温"
     ],
     "ai-arxiv": [
-      "nD-RoPE扩展到n维位置",
-      "Soft-Prompt评测更公平",
-      "表示空间版self-consistency",
-      "LLM-as-Judge难判新颖性",
-      "负责地不遵从成研究题",
-      "RL可被泛化对抗钻空子"
+      "MoE路由器重设计成焦点",
+      "Post-Training数据可解释化",
+      "APPO：过程级策略优化",
+      "DIRECT：分配test-time算力",
+      "UniIntervene降人类纠错成本",
+      "潜知识提取不可能成争议"
     ],
     "ai-hf": [
-      "Google diffusiongemma登顶",
-      "237赞但下载为0",
-      "Huihui-Gemma4下载6400次",
-      "Gemma 4社区版更实用",
-      "Gemma生态继续升温",
-      "多模态统一成新焦点"
+      "唯一上榜模型：diffusiongemma",
+      "unsloth作品拿到100赞",
+      "0下载，热度先行",
+      "Gemma 26B多模态变体",
+      "GGUF主打本地部署友好",
+      "社区更看重可直接用"
     ],
     "ai-community": [
-      "Copilot CLI玩转MCP",
-      "Agent把Secrets Manager搞崩",
-      "RAG测试盯检索质量",
-      "Prompt Batching反而更贵",
-      "代码能跑不代表安全",
-      "先给模型补脑子"
+      "监督式vibe coding成共识",
+      "本地AI简历生成器受关注",
+      "全程离线、无云端依赖",
+      "AI Agent SaaS技术栈热议",
+      "变压器涌流话题跨界出圈",
+      "社区更重稳、私密、可控"
     ]
   },
   "en": {}

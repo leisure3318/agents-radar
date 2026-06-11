@@ -1,63 +1,62 @@
 # Hugging Face 热门模型日报 2026-06-11
 
-> 数据来源: [Hugging Face Hub](https://huggingface.co/) | 共 2 个模型 | 生成时间: 2026-06-11 02:03 UTC
+> 数据来源: [Hugging Face Hub](https://huggingface.co/) | 共 1 个模型 | 生成时间: 2026-06-11 04:10 UTC
 
 ---
 
-# Hugging Face 热门模型日报（2026-06-11）
+# Hugging Face 热门模型日报  
+**日期：2026-06-11**
 
 ## 1) 今日速览
-今天的热门榜单几乎被 **Google 的官方大模型/多模态路线** 与 **社区版 Gemma 系列微调** 占据，说明当前生态仍在围绕头部开源底座快速扩展。  
-最受关注的是 **`google/diffusiongemma-26B-A4-it`**，作为 Google 官方模型，点赞数领先，但下载数为 0，像是刚发布或尚未大规模落地。  
-另一边，**`huihui-ai/Huihui-gemma-4-12B-it-abliterated`** 已经拿到 6,400 次下载，反映出社区对 Gemma 4 体系的改造、适配和再分发需求很强。  
-整体来看，趋势正从“单纯聊天 LLM”转向 **统一多模态、可交互、可定制** 的模型形态。
+今天 Hugging Face 热榜模型数量很少，但信号很明确：**社区更关注可本地部署、可量化、易调用的大模型变体**。  
+唯一上榜的是 **unsloth/diffusiongemma-26B-A4B-it-GGUF**，体现出 **Gemma 家族** 仍在持续扩展到多模态/图文场景，并通过 **GGUF** 形式降低部署门槛。  
+从点赞高、下载尚未体现的状态看，这类模型往往处于**发布初期、讨论热度先行**的阶段。  
+整体来看，当前趋势不是单纯追求“更大”，而是更强调**开源权重 + 量化打包 + 本地可用**。
 
 ---
 
 ## 2) 热门模型
 
-### 🎨 多模态与生成
-1. **[google/diffusiongemma-26B-A4-it](https://huggingface.co/google/diffusiongemma-26B-A4-it)**  
-   - 作者：Google  
-   - 点赞数：237  
-   - 下载数：0  
-   - 一句话说明：这是 Google 的官方 **diffusion_gemma** 路线模型，面向图文交互/生成式多模态场景，能冲到榜首说明“官方大模型 + 新架构”依旧最能吸引关注。
-
-2. **[huihui-ai/Huihui-gemma-4-12B-it-abliterated](https://huggingface.co/huihui-ai/Huihui-gemma-4-12B-it-abliterated)**  
-   - 作者：huihui-ai  
-   - 点赞数：135  
-   - 下载数：6,400  
-   - 一句话说明：这是 Gemma 4 的社区改造版，偏 **any-to-any** 多模态/指令交互，下载量高说明它更像“可直接拿来用”的实用派模型。
-
-### 🧠 语言模型（LLM、对话模型、指令微调）
-- 本日报暂无独立的纯语言模型进入热门榜单；当前热度主要集中在多模态与统一交互模型。
+### 🎨 多模态与生成（图像、视频、音频、文本到X）
+#### 1. [unsloth/diffusiongemma-26B-A4B-it-GGUF](https://huggingface.co/unsloth/diffusiongemma-26B-A4B-it-GGUF)
+- **作者**：unsloth  
+- **点赞数**：100  
+- **下载数**：0  
+- **一句话说明**：这是一个面向**图文输入到文本输出**的 Gemma 26B 指令版 GGUF 模型，之所以上榜，主要是因为它结合了 **Google/Gemma 生态热度**、**Unslo​th 的社区分发能力** 和 **GGUF 本地部署友好** 这三重趋势。
 
 ### 🔧 专用模型（代码、数学、医疗、嵌入）
-- 本日报暂无此类模型上榜。
+- 暂无上榜模型
+
+### 🧠 语言模型（LLM、对话模型、指令微调）
+- 暂无上榜模型
 
 ### 📦 微调与量化（社区微调、GGUF、AWQ）
-1. **[huihui-ai/Huihui-gemma-4-12B-it-abliterated](https://huggingface.co/huihui-ai/Huihui-gemma-4-12B-it-abliterated)**  
-   - 作者：huihui-ai  
-   - 点赞数：135  
-   - 下载数：6,400  
-   - 一句话说明：作为社区微调/重塑版本，它代表了“底座模型 + 社区二次加工”的典型热度来源，尤其适合关注开放生态的团队参考。
+#### 1. [unsloth/diffusiongemma-26B-A4B-it-GGUF](https://huggingface.co/unsloth/diffusiongemma-26B-A4B-it-GGUF)
+- **作者**：unsloth  
+- **点赞数**：100  
+- **下载数**：0  
+- **一句话说明**：该模型以 **GGUF** 形式发布，说明社区对**低显存、本地推理、跨平台部署**仍有强需求；它上榜更多反映的是**分发与可用性**优势，而不仅仅是模型本身参数规模。
 
 ---
 
 ## 3) 生态信号
-Gemma 家族热度明显上升，尤其是 **Gemma 4** 与基于其改造的社区版本，说明 Google 的开源底座正在形成更强的生态外溢效应。开源权重仍是主流关注点：官方模型负责“定义方向”，社区模型负责“快速适配与实用化”。本期没有明显量化模型上榜，但 `abliterated` 这类社区微调版很活跃，表明用户对更自由的行为边界与更强可用性仍有强烈需求。
+当前最活跃的仍是 **Gemma 系列** 相关生态，尤其是由社区项目（如 unsloth）包装后的可部署版本，说明开源模型的竞争重点正从“是否开源”转向“**是否能直接用**”。  
+闭源模型在能力上仍有优势，但在 Hugging Face 热榜上，真正能带来讨论热度的，往往是**可下载、可量化、可在本地运行**的开放权重模型。  
+值得注意的是，**GGUF** 这类量化/封装格式持续升温，反映出开发者更重视推理效率、硬件兼容性和落地成本，而不只是基准分数。
 
 ---
 
 ## 4) 值得探索
-1. **[google/diffusiongemma-26B-A4-it](https://huggingface.co/google/diffusiongemma-26B-A4-it)**  
-   理由：官方首发、点赞领先，适合关注新一代多模态生成路线的研究者。
+1. **[unsloth/diffusiongemma-26B-A4B-it-GGUF](https://huggingface.co/unsloth/diffusiongemma-26B-A4B-it-GGUF)**  
+   - 理由：唯一上榜模型，且同时代表了 **Gemma 家族 + 多模态 + GGUF 本地部署** 三个方向，最值得优先关注。
 
-2. **[huihui-ai/Huihui-gemma-4-12B-it-abliterated](https://huggingface.co/huihui-ai/Huihui-gemma-4-12B-it-abliterated)**  
-   理由：下载量高，说明落地价值强，适合观察社区微调如何放大底座模型实用性。
+2. **Gemma 系列的其他社区量化版本**  
+   - 理由：可用于横向比较不同量化策略对效果与速度的影响，判断社区部署生态的成熟度。
 
-3. **Gemma 4 生态整体**  
-   理由：从官方到社区版本都在发力，值得持续跟踪其多模态统一架构与应用扩展。
+3. **同类图文任务的开源替代模型**  
+   - 理由：适合研究多模态开源路线在“可用性”与“效果”之间的权衡，帮助判断后续生态走势。
+
+如需，我也可以把这份日报进一步整理成**适合公众号/内部晨报的版式**，或者补充成**表格版**。
 
 ---
 *本日报由 [agents-radar](https://github.com/leisure3318/agents-radar) 自动生成。*

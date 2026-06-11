@@ -1,86 +1,81 @@
 # AI 开源趋势日报 2026-06-11
 
-> 数据来源: GitHub Trending + GitHub Search API | 生成时间: 2026-06-11 02:03 UTC
+> 数据来源: GitHub Trending + GitHub Search API | 生成时间: 2026-06-11 04:10 UTC
 
 ---
 
 # AI 开源趋势日报｜2026-06-11
 
-## 一、筛选结果
-本日数据中，**明确与 AI/ML 相关**的项目共筛出 **6 个**：
-- Trending：**obra/superpowers、harry0703/MoneyPrinterTurbo、activeloopai/hivemind、FareedKhan-dev/train-llm-from-scratch**
-- Topic 搜索：**zchoi/Awesome-Embodied-Robotics-and-Agent、Picovoice/picollm**
+## 一、数据过滤结果
+本日 GitHub **Trending 榜单为空**，因此无法从实时热榜中提取新增 stars 变化。  
+在 **AI 主题搜索结果**中，仅有 **1 个仓库**明确与 AI/ML 相关，已纳入分析：
 
-已剔除的非 AI 项目包括：**soxoj/maigret、masterking32/MasterDnsVPN、apple/container**；**RuView** 虽带“spatial intelligence”表述，但 AI/ML 技术栈不够明确，未纳入主榜。
-
----
-
-## 二、今日速览
-今天的 AI 开源热度，明显向 **Agent/智能体编排**、**端侧/本地推理** 和 **内容生成应用** 三个方向集中。  
-其中 **superpowers** 与 **hivemind** 代表了“多智能体协作/工作流化”的社区兴趣正在升温。  
-**MoneyPrinterTurbo** 继续验证了“AI + 视频内容生产”仍是最容易吸引 stars 的应用赛道。  
-而 **picollm** 与 **train-llm-from-scratch** 则分别对应“本地部署”与“训练认知/教程化”两类高频需求。  
+- ✅ **microsoft/AI-For-Beginners**  
+  https://github.com/microsoft/AI-For-Beginners  
+  ⭐ 48,054（**今日新增：未提供**）  
+  说明：12 Weeks, 24 Lessons，面向所有人的 AI 入门课程，属于明确的 AI/ML 教育资源。
 
 ---
 
-## 三、各维度热门项目
+## 二、分类结果
+> 说明：本日样本量较小，且唯一入选项目是“AI 教育/学习资源”，并非典型代码工具仓库，因此按最接近维度归类。
+
+- 📦 **AI 应用**
+  - **microsoft/AI-For-Beginners**  
+    https://github.com/microsoft/AI-For-Beginners  
+    这是一个面向开发者和学习者的 AI 入门课程仓库，适合快速建立对 AI/ML 的系统认知，今天值得关注的原因是：高星级、内容体系完整、适合作为 AI 普及与入门入口。
+
+---
+
+## 三、今日速览
+1. 今天没有抓取到 GitHub Trending 榜单，因此“实时爆发型项目”信号不足，市场热度主要来自主题搜索结果。  
+2. 唯一入选项目是 **AI 教育/学习资源**，说明当前社区对“可立即上手的 AI 知识体系”仍有稳定需求。  
+3. 从仓库形态看，今天的 AI 热点并非新的基础设施或 Agent 框架，而是偏向“入门、普及、课程化”的内容型项目。  
+4. 这类项目通常具备长尾传播能力，适合作为团队内部培训、课程教学和 AI 认知补课的基础材料。  
+
+---
+
+## 四、各维度热门项目
+
+> 说明：由于本日仅命中 1 个 AI 项目，其余维度暂无可入选仓库；以下按维度展示命中情况。
 
 ### 🔧 AI 基础工具
-> 本维度以框架、SDK、推理引擎、开发工具为主，以下项目兼具“工具 + 工作流”属性。
-
-- [Picovoice/picollm](https://github.com/Picovoice/picollm) ｜ ⭐312 ｜ **on-device LLM inference**，主打 X-Bit 量化与端侧部署，代表本周“轻量化、本地化”推理需求。
-- [obra/superpowers](https://github.com/obra/superpowers) ｜ ⭐0（+1104 今日） ｜ “agentic skills framework & software development methodology”，偏工程化的 AI 开发方法论，今天涨星最猛之一。
-- [activeloopai/hivemind](https://github.com/activeloopai/hivemind) ｜ ⭐0（+64 今日） ｜ “One brain for all your agents”，更像多智能体协同/编排底座，适合做 agent 平台能力参考。
-- [FareedKhan-dev/train-llm-from-scratch](https://github.com/FareedKhan-dev/train-llm-from-scratch) ｜ ⭐0（+247 今日） ｜ 从数据到文本生成的 LLM 训练入门项目，偏开发者工具链与学习脚手架。
+- 暂无入选项目
 
 ### 🤖 AI 智能体 / 工作流
-> 今日最显著的趋势之一：从“单点模型能力”转向“可执行、可协作的智能体系统”。
-
-- [obra/superpowers](https://github.com/obra/superpowers) ｜ ⭐0（+1104 今日） ｜ 直接指向 agentic 开发范式，说明社区对“用 agent 组织软件开发”兴趣极高。
-- [activeloopai/hivemind](https://github.com/activeloopai/hivemind) ｜ ⭐0（+64 今日） ｜ 以“一个大脑驱动所有 agents”为核心叙事，明显属于多智能体协同方向。
-- [zchoi/Awesome-Embodied-Robotics-and-Agent](https://github.com/zchoi/Awesome-Embodied-Robotics-and-Agent) ｜ ⭐1,815 ｜ 具身智能/机器人 + LLM 研究合集，反映出“Agent + 真实世界交互”持续升温。
+- 暂无入选项目
 
 ### 📦 AI 应用
-> 这里主要是可直接使用的具体产品或垂直场景方案。
-
-- [harry0703/MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo) ｜ ⭐0（+1389 今日） ｜ 利用 AI 大模型一键生成短视频，是今天最强的消费级 AI 应用热点之一。
-- [zchoi/Awesome-Embodied-Robotics-and-Agent](https://github.com/zchoi/Awesome-Embodied-Robotics-and-Agent) ｜ ⭐1,815 ｜ 虽是资源型仓库，但它直接服务于具身智能应用落地，可视作应用方向的研究入口。
+- **microsoft/AI-For-Beginners**  
+  https://github.com/microsoft/AI-For-Beginners  
+  ⭐ 48,054（今日新增未提供）  
+  一句话说明：AI 入门课程仓库，内容系统、覆盖面广，适合开发者快速建立 AI 基础知识框架。
 
 ### 🧠 大模型 / 训练
-> 反映社区对“从零理解模型”和“训练/复现路径”的持续关注。
-
-- [FareedKhan-dev/train-llm-from-scratch](https://github.com/FareedKhan-dev/train-llm-from-scratch) ｜ ⭐0（+247 今日） ｜ 典型的“从零训练 LLM”教程型项目，适合观察训练管线与工程实践。
-- [Picovoice/picollm](https://github.com/Picovoice/picollm) ｜ ⭐312 ｜ 虽偏推理，但其端侧量化思路直接服务于大模型落地与部署优化。
-- [zchoi/Awesome-Embodied-Robotics-and-Agent](https://github.com/zchoi/Awesome-Embodied-Robotics-and-Agent) ｜ ⭐1,815 ｜ 具身智能与 LLM 结合，代表“模型 + 环境交互”这一新研究方向。
+- 暂无入选项目
 
 ### 🔍 RAG / 知识库
-> 本日数据中**未检出明确的 RAG / 知识库热门项目**。  
-> 说明今天的社区注意力更集中在 **Agent、端侧推理、训练学习和内容生成**，而不是传统检索增强链路。
+- 暂无入选项目
 
 ---
 
-## 四、趋势信号分析
-今天的开源热度明显偏向 **agentic systems**：superpowers、hivemind 以及具身智能资源仓共同说明，社区正在从“问答式模型”转向“能规划、能执行、能协作”的智能体体系。与此同时，**端侧 LLM** 方向继续升温，Picollm 这类轻量推理项目反映出本地部署、隐私和低延迟需求在增加。另一方面，train-llm-from-scratch 这类“从零训练/复现”仓库依旧有稳定关注，说明开发者仍强烈需要可学习、可复现的训练路径。应用层上，MoneyPrinterTurbo 的爆发式涨星再次证明：**AI 视频/内容生成** 仍是最容易从技术 demo 迅速扩散到大众开发者圈的方向。整体看，开源生态正在沿着 **智能体编排、端侧推理、垂直应用** 三条主线加速演进。
+## 五、趋势信号分析
+今天的样本显示，社区对 AI 的关注仍然强烈，但**热度并不集中在新框架、推理引擎或智能体编排工具**，而是落在**教育型、普及型项目**上。`AI-For-Beginners` 这类仓库持续获得高星，说明大量开发者仍处于“从了解 AI 到动手实践”的过渡阶段，市场对低门槛、体系化的学习资源需求很稳。由于 Trending 榜单缺失，无法观察到短周期的爆发式新技术栈；但从主题搜索结果看，当前更像是 AI 生态进入“知识普及 + 工程落地准备”的阶段，而非单点技术突破期。结合这一信号，近期社区关注重点更可能集中在：如何快速理解 AI、如何把 AI 能力嵌入现有工作流、以及如何为后续大模型应用开发做准备。
 
 ---
 
-## 五、社区关注热点
-- **[harry0703/MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo)**  
-  视频生成应用直接面向创作需求，传播性强、落地快，是最典型的“高星应用型项目”。
+## 六、社区关注热点
+- **AI 入门课程与学习路径**：高星教育仓库依然受欢迎，说明“系统学习 AI”仍是大量开发者的刚需。  
+- **低门槛 AI 普及内容**：相比复杂工程栈，内容清晰、结构完整的学习资源更容易获得持续传播。  
+- **企业/团队 AI 培训资料**：这类仓库可直接作为内部训练材料，实用性强。  
+- **AI 应用开发前置知识库**：开发者正在补齐从概念、数据到模型应用的基础能力。  
+- **课程化、模块化项目形态**：分周、分课、可复用的教材型仓库更容易在社区获得长期关注。  
 
-- **[obra/superpowers](https://github.com/obra/superpowers)**  
-  涨星极快，说明“agent 驱动的软件开发方法论”已经成为社区新焦点。
+---
 
-- **[activeloopai/hivemind](https://github.com/activeloopai/hivemind)**  
-  多智能体协作底座的概念很强，适合关注 agent 平台化与编排层演进。
-
-- **[Picovoice/picollm](https://github.com/Picovoice/picollm)**  
-  端侧 LLM 推理代表作之一，本地化、轻量化是未来一段时间的高频关键词。
-
-- **[zchoi/Awesome-Embodied-Robotics-and-Agent](https://github.com/zchoi/Awesome-Embodied-Robotics-and-Agent)**  
-  具身智能与 LLM 结合持续升温，值得持续跟踪“Agent 进入物理世界”的研究与工程路径。  
-
-如果你愿意，我还可以把这份日报进一步整理成 **表格版 / 适合公众号发布的版式 / 英文版**。
+如果你愿意，我也可以把这份日报进一步整理成：
+1. **适合公众号发布的精简版**，或  
+2. **适合内部周报的表格版**。
 
 ---
 *本日报由 [agents-radar](https://github.com/leisure3318/agents-radar) 自动生成。*
