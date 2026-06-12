@@ -1,0 +1,69 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Codex连发5个alpha版",
+      "Claude Code推v2.1.174",
+      "OpenCode与Pi各10个PR",
+      "DeepSeek TUI上v0.8.58",
+      "Copilot CLI回归集中爆发",
+      "Qwen Code出preview.2"
+    ],
+    "ai-agents": [
+      "OpenClaw：16个Issue、48个PR",
+      "2个cron修复已合并",
+      "数据丢失和卡死成焦点",
+      "Telegram富消息在补强",
+      "多账号隔离继续优化",
+      "项目高活跃但未发版"
+    ],
+    "ai-trending": [
+      "agency-agents今日+1599星",
+      "SkillSpector安全扫描+319星",
+      "sia自我改进框架+199星",
+      "agentsview会话分析+114星",
+      "SCAIL-2主打图生视频",
+      "热点转向Agent治理"
+    ],
+    "ai-web": [
+      "DXC将Claude接入受监管行业",
+      "数万名FDE将获Claude认证",
+      "Claude成DXC平台默认底座",
+      "Claude Corps投1.5亿美元",
+      "千名fellows进非营利组织",
+      "Anthropic押注企业交付"
+    ],
+    "ai-hn": [
+      "Fable隐形guardrails引爆争议",
+      "热帖320分、306评论",
+      "Claude Fable 5仅236分",
+      "离线跑Claude Code走红",
+      "M3 Pro+Qwen3.6气隙部署",
+      "MTG Bench测LLM打魔法"
+    ],
+    "ai-arxiv": [
+      "MiniMax Sparse Attention登场",
+      "ReSum把推理和总结合训",
+      "KV Cache复用成新焦点",
+      "MaxProof冲击数学证明",
+      "Instructions-as-Code崛起",
+      "提示注入与鲁棒性升温"
+    ],
+    "ai-hf": [
+      "SCAIL-2图生视频拿116赞",
+      "MiMo FP4版获86赞",
+      "MiMo下载660次偏部署",
+      "FP4量化成新关注点",
+      "可控视频生成继续升温",
+      "榜单仅2个模型入选"
+    ],
+    "ai-community": [
+      "Google ADK谈5层防注入",
+      "Agent修好限流也会静默失败",
+      "RAG测试盯边界条件",
+      "混合检索补向量短板",
+      "Prompt DSL省70%系统词",
+      "开发者关注代码启蒙变化"
+    ]
+  },
+  "en": {}
+}
