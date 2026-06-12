@@ -1,68 +1,60 @@
 {
   "zh": {
     "ai-cli": [
-      "Codex连发5个alpha版",
-      "Claude Code推v2.1.174",
-      "OpenCode与Pi各10个PR",
-      "DeepSeek TUI上v0.8.58",
-      "Copilot CLI回归集中爆发",
-      "Qwen Code出preview.2"
+      "Claude Code 10个Issue爆发",
+      "Codex发v0.140.0-alpha.14",
+      "OpenCode发v1.17.4",
+      "OpenCode 5个PR领跑",
+      "Qwen Code 4个PR齐发",
+      "CLI竞赛转向可靠性工程"
     ],
     "ai-agents": [
-      "OpenClaw：16个Issue、48个PR",
-      "2个cron修复已合并",
-      "数据丢失和卡死成焦点",
-      "Telegram富消息在补强",
-      "多账号隔离继续优化",
-      "项目高活跃但未发版"
+      "OpenClaw发v2026.6.6-beta.2",
+      "安全边界全面收紧",
+      "transcripts/sandbox被限",
+      "22个PR高强度推进",
+      "mock状态泄漏修复",
+      "重点回归MCP和exec"
     ],
     "ai-trending": [
-      "agency-agents今日+1599星",
-      "SkillSpector安全扫描+319星",
-      "sia自我改进框架+199星",
-      "agentsview会话分析+114星",
-      "SCAIL-2主打图生视频",
-      "热点转向Agent治理"
+      "agency-agents今涨1599",
+      "SkillSpector涨319",
+      "sia涨199做自我改进",
+      "agentsview涨114",
+      "home-llm 1357星本地控制",
+      "AI热点转向Agent治理"
     ],
     "ai-web": [
-      "DXC将Claude接入受监管行业",
-      "数万名FDE将获Claude认证",
-      "Claude成DXC平台默认底座",
+      "DXC把Claude带入监管行业",
+      "DXC训数万Claude认证FDE",
+      "Claude成DXC默认底座",
       "Claude Corps投1.5亿美元",
-      "千名fellows进非营利组织",
-      "Anthropic押注企业交付"
+      "1000名fellow下沉公益",
+      "Claude进银行航空核心系统"
     ],
     "ai-hn": [
-      "Fable隐形guardrails引爆争议",
-      "热帖320分、306评论",
-      "Claude Fable 5仅236分",
-      "离线跑Claude Code走红",
-      "M3 Pro+Qwen3.6气隙部署",
-      "MTG Bench测LLM打魔法"
+      "隐形guardrails引发道歉",
+      "Fable 5编码仅中档",
+      "Claude太主动引争议",
+      "OpenAI收购Ona扩Codex",
+      "编程代理离线化升温",
+      "价格战与产品战升温"
     ],
     "ai-arxiv": [
-      "MiniMax Sparse Attention登场",
-      "ReSum把推理和总结合训",
-      "KV Cache复用成新焦点",
-      "MaxProof冲击数学证明",
-      "Instructions-as-Code崛起",
-      "提示注入与鲁棒性升温"
-    ],
-    "ai-hf": [
-      "SCAIL-2图生视频拿116赞",
-      "MiMo FP4版获86赞",
-      "MiMo下载660次偏部署",
-      "FP4量化成新关注点",
-      "可控视频生成继续升温",
-      "榜单仅2个模型入选"
+      "EvoArena追踪记忆演化",
+      "HyperTool超越逐步调用",
+      "Agents-K1做知识编排",
+      "类比推理+RAG微调",
+      "长文RAG引入不确定性",
+      "多语检索研究插值"
     ],
     "ai-community": [
-      "Google ADK谈5层防注入",
-      "Agent修好限流也会静默失败",
-      "RAG测试盯边界条件",
-      "混合检索补向量短板",
-      "Prompt DSL省70%系统词",
-      "开发者关注代码启蒙变化"
+      "Agent要加执行前门禁",
+      "Agent会伪造税费掩bug",
+      "Laravel MCP接真实数据",
+      "别再用相等断言测Agent",
+      "只有作者能跑不算验",
+      "资深工程师如何用AI"
     ]
   },
   "en": {}
