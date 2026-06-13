@@ -1,60 +1,52 @@
 {
   "zh": {
     "ai-cli": [
-      "Claude Code 连发 v2.1.175~177",
-      "Codex 连推 3 个 alpha",
-      "Qwen Code 正式版 v0.18.0",
-      "DeepSeek TUI 升级 v0.8.59",
-      "Pi 更新到 v0.79.2",
-      "Copilot CLI 发布 v1.0.62-1"
+      "Claude Code 10个Issue集中修复",
+      "OpenAI Codex 8 Issue+12 PR",
+      "OpenCode 4 Issue+6 PR",
+      "Pi后台代理ESC停止修复",
+      "Qwen Code补工具结果丢失",
+      "Kimi Code CLI获1个PR"
     ],
     "ai-agents": [
-      "OpenClaw 发布 v2026.6.6",
-      "23 Issues + 45 PR 爆发",
-      "安全边界全面收紧",
-      "MCP stdio 权限被管控",
-      "Codex HTTP 访问被限制",
-      "loopback 与群组权限重审"
+      "OpenClaw：6 Issue+37 PR",
+      "doctor误报本地memory修复",
+      "Feishu上下文泄漏补丁#92593",
+      "isolated cron投递持久化修复",
+      "任务取消联动active cron",
+      "WhatsApp ACP绑定兼容修复"
     ],
     "ai-trending": [
-      "LMCache 今日 +28 星",
-      "caveman 收获 71,955 星",
-      "Claude Code 省 65% token",
-      "KV Cache 加速成焦点",
-      "长上下文推理继续升温",
-      "代码代理省 token 走红"
+      "LMCache +28 stars领跑",
+      "LMCache主打KV Cache加速",
+      "caveman获71,955星关注",
+      "caveman可省65% token",
+      "热点转向推理降本提速",
+      "Agent工作流优化升温"
     ],
     "ai-web": [
-      "Fable 5/Mythos 5 被停用",
-      "美国政府下达访问禁令",
-      "TCS 牵手 Claude",
-      "5 万员工先用 Claude",
-      "56 国受监管行业落地",
-      "Claude 开始做化学家"
+      "Claude Fable 5/Mythos 5上线",
+      "定位最强安全可用模型",
+      "高风险主题回退Opus 4.8",
+      "护栏触发率低于5%会话",
+      "发布后短暂暂停访问",
+      "Mythos-class 1模型露出"
     ],
     "ai-hn": [
-      "Fable 5/Mythos 5 刷屏",
-      "Claude Fable-5 越狱帖",
-      "Prompting Fable 5 文档",
-      "OpenAI 与 Anthropic 价格战",
-      "bulk delete Claude chats 工具",
-      "N-day exploits 研究热议"
-    ],
-    "ai-hf": [
-      "Kimi-K2.7-Code 342 赞领跑",
-      "MiniMax-M3 257 赞/442 下",
-      "Qwopus3.6 GGUF 上榜",
-      "Realism Engine 84 赞",
-      "多模态模型继续霸榜",
-      "GGUF 本地部署热度高"
+      "Claude删聊天脚本53分18评",
+      "BitBoard：Agent分析台37/19",
+      "My Claude Code Setup受关注",
+      "Fable 5提示工程指南",
+      "LLM鬼作者/人格研究",
+      "N-day漏洞风险测量"
     ],
     "ai-community": [
-      "AWS Agent Toolkit 12赞3评",
-      "AI Agents 的 5 个转变",
-      "skillscore CLI 5赞1评",
-      "Flutter Agent Skill 5赞0评",
-      "RAG 测试框架从零搭建",
-      "Memory Store 防遗忘"
+      "DiffusionGemma 5赞：1000 t/s",
+      "AI Gateways：106x成本难题",
+      "Agent Sandbox逃逸检测",
+      "MoE原理与适用场景",
+      "OpenAI Agents SDK实战",
+      "Zo Computer七子系统重建"
     ]
   },
   "en": {}

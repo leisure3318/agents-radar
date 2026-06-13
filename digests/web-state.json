@@ -1,6 +1,6 @@
 {
   "anthropic": {
-    "lastChecked": "2026-06-13T01:40:07.121Z",
+    "lastChecked": "2026-06-13T03:59:40.469Z",
     "seenUrls": {
       "https://www.anthropic.com/news/responsible-scaling-policy-v3": "2026-02-25T23:57:06.000Z",
       "https://www.anthropic.com/research/deprecation-updates-opus-3": "2026-02-25T20:58:11.000Z",
@@ -379,7 +379,7 @@
       "https://www.anthropic.com/news/claude-opus-4-8": "2026-06-01T10:18:23.000Z",
       "https://www.anthropic.com/news/milan-office-opening": "2026-05-28T13:00:32.000Z",
       "https://www.anthropic.com/research/agents-in-biology": "2026-06-10T15:16:01.000Z",
-      "https://www.anthropic.com/news/claude-fable-5-mythos-5": "2026-06-09T20:27:50.000Z",
+      "https://www.anthropic.com/news/claude-fable-5-mythos-5": "2026-06-13T02:30:15.000Z",
       "https://www.anthropic.com/news/dxc-anthropic-alliance": "2026-06-11T18:00:23.000Z",
       "https://www.anthropic.com/news/claude-corps": "2026-06-11T13:36:07.000Z",
       "https://www.anthropic.com/news/fable-mythos-access": "2026-06-13T01:13:41.000Z",
@@ -388,7 +388,7 @@
     }
   },
   "openai": {
-    "lastChecked": "2026-06-13T01:39:59.121Z",
+    "lastChecked": "2026-06-13T03:59:40.762Z",
     "seenUrls": {
       "https://openai.com/index/arvind-kc-chief-people-officer/": "2026-05-29T00:25:33.242Z",
       "https://openai.com/index/put-ai-to-work-for-your-product-team/": "2026-06-12T04:05:36.713Z",
@@ -1097,7 +1097,7 @@
       "https://openai.com/index/built-to-benefit-everyone-our-plan/": "2026-06-12T11:17:59.057Z",
       "https://openai.com/index/openai-submits-confidential-s-1/": "2026-06-12T11:52:37.652Z",
       "https://openai.com/index/economic-research-exchange/": "2026-06-12T23:05:32.815Z",
-      "https://openai.com/index/openai-on-oracle-cloud/": "2026-06-12T19:48:05.305Z",
+      "https://openai.com/index/openai-on-oracle-cloud/": "2026-06-13T02:34:57.134Z",
       "https://openai.com/index/openai-to-acquire-ona/": "2026-06-12T19:00:19.192Z"
     }
   }
