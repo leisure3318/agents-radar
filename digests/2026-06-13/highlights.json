@@ -1,0 +1,61 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code 连发 v2.1.175~177",
+      "Codex 连推 3 个 alpha",
+      "Qwen Code 正式版 v0.18.0",
+      "DeepSeek TUI 升级 v0.8.59",
+      "Pi 更新到 v0.79.2",
+      "Copilot CLI 发布 v1.0.62-1"
+    ],
+    "ai-agents": [
+      "OpenClaw 发布 v2026.6.6",
+      "23 Issues + 45 PR 爆发",
+      "安全边界全面收紧",
+      "MCP stdio 权限被管控",
+      "Codex HTTP 访问被限制",
+      "loopback 与群组权限重审"
+    ],
+    "ai-trending": [
+      "LMCache 今日 +28 星",
+      "caveman 收获 71,955 星",
+      "Claude Code 省 65% token",
+      "KV Cache 加速成焦点",
+      "长上下文推理继续升温",
+      "代码代理省 token 走红"
+    ],
+    "ai-web": [
+      "Fable 5/Mythos 5 被停用",
+      "美国政府下达访问禁令",
+      "TCS 牵手 Claude",
+      "5 万员工先用 Claude",
+      "56 国受监管行业落地",
+      "Claude 开始做化学家"
+    ],
+    "ai-hn": [
+      "Fable 5/Mythos 5 刷屏",
+      "Claude Fable-5 越狱帖",
+      "Prompting Fable 5 文档",
+      "OpenAI 与 Anthropic 价格战",
+      "bulk delete Claude chats 工具",
+      "N-day exploits 研究热议"
+    ],
+    "ai-hf": [
+      "Kimi-K2.7-Code 342 赞领跑",
+      "MiniMax-M3 257 赞/442 下",
+      "Qwopus3.6 GGUF 上榜",
+      "Realism Engine 84 赞",
+      "多模态模型继续霸榜",
+      "GGUF 本地部署热度高"
+    ],
+    "ai-community": [
+      "AWS Agent Toolkit 12赞3评",
+      "AI Agents 的 5 个转变",
+      "skillscore CLI 5赞1评",
+      "Flutter Agent Skill 5赞0评",
+      "RAG 测试框架从零搭建",
+      "Memory Store 防遗忘"
+    ]
+  },
+  "en": {}
+}
