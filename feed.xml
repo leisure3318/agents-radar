@@ -6,7 +6,485 @@
     <description>AI 开源生态每日简报 · Daily AI ecosystem digest</description>
     <language>zh-CN</language>
     <atom:link href="https://duanyytop.github.io/agents-radar/feed.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Sat, 13 Jun 2026 04:04:38 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 14 Jun 2026 02:01:27 +0000</lastBuildDate>
+    <item>
+      <title>AI CLI 工具社区动态日报 2026-06-14</title>
+      <link>https://duanyytop.github.io/agents-radar/#2026-06-14/ai-cli</link>
+      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-06-14/ai-cli</guid>
+      <pubDate>Sun, 14 Jun 2026 00:00:00 +0000</pubDate>
+      <description>AI CLI 工具社区动态日报 2026-06-14 生成时间: 2026-06-14 01:58 UTC | 覆盖工具: 9 个 Claude Code OpenAI Codex Gemini CLI GitHub Copilot CLI Kimi Code CLI OpenCode Pi Qwen Code DeepSeek TUI Claude Code Skills 横向对比 各工具详细报告 Claude Code — anthropics/claude-code Claude Code Skills 社区热点 数据来源: anthropics/skills ⚠️ Skills 摘要生成失败。 ⚠️ 摘要生成失败。 OpenAI Codex — openai/codex ⚠️ 摘要生成失败。 Gemini CLI — google-gemini/gemini-cli ⚠️ 摘要生成失败。 GitHub Copilot CLI — github/copilot-cli ⚠️ 摘要生成失败。 Kimi Code CLI — MoonshotAI/kimi-cli ⚠️ 摘要生成失败...</description>
+      <content:encoded><![CDATA[<h1>AI CLI 工具社区动态日报 2026-06-14</h1>
+<blockquote>
+<p>生成时间: 2026-06-14 01:58 UTC | 覆盖工具: 9 个</p>
+</blockquote>
+<ul>
+<li><a href="https://github.com/anthropics/claude-code">Claude Code</a></li>
+<li><a href="https://github.com/openai/codex">OpenAI Codex</a></li>
+<li><a href="https://github.com/google-gemini/gemini-cli">Gemini CLI</a></li>
+<li><a href="https://github.com/github/copilot-cli">GitHub Copilot CLI</a></li>
+<li><a href="https://github.com/MoonshotAI/kimi-cli">Kimi Code CLI</a></li>
+<li><a href="https://github.com/anomalyco/opencode">OpenCode</a></li>
+<li><a href="https://github.com/badlogic/pi-mono">Pi</a></li>
+<li><a href="https://github.com/QwenLM/qwen-code">Qwen Code</a></li>
+<li><a href="https://github.com/Hmbown/DeepSeek-TUI">DeepSeek TUI</a></li>
+<li><a href="https://github.com/anthropics/skills">Claude Code Skills</a></li>
+</ul>
+<hr>
+<h2>横向对比</h2>
+<hr>
+<h2>各工具详细报告</h2>
+<details>
+<summary><strong>Claude Code</strong> — <a href="https://github.com/anthropics/claude-code">anthropics/claude-code</a></summary>
+
+<h2>Claude Code Skills 社区热点</h2>
+<blockquote>
+<p>数据来源: <a href="https://github.com/anthropics/skills">anthropics/skills</a></p>
+</blockquote>
+<p>⚠️ Skills 摘要生成失败。</p>
+<hr>
+<p>⚠️ 摘要生成失败。</p>
+</details>
+
+<details>
+<summary><strong>OpenAI Codex</strong> — <a href="https://github.com/openai/codex">openai/codex</a></summary>
+
+<p>⚠️ 摘要生成失败。</p>
+</details>
+
+<details>
+<summary><strong>Gemini CLI</strong> — <a href="https://github.com/google-gemini/gemini-cli">google-gemini/gemini-cli</a></summary>
+
+<p>⚠️ 摘要生成失败。</p>
+</details>
+
+<details>
+<summary><strong>GitHub Copilot CLI</strong> — <a href="https://github.com/github/copilot-cli">github/copilot-cli</a></summary>
+
+<p>⚠️ 摘要生成失败。</p>
+</details>
+
+<details>
+<summary><strong>Kimi Code CLI</strong> — <a href="https://github.com/MoonshotAI/kimi-cli">MoonshotAI/kimi-cli</a></summary>
+
+<p>⚠️ 摘要生成失败。</p>
+</details>
+
+<details>
+<summary><strong>OpenCode</strong> — <a href="https://github.com/anomalyco/opencode">anomalyco/opencode</a></summary>
+
+<p>⚠️ 摘要生成失败。</p>
+</details>
+
+<details>
+<summary><strong>Pi</strong> — <a href="https://github.com/badlogic/pi-mono">badlogic/pi-mono</a></summary>
+
+<p>⚠️ 摘要生成失败。</p>
+</details>
+
+<details>
+<summary><strong>Qwen Code</strong> — <a href="https://github.com/QwenLM/qwen-code">QwenLM/qwen-code</a></summary>
+
+<p>⚠️ 摘要生成失败。</p>
+</details>
+
+<details>
+<summary><strong>DeepSeek TUI</strong> — <a href="https://github.com/Hmbown/DeepSeek-TUI">Hmbown/DeepSeek-TUI</a></summary>
+
+<p>⚠️ 摘要生成失败。</p>
+</details>
+
+<hr>
+<p><em>本日报由 <a href="https://github.com/leisure3318/agents-radar">agents-radar</a> 自动生成。</em></p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>AI CLI Tools Digest 2026-06-14</title>
+      <link>https://duanyytop.github.io/agents-radar/#2026-06-14/ai-cli-en</link>
+      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-06-14/ai-cli-en</guid>
+      <pubDate>Sun, 14 Jun 2026 00:00:00 +0000</pubDate>
+      <description>AI CLI Tools Community Digest 2026-06-14 Generated: 2026-06-14 01:58 UTC | Tools covered: 9 Claude Code OpenAI Codex Gemini CLI GitHub Copilot CLI Kimi Code CLI OpenCode Pi Qwen Code DeepSeek TUI Claude Code Skills Cross-Tool Comparison (English digest skipped to save LLM tokens — see the Chinese report for full details.) Per-Tool Reports Claude Code — anthropics/claude-code Claude Code Skills Highlights Source: anthropics/skills (English digest skipped to save LLM tokens — see the Chinese repor...</description>
+      <content:encoded><![CDATA[<h1>AI CLI Tools Community Digest 2026-06-14</h1>
+<blockquote>
+<p>Generated: 2026-06-14 01:58 UTC | Tools covered: 9</p>
+</blockquote>
+<ul>
+<li><a href="https://github.com/anthropics/claude-code">Claude Code</a></li>
+<li><a href="https://github.com/openai/codex">OpenAI Codex</a></li>
+<li><a href="https://github.com/google-gemini/gemini-cli">Gemini CLI</a></li>
+<li><a href="https://github.com/github/copilot-cli">GitHub Copilot CLI</a></li>
+<li><a href="https://github.com/MoonshotAI/kimi-cli">Kimi Code CLI</a></li>
+<li><a href="https://github.com/anomalyco/opencode">OpenCode</a></li>
+<li><a href="https://github.com/badlogic/pi-mono">Pi</a></li>
+<li><a href="https://github.com/QwenLM/qwen-code">Qwen Code</a></li>
+<li><a href="https://github.com/Hmbown/DeepSeek-TUI">DeepSeek TUI</a></li>
+<li><a href="https://github.com/anthropics/skills">Claude Code Skills</a></li>
+</ul>
+<hr>
+<h2>Cross-Tool Comparison</h2>
+<p><em>(English digest skipped to save LLM tokens — see the Chinese report for full details.)</em></p>
+<hr>
+<h2>Per-Tool Reports</h2>
+<details>
+<summary><strong>Claude Code</strong> — <a href="https://github.com/anthropics/claude-code">anthropics/claude-code</a></summary>
+
+<h2>Claude Code Skills Highlights</h2>
+<blockquote>
+<p>Source: <a href="https://github.com/anthropics/skills">anthropics/skills</a></p>
+</blockquote>
+<p><em>(English digest skipped to save LLM tokens — see the Chinese report for full details.)</em></p>
+<hr>
+<p><em>(English digest skipped to save LLM tokens — see the Chinese report for full details.)</em></p>
+</details>
+
+<details>
+<summary><strong>OpenAI Codex</strong> — <a href="https://github.com/openai/codex">openai/codex</a></summary>
+
+<p><em>(English digest skipped to save LLM tokens — see the Chinese report for full details.)</em></p>
+</details>
+
+<details>
+<summary><strong>Gemini CLI</strong> — <a href="https://github.com/google-gemini/gemini-cli">google-gemini/gemini-cli</a></summary>
+
+<p><em>(English digest skipped to save LLM tokens — see the Chinese report for full details.)</em></p>
+</details>
+
+<details>
+<summary><strong>GitHub Copilot CLI</strong> — <a href="https://github.com/github/copilot-cli">github/copilot-cli</a></summary>
+
+<p><em>(English digest skipped to save LLM tokens — see the Chinese report for full details.)</em></p>
+</details>
+
+<details>
+<summary><strong>Kimi Code CLI</strong> — <a href="https://github.com/MoonshotAI/kimi-cli">MoonshotAI/kimi-cli</a></summary>
+
+<p><em>(English digest skipped to save LLM tokens — see the Chinese report for full details.)</em></p>
+</details>
+
+<details>
+<summary><strong>OpenCode</strong> — <a href="https://github.com/anomalyco/opencode">anomalyco/opencode</a></summary>
+
+<p><em>(English digest skipped to save LLM tokens — see the Chinese report for full details.)</em></p>
+</details>
+
+<details>
+<summary><strong>Pi</strong> — <a href="https://github.com/badlogic/pi-mono">badlogic/pi-mono</a></summary>
+
+<p><em>(English digest skipped to save LLM tokens — see the Chinese report for full details.)</em></p>
+</details>
+
+<details>
+<summary><strong>Qwen Code</strong> — <a href="https://github.com/QwenLM/qwen-code">QwenLM/qwen-code</a></summary>
+
+<p><em>(English digest skipped to save LLM tokens — see the Chinese report for full details.)</em></p>
+</details>
+
+<details>
+<summary><strong>DeepSeek TUI</strong> — <a href="https://github.com/Hmbown/DeepSeek-TUI">Hmbown/DeepSeek-TUI</a></summary>
+
+<p><em>(English digest skipped to save LLM tokens — see the Chinese report for full details.)</em></p>
+</details>
+
+<hr>
+<p><em>This digest is auto-generated by <a href="https://github.com/leisure3318/agents-radar">agents-radar</a>.</em></p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>AI Agents 生态日报 2026-06-14</title>
+      <link>https://duanyytop.github.io/agents-radar/#2026-06-14/ai-agents</link>
+      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-06-14/ai-agents</guid>
+      <pubDate>Sun, 14 Jun 2026 00:00:00 +0000</pubDate>
+      <description>OpenClaw 生态日报 2026-06-14 Issues: 5 | PRs: 34 | 覆盖项目: 13 个 | 生成时间: 2026-06-14 01:58 UTC OpenClaw NanoBot Hermes Agent PicoClaw NanoClaw NullClaw IronClaw LobsterAI TinyClaw Moltis CoPaw ZeptoClaw ZeroClaw OpenClaw 项目深度报告 ⚠️ 摘要生成失败。 横向生态对比 同赛道项目详细报告 NanoBot — HKUDS/nanobot ⚠️ 摘要生成失败。 Hermes Agent — nousresearch/hermes-agent ⚠️ 摘要生成失败。 PicoClaw — sipeed/picoclaw ⚠️ 摘要生成失败。 NanoClaw — qwibitai/nanoclaw ⚠️ 摘要生成失败。 NullClaw — nullclaw/nullclaw ⚠️ 摘要生成失败。 IronClaw — nearai/ironclaw ⚠️ 摘要生成失败。 LobsterAI...</description>
+      <content:encoded><![CDATA[<h1>OpenClaw 生态日报 2026-06-14</h1>
+<blockquote>
+<p>Issues: 5 | PRs: 34 | 覆盖项目: 13 个 | 生成时间: 2026-06-14 01:58 UTC</p>
+</blockquote>
+<ul>
+<li><a href="https://github.com/openclaw/openclaw">OpenClaw</a></li>
+<li><a href="https://github.com/HKUDS/nanobot">NanoBot</a></li>
+<li><a href="https://github.com/nousresearch/hermes-agent">Hermes Agent</a></li>
+<li><a href="https://github.com/sipeed/picoclaw">PicoClaw</a></li>
+<li><a href="https://github.com/qwibitai/nanoclaw">NanoClaw</a></li>
+<li><a href="https://github.com/nullclaw/nullclaw">NullClaw</a></li>
+<li><a href="https://github.com/nearai/ironclaw">IronClaw</a></li>
+<li><a href="https://github.com/netease-youdao/LobsterAI">LobsterAI</a></li>
+<li><a href="https://github.com/TinyAGI/tinyagi">TinyClaw</a></li>
+<li><a href="https://github.com/moltis-org/moltis">Moltis</a></li>
+<li><a href="https://github.com/agentscope-ai/CoPaw">CoPaw</a></li>
+<li><a href="https://github.com/qhkm/zeptoclaw">ZeptoClaw</a></li>
+<li><a href="https://github.com/zeroclaw-labs/zeroclaw">ZeroClaw</a></li>
+</ul>
+<hr>
+<h2>OpenClaw 项目深度报告</h2>
+<p>⚠️ 摘要生成失败。</p>
+<hr>
+<h2>横向生态对比</h2>
+<hr>
+<h2>同赛道项目详细报告</h2>
+<details>
+<summary><strong>NanoBot</strong> — <a href="https://github.com/HKUDS/nanobot">HKUDS/nanobot</a></summary>
+
+<p>⚠️ 摘要生成失败。</p>
+</details>
+
+<details>
+<summary><strong>Hermes Agent</strong> — <a href="https://github.com/nousresearch/hermes-agent">nousresearch/hermes-agent</a></summary>
+
+<p>⚠️ 摘要生成失败。</p>
+</details>
+
+<details>
+<summary><strong>PicoClaw</strong> — <a href="https://github.com/sipeed/picoclaw">sipeed/picoclaw</a></summary>
+
+<p>⚠️ 摘要生成失败。</p>
+</details>
+
+<details>
+<summary><strong>NanoClaw</strong> — <a href="https://github.com/qwibitai/nanoclaw">qwibitai/nanoclaw</a></summary>
+
+<p>⚠️ 摘要生成失败。</p>
+</details>
+
+<details>
+<summary><strong>NullClaw</strong> — <a href="https://github.com/nullclaw/nullclaw">nullclaw/nullclaw</a></summary>
+
+<p>⚠️ 摘要生成失败。</p>
+</details>
+
+<details>
+<summary><strong>IronClaw</strong> — <a href="https://github.com/nearai/ironclaw">nearai/ironclaw</a></summary>
+
+<p>⚠️ 摘要生成失败。</p>
+</details>
+
+<details>
+<summary><strong>LobsterAI</strong> — <a href="https://github.com/netease-youdao/LobsterAI">netease-youdao/LobsterAI</a></summary>
+
+<p>过去24小时无活动。</p>
+</details>
+
+<details>
+<summary><strong>TinyClaw</strong> — <a href="https://github.com/TinyAGI/tinyagi">TinyAGI/tinyagi</a></summary>
+
+<p>过去24小时无活动。</p>
+</details>
+
+<details>
+<summary><strong>Moltis</strong> — <a href="https://github.com/moltis-org/moltis">moltis-org/moltis</a></summary>
+
+<p>⚠️ 摘要生成失败。</p>
+</details>
+
+<details>
+<summary><strong>CoPaw</strong> — <a href="https://github.com/agentscope-ai/CoPaw">agentscope-ai/CoPaw</a></summary>
+
+<p>⚠️ 摘要生成失败。</p>
+</details>
+
+<details>
+<summary><strong>ZeptoClaw</strong> — <a href="https://github.com/qhkm/zeptoclaw">qhkm/zeptoclaw</a></summary>
+
+<p>过去24小时无活动。</p>
+</details>
+
+<details>
+<summary><strong>ZeroClaw</strong> — <a href="https://github.com/zeroclaw-labs/zeroclaw">zeroclaw-labs/zeroclaw</a></summary>
+
+<p>⚠️ 摘要生成失败。</p>
+</details>
+
+<hr>
+<p><em>本日报由 <a href="https://github.com/leisure3318/agents-radar">agents-radar</a> 自动生成。</em></p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>AI Agents Ecosystem Digest 2026-06-14</title>
+      <link>https://duanyytop.github.io/agents-radar/#2026-06-14/ai-agents-en</link>
+      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-06-14/ai-agents-en</guid>
+      <pubDate>Sun, 14 Jun 2026 00:00:00 +0000</pubDate>
+      <description>OpenClaw Ecosystem Digest 2026-06-14 Issues: 5 | PRs: 34 | Projects covered: 13 | Generated: 2026-06-14 01:58 UTC OpenClaw NanoBot Hermes Agent PicoClaw NanoClaw NullClaw IronClaw LobsterAI TinyClaw Moltis CoPaw ZeptoClaw ZeroClaw OpenClaw Deep Dive (English digest skipped to save LLM tokens — see the Chinese report for full details.) Cross-Ecosystem Comparison (English digest skipped to save LLM tokens — see the Chinese report for full details.) Peer Project Reports NanoBot — HKUDS/nanobot (Eng...</description>
+      <content:encoded><![CDATA[<h1>OpenClaw Ecosystem Digest 2026-06-14</h1>
+<blockquote>
+<p>Issues: 5 | PRs: 34 | Projects covered: 13 | Generated: 2026-06-14 01:58 UTC</p>
+</blockquote>
+<ul>
+<li><a href="https://github.com/openclaw/openclaw">OpenClaw</a></li>
+<li><a href="https://github.com/HKUDS/nanobot">NanoBot</a></li>
+<li><a href="https://github.com/nousresearch/hermes-agent">Hermes Agent</a></li>
+<li><a href="https://github.com/sipeed/picoclaw">PicoClaw</a></li>
+<li><a href="https://github.com/qwibitai/nanoclaw">NanoClaw</a></li>
+<li><a href="https://github.com/nullclaw/nullclaw">NullClaw</a></li>
+<li><a href="https://github.com/nearai/ironclaw">IronClaw</a></li>
+<li><a href="https://github.com/netease-youdao/LobsterAI">LobsterAI</a></li>
+<li><a href="https://github.com/TinyAGI/tinyagi">TinyClaw</a></li>
+<li><a href="https://github.com/moltis-org/moltis">Moltis</a></li>
+<li><a href="https://github.com/agentscope-ai/CoPaw">CoPaw</a></li>
+<li><a href="https://github.com/qhkm/zeptoclaw">ZeptoClaw</a></li>
+<li><a href="https://github.com/zeroclaw-labs/zeroclaw">ZeroClaw</a></li>
+</ul>
+<hr>
+<h2>OpenClaw Deep Dive</h2>
+<p><em>(English digest skipped to save LLM tokens — see the Chinese report for full details.)</em></p>
+<hr>
+<h2>Cross-Ecosystem Comparison</h2>
+<p><em>(English digest skipped to save LLM tokens — see the Chinese report for full details.)</em></p>
+<hr>
+<h2>Peer Project Reports</h2>
+<details>
+<summary><strong>NanoBot</strong> — <a href="https://github.com/HKUDS/nanobot">HKUDS/nanobot</a></summary>
+
+<p><em>(English digest skipped to save LLM tokens — see the Chinese report for full details.)</em></p>
+</details>
+
+<details>
+<summary><strong>Hermes Agent</strong> — <a href="https://github.com/nousresearch/hermes-agent">nousresearch/hermes-agent</a></summary>
+
+<p><em>(English digest skipped to save LLM tokens — see the Chinese report for full details.)</em></p>
+</details>
+
+<details>
+<summary><strong>PicoClaw</strong> — <a href="https://github.com/sipeed/picoclaw">sipeed/picoclaw</a></summary>
+
+<p><em>(English digest skipped to save LLM tokens — see the Chinese report for full details.)</em></p>
+</details>
+
+<details>
+<summary><strong>NanoClaw</strong> — <a href="https://github.com/qwibitai/nanoclaw">qwibitai/nanoclaw</a></summary>
+
+<p><em>(English digest skipped to save LLM tokens — see the Chinese report for full details.)</em></p>
+</details>
+
+<details>
+<summary><strong>NullClaw</strong> — <a href="https://github.com/nullclaw/nullclaw">nullclaw/nullclaw</a></summary>
+
+<p><em>(English digest skipped to save LLM tokens — see the Chinese report for full details.)</em></p>
+</details>
+
+<details>
+<summary><strong>IronClaw</strong> — <a href="https://github.com/nearai/ironclaw">nearai/ironclaw</a></summary>
+
+<p><em>(English digest skipped to save LLM tokens — see the Chinese report for full details.)</em></p>
+</details>
+
+<details>
+<summary><strong>LobsterAI</strong> — <a href="https://github.com/netease-youdao/LobsterAI">netease-youdao/LobsterAI</a></summary>
+
+<p>No activity in the last 24 hours.</p>
+</details>
+
+<details>
+<summary><strong>TinyClaw</strong> — <a href="https://github.com/TinyAGI/tinyagi">TinyAGI/tinyagi</a></summary>
+
+<p>No activity in the last 24 hours.</p>
+</details>
+
+<details>
+<summary><strong>Moltis</strong> — <a href="https://github.com/moltis-org/moltis">moltis-org/moltis</a></summary>
+
+<p><em>(English digest skipped to save LLM tokens — see the Chinese report for full details.)</em></p>
+</details>
+
+<details>
+<summary><strong>CoPaw</strong> — <a href="https://github.com/agentscope-ai/CoPaw">agentscope-ai/CoPaw</a></summary>
+
+<p><em>(English digest skipped to save LLM tokens — see the Chinese report for full details.)</em></p>
+</details>
+
+<details>
+<summary><strong>ZeptoClaw</strong> — <a href="https://github.com/qhkm/zeptoclaw">qhkm/zeptoclaw</a></summary>
+
+<p>No activity in the last 24 hours.</p>
+</details>
+
+<details>
+<summary><strong>ZeroClaw</strong> — <a href="https://github.com/zeroclaw-labs/zeroclaw">zeroclaw-labs/zeroclaw</a></summary>
+
+<p><em>(English digest skipped to save LLM tokens — see the Chinese report for full details.)</em></p>
+</details>
+
+<hr>
+<p><em>This digest is auto-generated by <a href="https://github.com/leisure3318/agents-radar">agents-radar</a>.</em></p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>AI 开源趋势日报 2026-06-14</title>
+      <link>https://duanyytop.github.io/agents-radar/#2026-06-14/ai-trending</link>
+      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-06-14/ai-trending</guid>
+      <pubDate>Sun, 14 Jun 2026 00:00:00 +0000</pubDate>
+      <description>AI 开源趋势日报 2026-06-14 数据来源: GitHub Trending + GitHub Search API | 生成时间: 2026-06-14 01:58 UTC ⚠️ 趋势报告生成失败。 本日报由 agents-radar 自动生成。</description>
+      <content:encoded><![CDATA[<h1>AI 开源趋势日报 2026-06-14</h1>
+<blockquote>
+<p>数据来源: GitHub Trending + GitHub Search API | 生成时间: 2026-06-14 01:58 UTC</p>
+</blockquote>
+<hr>
+<p>⚠️ 趋势报告生成失败。</p>
+<hr>
+<p><em>本日报由 <a href="https://github.com/leisure3318/agents-radar">agents-radar</a> 自动生成。</em></p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>AI Open Source Trends 2026-06-14</title>
+      <link>https://duanyytop.github.io/agents-radar/#2026-06-14/ai-trending-en</link>
+      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-06-14/ai-trending-en</guid>
+      <pubDate>Sun, 14 Jun 2026 00:00:00 +0000</pubDate>
+      <description>AI Open Source Trends 2026-06-14 Sources: GitHub Trending + GitHub Search API | Generated: 2026-06-14 01:58 UTC (English digest skipped to save LLM tokens — see the Chinese report for full details.) This digest is auto-generated by agents-radar.</description>
+      <content:encoded><![CDATA[<h1>AI Open Source Trends 2026-06-14</h1>
+<blockquote>
+<p>Sources: GitHub Trending + GitHub Search API | Generated: 2026-06-14 01:58 UTC</p>
+</blockquote>
+<hr>
+<p><em>(English digest skipped to save LLM tokens — see the Chinese report for full details.)</em></p>
+<hr>
+<p><em>This digest is auto-generated by <a href="https://github.com/leisure3318/agents-radar">agents-radar</a>.</em></p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Hacker News AI Community Digest 2026-06-14</title>
+      <link>https://duanyytop.github.io/agents-radar/#2026-06-14/ai-hn-en</link>
+      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-06-14/ai-hn-en</guid>
+      <pubDate>Sun, 14 Jun 2026 00:00:00 +0000</pubDate>
+      <description>Hacker News AI Community Digest 2026-06-14 Source: Hacker News | 30 stories | Generated: 2026-06-14 01:58 UTC (English digest skipped to save LLM tokens — see the Chinese report for full details.) This digest is auto-generated by agents-radar.</description>
+      <content:encoded><![CDATA[<h1>Hacker News AI Community Digest 2026-06-14</h1>
+<blockquote>
+<p>Source: <a href="https://news.ycombinator.com/">Hacker News</a> | 30 stories | Generated: 2026-06-14 01:58 UTC</p>
+</blockquote>
+<hr>
+<p><em>(English digest skipped to save LLM tokens — see the Chinese report for full details.)</em></p>
+<hr>
+<p><em>This digest is auto-generated by <a href="https://github.com/leisure3318/agents-radar">agents-radar</a>.</em></p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Hugging Face Trending Models Digest 2026-06-14</title>
+      <link>https://duanyytop.github.io/agents-radar/#2026-06-14/ai-hf-en</link>
+      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-06-14/ai-hf-en</guid>
+      <pubDate>Sun, 14 Jun 2026 00:00:00 +0000</pubDate>
+      <description>Hugging Face Trending Models Digest 2026-06-14 Source: Hugging Face Hub | 2 models | Generated: 2026-06-14 01:58 UTC (English digest skipped to save LLM tokens — see the Chinese report for full details.) This digest is auto-generated by agents-radar.</description>
+      <content:encoded><![CDATA[<h1>Hugging Face Trending Models Digest 2026-06-14</h1>
+<blockquote>
+<p>Source: <a href="https://huggingface.co/">Hugging Face Hub</a> | 2 models | Generated: 2026-06-14 01:58 UTC</p>
+</blockquote>
+<hr>
+<p><em>(English digest skipped to save LLM tokens — see the Chinese report for full details.)</em></p>
+<hr>
+<p><em>This digest is auto-generated by <a href="https://github.com/leisure3318/agents-radar">agents-radar</a>.</em></p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Tech Community AI Digest 2026-06-14</title>
+      <link>https://duanyytop.github.io/agents-radar/#2026-06-14/ai-community-en</link>
+      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-06-14/ai-community-en</guid>
+      <pubDate>Sun, 14 Jun 2026 00:00:00 +0000</pubDate>
+      <description>Tech Community AI Digest 2026-06-14 Sources: Dev.to (24 articles) + Lobste.rs (2 stories) | Generated: 2026-06-14 01:58 UTC (English digest skipped to save LLM tokens — see the Chinese report for full details.) This digest is auto-generated by agents-radar.</description>
+      <content:encoded><![CDATA[<h1>Tech Community AI Digest 2026-06-14</h1>
+<blockquote>
+<p>Sources: <a href="https://dev.to/">Dev.to</a> (24 articles) + <a href="https://lobste.rs/">Lobste.rs</a> (2 stories) | Generated: 2026-06-14 01:58 UTC</p>
+</blockquote>
+<hr>
+<p><em>(English digest skipped to save LLM tokens — see the Chinese report for full details.)</em></p>
+<hr>
+<p><em>This digest is auto-generated by <a href="https://github.com/leisure3318/agents-radar">agents-radar</a>.</em></p>
+]]></content:encoded>
+    </item>
     <item>
       <title>AI CLI 工具社区动态日报 2026-06-13</title>
       <link>https://duanyytop.github.io/agents-radar/#2026-06-13/ai-cli</link>
@@ -6395,436 +6873,6 @@ PR 已经进入具体的数据访问路径优化，说明项目在为更大规�
 </ol>
 <hr>
 <p><em>本日报由 <a href="https://github.com/leisure3318/agents-radar">agents-radar</a> 自动生成。</em></p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>Official AI Content Report 2026-06-12</title>
-      <link>https://duanyytop.github.io/agents-radar/#2026-06-12/ai-web-en</link>
-      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-06-12/ai-web-en</guid>
-      <pubDate>Fri, 12 Jun 2026 00:00:00 +0000</pubDate>
-      <description>Official AI Content Report 2026-06-12 Today&amp;#39;s update | New content: 3 articles | Generated: 2026-06-12 01:58 UTC Sources: Anthropic: anthropic.com — 2 new articles (sitemap total: 378) OpenAI: openai.com — 1 new articles (sitemap total: 842) (English digest skipped to save LLM tokens — see the Chinese report for full details.) This digest is auto-generated by agents-radar.</description>
-      <content:encoded><![CDATA[<h1>Official AI Content Report 2026-06-12</h1>
-<blockquote>
-<p>Today&#39;s update | New content: 3 articles | Generated: 2026-06-12 01:58 UTC</p>
-</blockquote>
-<p>Sources:</p>
-<ul>
-<li>Anthropic: <a href="https://www.anthropic.com">anthropic.com</a> — 2 new articles (sitemap total: 378)</li>
-<li>OpenAI: <a href="https://openai.com">openai.com</a> — 1 new articles (sitemap total: 842)</li>
-</ul>
-<hr>
-<p><em>(English digest skipped to save LLM tokens — see the Chinese report for full details.)</em></p>
-<hr>
-<p><em>This digest is auto-generated by <a href="https://github.com/leisure3318/agents-radar">agents-radar</a>.</em></p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>AI 开源趋势日报 2026-06-12</title>
-      <link>https://duanyytop.github.io/agents-radar/#2026-06-12/ai-trending</link>
-      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-06-12/ai-trending</guid>
-      <pubDate>Fri, 12 Jun 2026 00:00:00 +0000</pubDate>
-      <description>AI 开源趋势日报 2026-06-12 数据来源: GitHub Trending + GitHub Search API | 生成时间: 2026-06-12 01:58 UTC 《AI 开源趋势日报》 日期：2026-06-12 1) 筛选结果 从今日数据中，筛出 5 个明确与 AI/ML 相关 的项目，已排除备份、客服、协作、翻墙等通用或非 AI 项目。 2) 今日速览 今天的 GitHub AI 热点明显向 Agent 生态基础设施 倾斜：从技能安全扫描、Agent 会话分析，到多智能体组织化协作，社区关注点已经从“做出一个能用的 Agent”转向“让 Agent 可控、可观测、可治理”。同时，自我改进框架 开始受到关注，说明评测驱动优化和闭环训练正在成为新趋势。在应用层面，RAG/知识工作助手 与 本地 LLM 家居控制 继续吸引稳定关注，体现出“可部署、可控、可接入私有知识”的需求仍然强劲。 3) 各维度热门项目 🔧 AI 基础工具 侧重开发工具、分析工具、推理/部署周边与可观测性 NVIDIA/SkillSpector⭐ 0（+319 today）一句话：面向 AI ...</description>
-      <content:encoded><![CDATA[<h1>AI 开源趋势日报 2026-06-12</h1>
-<blockquote>
-<p>数据来源: GitHub Trending + GitHub Search API | 生成时间: 2026-06-12 01:58 UTC</p>
-</blockquote>
-<hr>
-<h1>《AI 开源趋势日报》</h1>
-<p><strong>日期：2026-06-12</strong></p>
-<h2>1) 筛选结果</h2>
-<p>从今日数据中，筛出 <strong>5 个明确与 AI/ML 相关</strong> 的项目，已排除备份、客服、协作、翻墙等通用或非 AI 项目。</p>
-<hr>
-<h2>2) 今日速览</h2>
-<p>今天的 GitHub AI 热点明显向 <strong>Agent 生态基础设施</strong> 倾斜：从技能安全扫描、Agent 会话分析，到多智能体组织化协作，社区关注点已经从“做出一个能用的 Agent”转向“让 Agent 可控、可观测、可治理”。<br>同时，<strong>自我改进框架</strong> 开始受到关注，说明评测驱动优化和闭环训练正在成为新趋势。<br>在应用层面，<strong>RAG/知识工作助手</strong> 与 <strong>本地 LLM 家居控制</strong> 继续吸引稳定关注，体现出“可部署、可控、可接入私有知识”的需求仍然强劲。  </p>
-<hr>
-<h2>3) 各维度热门项目</h2>
-<h3>🔧 AI 基础工具</h3>
-<blockquote>
-<p>侧重开发工具、分析工具、推理/部署周边与可观测性</p>
-</blockquote>
-<ul>
-<li><p><a href="https://github.com/NVIDIA/SkillSpector">NVIDIA/SkillSpector</a><br>⭐ 0（+319 today）<br>一句话：面向 AI Agent skills 的安全扫描器，聚焦漏洞、恶意模式和风险识别，是 Agent 规模化落地前非常关键的“安全底座”。</p>
-</li>
-<li><p><a href="https://github.com/kenn-io/agentsview">kenn-io/agentsview</a><br>⭐ 0（+114 today）<br>一句话：本地优先的 coding agents 会话分析与统计工具，支持 Claude Code、Codex 等 20+ Agent，属于 Agent 可观测性和成本管理方向的代表。</p>
-</li>
-<li><p><a href="https://github.com/hexo-ai/sia">hexo-ai/sia</a><br>⭐ 0（+199 today）<br>一句话：自我改进型 AI 框架，强调通过闭环优化提升模型/Agent 在基准任务上的表现，代表“自动迭代式 AI 工程化”趋势。</p>
-</li>
-<li><p><a href="https://github.com/acon96/home-llm">acon96/home-llm</a><br>⭐ 1,357<br>一句话：Home Assistant 的本地 LLM 集成与控制方案，虽然更偏应用，但其本地部署与接入层属性也很强，适合作为基础工具参考。</p>
-</li>
-<li><p><a href="https://github.com/mindsdb/minds">mindsdb/minds</a><br>⭐ 39,290<br>一句话：面向知识工作者的通用 AI 系统，强调可扩展、可私有化部署，在工程上兼具平台与工具属性。</p>
-</li>
-</ul>
-<hr>
-<h3>🤖 AI 智能体 / 工作流</h3>
-<blockquote>
-<p>侧重 Agent 编排、多智能体、自动化与协作执行</p>
-</blockquote>
-<ul>
-<li><p><a href="https://github.com/msitarzewski/agency-agents">msitarzewski/agency-agents</a><br>⭐ 0（+1599 today）<br>一句话：一个“完整 AI agency”式的多角色 Agent 体系，把不同专家角色打包成可执行工作流，今日涨星最猛，说明多智能体协作依然最受关注。</p>
-</li>
-<li><p><a href="https://github.com/kenn-io/agentsview">kenn-io/agentsview</a><br>⭐ 0（+114 today）<br>一句话：不仅是分析工具，也直接服务于 Agent 工作流的运行观测，反映“Agent 生产环境化”需求在快速增强。</p>
-</li>
-<li><p><a href="https://github.com/NVIDIA/SkillSpector">NVIDIA/SkillSpector</a><br>⭐ 0（+319 today）<br>一句话：围绕 Agent skills 的安全审计，属于 Agent 工作流上线前的风险控制组件。</p>
-</li>
-<li><p><a href="https://github.com/hexo-ai/sia">hexo-ai/sia</a><br>⭐ 0（+199 today）<br>一句话：自我改进闭环可直接嵌入 Agent 工作流，用于自动优化和迭代。</p>
-</li>
-</ul>
-<hr>
-<h3>📦 AI 应用</h3>
-<blockquote>
-<p>侧重直接面向用户或具体场景的产品化方案</p>
-</blockquote>
-<ul>
-<li><p><a href="https://github.com/mindsdb/minds">mindsdb/minds</a><br>⭐ 39,290<br>一句话：面向知识工作者的通用 AI 产品，强调“可控 AI 系统”，适合企业知识助手、运营/策略辅助等场景。</p>
-</li>
-<li><p><a href="https://github.com/acon96/home-llm">acon96/home-llm</a><br>⭐ 1,357<br>一句话：把本地 LLM 用于智能家居控制，属于“垂直场景 + 本地化 AI”的典型应用。</p>
-</li>
-<li><p><a href="https://github.com/msitarzewski/agency-agents">msitarzewski/agency-agents</a><br>⭐ 0（+1599 today）<br>一句话：虽偏工作流，但其“AI agency”定位也可以视作一种开箱即用的 AI 产品形态。</p>
-</li>
-</ul>
-<hr>
-<h3>🧠 大模型 / 训练</h3>
-<blockquote>
-<p>侧重模型优化、训练闭环、评测增强</p>
-</blockquote>
-<ul>
-<li><a href="https://github.com/hexo-ai/sia">hexo-ai/sia</a><br>⭐ 0（+199 today）<br>一句话：核心卖点就是“Self Improving”，与模型/Agent 的评测-优化闭环强相关，是今天最明确的训练/优化方向代表。</li>
-</ul>
-<blockquote>
-<p>注：本日样本中，明确属于“模型权重/训练框架/微调工具”的项目较少，更多热点集中在 Agent 工程化与应用层。</p>
-</blockquote>
-<hr>
-<h3>🔍 RAG / 知识库</h3>
-<blockquote>
-<p>侧重检索增强、知识管理、私有知识接入</p>
-</blockquote>
-<ul>
-<li><a href="https://github.com/mindsdb/minds">mindsdb/minds</a><br>⭐ 39,290<br>一句话：强调知识工作者场景，本质上依赖知识接入与检索增强能力，是 RAG/知识管理方向的代表。</li>
-</ul>
-<hr>
-<h2>4) 趋势信号分析</h2>
-<p>今天最强的信号是：<strong>Agent 赛道从“能力展示”进入“生产治理”阶段</strong>。SkillSpector 说明社区开始重视技能级安全；agentsview 则对应会话、成本、行为分析等可观测需求；agency-agents 的爆发则显示多智能体编排仍是最容易获得关注的叙事。与此同时，SIA 把“自我改进”作为核心卖点，表明评测驱动优化、自动回归和闭环迭代正在成为新一代 AI 工具的重要方向。应用层面，Minds 和 Home-LLM 说明 RAG、私有部署与本地控制依旧是企业和个人用户最关心的落地能力。整体看，今天的热点不是单纯“更大模型”，而是 <strong>更可控、更可测、更能持续优化的 AI 系统栈</strong>。</p>
-<hr>
-<h2>5) 社区关注热点</h2>
-<ul>
-<li><p><strong>Agent 安全与审计</strong> — <a href="https://github.com/NVIDIA/SkillSpector">NVIDIA/SkillSpector</a><br>理由：Agent 一旦进入真实业务，安全扫描会从“加分项”变成“必需品”。</p>
-</li>
-<li><p><strong>Agent 可观测性与成本分析</strong> — <a href="https://github.com/kenn-io/agentsview">kenn-io/agentsview</a><br>理由：多 Agent 时代，谁能看懂行为、性能和成本，谁就更容易进入生产。</p>
-</li>
-<li><p><strong>多智能体协作框架</strong> — <a href="https://github.com/msitarzewski/agency-agents">msitarzewski/agency-agents</a><br>理由：涨星最快，说明社区仍在追逐“组织化 AI 协作”的想象空间。</p>
-</li>
-<li><p><strong>自我改进与闭环优化</strong> — <a href="https://github.com/hexo-ai/sia">hexo-ai/sia</a><br>理由：从“手工调参”走向“自动优化”，是下一阶段 AI 工程化的重要方向。</p>
-</li>
-<li><p><strong>本地 LLM + 私有场景落地</strong> — <a href="https://github.com/acon96/home-llm">acon96/home-llm</a><br>理由：本地化、隐私、可控部署仍是高频需求，尤其适合家庭与边缘设备场景。</p>
-</li>
-</ul>
-<p>如果你愿意，我可以把这份日报进一步整理成 <strong>适合公众号/飞书/Notion 的发布版排版</strong>，或者补一版 <strong>“只看 Agent 赛道” 的深度分析</strong>。</p>
-<hr>
-<p><em>本日报由 <a href="https://github.com/leisure3318/agents-radar">agents-radar</a> 自动生成。</em></p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>AI Open Source Trends 2026-06-12</title>
-      <link>https://duanyytop.github.io/agents-radar/#2026-06-12/ai-trending-en</link>
-      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-06-12/ai-trending-en</guid>
-      <pubDate>Fri, 12 Jun 2026 00:00:00 +0000</pubDate>
-      <description>AI Open Source Trends 2026-06-12 Sources: GitHub Trending + GitHub Search API | Generated: 2026-06-12 01:58 UTC (English digest skipped to save LLM tokens — see the Chinese report for full details.) This digest is auto-generated by agents-radar.</description>
-      <content:encoded><![CDATA[<h1>AI Open Source Trends 2026-06-12</h1>
-<blockquote>
-<p>Sources: GitHub Trending + GitHub Search API | Generated: 2026-06-12 01:58 UTC</p>
-</blockquote>
-<hr>
-<p><em>(English digest skipped to save LLM tokens — see the Chinese report for full details.)</em></p>
-<hr>
-<p><em>This digest is auto-generated by <a href="https://github.com/leisure3318/agents-radar">agents-radar</a>.</em></p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>Hacker News AI 社区动态日报 2026-06-12</title>
-      <link>https://duanyytop.github.io/agents-radar/#2026-06-12/ai-hn</link>
-      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-06-12/ai-hn</guid>
-      <pubDate>Fri, 12 Jun 2026 00:00:00 +0000</pubDate>
-      <description>Hacker News AI 社区动态日报 2026-06-12 数据来源: Hacker News | 共 30 条 | 生成时间: 2026-06-12 04:12 UTC Hacker News AI 社区动态日报 时间范围：2026-06-11 ~ 2026-06-12（过去 24 小时） 1) 今日速览 今天 HN 上 AI 讨论的中心几乎被 Anthropic Claude Fable 系列话题占据：从“隐形 guardrails”道歉、编码基准表现一般，到模型过度主动、可被 jailbroken，社区对“更强能力 vs 更可控”展开了密集争论。第二个高热方向是 OpenAI 与 Anthropic 的价格战/产品战，不少帖子都在解读 OpenAI 是否会通过降价、收购和 on-prem 方案来应对竞争。第三个明显主题是 AI 编程代理的工程化落地：离线运行、限额预测、代理管理、开源集成等帖子很多，说明开发者更关心“怎么稳定用”，而不只是“模型有多强”。整体情绪偏审慎甚至带点怀疑：社区一方面承认模型进步很快，另一方面对透明度、可靠性、幻觉和“过度营销”明显敏感。 2) 热门...</description>
-      <content:encoded><![CDATA[<h1>Hacker News AI 社区动态日报 2026-06-12</h1>
-<blockquote>
-<p>数据来源: <a href="https://news.ycombinator.com/">Hacker News</a> | 共 30 条 | 生成时间: 2026-06-12 04:12 UTC</p>
-</blockquote>
-<hr>
-<h1>Hacker News AI 社区动态日报</h1>
-<p><strong>时间范围：2026-06-11 ~ 2026-06-12（过去 24 小时）</strong></p>
-<h2>1) 今日速览</h2>
-<p>今天 HN 上 AI 讨论的中心几乎被 <strong>Anthropic Claude Fable</strong> 系列话题占据：从“隐形 guardrails”道歉、编码基准表现一般，到模型过度主动、可被 jailbroken，社区对“更强能力 vs 更可控”展开了密集争论。<br>第二个高热方向是 <strong>OpenAI 与 Anthropic 的价格战/产品战</strong>，不少帖子都在解读 OpenAI 是否会通过降价、收购和 on-prem 方案来应对竞争。<br>第三个明显主题是 <strong>AI 编程代理的工程化落地</strong>：离线运行、限额预测、代理管理、开源集成等帖子很多，说明开发者更关心“怎么稳定用”，而不只是“模型有多强”。<br>整体情绪偏审慎甚至带点怀疑：社区一方面承认模型进步很快，另一方面对透明度、可靠性、幻觉和“过度营销”明显敏感。</p>
-<hr>
-<h2>2) 热门新闻与讨论</h2>
-<h3>🔬 模型与研究</h3>
-<ol>
-<li><p><strong><a href="https://www.theverge.com/ai-artificial-intelligence/948280/anthropic-claude-fable-invisible-distillation-guardrail">Anthropic apologizes for invisible Claude Fable guardrails</a></strong><br>HN 讨论：<a href="https://news.ycombinator.com/item?id=48489229">48489229</a><br><strong>346 分 | 344 评论</strong><br>一句话看点：涉及“隐形 guardrails”的透明度和模型行为控制，评论区明显对“偷偷加限制”非常敏感，讨论集中在安全边界、可解释性与产品信任。</p>
-</li>
-<li><p><strong><a href="https://www.endorlabs.com/learn/claude-fable-5-mythos-grade-hype">Claude Fable 5: mid-tier results on coding tasks</a></strong><br>HN 讨论：<a href="https://news.ycombinator.com/item?id=48492210">48492210</a><br><strong>259 分 | 116 评论</strong><br>一句话看点：直接挑战“新模型碾压一切”的叙事，社区普遍把它当作对 Fable 5 编码能力的冷静校准，反应偏审慎。</p>
-</li>
-<li><p><strong><a href="https://simonwillison.net/2026/Jun/11/fable-is-relentlessly-proactive/">Claude Fable is relentlessly proactive</a></strong><br>HN 讨论：<a href="https://news.ycombinator.com/item?id=48498573">48498573</a><br><strong>195 分 | 159 评论</strong><br>一句话看点：讨论焦点是模型是否“太主动”，评论里一方面有人认可代理式体验，另一方面担心它会越界、打断流程或引入不可控行为。</p>
-</li>
-<li><p><strong><a href="https://mtgautodeck.com/articles/mtg-bench/">MTG Bench: Testing how well LLMs can play Magic</a></strong><br>HN 讨论：<a href="https://news.ycombinator.com/item?id=48492177">48492177</a><br><strong>34 分 | 20 评论</strong><br>一句话看点：属于有趣但有代表性的基准测试，反映社区对“非传统任务评测 LLM”的兴趣，讨论更偏方法论而不是单纯结果。</p>
-</li>
-</ol>
-<hr>
-<h3>🛠️ 工具与工程</h3>
-<ol>
-<li><p><strong><a href="https://openai.com/index/openai-to-acquire-ona/">OpenAI to acquire Ona to expand Codex</a></strong><br>HN 讨论：<a href="https://news.ycombinator.com/item?id=48491821">48491821</a><br><strong>39 分 | 5 评论</strong><br>一句话看点：体现 OpenAI 对编程代理产品线的继续加码，评论不多但方向明确——Codex 正在从功能走向平台化。</p>
-</li>
-<li><p><strong><a href="https://openai.com/form/codex-for-oss/">Codex for Open Source</a></strong><br>HN 讨论：<a href="https://news.ycombinator.com/item?id=48497195">48497195</a><br><strong>23 分 | 0 评论</strong><br>一句话看点：显示 OpenAI 正在尝试把编程能力向开源生态外溢，属于“产品化入口”信号，值得开发者关注后续政策和权限设计。</p>
-</li>
-<li><p><strong><a href="https://har-ki.github.io/claude-code-sre-handbook/handbook/06-air-gapped/">Running Claude Code Offline on an M3 Pro with Qwen3.6</a></strong><br>HN 讨论：<a href="https://news.ycombinator.com/item?id=48492579">48492579</a><br><strong>17 分 | 9 评论</strong><br>一句话看点：离线/本地化运行是当前工程圈的高频需求，社区会特别关注性能、成本、隐私和可复现性。</p>
-</li>
-<li><p><strong><a href="https://github.com/varmabudharaju/agent-pd/blob/master/README.md">Show HN: A police department for your Claude Code agents</a></strong><br>HN 讨论：<a href="https://news.ycombinator.com/item?id=48493786">48493786</a><br><strong>9 分 | 8 评论</strong><br>一句话看点：标题很戏谑，但本质是在解决代理协作治理问题，说明大家已经开始认真面对多 agent 的秩序、审计和权限控制。</p>
-</li>
-<li><p><strong><a href="https://github.com/fabioconcina/claumon">Show HN: Claumon – forecasting Claude Code usage limits with a Gamma process</a></strong><br>HN 讨论：<a href="https://news.ycombinator.com/item?id=48488753">48488753</a><br><strong>6 分 | 0 评论</strong><br>一句话看点：很典型的“AI 成本/限额管理”工具，反映出开发者对 token 预算和调用上限的现实焦虑。</p>
-</li>
-</ol>
-<hr>
-<h3>🏢 产业动态</h3>
-<ol>
-<li><p><strong><a href="https://www.cnbc.com/2026/06/11/openai-mulls-slashing-prices-ahead-of-competition-from-anthropic-wsj.html">OpenAI mulls slashing prices as it competes with Anthropic for users</a></strong><br>HN 讨论：<a href="https://news.ycombinator.com/item?id=48486486">48486486</a><br><strong>118 分 | 124 评论</strong><br>一句话看点：价格战信号非常明确，评论区通常会把这类消息解读为“模型能力趋同后，竞争转向成本与分发”。</p>
-</li>
-<li><p><strong><a href="https://www.wsj.com/tech/ai/openai-considers-drastic-price-cuts-anticipating-war-for-users-with-anthropic-9b8c178e">OpenAI Considers Drastic Price Cuts, Anticipating War for Users with Anthropic</a></strong><br>HN 讨论：<a href="https://news.ycombinator.com/item?id=48488310">48488310</a><br><strong>10 分 | 5 评论</strong><br>一句话看点：与上条形成呼应，说明“降价”已经成为社区判断行业格局变化的重要关键词。</p>
-</li>
-<li><p><strong><a href="https://ledger.somantix.ai/posts/open-ai-lays-groundwork-for-on-prem-product/">OpenAI Prepping for On-Prem Product?</a></strong><br>HN 讨论：<a href="https://news.ycombinator.com/item?id=48497260">48497260</a><br><strong>21 分 | 8 评论</strong><br>一句话看点：如果属实，意味着 OpenAI 正在向企业私有部署和数据隔离场景延伸，社区会很关注这是否改变其一贯的云端路线。</p>
-</li>
-<li><p><strong><a href="https://ona.com/stories/ona-joins-openai">Ona Is Joining OpenAI</a></strong><br>HN 讨论：<a href="https://news.ycombinator.com/item?id=48492655">48492655</a><br><strong>10 分 | 0 评论</strong><br>一句话看点：配合 “acquire Ona” 的消息看，这是 OpenAI 围绕 Codex 和开发者工具的继续整合。</p>
-</li>
-<li><p><strong><a href="https://cdn.openai.com/pdf/96b559fa-c165-4575-805d-e636909e2f78/June-2026-Threat-Report.pdf">OpenAI&#39;s June 2026 Report on Malicious Uses of AI [pdf]</a></strong><br>HN 讨论：<a href="https://news.ycombinator.com/item?id=48496332">48496332</a><br><strong>17 分 | 2 评论</strong><br>一句话看点：安全与滥用报告通常会被拿来衡量产业成熟度，也会引发“报告是否足够透明”的讨论。</p>
-</li>
-</ol>
-<hr>
-<h3>💬 观点与争议</h3>
-<ol>
-<li><p><strong><a href="https://news.ycombinator.com/item?id=48492118">Ask HN: How do you get into a flow state when using AI to code?</a></strong><br>HN 讨论：<a href="https://news.ycombinator.com/item?id=48492118">48492118</a><br><strong>82 分 | 101 评论</strong><br>一句话看点：很能代表开发者的真实痛点——AI 编程到底是提升心流，还是不断打断思考？评论区通常会非常分裂。</p>
-</li>
-<li><p><strong><a href="https://blog.avas.space/llm-circus/">Our workplace LLM mass delusion</a></strong><br>HN 讨论：<a href="https://news.ycombinator.com/item?id=48498252">48498252</a><br><strong>13 分 | 1 评论</strong><br>一句话看点：明显带有批判意味，反映出一部分社区对企业内部“盲目上 LLM”的反弹情绪。</p>
-</li>
-<li><p><strong><a href="https://blog.j11y.io/2026-06-10_hidden-state-probes/">Don&#39;t let the LLM speak, just probe it</a></strong><br>HN 讨论：<a href="https://news.ycombinator.com/item?id=48498283">48498283</a><br><strong>12 分 | 0 评论</strong><br>一句话看点：更偏研究路线，强调从内部表征而非表面输出理解模型，这类观点在技术圈通常会引发方法论讨论。</p>
-</li>
-<li><p><strong><a href="https://news.ycombinator.com/item?id=48492515">Ask HN: Agents get dumber before release of new model version?</a></strong><br>HN 讨论：<a href="https://news.ycombinator.com/item?id=48492515">48492515</a><br><strong>8 分 | 5 评论</strong><br>一句话看点：典型的“版本发布前退化感知”话题，说明用户对代理稳定性和回归问题非常敏感。</p>
-</li>
-<li><p><strong><a href="https://trust-us.vercel.app">“Trust Us” Is Not a Control Surface: Anthropic and the Case for Open Weights</a></strong><br>HN 讨论：<a href="https://news.ycombinator.com/item?id=48486557">48486557</a><br><strong>7 分 | 2 评论</strong><br>一句话看点：围绕闭源模型与开放权重的老问题再次升温，核心争议是“安全由厂商承诺”还是“权重开放更可审计”。</p>
-</li>
-</ol>
-<hr>
-<h2>3) 社区情绪信号</h2>
-<p>今天 HN AI 讨论最活跃的明显是 <strong>高分 + 高评论的 Claude Fable 争议帖</strong>，说明社区对“模型行为、透明度和真实能力”比单纯发布消息更上头。争议点很集中：一边是安全与主动性，一边是“隐形限制”“幻觉”“过度营销”以及基准表现不稳定。相比前一轮只看模型参数和发布噱头，今天更偏向 <strong>可用性、治理、成本和工程落地</strong>；也就是说，社区关注点正从“谁最强”转向“谁更可靠、谁更便宜、谁更能进生产”。</p>
-<hr>
-<h2>4) 值得深读</h2>
-<ol>
-<li><p><strong><a href="https://www.theverge.com/ai-artificial-intelligence/948280/anthropic-claude-fable-invisible-distillation-guardrail">Anthropic apologizes for invisible Claude Fable guardrails</a></strong><br>理由：这是今天讨论的核心事件，直接关联模型透明度、对齐策略和用户信任。</p>
-</li>
-<li><p><strong><a href="https://www.endorlabs.com/learn/claude-fable-5-mythos-grade-hype">Claude Fable 5: mid-tier results on coding tasks</a></strong><br>理由：适合技术读者判断新模型在真实编码任务中的“宣传 vs 实测”差距。</p>
-</li>
-<li><p><strong><a href="https://har-ki.github.io/claude-code-sre-handbook/handbook/06-air-gapped/">Running Claude Code Offline on an M3 Pro with Qwen3.6</a></strong><br>理由：很适合开发者关注本地化、离线部署、隐私与成本控制的实战路线。</p>
-</li>
-</ol>
-<hr>
-<p><em>本日报由 <a href="https://github.com/leisure3318/agents-radar">agents-radar</a> 自动生成。</em></p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>Hacker News AI Community Digest 2026-06-12</title>
-      <link>https://duanyytop.github.io/agents-radar/#2026-06-12/ai-hn-en</link>
-      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-06-12/ai-hn-en</guid>
-      <pubDate>Fri, 12 Jun 2026 00:00:00 +0000</pubDate>
-      <description>Hacker News AI Community Digest 2026-06-12 Source: Hacker News | 30 stories | Generated: 2026-06-12 04:12 UTC (English digest skipped to save LLM tokens — see the Chinese report for full details.) This digest is auto-generated by agents-radar.</description>
-      <content:encoded><![CDATA[<h1>Hacker News AI Community Digest 2026-06-12</h1>
-<blockquote>
-<p>Source: <a href="https://news.ycombinator.com/">Hacker News</a> | 30 stories | Generated: 2026-06-12 04:12 UTC</p>
-</blockquote>
-<hr>
-<p><em>(English digest skipped to save LLM tokens — see the Chinese report for full details.)</em></p>
-<hr>
-<p><em>This digest is auto-generated by <a href="https://github.com/leisure3318/agents-radar">agents-radar</a>.</em></p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>ArXiv AI 研究日报 2026-06-12</title>
-      <link>https://duanyytop.github.io/agents-radar/#2026-06-12/ai-arxiv</link>
-      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-06-12/ai-arxiv</guid>
-      <pubDate>Fri, 12 Jun 2026 00:00:00 +0000</pubDate>
-      <description>ArXiv AI 研究日报 2026-06-12 数据来源: ArXiv (cs.AI, cs.CL, cs.LG) | 共 50 篇论文 | 生成时间: 2026-06-12 04:12 UTC ArXiv AI 研究日报（2026-06-12） 1) 今日速览 今天的论文明显呈现出三个主线：Agent 评估与编排、面向推理的检索增强训练、以及面向科学/工业场景的可验证系统。一批工作开始从“让模型会用工具”转向“让工具、记忆、流程、评估体系本身适配 Agent”。同时，RAG 不再只追求相似度召回，而是更强调类比推理、长文证据组织、混合语言查询鲁棒性。在方法论上，出现了不少面向可解释性、可恢复性、置信度与因果分析的理论/框架化研究，显示出 AI 正从能力竞赛走向可靠性与可审计性竞争。 2) 重点论文 🧠 大语言模型（架构、训练、对齐、评估） EvoArena: Tracking Memory Evolution for Robust LLM Agents in Dynamic Environments作者：Xu J.、Li Q.、Wu J. et al.说明：提出面向动态环境的记忆...</description>
-      <content:encoded><![CDATA[<h1>ArXiv AI 研究日报 2026-06-12</h1>
-<blockquote>
-<p>数据来源: <a href="https://arxiv.org/">ArXiv</a> (cs.AI, cs.CL, cs.LG) | 共 50 篇论文 | 生成时间: 2026-06-12 04:12 UTC</p>
-</blockquote>
-<hr>
-<h1>ArXiv AI 研究日报（2026-06-12）</h1>
-<h2>1) 今日速览</h2>
-<p>今天的论文明显呈现出三个主线：<strong>Agent 评估与编排</strong>、<strong>面向推理的检索增强训练</strong>、以及<strong>面向科学/工业场景的可验证系统</strong>。<br>一批工作开始从“让模型会用工具”转向“让工具、记忆、流程、评估体系本身适配 Agent”。<br>同时，RAG 不再只追求相似度召回，而是更强调<strong>类比推理、长文证据组织、混合语言查询鲁棒性</strong>。<br>在方法论上，出现了不少面向可解释性、可恢复性、置信度与因果分析的理论/框架化研究，显示出 AI 正从能力竞赛走向<strong>可靠性与可审计性</strong>竞争。</p>
-<hr>
-<h2>2) 重点论文</h2>
-<h3>🧠 大语言模型（架构、训练、对齐、评估）</h3>
-<ul>
-<li><p><strong><a href="http://arxiv.org/abs/2606.13681v1">EvoArena: Tracking Memory Evolution for Robust LLM Agents in Dynamic Environments</a></strong><br>作者：Xu J.、Li Q.、Wu J. et al.<br>说明：提出面向动态环境的记忆演化评估框架，关注 Agent 的知识与行为如何随环境变化而保持鲁棒性，是“真实部署场景”导向的重要信号。</p>
-</li>
-<li><p><strong><a href="http://arxiv.org/abs/2606.13668v1">Influcoder: Distilling Decoders&#39; Gradient Influence Rankings into an Encoder for Data Attribution</a></strong><br>作者：Kachler D.、Sileo D.、Denis P.<br>说明：把解码器侧的梯度影响排序蒸馏到编码器中，用于数据归因；对训练数据清洗、数据质量治理和可追溯训练很有价值。</p>
-</li>
-<li><p><strong><a href="http://arxiv.org/abs/2606.13550v1">Uncertainty-Aware Hybrid Retrieval for Long-Document RAG</a></strong><br>作者：Jung H.、Wang X.<br>说明：针对长文 RAG 中“检索粒度过粗/过细”的矛盾，引入不确定性感知的混合检索思路，提升证据组织和长上下文利用效率。</p>
-</li>
-<li><p><strong><a href="http://arxiv.org/abs/2606.13537v1">When Does Mixing Help? Analyzing Query Embedding Interpolation in Multilingual Dense Retrieval</a></strong><br>作者：Zhu T.、Huang C.-M.、Kan M.-Y.<br>说明：系统研究混合语言查询下的向量插值检索表现，为多语种检索与跨语言搜索提供了更细粒度的经验规律。</p>
-</li>
-</ul>
-<hr>
-<h3>🤖 智能体与推理（规划、工具使用、多智能体、思维链）</h3>
-<ul>
-<li><p><strong><a href="http://arxiv.org/abs/2606.13680v1">Learning to Reason by Analogy via Retrieval-Augmented Reinforcement Fine-Tuning</a></strong><br>作者：Xiao Z.、Ma Q.、Chen C.-J. et al.<br>说明：把 RAG 从“找相似”推进到“找类比”，并用强化微调训练推理策略，直击复杂任务中“相似问题不等于相同解法”的痛点。</p>
-</li>
-<li><p><strong><a href="http://arxiv.org/abs/2606.13669v1">Agents-K1: Towards Agent-native Knowledge Orchestration</a></strong><br>作者：Cao Z.、Zhan B.、Shi J. et al.<br>说明：强调知识编排而非仅仅是 Agent 编排，试图把论文中的实体、主张、证据、机制和方法线索结构化，是科研 Agent 方向的关键基础设施工作。</p>
-</li>
-<li><p><strong><a href="http://arxiv.org/abs/2606.13663v1">HyperTool: Beyond Step-Wise Tool Calls for Tool-Augmented Agents</a></strong><br>作者：Du Y.、Zhou Y.、Ge Y. et al.<br>说明：批评传统“逐步工具调用”暴露过多执行细节，提出更高层的工具接口设计，旨在缓解工具执行粒度与模型推理粒度不匹配问题。</p>
-</li>
-<li><p><strong><a href="http://arxiv.org/abs/2606.13643v1">Recursive Agent Harnesses</a></strong><br>作者：Lumer E.、Sen S.、Paul K. et al.<br>说明：将递归模型调用与生产级多子 Agent 工作流连接起来，讨论递归式 harness 如何支撑长上下文推理与复杂任务分解。</p>
-</li>
-<li><p><strong><a href="http://arxiv.org/abs/2606.13598v1">Reward Modeling for Multi-Agent Orchestration</a></strong><br>作者：Tsang K. Y.、Zhao Z.、Venkataramani V. et al.<br>说明：用自监督奖励建模训练多 Agent 编排器，试图解决多智能体系统监督稀缺、评估昂贵的问题。</p>
-</li>
-</ul>
-<hr>
-<h3>🔧 方法与框架（新技术、基准测试、效率优化）</h3>
-<ul>
-<li><p><strong><a href="http://arxiv.org/abs/2606.13608v1">AgentBeats: Agentifying Agent Assessment for Openness, Standardization, and Reproducibility</a></strong><br>作者：Liu X.、Tu J.、Chen Y. et al.<br>说明：聚焦 Agent 评估标准化与复现性，主张把评测流程本身 Agent 化，是建立开放、可比较 Agent benchmark 的重要尝试。</p>
-</li>
-<li><p><strong><a href="http://arxiv.org/abs/2606.13634v1">Operads for compositional reasoning in LLMs</a></strong><br>作者：Bottman N.、Richardson K.<br>说明：用 operad 为 LLM 的问题分解与组合推理建立数学基础，属于“把推理形式化”的代表性工作。</p>
-</li>
-<li><p><strong><a href="http://arxiv.org/abs/2606.13649v1">Operadic consistency: a label-free signal for compositional reasoning failures in LLMs</a></strong><br>作者：Bottman N.、Liu Y.、Richardson K.<br>说明：提出无需标签的组合推理失败信号，目标是在推理时检测模型何时“组合错了”，对可靠性监控很关键。</p>
-</li>
-<li><p><strong><a href="http://arxiv.org/abs/2606.13629v1">Valid Inference with Synthetic Data via Task Exchangeability</a></strong><br>作者：Tan L.、Zrnic T.<br>说明：讨论合成数据能否支持有效统计推断，给“LLM 生成样本/LLM-as-a-judge”这类实践提供理论支撑。</p>
-</li>
-<li><p><strong><a href="http://arxiv.org/abs/2606.13657v1">Dense Supervision, Sparse Updates: On the Sparsity and Geometry of On-Policy Distillation</a></strong><br>作者：Yu G.、Liu W.、Hu Y. et al.<br>说明：从参数几何角度分析 on-policy distillation，解释“密监督、稀更新”如何影响模型训练轨迹。</p>
-</li>
-</ul>
-<hr>
-<h3>📊 应用（垂直领域、多模态、代码生成）</h3>
-<ul>
-<li><p><strong><a href="http://arxiv.org/abs/2606.13578v1">LabVLA: Grounding Vision-Language-Action Models in Scientific Laboratories</a></strong><br>作者：Ren B.、Liu X.、Chen X. et al.<br>说明：把 VLA 模型落到科学实验室执行场景，连接文献理解、实验规划与真实操作，是“AI 做科学”链条上的关键一步。</p>
-</li>
-<li><p><strong><a href="http://arxiv.org/abs/2606.13572v1">ArogyaSutra: A Multi-Agent Framework for Multimodal Medical Reasoning in Indic Languages</a></strong><br>作者：Halder T. K.、Ghosh A.、Baidya S. et al.<br>说明：面向印度语言与医疗多模态推理的多智能体框架，体现出医疗 AI 的本地化、低资源和多语种趋势。</p>
-</li>
-<li><p><strong><a href="http://arxiv.org/abs/2606.13543v1">NetCause: Counterfactual Learning for Root Cause Analysis in Large-Scale Networks</a></strong><br>作者：Chraim F.、Zhang J.、Janzing D. et al.<br>说明：用反事实学习做大规模网络根因分析，适合通信、云服务和基础设施故障定位等高价值场景。</p>
-</li>
-<li><p><strong><a href="http://arxiv.org/abs/2606.13580v1">EvTexture++: Event-Driven Texture Enhancement for Video Super-Resolution</a></strong><br>作者：Kai D.、Lu J.、Zhang Y. et al.<br>说明：把事件相机信息引入视频超分辨率，强调纹理增强与动态场景恢复，属于视觉多模态增强方向的实用型工作。</p>
-</li>
-</ul>
-<hr>
-<h2>3) 研究趋势信号</h2>
-<p>今天最强的信号是：<strong>AI 正从“模型能力”转向“系统能力”</strong>。Agent 的记忆、工具接口、编排器、评测基准与复现标准正在成为新焦点；与此同时，RAG 开始更重视“类比推理”和“证据组织”而非单纯语义相似度。另一条明显趋势是，越来越多工作把<strong>可验证性、置信度、因果性、合成数据推断</strong>纳入核心设计，说明行业对可靠部署的需求正在快速上升。</p>
-<hr>
-<h2>4) 值得精读</h2>
-<ol>
-<li><p><strong><a href="http://arxiv.org/abs/2606.13669v1">Agents-K1: Towards Agent-native Knowledge Orchestration</a></strong><br>理由：它不只是做一个 Agent 框架，而是在定义“Agent 如何组织知识”的底层范式，对科研 Agent 和复杂知识工作流都很关键。</p>
-</li>
-<li><p><strong><a href="http://arxiv.org/abs/2606.13680v1">Learning to Reason by Analogy via Retrieval-Augmented Reinforcement Fine-Tuning</a></strong><br>理由：把检索增强、类比推理和强化微调三者结合，直接回应“检索到相关内容却不会用”的核心瓶颈。</p>
-</li>
-<li><p><strong><a href="http://arxiv.org/abs/2606.13608v1">AgentBeats: Agentifying Agent Assessment for Openness, Standardization, and Reproducibility</a></strong><br>理由：Agent 领域当前最大的痛点之一就是评估不统一，这篇工作若成立，将对后续 benchmark 与系统比较产生基础性影响。</p>
-</li>
-</ol>
-<p>如果你愿意，我还可以把这份日报进一步整理成：</p>
-<ul>
-<li><strong>“投资/产品视角版”</strong></li>
-<li><strong>“学术综述版”</strong></li>
-<li><strong>“按 Agent / RAG / 多模态 / 理论 四条线的深度解读版”</strong></li>
-</ul>
-<hr>
-<p><em>本日报由 <a href="https://github.com/leisure3318/agents-radar">agents-radar</a> 自动生成。</em></p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>ArXiv AI Research Digest 2026-06-12</title>
-      <link>https://duanyytop.github.io/agents-radar/#2026-06-12/ai-arxiv-en</link>
-      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-06-12/ai-arxiv-en</guid>
-      <pubDate>Fri, 12 Jun 2026 00:00:00 +0000</pubDate>
-      <description>ArXiv AI Research Digest 2026-06-12 Source: ArXiv (cs.AI, cs.CL, cs.LG) | 50 papers | Generated: 2026-06-12 04:12 UTC (English digest skipped to save LLM tokens — see the Chinese report for full details.) This digest is auto-generated by agents-radar.</description>
-      <content:encoded><![CDATA[<h1>ArXiv AI Research Digest 2026-06-12</h1>
-<blockquote>
-<p>Source: <a href="https://arxiv.org/">ArXiv</a> (cs.AI, cs.CL, cs.LG) | 50 papers | Generated: 2026-06-12 04:12 UTC</p>
-</blockquote>
-<hr>
-<p><em>(English digest skipped to save LLM tokens — see the Chinese report for full details.)</em></p>
-<hr>
-<p><em>This digest is auto-generated by <a href="https://github.com/leisure3318/agents-radar">agents-radar</a>.</em></p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>Hugging Face 热门模型日报 2026-06-12</title>
-      <link>https://duanyytop.github.io/agents-radar/#2026-06-12/ai-hf</link>
-      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-06-12/ai-hf</guid>
-      <pubDate>Fri, 12 Jun 2026 00:00:00 +0000</pubDate>
-      <description>Hugging Face 热门模型日报 2026-06-12 数据来源: Hugging Face Hub | 共 0 个模型 | 生成时间: 2026-06-12 04:12 UTC Hugging Face 热门模型日报 日期：2026-06-12数据说明：本次输入的热门模型列表为空（共 0 个），因此以下日报以“无榜单数据”为准，不对具体模型做虚构性填充。 1) 今日速览 今天的 Hugging Face 热门模型榜单未提供有效条目，因此无法从当日数据中识别具体的上升模型、头部家族或新发布趋势。从报告角度看，这意味着今日没有可确认的“周点赞数”热点样本，建议补充榜单后再做定向解读。若你是在做例行追踪，可以重点关注后续是否出现：新一代开源 LLM、端侧量化版本、以及多模态生成模型的集中上榜。本日更适合作为“数据缺失日”记录，而非趋势判断日。 2) 热门模型 🧠 语言模型（LLM、对话模型、指令微调） 暂无数据 当前输入榜单中未提供任何语言模型条目。 🎨 多模态与生成（图像、视频、音频、文本到X） 暂无数据 当前输入榜单中未提供任何多模态或生成模型条目。 🔧 专用模型（代码、数...</description>
-      <content:encoded><![CDATA[<h1>Hugging Face 热门模型日报 2026-06-12</h1>
-<blockquote>
-<p>数据来源: <a href="https://huggingface.co/">Hugging Face Hub</a> | 共 0 个模型 | 生成时间: 2026-06-12 04:12 UTC</p>
-</blockquote>
-<hr>
-<h1>Hugging Face 热门模型日报</h1>
-<p><strong>日期：2026-06-12</strong><br><strong>数据说明：本次输入的热门模型列表为空（共 0 个）</strong>，因此以下日报以“无榜单数据”为准，不对具体模型做虚构性填充。</p>
-<hr>
-<h2>1) 今日速览</h2>
-<p>今天的 Hugging Face 热门模型榜单未提供有效条目，因此无法从当日数据中识别具体的上升模型、头部家族或新发布趋势。<br>从报告角度看，这意味着今日没有可确认的“周点赞数”热点样本，建议补充榜单后再做定向解读。<br>若你是在做例行追踪，可以重点关注后续是否出现：新一代开源 LLM、端侧量化版本、以及多模态生成模型的集中上榜。<br>本日更适合作为“数据缺失日”记录，而非趋势判断日。</p>
-<hr>
-<h2>2) 热门模型</h2>
-<h3>🧠 语言模型（LLM、对话模型、指令微调）</h3>
-<ul>
-<li><strong>暂无数据</strong><ul>
-<li>当前输入榜单中未提供任何语言模型条目。</li>
-</ul>
-</li>
-</ul>
-<h3>🎨 多模态与生成（图像、视频、音频、文本到X）</h3>
-<ul>
-<li><strong>暂无数据</strong><ul>
-<li>当前输入榜单中未提供任何多模态或生成模型条目。</li>
-</ul>
-</li>
-</ul>
-<h3>🔧 专用模型（代码、数学、医疗、嵌入）</h3>
-<ul>
-<li><strong>暂无数据</strong><ul>
-<li>当前输入榜单中未提供任何专用模型条目。</li>
-</ul>
-</li>
-</ul>
-<h3>📦 微调与量化（社区微调、GGUF、AWQ）</h3>
-<ul>
-<li><strong>暂无数据</strong><ul>
-<li>当前输入榜单中未提供任何微调或量化模型条目。</li>
-</ul>
-</li>
-</ul>
-<hr>
-<h2>3) 生态信号</h2>
-<p>由于今日榜单为空，无法基于当日样本判断哪些模型家族正在走强，也无法可靠比较开源权重与闭源方案的热度变化。<br>同样，量化版、社区微调版是否在本日形成关注聚集，也缺少数据支撑。<br>建议后续补充至少“模型名、作者、点赞数、下载数”四项信息，再结合近 7 日走势观察：开源指令模型是否持续领先、轻量化量化版本是否在端侧场景加速扩散、以及多模态模型是否保持高关注度。</p>
-<hr>
-<h2>4) 值得探索</h2>
-<p>由于今日没有可用榜单条目，<strong>暂无可直接推荐的具体模型</strong>。<br>如果你愿意，我可以在你补充以下任一信息后，立即生成可用版推荐：</p>
-<ol>
-<li><strong>完整热榜条目</strong>（模型名 / 作者 / 点赞 / 下载）  </li>
-<li><strong>近 7 日热门模型列表</strong>  </li>
-<li><strong>指定赛道</strong>（如 LLM、代码、嵌入、GGUF、AWQ、多模态）</li>
-</ol>
-<hr>
-<p>如果你把 Hugging Face 热门模型列表贴出来，我可以按你要求的格式，直接生成一版<strong>可发布的正式日报</strong>。</p>
-<hr>
-<p><em>本日报由 <a href="https://github.com/leisure3318/agents-radar">agents-radar</a> 自动生成。</em></p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>Hugging Face Trending Models Digest 2026-06-12</title>
-      <link>https://duanyytop.github.io/agents-radar/#2026-06-12/ai-hf-en</link>
-      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-06-12/ai-hf-en</guid>
-      <pubDate>Fri, 12 Jun 2026 00:00:00 +0000</pubDate>
-      <description>Hugging Face Trending Models Digest 2026-06-12 Source: Hugging Face Hub | 0 models | Generated: 2026-06-12 04:12 UTC (English digest skipped to save LLM tokens — see the Chinese report for full details.) This digest is auto-generated by agents-radar.</description>
-      <content:encoded><![CDATA[<h1>Hugging Face Trending Models Digest 2026-06-12</h1>
-<blockquote>
-<p>Source: <a href="https://huggingface.co/">Hugging Face Hub</a> | 0 models | Generated: 2026-06-12 04:12 UTC</p>
-</blockquote>
-<hr>
-<p><em>(English digest skipped to save LLM tokens — see the Chinese report for full details.)</em></p>
-<hr>
-<p><em>This digest is auto-generated by <a href="https://github.com/leisure3318/agents-radar">agents-radar</a>.</em></p>
 ]]></content:encoded>
     </item>
   </channel>
