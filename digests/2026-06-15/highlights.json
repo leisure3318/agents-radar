@@ -1,4 +1,22 @@
 {
-  "zh": {},
-  "en": {}
+  "zh": {
+    "ai-weekly": [
+      "Claude Fable 5 安全升级",
+      "Mythos 5 试点高信任场景",
+      "生物学 Agent 强调确定性检索",
+      "Anthropic 联手 DXC 进核心系统",
+      "Claude Corps 投入 1.5 亿美元",
+      "OpenClaw beta 后持续加固"
+    ]
+  },
+  "en": {
+    "ai-weekly": [
+      "Claude Fable 5 launch hit safety turbulence",
+      "Guardrails debate rocked Claude Mythos 5",
+      "DXC alliance brings Claude to regulated industries",
+      "Claude Corps gets $150M for workforce transition",
+      "OpenCode v1.17.0 boosts stability and OAuth",
+      "OpenClaw v2026.6.6-beta.2 tightens sandbox safety"
+    ]
+  }
 }
