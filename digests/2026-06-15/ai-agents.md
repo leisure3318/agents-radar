@@ -1,6 +1,6 @@
 # OpenClaw 生态日报 2026-06-15
 
-> Issues: 2 | PRs: 22 | 覆盖项目: 13 个 | 生成时间: 2026-06-15 02:03 UTC
+> Issues: 6 | PRs: 14 | 覆盖项目: 13 个 | 生成时间: 2026-06-15 04:41 UTC
 
 - [OpenClaw](https://github.com/openclaw/openclaw)
 - [NanoBot](https://github.com/HKUDS/nanobot)
@@ -56,14 +56,14 @@
 <details>
 <summary><strong>NanoClaw</strong> — <a href="https://github.com/qwibitai/nanoclaw">qwibitai/nanoclaw</a></summary>
 
-⚠️ 摘要生成失败。
+过去24小时无活动。
 
 </details>
 
 <details>
 <summary><strong>NullClaw</strong> — <a href="https://github.com/nullclaw/nullclaw">nullclaw/nullclaw</a></summary>
 
-⚠️ 摘要生成失败。
+过去24小时无活动。
 
 </details>
 
@@ -77,7 +77,7 @@
 <details>
 <summary><strong>LobsterAI</strong> — <a href="https://github.com/netease-youdao/LobsterAI">netease-youdao/LobsterAI</a></summary>
 
-过去24小时无活动。
+⚠️ 摘要生成失败。
 
 </details>
 
@@ -91,7 +91,7 @@
 <details>
 <summary><strong>Moltis</strong> — <a href="https://github.com/moltis-org/moltis">moltis-org/moltis</a></summary>
 
-⚠️ 摘要生成失败。
+过去24小时无活动。
 
 </details>
 

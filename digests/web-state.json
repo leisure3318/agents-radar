@@ -1,6 +1,6 @@
 {
   "anthropic": {
-    "lastChecked": "2026-06-15T02:03:09.061Z",
+    "lastChecked": "2026-06-15T04:41:40.375Z",
     "seenUrls": {
       "https://www.anthropic.com/news/responsible-scaling-policy-v3": "2026-02-25T23:57:06.000Z",
       "https://www.anthropic.com/research/deprecation-updates-opus-3": "2026-02-25T20:58:11.000Z",
@@ -388,7 +388,7 @@
     }
   },
   "openai": {
-    "lastChecked": "2026-06-15T02:03:08.715Z",
+    "lastChecked": "2026-06-15T04:41:42.186Z",
     "seenUrls": {
       "https://openai.com/index/arvind-kc-chief-people-officer/": "2026-05-29T00:25:33.242Z",
       "https://openai.com/index/put-ai-to-work-for-your-product-team/": "2026-06-12T04:05:36.713Z",
@@ -766,7 +766,7 @@
       "https://openai.com/index/our-approach-to-alignment-research/": "2026-06-03T18:57:26.940Z",
       "https://openai.com/index/openai-elon-musk/": "2026-06-12T04:05:38.650Z",
       "https://openai.com/index/openai-safety-update/": "2026-05-31T20:06:19.187Z",
-      "https://openai.com/index/expanding-on-how-voice-engine-works-and-our-safety-research/": "2026-05-31T20:06:48.248Z",
+      "https://openai.com/index/expanding-on-how-voice-engine-works-and-our-safety-research/": "2026-06-15T02:18:11.901Z",
       "https://openai.com/index/update-on-safety-and-security-practices/": "2026-05-31T20:06:17.882Z",
       "https://openai.com/index/upgrading-the-moderation-api-with-our-new-multimodal-moderation-model/": "2026-05-22T19:08:38.874Z",
       "https://openai.com/index/more-enterprise-grade-features-for-api-customers/": "2026-06-12T23:10:08.391Z",
@@ -1069,7 +1069,7 @@
       "https://openai.com/index/introducing-trusted-contact-in-chatgpt/": "2026-05-22T18:55:28.997Z",
       "https://openai.com/index/advancing-voice-intelligence-with-new-models-in-the-api/": "2026-06-09T13:02:28.087Z",
       "https://openai.com/index/running-codex-safely/": "2026-05-22T19:23:21.941Z",
-      "https://openai.com/index/advancing-youth-safety-in-emea/": "2026-06-10T12:33:04.481Z",
+      "https://openai.com/index/advancing-youth-safety-in-emea/": "2026-06-15T02:08:24.760Z",
       "https://openai.com/index/openai-campus-network-student-club-interest-form/": "2026-06-15T00:00:55.800Z",
       "https://openai.com/business/guides-and-resources/how-enterprises-are-scaling-ai/": "2026-06-11T17:36:23.683Z",
       "https://openai.com/index/openai-launches-the-deployment-company/": "2026-05-22T19:20:44.308Z",
@@ -1096,7 +1096,7 @@
       "https://openai.com/index/openai-frontier-governance-framework/": "2026-06-04T08:13:48.422Z",
       "https://openai.com/index/built-to-benefit-everyone-our-plan/": "2026-06-13T04:51:47.117Z",
       "https://openai.com/index/openai-submits-confidential-s-1/": "2026-06-13T15:48:44.100Z",
-      "https://openai.com/index/economic-research-exchange/": "2026-06-13T21:06:48.111Z",
+      "https://openai.com/index/economic-research-exchange/": "2026-06-15T04:27:06.797Z",
       "https://openai.com/index/openai-on-oracle-cloud/": "2026-06-14T22:37:14.013Z",
       "https://openai.com/index/openai-to-acquire-ona/": "2026-06-13T09:07:01.469Z",
       "https://openai.com/index/introducing-openai-partner-network/": "2026-06-15T00:20:21.109Z"

@@ -1,6 +1,6 @@
 # AI CLI 工具社区动态日报 2026-06-15
 
-> 生成时间: 2026-06-15 02:03 UTC | 覆盖工具: 9 个
+> 生成时间: 2026-06-15 04:41 UTC | 覆盖工具: 9 个
 
 - [Claude Code](https://github.com/anthropics/claude-code)
 - [OpenAI Codex](https://github.com/openai/codex)
@@ -62,7 +62,7 @@
 <details>
 <summary><strong>Kimi Code CLI</strong> — <a href="https://github.com/MoonshotAI/kimi-cli">MoonshotAI/kimi-cli</a></summary>
 
-⚠️ 摘要生成失败。
+过去24小时无活动。
 
 </details>
 
