@@ -376,17 +376,16 @@ async function main(): Promise<void> {
   const fetchedOpenclaw = fetched.find((f) => f.cfg.id === OPENCLAW.id)!;
   const fetchedPeers = fetched.filter((f) => peerIds.has(f.cfg.id));
 
-  // Deduplicate trending repos: filter out repos seen in the last N days, then mark today's batch
+  // Deduplicate trending repos: filter out repos seen in the last N days.
+  // Marking today's batch as seen is deferred until after the LLM summary succeeds
+  // (see below) — otherwise a failed summary burns these repos for
+  // TRENDING_DEDUP_DAYS and same-day retries find "no new data" and skip
+  // regenerating the report, leaving the failure placeholder as the final output.
   const filteredTrendingData: TrendingData = {
     ...trendingData,
     trendingRepos: filterSeenRepos(dedupDb, trendingData.trendingRepos, "html", trendingDedupDays),
     searchRepos: filterSeenRepos(dedupDb, trendingData.searchRepos, "search", trendingDedupDays),
   };
-  markReposSeen(
-    dedupDb,
-    [...filteredTrendingData.trendingRepos, ...filteredTrendingData.searchRepos],
-    dateStr,
-  );
 
   // Deduplicate HF trending models: filter out models seen in the last N days, then mark today's batch
   const filteredHfData: HfData = {
@@ -422,7 +421,6 @@ async function main(): Promise<void> {
     arxivDays: arxivDedupDays,
     communityDays: communityDedupDays,
   });
-  dedupDb.close();
 
   // 2. Generate per-repo LLM summaries in parallel (zh + en simultaneously)
   console.log("  Generating summaries in ZH and EN in parallel...");
@@ -446,6 +444,20 @@ async function main(): Promise<void> {
       "en",
     ),
   ]);
+
+  // Only mark today's trending repos as seen once the LLM summary actually
+  // succeeded for both languages — see note above.
+  const trendingSummarySucceeded =
+    zhSummaries.trendingSummary !== MSG.trendingFailed.zh &&
+    enSummaries.trendingSummary !== MSG.trendingFailed.en;
+  if (trendingSummarySucceeded) {
+    markReposSeen(
+      dedupDb,
+      [...filteredTrendingData.trendingRepos, ...filteredTrendingData.searchRepos],
+      dateStr,
+    );
+  }
+  dedupDb.close();
 
   // 3. Generate cross-repo comparisons in parallel (zh + en)
   console.log("  Calling LLM for comparative analyses (ZH + EN)...");
