@@ -6,7 +6,522 @@
     <description>AI 开源生态每日简报 · Daily AI ecosystem digest</description>
     <language>zh-CN</language>
     <atom:link href="https://duanyytop.github.io/agents-radar/feed.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Mon, 15 Jun 2026 06:31:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 16 Jun 2026 02:12:16 +0000</lastBuildDate>
+    <item>
+      <title>AI CLI 工具社区动态日报 2026-06-16</title>
+      <link>https://duanyytop.github.io/agents-radar/#2026-06-16/ai-cli</link>
+      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-06-16/ai-cli</guid>
+      <pubDate>Tue, 16 Jun 2026 00:00:00 +0000</pubDate>
+      <description>AI CLI 工具社区动态日报 2026-06-16 生成时间: 2026-06-16 02:11 UTC | 覆盖工具: 9 个 Claude Code OpenAI Codex Gemini CLI GitHub Copilot CLI Kimi Code CLI OpenCode Pi Qwen Code DeepSeek TUI Claude Code Skills 横向对比 各工具详细报告 Claude Code — anthropics/claude-code Claude Code Skills 社区热点 数据来源: anthropics/skills ⚠️ Skills 摘要生成失败。 ⚠️ 摘要生成失败。 OpenAI Codex — openai/codex ⚠️ 摘要生成失败。 Gemini CLI — google-gemini/gemini-cli ⚠️ 摘要生成失败。 GitHub Copilot CLI — github/copilot-cli ⚠️ 摘要生成失败。 Kimi Code CLI — MoonshotAI/kimi-cli ⚠️ 摘要生成失败...</description>
+      <content:encoded><![CDATA[<h1>AI CLI 工具社区动态日报 2026-06-16</h1>
+<blockquote>
+<p>生成时间: 2026-06-16 02:11 UTC | 覆盖工具: 9 个</p>
+</blockquote>
+<ul>
+<li><a href="https://github.com/anthropics/claude-code">Claude Code</a></li>
+<li><a href="https://github.com/openai/codex">OpenAI Codex</a></li>
+<li><a href="https://github.com/google-gemini/gemini-cli">Gemini CLI</a></li>
+<li><a href="https://github.com/github/copilot-cli">GitHub Copilot CLI</a></li>
+<li><a href="https://github.com/MoonshotAI/kimi-cli">Kimi Code CLI</a></li>
+<li><a href="https://github.com/anomalyco/opencode">OpenCode</a></li>
+<li><a href="https://github.com/badlogic/pi-mono">Pi</a></li>
+<li><a href="https://github.com/QwenLM/qwen-code">Qwen Code</a></li>
+<li><a href="https://github.com/Hmbown/DeepSeek-TUI">DeepSeek TUI</a></li>
+<li><a href="https://github.com/anthropics/skills">Claude Code Skills</a></li>
+</ul>
+<hr>
+<h2>横向对比</h2>
+<hr>
+<h2>各工具详细报告</h2>
+<details>
+<summary><strong>Claude Code</strong> — <a href="https://github.com/anthropics/claude-code">anthropics/claude-code</a></summary>
+
+<h2>Claude Code Skills 社区热点</h2>
+<blockquote>
+<p>数据来源: <a href="https://github.com/anthropics/skills">anthropics/skills</a></p>
+</blockquote>
+<p>⚠️ Skills 摘要生成失败。</p>
+<hr>
+<p>⚠️ 摘要生成失败。</p>
+</details>
+
+<details>
+<summary><strong>OpenAI Codex</strong> — <a href="https://github.com/openai/codex">openai/codex</a></summary>
+
+<p>⚠️ 摘要生成失败。</p>
+</details>
+
+<details>
+<summary><strong>Gemini CLI</strong> — <a href="https://github.com/google-gemini/gemini-cli">google-gemini/gemini-cli</a></summary>
+
+<p>⚠️ 摘要生成失败。</p>
+</details>
+
+<details>
+<summary><strong>GitHub Copilot CLI</strong> — <a href="https://github.com/github/copilot-cli">github/copilot-cli</a></summary>
+
+<p>⚠️ 摘要生成失败。</p>
+</details>
+
+<details>
+<summary><strong>Kimi Code CLI</strong> — <a href="https://github.com/MoonshotAI/kimi-cli">MoonshotAI/kimi-cli</a></summary>
+
+<p>⚠️ 摘要生成失败。</p>
+</details>
+
+<details>
+<summary><strong>OpenCode</strong> — <a href="https://github.com/anomalyco/opencode">anomalyco/opencode</a></summary>
+
+<p>⚠️ 摘要生成失败。</p>
+</details>
+
+<details>
+<summary><strong>Pi</strong> — <a href="https://github.com/badlogic/pi-mono">badlogic/pi-mono</a></summary>
+
+<p>⚠️ 摘要生成失败。</p>
+</details>
+
+<details>
+<summary><strong>Qwen Code</strong> — <a href="https://github.com/QwenLM/qwen-code">QwenLM/qwen-code</a></summary>
+
+<p>⚠️ 摘要生成失败。</p>
+</details>
+
+<details>
+<summary><strong>DeepSeek TUI</strong> — <a href="https://github.com/Hmbown/DeepSeek-TUI">Hmbown/DeepSeek-TUI</a></summary>
+
+<p>⚠️ 摘要生成失败。</p>
+</details>
+
+<hr>
+<p><em>本日报由 <a href="https://github.com/leisure3318/agents-radar">agents-radar</a> 自动生成。</em></p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>AI CLI Tools Digest 2026-06-16</title>
+      <link>https://duanyytop.github.io/agents-radar/#2026-06-16/ai-cli-en</link>
+      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-06-16/ai-cli-en</guid>
+      <pubDate>Tue, 16 Jun 2026 00:00:00 +0000</pubDate>
+      <description>AI CLI Tools Community Digest 2026-06-16 Generated: 2026-06-16 02:11 UTC | Tools covered: 9 Claude Code OpenAI Codex Gemini CLI GitHub Copilot CLI Kimi Code CLI OpenCode Pi Qwen Code DeepSeek TUI Claude Code Skills Cross-Tool Comparison (English digest skipped to save LLM tokens — see the Chinese report for full details.) Per-Tool Reports Claude Code — anthropics/claude-code Claude Code Skills Highlights Source: anthropics/skills (English digest skipped to save LLM tokens — see the Chinese repor...</description>
+      <content:encoded><![CDATA[<h1>AI CLI Tools Community Digest 2026-06-16</h1>
+<blockquote>
+<p>Generated: 2026-06-16 02:11 UTC | Tools covered: 9</p>
+</blockquote>
+<ul>
+<li><a href="https://github.com/anthropics/claude-code">Claude Code</a></li>
+<li><a href="https://github.com/openai/codex">OpenAI Codex</a></li>
+<li><a href="https://github.com/google-gemini/gemini-cli">Gemini CLI</a></li>
+<li><a href="https://github.com/github/copilot-cli">GitHub Copilot CLI</a></li>
+<li><a href="https://github.com/MoonshotAI/kimi-cli">Kimi Code CLI</a></li>
+<li><a href="https://github.com/anomalyco/opencode">OpenCode</a></li>
+<li><a href="https://github.com/badlogic/pi-mono">Pi</a></li>
+<li><a href="https://github.com/QwenLM/qwen-code">Qwen Code</a></li>
+<li><a href="https://github.com/Hmbown/DeepSeek-TUI">DeepSeek TUI</a></li>
+<li><a href="https://github.com/anthropics/skills">Claude Code Skills</a></li>
+</ul>
+<hr>
+<h2>Cross-Tool Comparison</h2>
+<p><em>(English digest skipped to save LLM tokens — see the Chinese report for full details.)</em></p>
+<hr>
+<h2>Per-Tool Reports</h2>
+<details>
+<summary><strong>Claude Code</strong> — <a href="https://github.com/anthropics/claude-code">anthropics/claude-code</a></summary>
+
+<h2>Claude Code Skills Highlights</h2>
+<blockquote>
+<p>Source: <a href="https://github.com/anthropics/skills">anthropics/skills</a></p>
+</blockquote>
+<p><em>(English digest skipped to save LLM tokens — see the Chinese report for full details.)</em></p>
+<hr>
+<p><em>(English digest skipped to save LLM tokens — see the Chinese report for full details.)</em></p>
+</details>
+
+<details>
+<summary><strong>OpenAI Codex</strong> — <a href="https://github.com/openai/codex">openai/codex</a></summary>
+
+<p><em>(English digest skipped to save LLM tokens — see the Chinese report for full details.)</em></p>
+</details>
+
+<details>
+<summary><strong>Gemini CLI</strong> — <a href="https://github.com/google-gemini/gemini-cli">google-gemini/gemini-cli</a></summary>
+
+<p><em>(English digest skipped to save LLM tokens — see the Chinese report for full details.)</em></p>
+</details>
+
+<details>
+<summary><strong>GitHub Copilot CLI</strong> — <a href="https://github.com/github/copilot-cli">github/copilot-cli</a></summary>
+
+<p><em>(English digest skipped to save LLM tokens — see the Chinese report for full details.)</em></p>
+</details>
+
+<details>
+<summary><strong>Kimi Code CLI</strong> — <a href="https://github.com/MoonshotAI/kimi-cli">MoonshotAI/kimi-cli</a></summary>
+
+<p><em>(English digest skipped to save LLM tokens — see the Chinese report for full details.)</em></p>
+</details>
+
+<details>
+<summary><strong>OpenCode</strong> — <a href="https://github.com/anomalyco/opencode">anomalyco/opencode</a></summary>
+
+<p><em>(English digest skipped to save LLM tokens — see the Chinese report for full details.)</em></p>
+</details>
+
+<details>
+<summary><strong>Pi</strong> — <a href="https://github.com/badlogic/pi-mono">badlogic/pi-mono</a></summary>
+
+<p><em>(English digest skipped to save LLM tokens — see the Chinese report for full details.)</em></p>
+</details>
+
+<details>
+<summary><strong>Qwen Code</strong> — <a href="https://github.com/QwenLM/qwen-code">QwenLM/qwen-code</a></summary>
+
+<p><em>(English digest skipped to save LLM tokens — see the Chinese report for full details.)</em></p>
+</details>
+
+<details>
+<summary><strong>DeepSeek TUI</strong> — <a href="https://github.com/Hmbown/DeepSeek-TUI">Hmbown/DeepSeek-TUI</a></summary>
+
+<p><em>(English digest skipped to save LLM tokens — see the Chinese report for full details.)</em></p>
+</details>
+
+<hr>
+<p><em>This digest is auto-generated by <a href="https://github.com/leisure3318/agents-radar">agents-radar</a>.</em></p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>AI Agents 生态日报 2026-06-16</title>
+      <link>https://duanyytop.github.io/agents-radar/#2026-06-16/ai-agents</link>
+      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-06-16/ai-agents</guid>
+      <pubDate>Tue, 16 Jun 2026 00:00:00 +0000</pubDate>
+      <description>OpenClaw 生态日报 2026-06-16 Issues: 1 | PRs: 40 | 覆盖项目: 13 个 | 生成时间: 2026-06-16 02:11 UTC OpenClaw NanoBot Hermes Agent PicoClaw NanoClaw NullClaw IronClaw LobsterAI TinyClaw Moltis CoPaw ZeptoClaw ZeroClaw OpenClaw 项目深度报告 ⚠️ 摘要生成失败。 横向生态对比 同赛道项目详细报告 NanoBot — HKUDS/nanobot ⚠️ 摘要生成失败。 Hermes Agent — nousresearch/hermes-agent ⚠️ 摘要生成失败。 PicoClaw — sipeed/picoclaw ⚠️ 摘要生成失败。 NanoClaw — qwibitai/nanoclaw ⚠️ 摘要生成失败。 NullClaw — nullclaw/nullclaw ⚠️ 摘要生成失败。 IronClaw — nearai/ironclaw ⚠️ 摘要生成失败。 LobsterAI...</description>
+      <content:encoded><![CDATA[<h1>OpenClaw 生态日报 2026-06-16</h1>
+<blockquote>
+<p>Issues: 1 | PRs: 40 | 覆盖项目: 13 个 | 生成时间: 2026-06-16 02:11 UTC</p>
+</blockquote>
+<ul>
+<li><a href="https://github.com/openclaw/openclaw">OpenClaw</a></li>
+<li><a href="https://github.com/HKUDS/nanobot">NanoBot</a></li>
+<li><a href="https://github.com/nousresearch/hermes-agent">Hermes Agent</a></li>
+<li><a href="https://github.com/sipeed/picoclaw">PicoClaw</a></li>
+<li><a href="https://github.com/qwibitai/nanoclaw">NanoClaw</a></li>
+<li><a href="https://github.com/nullclaw/nullclaw">NullClaw</a></li>
+<li><a href="https://github.com/nearai/ironclaw">IronClaw</a></li>
+<li><a href="https://github.com/netease-youdao/LobsterAI">LobsterAI</a></li>
+<li><a href="https://github.com/TinyAGI/tinyagi">TinyClaw</a></li>
+<li><a href="https://github.com/moltis-org/moltis">Moltis</a></li>
+<li><a href="https://github.com/agentscope-ai/CoPaw">CoPaw</a></li>
+<li><a href="https://github.com/qhkm/zeptoclaw">ZeptoClaw</a></li>
+<li><a href="https://github.com/zeroclaw-labs/zeroclaw">ZeroClaw</a></li>
+</ul>
+<hr>
+<h2>OpenClaw 项目深度报告</h2>
+<p>⚠️ 摘要生成失败。</p>
+<hr>
+<h2>横向生态对比</h2>
+<hr>
+<h2>同赛道项目详细报告</h2>
+<details>
+<summary><strong>NanoBot</strong> — <a href="https://github.com/HKUDS/nanobot">HKUDS/nanobot</a></summary>
+
+<p>⚠️ 摘要生成失败。</p>
+</details>
+
+<details>
+<summary><strong>Hermes Agent</strong> — <a href="https://github.com/nousresearch/hermes-agent">nousresearch/hermes-agent</a></summary>
+
+<p>⚠️ 摘要生成失败。</p>
+</details>
+
+<details>
+<summary><strong>PicoClaw</strong> — <a href="https://github.com/sipeed/picoclaw">sipeed/picoclaw</a></summary>
+
+<p>⚠️ 摘要生成失败。</p>
+</details>
+
+<details>
+<summary><strong>NanoClaw</strong> — <a href="https://github.com/qwibitai/nanoclaw">qwibitai/nanoclaw</a></summary>
+
+<p>⚠️ 摘要生成失败。</p>
+</details>
+
+<details>
+<summary><strong>NullClaw</strong> — <a href="https://github.com/nullclaw/nullclaw">nullclaw/nullclaw</a></summary>
+
+<p>⚠️ 摘要生成失败。</p>
+</details>
+
+<details>
+<summary><strong>IronClaw</strong> — <a href="https://github.com/nearai/ironclaw">nearai/ironclaw</a></summary>
+
+<p>⚠️ 摘要生成失败。</p>
+</details>
+
+<details>
+<summary><strong>LobsterAI</strong> — <a href="https://github.com/netease-youdao/LobsterAI">netease-youdao/LobsterAI</a></summary>
+
+<p>⚠️ 摘要生成失败。</p>
+</details>
+
+<details>
+<summary><strong>TinyClaw</strong> — <a href="https://github.com/TinyAGI/tinyagi">TinyAGI/tinyagi</a></summary>
+
+<p>过去24小时无活动。</p>
+</details>
+
+<details>
+<summary><strong>Moltis</strong> — <a href="https://github.com/moltis-org/moltis">moltis-org/moltis</a></summary>
+
+<p>⚠️ 摘要生成失败。</p>
+</details>
+
+<details>
+<summary><strong>CoPaw</strong> — <a href="https://github.com/agentscope-ai/CoPaw">agentscope-ai/CoPaw</a></summary>
+
+<p>⚠️ 摘要生成失败。</p>
+</details>
+
+<details>
+<summary><strong>ZeptoClaw</strong> — <a href="https://github.com/qhkm/zeptoclaw">qhkm/zeptoclaw</a></summary>
+
+<p>过去24小时无活动。</p>
+</details>
+
+<details>
+<summary><strong>ZeroClaw</strong> — <a href="https://github.com/zeroclaw-labs/zeroclaw">zeroclaw-labs/zeroclaw</a></summary>
+
+<p>⚠️ 摘要生成失败。</p>
+</details>
+
+<hr>
+<p><em>本日报由 <a href="https://github.com/leisure3318/agents-radar">agents-radar</a> 自动生成。</em></p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>AI Agents Ecosystem Digest 2026-06-16</title>
+      <link>https://duanyytop.github.io/agents-radar/#2026-06-16/ai-agents-en</link>
+      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-06-16/ai-agents-en</guid>
+      <pubDate>Tue, 16 Jun 2026 00:00:00 +0000</pubDate>
+      <description>OpenClaw Ecosystem Digest 2026-06-16 Issues: 1 | PRs: 40 | Projects covered: 13 | Generated: 2026-06-16 02:11 UTC OpenClaw NanoBot Hermes Agent PicoClaw NanoClaw NullClaw IronClaw LobsterAI TinyClaw Moltis CoPaw ZeptoClaw ZeroClaw OpenClaw Deep Dive (English digest skipped to save LLM tokens — see the Chinese report for full details.) Cross-Ecosystem Comparison (English digest skipped to save LLM tokens — see the Chinese report for full details.) Peer Project Reports NanoBot — HKUDS/nanobot (Eng...</description>
+      <content:encoded><![CDATA[<h1>OpenClaw Ecosystem Digest 2026-06-16</h1>
+<blockquote>
+<p>Issues: 1 | PRs: 40 | Projects covered: 13 | Generated: 2026-06-16 02:11 UTC</p>
+</blockquote>
+<ul>
+<li><a href="https://github.com/openclaw/openclaw">OpenClaw</a></li>
+<li><a href="https://github.com/HKUDS/nanobot">NanoBot</a></li>
+<li><a href="https://github.com/nousresearch/hermes-agent">Hermes Agent</a></li>
+<li><a href="https://github.com/sipeed/picoclaw">PicoClaw</a></li>
+<li><a href="https://github.com/qwibitai/nanoclaw">NanoClaw</a></li>
+<li><a href="https://github.com/nullclaw/nullclaw">NullClaw</a></li>
+<li><a href="https://github.com/nearai/ironclaw">IronClaw</a></li>
+<li><a href="https://github.com/netease-youdao/LobsterAI">LobsterAI</a></li>
+<li><a href="https://github.com/TinyAGI/tinyagi">TinyClaw</a></li>
+<li><a href="https://github.com/moltis-org/moltis">Moltis</a></li>
+<li><a href="https://github.com/agentscope-ai/CoPaw">CoPaw</a></li>
+<li><a href="https://github.com/qhkm/zeptoclaw">ZeptoClaw</a></li>
+<li><a href="https://github.com/zeroclaw-labs/zeroclaw">ZeroClaw</a></li>
+</ul>
+<hr>
+<h2>OpenClaw Deep Dive</h2>
+<p><em>(English digest skipped to save LLM tokens — see the Chinese report for full details.)</em></p>
+<hr>
+<h2>Cross-Ecosystem Comparison</h2>
+<p><em>(English digest skipped to save LLM tokens — see the Chinese report for full details.)</em></p>
+<hr>
+<h2>Peer Project Reports</h2>
+<details>
+<summary><strong>NanoBot</strong> — <a href="https://github.com/HKUDS/nanobot">HKUDS/nanobot</a></summary>
+
+<p><em>(English digest skipped to save LLM tokens — see the Chinese report for full details.)</em></p>
+</details>
+
+<details>
+<summary><strong>Hermes Agent</strong> — <a href="https://github.com/nousresearch/hermes-agent">nousresearch/hermes-agent</a></summary>
+
+<p><em>(English digest skipped to save LLM tokens — see the Chinese report for full details.)</em></p>
+</details>
+
+<details>
+<summary><strong>PicoClaw</strong> — <a href="https://github.com/sipeed/picoclaw">sipeed/picoclaw</a></summary>
+
+<p><em>(English digest skipped to save LLM tokens — see the Chinese report for full details.)</em></p>
+</details>
+
+<details>
+<summary><strong>NanoClaw</strong> — <a href="https://github.com/qwibitai/nanoclaw">qwibitai/nanoclaw</a></summary>
+
+<p><em>(English digest skipped to save LLM tokens — see the Chinese report for full details.)</em></p>
+</details>
+
+<details>
+<summary><strong>NullClaw</strong> — <a href="https://github.com/nullclaw/nullclaw">nullclaw/nullclaw</a></summary>
+
+<p><em>(English digest skipped to save LLM tokens — see the Chinese report for full details.)</em></p>
+</details>
+
+<details>
+<summary><strong>IronClaw</strong> — <a href="https://github.com/nearai/ironclaw">nearai/ironclaw</a></summary>
+
+<p><em>(English digest skipped to save LLM tokens — see the Chinese report for full details.)</em></p>
+</details>
+
+<details>
+<summary><strong>LobsterAI</strong> — <a href="https://github.com/netease-youdao/LobsterAI">netease-youdao/LobsterAI</a></summary>
+
+<p><em>(English digest skipped to save LLM tokens — see the Chinese report for full details.)</em></p>
+</details>
+
+<details>
+<summary><strong>TinyClaw</strong> — <a href="https://github.com/TinyAGI/tinyagi">TinyAGI/tinyagi</a></summary>
+
+<p>No activity in the last 24 hours.</p>
+</details>
+
+<details>
+<summary><strong>Moltis</strong> — <a href="https://github.com/moltis-org/moltis">moltis-org/moltis</a></summary>
+
+<p><em>(English digest skipped to save LLM tokens — see the Chinese report for full details.)</em></p>
+</details>
+
+<details>
+<summary><strong>CoPaw</strong> — <a href="https://github.com/agentscope-ai/CoPaw">agentscope-ai/CoPaw</a></summary>
+
+<p><em>(English digest skipped to save LLM tokens — see the Chinese report for full details.)</em></p>
+</details>
+
+<details>
+<summary><strong>ZeptoClaw</strong> — <a href="https://github.com/qhkm/zeptoclaw">qhkm/zeptoclaw</a></summary>
+
+<p>No activity in the last 24 hours.</p>
+</details>
+
+<details>
+<summary><strong>ZeroClaw</strong> — <a href="https://github.com/zeroclaw-labs/zeroclaw">zeroclaw-labs/zeroclaw</a></summary>
+
+<p><em>(English digest skipped to save LLM tokens — see the Chinese report for full details.)</em></p>
+</details>
+
+<hr>
+<p><em>This digest is auto-generated by <a href="https://github.com/leisure3318/agents-radar">agents-radar</a>.</em></p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Official AI Content Report 2026-06-16</title>
+      <link>https://duanyytop.github.io/agents-radar/#2026-06-16/ai-web-en</link>
+      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-06-16/ai-web-en</guid>
+      <pubDate>Tue, 16 Jun 2026 00:00:00 +0000</pubDate>
+      <description>Official AI Content Report 2026-06-16 Today&amp;#39;s update | New content: 2 articles | Generated: 2026-06-16 02:11 UTC Sources: Anthropic: anthropic.com — 2 new articles (sitemap total: 381) OpenAI: openai.com — 0 new articles (sitemap total: 843) (English digest skipped to save LLM tokens — see the Chinese report for full details.) This digest is auto-generated by agents-radar.</description>
+      <content:encoded><![CDATA[<h1>Official AI Content Report 2026-06-16</h1>
+<blockquote>
+<p>Today&#39;s update | New content: 2 articles | Generated: 2026-06-16 02:11 UTC</p>
+</blockquote>
+<p>Sources:</p>
+<ul>
+<li>Anthropic: <a href="https://www.anthropic.com">anthropic.com</a> — 2 new articles (sitemap total: 381)</li>
+<li>OpenAI: <a href="https://openai.com">openai.com</a> — 0 new articles (sitemap total: 843)</li>
+</ul>
+<hr>
+<p><em>(English digest skipped to save LLM tokens — see the Chinese report for full details.)</em></p>
+<hr>
+<p><em>This digest is auto-generated by <a href="https://github.com/leisure3318/agents-radar">agents-radar</a>.</em></p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>AI 开源趋势日报 2026-06-16</title>
+      <link>https://duanyytop.github.io/agents-radar/#2026-06-16/ai-trending</link>
+      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-06-16/ai-trending</guid>
+      <pubDate>Tue, 16 Jun 2026 00:00:00 +0000</pubDate>
+      <description>AI 开源趋势日报 2026-06-16 数据来源: GitHub Trending + GitHub Search API | 生成时间: 2026-06-16 02:11 UTC ⚠️ 趋势报告生成失败。 本日报由 agents-radar 自动生成。</description>
+      <content:encoded><![CDATA[<h1>AI 开源趋势日报 2026-06-16</h1>
+<blockquote>
+<p>数据来源: GitHub Trending + GitHub Search API | 生成时间: 2026-06-16 02:11 UTC</p>
+</blockquote>
+<hr>
+<p>⚠️ 趋势报告生成失败。</p>
+<hr>
+<p><em>本日报由 <a href="https://github.com/leisure3318/agents-radar">agents-radar</a> 自动生成。</em></p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>AI Open Source Trends 2026-06-16</title>
+      <link>https://duanyytop.github.io/agents-radar/#2026-06-16/ai-trending-en</link>
+      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-06-16/ai-trending-en</guid>
+      <pubDate>Tue, 16 Jun 2026 00:00:00 +0000</pubDate>
+      <description>AI Open Source Trends 2026-06-16 Sources: GitHub Trending + GitHub Search API | Generated: 2026-06-16 02:11 UTC (English digest skipped to save LLM tokens — see the Chinese report for full details.) This digest is auto-generated by agents-radar.</description>
+      <content:encoded><![CDATA[<h1>AI Open Source Trends 2026-06-16</h1>
+<blockquote>
+<p>Sources: GitHub Trending + GitHub Search API | Generated: 2026-06-16 02:11 UTC</p>
+</blockquote>
+<hr>
+<p><em>(English digest skipped to save LLM tokens — see the Chinese report for full details.)</em></p>
+<hr>
+<p><em>This digest is auto-generated by <a href="https://github.com/leisure3318/agents-radar">agents-radar</a>.</em></p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Hacker News AI Community Digest 2026-06-16</title>
+      <link>https://duanyytop.github.io/agents-radar/#2026-06-16/ai-hn-en</link>
+      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-06-16/ai-hn-en</guid>
+      <pubDate>Tue, 16 Jun 2026 00:00:00 +0000</pubDate>
+      <description>Hacker News AI Community Digest 2026-06-16 Source: Hacker News | 30 stories | Generated: 2026-06-16 02:11 UTC (English digest skipped to save LLM tokens — see the Chinese report for full details.) This digest is auto-generated by agents-radar.</description>
+      <content:encoded><![CDATA[<h1>Hacker News AI Community Digest 2026-06-16</h1>
+<blockquote>
+<p>Source: <a href="https://news.ycombinator.com/">Hacker News</a> | 30 stories | Generated: 2026-06-16 02:11 UTC</p>
+</blockquote>
+<hr>
+<p><em>(English digest skipped to save LLM tokens — see the Chinese report for full details.)</em></p>
+<hr>
+<p><em>This digest is auto-generated by <a href="https://github.com/leisure3318/agents-radar">agents-radar</a>.</em></p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>ArXiv AI Research Digest 2026-06-16</title>
+      <link>https://duanyytop.github.io/agents-radar/#2026-06-16/ai-arxiv-en</link>
+      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-06-16/ai-arxiv-en</guid>
+      <pubDate>Tue, 16 Jun 2026 00:00:00 +0000</pubDate>
+      <description>ArXiv AI Research Digest 2026-06-16 Source: ArXiv (cs.AI, cs.CL, cs.LG) | 50 papers | Generated: 2026-06-16 02:11 UTC (English digest skipped to save LLM tokens — see the Chinese report for full details.) This digest is auto-generated by agents-radar.</description>
+      <content:encoded><![CDATA[<h1>ArXiv AI Research Digest 2026-06-16</h1>
+<blockquote>
+<p>Source: <a href="https://arxiv.org/">ArXiv</a> (cs.AI, cs.CL, cs.LG) | 50 papers | Generated: 2026-06-16 02:11 UTC</p>
+</blockquote>
+<hr>
+<p><em>(English digest skipped to save LLM tokens — see the Chinese report for full details.)</em></p>
+<hr>
+<p><em>This digest is auto-generated by <a href="https://github.com/leisure3318/agents-radar">agents-radar</a>.</em></p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Hugging Face Trending Models Digest 2026-06-16</title>
+      <link>https://duanyytop.github.io/agents-radar/#2026-06-16/ai-hf-en</link>
+      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-06-16/ai-hf-en</guid>
+      <pubDate>Tue, 16 Jun 2026 00:00:00 +0000</pubDate>
+      <description>Hugging Face Trending Models Digest 2026-06-16 Source: Hugging Face Hub | 3 models | Generated: 2026-06-16 02:11 UTC (English digest skipped to save LLM tokens — see the Chinese report for full details.) This digest is auto-generated by agents-radar.</description>
+      <content:encoded><![CDATA[<h1>Hugging Face Trending Models Digest 2026-06-16</h1>
+<blockquote>
+<p>Source: <a href="https://huggingface.co/">Hugging Face Hub</a> | 3 models | Generated: 2026-06-16 02:11 UTC</p>
+</blockquote>
+<hr>
+<p><em>(English digest skipped to save LLM tokens — see the Chinese report for full details.)</em></p>
+<hr>
+<p><em>This digest is auto-generated by <a href="https://github.com/leisure3318/agents-radar">agents-radar</a>.</em></p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Tech Community AI Digest 2026-06-16</title>
+      <link>https://duanyytop.github.io/agents-radar/#2026-06-16/ai-community-en</link>
+      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-06-16/ai-community-en</guid>
+      <pubDate>Tue, 16 Jun 2026 00:00:00 +0000</pubDate>
+      <description>Tech Community AI Digest 2026-06-16 Sources: Dev.to (27 articles) + Lobste.rs (4 stories) | Generated: 2026-06-16 02:11 UTC (English digest skipped to save LLM tokens — see the Chinese report for full details.) This digest is auto-generated by agents-radar.</description>
+      <content:encoded><![CDATA[<h1>Tech Community AI Digest 2026-06-16</h1>
+<blockquote>
+<p>Sources: <a href="https://dev.to/">Dev.to</a> (27 articles) + <a href="https://lobste.rs/">Lobste.rs</a> (4 stories) | Generated: 2026-06-16 02:11 UTC</p>
+</blockquote>
+<hr>
+<p><em>(English digest skipped to save LLM tokens — see the Chinese report for full details.)</em></p>
+<hr>
+<p><em>This digest is auto-generated by <a href="https://github.com/leisure3318/agents-radar">agents-radar</a>.</em></p>
+]]></content:encoded>
+    </item>
     <item>
       <title>AI CLI 工具社区动态日报 2026-06-15</title>
       <link>https://duanyytop.github.io/agents-radar/#2026-06-15/ai-cli</link>
@@ -1602,3134 +2117,6 @@
 <p><em>(English digest skipped to save LLM tokens — see the Chinese report for full details.)</em></p>
 <hr>
 <p><em>This digest is auto-generated by <a href="https://github.com/leisure3318/agents-radar">agents-radar</a>.</em></p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>Hugging Face Trending Models Digest 2026-06-14</title>
-      <link>https://duanyytop.github.io/agents-radar/#2026-06-14/ai-hf-en</link>
-      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-06-14/ai-hf-en</guid>
-      <pubDate>Sun, 14 Jun 2026 00:00:00 +0000</pubDate>
-      <description>Hugging Face Trending Models Digest 2026-06-14 Source: Hugging Face Hub | 0 models | Generated: 2026-06-14 04:18 UTC (English digest skipped to save LLM tokens — see the Chinese report for full details.) This digest is auto-generated by agents-radar.</description>
-      <content:encoded><![CDATA[<h1>Hugging Face Trending Models Digest 2026-06-14</h1>
-<blockquote>
-<p>Source: <a href="https://huggingface.co/">Hugging Face Hub</a> | 0 models | Generated: 2026-06-14 04:18 UTC</p>
-</blockquote>
-<hr>
-<p><em>(English digest skipped to save LLM tokens — see the Chinese report for full details.)</em></p>
-<hr>
-<p><em>This digest is auto-generated by <a href="https://github.com/leisure3318/agents-radar">agents-radar</a>.</em></p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>Tech Community AI Digest 2026-06-14</title>
-      <link>https://duanyytop.github.io/agents-radar/#2026-06-14/ai-community-en</link>
-      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-06-14/ai-community-en</guid>
-      <pubDate>Sun, 14 Jun 2026 00:00:00 +0000</pubDate>
-      <description>Tech Community AI Digest 2026-06-14 Sources: Dev.to (6 articles) + Lobste.rs (1 stories) | Generated: 2026-06-14 04:18 UTC (English digest skipped to save LLM tokens — see the Chinese report for full details.) This digest is auto-generated by agents-radar.</description>
-      <content:encoded><![CDATA[<h1>Tech Community AI Digest 2026-06-14</h1>
-<blockquote>
-<p>Sources: <a href="https://dev.to/">Dev.to</a> (6 articles) + <a href="https://lobste.rs/">Lobste.rs</a> (1 stories) | Generated: 2026-06-14 04:18 UTC</p>
-</blockquote>
-<hr>
-<p><em>(English digest skipped to save LLM tokens — see the Chinese report for full details.)</em></p>
-<hr>
-<p><em>This digest is auto-generated by <a href="https://github.com/leisure3318/agents-radar">agents-radar</a>.</em></p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>AI CLI 工具社区动态日报 2026-06-13</title>
-      <link>https://duanyytop.github.io/agents-radar/#2026-06-13/ai-cli</link>
-      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-06-13/ai-cli</guid>
-      <pubDate>Sat, 13 Jun 2026 00:00:00 +0000</pubDate>
-      <description>AI CLI 工具社区动态日报 2026-06-13 生成时间: 2026-06-13 03:59 UTC | 覆盖工具: 9 个 Claude Code OpenAI Codex Gemini CLI GitHub Copilot CLI Kimi Code CLI OpenCode Pi Qwen Code DeepSeek TUI Claude Code Skills 横向对比 以下分析基于你提供的 2026-06-13 社区动态摘要，统计口径为：当日报告中明确列出的更新条目。 1) 生态全景 过去 24 小时内，AI CLI 工具生态整体呈现出一个很清晰的阶段特征：主战场已经从“能不能用”转向“能否稳定地长时间用、跨平台用、并与外部工具链无缝协同”。Claude Code、Codex、OpenCode、Qwen Code、Pi 等项目都在围绕 模型可用性、长会话、Agent 生命周期、路径/工作目录语义、MCP/外部集成 持续修补。从活跃度看，生态并不均衡：少数项目高频迭代，另一些项目几乎静默，反映出不同产品处于 快速打磨期、稳定修复期或低噪声成熟期。整体趋势是：CLI 正从“...</description>
-      <content:encoded><![CDATA[<h1>AI CLI 工具社区动态日报 2026-06-13</h1>
-<blockquote>
-<p>生成时间: 2026-06-13 03:59 UTC | 覆盖工具: 9 个</p>
-</blockquote>
-<ul>
-<li><a href="https://github.com/anthropics/claude-code">Claude Code</a></li>
-<li><a href="https://github.com/openai/codex">OpenAI Codex</a></li>
-<li><a href="https://github.com/google-gemini/gemini-cli">Gemini CLI</a></li>
-<li><a href="https://github.com/github/copilot-cli">GitHub Copilot CLI</a></li>
-<li><a href="https://github.com/MoonshotAI/kimi-cli">Kimi Code CLI</a></li>
-<li><a href="https://github.com/anomalyco/opencode">OpenCode</a></li>
-<li><a href="https://github.com/badlogic/pi-mono">Pi</a></li>
-<li><a href="https://github.com/QwenLM/qwen-code">Qwen Code</a></li>
-<li><a href="https://github.com/Hmbown/DeepSeek-TUI">DeepSeek TUI</a></li>
-<li><a href="https://github.com/anthropics/skills">Claude Code Skills</a></li>
-</ul>
-<hr>
-<h2>横向对比</h2>
-<p>以下分析基于你提供的 <strong>2026-06-13</strong> 社区动态摘要，统计口径为：<strong>当日报告中明确列出的更新条目</strong>。</p>
-<hr>
-<h2>1) 生态全景</h2>
-<p>过去 24 小时内，AI CLI 工具生态整体呈现出一个很清晰的阶段特征：<strong>主战场已经从“能不能用”转向“能否稳定地长时间用、跨平台用、并与外部工具链无缝协同”</strong>。<br>Claude Code、Codex、OpenCode、Qwen Code、Pi 等项目都在围绕 <strong>模型可用性、长会话、Agent 生命周期、路径/工作目录语义、MCP/外部集成</strong> 持续修补。<br>从活跃度看，生态并不均衡：少数项目高频迭代，另一些项目几乎静默，反映出不同产品处于 <strong>快速打磨期、稳定修复期或低噪声成熟期</strong>。<br>整体趋势是：<strong>CLI 正从“命令行聊天工具”演进为“可编排的开发工作台”</strong>，对可靠性、上下文治理、可观测性和跨平台一致性要求显著提高。</p>
-<hr>
-<h2>2) 各工具活跃度对比</h2>
-<blockquote>
-<p>说明：下表中的 Issue/PR 数量以当日报告中列出的“今日更新条目”为准。</p>
-</blockquote>
-<table>
-<thead>
-<tr>
-<th>工具</th>
-<th align="right">今日 Issues 数</th>
-<th align="right">今日 PR 数</th>
-<th>Release 情况</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>Claude Code</td>
-<td align="right">10</td>
-<td align="right">0</td>
-<td>无新 Release</td>
-</tr>
-<tr>
-<td>OpenAI Codex</td>
-<td align="right">8</td>
-<td align="right">12</td>
-<td>无新 Release</td>
-</tr>
-<tr>
-<td>Gemini CLI</td>
-<td align="right">0</td>
-<td align="right">0</td>
-<td>无活动 / 无新 Release</td>
-</tr>
-<tr>
-<td>GitHub Copilot CLI</td>
-<td align="right">0</td>
-<td align="right">0</td>
-<td>无活动 / 无新 Release</td>
-</tr>
-<tr>
-<td>Kimi Code CLI</td>
-<td align="right">0</td>
-<td align="right">1</td>
-<td>无新 Release</td>
-</tr>
-<tr>
-<td>OpenCode</td>
-<td align="right">4</td>
-<td align="right">6</td>
-<td>无新 Release</td>
-</tr>
-<tr>
-<td>Pi</td>
-<td align="right">4</td>
-<td align="right">1</td>
-<td>无新 Release</td>
-</tr>
-<tr>
-<td>Qwen Code</td>
-<td align="right">2</td>
-<td align="right">3</td>
-<td>无新 Release</td>
-</tr>
-<tr>
-<td>DeepSeek TUI</td>
-<td align="right">0</td>
-<td align="right">1</td>
-<td>无新 Release</td>
-</tr>
-</tbody></table>
-<hr>
-<h2>3) 共同关注的功能方向</h2>
-<h3>A. 长会话、Agent 生命周期与任务中断控制</h3>
-<p><strong>涉及工具：</strong> Claude Code、OpenCode、Pi、Qwen Code<br><strong>具体诉求：</strong></p>
-<ul>
-<li>Claude Code：长会话稳定性、compaction、background agent/shell 生命周期、TodoWrite 性能</li>
-<li>OpenCode：subagent 过早结束却标记完成</li>
-<li>Pi：ESC 无法停止 subagent/background agent</li>
-<li>Qwen Code：工具结果在流结束时丢失、plan 模式展示不稳定</li>
-</ul>
-<p><strong>结论：</strong> 这说明业界已经不满足于“单轮交互”，而是要求 CLI 能稳定支撑 <strong>数小时级工作流</strong>，并且具备明确的停止、恢复、回传语义。</p>
-<hr>
-<h3>B. 上下文治理与成本控制</h3>
-<p><strong>涉及工具：</strong> Claude Code、Qwen Code、Kimi Code CLI<br><strong>具体诉求：</strong></p>
-<ul>
-<li>Claude Code：prompt cache 被 TodoWrite 重写失效，token 成本飙升</li>
-<li>Qwen Code：启动时提示 context instructions 过大，避免吞噬上下文窗口</li>
-<li>Kimi Code CLI：字符串摘要单行化、输出格式稳定，间接提升上下文展示效率</li>
-</ul>
-<p><strong>结论：</strong> 社区越来越重视 <strong>“提示词/配置占用上下文的边界”</strong>，这是模型效果、成本和稳定性三者的交汇点。</p>
-<hr>
-<h3>C. MCP / 外部工具 / 插件集成稳定性</h3>
-<p><strong>涉及工具：</strong> OpenCode、Qwen Code、Codex、Pi<br><strong>具体诉求：</strong></p>
-<ul>
-<li>OpenCode：MCP OAuth token 刷新、插件脚本解析 fail-closed</li>
-<li>Qwen Code：MCP 集成测试稳定化</li>
-<li>Codex：外部 agent 导入 telemetry、插件脚本安全边界</li>
-<li>Pi：AgentHarness.resume(toolResults)、before_output hook</li>
-</ul>
-<p><strong>结论：</strong> 各项目都在强化“<strong>可插拔、可审计、可控的外部能力接入</strong>”，说明 CLI 正在从单体工具走向 <strong>工作流平台</strong>。</p>
-<hr>
-<h3>D. 跨平台与路径/工作目录语义一致性</h3>
-<p><strong>涉及工具：</strong> OpenAI Codex（最突出）、OpenCode、Claude Code<br><strong>具体诉求：</strong></p>
-<ul>
-<li>Codex：Windows 兼容性、cwd/PathUri/NativePathString、远程执行一致性</li>
-<li>OpenCode：桌面端快捷键、编辑器打开行为、临时文件命名</li>
-<li>Claude Code：Windows / WSL / macOS / IDE 集成体验问题较多</li>
-</ul>
-<p><strong>结论：</strong> 工具链已经进入“<strong>跨平台工程化</strong>”阶段，路径语义、Shell 环境、权限模型已成为核心质量门槛。</p>
-<hr>
-<h3>E. 安全、合规与误报控制</h3>
-<p><strong>涉及工具：</strong> Codex、OpenCode、Pi<br><strong>具体诉求：</strong></p>
-<ul>
-<li>Codex：CLI safety check 误报、权限/沙箱阻断正常工作流</li>
-<li>OpenCode：<code>needs:compliance</code>、安全审计报告</li>
-<li>Pi：before_output hook 可用于内容治理</li>
-</ul>
-<p><strong>结论：</strong> 安全机制正在从“硬拦截”向“<strong>可配置、可审计、尽量不误伤</strong>”演进。</p>
-<hr>
-<h2>4) 差异化定位分析</h2>
-<h3>Claude Code</h3>
-<ul>
-<li><strong>功能侧重：</strong> 模型可用性、长会话稳定性、Agent 生命周期、成本效率</li>
-<li><strong>目标用户：</strong> 高强度、长周期的专业开发者和 power user</li>
-<li><strong>技术路线：</strong> 强依赖模型服务质量与上下文管理能力</li>
-<li><strong>特点：</strong> 反馈最集中地暴露在“模型层故障”和“持续工作流可靠性”上，说明使用深度高，但对稳定性极敏感</li>
-</ul>
-<h3>OpenAI Codex</h3>
-<ul>
-<li><strong>功能侧重：</strong> Windows 兼容性、远程执行、cwd/path 语义、桌面/浏览器集成</li>
-<li><strong>目标用户：</strong> 跨平台开发者、企业/桌面端用户、需要 IDE/浏览器联动的人群</li>
-<li><strong>技术路线：</strong> 强工程化、强执行环境建模，正在系统修复本地/远程环境混用的问题</li>
-<li><strong>特点：</strong> PR 非常密集，说明项目处于明显的基础架构重构期</li>
-</ul>
-<h3>Kimi Code CLI</h3>
-<ul>
-<li><strong>功能侧重：</strong> 输出格式稳定性、字符串处理边界</li>
-<li><strong>目标用户：</strong> 关注 CLI 输出可读性和基础体验的用户</li>
-<li><strong>技术路线：</strong> 相对轻量，偏细节打磨</li>
-<li><strong>特点：</strong> 社区噪声较低，但维护重心很务实</li>
-</ul>
-<h3>OpenCode</h3>
-<ul>
-<li><strong>功能侧重：</strong> TUI/桌面交互、MCP、presets、多语言、合规与安全审计</li>
-<li><strong>目标用户：</strong> 注重体验、扩展性和团队规范的开发者</li>
-<li><strong>技术路线：</strong> 产品化较强，兼顾 UX 与治理</li>
-<li><strong>特点：</strong> 既做体验层，也做工程治理，体现出向更成熟产品形态迈进</li>
-</ul>
-<h3>Pi</h3>
-<ul>
-<li><strong>功能侧重：</strong> Agent 框架能力、生命周期 hook、运行时可观测性、生态集成</li>
-<li><strong>目标用户：</strong> 想把 LLM agent 嵌入更大系统的开发者</li>
-<li><strong>技术路线：</strong> 平台/框架导向更强</li>
-<li><strong>特点：</strong> 更像“agent 运行底座”而不是单纯 CLI</li>
-</ul>
-<h3>Qwen Code</h3>
-<ul>
-<li><strong>功能侧重：</strong> 交互式工作流、计划模式、web-shell 会话管理、上下文治理、MCP 稳定性</li>
-<li><strong>目标用户：</strong> 需要多会话、多阶段 coding workflow 的用户</li>
-<li><strong>技术路线：</strong> 兼顾 CLI、Web Shell 和集成测试稳定性</li>
-<li><strong>特点：</strong> 强调“工作台”体验，而不是单点问答</li>
-</ul>
-<h3>DeepSeek TUI</h3>
-<ul>
-<li><strong>功能侧重：</strong> Provider 路由、多模型接入</li>
-<li><strong>目标用户：</strong> 希望在同一 CLI 中切换不同模型供应商的用户</li>
-<li><strong>技术路线：</strong> 配置与生态兼容优先</li>
-<li><strong>特点：</strong> 当前更像是在打通模型入口层，而非深挖交互工作流</li>
-</ul>
-<h3>Gemini CLI / GitHub Copilot CLI</h3>
-<ul>
-<li><strong>功能侧重：</strong> 今日无活动可见</li>
-<li><strong>推断：</strong> 要么社区噪声较低，要么当前处于相对平稳阶段，缺少可观察的增量信号</li>
-</ul>
-<hr>
-<h2>5) 社区热度与成熟度</h2>
-<h3>最活跃</h3>
-<ol>
-<li><strong>OpenAI Codex</strong><ul>
-<li>12 个 PR、8 个 Issue，且 PR 方向高度聚焦</li>
-<li>说明团队在高频推进工程重构和跨平台修复</li>
-</ul>
-</li>
-<li><strong>Claude Code</strong><ul>
-<li>Issue 热度最高，且集中在核心可用性问题</li>
-<li>说明实际使用深度高，社区反馈强烈，但也暴露出较强的稳定性压力</li>
-</ul>
-</li>
-<li><strong>OpenCode</strong><ul>
-<li>Issues 和 PR 都较活跃</li>
-<li>兼顾产品体验、安全治理和集成能力，属于快速迭代阶段</li>
-</ul>
-</li>
-</ol>
-<h3>中等活跃</h3>
-<ol start="4">
-<li><strong>Qwen Code</strong><ul>
-<li>反馈量不大，但方向明确，集中在工作流稳定性和上下文治理</li>
-</ul>
-</li>
-<li><strong>Pi</strong><ul>
-<li>社区规模不算大，但讨论很“框架级”，技术含量较高</li>
-</ul>
-</li>
-<li><strong>Kimi Code CLI / DeepSeek TUI</strong><ul>
-<li>活跃度较低，但仍有可见的工程修复和供应商扩展</li>
-</ul>
-</li>
-</ol>
-<h3>低噪声或静默</h3>
-<ol start="7">
-<li><strong>Gemini CLI / GitHub Copilot CLI</strong><ul>
-<li>今日无活动信号</li>
-<li>可能是社区更稳定、外部讨论更少，或当前处于相对沉默期</li>
-</ul>
-</li>
-</ol>
-<h3>成熟度判断</h3>
-<ul>
-<li><strong>较成熟但高压运行：</strong> Claude Code  </li>
-<li><strong>工程重构期：</strong> Codex  </li>
-<li><strong>产品化加速期：</strong> OpenCode、Qwen Code  </li>
-<li><strong>框架扩展期：</strong> Pi  </li>
-<li><strong>轻量维护/低噪声期：</strong> Kimi、DeepSeek、Gemini、Copilot CLI</li>
-</ul>
-<hr>
-<h2>6) 值得关注的趋势信号</h2>
-<h3>1. CLI 正在向“可编排工作台”演进</h3>
-<p>不再只是问答式命令行，而是要支持：</p>
-<ul>
-<li>多会话</li>
-<li>计划模式</li>
-<li>子代理</li>
-<li>后台任务</li>
-<li>外部工具流转</li>
-<li>结果回传与恢复</li>
-</ul>
-<p>这对产品设计的启示是：<strong>交互状态和任务状态必须可追踪、可中断、可恢复</strong>。</p>
-<hr>
-<h3>2. “长任务可靠性”将成为核心竞争力</h3>
-<p>多个项目都在处理：</p>
-<ul>
-<li>会话中断</li>
-<li>Agent 死亡/假运行</li>
-<li>流式输出竞态</li>
-<li>任务完成误报</li>
-</ul>
-<p>这意味着未来竞争点不只是模型能力，而是 <strong>能否把模型能力稳定地放进真实工作流</strong>。</p>
-<hr>
-<h3>3. 上下文预算与缓存命中开始成为一等公民</h3>
-<p>Claude Code 和 Qwen Code 都在显式处理上下文膨胀、缓存失效和提示词预算。<br>对开发者而言，这说明要把 <strong>上下文治理</strong> 当成产品能力，而不是实现细节。</p>
-<hr>
-<h3>4. 跨平台语义一致性依然是痛点</h3>
-<p>Codex 的 Windows 问题最典型：用户名编码、环境变量大小写、权限、进程启动、cwd/path 表达都可能踩坑。<br>这类问题会直接决定工具能否从“可演示”走向“可规模部署”。</p>
-<hr>
-<h3>5. 安全与合规正在前置</h3>
-<p>OpenCode 的审计报告、Codex 的安全误报、插件解析 fail-closed，说明工具正在从“先跑起来”进入“<strong>默认安全、可审计、少误伤</strong>”阶段。<br>这对企业采购和团队落地尤其重要。</p>
-<hr>
-<h3>6. 多模型/多供应商接入仍在扩张</h3>
-<p>DeepSeek TUI 的 provider 路由扩展、OpenCode 和 Qwen 的外部集成增强都说明：<br><strong>模型选择权</strong> 和 <strong>供应商切换成本</strong> 正在成为 CLI 工具生态的重要卖点。</p>
-<hr>
-<p>如果你需要，我可以继续把这份报告压缩成：</p>
-<ol>
-<li><strong>一页纸管理层摘要版</strong>，或  </li>
-<li><strong>按“风险优先级 / 机会点 / 建议动作”拆解的决策版</strong>。</li>
-</ol>
-<hr>
-<h2>各工具详细报告</h2>
-<details>
-<summary><strong>Claude Code</strong> — <a href="https://github.com/anthropics/claude-code">anthropics/claude-code</a></summary>
-
-<h2>Claude Code Skills 社区热点</h2>
-<blockquote>
-<p>数据来源: <a href="https://github.com/anthropics/skills">anthropics/skills</a></p>
-</blockquote>
-<p>下面是一份基于你提供的数据（截至 2026-06-13）的 <strong>Claude Code Skills 社区热点报告</strong>。<br>说明：你给出的 PR 列表里“评论数”字段未展开为具体数值，因此我结合了<strong>列表排序、近期更新、问题关联度、需求密度</strong>来判断热度。</p>
-<hr>
-<h2>1) 热门 Skills 排行（PR）</h2>
-<h3>1. <code>frontend-design</code> 扩展/改进</h3>
-<ul>
-<li><strong>PR</strong>：<a href="https://github.com/anthropics/skills/pull/1046">#1046</a>  </li>
-<li><strong>状态</strong>：Open  </li>
-<li><strong>功能</strong>：新增/扩展前端设计相关 Skill，覆盖 frontend-design、AI experience consultant、automation workflows builder 等方向。  </li>
-<li><strong>社区热点</strong>：前端生成质量、设计一致性、可执行的 UI 指令，是最典型的“高频生产力 Skill”诉求。  </li>
-<li><strong>看点</strong>：说明社区不仅要“会写代码”，还要“会做可交付界面与体验”。</li>
-</ul>
-<h3>2. <code>document-typography</code></h3>
-<ul>
-<li><strong>PR</strong>：<a href="https://github.com/anthropics/skills/pull/514">#514</a>  </li>
-<li><strong>状态</strong>：Open  </li>
-<li><strong>功能</strong>：为 AI 生成文档提供排版质量控制，解决孤行/寡行、标题悬挂、编号错位等问题。  </li>
-<li><strong>社区热点</strong>：文档生成的“最后一公里”体验，尤其是专业文档可读性与版式细节。  </li>
-<li><strong>看点</strong>：这是典型的“高价值但容易被忽视”的细分 Skill。</li>
-</ul>
-<h3>3. <code>odt</code> / OpenDocument 支持</h3>
-<ul>
-<li><strong>PR</strong>：<a href="https://github.com/anthropics/skills/pull/486">#486</a>  </li>
-<li><strong>状态</strong>：Open  </li>
-<li><strong>功能</strong>：创建、填充、读取、转换 ODT/ODS 等开放文档格式。  </li>
-<li><strong>社区热点</strong>：办公文档兼容、LibreOffice 生态、ISO 标准格式支持。  </li>
-<li><strong>看点</strong>：说明社区非常重视<strong>跨工具链与企业文档格式兼容</strong>。</li>
-</ul>
-<h3>4. <code>agent-creator</code></h3>
-<ul>
-<li><strong>PR</strong>：<a href="https://github.com/anthropics/skills/pull/1140">#1140</a>  </li>
-<li><strong>状态</strong>：Open  </li>
-<li><strong>功能</strong>：引入面向任务的 agent set 生成能力，并修复多工具评估问题、补充 Windows 支持。  </li>
-<li><strong>社区热点</strong>：多代理协同、评估稳定性、平台兼容性。  </li>
-<li><strong>看点</strong>：这是从“单个 Skill”走向“Agent 组合生产”的关键方向。</li>
-</ul>
-<h3>5. <code>testing-patterns</code></h3>
-<ul>
-<li><strong>PR</strong>：<a href="https://github.com/anthropics/skills/pull/723">#723</a>  </li>
-<li><strong>状态</strong>：Open  </li>
-<li><strong>功能</strong>：覆盖测试哲学、单元测试、React 组件测试等完整测试栈。  </li>
-<li><strong>社区热点</strong>：测试生成、测试最佳实践、前端测试策略。  </li>
-<li><strong>看点</strong>：社区对“让 Claude 不只是写功能，还能写好测试”需求明显。</li>
-</ul>
-<h3>6. <code>color-expert</code></h3>
-<ul>
-<li><strong>PR</strong>：<a href="https://github.com/anthropics/skills/pull/1302">#1302</a>  </li>
-<li><strong>状态</strong>：Open  </li>
-<li><strong>功能</strong>：颜色命名体系、颜色空间选择、渐变/配色专业知识。  </li>
-<li><strong>社区热点</strong>：设计系统、视觉一致性、色彩工程化。  </li>
-<li><strong>看点</strong>：偏专业知识型 Skill，说明社区在扩展“设计/品牌/视觉”类能力边界。</li>
-</ul>
-<h3>7. <code>n8n-builder</code> / <code>n8n-debugger</code></h3>
-<ul>
-<li><strong>PR</strong>：<a href="https://github.com/anthropics/skills/pull/190">#190</a>  </li>
-<li><strong>状态</strong>：Open  </li>
-<li><strong>功能</strong>：面向 n8n 工作流构建与调试。  </li>
-<li><strong>社区热点</strong>：自动化工作流、低代码集成、生产环境调试。  </li>
-<li><strong>看点</strong>：和前端设计并列，属于“业务自动化”高需求赛道。</li>
-</ul>
-<h3>8. <code>skill-creator</code> 稳定性修复集合</h3>
-<ul>
-<li><strong>PR</strong>：<a href="https://github.com/anthropics/skills/pull/1298">#1298</a>  </li>
-<li><strong>状态</strong>：Open  </li>
-<li><strong>功能</strong>：修复 <code>run_eval.py</code> recall=0% 问题，改进 Windows 流读取、触发检测、并行 worker。  </li>
-<li><strong>社区热点</strong>：Skill 开发链路的可信度、评估工具准确性。  </li>
-<li><strong>看点</strong>：虽然是修 bug，但它直接影响整个 Skills 生态的“开发—评估—优化”闭环。</li>
-</ul>
-<hr>
-<h2>2) 社区需求趋势</h2>
-<h3>A. 工作流自动化 / 业务集成</h3>
-<ul>
-<li>典型诉求：<code>automation-workflows-builder</code>、<code>n8n-builder</code>、<code>agent-creator</code></li>
-<li><strong>GitHub 链接</strong>：<a href="https://github.com/anthropics/skills/pull/1046">#1046</a>、<a href="https://github.com/anthropics/skills/pull/190">#190</a>、<a href="https://github.com/anthropics/skills/pull/1140">#1140</a></li>
-<li><strong>趋势判断</strong>：社区希望 Skills 从“单点能力”升级为“可落地的业务流程编排”。</li>
-</ul>
-<h3>B. 文档生成与办公格式兼容</h3>
-<ul>
-<li>典型诉求：<code>document-typography</code>、<code>odt</code>、<code>pdf/docx</code> 修复</li>
-<li><strong>GitHub 链接</strong>：<a href="https://github.com/anthropics/skills/pull/514">#514</a>、<a href="https://github.com/anthropics/skills/pull/486">#486</a>、<a href="https://github.com/anthropics/skills/pull/538">#538</a>、<a href="https://github.com/anthropics/skills/pull/541">#541</a></li>
-<li><strong>趋势判断</strong>：社区非常在意“生成出来能不能直接交付给人用”。</li>
-</ul>
-<h3>C. 测试、评估与质量控制</h3>
-<ul>
-<li>典型诉求：<code>testing-patterns</code>、<code>skill-quality-analyzer</code>、<code>skill-security-analyzer</code></li>
-<li><strong>GitHub 链接</strong>：<a href="https://github.com/anthropics/skills/pull/723">#723</a>、<a href="https://github.com/anthropics/skills/pull/83">#83</a></li>
-<li><strong>趋势判断</strong>：大家不只想要更多 Skill，更想要<strong>可验证、可度量、可持续维护</strong>的 Skill。</li>
-</ul>
-<h3>D. 跨平台与开发工具稳定性</h3>
-<ul>
-<li>典型诉求：Windows 兼容、编码、subprocess、eval 触发问题</li>
-<li><strong>GitHub 链接</strong>：<a href="https://github.com/anthropics/skills/pull/1099">#1099</a>、<a href="https://github.com/anthropics/skills/pull/1050">#1050</a>、<a href="https://github.com/anthropics/skills/pull/362">#362</a>、<a href="https://github.com/anthropics/skills/pull/1298">#1298</a></li>
-<li><strong>趋势判断</strong>：生态从“能跑”进入“可被大量用户稳定使用”的阶段，平台兼容成为主要矛盾。</li>
-</ul>
-<h3>E. 企业共享、权限与安全边界</h3>
-<ul>
-<li>典型诉求：组织内共享、Trust boundary、SharePoint/SPO、MCP 暴露</li>
-<li><strong>GitHub 链接</strong>：<a href="https://github.com/anthropics/skills/issues/228">#228</a>、<a href="https://github.com/anthropics/skills/issues/492">#492</a>、<a href="https://github.com/anthropics/skills/issues/1175">#1175</a>、<a href="https://github.com/anthropics/skills/issues/16">#16</a></li>
-<li><strong>趋势判断</strong>：社区已经开始从个人效率工具，转向企业级可治理能力。</li>
-</ul>
-<h3>F. 载入/打包体验与模块化</h3>
-<ul>
-<li>典型诉求：多文件预加载、skills 丢失、重复安装、404/redirect</li>
-<li><strong>GitHub 链接</strong>：<a href="https://github.com/anthropics/skills/issues/1220">#1220</a>、<a href="https://github.com/anthropics/skills/issues/62">#62</a>、<a href="https://github.com/anthropics/skills/issues/189">#189</a>、<a href="https://github.com/anthropics/skills/issues/61">#61</a></li>
-<li><strong>趋势判断</strong>：社区正在补“分发与安装体验”这块短板。</li>
-</ul>
-<hr>
-<h2>3) 高潜力待合并 Skills</h2>
-<p>以下是我认为<strong>最可能近期落地</strong>、且有较强社区价值的 PR（偏“高潜力”而非纯流量）：</p>
-<h3>1. <code>run_eval.py</code> / skill-creator 评估链路修复</h3>
-<ul>
-<li><strong>PR</strong>：<a href="https://github.com/anthropics/skills/pull/1298">#1298</a>  </li>
-<li><strong>原因</strong>：直接修复核心开发链路失真问题，影响面大，且与 Issue #556/#1169 高度相关。  </li>
-<li><strong>潜力</strong>：一旦合并，会显著提升 Skill 迭代效率。</li>
-</ul>
-<h3>2. Windows 兼容性修复</h3>
-<ul>
-<li><strong>PR</strong>：<a href="https://github.com/anthropics/skills/pull/1099">#1099</a>、<a href="https://github.com/anthropics/skills/pull/1050">#1050</a>、<a href="https://github.com/anthropics/skills/pull/362">#362</a></li>
-<li><strong>原因</strong>：Windows 问题重复出现，属于高频阻塞项。  </li>
-<li><strong>潜力</strong>：更像“必须补齐的基础设施”，合并概率高。</li>
-</ul>
-<h3>3. <code>testing-patterns</code></h3>
-<ul>
-<li><strong>PR</strong>：<a href="https://github.com/anthropics/skills/pull/723">#723</a>  </li>
-<li><strong>原因</strong>：测试类 Skill 是高复用基础设施，适配面广。  </li>
-<li><strong>潜力</strong>：若内容质量稳定，很容易成为热门默认 Skill。</li>
-</ul>
-<h3>4. <code>document-typography</code></h3>
-<ul>
-<li><strong>PR</strong>：<a href="https://github.com/anthropics/skills/pull/514">#514</a>  </li>
-<li><strong>原因</strong>：文档质量是核心生产力诉求，且相对独立、易落地。  </li>
-<li><strong>潜力</strong>：很适合作为“文档生成”能力增强包。</li>
-</ul>
-<h3>5. <code>odt</code></h3>
-<ul>
-<li><strong>PR</strong>：<a href="https://github.com/anthropics/skills/pull/486">#486</a>  </li>
-<li><strong>原因</strong>：覆盖开放文档标准，企业与政企场景价值高。  </li>
-<li><strong>潜力</strong>：如果兼容性处理完善，落地价值很强。</li>
-</ul>
-<h3>6. <code>agent-creator</code></h3>
-<ul>
-<li><strong>PR</strong>：<a href="https://github.com/anthropics/skills/pull/1140">#1140</a>  </li>
-<li><strong>原因</strong>：符合从单 Skill 到多 Agent 工作流的演进方向。  </li>
-<li><strong>潜力</strong>：如果评估/多工具问题修好，可能成为新范式入口。</li>
-</ul>
-<hr>
-<h2>4) Skills 生态洞察</h2>
-<p><strong>一句话总结：</strong><br>社区最集中的诉求，不是“再多几个技能”，而是让 Skills <strong>更可靠、更可分发、更易评估，并能真正进入企业工作流与文档/测试/自动化生产场景</strong>。</p>
-<p>如果你愿意，我还可以把这份报告进一步整理成：</p>
-<ol>
-<li><strong>表格版（适合汇报 PPT）</strong>，或  </li>
-<li><strong>按“产品机会 / 风险 / 技术债务”三栏重写</strong>。</li>
-</ol>
-<hr>
-<h1>Claude Code 社区动态日报（2026-06-13）</h1>
-<h2>1. 今日速览</h2>
-<ul>
-<li>今天社区讨论几乎被 <strong>Claude 3.5 Fable / claude-fable-5 的可用性与会话中断问题</strong> 占满，多个重复 Issue 同时爆发，说明这不是个例而是明显的横向影响问题。</li>
-<li>除模型相关故障外，社区也在持续反馈 <strong>长会话稳定性、Agent 生命周期、上下文/成本效率、IDE 与桌面端体验</strong> 等问题，但热度明显低于模型不可用事件。</li>
-</ul>
-<h2>2. 版本发布</h2>
-<ul>
-<li><strong>过去 24 小时无新 Releases。</strong></li>
-</ul>
-<h2>3. 社区热点 Issues</h2>
-<ol>
-<li><p><a href="https://github.com/anthropics/claude-code/issues/68129">#68129 - Fable is not available</a>  </p>
-<ul>
-<li><strong>重要性</strong>：这是今天最核心的故障信号，直接指向 Fable 模型不可用。  </li>
-<li><strong>社区反应</strong>：<strong>16 条评论</strong>，属于高讨论度问题，影响范围看起来较广。</li>
-</ul>
-</li>
-<li><p><a href="https://github.com/anthropics/claude-code/issues/68128">#68128 - There&#39;s an issue with the selected model (claude-fable-5)...</a>  </p>
-<ul>
-<li><strong>重要性</strong>：同类模型不可用报错，且标题与报错文案高度一致，说明用户实际遇到的是统一故障模式。  </li>
-<li><strong>社区反应</strong>：<strong>11 个 👍</strong>，表明痛感强、共鸣高。</li>
-</ul>
-</li>
-<li><p><a href="https://github.com/anthropics/claude-code/issues/68126">#68126 - Anthropic API Error: Invalid or Inaccessible Model Configuration</a>  </p>
-<ul>
-<li><strong>重要性</strong>：会话中途出现模型配置失效，属于阻断式体验问题。  </li>
-<li><strong>社区反应</strong>：<strong>8 条评论</strong>，并且发生在日常使用过程中，影响更广。</li>
-</ul>
-</li>
-<li><p><a href="https://github.com/anthropics/claude-code/issues/68121">#68121 - Invalid or Inaccessible Model claude-fable-5</a>  </p>
-<ul>
-<li><strong>重要性</strong>：再次确认 Fable 5 的访问/配置异常，并带有 duplicate 标签，说明已有明显聚类。  </li>
-<li><strong>社区反应</strong>：<strong>7 条评论</strong>，重复报障集中。</li>
-</ul>
-</li>
-<li><p><a href="https://github.com/anthropics/claude-code/issues/68137">#68137 - Anthropic API Error: Invalid or inaccessible model claude-fable-5</a>  </p>
-<ul>
-<li><strong>重要性</strong>：错误在 <strong>compaction</strong> 场景中触发，意味着长上下文/长会话用户更容易受影响。  </li>
-<li><strong>社区反应</strong>：<strong>6 条评论</strong>，仍属活跃讨论。</li>
-</ul>
-</li>
-<li><p><a href="https://github.com/anthropics/claude-code/issues/68131">#68131 - Model access lost without changes: claude-fable-5 unavailable on max plan</a>  </p>
-<ul>
-<li><strong>重要性</strong>：即使用户没有改动配置、仍有 Max 计划可用额度，也出现模型失效，指向权限/配额/服务端状态异常。  </li>
-<li><strong>社区反应</strong>：<strong>已关闭</strong>，但说明问题已被官方/维护者注意到；仍有 <strong>5 条评论</strong>。</li>
-</ul>
-</li>
-<li><p><a href="https://github.com/anthropics/claude-code/issues/68133">#68133 - Rate limiting or model access restriction prevents continued work session</a>  </p>
-<ul>
-<li><strong>重要性</strong>：长时间工作后被限制访问，且用户担心丢失工作成果，属于高严重度生产力中断问题。  </li>
-<li><strong>社区反应</strong>：<strong>4 条评论</strong>，情绪强烈，说明长会话用户特别敏感。</li>
-</ul>
-</li>
-<li><p><a href="https://github.com/anthropics/claude-code/issues/68130">#68130 - Unexpected model downgrade to Opus with content policy violation</a>  </p>
-<ul>
-<li><strong>重要性</strong>：模型被误判并降级到 Opus，直接影响任务连续性，且涉及内容策略误杀风险。  </li>
-<li><strong>社区反应</strong>：<strong>3 条评论</strong>，虽然讨论量不高，但场景偏生产环境，影响面不小。</li>
-</ul>
-</li>
-<li><p><a href="https://github.com/anthropics/claude-code/issues/68117">#68117 - Background tasks: dead agents/shells render as Running; lost shell-completion wake-ups freeze agents</a>  </p>
-<ul>
-<li><strong>重要性</strong>：涉及 desktop / agents / background tasks 的生命周期管理，属于复杂工作流核心能力。  </li>
-<li><strong>社区反应</strong>：<strong>1 条评论</strong>，但问题描述详细，指向可复现的稳定性缺陷。</li>
-</ul>
-</li>
-<li><p><a href="https://github.com/anthropics/claude-code/issues/68140">#68140 - TodoWrite re-stamps a front-of-context block on every update, invalidating the entire prompt cache</a></p>
-</li>
-</ol>
-<ul>
-<li><strong>重要性</strong>：这是典型的 <strong>性能/成本</strong> 问题，可能导致接近 90 万 token 的重复重写，对长任务极其不友好。  </li>
-<li><strong>社区反应</strong>：目前 <strong>0 条评论</strong>，但已标注 <strong>has repro</strong>，技术价值很高，值得优先关注。</li>
-</ul>
-<h2>4. 重要 PR 进展</h2>
-<ul>
-<li><strong>过去 24 小时未检测到更新的 Pull Request。</strong></li>
-<li>因此本日报 <strong>无 PR 可汇总</strong>。</li>
-</ul>
-<h2>5. 功能需求趋势</h2>
-<ol>
-<li><p><strong>模型可用性与切换体验</strong></p>
-<ul>
-<li>多个 Issue 都集中在 <code>claude-fable-5</code> 不可用、误判、降级、权限变化等问题上。  </li>
-<li>用户最关心的是：<strong>会话中途不要“掉模型”</strong>，以及错误提示要更明确。</li>
-</ul>
-</li>
-<li><p><strong>长会话稳定性 / Agent 生命周期管理</strong></p>
-<ul>
-<li>Background agent、shell completion、compaction、context checkpoint 等场景反复出现。  </li>
-<li>社区希望有更自动化的 <strong>清理、续跑、恢复、分段提交</strong> 能力。</li>
-</ul>
-</li>
-<li><p><strong>IDE / TUI 集成体验</strong></p>
-<ul>
-<li>VS Code、macOS Terminal、Windows Terminal、WSL 等平台均有反馈。  </li>
-<li>需求集中在：<strong>更顺手的粘贴、上下文自动附带、子 Agent 模型可见性、文件链接打开行为</strong>。</li>
-</ul>
-</li>
-<li><p><strong>性能与成本优化</strong></p>
-<ul>
-<li>TodoWrite 触发 prompt cache 失效、技能列表被截断、长上下文膨胀，都是高频痛点。  </li>
-<li>用户明显在意 <strong>token 成本、缓存命中、上下文预算</strong>。</li>
-</ul>
-</li>
-<li><p><strong>Skills 与文档完善</strong></p>
-<ul>
-<li>既有技能目录的行为说明不足，也有技能列表预算导致的信息丢失问题。  </li>
-<li>社区需要更完整的 <strong>技能支持边界、配置说明、默认行为文档</strong>。</li>
-</ul>
-</li>
-</ol>
-<h2>6. 开发者关注点</h2>
-<ul>
-<li><strong>最大痛点是模型层问题</strong>：Fable 5 不可用、访问失效、误降级、会话中断，已经形成明显的 Issue 聚类。</li>
-<li><strong>错误信息需要更可操作</strong>：用户看到“模型不存在或无权限”时，无法判断是配额、权限、区域、服务端故障还是客户端状态问题。</li>
-<li><strong>长任务能力是关键竞争点</strong>：后台 agent、compaction、context 管理、TodoWrite 性能，直接影响专业用户是否能稳定使用。</li>
-<li><strong>跨平台一致性仍需加强</strong>：macOS / Windows / Linux / WSL 都有不同类型的体验缺陷。</li>
-<li><strong>文档与产品行为对齐</strong>：skills、model、desktop app 的说明需要更清晰，减少用户误解和重复报障。</li>
-</ul>
-<p>如果你愿意，我可以把这份日报进一步整理成：</p>
-<ol>
-<li><strong>适合内部周报的精简版</strong>，或  </li>
-<li><strong>带“风险级别 / 优先级 / 建议动作”的运营版</strong>。</li>
-</ol>
-</details>
-
-<details>
-<summary><strong>OpenAI Codex</strong> — <a href="https://github.com/openai/codex">openai/codex</a></summary>
-
-<h1>OpenAI Codex 社区动态日报（2026-06-13）</h1>
-<h2>1) 今日速览</h2>
-<p>今天社区动态以 <strong>Windows 兼容性、路径/工作目录语义、CLI 安全检查误报</strong> 为主线，PR 侧则明显围绕 <strong>exec-server / unified-exec 的远程执行与跨环境路径处理重构</strong> 展开。<br>另外，<strong>桌面端与浏览器扩展</strong> 相关问题也较集中，说明 Codex 在多平台交付与 IDE/浏览器集成上仍处于高频打磨阶段。  </p>
-<blockquote>
-<p>说明：今日无新 Release，以下主要基于过去 24 小时内更新的 Issues 与 PR。</p>
-</blockquote>
-<hr>
-<h2>2) 社区热点 Issues</h2>
-<blockquote>
-<p>今日共更新 8 条 Issue，以下为全部 8 条重点条目。</p>
-</blockquote>
-<ol>
-<li><p><strong><a href="https://github.com/openai/codex/issues/28015">#28015</a></strong> — CLI 安全检查误报，拦截正常本地仓库维护  </p>
-<ul>
-<li><strong>为什么重要</strong>：这是典型的“安全机制伤害正常使用”的问题，直接影响付费互动会话连续性。  </li>
-<li><strong>社区反应</strong>：截至目前有 <strong>4 条评论</strong>，属于今日最受关注的 Issue 之一。</li>
-</ul>
-</li>
-<li><p><strong><a href="https://github.com/openai/codex/issues/28019">#28019</a></strong> — Chrome 扩展依赖 Chrome 143+ 的 <code>runtime.getVersion()</code>，导致 Chrome 138 后端发现失败  </p>
-<ul>
-<li><strong>为什么重要</strong>：这是扩展兼容性问题，影响面广，且会直接阻断浏览器侧接入。  </li>
-<li><strong>社区反应</strong>：已有 <strong>1 条评论</strong>，问题定位较明确，属于“版本兼容踩线”类高优先级修复。</li>
-</ul>
-</li>
-<li><p><strong><a href="https://github.com/openai/codex/issues/28017">#28017</a></strong> — Windows 桌面端因 CJK / 非 ASCII 用户名启动崩溃  </p>
-<ul>
-<li><strong>为什么重要</strong>：影响 Windows 中文用户的首次启动，是非常典型的国际化/本地化稳定性问题。  </li>
-<li><strong>社区反应</strong>：已有 <strong>1 条评论</strong>，但从描述看属于可复现的高严重度启动故障。</li>
-</ul>
-</li>
-<li><p><strong><a href="https://github.com/openai/codex/issues/28005">#28005</a></strong> — Windows 11 中应用内浏览器无法启动，报 <code>CreateProcessAsUserW failed: 5</code>  </p>
-<ul>
-<li><strong>为什么重要</strong>：涉及沙箱/进程创建权限，直接影响 App 内关键功能链路。  </li>
-<li><strong>社区反应</strong>：已有 <strong>1 条评论</strong>，和 Windows 安全边界/权限模型相关，修复复杂度较高。</li>
-</ul>
-</li>
-<li><p><strong><a href="https://github.com/openai/codex/issues/28016">#28016</a></strong> — Pro 用户仍有额度却被误判“Usage limit reached”  </p>
-<ul>
-<li><strong>为什么重要</strong>：这是计费/限额体验问题，属于高敏感度的用户阻塞。  </li>
-<li><strong>社区反应</strong>：已有 <strong>1 条评论</strong>，这类问题通常会迅速引发使用信任下降。</li>
-</ul>
-</li>
-<li><p><strong><a href="https://github.com/openai/codex/issues/28022">#28022</a></strong> — Windows 下 MSBuild 回归：环境变量同时存在 <code>PATH</code> 和 <code>Path</code>  </p>
-<ul>
-<li><strong>为什么重要</strong>：直接影响构建/工具调用，属于底层环境兼容性回归。  </li>
-<li><strong>社区反应</strong>：已 <strong>关闭</strong>，说明问题已被确认并进入修复或规避流程。</li>
-</ul>
-</li>
-<li><p><strong><a href="https://github.com/openai/codex/issues/28004">#28004</a></strong> — macOS Dock Tile 插件递归崩溃仍存在  </p>
-<ul>
-<li><strong>为什么重要</strong>：桌面应用稳定性问题，影响 macOS 用户体验和应用可靠性。  </li>
-<li><strong>社区反应</strong>：已 <strong>关闭</strong>，但说明该崩溃问题曾被快速跟进。</li>
-</ul>
-</li>
-<li><p><strong><a href="https://github.com/openai/codex/issues/28013">#28013</a></strong> — 希望增加任务完成/提醒状态的提示音  </p>
-<ul>
-<li><strong>为什么重要</strong>：虽然不是 bug，但反映出用户对“长任务可感知性”的需求。  </li>
-<li><strong>社区反应</strong>：已有 <strong>1 条评论</strong>，说明有明确的产品体验诉求。</li>
-</ul>
-</li>
-</ol>
-<hr>
-<h2>3) 重要 PR 进展</h2>
-<blockquote>
-<p>今日共有 12 条 PR 更新，以下选取最关键的 10 条。</p>
-</blockquote>
-<ol>
-<li><p><strong><a href="https://github.com/openai/codex/pull/28023">PR #28023</a></strong> — 为 exec-server 增加 Windows shell 的 hermetic smoke coverage  </p>
-<ul>
-<li><strong>作用</strong>：补齐 Windows shell 执行链路测试，验证 pinned PowerShell / cmd 在 hermetic Wine 环境下的行为。</li>
-</ul>
-</li>
-<li><p><strong><a href="https://github.com/openai/codex/pull/28021">PR #28021</a></strong> — 在 Wine prefix 中 materialize PowerShell  </p>
-<ul>
-<li><strong>作用</strong>：让 Windows 测试环境可用完整 PowerShell runtime，提升 hermetic 测试可靠性。</li>
-</ul>
-</li>
-<li><p><strong><a href="https://github.com/openai/codex/pull/28020">PR #28020</a></strong> — protocol：在 command events 中保留 executor cwd  </p>
-<ul>
-<li><strong>作用</strong>：让命令生命周期事件保留 cwd 与路径约定，减少跨环境路径丢失。</li>
-</ul>
-</li>
-<li><p><strong><a href="https://github.com/openai/codex/pull/28018">PR #28018</a></strong> — app-server：命令 cwd 改用 NativePathString  </p>
-<ul>
-<li><strong>作用</strong>：统一 app-server v2 API 的 cwd 表达，强化本地/远程环境一致性。</li>
-</ul>
-</li>
-<li><p><strong><a href="https://github.com/openai/codex/pull/28014">PR #28014</a></strong> — unified-exec：远程命令不再依赖 host sandbox  </p>
-<ul>
-<li><strong>作用</strong>：远程执行链路更直接，减少主机侧转换与沙箱构造带来的复杂度。</li>
-</ul>
-</li>
-<li><p><strong><a href="https://github.com/openai/codex/pull/28012">PR #28012</a></strong> — 增加 fail-closed plugin script resolver  </p>
-<ul>
-<li><strong>作用</strong>：强化插件脚本解析边界，降低不可信脚本路径带来的风险。</li>
-</ul>
-</li>
-<li><p><strong><a href="https://github.com/openai/codex/pull/28011">PR #28011</a></strong> — unified-exec：按目标环境解析 shell 与 workdir  </p>
-<ul>
-<li><strong>作用</strong>：避免把远程环境错误投影到 app-server host，继续推进跨环境执行语义修正。</li>
-</ul>
-</li>
-<li><p><strong><a href="https://github.com/openai/codex/pull/28010">PR #28010</a></strong> — exec-server：将 cwd 作为 PathUri 传递  </p>
-<ul>
-<li><strong>作用</strong>：工作目录不再被过早本地化，适配更复杂的远程/跨平台执行场景。</li>
-</ul>
-</li>
-<li><p><strong><a href="https://github.com/openai/codex/pull/28009">PR #28009</a></strong> — 外部 agent 导入进度 telemetry  </p>
-<ul>
-<li><strong>作用</strong>：补强导入过程可观测性，便于追踪 external-agent 配置导入的各阶段状态。</li>
-</ul>
-</li>
-<li><p><strong><a href="https://github.com/openai/codex/pull/28008">PR #28008</a></strong> — 外部 agent 导入结果统计</p>
-</li>
-</ol>
-<ul>
-<li><strong>作用</strong>：为导入响应与完成通知建立结果聚合机制，提升导入链路的可审计性。</li>
-</ul>
-<hr>
-<h2>4) 功能需求趋势</h2>
-<p>从今日 Issues 看，社区最关注的功能方向主要集中在以下几类：</p>
-<ol>
-<li><p><strong>Windows 兼容性与稳定性</strong></p>
-<ul>
-<li>非 ASCII 用户名、MSBuild、进程创建、Windows shell、沙箱权限等问题集中出现。</li>
-<li>说明 Codex 在 Windows 上的工程化成熟度仍是重点攻坚方向。</li>
-</ul>
-</li>
-<li><p><strong>路径语义 / cwd / 远程执行一致性</strong></p>
-<ul>
-<li>多个 PR 都在处理 <code>PathUri</code>、<code>NativePathString</code>、<code>executor cwd</code>、remote shell/workdir。</li>
-<li>这表明项目正在系统性修复“主机与目标环境混用路径语义”的历史问题。</li>
-</ul>
-</li>
-<li><p><strong>浏览器与 IDE 集成</strong></p>
-<ul>
-<li>Chrome 扩展、VS Code、Codex Desktop 相关问题持续出现。</li>
-<li>社区对“无缝接入现有开发工具链”的需求依然很强。</li>
-</ul>
-</li>
-<li><p><strong>安全与权限边界</strong></p>
-<ul>
-<li>CLI safety-check 误报、插件解析 fail-closed、沙箱/进程启动失败，说明安全机制与可用性之间仍需平衡。</li>
-</ul>
-</li>
-<li><p><strong>产品体验与可感知性</strong></p>
-<ul>
-<li>任务完成提示音、限额提示误判、应用内浏览器启动失败，都指向“任务状态可见性”和“减少阻塞感”的诉求。</li>
-</ul>
-</li>
-</ol>
-<hr>
-<h2>5) 开发者关注点</h2>
-<p>从反馈密度和问题类型看，开发者最在意的痛点是：</p>
-<ul>
-<li><strong>不要误伤正常工作流</strong>：安全检查、额度判断、权限拦截如果误判，会直接打断任务。</li>
-<li><strong>跨平台一致性要足够高</strong>：尤其是 Windows / macOS / Linux、以及本地/远程环境之间的行为一致性。</li>
-<li><strong>路径与工作目录必须明确</strong>：cwd、shell、环境变量、URI 语义一旦混乱，就会引发工具链回归。</li>
-<li><strong>启动与连接链路要稳定</strong>：桌面端、内置浏览器、扩展后端发现失败，都属于“一次失败就不可用”的高敏感路径。</li>
-<li><strong>需要更好的长任务反馈</strong>：用户希望 Codex 在完成、等待确认、被阻塞时有更清晰的状态提示。</li>
-</ul>
-<hr>
-<p>如需，我也可以把这份日报进一步整理成：</p>
-<ul>
-<li><strong>适合发 Slack/飞书的短版</strong></li>
-<li><strong>按“风险优先级”排序的运维视角版</strong></li>
-<li><strong>按“产品/客户端/后端”分组的团队周报版</strong></li>
-</ul>
-</details>
-
-<details>
-<summary><strong>Gemini CLI</strong> — <a href="https://github.com/google-gemini/gemini-cli">google-gemini/gemini-cli</a></summary>
-
-<p>过去24小时无活动。</p>
-</details>
-
-<details>
-<summary><strong>GitHub Copilot CLI</strong> — <a href="https://github.com/github/copilot-cli">github/copilot-cli</a></summary>
-
-<p>过去24小时无活动。</p>
-</details>
-
-<details>
-<summary><strong>Kimi Code CLI</strong> — <a href="https://github.com/MoonshotAI/kimi-cli">MoonshotAI/kimi-cli</a></summary>
-
-<h1>Kimi Code CLI 社区动态日报</h1>
-<p><strong>日期：2026-06-13</strong><br><strong>数据源：github.com/MoonshotAI/kimi-cli</strong></p>
-<h2>1. 今日速览</h2>
-<p>今天仓库整体活跃度偏低：过去 24 小时没有新 Release，也没有更新的 Issues。<br>社区侧唯一值得关注的是 1 个开放 PR，聚焦于 <code>shorten_middle</code> 的换行处理边界问题，属于典型的字符串格式化健壮性修复。  </p>
-<ul>
-<li>仓库首页：<a href="https://github.com/MoonshotAI/kimi-cli">https://github.com/MoonshotAI/kimi-cli</a></li>
-</ul>
-<h2>2. 社区热点 Issues</h2>
-<p>过去 24 小时内 <strong>没有更新的 Issues（0 条）</strong>，因此今天没有可提炼的社区热点，也无法形成有效的 Issue 排名。  </p>
-<ul>
-<li>Issues 列表：<a href="https://github.com/MoonshotAI/kimi-cli/issues">https://github.com/MoonshotAI/kimi-cli/issues</a></li>
-</ul>
-<h2>3. 重要 PR 进展</h2>
-<p>当前过去 24 小时内仅检出 <strong>1 个 PR 更新</strong>，未达到 10 个可筛选条目，以下为唯一重点：</p>
-<ol>
-<li><strong>#2449 [OPEN] fix(string): strip newlines in shorten_middle before the length check</strong>  <ul>
-<li>作者：Ricardo-M-L  </li>
-<li>链接：<a href="https://github.com/MoonshotAI/kimi-cli/pull/2449">https://github.com/MoonshotAI/kimi-cli/pull/2449</a>  </li>
-<li>价值判断：修复 <code>shorten_middle(text, width, remove_newline=True)</code> 在“短文本早返回”路径中未先去除换行的问题，避免 <code>extract_key_argument</code> 生成的工具调用摘要出现多行输出。  </li>
-<li>影响范围：更可靠的单行摘要展示，减少 CLI 输出格式异常，提升工具调用信息可读性。</li>
-</ul>
-</li>
-</ol>
-<h2>4. 功能需求趋势</h2>
-<p>由于 <strong>本日无更新 Issues</strong>，无法从 Issue 侧提炼出明确的社区功能趋势。<br>从当前唯一 PR 只能看到一个很弱但有代表性的信号：<strong>社区对 CLI 输出格式一致性、单行化展示、字符串边界处理</strong> 这类基础体验问题较为敏感。  </p>
-<ul>
-<li>关联 PR：<a href="https://github.com/MoonshotAI/kimi-cli/pull/2449">https://github.com/MoonshotAI/kimi-cli/pull/2449</a></li>
-</ul>
-<h2>5. 开发者关注点</h2>
-<p>从今天的变更可见，开发者和维护者比较关注以下痛点：</p>
-<ul>
-<li><strong>输出格式稳定性</strong>：工具调用摘要需要保持单行，避免换行破坏 CLI 可读性。  </li>
-<li><strong>边界条件处理</strong>：短文本、早返回路径、<code>remove_newline</code> 这类参数组合容易引入隐藏缺陷。  </li>
-<li><strong>字符串工具的可预期性</strong>：用于展示层的辅助函数，一旦行为不一致，会直接影响用户对 CLI 的信任感。  </li>
-<li>相关 PR：<a href="https://github.com/MoonshotAI/kimi-cli/pull/2449">https://github.com/MoonshotAI/kimi-cli/pull/2449</a></li>
-</ul>
-<p>如需，我也可以把这份日报进一步整理成 <strong>更适合群公告/周报模板</strong> 的短版。</p>
-</details>
-
-<details>
-<summary><strong>OpenCode</strong> — <a href="https://github.com/anomalyco/opencode">anomalyco/opencode</a></summary>
-
-<h1>OpenCode 社区动态日报（2026-06-13）</h1>
-<h2>1) 今日速览</h2>
-<p>今天 OpenCode 社区没有新版本发布，但 Issues 和 PR 活跃度明显，讨论重点集中在 <strong>付费/合规问题、子代理执行稳定性、桌面端快捷键体验</strong> 以及 <strong>MCP、presets、命令提示、临时文件命名</strong> 等可用性改进上。<br>整体来看，社区正在同时推进 <strong>产品体验优化</strong> 与 <strong>底层能力修复</strong>，其中不少 PR 已带上 <code>needs:compliance</code>，说明发布流程对规范性要求较高。</p>
-<hr>
-<h2>2) 版本发布</h2>
-<ul>
-<li><strong>无新 Releases</strong>（过去 24 小时内未发现发布）。</li>
-</ul>
-<hr>
-<h2>3) 社区热点 Issues</h2>
-<blockquote>
-<p>说明：过去 24 小时内仅更新了 4 条 Issue，以下为全部条目。</p>
-</blockquote>
-<ol>
-<li><p><strong><a href="https://github.com/anomalyco/opencode/issues/32137">#32137 Refund Request: Unauthorized automatic charge in the second month, auto-renew was never enabled</a></strong>  </p>
-<ul>
-<li><strong>重要性</strong>：涉及订阅扣费与自动续费争议，属于高优先级合规/客服问题，直接影响付费用户信任。  </li>
-<li><strong>社区反应</strong>：当前仅 1 条评论、0 赞，说明更多是单点工单式问题，但业务敏感度很高。</li>
-</ul>
-</li>
-<li><p><strong><a href="https://github.com/anomalyco/opencode/issues/32132">#32132 Subagent terminates prematurely mid-execution but reports completed</a></strong>  </p>
-<ul>
-<li><strong>重要性</strong>：这是典型的执行一致性问题，子代理提前结束却返回“完成”，会导致上层任务拿到不完整结果，影响核心工作流可靠性。  </li>
-<li><strong>社区反应</strong>：1 条评论、0 赞，说明已有用户在追踪，值得开发团队优先定位。</li>
-</ul>
-</li>
-<li><p><strong><a href="https://github.com/anomalyco/opencode/issues/32141">#32141 Desktop version, should we change the shortcut of &quot;New Session&quot; from &quot;cmd+shift+s&quot; to &quot;cmd+n&quot;?</a></strong>  </p>
-<ul>
-<li><strong>重要性</strong>：属于桌面端交互一致性与 Mac 用户习惯问题，影响新会话创建效率。  </li>
-<li><strong>社区反应</strong>：0 评论、0 赞，但属于高频使用入口，可能在 UX 层引发持续讨论。</li>
-</ul>
-</li>
-<li><p><strong><a href="https://github.com/anomalyco/opencode/issues/32133">#32133 [FEATURE]: Use opencode-specific tmp filename for &#39;editor_open&#39;</a></strong>  </p>
-<ul>
-<li><strong>重要性</strong>：涉及 <code>editor_open</code> 的临时文件命名隔离，有助于减少与用户编辑器配置冲突，提升可定制性和安全性。  </li>
-<li><strong>社区反应</strong>：0 评论、0 赞，但该需求体现出高级用户对编辑器联动行为的精细控制诉求。</li>
-</ul>
-</li>
-</ol>
-<hr>
-<h2>4) 重要 PR 进展</h2>
-<blockquote>
-<p>说明：过去 24 小时内仅更新了 6 条 PR，以下为全部条目。</p>
-</blockquote>
-<ol>
-<li><p><strong><a href="https://github.com/anomalyco/opencode/pull/32140">#32140 feat(tui): add session_prompt_spinner slot to the prompt status row</a></strong>  </p>
-<ul>
-<li>为 TUI 增加 <code>session_prompt_spinner</code> 插槽，放在提示状态行中，增强模型生成中的状态展示。  </li>
-<li>这类改动直接提升交互反馈，属于前台体验优化。</li>
-</ul>
-</li>
-<li><p><strong><a href="https://github.com/anomalyco/opencode/pull/32139">#32139 fix(app): improve presets i18n, storage, and UI consistency</a></strong>  </p>
-<ul>
-<li>修复 presets 的国际化、存储与 UI 一致性问题，并补齐 18 种语言翻译。  </li>
-<li>说明 OpenCode 在多语言与配置体验上继续完善，面向全球用户。</li>
-</ul>
-</li>
-<li><p><strong><a href="https://github.com/anomalyco/opencode/pull/32138">#32138 fix(command): sort numbered placeholder hints numerically</a></strong>  </p>
-<ul>
-<li>修正命令模板中 <code>$N</code> 占位符提示的排序逻辑，避免字符串排序导致的顺序错误。  </li>
-<li>属于细节型 bug fix，但能显著改善命令提示的准确性。</li>
-</ul>
-</li>
-<li><p><strong><a href="https://github.com/anomalyco/opencode/pull/32136">#32136 [contributor] run in durable object</a></strong>  </p>
-<ul>
-<li>引入在 Durable Object 中运行的能力，偏向架构/部署层增强。  </li>
-<li>这类 PR 通常会影响运行环境、稳定性与边缘部署场景。</li>
-</ul>
-</li>
-<li><p><strong><a href="https://github.com/anomalyco/opencode/pull/32135">#32135 fix(mcp): refresh expired oauth tokens</a></strong>  </p>
-<ul>
-<li>修复 MCP 场景下过期 OAuth token 的刷新问题。  </li>
-<li>对长期会话与外部服务接入很关键，直接关系到集成可用性。</li>
-</ul>
-</li>
-<li><p><strong><a href="https://github.com/anomalyco/opencode/pull/32134">#32134 docs: add comprehensive security audit report (17 findings)</a></strong>  </p>
-<ul>
-<li>新增安全审计报告，覆盖 2,561 个 TypeScript 文件、共 17 个发现。  </li>
-<li>这是重要的治理型 PR，说明项目正在强化安全透明度与合规能力。</li>
-</ul>
-</li>
-</ol>
-<hr>
-<h2>5) 功能需求趋势</h2>
-<p>从今天的 Issues 看，社区关注主要集中在以下方向：</p>
-<ul>
-<li><p><strong>IDE / 编辑器联动增强</strong><br>典型需求是 <code>editor_open</code> 的临时文件命名隔离，以及更顺手的桌面快捷键配置。<br>说明用户希望 OpenCode 与本地编辑器、桌面端工作流更深度融合。</p>
-</li>
-<li><p><strong>执行可靠性与任务一致性</strong><br>子代理提前结束但错误标记为完成，是对核心任务链路的准确性挑战。<br>这类问题优先级通常高于单纯 UI 优化。</p>
-</li>
-<li><p><strong>付费与合规处理</strong><br>退款与自动续费争议表明，商业化后用户对账单、订阅状态、授权流程非常敏感。<br>项目需要兼顾产品体验与客服/合规响应能力。</p>
-</li>
-<li><p><strong>国际化与配置一致性</strong><br>presets 的 i18n、存储与 UI 一致性修复，说明多语言与配置系统已进入持续打磨阶段。  </p>
-</li>
-<li><p><strong>MCP 与外部集成稳定性</strong><br>OAuth token 刷新问题表明，社区在更广泛地使用外部服务集成，稳定认证链路很关键。</p>
-</li>
-</ul>
-<hr>
-<h2>6) 开发者关注点</h2>
-<p>今天的反馈集中暴露出几个高频痛点：</p>
-<ul>
-<li><p><strong>“看起来完成了，但实际上没做完” 的状态误报问题</strong><br>这在 agent / subagent 系统里风险很高，建议优先排查任务结束条件、输出截断判断与状态回传机制。  </p>
-</li>
-<li><p><strong>桌面端与交互快捷键的默认习惯冲突</strong><br><code>cmd+shift+s</code> vs <code>cmd+n</code> 的讨论说明用户对入口效率非常敏感，尤其是 Mac 用户。  </p>
-</li>
-<li><p><strong>编辑器与临时文件行为的可控性</strong><br>高级用户希望 OpenCode 在调用编辑器时使用更明确、可区分的临时文件命名规则。  </p>
-</li>
-<li><p><strong>认证与 token 生命周期管理</strong><br>MCP 场景下的 OAuth 刷新是稳定运行的基础能力，后续很可能继续出现类似反馈。  </p>
-</li>
-<li><p><strong>安全与合规要求持续上升</strong><br><code>needs:compliance</code> 标签频繁出现，说明项目在功能推进的同时，审查流程、审计与对外响应都在加强。</p>
-</li>
-</ul>
-<hr>
-<p>如需，我可以把这份日报进一步整理成：</p>
-<ol>
-<li><strong>适合团队晨会的 1 页简报版</strong>，或  </li>
-<li><strong>适合发到飞书/Slack 的精简播报版</strong>。</li>
-</ol>
-</details>
-
-<details>
-<summary><strong>Pi</strong> — <a href="https://github.com/badlogic/pi-mono">badlogic/pi-mono</a></summary>
-
-<p>以下为 <strong>2026-06-13</strong> 的 <strong>Pi 社区动态日报</strong>。  </p>
-<blockquote>
-<p>说明：过去 24 小时内仅有 <strong>4 条 Issue 更新</strong> 和 <strong>1 条 PR 更新</strong>，因此本文列出的是<strong>全部可用重点</strong>，并非凑满 10 条。</p>
-</blockquote>
-<hr>
-<h2>1) 今日速览</h2>
-<p>今天社区讨论集中在 <strong>Agent 行为控制、生成可观测性、扩展钩子能力</strong> 和 <strong>外部能力集成</strong> 四个方向。<br>值得注意的是，4 个 Issue 和 1 个 PR 均在当天更新并关闭，说明维护节奏较快，且问题多为较明确的功能诉求或工程边界补强。</p>
-<hr>
-<h2>2) 社区热点 Issues</h2>
-<h3>1. [#5685] Pressing Escape does not stop subagent/background agent</h3>
-<ul>
-<li><strong>为什么重要</strong>：这是典型的“中断控制”问题，直接影响交互式使用体验。用户按 ESC 取消任务时，子代理/后台代理仍继续运行，会造成资源浪费和状态混乱。</li>
-<li><strong>社区反应</strong>：1 条评论，0 👍；属于明确的单点痛点，讨论量不高，但优先级很高。</li>
-<li><strong>链接</strong>：<a href="https://github.com/earendil-works/pi/issues/5685">https://github.com/earendil-works/pi/issues/5685</a></li>
-</ul>
-<h3>2. [#5684] Feature: Display token throughput (tok/s) in the bottom status bar</h3>
-<ul>
-<li><strong>为什么重要</strong>：请求在状态栏展示实时 tok/s，属于 <strong>模型性能可观测性</strong> 的基础能力。对本地模型、慢模型、卡顿排查尤其有价值。</li>
-<li><strong>社区反应</strong>：1 条评论，0 👍；诉求很具体，偏实用型功能，说明用户对“生成速度”可视化有真实需求。</li>
-<li><strong>链接</strong>：<a href="https://github.com/earendil-works/pi/issues/5684">https://github.com/earendil-works/pi/issues/5684</a></li>
-</ul>
-<h3>3. [#5683] AgentHarness: add resume(toolResults) for tools executed outside the harness</h3>
-<ul>
-<li><strong>为什么重要</strong>：这是面向开发者/框架层的能力增强，解决“工具不由 harness 自己执行时，无法把结果喂回循环”的问题，直接关系到 <strong>AgentHarness 的可扩展性</strong>。</li>
-<li><strong>社区反应</strong>：1 条评论，0 👍；虽然热度不高，但技术含量高，属于框架设计层面的关键补强。</li>
-<li><strong>链接</strong>：<a href="https://github.com/earendil-works/pi/issues/5683">https://github.com/earendil-works/pi/issues/5683</a></li>
-</ul>
-<h3>4. [#5682] [possibly-openclaw-clanker] Feature: before_output hook to intercept LLM response before sending to user</h3>
-<ul>
-<li><strong>为什么重要</strong>：这是扩展系统的“最后一道门”，允许在输出前拦截、校验、修改或拒绝 LLM 响应。对安全过滤、合规审查、内容治理非常关键。</li>
-<li><strong>社区反应</strong>：1 条评论，0 👍；属于插件系统成熟度提升的典型需求，适合与现有 lifecycle hooks 形成闭环。</li>
-<li><strong>链接</strong>：<a href="https://github.com/earendil-works/pi/issues/5682">https://github.com/earendil-works/pi/issues/5682</a></li>
-</ul>
-<hr>
-<h2>3) 重要 PR 进展</h2>
-<h3>1. [#5681] feat(aigameagent): integrate AiGameAgent as packages/aigameagent</h3>
-<ul>
-<li><strong>功能/修复内容</strong>：将 <strong>AiGameAgent</strong> 作为 <code>packages/aigameagent</code> 集成到 pi-mono 中，覆盖 HTML5、微信、抖音小游戏多端工作流，以及 OpenAI 兼容 HTTP API。</li>
-<li><strong>为什么重要</strong>：这是一次明显的生态扩展，说明 Pi 正在向 <strong>多端工作流/游戏开发工具链</strong> 方向延展，不再局限于通用对话或代理能力。</li>
-<li><strong>社区反应</strong>：该 PR 当天更新并关闭，显示集成工作推进较快；从描述看，涉及较大规模工作树快照与历史编辑整合，工程量不小。</li>
-<li><strong>链接</strong>：<a href="https://github.com/earendil-works/pi/pull/5681">https://github.com/earendil-works/pi/pull/5681</a></li>
-</ul>
-<hr>
-<h2>4) 功能需求趋势</h2>
-<p>从今天的 Issue 可见，社区最关注的功能方向主要有：</p>
-<ol>
-<li><p><strong>Agent 控制与可中断性</strong></p>
-<ul>
-<li>代表：ESC 不能停止子代理</li>
-<li>说明用户希望 Pi 的任务执行具备更强的“可控、可停、可恢复”能力  </li>
-<li>链接：<a href="https://github.com/earendil-works/pi/issues/5685">https://github.com/earendil-works/pi/issues/5685</a></li>
-</ul>
-</li>
-<li><p><strong>性能与运行态可观测性</strong></p>
-<ul>
-<li>代表：状态栏显示 tok/s</li>
-<li>说明用户不仅关心结果，也关心模型是否在“快、慢、卡住”  </li>
-<li>链接：<a href="https://github.com/earendil-works/pi/issues/5684">https://github.com/earendil-works/pi/issues/5684</a></li>
-</ul>
-</li>
-<li><p><strong>Agent 框架扩展性</strong></p>
-<ul>
-<li>代表：<code>AgentHarness.resume(toolResults)</code>、<code>before_output</code> hook</li>
-<li>说明开发者希望更灵活地接入外部工具链、拦截流程、控制消息生命周期  </li>
-<li>链接：  <ul>
-<li><a href="https://github.com/earendil-works/pi/issues/5683">https://github.com/earendil-works/pi/issues/5683</a>  </li>
-<li><a href="https://github.com/earendil-works/pi/issues/5682">https://github.com/earendil-works/pi/issues/5682</a></li>
-</ul>
-</li>
-</ul>
-</li>
-<li><p><strong>生态集成与多端工作流</strong></p>
-<ul>
-<li>代表：AiGameAgent 集成</li>
-<li>说明项目正在吸引更垂直的应用场景，尤其是多端小游戏与兼容 API 方向  </li>
-<li>链接：<a href="https://github.com/earendil-works/pi/pull/5681">https://github.com/earendil-works/pi/pull/5681</a></li>
-</ul>
-</li>
-</ol>
-<hr>
-<h2>5) 开发者关注点</h2>
-<p>今天的反馈集中反映出以下几类痛点：</p>
-<ul>
-<li><p><strong>取消机制不可靠</strong>：用户发出中断信号后，后台/子代理仍继续运行，说明执行链路的终止语义需要加强。<br>链接：<a href="https://github.com/earendil-works/pi/issues/5685">https://github.com/earendil-works/pi/issues/5685</a></p>
-</li>
-<li><p><strong>缺少运行时性能反馈</strong>：没有 tok/s 这类指标，用户难判断模型是否正常工作，尤其在本地模式或长输出场景。<br>链接：<a href="https://github.com/earendil-works/pi/issues/5684">https://github.com/earendil-works/pi/issues/5684</a></p>
-</li>
-<li><p><strong>扩展钩子不够完整</strong>：已有多个生命周期 hook，但缺少“输出前拦截”这类关键节点，限制了安全、审校和定制化能力。<br>链接：<a href="https://github.com/earendil-works/pi/issues/5682">https://github.com/earendil-works/pi/issues/5682</a></p>
-</li>
-<li><p><strong>AgentHarness 对外部工具结果支持不足</strong>：当工具执行不在 harness 内部发生时，无法顺畅恢复循环，影响高级编排场景。<br>链接：<a href="https://github.com/earendil-works/pi/issues/5683">https://github.com/earendil-works/pi/issues/5683</a></p>
-</li>
-<li><p><strong>项目正在向更多业务场景延展</strong>：AiGameAgent 的集成表明，开发者不仅要“能聊”，还要“能嵌入真实工作流”。<br>链接：<a href="https://github.com/earendil-works/pi/pull/5681">https://github.com/earendil-works/pi/pull/5681</a></p>
-</li>
-</ul>
-<hr>
-<p>如果你愿意，我还可以把这份日报进一步整理成：</p>
-<ol>
-<li><strong>适合发群的精简版</strong>  </li>
-<li><strong>适合管理层看的摘要版</strong>  </li>
-<li><strong>带趋势标签和优先级评分的分析版</strong></li>
-</ol>
-</details>
-
-<details>
-<summary><strong>Qwen Code</strong> — <a href="https://github.com/QwenLM/qwen-code">QwenLM/qwen-code</a></summary>
-
-<h1>Qwen Code 社区动态日报（2026-06-13）</h1>
-<blockquote>
-<p>数据来源：GitHub 仓库 <a href="https://github.com/QwenLM/qwen-code">QwenLM/qwen-code</a><br>说明：过去 24 小时内仅更新了 <strong>2 个 Issue</strong> 和 <strong>3 个 PR</strong>，因此以下为<strong>今日全部重点条目</strong>，并非 10 条完整样本。</p>
-</blockquote>
-<hr>
-<h2>1) 今日速览</h2>
-<p>今天社区讨论主要集中在两条线：<strong>交互式 CLI / coding plan 的展示稳定性</strong>，以及 <strong>Web Shell 的会话管理体验</strong>。与此同时，PR 侧则聚焦在 <strong>上下文控制、MCP 集成稳定性</strong> 和 <strong>工具结果流转时序问题</strong>，说明项目当前的核心工作仍然围绕“可用性”和“可靠性”持续打磨。</p>
-<hr>
-<h2>2) 版本发布</h2>
-<ul>
-<li><strong>无新 Release</strong><ul>
-<li>过去 24 小时内未检测到新的版本发布。</li>
-</ul>
-</li>
-</ul>
-<hr>
-<h2>3) 社区热点 Issues</h2>
-<h3>1. <a href="https://github.com/QwenLM/qwen-code/issues/5075">#5075 ExitPlanMode 时，plan gate 报错，导致看不到 plan</a></h3>
-<ul>
-<li><strong>类型</strong>：bug / CLI / interactive / coding-plan</li>
-<li><strong>为什么重要</strong>：这是一个直接影响“计划模式”可见性的交互问题。用户在 ExitPlanMode 时无法看到完整 plan，只能看到摘要，容易破坏 coding-plan 的工作流预期。</li>
-<li><strong>社区反应</strong>：目前有 <strong>2 条评论</strong>，但 <strong>0 👍</strong>。说明问题足够明确，已引发一定讨论，但尚未形成广泛共鸣。</li>
-</ul>
-<h3>2. <a href="https://github.com/QwenLM/qwen-code/issues/5074">#5074 Add persistent sidebar to web-shell for cmux-like session management</a></h3>
-<ul>
-<li><strong>类型</strong>：feature-request / UI / session-management / components / daemon</li>
-<li><strong>为什么重要</strong>：这是一个偏产品形态的高价值需求，目标是让 web-shell 支持类似 cmux 的多会话管理：新建、切换、重命名、删除等。若实现，将显著提升多任务并行场景下的操作效率。</li>
-<li><strong>社区反应</strong>：目前有 <strong>2 条评论</strong>，但 <strong>0 👍</strong>。说明需求具体且实用，属于明确的 UX 增强方向。</li>
-</ul>
-<blockquote>
-<p>今日更新的 Issue 仅上述 2 条，未发现更多新增热点。</p>
-</blockquote>
-<hr>
-<h2>4) 重要 PR 进展</h2>
-<h3>1. <a href="https://github.com/QwenLM/qwen-code/pull/5073">#5073 fix: warn on oversized context instructions</a></h3>
-<ul>
-<li><strong>主要内容</strong>：在启动时增加告警，当始终加载的 <code>QWEN.md / context instruction</code> 预计占用超过活动模型上下文窗口 15% 时提示用户。</li>
-<li><strong>价值</strong>：这是典型的“可观测性 + 成本控制”改进，能帮助用户避免上下文被配置文件吞噬，提升模型响应质量和稳定性。</li>
-<li><strong>社区反应</strong>：暂无评论数据，但从问题本身看非常贴近真实使用痛点。</li>
-</ul>
-<h3>2. <a href="https://github.com/QwenLM/qwen-code/pull/5072">#5072 test: stabilize simple MCP integration check</a></h3>
-<ul>
-<li><strong>主要内容</strong>：调整 <code>simple-mcp-server</code> 集成测试，从简单算术改为请求 MCP 服务返回 opaque token，以稳定测试路径。</li>
-<li><strong>价值</strong>：这不是功能性改动，但对 CI 可靠性很关键。通过减少模型“猜答案”的不确定性，提升集成测试稳定性，降低误报。</li>
-<li><strong>社区反应</strong>：暂无评论数据，但属于典型的工程质量优化。</li>
-</ul>
-<h3>3. <a href="https://github.com/QwenLM/qwen-code/pull/5071">#5071 fix(cli): submit fast tool results after stream end</a></h3>
-<ul>
-<li><strong>主要内容</strong>：修复一种竞态：当工具执行非常快、模型流已结束而 React 还未更新回调时，工具结果可能丢失。现在通过同步记录 <code>sendMessageStream</code> 生命周期来避免。</li>
-<li><strong>价值</strong>：这是影响 CLI 可靠性的关键 bug 修复，直接关系到工具调用结果是否能稳定回传，属于高优先级工程修补。</li>
-<li><strong>社区反应</strong>：暂无评论数据，但问题性质非常明确，属于“偶发但致命”的时序类问题。</li>
-</ul>
-<hr>
-<h2>5) 功能需求趋势</h2>
-<p>从今天的 Issues 与 PR 可提炼出以下社区关注方向：</p>
-<ol>
-<li><p><strong>交互式工作流稳定性</strong></p>
-<ul>
-<li>代表：<a href="https://github.com/QwenLM/qwen-code/issues/5075">#5075</a>、<a href="https://github.com/QwenLM/qwen-code/pull/5071">#5071</a></li>
-<li>关注点是 plan 展示、工具结果回传、流式交互不中断。</li>
-</ul>
-</li>
-<li><p><strong>Web / UI 会话管理能力</strong></p>
-<ul>
-<li>代表：<a href="https://github.com/QwenLM/qwen-code/issues/5074">#5074</a></li>
-<li>用户希望 web-shell 更接近“多会话工作台”，支持 session 的快速切换与管理。</li>
-</ul>
-</li>
-<li><p><strong>上下文窗口治理</strong></p>
-<ul>
-<li>代表：<a href="https://github.com/QwenLM/qwen-code/pull/5073">#5073</a></li>
-<li>说明社区对“提示词/指令占满上下文”的问题很敏感，期待更强的可视化提醒和配额控制。</li>
-</ul>
-</li>
-<li><p><strong>MCP / 集成测试稳定性</strong></p>
-<ul>
-<li>代表：<a href="https://github.com/QwenLM/qwen-code/pull/5072">#5072</a></li>
-<li>表明团队和用户都在重视外部工具集成能力，以及与之相关的自动化测试质量。</li>
-</ul>
-</li>
-</ol>
-<hr>
-<h2>6) 开发者关注点</h2>
-<p>结合今日反馈，开发者最需要重点关注的痛点是：</p>
-<ul>
-<li><p><strong>Plan / 交互状态展示不能丢失</strong></p>
-<ul>
-<li><code>ExitPlanMode</code> 下 plan gate 报错后只显示摘要，会影响用户对任务进度和决策的判断。</li>
-<li>相关链接：<a href="https://github.com/QwenLM/qwen-code/issues/5075">#5075</a></li>
-</ul>
-</li>
-<li><p><strong>Web-shell 缺少高效的多会话管理</strong></p>
-<ul>
-<li>用户希望更像“工作台”而不是单一 shell，说明多任务协同场景在增长。</li>
-<li>相关链接：<a href="https://github.com/QwenLM/qwen-code/issues/5074">#5074</a></li>
-</ul>
-</li>
-<li><p><strong>上下文注入需要更强的边界感</strong></p>
-<ul>
-<li><code>QWEN.md</code> 等始终加载的内容一旦过大，会直接挤压有效上下文，影响模型效果。</li>
-<li>相关链接：<a href="https://github.com/QwenLM/qwen-code/pull/5073">#5073</a></li>
-</ul>
-</li>
-<li><p><strong>异步工具链存在时序竞态</strong></p>
-<ul>
-<li>工具结果在流结束附近可能丢失，属于典型的“低频高损”问题，建议优先修复与回归覆盖。</li>
-<li>相关链接：<a href="https://github.com/QwenLM/qwen-code/pull/5071">#5071</a></li>
-</ul>
-</li>
-<li><p><strong>MCP 集成测试需要更强的确定性</strong></p>
-<ul>
-<li>通过减少模型推理参与度来稳定测试，是提升 CI 可维护性的有效方式。</li>
-<li>相关链接：<a href="https://github.com/QwenLM/qwen-code/pull/5072">#5072</a></li>
-</ul>
-</li>
-</ul>
-<hr>
-<p>如果你愿意，我可以继续把这份日报整理成：</p>
-<ol>
-<li><strong>更适合内部周报的精简版</strong>，或  </li>
-<li><strong>带“优先级/影响面/建议动作”的运营分析版</strong>。</li>
-</ol>
-</details>
-
-<details>
-<summary><strong>DeepSeek TUI</strong> — <a href="https://github.com/Hmbown/DeepSeek-TUI">Hmbown/DeepSeek-TUI</a></summary>
-
-<h1>DeepSeek TUI 社区动态日报（2026-06-13）</h1>
-<h2>1) 今日速览</h2>
-<p>过去 24 小时内，仓库没有新的 Release，也没有 Issues 更新，社区讨论热度较低。<br>当天唯一值得关注的进展是一个已关闭的配置类 PR：新增了 <strong>Z.ai</strong> 与 <strong>StepFun/StepFlash</strong> 的一方 Provider 路由，继续强化多模型接入能力。<br>整体来看，项目当前更偏向于“补齐供应商生态”和“提升可配置性”，而非大范围功能迭代。</p>
-<hr>
-<h2>2) 版本发布</h2>
-<p><strong>无新版本发布。</strong></p>
-<hr>
-<h2>3) 社区热点 Issues</h2>
-<p><strong>过去 24 小时内无 Issues 更新，因此今日无可列出的热点 Issue。</strong></p>
-<ul>
-<li>无数据可分析<br>GitHub：暂无可用链接</li>
-</ul>
-<blockquote>
-<p>说明：本次日报仅基于你提供的数据源；若后续补充 Issue 列表，我可以进一步按“影响范围 / 讨论热度 / 修复优先级”筛选 Top 10。</p>
-</blockquote>
-<hr>
-<h2>4) 重要 PR 进展</h2>
-<p>本日仅有 <strong>1 个 PR</strong> 更新，且已关闭：</p>
-<ol>
-<li><strong>#3191 feat(config): add first-party Z.ai and StepFlash/StepFun provider routes (#3187)</strong>  <ul>
-<li>状态：<strong>CLOSED</strong></li>
-<li>作者：Hmbown</li>
-<li>价值判断：这是一个较典型的“生态接入”增强 PR，直接扩展了代码助手可配置的供应商范围。  </li>
-<li>主要内容：<ul>
-<li>新增 <strong>Z.ai（GLM Coding Plan）</strong> 作为 first-party provider</li>
-<li>新增 <strong>StepFun / StepFlash</strong> 作为 first-party provider</li>
-<li>提供默认模型、Base URL、鉴权方式等配置细节</li>
-<li>指向更广泛的多模型/多厂商兼容策略</li>
-</ul>
-</li>
-<li>链接：<strong><a href="https://github.com/Hmbown/CodeWhale/pull/3191">Hmbown/CodeWhale PR #3191</a></strong></li>
-</ul>
-</li>
-</ol>
-<p><strong>其余 PR：无更新。</strong></p>
-<hr>
-<h2>5) 功能需求趋势</h2>
-<p>由于本日报 <strong>没有 Issues 数据</strong>，无法从用户反馈中直接提炼真实的需求趋势。<br>不过从今日唯一 PR 的方向来看，当前最明显的功能趋势是：</p>
-<ul>
-<li><strong>多模型 / 多供应商接入增强</strong><br>GitHub：<a href="https://github.com/Hmbown/CodeWhale/pull/3191">#3191</a></li>
-</ul>
-<p>这通常意味着社区对以下能力存在持续需求：</p>
-<ul>
-<li>更丰富的模型选择</li>
-<li>更灵活的 API 路由配置</li>
-<li>对不同厂商鉴权与 endpoint 的快速适配</li>
-</ul>
-<hr>
-<h2>6) 开发者关注点</h2>
-<p>结合今日可见数据，开发者侧最值得关注的点是：</p>
-<ul>
-<li><p><strong>Provider 生态扩展优先级较高</strong><br>新增 Z.ai、StepFun/StepFlash 说明项目在持续补全供应商支持，后续可能继续向更多模型平台扩展。<br>链接：<a href="https://github.com/Hmbown/CodeWhale/pull/3191">#3191</a></p>
-</li>
-<li><p><strong>配置项维护成本需要控制</strong><br>当 provider 数量增加后，配置、鉴权、默认模型与路由逻辑会更复杂，后续需要关注一致性与可维护性。</p>
-</li>
-<li><p><strong>目前缺少 Issue 驱动的反馈信号</strong><br>今日没有 Issues 更新，意味着社区反馈不足，短期内难以从用户角度判断性能、稳定性或交互层面的痛点。</p>
-</li>
-</ul>
-<hr>
-<p>如果你愿意，我也可以把这份日报进一步整理成：</p>
-<ol>
-<li><strong>适合发群/发邮件的精简版</strong>，或  </li>
-<li><strong>带“风险判断 + 后续建议”的分析版</strong>。</li>
-</ol>
-</details>
-
-<hr>
-<p><em>本日报由 <a href="https://github.com/leisure3318/agents-radar">agents-radar</a> 自动生成。</em></p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>AI CLI Tools Digest 2026-06-13</title>
-      <link>https://duanyytop.github.io/agents-radar/#2026-06-13/ai-cli-en</link>
-      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-06-13/ai-cli-en</guid>
-      <pubDate>Sat, 13 Jun 2026 00:00:00 +0000</pubDate>
-      <description>AI CLI Tools Community Digest 2026-06-13 Generated: 2026-06-13 03:59 UTC | Tools covered: 9 Claude Code OpenAI Codex Gemini CLI GitHub Copilot CLI Kimi Code CLI OpenCode Pi Qwen Code DeepSeek TUI Claude Code Skills Cross-Tool Comparison (English digest skipped to save LLM tokens — see the Chinese report for full details.) Per-Tool Reports Claude Code — anthropics/claude-code Claude Code Skills Highlights Source: anthropics/skills (English digest skipped to save LLM tokens — see the Chinese repor...</description>
-      <content:encoded><![CDATA[<h1>AI CLI Tools Community Digest 2026-06-13</h1>
-<blockquote>
-<p>Generated: 2026-06-13 03:59 UTC | Tools covered: 9</p>
-</blockquote>
-<ul>
-<li><a href="https://github.com/anthropics/claude-code">Claude Code</a></li>
-<li><a href="https://github.com/openai/codex">OpenAI Codex</a></li>
-<li><a href="https://github.com/google-gemini/gemini-cli">Gemini CLI</a></li>
-<li><a href="https://github.com/github/copilot-cli">GitHub Copilot CLI</a></li>
-<li><a href="https://github.com/MoonshotAI/kimi-cli">Kimi Code CLI</a></li>
-<li><a href="https://github.com/anomalyco/opencode">OpenCode</a></li>
-<li><a href="https://github.com/badlogic/pi-mono">Pi</a></li>
-<li><a href="https://github.com/QwenLM/qwen-code">Qwen Code</a></li>
-<li><a href="https://github.com/Hmbown/DeepSeek-TUI">DeepSeek TUI</a></li>
-<li><a href="https://github.com/anthropics/skills">Claude Code Skills</a></li>
-</ul>
-<hr>
-<h2>Cross-Tool Comparison</h2>
-<p><em>(English digest skipped to save LLM tokens — see the Chinese report for full details.)</em></p>
-<hr>
-<h2>Per-Tool Reports</h2>
-<details>
-<summary><strong>Claude Code</strong> — <a href="https://github.com/anthropics/claude-code">anthropics/claude-code</a></summary>
-
-<h2>Claude Code Skills Highlights</h2>
-<blockquote>
-<p>Source: <a href="https://github.com/anthropics/skills">anthropics/skills</a></p>
-</blockquote>
-<p><em>(English digest skipped to save LLM tokens — see the Chinese report for full details.)</em></p>
-<hr>
-<p><em>(English digest skipped to save LLM tokens — see the Chinese report for full details.)</em></p>
-</details>
-
-<details>
-<summary><strong>OpenAI Codex</strong> — <a href="https://github.com/openai/codex">openai/codex</a></summary>
-
-<p><em>(English digest skipped to save LLM tokens — see the Chinese report for full details.)</em></p>
-</details>
-
-<details>
-<summary><strong>Gemini CLI</strong> — <a href="https://github.com/google-gemini/gemini-cli">google-gemini/gemini-cli</a></summary>
-
-<p>No activity in the last 24 hours.</p>
-</details>
-
-<details>
-<summary><strong>GitHub Copilot CLI</strong> — <a href="https://github.com/github/copilot-cli">github/copilot-cli</a></summary>
-
-<p>No activity in the last 24 hours.</p>
-</details>
-
-<details>
-<summary><strong>Kimi Code CLI</strong> — <a href="https://github.com/MoonshotAI/kimi-cli">MoonshotAI/kimi-cli</a></summary>
-
-<p><em>(English digest skipped to save LLM tokens — see the Chinese report for full details.)</em></p>
-</details>
-
-<details>
-<summary><strong>OpenCode</strong> — <a href="https://github.com/anomalyco/opencode">anomalyco/opencode</a></summary>
-
-<p><em>(English digest skipped to save LLM tokens — see the Chinese report for full details.)</em></p>
-</details>
-
-<details>
-<summary><strong>Pi</strong> — <a href="https://github.com/badlogic/pi-mono">badlogic/pi-mono</a></summary>
-
-<p><em>(English digest skipped to save LLM tokens — see the Chinese report for full details.)</em></p>
-</details>
-
-<details>
-<summary><strong>Qwen Code</strong> — <a href="https://github.com/QwenLM/qwen-code">QwenLM/qwen-code</a></summary>
-
-<p><em>(English digest skipped to save LLM tokens — see the Chinese report for full details.)</em></p>
-</details>
-
-<details>
-<summary><strong>DeepSeek TUI</strong> — <a href="https://github.com/Hmbown/DeepSeek-TUI">Hmbown/DeepSeek-TUI</a></summary>
-
-<p><em>(English digest skipped to save LLM tokens — see the Chinese report for full details.)</em></p>
-</details>
-
-<hr>
-<p><em>This digest is auto-generated by <a href="https://github.com/leisure3318/agents-radar">agents-radar</a>.</em></p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>AI Agents 生态日报 2026-06-13</title>
-      <link>https://duanyytop.github.io/agents-radar/#2026-06-13/ai-agents</link>
-      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-06-13/ai-agents</guid>
-      <pubDate>Sat, 13 Jun 2026 00:00:00 +0000</pubDate>
-      <description>OpenClaw 生态日报 2026-06-13 Issues: 6 | PRs: 37 | 覆盖项目: 13 个 | 生成时间: 2026-06-13 03:59 UTC OpenClaw NanoBot Hermes Agent PicoClaw NanoClaw NullClaw IronClaw LobsterAI TinyClaw Moltis CoPaw ZeptoClaw ZeroClaw OpenClaw 项目深度报告 OpenClaw 项目动态日报｜2026-06-13 1) 今日速览 OpenClaw 今天处于高强度修复与收敛状态：24 小时内更新了 6 个 Issues、37 个 PR，明显偏向“快速修 bug + 回归修正”的节奏。从内容看，维护重点集中在 消息通道投递一致性、运行时上下文安全边界、诊断准确性、以及多语言/UI 兼容性。当天没有新版本发布，说明当前更像是在为下一轮 release 做集中修复和审查。整体活跃度很高，但也反映出项目面较宽：通道、网关、cron、memory、web-ui、provider/catalog 多条线同时推进，维护压力不低...</description>
-      <content:encoded><![CDATA[<h1>OpenClaw 生态日报 2026-06-13</h1>
-<blockquote>
-<p>Issues: 6 | PRs: 37 | 覆盖项目: 13 个 | 生成时间: 2026-06-13 03:59 UTC</p>
-</blockquote>
-<ul>
-<li><a href="https://github.com/openclaw/openclaw">OpenClaw</a></li>
-<li><a href="https://github.com/HKUDS/nanobot">NanoBot</a></li>
-<li><a href="https://github.com/nousresearch/hermes-agent">Hermes Agent</a></li>
-<li><a href="https://github.com/sipeed/picoclaw">PicoClaw</a></li>
-<li><a href="https://github.com/qwibitai/nanoclaw">NanoClaw</a></li>
-<li><a href="https://github.com/nullclaw/nullclaw">NullClaw</a></li>
-<li><a href="https://github.com/nearai/ironclaw">IronClaw</a></li>
-<li><a href="https://github.com/netease-youdao/LobsterAI">LobsterAI</a></li>
-<li><a href="https://github.com/TinyAGI/tinyagi">TinyClaw</a></li>
-<li><a href="https://github.com/moltis-org/moltis">Moltis</a></li>
-<li><a href="https://github.com/agentscope-ai/CoPaw">CoPaw</a></li>
-<li><a href="https://github.com/qhkm/zeptoclaw">ZeptoClaw</a></li>
-<li><a href="https://github.com/zeroclaw-labs/zeroclaw">ZeroClaw</a></li>
-</ul>
-<hr>
-<h2>OpenClaw 项目深度报告</h2>
-<h1>OpenClaw 项目动态日报｜2026-06-13</h1>
-<h2>1) 今日速览</h2>
-<p>OpenClaw 今天处于<strong>高强度修复与收敛</strong>状态：24 小时内更新了 6 个 Issues、37 个 PR，明显偏向“快速修 bug + 回归修正”的节奏。<br>从内容看，维护重点集中在 <strong>消息通道投递一致性、运行时上下文安全边界、诊断准确性、以及多语言/UI 兼容性</strong>。<br>当天没有新版本发布，说明当前更像是在为下一轮 release 做集中修复和审查。<br>整体活跃度很高，但也反映出项目面较宽：通道、网关、cron、memory、web-ui、provider/catalog 多条线同时推进，维护压力不低。  </p>
-<hr>
-<h2>2) 版本发布</h2>
-<p>今日<strong>无新版本发布</strong>。  </p>
-<hr>
-<h2>3) 项目进展</h2>
-<p>今日可见的关键推进，主要来自“修复型 PR”对核心路径的补强：</p>
-<ul>
-<li><p><strong>诊断与内存状态一致性修复</strong></p>
-<ul>
-<li><code>#92583</code> 修复 <code>doctor</code> 对本地 memory embeddings 的误报：<br><a href="https://github.com/openclaw/openclaw/pull/92583">GitHub PR #92583</a></li>
-<li>这类修复会直接提升“健康检查可信度”，减少误报带来的维护噪音。</li>
-</ul>
-</li>
-<li><p><strong>运行时上下文泄漏修复</strong></p>
-<ul>
-<li><code>#92593</code> 为 runtime context 增加分隔符，修复 Feishu 场景下的系统上下文泄漏：<br><a href="https://github.com/openclaw/openclaw/pull/92593">GitHub PR #92593</a></li>
-<li>这是偏安全边界的改进，重要性高于普通行为修正。</li>
-</ul>
-</li>
-<li><p><strong>消息投递与 cron 流程修复</strong></p>
-<ul>
-<li><code>#92580</code> 修复 isolated cron completion 的 delivery target 持久化：<br><a href="https://github.com/openclaw/openclaw/pull/92580">GitHub PR #92580</a></li>
-<li><code>#92568</code> 修复任务取消与 active cron ledger 的联动：<br><a href="https://github.com/openclaw/openclaw/pull/92568">GitHub PR #92568</a></li>
-</ul>
-</li>
-<li><p><strong>通道与网关兼容/安全修复</strong></p>
-<ul>
-<li><code>#92513</code> 处理 WhatsApp configured ACP bindings：<br><a href="https://github.com/openclaw/openclaw/pull/92513">GitHub PR #92513</a></li>
-<li><code>#92584</code> 关闭 Control UI token 的 <code>?token=</code> 查询串接收：<br><a href="https://github.com/openclaw/openclaw/pull/92584">GitHub PR #92584</a></li>
-</ul>
-</li>
-<li><p><strong>UI / 兼容性 / 体验修复</strong></p>
-<ul>
-<li><code>#92588</code> 为 chat input 增加 CJK 字体回退，修复中文字符宽度不一致：<br><a href="https://github.com/openclaw/openclaw/pull/92588">GitHub PR #92588</a></li>
-<li><code>#92512</code> 修复 WebChat streaming backscroll：<br><a href="https://github.com/openclaw/openclaw/pull/92512">GitHub PR #92512</a></li>
-</ul>
-</li>
-<li><p><strong>模型/插件注册表健壮性</strong></p>
-<ul>
-<li><code>#92585</code> 跳过无效 plugin catalog shard，避免整个模型加载失败：<br><a href="https://github.com/openclaw/openclaw/pull/92585">GitHub PR #92585</a></li>
-</ul>
-</li>
-</ul>
-<p><strong>整体推进幅度判断：</strong><br>从今天公开的 PR 方向看，项目不是在做单点功能堆叠，而是在同时补强 <strong>稳定性、兼容性、权限边界、以及会话生命周期管理</strong>。这说明 OpenClaw 当前更像在为“可稳定上线”扫雷，而不是单纯扩功能。<br>今日已可见关闭/合并的 PR 至少包括：  </p>
-<ul>
-<li><code>#92587</code> Revert QA scorecard taxonomy validation<br><a href="https://github.com/openclaw/openclaw/pull/92587">GitHub PR #92587</a>  </li>
-<li><code>#92568</code> fix(cron): cancel active task ledger runs<br><a href="https://github.com/openclaw/openclaw/pull/92568">GitHub PR #92568</a></li>
-</ul>
-<hr>
-<h2>4) 社区热点</h2>
-<blockquote>
-<p>说明：本次快照里 PR 的评论数未给出，<strong>社区互动热点主要体现在 Issues</strong>。</p>
-</blockquote>
-<h3>评论最活跃 / 反应最强的 Issues</h3>
-<ol>
-<li><p><code>#92582</code> doctor 误报 local memory embeddings 未就绪<br><a href="https://github.com/openclaw/openclaw/issues/92582">GitHub Issue #92582</a>  </p>
-<ul>
-<li>评论：3，👍：1  </li>
-<li>背后诉求：用户希望“健康检查”能真正反映系统状态，不能在 memory stack 正常时仍给出错误告警。</li>
-</ul>
-</li>
-<li><p><code>#92572</code> Claude Opus 4.6 via <code>agy</code> CLI 在 Web UI 返回 404<br><a href="https://github.com/openclaw/openclaw/issues/92572">GitHub Issue #92572</a>  </p>
-<ul>
-<li>评论：3，👍：1  </li>
-<li>背后诉求：同一能力在终端可用、Web UI 不可用，说明用户非常在意<strong>跨入口一致性</strong>。</li>
-</ul>
-</li>
-<li><p><code>#92460</code> isolated cron completion announcer 丢失 delivery.channel<br><a href="https://github.com/openclaw/openclaw/issues/92460">GitHub Issue #92460</a>  </p>
-<ul>
-<li>评论：3，👍：1  </li>
-<li>背后诉求：这是直接影响消息送达的可靠性问题，且标签显示了较高优先级与潜在消息丢失风险。</li>
-</ul>
-</li>
-</ol>
-<h3>其他值得关注的高信号 Issue</h3>
-<ul>
-<li><code>#92589</code> Feishu channel 泄漏系统 runtime context<br><a href="https://github.com/openclaw/openclaw/issues/92589">GitHub Issue #92589</a></li>
-<li><code>#92569</code> MCP server 进程跨 session 泄漏，导致下一次连接文件锁冲突<br><a href="https://github.com/openclaw/openclaw/issues/92569">GitHub Issue #92569</a></li>
-<li><code>#92586</code> 中文字符宽度不一致回归<br><a href="https://github.com/openclaw/openclaw/issues/92586">GitHub Issue #92586</a></li>
-</ul>
-<hr>
-<h2>5) Bug 与稳定性</h2>
-<p>按严重程度综合排序如下：</p>
-<h3>1. P1 / 数据或消息丢失风险</h3>
-<ul>
-<li><code>#92460</code> isolated cron completion announcer 丢失 <code>delivery.channel</code><br><a href="https://github.com/openclaw/openclaw/issues/92460">GitHub Issue #92460</a>  <ul>
-<li>风险：<strong>message-loss</strong>，属于高优先级稳定性问题。  </li>
-<li>状态：已有修复 PR <code>#92580</code><br><a href="https://github.com/openclaw/openclaw/pull/92580">GitHub PR #92580</a></li>
-</ul>
-</li>
-</ul>
-<h3>2. 安全边界/敏感上下文泄漏</h3>
-<ul>
-<li><p><code>#92589</code> Feishu 回复中泄漏 system/runtime context<br><a href="https://github.com/openclaw/openclaw/issues/92589">GitHub Issue #92589</a>  </p>
-<ul>
-<li>风险：把 <code>relevant-memories</code>、sender metadata、conversation info 等系统块暴露给用户可见回复，属于<strong>边界泄漏</strong>。  </li>
-<li>状态：已有修复 PR <code>#92593</code><br><a href="https://github.com/openclaw/openclaw/pull/92593">GitHub PR #92593</a></li>
-</ul>
-</li>
-<li><p><code>#92584</code> Control UI token 可通过 URL query string 传入<br><a href="https://github.com/openclaw/openclaw/pull/92584">GitHub PR #92584</a>  </p>
-<ul>
-<li>风险：典型的 URL 泄密路径，涉及代理/CDN/日志外泄面。</li>
-</ul>
-</li>
-</ul>
-<h3>3. 功能行为错误 / 跨端不一致</h3>
-<ul>
-<li><p><code>#92572</code> Claude Opus 4.6 via <code>agy</code> CLI Web UI 404<br><a href="https://github.com/openclaw/openclaw/issues/92572">GitHub Issue #92572</a>  </p>
-<ul>
-<li>状态：<strong>暂无明确 fix PR</strong> 出现在本次快照中。  </li>
-<li>影响：同一模型配置在 CLI 与 Web UI 行为不一致，影响可用性和排障效率。</li>
-</ul>
-</li>
-<li><p><code>#92569</code> MCP server 进程跨 session 泄漏，导致 file lock 冲突<br><a href="https://github.com/openclaw/openclaw/issues/92569">GitHub Issue #92569</a>  </p>
-<ul>
-<li>状态：<strong>暂无明确 fix PR</strong>。  </li>
-<li>影响：对 SQLite/锁文件类 MCP server 尤其致命，会造成重连失败。</li>
-</ul>
-</li>
-</ul>
-<h3>4. 误报 / 体验回归</h3>
-<ul>
-<li><p><code>#92582</code> doctor 误报 embeddings 未就绪<br><a href="https://github.com/openclaw/openclaw/issues/92582">GitHub Issue #92582</a>  </p>
-<ul>
-<li>状态：已有修复 PR <code>#92583</code><br><a href="https://github.com/openclaw/openclaw/pull/92583">GitHub PR #92583</a></li>
-</ul>
-</li>
-<li><p><code>#92586</code> 中文字符宽度不一致（CJK font fallback 缺失）<br><a href="https://github.com/openclaw/openclaw/issues/92586">GitHub Issue #92586</a>  </p>
-<ul>
-<li>状态：已有修复 PR <code>#92588</code><br><a href="https://github.com/openclaw/openclaw/pull/92588">GitHub PR #92588</a></li>
-</ul>
-</li>
-</ul>
-<hr>
-<h2>6) 功能请求与路线图信号</h2>
-<p>今日 Issues 以 bug 为主，<strong>没有明显的新功能需求型 Issue</strong>；但从 PR 方向可以清楚看出下一步路线信号：</p>
-<ul>
-<li><p><strong>消息通道能力继续补齐</strong></p>
-<ul>
-<li><code>#92591</code> 让 MS Teams 支持按关键词回复而不必 @mention<br><a href="https://github.com/openclaw/openclaw/pull/92591">GitHub PR #92591</a></li>
-<li><code>#92578</code> 为 WhatsApp inbound admission 打基础<br><a href="https://github.com/openclaw/openclaw/pull/92578">GitHub PR #92578</a></li>
-<li><code>#92513</code> 完整化 WhatsApp ACP bindings<br><a href="https://github.com/openclaw/openclaw/pull/92513">GitHub PR #92513</a></li>
-</ul>
-</li>
-<li><p><strong>会话/运行时一致性继续强化</strong></p>
-<ul>
-<li><code>#92468</code> 为 runtime prompt 增加 session identity<br><a href="https://github.com/openclaw/openclaw/pull/92468">GitHub PR #92468</a></li>
-<li><code>#92575</code> 保留 daily/idle rollover 期间的行为覆盖<br><a href="https://github.com/openclaw/openclaw/pull/92575">GitHub PR #92575</a></li>
-</ul>
-</li>
-<li><p><strong>模型/提供方兼容性维护</strong></p>
-<ul>
-<li><code>#92594</code> 处理 ollama-cloud 旧 baseUrl / baseURL，并修复 DNS lookup 路径<br><a href="https://github.com/openclaw/openclaw/pull/92594">GitHub PR #92594</a></li>
-<li><code>#92585</code> 防止无效 plugin shard 拖垮整个模型加载<br><a href="https://github.com/openclaw/openclaw/pull/92585">GitHub PR #92585</a></li>
-</ul>
-</li>
-</ul>
-<p><strong>路线图判断：</strong><br>如果这些 PR 按当前节奏合并，OpenClaw 下一阶段大概率会优先覆盖：</p>
-<ol>
-<li>多渠道消息体验统一  </li>
-<li>运行时上下文与 session 语义稳定化  </li>
-<li>provider/catalog 容错  </li>
-<li>Web UI / 本地化体验修补</li>
-</ol>
-<hr>
-<h2>7) 用户反馈摘要</h2>
-<p>从今日 Issues 的标题与摘要可以直接看出，用户最在意的痛点集中在以下几类：</p>
-<ul>
-<li><p><strong>“明明正常却被误报”</strong></p>
-<ul>
-<li><code>#92582</code>：本地 memory embeddings 实际健康，但 doctor 仍提示未就绪<br><a href="https://github.com/openclaw/openclaw/issues/92582">GitHub Issue #92582</a></li>
-<li>用户诉求：诊断工具要可信，否则会干扰排障决策。</li>
-</ul>
-</li>
-<li><p><strong>“同一功能在不同入口表现不一致”</strong></p>
-<ul>
-<li><code>#92572</code>：终端可用、Web UI 报 404<br><a href="https://github.com/openclaw/openclaw/issues/92572">GitHub Issue #92572</a></li>
-<li>用户场景：Raspberry Pi、<code>agy</code> CLI、OAuth 登录等真实部署环境，说明不是“空跑测试问题”。</li>
-</ul>
-</li>
-<li><p><strong>“消息没真正送到”</strong></p>
-<ul>
-<li><code>#92460</code>：cron completion delivery 丢失 channel<br><a href="https://github.com/openclaw/openclaw/issues/92460">GitHub Issue #92460</a></li>
-<li>用户诉求：自动化任务的输出必须稳定进入指定 channel，否则系统可用性会被直接质疑。</li>
-</ul>
-</li>
-<li><p><strong>“系统内部信息不该外泄”</strong></p>
-<ul>
-<li><code>#92589</code>：Feishu 回复泄漏 runtime context<br><a href="https://github.com/openclaw/openclaw/issues/92589">GitHub Issue #92589</a></li>
-<li>用户诉求：这是对安全边界和产品可信度的敏感反馈。</li>
-</ul>
-</li>
-<li><p><strong>“会话与进程生命周期管理不可靠”</strong></p>
-<ul>
-<li><code>#92569</code>：旧 MCP server 进程未回收，导致文件锁冲突<br><a href="https://github.com/openclaw/openclaw/issues/92569">GitHub Issue #92569</a></li>
-<li>用户场景：嵌入式数据库/SQLite 场景下尤其明显，说明产品在实际 MCP 生态中有真实压力。</li>
-</ul>
-</li>
-<li><p><strong>“中文/国际化体验有瑕疵”</strong></p>
-<ul>
-<li><code>#92586</code>：CJK 字体 fallback 缺失导致字符宽度不一致<br><a href="https://github.com/openclaw/openclaw/issues/92586">GitHub Issue #92586</a></li>
-<li>用户诉求：前端输入体验需要更稳，尤其是多语言用户。</li>
-</ul>
-</li>
-</ul>
-<hr>
-<h2>8) 待处理积压</h2>
-<blockquote>
-<p>说明：本次数据里没有提供“长期未响应时长”，所以这里按<strong>高优先级且仍需维护者跟进</strong>来列出；并不等同于已长期积压。</p>
-</blockquote>
-<h3>仍需优先关注的高风险 Issue</h3>
-<ul>
-<li><p><code>#92460</code> P1 / message-loss / needs-maintainer-review<br><a href="https://github.com/openclaw/openclaw/issues/92460">GitHub Issue #92460</a></p>
-</li>
-<li><p><code>#92572</code> Web UI 404 / CLI-UI 行为不一致，暂无可见 fix PR<br><a href="https://github.com/openclaw/openclaw/issues/92572">GitHub Issue #92572</a></p>
-</li>
-<li><p><code>#92569</code> MCP server 进程泄漏导致 file lock 冲突，暂无可见 fix PR<br><a href="https://github.com/openclaw/openclaw/issues/92569">GitHub Issue #92569</a></p>
-</li>
-</ul>
-<h3>需要尽快 review 的 PR</h3>
-<ul>
-<li><p><code>#92463</code> fix skip disabled bundled setup fallbacks，标注 ready for maintainer look<br><a href="https://github.com/openclaw/openclaw/pull/92463">GitHub PR #92463</a></p>
-</li>
-<li><p><code>#92468</code> runtime prompt 增加 session identity，标注 ready for maintainer look<br><a href="https://github.com/openclaw/openclaw/pull/92468">GitHub PR #92468</a></p>
-</li>
-<li><p><code>#92594</code> ollama-cloud runtime DNS / doctor contract<br><a href="https://github.com/openclaw/openclaw/pull/92594">GitHub PR #92594</a></p>
-</li>
-<li><p><code>#92584</code> gateway token 泄漏修复<br><a href="https://github.com/openclaw/openclaw/pull/92584">GitHub PR #92584</a></p>
-</li>
-</ul>
-<hr>
-<h3>总体判断</h3>
-<p>OpenClaw 今日表现出**非常活跃但也非常“修复密集”**的状态：一方面说明社区反馈丰富、响应速度快；另一方面也提示当前版本线上边界、通道兼容与诊断准确性仍在持续打磨。<br>如果接下来 1–2 天内 <code>#92583 / #92593 / #92588 / #92580</code> 这类修复 PR 能快速合并，项目健康度会明显提升。</p>
-<hr>
-<h2>横向生态对比</h2>
-<p>以下为基于 2026-06-13 各项目动态的<strong>横向对比分析报告</strong>，侧重生态判断、活跃度、技术方向与趋势提炼。</p>
-<hr>
-<h2>1) 生态全景</h2>
-<p>当前个人 AI 助手 / 自主智能体开源生态，整体呈现出一个非常清晰的特征：<strong>高频修复、低频发布、工程收敛优先于功能扩张</strong>。<br>头部项目几乎都在处理同一类问题：消息投递一致性、运行时上下文隔离、跨平台兼容、模型/Provider 配置容错，以及更明确的错误提示。<br>这说明生态已从“能跑”进入“能稳定跑、可解释地跑”的阶段。<br>同时，多个项目都出现了<strong>生产化使用迹象</strong>，用户开始以 cron、gateway、desktop UI、MCP server 等方式深度接入，稳定性压力明显上升。<br>结论：这是一个正在从“原型竞争”转向“可靠性竞争”的生态。</p>
-<hr>
-<h2>2) 各项目活跃度对比</h2>
-<blockquote>
-<p>说明：以下“Issues 数 / PR 数”按你提供的<strong>今日活跃量</strong>统计；无活动项目记为 0。</p>
-</blockquote>
-<table>
-<thead>
-<tr>
-<th>项目</th>
-<th align="right">今日 Issues</th>
-<th align="right">今日 PR</th>
-<th>Release 情况</th>
-<th>健康度评估</th>
-</tr>
-</thead>
-<tbody><tr>
-<td><strong>Hermes Agent</strong></td>
-<td align="right">15</td>
-<td align="right">43</td>
-<td>无新版本</td>
-<td><strong>高活跃，高修复压力</strong>，问题面广但响应快</td>
-</tr>
-<tr>
-<td><strong>OpenClaw</strong></td>
-<td align="right">6</td>
-<td align="right">37</td>
-<td>无新版本</td>
-<td><strong>高活跃，集中修复与收敛</strong>，稳定性提升明显</td>
-</tr>
-<tr>
-<td><strong>ZeroClaw</strong></td>
-<td align="right">0</td>
-<td align="right">3</td>
-<td>无新版本</td>
-<td><strong>低噪声，内部修复活跃</strong>，质量巩固阶段</td>
-</tr>
-<tr>
-<td><strong>IronClaw</strong></td>
-<td align="right">0</td>
-<td align="right">2</td>
-<td>无新版本</td>
-<td><strong>低噪声，行为层优化</strong>，偏方案推进</td>
-</tr>
-<tr>
-<td><strong>NanoBot</strong></td>
-<td align="right">1</td>
-<td align="right">0</td>
-<td>无新版本</td>
-<td><strong>低活跃但有阻断级风险</strong>，启动稳定性待修</td>
-</tr>
-<tr>
-<td><strong>PicoClaw</strong></td>
-<td align="right">0</td>
-<td align="right">0</td>
-<td>无新版本</td>
-<td>低活跃 / 无公开变更</td>
-</tr>
-<tr>
-<td><strong>NanoClaw</strong></td>
-<td align="right">0</td>
-<td align="right">0</td>
-<td>无新版本</td>
-<td>低活跃 / 无公开变更</td>
-</tr>
-<tr>
-<td><strong>NullClaw</strong></td>
-<td align="right">0</td>
-<td align="right">0</td>
-<td>无新版本</td>
-<td>低活跃 / 无公开变更</td>
-</tr>
-<tr>
-<td><strong>LobsterAI</strong></td>
-<td align="right">0</td>
-<td align="right">0</td>
-<td>无新版本</td>
-<td>低活跃 / 无公开变更</td>
-</tr>
-<tr>
-<td><strong>TinyClaw</strong></td>
-<td align="right">0</td>
-<td align="right">0</td>
-<td>无新版本</td>
-<td>低活跃 / 无公开变更</td>
-</tr>
-<tr>
-<td><strong>Moltis</strong></td>
-<td align="right">0</td>
-<td align="right">0</td>
-<td>无新版本</td>
-<td>低活跃 / 无公开变更</td>
-</tr>
-<tr>
-<td><strong>CoPaw</strong></td>
-<td align="right">0</td>
-<td align="right">0</td>
-<td>无新版本</td>
-<td>低活跃 / 无公开变更</td>
-</tr>
-<tr>
-<td><strong>ZeptoClaw</strong></td>
-<td align="right">0</td>
-<td align="right">0</td>
-<td>无新版本</td>
-<td>低活跃 / 无公开变更</td>
-</tr>
-</tbody></table>
-<p><strong>活跃度梯队：</strong></p>
-<ul>
-<li><strong>第一梯队：Hermes Agent、OpenClaw</strong>（高 issue/high PR，说明真实使用反馈强、修复链路密集）</li>
-<li><strong>第二梯队：ZeroClaw、IronClaw</strong>（以修复/基础设施/行为收敛为主，活跃但更克制）</li>
-<li><strong>第三梯队：NanoBot</strong>（问题少但有明显阻断风险）</li>
-<li><strong>沉默梯队：其余项目</strong>（今日无公开活动）</li>
-</ul>
-<hr>
-<h2>3) OpenClaw 在生态中的定位</h2>
-<h3>相对优势</h3>
-<ol>
-<li><p><strong>修复覆盖面最广之一</strong><br>OpenClaw 今天同时处理了消息通道、runtime context、cron、gateway、安全边界、UI 国际化、catalog 容错等多个维度，说明它不是单点修补，而是在做<strong>系统性收敛</strong>。</p>
-</li>
-<li><p><strong>问题反馈闭环更完整</strong><br>多个 Issue 已有明确 PR 对应，例如：</p>
-<ul>
-<li>doctor 误报 embeddings：<code>#92582 -&gt; #92583</code></li>
-<li>runtime context 泄漏：<code>#92589 -&gt; #92593</code></li>
-<li>cron delivery target 丢失：<code>#92460 -&gt; #92580</code></li>
-<li>CJK 字体回退：<code>#92586 -&gt; #92588</code><br>这表明其社区反馈 → 修复响应链路较成熟。</li>
-</ul>
-</li>
-<li><p><strong>技术面更偏“平台化”</strong><br>OpenClaw 同时覆盖多渠道消息、runtime、安全边界、provider/catalog、UI 体验，像是在构建一个<strong>通用型智能体平台</strong>，而不是只做单一入口或单一客户端。</p>
-</li>
-</ol>
-<h3>与同类的技术路线差异</h3>
-<ul>
-<li><strong>对比 Hermes Agent</strong>：Hermes 更偏<strong>多平台客户端 + 桌面/安装/网关/cron</strong> 的工程治理；OpenClaw 更强调<strong>消息通道一致性、上下文隔离、安全边界与目录容错</strong>。</li>
-<li><strong>对比 ZeroClaw</strong>：ZeroClaw 更像在做<strong>执行语义、审批通道和 CI 基线</strong>的收敛；OpenClaw 的范围更大，覆盖到产品级多模块联动。</li>
-<li><strong>对比 IronClaw</strong>：IronClaw 更聚焦<strong>agent loop / busy thread / final-answer</strong> 这类核心行为控制；OpenClaw 更偏平台层。</li>
-<li><strong>对比 NanoBot</strong>：NanoBot 仍处于<strong>回归稳定性优先</strong>阶段，OpenClaw 明显更成熟、面更广。</li>
-</ul>
-<h3>社区规模对比</h3>
-<p>按今日公开活跃量看：</p>
-<ul>
-<li><strong>Hermes Agent &gt; OpenClaw &gt;&gt; ZeroClaw ≈ IronClaw &gt; NanoBot &gt; 其余沉默项目</strong></li>
-<li>OpenClaw 是<strong>头部活跃项目</strong>，但仍略低于 Hermes 的“超高频”状态；</li>
-<li>其社区规模与维护压力，明显高于 ZeroClaw / IronClaw / NanoBot，属于<strong>中大型开源智能体平台</strong>的典型体量。</li>
-</ul>
-<hr>
-<h2>4) 共同关注的技术方向</h2>
-<h3>1. 会话 / 运行时边界隔离</h3>
-<p>涉及项目：</p>
-<ul>
-<li><strong>OpenClaw</strong>：runtime context 泄漏、session identity、system context 分隔</li>
-<li><strong>NanoBot</strong>：<code>session_key</code> 未定义，启动阶段回归</li>
-<li><strong>Hermes Agent</strong>：loop / delegation guard</li>
-<li><strong>IronClaw</strong>：busy thread 语义、final-answer 收口</li>
-</ul>
-<p><strong>共同诉求：</strong></p>
-<ul>
-<li>避免上下文串线</li>
-<li>避免跨 session 污染</li>
-<li>让 agent 状态更可预测</li>
-</ul>
-<hr>
-<h3>2. 消息投递与通道一致性</h3>
-<p>涉及项目：</p>
-<ul>
-<li><strong>OpenClaw</strong>：cron delivery target 持久化、channel 投递修复、Web UI / CLI 一致性</li>
-<li><strong>Hermes Agent</strong>：cron / gateway / webhook / WebUI 行为修复</li>
-<li><strong>ZeroClaw</strong>：approval channel 的 <code>ask_user</code> / <code>escalate</code> fail fast</li>
-<li><strong>IronClaw</strong>：busy thread 直接拒绝，避免后台 parking 造成不透明行为</li>
-</ul>
-<p><strong>共同诉求：</strong></p>
-<ul>
-<li>消息必须“送对、送到、送得可解释”</li>
-<li>channel 能力边界要明确</li>
-<li>避免静默失败和误导性返回</li>
-</ul>
-<hr>
-<h3>3. 跨平台兼容性与环境一致性</h3>
-<p>涉及项目：</p>
-<ul>
-<li><strong>Hermes Agent</strong>：Windows/macOS、launchd、uv.exe、TLS</li>
-<li><strong>OpenClaw</strong>：CJK 字体 fallback、WebChat backscroll</li>
-<li><strong>ZeroClaw</strong>：Node 版本统一到 <code>.nvmrc</code></li>
-<li><strong>NanoBot</strong>：合并后启动崩溃，体现环境/分支回归问题</li>
-</ul>
-<p><strong>共同诉求：</strong></p>
-<ul>
-<li>本地、CI、不同 OS 行为一致</li>
-<li>国际化/字体/UI 细节可用</li>
-<li>减少“本地可用、线上出错”</li>
-</ul>
-<hr>
-<h3>4. 模型 / Provider / Catalog 容错</h3>
-<p>涉及项目：</p>
-<ul>
-<li><strong>OpenClaw</strong>：invalid plugin shard 跳过、ollama-cloud baseUrl 兼容</li>
-<li><strong>Hermes Agent</strong>：模型 ID 规范化、fallback providers、web backend 显式选择</li>
-<li><strong>ZeroClaw</strong>：技能执行语义更精确，属于配置到运行时的闭环</li>
-</ul>
-<p><strong>共同诉求：</strong></p>
-<ul>
-<li>模型名、provider 配置、catalog 变化要能兼容</li>
-<li>失败要可诊断，不能“404 但不知道为什么”</li>
-</ul>
-<hr>
-<h3>5. 失败提示从“静默/模糊”走向“显式/可解释”</h3>
-<p>涉及项目：</p>
-<ul>
-<li><strong>Hermes Agent</strong>：错误信息不可读、WebUI cron 异常</li>
-<li><strong>OpenClaw</strong>：doctor 误报、安全边界泄漏、Control UI token query string 风险</li>
-<li><strong>ZeroClaw</strong>：free-form ask_user 不支持时应快速报错</li>
-<li><strong>IronClaw</strong>：busy thread 直接拒绝，避免后台补救式处理</li>
-</ul>
-<p><strong>共同诉求：</strong></p>
-<ul>
-<li>明确失败原因</li>
-<li>降低排障成本</li>
-<li>防止误导用户继续错误操作</li>
-</ul>
-<hr>
-<h2>5) 差异化定位分析</h2>
-<h3>OpenClaw</h3>
-<ul>
-<li><strong>功能侧重</strong>：多渠道消息、runtime 安全边界、catalog/provider、UI 国际化</li>
-<li><strong>目标用户</strong>：需要跨入口、跨通道、跨部署形态的一体化智能体平台用户</li>
-<li><strong>架构特征</strong>：平台化、模块多、边界复杂，适合做通用智能助手底座</li>
-</ul>
-<h3>Hermes Agent</h3>
-<ul>
-<li><strong>功能侧重</strong>：桌面端、安装器、macOS/Windows、launchd、gateway、cron</li>
-<li><strong>目标用户</strong>：生产化使用、桌面端驱动、跨平台部署用户</li>
-<li><strong>架构特征</strong>：工程面最重，强调客户端可用性与系统集成</li>
-</ul>
-<h3>ZeroClaw</h3>
-<ul>
-<li><strong>功能侧重</strong>：skills runtime、gateway approval、CI/web 一致性</li>
-<li><strong>目标用户</strong>：偏中高阶开发者、技能作者、集成维护者</li>
-<li><strong>架构特征</strong>：更强调配置语义与工程基线</li>
-</ul>
-<h3>IronClaw</h3>
-<ul>
-<li><strong>功能侧重</strong>：agent loop、线程行为、最终回答质量</li>
-<li><strong>目标用户</strong>：关注核心交互体验与执行语义的用户/开发者</li>
-<li><strong>架构特征</strong>：聚焦底层行为控制，范围较窄但控制点清晰</li>
-</ul>
-<h3>NanoBot</h3>
-<ul>
-<li><strong>功能侧重</strong>：当前以修复启动回归为主</li>
-<li><strong>目标用户</strong>：更像小型/实验性或特定场景部署用户</li>
-<li><strong>架构特征</strong>：体量较小，对单点回归敏感</li>
-</ul>
-<h3>其余项目</h3>
-<ul>
-<li>今日无活动，暂难判断是否仍在活跃开发或处于沉寂状态。</li>
-</ul>
-<hr>
-<h2>6) 社区热度与成熟度</h2>
-<h3>快速迭代阶段</h3>
-<ul>
-<li><strong>Hermes Agent</strong></li>
-<li><strong>OpenClaw</strong></li>
-</ul>
-<p>特征：</p>
-<ul>
-<li>Issue 和 PR 同时高频</li>
-<li>社区反馈密集</li>
-<li>修复链路完整</li>
-<li>说明已有真实用户使用，且问题被持续暴露</li>
-</ul>
-<h3>质量巩固阶段</h3>
-<ul>
-<li><strong>ZeroClaw</strong></li>
-<li><strong>IronClaw</strong></li>
-</ul>
-<p>特征：</p>
-<ul>
-<li>问题量不大</li>
-<li>变更更集中在语义正确性、边界处理、工程一致性</li>
-<li>更像是在把系统“磨稳”</li>
-</ul>
-<h3>风险集中但活跃度低</h3>
-<ul>
-<li><strong>NanoBot</strong></li>
-</ul>
-<p>特征：</p>
-<ul>
-<li>活跃不高</li>
-<li>但一旦出现就是阻断级问题</li>
-<li>说明项目对回归容忍度低，需尽快补修复链路</li>
-</ul>
-<h3>低活跃 / 沉默阶段</h3>
-<ul>
-<li><strong>PicoClaw、NanoClaw、NullClaw、LobsterAI、TinyClaw、Moltis、CoPaw、ZeptoClaw</strong></li>
-</ul>
-<p>特征：</p>
-<ul>
-<li>今日无公开活动</li>
-<li>无法从本日数据判断成熟度</li>
-<li>可能是维护暂停、冷启动或低频更新</li>
-</ul>
-<hr>
-<h2>7) 值得关注的趋势信号</h2>
-<h3>趋势 1：智能体项目进入“可靠性优先”周期</h3>
-<p>多数项目今天都在修：</p>
-<ul>
-<li>上下文泄漏</li>
-<li>消息投递丢失</li>
-<li>会话串线</li>
-<li>崩溃与回归</li>
-<li>误报与误导性错误</li>
-</ul>
-<p><strong>对开发者的启示：</strong><br>接下来竞争的关键不是“谁功能多”，而是“谁更少出错、更容易诊断”。</p>
-<hr>
-<h3>趋势 2：Agent 的“边界控制”正在成为核心能力</h3>
-<p>OpenClaw、NanoBot、IronClaw、ZeroClaw 都在处理 session / thread / delegation / ask_user 边界问题。</p>
-<p><strong>启示：</strong></p>
-<ul>
-<li>需要显式状态机</li>
-<li>需要更强的隔离机制</li>
-<li>不可依赖隐式上下文传递</li>
-</ul>
-<hr>
-<h3>趋势 3：多渠道一致性比单点功能更重要</h3>
-<p>OpenClaw 和 Hermes 都暴露出 CLI、Web UI、gateway、cron、Webhook 行为不一致的问题。</p>
-<p><strong>启示：</strong></p>
-<ul>
-<li>产品要有统一的交互语义层</li>
-<li>同一能力在不同入口的返回应一致</li>
-<li>需要测试矩阵覆盖不同入口</li>
-</ul>
-<hr>
-<h3>趋势 4：模型/Provider/配置生态碎片化，容错能力变刚需</h3>
-<p>OpenClaw 与 Hermes 都在修 catalog、model id、baseUrl、fallback providers。</p>
-<p><strong>启示：</strong></p>
-<ul>
-<li>智能体平台越来越像“插件/提供方编排器”</li>
-<li>配置兼容性和降级策略会直接影响可用性</li>
-<li>需要对外部依赖变化保持更强韧性</li>
-</ul>
-<hr>
-<h3>趋势 5：国际化、桌面端和跨平台仍是“真实生产痛点”</h3>
-<p>Hermes 的 Windows/macOS 问题、OpenClaw 的 CJK 字体问题说明：<br><strong>AI 助手不再只是英文、Linux、命令行工具。</strong></p>
-<p><strong>启示：</strong></p>
-<ul>
-<li>UI/UX 本地化会成为门槛</li>
-<li>桌面端、移动端、浏览器端都要考虑一致性</li>
-<li>编码、字体、窗口、TLS、安装器都可能是关键故障点</li>
-</ul>
-<hr>
-<h3>趋势 6：CI / 工具链统一正在变成发布前置条件</h3>
-<p>ZeroClaw 的 <code>.nvmrc</code> 统一、Hermes 的依赖治理、OpenClaw 的修复收敛都指向同一件事：<br><strong>工程基线不统一，会直接拖累交付速度和稳定性。</strong></p>
-<p><strong>启示：</strong></p>
-<ul>
-<li>版本锁定、工具链收敛、可复现构建，是智能体项目走向成熟的前提</li>
-</ul>
-<hr>
-<h2>一句话结论</h2>
-<p>今天的开源 AI 智能体生态，不是在比“谁更会回答”，而是在比“谁更稳定、谁更可控、谁更能在真实生产环境里少出错”。<br>在这个阶段，<strong>OpenClaw 和 Hermes Agent 属于最值得持续跟踪的高活跃平台型项目</strong>；ZeroClaw 和 IronClaw 处于质量收敛期；NanoBot 则体现出单点回归对小型项目的高冲击。  </p>
-<p>如果你愿意，我可以继续把这份报告整理成：</p>
-<ol>
-<li><strong>管理层 1 页摘要版</strong></li>
-<li><strong>研发/投资决策版对比表</strong></li>
-<li><strong>P0/P1 风险清单版</strong></li>
-</ol>
-<hr>
-<h2>同赛道项目详细报告</h2>
-<details>
-<summary><strong>NanoBot</strong> — <a href="https://github.com/HKUDS/nanobot">HKUDS/nanobot</a></summary>
-
-<p>以下为 <strong>NanoBot（HKUDS/nanobot）</strong> 截至 <strong>2026-06-13</strong> 的项目动态日报。<br>项目仓库链接：<a href="https://github.com/HKUDS/nanobot">https://github.com/HKUDS/nanobot</a></p>
-<hr>
-<h2>1. 今日速览</h2>
-<p>今天 NanoBot 的仓库活跃度偏低，<strong>过去 24 小时仅新增/活跃了 1 条 Issue，未产生 PR 更新，也没有新版本发布</strong>。从项目状态看，当前没有明显的功能交付推进，维护重心更多集中在<strong>问题暴露与稳定性修复需求</strong>上。<br>今日最值得关注的是一条启动崩溃类 Bug：<code>session_key</code> 未定义导致代理在合并代码后启动失败，说明主分支与功能分支合并后可能引入了上下文变量回归。整体来看，项目健康度仍可控，但<strong>稳定性风险高于功能推进</strong>。</p>
-<hr>
-<h2>2. 版本发布</h2>
-<ul>
-<li><strong>今日无新版本发布</strong><br>Releases：<a href="https://github.com/HKUDS/nanobot/releases">https://github.com/HKUDS/nanobot/releases</a></li>
-</ul>
-<hr>
-<h2>3. 项目进展</h2>
-<ul>
-<li><strong>今日无 PR 合并或关闭</strong><ul>
-<li>PR 列表：<a href="https://github.com/HKUDS/nanobot/pulls">https://github.com/HKUDS/nanobot/pulls</a></li>
-</ul>
-</li>
-</ul>
-<p>因此，从“代码合流”角度看，今天项目<strong>没有新增功能落地，也没有修复通过 PR 进入主线</strong>。<br>可见的项目推进量：<strong>0 个合并/关闭 PR，0 个发布版本</strong>。当前进展主要体现为问题反馈被提出，但尚未看到对应修复链路启动。</p>
-<hr>
-<h2>4. 社区热点</h2>
-<p>今天社区讨论最活跃的内容来自唯一一条 Issue：</p>
-<ul>
-<li><strong>Issue #4322｜NameError: <code>session_key</code> is not defined in <code>context.py</code> after merge</strong><br>链接：<a href="https://github.com/HKUDS/nanobot/issues/4322">https://github.com/HKUDS/nanobot/issues/4322</a></li>
-</ul>
-<h3>热点分析</h3>
-<p>这条 Issue 虽然没有评论，但它是今日唯一活跃话题，说明社区关注点高度集中在<strong>启动失败/运行时崩溃</strong>上。用户诉求很明确：  </p>
-<ol>
-<li>希望修复合并后引入的上下文变量缺失问题；  </li>
-<li>希望代理在启动阶段具备更好的回归稳定性；  </li>
-<li>反映出用户当前对“可运行性”比“新增能力”更敏感。</li>
-</ol>
-<p>从反馈性质看，这是一个典型的<strong>阻断型缺陷</strong>，优先级应高于一般体验优化。</p>
-<hr>
-<h2>5. Bug 与稳定性</h2>
-<p>按严重程度排序：</p>
-<h3>1) 高严重度：启动崩溃 / NameError</h3>
-<ul>
-<li><strong>Issue #4322</strong>：<code>NameError: name &#39;session_key&#39; is not defined</code>，在合并 <code>origin/main</code> 到 <code>fix/prompt-caching</code> 后，<code>context.py</code> 启动阶段崩溃。<br>链接：<a href="https://github.com/HKUDS/nanobot/issues/4322">https://github.com/HKUDS/nanobot/issues/4322</a></li>
-</ul>
-<p><strong>影响判断：</strong></p>
-<ul>
-<li>这是明确的运行时异常，且发生在启动路径；</li>
-<li>会直接阻止代理正常工作，属于<strong>高优先级阻断问题</strong>；</li>
-<li>摘要中已指出根因与 <code>f8532448</code> 的重构/提取 <code>_build_memory_context</code> 有关，存在典型的合并回归风险。</li>
-</ul>
-<p><strong>是否已有 fix PR：</strong></p>
-<ul>
-<li>当前数据中<strong>未看到对应修复 PR</strong>。<br>PR 列表：<a href="https://github.com/HKUDS/nanobot/pulls">https://github.com/HKUDS/nanobot/pulls</a></li>
-</ul>
-<hr>
-<h2>6. 功能请求与路线图信号</h2>
-<ul>
-<li><strong>今日未观察到新的功能请求</strong><ul>
-<li>Issues 列表：<a href="https://github.com/HKUDS/nanobot/issues">https://github.com/HKUDS/nanobot/issues</a></li>
-</ul>
-</li>
-</ul>
-<p>从今天的数据看，讨论焦点不是新能力，而是<strong>合并回归和启动稳定性</strong>。因此当前没有明显的“新功能路线图信号”可以推断进入下一版本。<br>若后续出现修复 PR，较可能优先纳入的是：</p>
-<ol>
-<li><code>context.py</code> / prompt caching 相关修复；</li>
-<li>与 <code>session_key</code>、memory context 构建链路相关的回归修补；</li>
-<li>启动流程的健壮性增强。</li>
-</ol>
-<hr>
-<h2>7. 用户反馈摘要</h2>
-<p>从今日 Issue 内容可提炼出以下真实用户痛点：</p>
-<ul>
-<li><strong>痛点 1：合并后系统无法启动</strong><ul>
-<li>用户直接报告代理启动崩溃，说明当前问题不是边缘异常，而是影响核心运行。</li>
-</ul>
-</li>
-<li><strong>痛点 2：上下文构建逻辑对变量依赖敏感</strong><ul>
-<li><code>session_key</code> 未定义意味着上下文重构后存在变量传递/作用域管理问题。</li>
-</ul>
-</li>
-<li><strong>痛点 3：用户对回归问题容忍度低</strong><ul>
-<li>即使改动来自“prompt caching”分支，最终影响的是基础可用性，用户更关注“能否稳定跑起来”。</li>
-</ul>
-</li>
-</ul>
-<p>相关链接：<a href="https://github.com/HKUDS/nanobot/issues/4322">https://github.com/HKUDS/nanobot/issues/4322</a></p>
-<hr>
-<h2>8. 待处理积压</h2>
-<p>基于当前提供的数据，<strong>未能识别到长期未响应的重要 Issue 或 PR</strong>。<br>但需要提醒维护者的是：</p>
-<ul>
-<li>今日唯一问题属于<strong>高优先级阻断缺陷</strong>，如果缺少快速响应，容易演化为持续性积压；</li>
-<li>当前没有 PR 直接承接修复，建议尽快建立修复链路，避免该回归在后续分支继续传播。</li>
-</ul>
-<p>待关注入口：  </p>
-<ul>
-<li>Issues：<a href="https://github.com/HKUDS/nanobot/issues">https://github.com/HKUDS/nanobot/issues</a>  </li>
-<li>PRs：<a href="https://github.com/HKUDS/nanobot/pulls">https://github.com/HKUDS/nanobot/pulls</a></li>
-</ul>
-<hr>
-<h3>总体结论</h3>
-<p>NanoBot 今日处于<strong>低变更、高关注稳定性</strong>的状态：没有版本与 PR 进展，但出现了一个典型的合并回归崩溃问题。<br>从项目健康度看，<strong>功能推进基本停滞，风险集中在运行稳定性</strong>；若维护团队能尽快修复 <code>session_key</code> 相关回归，项目可快速恢复到正常推进节奏。</p>
-</details>
-
-<details>
-<summary><strong>Hermes Agent</strong> — <a href="https://github.com/nousresearch/hermes-agent">nousresearch/hermes-agent</a></summary>
-
-<h1>Hermes Agent 项目动态日报（2026-06-13）</h1>
-<h2>1. 今日速览</h2>
-<p>今天 Hermes Agent 仍处于<strong>高活跃、低发布</strong>状态：过去 24 小时有 <strong>15 条 Issue 更新</strong>（14 条新开/活跃、1 条关闭）和 <strong>43 条 PR 更新</strong>（39 条待合并、4 条已合并/关闭），但<strong>没有新版本发布</strong>。<br>从主题上看，讨论集中在 <strong>桌面端稳定性、网关/cron 行为、Windows/macOS 兼容性、模型与依赖治理</strong>，说明项目当前的主要精力仍在“修复和打磨”而非功能扩张。<br>整体健康度判断：<strong>社区反馈密集、问题定位清晰、修复链路活跃</strong>，但同时也反映出 Hermes Agent 在多平台、多集成场景下仍有较强的稳定性压力。<br>今天的 PR 队列很长，说明团队/社区正在集中处理一批可复现、可修复的工程问题，项目推进方式偏向“持续补丁式演进”。</p>
-<hr>
-<h2>2. 版本发布</h2>
-<p>今日<strong>无新版本发布</strong>。</p>
-<hr>
-<h2>3. 项目进展</h2>
-<h3>今日可见的合并/关闭 PR</h3>
-<ul>
-<li><strong>#45385 [CLOSED] test - ignore</strong><br>链接：<a href="https://github.com/NousResearch/hermes-agent/pull/45385">https://github.com/NousResearch/hermes-agent/pull/45385</a><br>说明：从标题看属于测试占位/无业务含义变更，对项目功能推进贡献有限。</li>
-</ul>
-<h3>今日更有实际推进意义的 PR 动向</h3>
-<p>虽然可见的“已合并/关闭”条目较少，但今天提交的 PR 明显围绕几个高优先级痛点展开，说明项目进展主要体现在以下方向：</p>
-<ul>
-<li><p><strong>启动/重启与后台任务可靠性</strong>  </p>
-<ul>
-<li>#45390 避免 launchd 下 <code>/restart</code> watcher 挂死<br><a href="https://github.com/NousResearch/hermes-agent/pull/45390">https://github.com/NousResearch/hermes-agent/pull/45390</a></li>
-<li>#45372 保持后台 watcher task 的强引用<br><a href="https://github.com/NousResearch/hermes-agent/pull/45372">https://github.com/NousResearch/hermes-agent/pull/45372</a></li>
-</ul>
-</li>
-<li><p><strong>安装器与 Windows/macOS 兼容性</strong>  </p>
-<ul>
-<li>#45389 修复 Windows 上 <code>uv.exe</code> 空白控制台窗口<br><a href="https://github.com/NousResearch/hermes-agent/pull/45389">https://github.com/NousResearch/hermes-agent/pull/45389</a></li>
-<li>#45384 跳过 user install 的 node/npm/npx symlink<br><a href="https://github.com/NousResearch/hermes-agent/pull/45384">https://github.com/NousResearch/hermes-agent/pull/45384</a></li>
-<li>#45370 macOS 默认使用原生 TLS<br><a href="https://github.com/NousResearch/hermes-agent/pull/45370">https://github.com/NousResearch/hermes-agent/pull/45370</a></li>
-</ul>
-</li>
-<li><p><strong>cron / WebUI / gateway 行为修复</strong>  </p>
-<ul>
-<li>#45392 跳过 WebUI 来源 cron 的 delivery<br><a href="https://github.com/NousResearch/hermes-agent/pull/45392">https://github.com/NousResearch/hermes-agent/pull/45392</a></li>
-<li>#45381 保留 BlueBubbles webhook 中显式的 <code>127.0.0.1</code><br><a href="https://github.com/NousResearch/hermes-agent/pull/45381">https://github.com/NousResearch/hermes-agent/pull/45381</a></li>
-<li>#45378 去重 BlueBubbles inbound DM<br><a href="https://github.com/NousResearch/hermes-agent/pull/45378">https://github.com/NousResearch/hermes-agent/pull/45378</a></li>
-</ul>
-</li>
-<li><p><strong>模型与配置兼容性</strong>  </p>
-<ul>
-<li>#45367 规范化 Claude 模型 ID<br><a href="https://github.com/NousResearch/hermes-agent/pull/45367">https://github.com/NousResearch/hermes-agent/pull/45367</a></li>
-<li>#45382 兼容 nested <code>fallback_providers</code> 配置<br><a href="https://github.com/NousResearch/hermes-agent/pull/45382">https://github.com/NousResearch/hermes-agent/pull/45382</a></li>
-<li>#45373 要求显式选择 Web backend<br><a href="https://github.com/NousResearch/hermes-agent/pull/45373">https://github.com/NousResearch/hermes-agent/pull/45373</a></li>
-</ul>
-</li>
-</ul>
-<p><strong>总体判断</strong>：今天项目并不是靠“发布新版本”推进，而是靠一批针对真实用户故障的修复 PR 把系统向前推了一大步，尤其是<strong>网关、安装器、cron、provider、桌面端</strong>这五条主线。</p>
-<hr>
-<h2>4. 社区热点</h2>
-<blockquote>
-<p>注：当前数据中，PR 的评论数未提供，因此“讨论最活跃”主要依据 Issue 的评论/互动情况判断。</p>
-</blockquote>
-<h3>互动最集中的 Issue</h3>
-<ul>
-<li><p><strong>#45352 notify_on_complete pushes all process exits to chat, including failed/killed</strong><br>链接：<a href="https://github.com/NousResearch/hermes-agent/issues/45352">https://github.com/NousResearch/hermes-agent/issues/45352</a><br>评论：1 | 👍：0<br>热点原因：背景进程结束消息被过度推送到聊天界面，直接影响终端使用体验与消息噪声控制。</p>
-</li>
-<li><p><strong>#45340 [CLOSED] [invalid] [Feature]: anyone ready to make money through hacking</strong><br>链接：<a href="https://github.com/NousResearch/hermes-agent/issues/45340">https://github.com/NousResearch/hermes-agent/issues/45340</a><br>评论：1 | 👍：0<br>热点原因：这更像无效/垃圾提案，不体现真实产品诉求；从社区热度看影响有限。</p>
-</li>
-</ul>
-<h3>更有代表性的“话题热点”主题</h3>
-<ul>
-<li><strong>桌面端崩溃/界面不可用</strong>：#45388<br><a href="https://github.com/NousResearch/hermes-agent/issues/45388">https://github.com/NousResearch/hermes-agent/issues/45388</a></li>
-<li><strong>macOS launchd / restart 可靠性</strong>：#45361<br><a href="https://github.com/NousResearch/hermes-agent/issues/45361">https://github.com/NousResearch/hermes-agent/issues/45361</a></li>
-<li><strong>Windows 兼容性与安装体验</strong>：#45379、#45374、#45376、#45375<br><a href="https://github.com/NousResearch/hermes-agent/issues/45379">https://github.com/NousResearch/hermes-agent/issues/45379</a><br><a href="https://github.com/NousResearch/hermes-agent/issues/45374">https://github.com/NousResearch/hermes-agent/issues/45374</a><br><a href="https://github.com/NousResearch/hermes-agent/issues/45376">https://github.com/NousResearch/hermes-agent/issues/45376</a><br><a href="https://github.com/NousResearch/hermes-agent/issues/45375">https://github.com/NousResearch/hermes-agent/issues/45375</a></li>
-</ul>
-<h3>结论</h3>
-<p>今天的社区讨论呈现出一个明显特征：<strong>大家更关心“能不能稳定跑起来”而不是“多加一个功能”</strong>。<br>也就是说，当前的舆情焦点是<strong>可用性、可维护性和跨平台稳定性</strong>。</p>
-<hr>
-<h2>5. Bug 与稳定性</h2>
-<p>以下按严重程度排序，并标注是否已有对应修复 PR。</p>
-<h3>P0 / 高危：数据损坏与不可恢复风险</h3>
-<ul>
-<li><strong>#45383 state.db recurring B-tree corruption from WAL TRUNCATE checkpoint on large FTS5 databases</strong><br>链接：<a href="https://github.com/NousResearch/hermes-agent/issues/45383">https://github.com/NousResearch/hermes-agent/issues/45383</a><br>影响：数据库 B-tree 损坏，属于<strong>数据一致性/持久化层高风险问题</strong>。<br>修复状态：<strong>未见对应 fix PR</strong>（在当前数据中未出现）。</li>
-</ul>
-<h3>P1：界面崩溃/核心交互失效</h3>
-<ul>
-<li><strong>#45388 Renderer crash: &quot;Maximum call stack size exceeded&quot; when sending message with UI-attached image</strong><br>链接：<a href="https://github.com/NousResearch/hermes-agent/issues/45388">https://github.com/NousResearch/hermes-agent/issues/45388</a><br>影响：Desktop 端渲染器崩溃，界面可直接不可用。<br>修复状态：<strong>未见对应 fix PR</strong>。</li>
-</ul>
-<h3>P1：进程生命周期/启动重启问题</h3>
-<ul>
-<li><strong>#45361 macOS launchd: /restart can leave the gateway process alive-but-torn-down</strong><br>链接：<a href="https://github.com/NousResearch/hermes-agent/issues/45361">https://github.com/NousResearch/hermes-agent/issues/45361</a><br>影响：重启逻辑可能卡死，KeepAlive 误判，影响网关恢复。<br>修复状态：<strong>已有对应 PR #45390</strong><br><a href="https://github.com/NousResearch/hermes-agent/pull/45390">https://github.com/NousResearch/hermes-agent/pull/45390</a></li>
-</ul>
-<h3>P2：用户可感知的功能性 bug</h3>
-<ul>
-<li><p><strong>#45352 notify_on_complete pushes all process exits to chat, including failed/killed</strong><br>链接：<a href="https://github.com/NousResearch/hermes-agent/issues/45352">https://github.com/NousResearch/hermes-agent/issues/45352</a><br>影响：将失败/被杀死的后台进程也推送到聊天，制造噪声并误导用户。<br>修复状态：<strong>未见对应 fix PR</strong>。</p>
-</li>
-<li><p><strong>#45379 Windows: uv.exe spawns blank console window on every subprocess invocation</strong><br>链接：<a href="https://github.com/NousResearch/hermes-agent/issues/45379">https://github.com/NousResearch/hermes-agent/issues/45379</a><br>影响：Windows 安装/更新/工具调用时频繁弹空白控制台窗口，体验差。<br>修复状态：<strong>已有对应 PR #45389</strong><br><a href="https://github.com/NousResearch/hermes-agent/pull/45389">https://github.com/NousResearch/hermes-agent/pull/45389</a></p>
-</li>
-<li><p><strong>#45360 Cron WebUI runs can show prompt-only sessions and unknown platform &#39;webui&#39; delivery errors</strong><br>链接：<a href="https://github.com/NousResearch/hermes-agent/issues/45360">https://github.com/NousResearch/hermes-agent/issues/45360</a><br>影响：WebUI 创建的 cron 任务可能显示异常会话或投递失败。<br>修复状态：<strong>已有对应 PR #45392</strong><br><a href="https://github.com/NousResearch/hermes-agent/pull/45392">https://github.com/NousResearch/hermes-agent/pull/45392</a></p>
-</li>
-<li><p><strong>#45362 nous provider: dash-style model ids 404 / catalog lists chat-uncallable models</strong><br>链接：<a href="https://github.com/NousResearch/hermes-agent/issues/45362">https://github.com/NousResearch/hermes-agent/issues/45362</a><br>影响：模型解析失败导致 provider 直接不可用，报错又不够可读。<br>修复状态：<strong>已有对应 PR #45367</strong><br><a href="https://github.com/NousResearch/hermes-agent/pull/45367">https://github.com/NousResearch/hermes-agent/pull/45367</a></p>
-</li>
-<li><p><strong>#45336 TUI can route follow-up user prompts into delegated child/subagent sessions</strong><br>链接：<a href="https://github.com/NousResearch/hermes-agent/issues/45336">https://github.com/NousResearch/hermes-agent/issues/45336</a><br>影响：会话上下文混乱，可能把用户后续输入送到错误的子代理。<br>修复状态：<strong>未见对应 fix PR</strong>。</p>
-</li>
-</ul>
-<h3>P3：兼容性与维护性风险</h3>
-<ul>
-<li><p><strong>#45374 Bundled Node 22 is behind current LTS (Node 24)</strong><br>链接：<a href="https://github.com/NousResearch/hermes-agent/issues/45374">https://github.com/NousResearch/hermes-agent/issues/45374</a><br>影响：持续产生 <code>EBADENGINE</code> 警告，显示安装链路偏旧。<br>修复状态：<strong>未见对应 fix PR</strong>。</p>
-</li>
-<li><p><strong>#45375 <a href="mailto:electron-builder@26.8.1">electron-builder@26.8.1</a> pulls in deprecated inflight, rimraf@2, glob@7</strong><br>链接：<a href="https://github.com/NousResearch/hermes-agent/issues/45375">https://github.com/NousResearch/hermes-agent/issues/45375</a><br>修复状态：<strong>未见对应 fix PR</strong>。</p>
-</li>
-<li><p><strong>#45376 Direct dependency <a href="mailto:rcedit@5.0.2">rcedit@5.0.2</a> is deprecated</strong><br>链接：<a href="https://github.com/NousResearch/hermes-agent/issues/45376">https://github.com/NousResearch/hermes-agent/issues/45376</a><br>修复状态：<strong>未见对应 fix PR</strong>。</p>
-</li>
-<li><p><strong>#45377 <a href="mailto:electron@40.9.3">electron@40.9.3</a> pulls in deprecated <a href="mailto:boolean@3.2.0">boolean@3.2.0</a></strong><br>链接：<a href="https://github.com/NousResearch/hermes-agent/issues/45377">https://github.com/NousResearch/hermes-agent/issues/45377</a><br>修复状态：<strong>未见对应 fix PR</strong>。</p>
-</li>
-</ul>
-<h3>稳定性结论</h3>
-<p>今天的 bug 画像很明确：<br><strong>最值得优先处理的是数据损坏、界面崩溃和进程生命周期问题</strong>；其次是跨平台兼容与模型解析问题。<br>从修复进度看，<strong>Windows、macOS launchd、WebUI cron、provider 解析</strong>这些方向已经有对应 PR，说明社区对高频痛点的响应较快。</p>
-<hr>
-<h2>6. 功能请求与路线图信号</h2>
-<h3>今日新增/显性功能诉求</h3>
-<ul>
-<li><strong>#45356 [type/feature, P3, needs-decision] 请求协作者权限用于 active cron &amp; Desktop GUI bug triage</strong><br>链接：<a href="https://github.com/NousResearch/hermes-agent/issues/45356">https://github.com/NousResearch/hermes-agent/issues/45356</a><br>含义：这不是单纯的功能需求，而是<strong>请求更强的维护参与权限</strong>，反映出重度用户希望更快介入修复流程。<br>路线图信号：说明项目在真实生产环境中已有较强使用深度，后续可能需要更成熟的协作/治理机制。</li>
-</ul>
-<h3>从今日 PR 反推的下一阶段路线图</h3>
-<p>以下方向最像“下一版本优先进入”的内容：</p>
-<ol>
-<li><p><strong>稳定性优先</strong></p>
-<ul>
-<li>launchd 重启、后台 watcher、cron 投递、webhook 去重  </li>
-<li>代表 PR：#45390、#45372、#45392、#45378、#45381  </li>
-<li>链接：<br><a href="https://github.com/NousResearch/hermes-agent/pull/45390">https://github.com/NousResearch/hermes-agent/pull/45390</a><br><a href="https://github.com/NousResearch/hermes-agent/pull/45372">https://github.com/NousResearch/hermes-agent/pull/45372</a><br><a href="https://github.com/NousResearch/hermes-agent/pull/45392">https://github.com/NousResearch/hermes-agent/pull/45392</a><br><a href="https://github.com/NousResearch/hermes-agent/pull/45378">https://github.com/NousResearch/hermes-agent/pull/45378</a><br><a href="https://github.com/NousResearch/hermes-agent/pull/45381">https://github.com/NousResearch/hermes-agent/pull/45381</a></li>
-</ul>
-</li>
-<li><p><strong>安装器与平台适配</strong></p>
-<ul>
-<li>Windows 控制台窗口、macOS TLS、symlink 策略、Node/依赖升级  </li>
-<li>代表 PR：#45389、#45370、#45384  </li>
-<li>链接：<br><a href="https://github.com/NousResearch/hermes-agent/pull/45389">https://github.com/NousResearch/hermes-agent/pull/45389</a><br><a href="https://github.com/NousResearch/hermes-agent/pull/45370">https://github.com/NousResearch/hermes-agent/pull/45370</a><br><a href="https://github.com/NousResearch/hermes-agent/pull/45384">https://github.com/NousResearch/hermes-agent/pull/45384</a></li>
-</ul>
-</li>
-<li><p><strong>模型/Provider 兼容性</strong></p>
-<ul>
-<li>Nous model id 规范化、fallback 配置、web backend 显式选择  </li>
-<li>代表 PR：#45367、#45382、#45373  </li>
-<li>链接：<br><a href="https://github.com/NousResearch/hermes-agent/pull/45367">https://github.com/NousResearch/hermes-agent/pull/45367</a><br><a href="https://github.com/NousResearch/hermes-agent/pull/45382">https://github.com/NousResearch/hermes-agent/pull/45382</a><br><a href="https://github.com/NousResearch/hermes-agent/pull/45373">https://github.com/NousResearch/hermes-agent/pull/45373</a></li>
-</ul>
-</li>
-<li><p><strong>Agent 行为安全性</strong></p>
-<ul>
-<li>loop detection、ambiguous delegation guard  </li>
-<li>代表 PR：#45391、#45369  </li>
-<li>链接：<br><a href="https://github.com/NousResearch/hermes-agent/pull/45391">https://github.com/NousResearch/hermes-agent/pull/45391</a><br><a href="https://github.com/NousResearch/hermes-agent/pull/45369">https://github.com/NousResearch/hermes-agent/pull/45369</a></li>
-</ul>
-</li>
-</ol>
-<p><strong>判断</strong>：这些 PR 说明下一版本大概率仍将以**“稳定性修复 + 运行时兼容性 + 控制流安全”**为主，而不是大功能上新。</p>
-<hr>
-<h2>7. 用户反馈摘要</h2>
-<p>从今天的 Issues 可以提炼出几类非常真实、且具有代表性的用户痛点：</p>
-<h3>1) 用户在“重度生产”场景中使用 Hermes</h3>
-<ul>
-<li>典型描述见 <strong>#45356</strong>：<br>用户在 macOS 上把 Hermes 用于<strong>每日生产</strong>，有 15+ cron 任务、多个 provider、复杂 skill/plugin 生态。<br>链接：<a href="https://github.com/NousResearch/hermes-agent/issues/45356">https://github.com/NousResearch/hermes-agent/issues/45356</a><br>说明：Hermes 已经不是“尝鲜工具”，而是进入了<strong>生产运维工具链</strong>。</li>
-</ul>
-<h3>2) 用户对“错误不可读”很敏感</h3>
-<ul>
-<li><strong>#45362</strong> 的 <code>HTTP 404: Couldn&#39;t find that, sorry.</code> 很典型：<br>经过多次静默重试后只给出模糊报错，用户无法判断是模型名格式错了、catalog 有问题，还是 provider 不可用。<br>链接：<a href="https://github.com/NousResearch/hermes-agent/issues/45362">https://github.com/NousResearch/hermes-agent/issues/45362</a></li>
-</ul>
-<h3>3) 用户非常在意 UI 与消息语义是否准确</h3>
-<ul>
-<li><strong>#45352</strong>：失败/被杀死的后台任务也被当成“重要完成事件”推给聊天。<br>链接：<a href="https://github.com/NousResearch/hermes-agent/issues/45352">https://github.com/NousResearch/hermes-agent/issues/45352</a>  </li>
-<li><strong>#45360</strong>：WebUI cron 可能只剩 prompt，没有正常 assistant turn。<br>链接：<a href="https://github.com/NousResearch/hermes-agent/issues/45360">https://github.com/NousResearch/hermes-agent/issues/45360</a></li>
-</ul>
-<h3>4) 用户对跨平台细节体验要求高</h3>
-<ul>
-<li>Windows 空白控制台窗口：#45379<br><a href="https://github.com/NousResearch/hermes-agent/issues/45379">https://github.com/NousResearch/hermes-agent/issues/45379</a>  </li>
-<li>macOS launchd 重启问题：#45361<br><a href="https://github.com/NousResearch/hermes-agent/issues/45361">https://github.com/NousResearch/hermes-agent/issues/45361</a>  </li>
-<li>桌面端图片发送崩溃：#45388<br><a href="https://github.com/NousResearch/hermes-agent/issues/45388">https://github.com/NousResearch/hermes-agent/issues/45388</a></li>
-</ul>
-<h3>5) 用户不满意的点主要是“可用性不稳”</h3>
-<p>今天没有看到明显“夸赞型”反馈，反而是各种可复现 bug 和兼容性问题。<br>这意味着 Hermes 的口碑增长更多依赖<strong>修复速度与工程质量</strong>，而不是营销型功能叙事。</p>
-<hr>
-<h2>8. 待处理积压</h2>
-<p>以下是今天最值得维护者优先关注的“高风险待办”：</p>
-<ol>
-<li><p><strong>#45383 数据库腐坏风险，优先级最高</strong><br><a href="https://github.com/NousResearch/hermes-agent/issues/45383">https://github.com/NousResearch/hermes-agent/issues/45383</a><br>原因：涉及 B-tree corruption，属于底层数据可靠性问题，影响面可能很大。</p>
-</li>
-<li><p><strong>#45388 Desktop 渲染器崩溃</strong><br><a href="https://github.com/NousResearch/hermes-agent/issues/45388">https://github.com/NousResearch/hermes-agent/issues/45388</a><br>原因：直接导致 UI 不可用，用户感知极强。</p>
-</li>
-<li><p><strong>#45352 后台任务完成通知语义错误</strong><br><a href="https://github.com/NousResearch/hermes-agent/issues/45352">https://github.com/NousResearch/hermes-agent/issues/45352</a><br>原因：属于高频使用场景下的噪声问题，且容易造成误判。</p>
-</li>
-<li><p><strong>#45336 代理会话串线</strong><br><a href="https://github.com/NousResearch/hermes-agent/issues/45336">https://github.com/NousResearch/hermes-agent/issues/45336</a><br>原因：会话边界是 Agent 产品的核心，一旦错路由会破坏信任。</p>
-</li>
-<li><p><strong>#45374 / #45375 / #45376 / #45377 依赖与运行时老化问题</strong><br><a href="https://github.com/NousResearch/hermes-agent/issues/45374">https://github.com/NousResearch/hermes-agent/issues/45374</a><br><a href="https://github.com/NousResearch/hermes-agent/issues/45375">https://github.com/NousResearch/hermes-agent/issues/45375</a><br><a href="https://github.com/NousResearch/hermes-agent/issues/45376">https://github.com/NousResearch/hermes-agent/issues/45376</a><br><a href="https://github.com/NousResearch/hermes-agent/issues/45377">https://github.com/NousResearch/hermes-agent/issues/45377</a><br>原因：虽不一定是致命 bug，但持续制造安装警告和维护负担，后续会放大技术债。</p>
-</li>
-</ol>
-<h3>简短结论</h3>
-<p>从今天的数据看，Hermes Agent 的积压不是“没事做”，而是<strong>问题非常集中且有明确修复方向</strong>。<br>维护者最该盯住的是：<strong>数据安全、桌面崩溃、网关重启、cron 投递和 provider 解析</strong>。这些问题一旦修掉，项目的可用性会有明显跃升。</p>
-<hr>
-<p>如果你愿意，我还可以把这份日报进一步整理成：</p>
-<ol>
-<li><strong>管理层摘要版（200-300字）</strong>  </li>
-<li><strong>研发周报格式版</strong>  </li>
-<li><strong>按 P0/P1/P2 分层的待办清单版</strong></li>
-</ol>
-</details>
-
-<details>
-<summary><strong>PicoClaw</strong> — <a href="https://github.com/sipeed/picoclaw">sipeed/picoclaw</a></summary>
-
-<p>过去24小时无活动。</p>
-</details>
-
-<details>
-<summary><strong>NanoClaw</strong> — <a href="https://github.com/qwibitai/nanoclaw">qwibitai/nanoclaw</a></summary>
-
-<p>过去24小时无活动。</p>
-</details>
-
-<details>
-<summary><strong>NullClaw</strong> — <a href="https://github.com/nullclaw/nullclaw">nullclaw/nullclaw</a></summary>
-
-<p>过去24小时无活动。</p>
-</details>
-
-<details>
-<summary><strong>IronClaw</strong> — <a href="https://github.com/nearai/ironclaw">nearai/ironclaw</a></summary>
-
-<p>以下为 <strong>IronClaw（nearai/ironclaw）2026-06-13 项目动态日报</strong>，基于你提供的 GitHub 数据生成。</p>
-<hr>
-<h2>1. 今日速览</h2>
-<p>IronClaw 今天整体处于<strong>低噪声、低变更确认</strong>状态：过去 24 小时内没有新的 Issue 进展，也没有新版本发布，说明公开问题面相对平稳。<br>不过，PR 侧出现了 <strong>2 条新增且均为 Open</strong> 的变更，且都集中在核心执行链路与 agent loop 行为上，表明维护重点仍在优化线程占用、消息调度和模型回合收尾体验。<br>从活跃度看，今天更像是<strong>内部机制修补与行为收敛</strong>的一天，而不是面向用户的功能交付日。<br>整体健康度偏稳：没有明显故障爆发，但也缺少已合并成果，当前进展更多体现在“方案推进”而非“版本落地”。</p>
-<ul>
-<li>仓库主页：<a href="https://github.com/nearai/ironclaw">https://github.com/nearai/ironclaw</a></li>
-</ul>
-<hr>
-<h2>3. 项目进展</h2>
-<p>今日没有 PR 被合并或关闭，因此<strong>没有实质进入主干的功能/修复</strong>。<br>但有两项重要 Open PR 显示项目正在推进以下方向：</p>
-<h3>PR #4838 — Explicit gate-open feedback for busy threads (no parking)</h3>
-<ul>
-<li>链接：<a href="https://github.com/nearai/ironclaw/pull/4838">https://github.com/nearai/ironclaw/pull/4838</a></li>
-<li>状态：Open</li>
-<li>规模/风险：L / low</li>
-<li>贡献者画像：core</li>
-<li>核心变化：将“忙线程时消息先 parking、后台再回填”的旧策略，替换为<strong>显式拒绝并告知用户需要自行重试</strong>。</li>
-<li>推进意义：<ul>
-<li>收敛线程占用时的行为语义，减少后台隐式排队带来的不确定性。</li>
-<li>有助于降低“消息看似成功提交、实际却延后执行”的体验偏差。</li>
-<li>对运行时稳定性和可解释性是正向增强。</li>
-</ul>
-</li>
-</ul>
-<h3>PR #4837 — feat(agent-loop): gated final-answer nudge</h3>
-<ul>
-<li>链接：<a href="https://github.com/nearai/ironclaw/pull/4837">https://github.com/nearai/ironclaw/pull/4837</a></li>
-<li>状态：Open</li>
-<li>规模/风险：M / low</li>
-<li>贡献者画像：experienced</li>
-<li>核心变化：当 agent loop 即将以“空回复 / 轨迹中断 / 达到预算 / NoProgressDetected”结束时，追加一次<strong>无工具的模型提醒</strong>，尽量避免直接给出空白或过于模板化的结尾。</li>
-<li>推进意义：<ul>
-<li>改善最终回答质量，减少“转了一圈却没输出有效答案”的场景。</li>
-<li>对用户感知价值较高，尤其是在工具调用失败或循环停滞时。</li>
-<li>这类改动偏体验层，但会直接影响 agent 的“完成感”。</li>
-</ul>
-</li>
-</ul>
-<h3>今日项目向前迈进了多少？</h3>
-<ul>
-<li><strong>代码交付层面：0%</strong>（今日无合并）</li>
-<li><strong>方案推进层面：有明显进展</strong>，两个 PR 分别覆盖：<ol>
-<li>busy thread 的消息接入策略  </li>
-<li>agent loop 的最终回答收口体验</li>
-</ol>
-</li>
-<li>这说明 IronClaw 正在同时处理<strong>执行调度确定性</strong>与<strong>输出质量稳定性</strong>两个关键问题。</li>
-</ul>
-<hr>
-<h2>4. 社区热点</h2>
-<p>今天没有活跃 Issues，且两条 PR 的评论数、点赞数均为 0，说明<strong>社区讨论热度不高</strong>，热点主要集中在代码审查前的单向推进。</p>
-<h3>今日相对最值得关注的两个讨论点</h3>
-<ol>
-<li><p><strong>忙线程时显式拒绝，而非后台 parking</strong></p>
-<ul>
-<li>链接：<a href="https://github.com/nearai/ironclaw/pull/4838">https://github.com/nearai/ironclaw/pull/4838</a></li>
-<li>背后诉求：减少“消息被系统吞掉/延迟处理”的不确定性，让用户明确知道当前线程繁忙，需要自行重试。</li>
-<li>反映的问题：项目在寻求更清晰的并发语义与交互契约。</li>
-</ul>
-</li>
-<li><p><strong>agent loop 结束前的补救性 nudge</strong></p>
-<ul>
-<li>链接：<a href="https://github.com/nearai/ironclaw/pull/4837">https://github.com/nearai/ironclaw/pull/4837</a></li>
-<li>背后诉求：避免模型在失败收尾时只留下空回复或陈旧模板，提高可用性与对话连贯性。</li>
-<li>反映的问题：用户对“最终答复是否完整、是否像一个真正完成的助手”很敏感。</li>
-</ul>
-</li>
-</ol>
-<h3>热点结论</h3>
-<ul>
-<li>今日没有明显“争议型热点”，也没有高评论/高反应的公开讨论。</li>
-<li>关注重心明显落在<strong>行为语义、输出质量、失败兜底</strong>这类基础体验问题上。</li>
-</ul>
-<hr>
-<h2>5. Bug 与稳定性</h2>
-<p>今日数据中<strong>没有新增 Issues</strong>，因此没有公开报告的 Bug、崩溃或回归事件可列入。<br>从稳定性视角看，这是积极信号：至少在过去 24 小时内，仓库没有出现显著故障噪声。</p>
-<h3>当前可见的稳定性相关信号</h3>
-<ol>
-<li><p><strong>PR #4838：busy thread 明确拒绝</strong></p>
-<ul>
-<li>链接：<a href="https://github.com/nearai/ironclaw/pull/4838">https://github.com/nearai/ironclaw/pull/4838</a></li>
-<li>风险判断：low</li>
-<li>稳定性意义：减少后台再投递逻辑可能引发的状态漂移或顺序混乱。</li>
-<li>是否已有 fix PR：是，本 PR 即为修复/替代方案，但尚未合并。</li>
-</ul>
-</li>
-<li><p><strong>PR #4837：最终回答兜底</strong></p>
-<ul>
-<li>链接：<a href="https://github.com/nearai/ironclaw/pull/4837">https://github.com/nearai/ironclaw/pull/4837</a></li>
-<li>风险判断：low</li>
-<li>稳定性意义：主要是体验修复，不属于崩溃级问题；但可显著减少“无输出结束”的感知失败。</li>
-<li>是否已有 fix PR：是，已有对应 PR，但尚未合并。</li>
-</ul>
-</li>
-</ol>
-<h3>按严重程度排序</h3>
-<ul>
-<li><strong>高严重度</strong>：无公开数据</li>
-<li><strong>中严重度</strong>：无公开数据</li>
-<li><strong>低严重度/体验型问题</strong>：  <ul>
-<li>空回复/模板化结尾风险：<a href="https://github.com/nearai/ironclaw/pull/4837">https://github.com/nearai/ironclaw/pull/4837</a>  </li>
-<li>busy thread 下消息语义不清：<a href="https://github.com/nearai/ironclaw/pull/4838">https://github.com/nearai/ironclaw/pull/4838</a></li>
-</ul>
-</li>
-</ul>
-<hr>
-<h2>6. 功能请求与路线图信号</h2>
-<p>今日没有新增 Issues，因此<strong>没有来自 Issue 的新功能请求</strong>。<br>但从 PR 方向看，已经能看到较明确的路线图信号：</p>
-<h3>可能纳入下一版本的方向</h3>
-<ol>
-<li><p><strong>线程忙碌时的交互契约统一</strong></p>
-<ul>
-<li>相关 PR：<a href="https://github.com/nearai/ironclaw/pull/4838">https://github.com/nearai/ironclaw/pull/4838</a></li>
-<li>路线图含义：系统可能会逐步从“后台补救式处理”转向“前台明确告知、由用户/上层发起重试”的模式。</li>
-<li>若采纳，意味着产品更重视可预测性与透明度。</li>
-</ul>
-</li>
-<li><p><strong>agent loop 的失败收口质量提升</strong></p>
-<ul>
-<li>相关 PR：<a href="https://github.com/nearai/ironclaw/pull/4837">https://github.com/nearai/ironclaw/pull/4837</a></li>
-<li>路线图含义：项目正在优化“最后一公里”的回答完整性，减少模型没说完、说空、说模板的情况。</li>
-<li>若采纳，用户可感知的效果会比较直接，尤其是在复杂工具链场景中。</li>
-</ul>
-</li>
-</ol>
-<h3>可能被纳入下一版本的判断</h3>
-<ul>
-<li>从风险标记看，两项 PR 都是 <strong>low risk</strong>，说明它们更像是<strong>高概率入选候选</strong>。</li>
-<li>其中 #4838 属于运行语义调整，适合与主线稳定化一起进入；#4837 属于体验增强，也具备较强的版本落地可能。</li>
-</ul>
-<hr>
-<h2>7. 用户反馈摘要</h2>
-<p>由于今天没有 Issues 更新，也没有评论数据，<strong>无法从公开反馈中提炼出新的用户原声痛点</strong>。<br>不过从现有 PR 主题可以反推出用户正在面对的两类典型场景：</p>
-<h3>可能的真实使用场景</h3>
-<ol>
-<li><p><strong>高并发或连续触发操作场景</strong></p>
-<ul>
-<li>对应 PR：<a href="https://github.com/nearai/ironclaw/pull/4838">https://github.com/nearai/ironclaw/pull/4838</a></li>
-<li>用户诉求：希望系统明确告诉他“当前不可接入”，而不是静默排队或延迟执行。</li>
-<li>满意点：如果采用显式拒绝，用户更容易理解系统状态。</li>
-<li>不满意点：后台 parking 可能导致时序不透明、任务完成时间不可预期。</li>
-</ul>
-</li>
-<li><p><strong>模型答复容易中断或收尾不足的对话场景</strong></p>
-<ul>
-<li>对应 PR：<a href="https://github.com/nearai/ironclaw/pull/4837">https://github.com/nearai/ironclaw/pull/4837</a></li>
-<li>用户诉求：希望即便模型出现停顿、预算耗尽或重复步骤，也能给出更像“完成了”的回应。</li>
-<li>满意点：最终回答更自然，减少“戛然而止”。</li>
-<li>不满意点：空回复或 canned reply 会降低可信度与助手感。</li>
-</ul>
-</li>
-</ol>
-<h3>反馈摘要结论</h3>
-<ul>
-<li>今日没有直接用户评论可摘录。</li>
-<li>但项目改进方向显示，维护者正在解决**“系统是否清晰可解释”<strong>与</strong>“输出是否像一个完整助手”**两类核心体验问题。</li>
-</ul>
-<hr>
-<h2>8. 待处理积压</h2>
-<p>基于今天提供的数据，<strong>没有发现长期未响应的重要 Issue</strong>，因为当前 Issues 数为 0。<br>PR 方面虽然有 2 条待处理，但都属于<strong>当日新开</strong>，并非积压型问题。</p>
-<h3>当前待处理项</h3>
-<ol>
-<li><p><strong>PR #4838</strong></p>
-<ul>
-<li>链接：<a href="https://github.com/nearai/ironclaw/pull/4838">https://github.com/nearai/ironclaw/pull/4838</a></li>
-<li>状态：Open</li>
-<li>关注点：忙线程时的拒绝语义是否会影响上层调用链预期</li>
-</ul>
-</li>
-<li><p><strong>PR #4837</strong></p>
-<ul>
-<li>链接：<a href="https://github.com/nearai/ironclaw/pull/4837">https://github.com/nearai/ironclaw/pull/4837</a></li>
-<li>状态：Open</li>
-<li>关注点：最后一轮补救性 nudge 是否会引入多余 token 消耗或行为偏差</li>
-</ul>
-</li>
-</ol>
-<h3>积压判断</h3>
-<ul>
-<li><strong>无明显历史积压信号</strong></li>
-<li>今日更像是“两个新方案等待评审”的状态，而不是“老问题堆积未处理”的状态</li>
-</ul>
-<hr>
-<h3>总体结论</h3>
-<p>IronClaw 在 2026-06-13 的公开动态表现为：<strong>无故障噪声、无发布、无已合并变更，但核心行为层面的 PR 正在推进</strong>。<br>项目健康度整体稳定，且改进方向集中在并发接入语义与 agent 输出收口，属于对底层体验质量影响较大的基础建设。<br>如果接下来这两条 PR 顺利合并，下一阶段的项目价值提升将主要体现在<strong>更清晰的线程行为</strong>与<strong>更可靠的最终回答质量</strong>上。</p>
-<ul>
-<li>仓库链接：<a href="https://github.com/nearai/ironclaw">https://github.com/nearai/ironclaw</a></li>
-</ul>
-</details>
-
-<details>
-<summary><strong>LobsterAI</strong> — <a href="https://github.com/netease-youdao/LobsterAI">netease-youdao/LobsterAI</a></summary>
-
-<p>过去24小时无活动。</p>
-</details>
-
-<details>
-<summary><strong>TinyClaw</strong> — <a href="https://github.com/TinyAGI/tinyagi">TinyAGI/tinyagi</a></summary>
-
-<p>过去24小时无活动。</p>
-</details>
-
-<details>
-<summary><strong>Moltis</strong> — <a href="https://github.com/moltis-org/moltis">moltis-org/moltis</a></summary>
-
-<p>过去24小时无活动。</p>
-</details>
-
-<details>
-<summary><strong>CoPaw</strong> — <a href="https://github.com/agentscope-ai/CoPaw">agentscope-ai/CoPaw</a></summary>
-
-<p>过去24小时无活动。</p>
-</details>
-
-<details>
-<summary><strong>ZeptoClaw</strong> — <a href="https://github.com/qhkm/zeptoclaw">qhkm/zeptoclaw</a></summary>
-
-<p>过去24小时无活动。</p>
-</details>
-
-<details>
-<summary><strong>ZeroClaw</strong> — <a href="https://github.com/zeroclaw-labs/zeroclaw">zeroclaw-labs/zeroclaw</a></summary>
-
-<p>以下为 <strong>ZeroClaw（github.com/zeroclaw-labs/zeroclaw）2026-06-13 项目动态日报</strong>。<br><strong>总体判断：</strong> 今日项目处于“低外部反馈、持续内部修复”的维护型活跃状态；没有新增 Issue 和 Release，但有 3 个当日创建/更新的修复类 PR，说明核心开发仍在推进，且重心集中在稳定性、交互正确性与工程一致性上。<br>仓库主页：<a href="https://github.com/zeroclaw-labs/zeroclaw">https://github.com/zeroclaw-labs/zeroclaw</a></p>
-<hr>
-<h2>1. 今日速览</h2>
-<ul>
-<li>过去 24 小时内，<strong>Issues 侧为 0 活跃</strong>，说明当前没有明显的新故障爆发或用户集中报错；<strong>Release 侧也无新增版本</strong>，项目暂未进入发布节奏。  </li>
-<li>但 <strong>PR 侧保持活跃（3 条待合并）</strong>，且全部指向修复与基础设施治理，覆盖 <strong>skills/runtime、gateway、ci/web</strong> 三个关键面。  </li>
-<li>从活动结构看，ZeroClaw 今日更像是在做“<strong>补稳定性、修体验、统一工程基线</strong>”，而不是推进大功能。  </li>
-<li>综合评估：<strong>项目健康度偏稳健，外部压力低，内部维护活跃度中等。</strong>  </li>
-<li>参考：<a href="https://github.com/zeroclaw-labs/zeroclaw">https://github.com/zeroclaw-labs/zeroclaw</a></li>
-</ul>
-<hr>
-<h2>2. 版本发布</h2>
-<ul>
-<li><strong>今日无新版本发布。</strong>  </li>
-<li>Releases 页面暂无新增：<a href="https://github.com/zeroclaw-labs/zeroclaw/releases">https://github.com/zeroclaw-labs/zeroclaw/releases</a></li>
-</ul>
-<hr>
-<h2>3. 项目进展</h2>
-<p><strong>今日没有已合并/关闭的重要 PR。</strong><br>当前项目的前进主要体现在以下 3 个待合并修复 PR：</p>
-<ol>
-<li><p><strong>#7552</strong> <code>[agent, channel, runtime, skills] fix(skills): respect timeout_secs from SKILL.toml</code>  </p>
-<ul>
-<li>链接：<a href="https://github.com/zeroclaw-labs/zeroclaw/pull/7552">https://github.com/zeroclaw-labs/zeroclaw/pull/7552</a>  </li>
-<li>作用：让 <code>SkillShellTool</code> 尊重技能清单里的 <code>timeout_secs</code>，避免总是被硬编码 60s 提前杀掉。  </li>
-<li>意义：这是对运行时行为的直接修正，能明显改善长耗时技能的可执行性。</li>
-</ul>
-</li>
-<li><p><strong>#7551</strong> <code>[gateway] fix(gateway): fail fast on free-form ask_user for WS approval channel</code>  </p>
-<ul>
-<li>链接：<a href="https://github.com/zeroclaw-labs/zeroclaw/pull/7551">https://github.com/zeroclaw-labs/zeroclaw/pull/7551</a>  </li>
-<li>作用：当 WS approval channel 不支持自由形式交互时，让 <code>ask_user</code> / <code>escalate</code> 直接报明确错误，而不是返回误导性的“Channel closed...”信息。  </li>
-<li>意义：这是用户可见的错误处理改进，能减少审批/交互流程中的困惑与误判。</li>
-</ul>
-</li>
-<li><p><strong>#7550</strong> <code>[ci] fix(ci,web): centralize Node.js version to .nvmrc with LTS 24</code>  </p>
-<ul>
-<li>链接：<a href="https://github.com/zeroclaw-labs/zeroclaw/pull/7550">https://github.com/zeroclaw-labs/zeroclaw/pull/7550</a>  </li>
-<li>作用：将 Node.js 版本收敛到 <code>.nvmrc</code>，统一 CI 与本地开发工具链。  </li>
-<li>意义：提升构建一致性，降低“本地能跑、CI 失败”类问题。</li>
-</ul>
-</li>
-</ol>
-<p><strong>项目整体向前迈进的幅度：</strong>  </p>
-<ul>
-<li>今日没有发布层面的里程碑，但有 <strong>3 个横跨运行时、网关与 CI 的修复动作</strong>，属于对核心可用性和工程质量的实质推进。  </li>
-<li>这类变更通常对“后续版本可发布性”帮助较大，尤其是 #7551 和 #7552 这两项，直接影响用户体验与任务成功率。</li>
-</ul>
-<hr>
-<h2>4. 社区热点</h2>
-<p><strong>今日没有明显的 Issues 讨论热点</strong>：  </p>
-<ul>
-<li>Issues 数量为 0，且无评论、无反应数据，说明社区公开反馈强度较低。</li>
-</ul>
-<p><strong>今日唯一可见的互动焦点其实是 3 个 PR：</strong></p>
-<ul>
-<li><p><strong>#7552</strong>：<a href="https://github.com/zeroclaw-labs/zeroclaw/pull/7552">https://github.com/zeroclaw-labs/zeroclaw/pull/7552</a>  </p>
-<ul>
-<li>诉求核心：让技能执行时间与声明配置一致，避免“任务被系统误杀”。  </li>
-<li>背后需求：更可靠的 agent/skill 执行语义。</li>
-</ul>
-</li>
-<li><p><strong>#7551</strong>：<a href="https://github.com/zeroclaw-labs/zeroclaw/pull/7551">https://github.com/zeroclaw-labs/zeroclaw/pull/7551</a>  </p>
-<ul>
-<li>诉求核心：在不支持自由问答的通道上尽早失败，避免误导性错误。  </li>
-<li>背后需求：更清晰的交互能力边界与更好的报错体验。</li>
-</ul>
-</li>
-<li><p><strong>#7550</strong>：<a href="https://github.com/zeroclaw-labs/zeroclaw/pull/7550">https://github.com/zeroclaw-labs/zeroclaw/pull/7550</a>  </p>
-<ul>
-<li>诉求核心：统一 Node.js 版本，减少环境分歧。  </li>
-<li>背后需求：更低的贡献门槛、更稳定的 CI。</li>
-</ul>
-</li>
-</ul>
-<p><strong>活跃度判断：</strong>  </p>
-<ul>
-<li>评论数与反应数均为 0，说明目前“讨论热度”并不高；  </li>
-<li>但从 PR 主题看，社区/维护者关注点非常集中，偏向<strong>修复可用性问题</strong>而非争论新方向。</li>
-</ul>
-<hr>
-<h2>5. Bug 与稳定性</h2>
-<p><strong>今日公开 Issues 中未见新增 Bug、崩溃或回归问题。</strong><br>不过，从修复 PR 可以看出，项目正在处理以下稳定性风险：</p>
-<h3>高优先级 / 用户影响较大</h3>
-<ul>
-<li><strong>#7551</strong>：WS approval channel 对 <code>ask_user</code> / <code>escalate</code> 的能力边界不明确，容易产生误导性错误。  <ul>
-<li>链接：<a href="https://github.com/zeroclaw-labs/zeroclaw/pull/7551">https://github.com/zeroclaw-labs/zeroclaw/pull/7551</a>  </li>
-<li>状态：<strong>已有 fix PR</strong></li>
-</ul>
-</li>
-</ul>
-<h3>中优先级 / 功能正确性问题</h3>
-<ul>
-<li><strong>#7552</strong>：技能超时配置未生效，导致长任务被硬编码 60 秒强制终止。  <ul>
-<li>链接：<a href="https://github.com/zeroclaw-labs/zeroclaw/pull/7552">https://github.com/zeroclaw-labs/zeroclaw/pull/7552</a>  </li>
-<li>状态：<strong>已有 fix PR</strong></li>
-</ul>
-</li>
-</ul>
-<h3>低到中优先级 / 工程稳定性问题</h3>
-<ul>
-<li><strong>#7550</strong>：Node 版本分散在不同位置，容易造成本地与 CI 环境不一致。  <ul>
-<li>链接：<a href="https://github.com/zeroclaw-labs/zeroclaw/pull/7550">https://github.com/zeroclaw-labs/zeroclaw/pull/7550</a>  </li>
-<li>状态：<strong>已有 fix PR</strong></li>
-</ul>
-</li>
-</ul>
-<p><strong>结论：</strong>  </p>
-<ul>
-<li>今日没有“已发生的公开事故”，但有 3 个明确的稳定性修复在排队，说明项目在主动清理隐患。</li>
-</ul>
-<hr>
-<h2>6. 功能请求与路线图信号</h2>
-<p><strong>今日没有新增公开功能请求 Issue。</strong><br>但从 PR 方向可以读出几个路线图信号：</p>
-<ol>
-<li><p><strong>技能配置语义正在变得更完整</strong>  </p>
-<ul>
-<li>#7552 表明技能 manifest 中的配置不再只是静态元数据，而会实际影响运行时行为。  </li>
-<li>这通常意味着后续可能继续加强 <code>SKILL.toml</code> 的可配置能力。  </li>
-<li>链接：<a href="https://github.com/zeroclaw-labs/zeroclaw/pull/7552">https://github.com/zeroclaw-labs/zeroclaw/pull/7552</a></li>
-</ul>
-</li>
-<li><p><strong>通道能力检测与错误提示将更严格</strong>  </p>
-<ul>
-<li>#7551 说明项目在补齐“通道是否支持某类交互”的能力判定。  </li>
-<li>这类改动通常会延伸到更多 channel/tool 的一致性设计。  </li>
-<li>链接：<a href="https://github.com/zeroclaw-labs/zeroclaw/pull/7551">https://github.com/zeroclaw-labs/zeroclaw/pull/7551</a></li>
-</ul>
-</li>
-<li><p><strong>工程基线统一仍是优先事项</strong>  </p>
-<ul>
-<li>#7550 体现出项目在推进开发环境、CI 环境与版本管理的统一。  </li>
-<li>这通常是发布前的质量收敛动作。  </li>
-<li>链接：<a href="https://github.com/zeroclaw-labs/zeroclaw/pull/7550">https://github.com/zeroclaw-labs/zeroclaw/pull/7550</a></li>
-</ul>
-</li>
-</ol>
-<p><strong>对下一版本的判断：</strong>  </p>
-<ul>
-<li>更可能进入下一版本的，是 <strong>#7551、#7552</strong> 这类直接影响用户体验和任务成功率的修复；  </li>
-<li><strong>#7550</strong> 虽然是基础设施改进，但也很可能随版本一起落地，因为它降低了后续维护成本。</li>
-</ul>
-<hr>
-<h2>7. 用户反馈摘要</h2>
-<p><strong>今日没有可用的 Issue 评论或 PR 评论，因此无法从“真实用户反馈”中提炼出明确结论。</strong><br>当前只能从 PR 主题中<strong>推测</strong>出用户痛点：</p>
-<ul>
-<li><p><strong>技能执行容易被固定超时截断</strong>：影响长任务、复杂任务、agent 工具链执行。  </p>
-<ul>
-<li>关联 PR：<a href="https://github.com/zeroclaw-labs/zeroclaw/pull/7552">https://github.com/zeroclaw-labs/zeroclaw/pull/7552</a></li>
-</ul>
-</li>
-<li><p><strong>审批/问答通道的失败信息不够直观</strong>：用户可能误以为是连接断开，而不是能力不支持。  </p>
-<ul>
-<li>关联 PR：<a href="https://github.com/zeroclaw-labs/zeroclaw/pull/7551">https://github.com/zeroclaw-labs/zeroclaw/pull/7551</a></li>
-</ul>
-</li>
-<li><p><strong>本地与 CI 环境版本不一致</strong>：贡献者和维护者在构建、调试上会遇到额外摩擦。  </p>
-<ul>
-<li>关联 PR：<a href="https://github.com/zeroclaw-labs/zeroclaw/pull/7550">https://github.com/zeroclaw-labs/zeroclaw/pull/7550</a></li>
-</ul>
-</li>
-</ul>
-<p><strong>满意/不满意点（基于现有数据的谨慎判断）：</strong>  </p>
-<ul>
-<li>目前看不到明确的满意反馈；  </li>
-<li>不满意点主要集中在“<strong>失败不够清晰</strong>”和“<strong>配置没有真正生效</strong>”这两类体验问题。</li>
-</ul>
-<hr>
-<h2>8. 待处理积压</h2>
-<p><strong>从当前快照看，未发现长期未响应的重要 Issue 或长期滞留 PR。</strong>  </p>
-<ul>
-<li>现有活跃项全部是<strong>当日创建/更新</strong>的 PR，暂无明显 backlog 信号。  </li>
-<li>但从优先级上看，建议维护者优先关注：  <ol>
-<li><strong>#7551</strong>：用户交互失败提示问题，影响面更直接  <ul>
-<li><a href="https://github.com/zeroclaw-labs/zeroclaw/pull/7551">https://github.com/zeroclaw-labs/zeroclaw/pull/7551</a></li>
-</ul>
-</li>
-<li><strong>#7552</strong>：技能超时语义问题，影响执行成功率  <ul>
-<li><a href="https://github.com/zeroclaw-labs/zeroclaw/pull/7552">https://github.com/zeroclaw-labs/zeroclaw/pull/7552</a></li>
-</ul>
-</li>
-<li><strong>#7550</strong>：CI/环境统一问题，适合作为发布前基线修复  <ul>
-<li><a href="https://github.com/zeroclaw-labs/zeroclaw/pull/7550">https://github.com/zeroclaw-labs/zeroclaw/pull/7550</a></li>
-</ul>
-</li>
-</ol>
-</li>
-</ul>
-<p>仓库主页：<a href="https://github.com/zeroclaw-labs/zeroclaw">https://github.com/zeroclaw-labs/zeroclaw</a></p>
-<hr>
-<h3>简短结论</h3>
-<p>ZeroClaw 今日没有外部故障压力，也没有新版本发布，但内部修复动作清晰、方向集中：<strong>修运行时超时、修审批通道错误提示、统一 Node 工具链</strong>。这说明项目当前健康度较好，处于“低噪声、高质量修复”阶段。</p>
-</details>
-
-<hr>
-<p><em>本日报由 <a href="https://github.com/leisure3318/agents-radar">agents-radar</a> 自动生成。</em></p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>AI Agents Ecosystem Digest 2026-06-13</title>
-      <link>https://duanyytop.github.io/agents-radar/#2026-06-13/ai-agents-en</link>
-      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-06-13/ai-agents-en</guid>
-      <pubDate>Sat, 13 Jun 2026 00:00:00 +0000</pubDate>
-      <description>OpenClaw Ecosystem Digest 2026-06-13 Issues: 6 | PRs: 37 | Projects covered: 13 | Generated: 2026-06-13 03:59 UTC OpenClaw NanoBot Hermes Agent PicoClaw NanoClaw NullClaw IronClaw LobsterAI TinyClaw Moltis CoPaw ZeptoClaw ZeroClaw OpenClaw Deep Dive (English digest skipped to save LLM tokens — see the Chinese report for full details.) Cross-Ecosystem Comparison (English digest skipped to save LLM tokens — see the Chinese report for full details.) Peer Project Reports NanoBot — HKUDS/nanobot (Eng...</description>
-      <content:encoded><![CDATA[<h1>OpenClaw Ecosystem Digest 2026-06-13</h1>
-<blockquote>
-<p>Issues: 6 | PRs: 37 | Projects covered: 13 | Generated: 2026-06-13 03:59 UTC</p>
-</blockquote>
-<ul>
-<li><a href="https://github.com/openclaw/openclaw">OpenClaw</a></li>
-<li><a href="https://github.com/HKUDS/nanobot">NanoBot</a></li>
-<li><a href="https://github.com/nousresearch/hermes-agent">Hermes Agent</a></li>
-<li><a href="https://github.com/sipeed/picoclaw">PicoClaw</a></li>
-<li><a href="https://github.com/qwibitai/nanoclaw">NanoClaw</a></li>
-<li><a href="https://github.com/nullclaw/nullclaw">NullClaw</a></li>
-<li><a href="https://github.com/nearai/ironclaw">IronClaw</a></li>
-<li><a href="https://github.com/netease-youdao/LobsterAI">LobsterAI</a></li>
-<li><a href="https://github.com/TinyAGI/tinyagi">TinyClaw</a></li>
-<li><a href="https://github.com/moltis-org/moltis">Moltis</a></li>
-<li><a href="https://github.com/agentscope-ai/CoPaw">CoPaw</a></li>
-<li><a href="https://github.com/qhkm/zeptoclaw">ZeptoClaw</a></li>
-<li><a href="https://github.com/zeroclaw-labs/zeroclaw">ZeroClaw</a></li>
-</ul>
-<hr>
-<h2>OpenClaw Deep Dive</h2>
-<p><em>(English digest skipped to save LLM tokens — see the Chinese report for full details.)</em></p>
-<hr>
-<h2>Cross-Ecosystem Comparison</h2>
-<p><em>(English digest skipped to save LLM tokens — see the Chinese report for full details.)</em></p>
-<hr>
-<h2>Peer Project Reports</h2>
-<details>
-<summary><strong>NanoBot</strong> — <a href="https://github.com/HKUDS/nanobot">HKUDS/nanobot</a></summary>
-
-<p><em>(English digest skipped to save LLM tokens — see the Chinese report for full details.)</em></p>
-</details>
-
-<details>
-<summary><strong>Hermes Agent</strong> — <a href="https://github.com/nousresearch/hermes-agent">nousresearch/hermes-agent</a></summary>
-
-<p><em>(English digest skipped to save LLM tokens — see the Chinese report for full details.)</em></p>
-</details>
-
-<details>
-<summary><strong>PicoClaw</strong> — <a href="https://github.com/sipeed/picoclaw">sipeed/picoclaw</a></summary>
-
-<p>No activity in the last 24 hours.</p>
-</details>
-
-<details>
-<summary><strong>NanoClaw</strong> — <a href="https://github.com/qwibitai/nanoclaw">qwibitai/nanoclaw</a></summary>
-
-<p>No activity in the last 24 hours.</p>
-</details>
-
-<details>
-<summary><strong>NullClaw</strong> — <a href="https://github.com/nullclaw/nullclaw">nullclaw/nullclaw</a></summary>
-
-<p>No activity in the last 24 hours.</p>
-</details>
-
-<details>
-<summary><strong>IronClaw</strong> — <a href="https://github.com/nearai/ironclaw">nearai/ironclaw</a></summary>
-
-<p><em>(English digest skipped to save LLM tokens — see the Chinese report for full details.)</em></p>
-</details>
-
-<details>
-<summary><strong>LobsterAI</strong> — <a href="https://github.com/netease-youdao/LobsterAI">netease-youdao/LobsterAI</a></summary>
-
-<p>No activity in the last 24 hours.</p>
-</details>
-
-<details>
-<summary><strong>TinyClaw</strong> — <a href="https://github.com/TinyAGI/tinyagi">TinyAGI/tinyagi</a></summary>
-
-<p>No activity in the last 24 hours.</p>
-</details>
-
-<details>
-<summary><strong>Moltis</strong> — <a href="https://github.com/moltis-org/moltis">moltis-org/moltis</a></summary>
-
-<p>No activity in the last 24 hours.</p>
-</details>
-
-<details>
-<summary><strong>CoPaw</strong> — <a href="https://github.com/agentscope-ai/CoPaw">agentscope-ai/CoPaw</a></summary>
-
-<p>No activity in the last 24 hours.</p>
-</details>
-
-<details>
-<summary><strong>ZeptoClaw</strong> — <a href="https://github.com/qhkm/zeptoclaw">qhkm/zeptoclaw</a></summary>
-
-<p>No activity in the last 24 hours.</p>
-</details>
-
-<details>
-<summary><strong>ZeroClaw</strong> — <a href="https://github.com/zeroclaw-labs/zeroclaw">zeroclaw-labs/zeroclaw</a></summary>
-
-<p><em>(English digest skipped to save LLM tokens — see the Chinese report for full details.)</em></p>
-</details>
-
-<hr>
-<p><em>This digest is auto-generated by <a href="https://github.com/leisure3318/agents-radar">agents-radar</a>.</em></p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>AI 官方内容追踪报告 2026-06-13</title>
-      <link>https://duanyytop.github.io/agents-radar/#2026-06-13/ai-web</link>
-      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-06-13/ai-web</guid>
-      <pubDate>Sat, 13 Jun 2026 00:00:00 +0000</pubDate>
-      <description>AI 官方内容追踪报告 2026-06-13 今日更新 | 新增内容: 1 篇 | 生成时间: 2026-06-13 03:59 UTC 数据来源: Anthropic: anthropic.com — 新增 1 篇（sitemap 共 381 条） OpenAI: openai.com — 新增 0 篇（sitemap 共 842 条） AI 官方内容追踪报告（2026-06-13｜增量更新） 数据说明：本次仅基于你提供的今日增量内容进行分析。Anthropic 有 1 篇新内容；OpenAI 今日无新增条目。由于未提供 GitHub 来源，本报告仅附 官网原文链接。 1) 今日速览 今天的核心动向几乎完全由 Anthropic 主导：其发布/更新了 Claude Fable 5 and Claude Mythos 5，把新模型定位为“迄今最强、可安全面向一般用户”的旗舰级能力升级。这篇公告最值得注意的不是单纯的性能提升，而是能力发布与安全护栏同步上线：部分高风险主题会被自动路由到 Claude Opus 4.8，说明 Anthropic 正在用“分层模型回退”来控制前沿模型的风险暴...</description>
-      <content:encoded><![CDATA[<h1>AI 官方内容追踪报告 2026-06-13</h1>
-<blockquote>
-<p>今日更新 | 新增内容: 1 篇 | 生成时间: 2026-06-13 03:59 UTC</p>
-</blockquote>
-<p>数据来源:</p>
-<ul>
-<li>Anthropic: <a href="https://www.anthropic.com">anthropic.com</a> — 新增 1 篇（sitemap 共 381 条）</li>
-<li>OpenAI: <a href="https://openai.com">openai.com</a> — 新增 0 篇（sitemap 共 842 条）</li>
-</ul>
-<hr>
-<h1>AI 官方内容追踪报告（2026-06-13｜增量更新）</h1>
-<blockquote>
-<p>数据说明：本次仅基于你提供的<strong>今日增量</strong>内容进行分析。<br>Anthropic 有 1 篇新内容；OpenAI 今日<strong>无新增条目</strong>。<br>由于未提供 GitHub 来源，本报告仅附 <strong>官网原文链接</strong>。</p>
-</blockquote>
-<hr>
-<h2>1) 今日速览</h2>
-<p>今天的核心动向几乎完全由 Anthropic 主导：其发布/更新了 <strong>Claude Fable 5 and Claude Mythos 5</strong>，把新模型定位为“迄今最强、可安全面向一般用户”的旗舰级能力升级。<br>这篇公告最值得注意的不是单纯的性能提升，而是<strong>能力发布与安全护栏同步上线</strong>：部分高风险主题会被自动路由到 Claude Opus 4.8，说明 Anthropic 正在用“分层模型回退”来控制前沿模型的风险暴露。<br>公告还透露出一个很强的信号：新模型在发布后迅速出现了访问暂停/恢复问题，意味着前沿模型的商业化节奏仍然受制于稳定性、安全策略与运营治理。<br>OpenAI 今日没有新增内容，因此本轮舆情与产品信号基本由 Anthropic 单边驱动。</p>
-<hr>
-<h2>2) Anthropic / Claude 内容精选</h2>
-<h3>[news] Claude Fable 5 and Claude Mythos 5</h3>
-<ul>
-<li><strong>发布日期/更新</strong>：2026-06-13  </li>
-<li><strong>原文链接</strong>：<a href="https://www.anthropic.com/news/claude-fable-5-mythos-5">https://www.anthropic.com/news/claude-fable-5-mythos-5</a></li>
-</ul>
-<p><strong>核心观点与业务意义：</strong><br>Anthropic 将 <strong>Claude Fable 5</strong> 描述为其“有史以来最强、可一般用户使用的安全模型”，并明确强调其在软件工程、知识工作、视觉、科学研究等多类任务上处于领先水平。公告中的表述很强势：它不仅是性能升级，更是一次面向“通用可用”的旗舰模型推出。<br>更重要的是，Anthropic 没有把“更强”作为唯一卖点，而是同步强调<strong>安全护栏</strong>：在某些高风险主题上，系统会自动切换到 <strong>Claude Opus 4.8</strong> 进行响应。这说明 Anthropic 正在把“模型路由”当作产品级安全能力来运营，而不是仅仅依赖单模型的静态对齐。<br>公告还提到，护栏采用了<strong>保守调参</strong>，平均触发率低于 5% sessions，但仍可能误拦截无害请求——这反映出其当前策略是“宁可多拦一些，也要先把更强模型放出来”。对企业用户而言，这意味着可用性会更高，但在某些任务上可能出现模型切换、响应延迟或策略拒答。</p>
-<p><strong>时间线梳理（同一页面内的关键节点）：</strong></p>
-<ul>
-<li><strong>2026-06-09</strong>：页面显示模型发布/更新信息，说明该模型已在更早日期进入发布流程。  </li>
-<li><strong>2026-06-12</strong>：出现“suspending access”的更新，表明发布后不久即发生访问暂停。  </li>
-<li><strong>2026-06-13</strong>：当前页面继续更新，说明 Anthropic 正在处理恢复与安全调整。</li>
-</ul>
-<p><strong>补充观察：</strong><br>原文片段还出现了 “<strong>Mythos-class 1 model</strong>” 与 “<strong>for a small group of cyberdefenders and infrastructure...</strong>” 这类措辞，暗示 Anthropic 可能在探索新的能力分级或面向安全/基础设施用户的定向访问机制。由于你提供的摘录被截断，具体范围无法完全确认，但这一点本身值得持续跟踪。</p>
-<hr>
-<h2>3) OpenAI 内容精选</h2>
-<h3>本次增量：无新增内容</h3>
-<ul>
-<li><strong>官网站点</strong>：<a href="https://openai.com/">https://openai.com/</a>  </li>
-<li><strong>说明</strong>：今日抓取结果中，OpenAI <strong>没有新增条目</strong>。由于 отсутствует（缺失）任何新页面、标题或分类信息，无法基于 URL 路径进行客观列举或摘要，也不应进行推测性解读。</li>
-</ul>
-<hr>
-<h2>4) 战略信号解读</h2>
-<h3>4.1 各自近期的技术优先级</h3>
-<p><strong>Anthropic：能力上限 + 安全可控部署并行推进</strong><br>从这条公告看，Anthropic 的优先级不是单纯追求“更强模型”，而是把<strong>前沿能力、风险治理、产品可用性</strong>一起打包推进。Fable 5 的定位说明其正在冲刺旗舰性能；而“高风险主题回退到 Opus 4.8”的机制则说明其对模型上线采取更强的运营安全控制。<br>同时，提到 cyberdefenders / infrastructure 这类对象，暗示其可能在向<strong>安全、基础设施、企业级高风险场景</strong>进一步倾斜。</p>
-<p><strong>OpenAI：本次无可见增量，无法从今日数据判断最新优先级</strong><br>由于今天没有 OpenAI 新内容，无法从本次增量判断其当前的发布重心。至少在“今天的公开议题”上，Anthropic 明显更主动。</p>
-<h3>4.2 竞争态势：谁在引领议题，谁在跟进</h3>
-<p>今天的议题显然由 <strong>Anthropic 引领</strong>：一边宣布/更新旗舰模型，一边公开解释安全护栏与访问策略。<br>OpenAI 今日没有新增公开内容，因此在<strong>公开叙事层面</strong>处于“缺席”状态。短期看，Anthropic 正在把自己塑造成“既敢发前沿模型、又强调安全治理”的一方，这会对行业舆论形成牵引。</p>
-<h3>4.3 对开发者和企业用户的潜在影响</h3>
-<ul>
-<li><strong>开发者</strong>：如果 Fable 5 真的在代码、复杂任务、视觉与科研上更强，长链路任务、Agent 工作流、复杂工具调用的效果可能会显著提升。  </li>
-<li><strong>企业用户</strong>：需要预期<strong>模型路由/降级</strong>会成为常态，尤其是在敏感主题上。产品集成时应考虑 fallback 逻辑、可观测性与提示词策略。  </li>
-<li><strong>安全/合规团队</strong>：保守护栏意味着更高的安全边际，但也可能带来误杀、业务中断或人工复核压力；企业部署前应先做红队测试与策略验证。  </li>
-<li><strong>采购与治理</strong>：这类“先强能力、后持续修补安全”的发布方式，要求企业不能只看 benchmark，还要关注可用性、稳定性、权限边界与审计机制。</li>
-</ul>
-<hr>
-<h2>5) 值得关注的细节</h2>
-<ol>
-<li><p><strong>“Mythos-class 1 model” 是新词</strong><br>这是一个很值得盯住的术语，可能暗示 Anthropic 在建立新的模型分级、产品线或内部能力标签。</p>
-</li>
-<li><p><strong>“safe for general use” 与“高风险主题回退到 Opus 4.8”并存</strong><br>这说明 Anthropic 采取的是典型的“<strong>能力放开 + 风险分层</strong>”策略，而不是一刀切地限制模型能力。</p>
-</li>
-<li><p><strong>护栏触发率 &lt;5% sessions</strong><br>这类数字很有价值：它说明 Anthropic 并不是大范围拦截，而是在尝试把安全控制压到较低摩擦区间。对企业来说，这意味着可用性尚可，但仍要接受少量意外拒答/切换。</p>
-</li>
-<li><p><strong>发布后快速出现 access suspended</strong><br>“先发布、后暂停”的节奏通常意味着：要么是稳定性问题，要么是安全策略调整，要么两者兼有。无论哪种，都是前沿模型进入商业化时的真实摩擦。</p>
-</li>
-<li><p><strong>面向 cyberdefenders / infrastructure 的字样</strong><br>这类措辞如果后续被证实为独立访问计划，可能预示 Anthropic 正在推进<strong>安全/基础设施专用能力入口</strong>，这对企业安全市场尤其敏感。</p>
-</li>
-</ol>
-<hr>
-<p>如果你愿意，我可以继续把这份报告整理成：</p>
-<ol>
-<li><strong>适合晨会汇报的 1 页版</strong>，或  </li>
-<li><strong>带“影响/风险/机会”三栏的决策版表格</strong>。</li>
-</ol>
-<hr>
-<p><em>本日报由 <a href="https://github.com/leisure3318/agents-radar">agents-radar</a> 自动生成。</em></p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>Official AI Content Report 2026-06-13</title>
-      <link>https://duanyytop.github.io/agents-radar/#2026-06-13/ai-web-en</link>
-      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-06-13/ai-web-en</guid>
-      <pubDate>Sat, 13 Jun 2026 00:00:00 +0000</pubDate>
-      <description>Official AI Content Report 2026-06-13 Today&amp;#39;s update | New content: 1 articles | Generated: 2026-06-13 03:59 UTC Sources: Anthropic: anthropic.com — 1 new articles (sitemap total: 381) OpenAI: openai.com — 0 new articles (sitemap total: 842) (English digest skipped to save LLM tokens — see the Chinese report for full details.) This digest is auto-generated by agents-radar.</description>
-      <content:encoded><![CDATA[<h1>Official AI Content Report 2026-06-13</h1>
-<blockquote>
-<p>Today&#39;s update | New content: 1 articles | Generated: 2026-06-13 03:59 UTC</p>
-</blockquote>
-<p>Sources:</p>
-<ul>
-<li>Anthropic: <a href="https://www.anthropic.com">anthropic.com</a> — 1 new articles (sitemap total: 381)</li>
-<li>OpenAI: <a href="https://openai.com">openai.com</a> — 0 new articles (sitemap total: 842)</li>
-</ul>
-<hr>
-<p><em>(English digest skipped to save LLM tokens — see the Chinese report for full details.)</em></p>
-<hr>
-<p><em>This digest is auto-generated by <a href="https://github.com/leisure3318/agents-radar">agents-radar</a>.</em></p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>AI 开源趋势日报 2026-06-13</title>
-      <link>https://duanyytop.github.io/agents-radar/#2026-06-13/ai-trending</link>
-      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-06-13/ai-trending</guid>
-      <pubDate>Sat, 13 Jun 2026 00:00:00 +0000</pubDate>
-      <description>AI 开源趋势日报 2026-06-13 数据来源: GitHub Trending + GitHub Search API | 生成时间: 2026-06-13 01:39 UTC 《AI 开源趋势日报》 日期：2026-06-13 一、过滤结果 本日给定数据中，明确与 AI/ML 相关的项目只有 2 个： LMCache/LMCache：AI 推理/KV Cache 基础工具 JuliusBrussee/caveman：面向 Claude Code 的 token 优化 skill，属于 AI 开发工作流工具 其余 Trending 项目： music-assistant/server：媒体管理 iptv-org/iptv：IPTV 频道聚合 microsoft/PowerToys：Windows 工具集均与 AI 无直接关系，已排除。 二、今日速览 今天 AI 开源热度的核心信号非常明确：一边是推理基础设施继续围绕 KV Cache 和低延迟优化演进，另一边是面向代码代理/LLM 工作流的“省 token 工具”开始受到关注。相比模型训练或 RAG 方向，今天更突出的是**“让大...</description>
-      <content:encoded><![CDATA[<h1>AI 开源趋势日报 2026-06-13</h1>
-<blockquote>
-<p>数据来源: GitHub Trending + GitHub Search API | 生成时间: 2026-06-13 01:39 UTC</p>
-</blockquote>
-<hr>
-<h1>《AI 开源趋势日报》</h1>
-<p><strong>日期：2026-06-13</strong></p>
-<h2>一、过滤结果</h2>
-<p>本日给定数据中，<strong>明确与 AI/ML 相关</strong>的项目只有 2 个：</p>
-<ul>
-<li><strong>LMCache/LMCache</strong>：AI 推理/KV Cache 基础工具</li>
-<li><strong>JuliusBrussee/caveman</strong>：面向 Claude Code 的 token 优化 skill，属于 AI 开发工作流工具</li>
-</ul>
-<p>其余 Trending 项目：</p>
-<ul>
-<li>music-assistant/server：媒体管理</li>
-<li>iptv-org/iptv：IPTV 频道聚合</li>
-<li>microsoft/PowerToys：Windows 工具集<br>均<strong>与 AI 无直接关系，已排除</strong>。</li>
-</ul>
-<hr>
-<h2>二、今日速览</h2>
-<p>今天 AI 开源热度的核心信号非常明确：<strong>一边是推理基础设施继续围绕 KV Cache 和低延迟优化演进，另一边是面向代码代理/LLM 工作流的“省 token 工具”开始受到关注</strong>。<br>相比模型训练或 RAG 方向，今天更突出的是**“让大模型用得更便宜、更快”<strong>。<br>LMCache 说明社区仍在追逐推理成本与上下文效率；caveman 则反映出开发者对 <strong>Agent/Code Copilot 场景下 token 开销</strong> 的敏感度正在上升。<br>整体来看，今天没有明显的新模型发布潮，但</strong>LLM 基础设施与开发者效率工具**表现出更强的开源关注度。</p>
-<hr>
-<h2>三、各维度热门项目</h2>
-<h3>🔧 AI 基础工具</h3>
-<ol>
-<li><strong><a href="https://github.com/LMCache/LMCache">LMCache/LMCache</a></strong><br>⭐ <strong>0（+28 today）</strong><br>一句话说明：LLM 的 <strong>KV Cache 加速层</strong>，目标是显著提升长上下文推理效率与吞吐，属于今天最典型的 AI 基础设施热点。</li>
-</ol>
-<blockquote>
-<p>今日仅筛出 1 个明确基础工具项目，其他维度暂无足够样本。</p>
-</blockquote>
-<hr>
-<h3>🤖 AI 智能体/工作流</h3>
-<ol>
-<li><strong><a href="https://github.com/JuliusBrussee/caveman">JuliusBrussee/caveman</a></strong><br>⭐ <strong>71,955</strong><br>一句话说明：面向 <strong>Claude Code</strong> 的 skill，用“caveman 风格”压缩表达、减少约 65% token，体现出 agent/开发工作流对成本优化的强需求。</li>
-</ol>
-<blockquote>
-<p>今日未出现更典型的多智能体框架或自动化编排项目。</p>
-</blockquote>
-<hr>
-<h3>📦 AI 应用</h3>
-<ul>
-<li><strong>今日未筛出明确 AI 应用类项目</strong></li>
-</ul>
-<hr>
-<h3>🧠 大模型 / 训练</h3>
-<ul>
-<li><strong>今日未筛出明确模型权重、训练框架或微调工具</strong></li>
-</ul>
-<hr>
-<h3>🔍 RAG / 知识库</h3>
-<ul>
-<li><strong>今日未筛出明确 RAG、向量数据库或知识管理项目</strong></li>
-</ul>
-<hr>
-<h2>四、趋势信号分析</h2>
-<p>今天的信号集中在 <strong>LLM 推理效率与 token 成本控制</strong>。LMCache 的上榜说明社区对 <strong>KV Cache、长上下文、推理吞吐</strong> 的关注仍在升温，这类项目通常会在大模型上下文窗口扩张、推理成本居高不下时获得更强需求。与此同时，caveman 这种面向 Claude Code 的 skill 表明，开发者已经不满足于“能用模型”，而是开始优化 <strong>Agent/编码助手的提示词表达方式与 token 预算</strong>。从技术栈上看，今天更像是 <strong>推理基础设施 + 代码代理工作流优化</strong> 的组合，而不是训练、RAG 或应用层百花齐放。若结合近期行业趋势，长上下文、代码代理、模型调用成本控制依旧是最容易引发开源社区共鸣的方向。</p>
-<hr>
-<h2>五、社区关注热点</h2>
-<ul>
-<li><p><strong>LMCache 的 KV Cache 加速思路</strong><br>值得关注的原因：推理成本和长上下文性能是 LLM 落地的核心瓶颈，属于高确定性基础设施方向。</p>
-</li>
-<li><p><strong>面向 Claude Code / Coding Agent 的 token 优化 skill</strong><br>值得关注的原因：说明开发者正在从“提示词工程”转向“工作流效率工程”。</p>
-</li>
-<li><p><strong>LLM 推理层与缓存层基础设施</strong><br>值得关注的原因：当模型能力趋于同质化，性能、延迟和成本会成为开源项目竞争焦点。</p>
-</li>
-<li><p><strong>Agent 场景下的轻量化表达与上下文压缩</strong><br>值得关注的原因：未来代码助手、自动化助手会越来越依赖更低 token 消耗的交互方式。</p>
-</li>
-</ul>
-<hr>
-<p>如果你愿意，我还可以把这份日报进一步整理成：</p>
-<ol>
-<li><strong>适合公众号发布的简洁版</strong>，或  </li>
-<li><strong>适合内部晨报的表格版</strong>。</li>
-</ol>
-<hr>
-<p><em>本日报由 <a href="https://github.com/leisure3318/agents-radar">agents-radar</a> 自动生成。</em></p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>AI Open Source Trends 2026-06-13</title>
-      <link>https://duanyytop.github.io/agents-radar/#2026-06-13/ai-trending-en</link>
-      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-06-13/ai-trending-en</guid>
-      <pubDate>Sat, 13 Jun 2026 00:00:00 +0000</pubDate>
-      <description>AI Open Source Trends 2026-06-13 Sources: GitHub Trending + GitHub Search API | Generated: 2026-06-13 01:39 UTC (English digest skipped to save LLM tokens — see the Chinese report for full details.) This digest is auto-generated by agents-radar.</description>
-      <content:encoded><![CDATA[<h1>AI Open Source Trends 2026-06-13</h1>
-<blockquote>
-<p>Sources: GitHub Trending + GitHub Search API | Generated: 2026-06-13 01:39 UTC</p>
-</blockquote>
-<hr>
-<p><em>(English digest skipped to save LLM tokens — see the Chinese report for full details.)</em></p>
-<hr>
-<p><em>This digest is auto-generated by <a href="https://github.com/leisure3318/agents-radar">agents-radar</a>.</em></p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>Hacker News AI 社区动态日报 2026-06-13</title>
-      <link>https://duanyytop.github.io/agents-radar/#2026-06-13/ai-hn</link>
-      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-06-13/ai-hn</guid>
-      <pubDate>Sat, 13 Jun 2026 00:00:00 +0000</pubDate>
-      <description>Hacker News AI 社区动态日报 2026-06-13 数据来源: Hacker News | 共 30 条 | 生成时间: 2026-06-13 03:59 UTC Hacker News AI 社区动态日报 日期：2026-06-13（基于过去 24 小时 HN AI 相关热门帖） 1) 今日速览 今天 HN 的 AI 讨论几乎被 Anthropic/Fable 5/Mythos 5 的访问中止事件刷屏，社区焦点从“模型能力”迅速转向 政府监管、平台可用性与供应商中立性。与此同时，开源 AI 是否应该“赢” 成为强烈的价值观议题，评论区明显呈现出反锁定、反封禁情绪。技术面上，讨论更偏向 实际工程使用、Agent 工具链和安全影响，而不是纯 benchmark 或跑分。整体情绪偏紧张、争议性强，但也带有很强的“如何应对现实限制”的实用主义色彩。 2) 热门新闻与讨论 🔬 模型与研究 LLMs use recurring ghost authors and personalities原文：https://arxiv.org/abs/2606.02184HN 讨论：https...</description>
-      <content:encoded><![CDATA[<h1>Hacker News AI 社区动态日报 2026-06-13</h1>
-<blockquote>
-<p>数据来源: <a href="https://news.ycombinator.com/">Hacker News</a> | 共 30 条 | 生成时间: 2026-06-13 03:59 UTC</p>
-</blockquote>
-<hr>
-<h1>Hacker News AI 社区动态日报</h1>
-<p><strong>日期：2026-06-13</strong>（基于过去 24 小时 HN AI 相关热门帖）</p>
-<h2>1) 今日速览</h2>
-<p>今天 HN 的 AI 讨论几乎被 <strong>Anthropic/Fable 5/Mythos 5 的访问中止事件</strong>刷屏，社区焦点从“模型能力”迅速转向 <strong>政府监管、平台可用性与供应商中立性</strong>。<br>与此同时，<strong>开源 AI 是否应该“赢”</strong> 成为强烈的价值观议题，评论区明显呈现出反锁定、反封禁情绪。<br>技术面上，讨论更偏向 <strong>实际工程使用、Agent 工具链和安全影响</strong>，而不是纯 benchmark 或跑分。<br>整体情绪偏紧张、争议性强，但也带有很强的“如何应对现实限制”的实用主义色彩。</p>
-<hr>
-<h2>2) 热门新闻与讨论</h2>
-<h3>🔬 模型与研究</h3>
-<ol>
-<li><p><strong>LLMs use recurring ghost authors and personalities</strong><br>原文：<a href="https://arxiv.org/abs/2606.02184">https://arxiv.org/abs/2606.02184</a><br>HN 讨论：<a href="https://news.ycombinator.com/item?id=48509500">https://news.ycombinator.com/item?id=48509500</a><br>分数/评论：<strong>5 / 0</strong><br>一句话说明：关于 LLM 输出中是否存在“稳定人格/重复作者风格”的研究切入点很有意思，适合关注模型行为一致性与可解释性问题。</p>
-</li>
-<li><p><strong>Measuring LLMs&#39; impact on N-day exploits</strong><br>原文：<a href="https://red.anthropic.com/2026/n-days/">https://red.anthropic.com/2026/n-days/</a><br>HN 讨论：<a href="https://news.ycombinator.com/item?id=48508019">https://news.ycombinator.com/item?id=48508019</a><br>分数/评论：<strong>4 / 0</strong><br>一句话说明：把 LLM 与真实安全漏洞利用风险绑定来测量，属于非常实用的安全研究方向，虽然评论少，但题材本身很有行业意义。</p>
-</li>
-<li><p><strong>Prompting Claude Fable 5</strong><br>原文：<a href="https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/prompting-claude-fable-5">https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/prompting-claude-fable-5</a><br>HN 讨论：<a href="https://news.ycombinator.com/item?id=48507471">https://news.ycombinator.com/item?id=48507471</a><br>分数/评论：<strong>5 / 0</strong><br>一句话说明：虽然是文档型内容，但对使用新模型做提示工程的开发者很直接，通常会被当作“官方最佳实践”来参考。</p>
-</li>
-</ol>
-<hr>
-<h3>🛠️ 工具与工程</h3>
-<ol>
-<li><p><strong>Show HN: Script to bulk delete Claude chats from the web UI</strong><br>原文：<a href="https://github.com/MatteoLeonesi/bulk-delete-claude-chat">https://github.com/MatteoLeonesi/bulk-delete-claude-chat</a><br>HN 讨论：<a href="https://news.ycombinator.com/item?id=48505161">https://news.ycombinator.com/item?id=48505161</a><br>分数/评论：<strong>53 / 18</strong><br>一句话说明：典型的“解决真实痛点”的小工具，说明 Claude 使用量不低、用户对历史对话管理有明确需求。</p>
-</li>
-<li><p><strong>Launch HN: BitBoard (YC P25) – Analytics Workspace for Agents</strong><br>原文：<a href="https://bitboard.work/">https://bitboard.work/</a><br>HN 讨论：<a href="https://news.ycombinator.com/item?id=48506545">https://news.ycombinator.com/item?id=48506545</a><br>分数/评论：<strong>37 / 19</strong><br>一句话说明：面向 Agent 的分析工作台，反映出“AI 应用不只要跑起来，还要可观测、可审计、可分析”的工程趋势。</p>
-</li>
-<li><p><strong>My Claude Code Setup</strong><br>原文：<a href="https://illuminatedcomputing.com/posts/2026/06/my-claude-code-setup/">https://illuminatedcomputing.com/posts/2026/06/my-claude-code-setup/</a><br>HN 讨论：<a href="https://news.ycombinator.com/item?id=48505773">https://news.ycombinator.com/item?id=48505773</a><br>分数/评论：<strong>10 / 0</strong><br>一句话说明：偏实战配置分享，适合关注 Claude Code 工作流、提示模板和工程集成方式的开发者。</p>
-</li>
-<li><p><strong>Show HN: A Terrible Way to Consume Hacker News – AI Slop</strong><br>原文：<a href="https://deadinternet.tech/feed">https://deadinternet.tech/feed</a><br>HN 讨论：<a href="https://news.ycombinator.com/item?id=48505245">https://news.ycombinator.com/item?id=48505245</a><br>分数/评论：<strong>4 / 0</strong><br>一句话说明：带有明显讽刺意味的工具展示，折射出社区对“AI 内容泛滥/信息噪音”的反感。</p>
-</li>
-</ol>
-<hr>
-<h3>🏢 产业动态</h3>
-<ol>
-<li><p><strong>Statement on US government directive to suspend access to Fable 5 and Mythos 5</strong><br>原文：<a href="https://www.anthropic.com/news/fable-mythos-access">https://www.anthropic.com/news/fable-mythos-access</a><br>HN 讨论：<a href="https://news.ycombinator.com/item?id=48511072">https://news.ycombinator.com/item?id=48511072</a><br>分数/评论：<strong>1304 / 854</strong><br>一句话说明：今日最爆帖，涉及美国政府指令、模型访问中止与合规问题，评论区几乎必然围绕“国家安全 vs. 用户自由”激烈争论。</p>
-</li>
-<li><p><strong>We&#39;ve suspended access to Claude Mythos 5 and Claude Fable 5</strong><br>原文：<a href="https://status.claude.com/incidents/s9w82lp9dcn9">https://status.claude.com/incidents/s9w82lp9dcn9</a><br>HN 讨论：<a href="https://news.ycombinator.com/item?id=48511121">https://news.ycombinator.com/item?id=48511121</a><br>分数/评论：<strong>155 / 52</strong><br>一句话说明：官方状态页进一步确认事件，说明不是单一媒体爆料，而是产品层面的真实中断，用户侧影响直接且明确。</p>
-</li>
-<li><p><strong>As a result of a US Government directive, we are suspending access to Fable 5</strong><br>原文：<a href="https://twitter.com/ClaudeDevs/status/2065597942602531163">https://twitter.com/ClaudeDevs/status/2065597942602531163</a><br>HN 讨论：<a href="https://news.ycombinator.com/item?id=48511168">https://news.ycombinator.com/item?id=48511168</a><br>分数/评论：<strong>67 / 17</strong><br>一句话说明：社交媒体声明强化了事件的即时传播性，反映出 AI 公司的政策沟通已成为产品运营的一部分。</p>
-</li>
-<li><p><strong>OpenAI Considers Drastic Price Cuts, Anticipating War for Users With Anthropic</strong><br>原文：<a href="https://www.wsj.com/tech/ai/openai-considers-drastic-price-cuts-anticipating-war-for-users-with-anthropic-9b8c178e">https://www.wsj.com/tech/ai/openai-considers-drastic-price-cuts-anticipating-war-for-users-with-anthropic-9b8c178e</a><br>HN 讨论：<a href="https://news.ycombinator.com/item?id=48500086">https://news.ycombinator.com/item?id=48500086</a><br>分数/评论：<strong>7 / 1</strong><br>一句话说明：虽然分数不高，但指向“价格战”与“用户争夺”是大模型商业化进入新阶段的信号。</p>
-</li>
-</ol>
-<hr>
-<h3>💬 观点与争议</h3>
-<ol>
-<li><p><strong>Open source AI must win</strong><br>原文：<a href="https://opensourceaimustwin.com/?share=v2">https://opensourceaimustwin.com/?share=v2</a><br>HN 讨论：<a href="https://news.ycombinator.com/item?id=48511908">https://news.ycombinator.com/item?id=48511908</a><br>分数/评论：<strong>332 / 85</strong><br>一句话说明：强烈的立场型帖子，典型反映社区对闭源模型、平台锁定和可访问性问题的担忧。</p>
-</li>
-<li><p><strong>I Think They [Anthropic] Are Lying to You [video]</strong><br>原文：<a href="https://www.youtube.com/watch?v=zfYsSFY4l18">https://www.youtube.com/watch?v=zfYsSFY4l18</a><br>HN 讨论：<a href="https://news.ycombinator.com/item?id=48510471">https://news.ycombinator.com/item?id=48510471</a><br>分数/评论：<strong>65 / 45</strong><br>一句话说明：明显争议性内容，评论区通常会分化为“质疑公关叙事”和“要求证据”的两派。</p>
-</li>
-<li><p><strong>If you use Claude to harm Anthropic&#39;s reputation, you will be sued</strong><br>原文：<a href="https://twitter.com/RnaudBertrand/status/2064892380701237647">https://twitter.com/RnaudBertrand/status/2064892380701237647</a><br>HN 讨论：<a href="https://news.ycombinator.com/item?id=48503306">https://news.ycombinator.com/item?id=48503306</a><br>分数/评论：<strong>6 / 2</strong><br>一句话说明：涉及法律威慑与模型使用边界，反映出 AI 公司正在把“品牌保护”纳入治理工具箱。</p>
-</li>
-<li><p><strong>Tell HN: I&#39;m making 1K USD per hour with AI</strong><br>原文：<a href="https://news.ycombinator.com/item?id=48511828">https://news.ycombinator.com/item?id=48511828</a><br>HN 讨论：<a href="https://news.ycombinator.com/item?id=48511828">https://news.ycombinator.com/item?id=48511828</a><br>分数/评论：<strong>5 / 14</strong><br>一句话说明：典型高讨论比内容，容易引发对 AI 变现、夸张营销与真实收入结构的质疑。</p>
-</li>
-</ol>
-<hr>
-<h2>3) 社区情绪信号</h2>
-<p>今日 HN AI 讨论最活跃的是 <strong>Anthropic 访问中止事件</strong>，以 <strong>1300+ 分数、800+ 评论</strong>远超其他帖子，说明社区对“模型能否稳定可用、谁有权限制访问”高度敏感。争议焦点集中在 <strong>政府介入、平台责任、开源替代</strong> 三者之间；共识则偏向于“不希望关键能力被任意封锁”。相比平时常见的“模型性能/benchmark”讨论，今天明显转向 <strong>政策、合规、商业竞争与访问控制</strong>，同时工程侧也在围绕 Claude 生态做快速适配。</p>
-<hr>
-<h2>4) 值得深读</h2>
-<ol>
-<li><p><strong>Statement on US government directive to suspend access to Fable 5 and Mythos 5</strong><br><a href="https://www.anthropic.com/news/fable-mythos-access">https://www.anthropic.com/news/fable-mythos-access</a><br><a href="https://news.ycombinator.com/item?id=48511072">https://news.ycombinator.com/item?id=48511072</a><br>理由：这是今天最核心的行业事件，直接牵涉监管、模型分发与企业治理。</p>
-</li>
-<li><p><strong>Measuring LLMs&#39; impact on N-day exploits</strong><br><a href="https://red.anthropic.com/2026/n-days/">https://red.anthropic.com/2026/n-days/</a><br><a href="https://news.ycombinator.com/item?id=48508019">https://news.ycombinator.com/item?id=48508019</a><br>理由：对安全研究者很有价值，能帮助理解 LLM 在真实漏洞利用链中的风险与作用边界。</p>
-</li>
-<li><p><strong>Open source AI must win</strong><br><a href="https://opensourceaimustwin.com/?share=v2">https://opensourceaimustwin.com/?share=v2</a><br><a href="https://news.ycombinator.com/item?id=48511908">https://news.ycombinator.com/item?id=48511908</a><br>理由：这是今天最强的路线之争表达，适合开发者和创业者判断开源 AI 的战略位置。</p>
-</li>
-</ol>
-<p>如需，我可以把这份日报进一步整理成 <strong>“可直接发布到公众号/Newsletter 的版本”</strong>，或补一版 <strong>“按影响力 Top 10 精简版”</strong>。</p>
-<hr>
-<p><em>本日报由 <a href="https://github.com/leisure3318/agents-radar">agents-radar</a> 自动生成。</em></p>
 ]]></content:encoded>
     </item>
   </channel>
