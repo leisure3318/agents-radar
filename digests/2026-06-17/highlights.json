@@ -1,0 +1,61 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code 升到 v2.1.179",
+      "OpenAI Codex 连发两版 alpha",
+      "OpenCode 今日 10 Issue 10 PR",
+      "Pi 发布 v0.79.5/0.79.6",
+      "Qwen Code 预览版发布失败",
+      "Copilot CLI 出现 v1.0.64-0"
+    ],
+    "ai-agents": [
+      "OpenClaw 今日 25 条 PR",
+      "OpenClaw 新版 v2026.6.8",
+      "Telegram 富文本渲染更稳",
+      "WhatsApp ACP 绑定更准确",
+      "19 个 PR 待合并，集成压力大",
+      "聚焦多通道兼容与稳定性"
+    ],
+    "ai-trending": [
+      "OpenBMB/VoxCPM 主打语音生成",
+      "alibaba/zvec 轻量进程内向量库",
+      "ollama 174,338⭐ 持续走热",
+      "AutoGPT 184,985⭐ 仍是标杆",
+      "browser-use 99,168⭐ 火爆",
+      "Dify 145,512⭐ 领跑 Agent 平台"
+    ],
+    "ai-web": [
+      "Claude Code 40 万会话研究",
+      "人规划，Claude 负责执行",
+      "专家越强，Claude 接手越多",
+      "TCS 与 Anthropic 合作落地",
+      "瞄准金融医疗等监管行业",
+      "OpenAI 新增 /deployment-simulation/"
+    ],
+    "ai-hn": [
+      "DeepSeek V4 Pro 仅 Claude 5%成本",
+      "GLM-5.2 开放权重受热议",
+      "Wolfram v15 加入 AI Assistant",
+      "Anthropic agentic coding 研究登场",
+      "Claude 服务故障成头条",
+      "OpenAI 巨亏与财务泄漏引争论"
+    ],
+    "ai-arxiv": [
+      "SoftMoE：可微路由替代 top-k",
+      "Small Initialization Matters",
+      "推理算力决定前沿评测表现",
+      "PreAct 让重复任务越做越快",
+      "StepGuard 强化网页导航校准",
+      "动态 Rollout 减少过度思考"
+    ],
+    "ai-community": [
+      "Sloan 误伤事件引爆讨论",
+      "公司 AI 误判低质量文章",
+      "BrowserAct 对比 Playwright",
+      "$0 Bug 竟烧掉 1800 美元",
+      "Context Layer 不能藏在模型里",
+      "模型更强也救不了陪伴产品"
+    ]
+  },
+  "en": {}
+}
