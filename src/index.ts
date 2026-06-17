@@ -72,7 +72,6 @@ import {
   markDevtoArticlesSeen,
   filterUnseenLobstersStories,
   markLobstersStoriesSeen,
-  cleanOldEntries,
 } from "./dedup.ts";
 
 // ---------------------------------------------------------------------------
@@ -357,16 +356,11 @@ async function main(): Promise<void> {
   // Cross-day dedup cache (SQLite): drop issues/PRs/releases/trending repos
   // already reported within the configured lookback window.
   const dedupDb = openDedupDb();
-  const itemDedupDays = parseInt(process.env["ITEM_DEDUP_DAYS"] ?? "30", 10);
-  const trendingDedupDays = parseInt(process.env["TRENDING_DEDUP_DAYS"] ?? "7", 10);
-  const hfDedupDays = parseInt(process.env["HF_DEDUP_DAYS"] ?? "7", 10);
-  const arxivDedupDays = parseInt(process.env["ARXIV_DEDUP_DAYS"] ?? "7", 10);
-  const communityDedupDays = parseInt(process.env["COMMUNITY_DEDUP_DAYS"] ?? "7", 10);
 
   for (const f of fetched) {
-    f.issues = filterUnseenItems(dedupDb, f.cfg.id, f.issues, itemDedupDays);
-    f.prs = filterUnseenItems(dedupDb, f.cfg.id, f.prs, itemDedupDays);
-    f.releases = filterUnseenReleases(dedupDb, f.cfg.id, f.releases, itemDedupDays);
+    f.issues = filterUnseenItems(dedupDb, f.cfg.id, f.issues);
+    f.prs = filterUnseenItems(dedupDb, f.cfg.id, f.prs);
+    f.releases = filterUnseenReleases(dedupDb, f.cfg.id, f.releases);
     markItemsSeen(dedupDb, f.cfg.id, [...f.issues, ...f.prs], dateStr);
     markReleasesSeen(dedupDb, f.cfg.id, f.releases, dateStr);
   }
@@ -383,44 +377,36 @@ async function main(): Promise<void> {
   // regenerating the report, leaving the failure placeholder as the final output.
   const filteredTrendingData: TrendingData = {
     ...trendingData,
-    trendingRepos: filterSeenRepos(dedupDb, trendingData.trendingRepos, "html", trendingDedupDays),
-    searchRepos: filterSeenRepos(dedupDb, trendingData.searchRepos, "search", trendingDedupDays),
+    trendingRepos: filterSeenRepos(dedupDb, trendingData.trendingRepos, "html"),
+    searchRepos: filterSeenRepos(dedupDb, trendingData.searchRepos, "search"),
   };
 
   // Deduplicate HF trending models: filter out models seen in the last N days, then mark today's batch
   const filteredHfData: HfData = {
     ...hfData,
-    models: filterUnseenHfModels(dedupDb, hfData.models, hfDedupDays),
+    models: filterUnseenHfModels(dedupDb, hfData.models),
   };
   markHfModelsSeen(dedupDb, filteredHfData.models, dateStr);
 
   // Deduplicate ArXiv papers: filter out papers seen in the last N days, then mark today's batch
   const filteredArxivData: ArxivData = {
     ...arxivData,
-    papers: filterUnseenArxivPapers(dedupDb, arxivData.papers, arxivDedupDays),
+    papers: filterUnseenArxivPapers(dedupDb, arxivData.papers),
   };
   markArxivPapersSeen(dedupDb, filteredArxivData.papers, dateStr);
 
   // Deduplicate Dev.to/Lobsters community posts: filter out posts seen in the last N days, then mark today's batch
   const filteredDevtoData: DevtoData = {
     ...devtoData,
-    articles: filterUnseenDevtoArticles(dedupDb, devtoData.articles, communityDedupDays),
+    articles: filterUnseenDevtoArticles(dedupDb, devtoData.articles),
   };
   markDevtoArticlesSeen(dedupDb, filteredDevtoData.articles, dateStr);
 
   const filteredLobstersData: LobstersData = {
     ...lobstersData,
-    stories: filterUnseenLobstersStories(dedupDb, lobstersData.stories, communityDedupDays),
+    stories: filterUnseenLobstersStories(dedupDb, lobstersData.stories),
   };
   markLobstersStoriesSeen(dedupDb, filteredLobstersData.stories, dateStr);
-
-  cleanOldEntries(dedupDb, {
-    repoDays: trendingDedupDays,
-    itemDays: itemDedupDays,
-    hfDays: hfDedupDays,
-    arxivDays: arxivDedupDays,
-    communityDays: communityDedupDays,
-  });
 
   // 2. Generate per-repo LLM summaries in parallel (zh + en simultaneously)
   console.log("  Generating summaries in ZH and EN in parallel...");
