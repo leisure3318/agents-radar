@@ -9,7 +9,6 @@ import fs from "node:fs";
 
 const DB_PATH = path.join("digests", "dedup.db");
 
-
 export function openDedupDb(): Database.Database {
   fs.mkdirSync(path.dirname(DB_PATH), { recursive: true });
   const db = new Database(DB_PATH);
@@ -101,9 +100,9 @@ export function filterUnseenItems<T extends { number: number }>(
   if (items.length === 0) return items;
   const seen = new Set(
     (
-      db
-        .prepare("SELECT item_number FROM seen_items WHERE repo_id = ?")
-        .all(repoId) as { item_number: number }[]
+      db.prepare("SELECT item_number FROM seen_items WHERE repo_id = ?").all(repoId) as {
+        item_number: number;
+      }[]
     ).map((r) => r.item_number),
   );
   return items.filter((i) => !seen.has(i.number));
@@ -139,9 +138,7 @@ export function filterUnseenReleases<T extends { tag_name: string }>(
   if (releases.length === 0) return releases;
   const seen = new Set(
     (
-      db
-        .prepare("SELECT tag_name FROM seen_releases WHERE repo_id = ?")
-        .all(repoId) as { tag_name: string }[]
+      db.prepare("SELECT tag_name FROM seen_releases WHERE repo_id = ?").all(repoId) as { tag_name: string }[]
     ).map((r) => r.tag_name),
   );
   return releases.filter((r) => !seen.has(r.tag_name));
@@ -169,10 +166,7 @@ export function markReleasesSeen(
 // ---------------------------------------------------------------------------
 
 /** Filter out HF models already seen (all-time). */
-export function filterUnseenHfModels<T extends { id: string }>(
-  db: Database.Database,
-  models: T[],
-): T[] {
+export function filterUnseenHfModels<T extends { id: string }>(db: Database.Database, models: T[]): T[] {
   if (models.length === 0) return models;
   const seen = new Set(
     (
@@ -205,10 +199,7 @@ export function markHfModelsSeen(db: Database.Database, models: { id: string }[]
 // ---------------------------------------------------------------------------
 
 /** Filter out ArXiv papers already seen (all-time). */
-export function filterUnseenArxivPapers<T extends { id: string }>(
-  db: Database.Database,
-  papers: T[],
-): T[] {
+export function filterUnseenArxivPapers<T extends { id: string }>(db: Database.Database, papers: T[]): T[] {
   if (papers.length === 0) return papers;
   const seen = new Set(
     (
@@ -315,4 +306,3 @@ export function markLobstersStoriesSeen(
   });
   insertMany(stories);
 }
-
