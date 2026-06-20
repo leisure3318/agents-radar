@@ -1,68 +1,52 @@
 {
   "zh": {
     "ai-cli": [
-      "Codex今日连发4个Rust alpha版",
-      "Gemini CLI与OpenCode各10PR",
-      "Claude Code聚焦会话稳定性",
-      "Copilot CLI更新到v1.0.64-1",
-      "MCP成CLI工具事实标准层",
-      "Agent工作流转向可编排可控"
+      "Claude Code 9 条 Issue 暴增",
+      "Codex 6 Issue + 4 PR",
+      "OpenCode 3 Issue 2 PR",
+      "Windows 兼容成焦点",
+      "会话恢复问题集中爆发",
+      "插件与 Hook 生态升温"
     ],
     "ai-agents": [
-      "OpenClaw单日45个PR更新",
-      "OpenClaw发布v2026.6.9-beta.1",
-      "Telegram富文本交付更强了",
-      "Feishu DM回复标签问题修复",
-      "OpenClaw聚焦跨平台兼容修补",
-      "17个PR已合并，28个待审"
+      "OpenClaw 30 个 PR 高活跃",
+      "5 个 Issue 聚焦稳定性",
+      "子代理路由字段已修复",
+      "测试盒复用安全加固",
+      "会话状态污染被追查",
+      "协议兼容与文档并进"
     ],
     "ai-trending": [
-      "headroom今日暴涨4005星",
-      "codebase-memory-mcp涨1058星",
-      "flue沙箱Agent框架热度升温",
-      "agent-native获147个新增星",
-      "synthetic-rag-index受关注",
-      "LlamaFactory仍是微调基建王"
+      "headroom 今日暴涨 +4005",
+      "codebase-memory-mcp +1058",
+      "flue 冲到 +309 stars",
+      "agent-native 引爆 Agent 框架",
+      "LlamaFactory 仍稳居 7.2 万星",
+      "LTX-2 推理包热度上升"
     ],
     "ai-web": [
-      "Anthropic在首尔开新办公室",
-      "Anthropic联手韩国AI生态",
-      "核安全分类器准确率达96%",
-      "40万Claude Code会话成研究证据",
-      "OpenAI聚焦ChatGPT企业控费",
-      "Health Intelligence和Life Sci Bench上线"
+      "Anthropic 首尔开办公室",
+      "韩国 AI 生态合作同步公布",
+      "核安全护栏研究落地",
+      "40 万 Claude Code 会话研究",
+      "OpenAI 推出 Life Sci Bench",
+      "ChatGPT 企业控费受关注"
     ],
     "ai-hn": [
-      "GPT-5.5幻觉率竟高3倍",
-      "Anthropic暂停Agent SDK按token计费",
-      "MiniMax M3对比GLM 5.2编程",
-      "GLM-5.2对决Claude Opus 4.8",
-      "Aikido Code Audit引发讨论",
-      "GLM-5.2网页设计击败Fable 5"
-    ],
-    "ai-arxiv": [
-      "LedgerAgent给工具调用加账本",
-      "AI代理概率验证更可落地",
-      "跨设备Agent分层恢复更稳",
-      "多Agent评估偏差会传染",
-      "MoE在分布漂移下要校准",
-      "鼠标和眼动可做对齐信号"
-    ],
-    "ai-hf": [
-      "GLM-5.2以1537赞领跑",
-      "GLM-5.2-FP8与GGUF同步升温",
-      "VibeThinker-3B获459赞",
-      "Qwable-v1图文模型走红",
-      "Qwable-3.6-27b下载超1.6万",
-      "Gemma 4 agentic版受追捧"
+      "John Jumper 加盟 Anthropic",
+      "Claude Agent SDK 暂停计费",
+      "Aikido Code Audit 引热议",
+      "MiniMax M3 对决 GLM 5.2",
+      "GLM-5.2 挑战 Claude Opus 4.8",
+      "白宫与 Anthropic 安全规则讨论"
     ],
     "ai-community": [
-      "AI写代码易，工程不易",
-      "AI摘要也要可追溯证据",
-      "Python MCP服务器实战教程",
-      "LLM网关讲路由和语义缓存",
-      "Kiro和Claude误解需求惹议",
-      "私有AI别让向量库偷看数据"
+      "KV cache 与 PagedAttention 热门",
+      "Agent 漂移监控受关注",
+      "发布说明自动化最吸睛",
+      "Graphiti 解决长期记忆",
+      "Docker 统一 AI 工作流",
+      "中文模型便宜 95% 引争议"
     ]
   },
   "en": {}
