@@ -1,0 +1,53 @@
+{
+  "zh": {
+    "ai-cli": [
+      "AI CLI重心转向稳定性",
+      "Claude Code发v2.1.185",
+      "OpenCode发v1.17.9",
+      "Qwen Code连发3个版本",
+      "Codex/OpenCode各10个PR",
+      "Gemini CLI认证链路告急"
+    ],
+    "ai-agents": [
+      "OpenClaw日增14 Issue/30 PR",
+      "OpenClaw发v2026.6.9",
+      "Telegram富文本交付升级",
+      "Slack/WebChat/Codex链路在修",
+      "PR#95428补测试计划",
+      "消息送达与会话一致性成焦点"
+    ],
+    "ai-trending": [
+      "mattpocock/skills今日+1395",
+      "Kilo-Org/kilocode今日+513",
+      "bytedance/deer-flow 72,033星",
+      "1jehuang/jcode：Coding Agent",
+      "Agent/Coding Agent成主线",
+      "语音AI与应用层持续升温"
+    ],
+    "ai-hn": [
+      "渗透测试模型 76分33评",
+      "Project Fetch Phase Two",
+      "Persona.js 10分12评",
+      "Callimachus查Agent历史",
+      "Maccha统一多Agent",
+      "AI讨论转向安全与成本"
+    ],
+    "ai-hf": [
+      "datalab-to/lift 87赞",
+      "lift瞄准PDF图文理解",
+      "LFM2.5-Embedding 6128下",
+      "350M轻量检索向量",
+      "ideogram LoRA 82赞",
+      "强底座+LoRA仍最热"
+    ],
+    "ai-community": [
+      "Claude Code花费$8,857",
+      "Nobody Knows Why It Said That",
+      "AI记忆应做成产品状态",
+      "Agent = Model x Harness",
+      "TraceroAI调试RAG",
+      "I Stopped Pretending..."
+    ]
+  },
+  "en": {}
+}
