@@ -1,4 +1,22 @@
 {
-  "zh": {},
-  "en": {}
+  "zh": {
+    "ai-weekly": [
+      "Claude Code 40万会话研究出炉",
+      "Anthropic押注安全与监管行业",
+      "OpenAI露出企业部署信号",
+      "AI CLI集体补稳定性与兼容",
+      "OpenClaw v2026.6.8高频修复",
+      "GitHub热榜转向Agent与记忆"
+    ]
+  },
+  "en": {
+    "ai-weekly": [
+      "Anthropic studied 400k Claude Code sessions",
+      "Claude Code is used for end-to-end work",
+      "TCS will roll out Claude to 50k employees",
+      "CLI tools focused on recovery and correctness",
+      "OpenClaw v2026.6.8 improved rendering",
+      "Trending: headroom and codebase-memory-mcp"
+    ]
+  }
 }
