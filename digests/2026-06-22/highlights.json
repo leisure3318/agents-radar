@@ -1,0 +1,61 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Codex高强度迭代",
+      "OpenCode安全修复并进",
+      "Qwen Code发稳定版+nightly",
+      "DeepSeek TUI推v0.8.63",
+      "Claude Code聚焦MCP和成本",
+      "Pi盯上下文与扩展API"
+    ],
+    "ai-agents": [
+      "OpenClaw发v2026.6.10-beta.1",
+      "会话状态恢复更稳",
+      "失败回退成修复重点",
+      "记忆迁移问题被追踪",
+      "Prompt缓存稳定性待打磨",
+      "长会话回放需重点回归"
+    ],
+    "ai-trending": [
+      "Anthropic安全技能+361星",
+      "system_prompts_leaks+282星",
+      "自建ChatGPT教程再走红",
+      "Qelm探索量子增强LLM",
+      "Agent安全成新基础设施",
+      "模型黑盒拆解热度高"
+    ],
+    "ai-web": [
+      "Anthropic官网今日无新增",
+      "OpenAI仅增1条元数据",
+      "路径含Samsung Electronics",
+      "URL含ChatGPT和Codex",
+      "页面关键词含deployment",
+      "企业落地信号仍在显现"
+    ],
+    "ai-hn": [
+      "Apertus主权AI拿198分",
+      "本地微调Qwen 0.6B受捧",
+      "DeepMind谈Agent安全",
+      "Recall做Claude Code本地记忆",
+      "LLM-as-judge遭反讽",
+      "AI治理和监管讨论升温"
+    ],
+    "ai-hf": [
+      "Qwen3.6-35B-A3B获2197赞",
+      "该模型下载破514万",
+      "Laguna-M.1获83赞",
+      "支持vLLM和SGLang",
+      "Boogu图像编辑模型上线",
+      "图像编辑本地化受关注"
+    ],
+    "ai-community": [
+      "15个AI故事讲真实教训",
+      "判断力成AI开发瓶颈",
+      "Vibe coding是坐标",
+      "别让LLM决定权限",
+      "从提问走向Agent编排",
+      "记忆Agent最难学会忘记"
+    ]
+  },
+  "en": {}
+}
