@@ -1,0 +1,61 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code 升级到 v2.1.186",
+      "Codex Rust版更新到 v0.142.0",
+      "Gemini CLI 紧修 SIGINT/tool call",
+      "Copilot CLI 连发 v1.0.64 双版",
+      "OpenCode 深修 provider 队列",
+      "Qwen Code 盯重复 shell 结果"
+    ],
+    "ai-agents": [
+      "OpenClaw 日更45 Issues、24 PRs",
+      "发布 v2026.6.10-beta.2",
+      "短对话自动启用 fast mode",
+      "模型路由稳定性再升级",
+      "会话锁死、消息丢失成焦点",
+      "密钥泄露风险被重点警示"
+    ],
+    "ai-trending": [
+      "gstack 今日狂飙 +573 星",
+      "AirLLM 主打4GB跑70B模型",
+      "claude-context 让Claude读全仓库",
+      "headroom 先压缩再喂给LLM",
+      "hyperframes 把HTML渲成视频",
+      "DeepSeek-Reasonix 已获23,872星"
+    ],
+    "ai-web": [
+      "400万? Claude Code 会话研究",
+      "人类负责规划，Claude负责执行",
+      "调试占比在观察期近乎腰斩",
+      "Gates基金会合作总额2亿美元",
+      "资金投向全球健康与教育",
+      "OpenAI 今日仅新增index页"
+    ],
+    "ai-hn": [
+      "Codex日志Bug可能写爆SSD",
+      "Claude Code思维链真实性争议",
+      "本地跑GLM-5.2热议163分",
+      "GLM-5.2代理任务评测受关注",
+      "Selector Forge：稳健选择器工具",
+      "HN聚焦可靠性、隐私与可控性"
+    ],
+    "ai-hf": [
+      "baidu/Unlimited-OCR 以169赞登顶",
+      "OCR+文档理解继续升温",
+      "Qwythos-9B-Claude-Mythos-5-1M获127赞",
+      "Qwen系社区衍生模型受追捧",
+      "LFM2.5-ColBERT-350M下载2202次",
+      "检索与RAG基础设施仍火热"
+    ],
+    "ai-community": [
+      "最热：The Principle of Least AI",
+      "RAG幻觉排查成高频话题",
+      "Agent安全与提示注入被热议",
+      "Trust Isn't a Scalar引发讨论",
+      "AI成本失控成开发者痛点",
+      "本地化部署与可观测性升温"
+    ]
+  },
+  "en": {}
+}
