@@ -1,68 +1,60 @@
 {
   "zh": {
     "ai-cli": [
-      "Claude Code v2.1.187发布",
-      "Copilot CLI v1.0.64发布",
-      "Codex 10个Issue/10个PR",
-      "Codex连更6个alpha版",
-      "Pi连发v0.80.0-0.80.2",
-      "Qwen Code稳/预/夜三线"
+      "Codex 10 Issue、6 PR、2 Release",
+      "OpenCode 11 PR，工程活跃度最高",
+      "Claude Code 盯子 Agent 与中断失效",
+      "Qwen Code 处理 clientId 过期自愈",
+      "Copilot CLI 认证过了，session 仍失败",
+      "Gemini CLI 连发 2 次 Release"
     ],
     "ai-agents": [
-      "OpenClaw今增53议题/27PR",
-      "修复GEMINI_API_KEY明文",
-      "审批回调路由修复",
-      "status补全fallback model",
-      "wiki前置YAML更容错",
-      "SW更新后不再卡刷新"
+      "OpenClaw 8 Issue、27 PR 高强度迭代",
+      "v2026.6.10 加入自动 fast mode",
+      "短对话自动提速，长任务回落",
+      "模型路由再加固，切换更可靠",
+      "今日 2 个 PR 已闭环，Issue 未清",
+      "Talk 场景更重低延迟与稳态"
     ],
     "ai-trending": [
-      "官方Claude插件目录+77",
-      "best-practice仓+344",
-      "harness涨星128",
-      "Gemma 4衍生款再热",
-      "ML-For-Beginners 8.7万星",
-      "焦点转向agent编排"
+      "Claude plugins 官方目录今日+77 星",
+      "best-practice 仓库今日 +344 星",
+      "harness 聚焦 agent team 设计",
+      "Claude Code 生态成今日主线",
+      "ML-For-Beginners 仍有 8.7 万星",
+      "Agent 编排与技能生成升温"
     ],
     "ai-web": [
-      "Claude Tag登陆Slack",
-      "可@Claude直接派任务",
-      "接入工具数据和代码库",
-      "会记住频道上下文",
-      "还能为未来任务做计划",
-      "内部已写65%代码"
+      "Claude Tag 首发 Slack 团队协作",
+      "可用 @Claude 直接委派任务",
+      "Claude 会记住频道上下文",
+      "还能连工具、数据和代码库",
+      "Anthropic 把它当 Claude Code 演进",
+      "内部已覆盖 65% 代码创建"
     ],
     "ai-hn": [
-      "OpenAI DayBreak 204分",
-      "Claude故障204分/252评",
-      "AI安全叙事再升温",
-      "Halo做agent trace调试",
-      "AnswerJournal做MCP存储",
-      "Flama CLI极简LLM服务"
+      "Claude Tag HN 237 分、162 评论",
+      "Claude 故障帖 205 分、253 评论",
+      "代理安全要看 composition graph",
+      "Halo 做 AI agent 本地调试",
+      "AnswerJournal 专存 AI 回答",
+      "Corelayer0 让 OpenAPI 变 MCP"
     ],
     "ai-arxiv": [
-      "Randomized YaRN提长泛化",
-      "Tapered LM改层配置",
-      "AIR把代码织入推理",
-      "SPIRAL学会搜与聚合",
-      "TriggerBench测前瞻记忆",
-      "评测意识不等于单能力"
-    ],
-    "ai-hf": [
-      "Gemma 4衍生款112赞",
-      "Huihui模型下载3320",
-      "coder/composer再加工",
-      "Krea-2-Turbo获82赞",
-      "图像生成转向Turbo化",
-      "ComfyUI生态资产上榜"
+      "Posterior Refinement 提速任意序生成",
+      "DREAM 学 dense retriever embedding",
+      "Grad Detect 用梯度抓幻觉",
+      "Agent-native memory system 综述",
+      "SAFARI 追踪长程 agent 故障",
+      "Qwen-AgentWorld 做通用语言世界模型"
     ],
     "ai-community": [
-      "AI代码最后20%最耗时",
-      "Agents会写不会记",
-      "先写Eval再做AI功能",
-      "Agent权限被自己黑",
-      "便宜模型未必差",
-      "Demo别急上生产"
+      "Coding Agents 逼人重视 Specs",
+      "Cosmos DB 让 embeddings 保持同步",
+      "CLAUDE.md 也挡不住 WordPress 拒稿",
+      "AI 开发从演示转向生产",
+      "规格、约束、测试成新三件套",
+      "开发者开始严肃对待工程纪律"
     ]
   },
   "en": {}
