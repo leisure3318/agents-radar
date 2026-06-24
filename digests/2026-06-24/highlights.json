@@ -1,0 +1,69 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.187发布",
+      "Copilot CLI v1.0.64发布",
+      "Codex 10个Issue/10个PR",
+      "Codex连更6个alpha版",
+      "Pi连发v0.80.0-0.80.2",
+      "Qwen Code稳/预/夜三线"
+    ],
+    "ai-agents": [
+      "OpenClaw今增53议题/27PR",
+      "修复GEMINI_API_KEY明文",
+      "审批回调路由修复",
+      "status补全fallback model",
+      "wiki前置YAML更容错",
+      "SW更新后不再卡刷新"
+    ],
+    "ai-trending": [
+      "官方Claude插件目录+77",
+      "best-practice仓+344",
+      "harness涨星128",
+      "Gemma 4衍生款再热",
+      "ML-For-Beginners 8.7万星",
+      "焦点转向agent编排"
+    ],
+    "ai-web": [
+      "Claude Tag登陆Slack",
+      "可@Claude直接派任务",
+      "接入工具数据和代码库",
+      "会记住频道上下文",
+      "还能为未来任务做计划",
+      "内部已写65%代码"
+    ],
+    "ai-hn": [
+      "OpenAI DayBreak 204分",
+      "Claude故障204分/252评",
+      "AI安全叙事再升温",
+      "Halo做agent trace调试",
+      "AnswerJournal做MCP存储",
+      "Flama CLI极简LLM服务"
+    ],
+    "ai-arxiv": [
+      "Randomized YaRN提长泛化",
+      "Tapered LM改层配置",
+      "AIR把代码织入推理",
+      "SPIRAL学会搜与聚合",
+      "TriggerBench测前瞻记忆",
+      "评测意识不等于单能力"
+    ],
+    "ai-hf": [
+      "Gemma 4衍生款112赞",
+      "Huihui模型下载3320",
+      "coder/composer再加工",
+      "Krea-2-Turbo获82赞",
+      "图像生成转向Turbo化",
+      "ComfyUI生态资产上榜"
+    ],
+    "ai-community": [
+      "AI代码最后20%最耗时",
+      "Agents会写不会记",
+      "先写Eval再做AI功能",
+      "Agent权限被自己黑",
+      "便宜模型未必差",
+      "Demo别急上生产"
+    ]
+  },
+  "en": {}
+}
