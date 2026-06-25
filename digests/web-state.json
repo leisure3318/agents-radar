@@ -1,6 +1,6 @@
 {
   "anthropic": {
-    "lastChecked": "2026-06-25T01:34:59.693Z",
+    "lastChecked": "2026-06-25T03:48:40.668Z",
     "seenUrls": {
       "https://www.anthropic.com/news/responsible-scaling-policy-v3": "2026-02-25T23:57:06.000Z",
       "https://www.anthropic.com/research/deprecation-updates-opus-3": "2026-02-25T20:58:11.000Z",
@@ -408,7 +408,7 @@
     }
   },
   "openai": {
-    "lastChecked": "2026-06-25T01:34:59.136Z",
+    "lastChecked": "2026-06-25T03:48:41.780Z",
     "seenUrls": {
       "https://openai.com/index/arvind-kc-chief-people-officer/": "2026-05-29T00:25:33.242Z",
       "https://openai.com/index/put-ai-to-work-for-your-product-team/": "2026-06-12T04:05:36.713Z",
@@ -892,7 +892,7 @@
       "https://openai.com/index/gartner-2025-emerging-leader/": "2026-06-08T07:32:40.882Z",
       "https://openai.com/index/gpt-5-1-for-developers/": "2026-06-09T20:53:17.363Z",
       "https://openai.com/index/dall-e-3/": "2026-06-08T07:47:21.242Z",
-      "https://openai.com/devday/": "2026-06-25T00:45:04.499Z",
+      "https://openai.com/devday/": "2026-06-25T03:32:30.873Z",
       "https://openai.com/index/introducing-gpt-realtime/": "2026-05-22T19:18:36.512Z",
       "https://openai.com/index/introducing-gpt-oss-safeguard/": "2026-06-14T07:22:19.093Z",
       "https://openai.com/index/introducing-agentkit/": "2026-06-05T12:39:25.601Z",
@@ -1050,7 +1050,7 @@
       "https://openai.com/index/safety-bug-bounty/": "2026-06-05T07:45:12.750Z",
       "https://openai.com/index/our-approach-to-the-model-spec/": "2026-06-19T05:06:48.584Z",
       "https://openai.com/index/accelerating-the-next-phase-ai/": "2026-06-02T12:48:39.113Z",
-      "https://openai.com/index/codex-flexible-pricing-for-teams/": "2026-06-25T01:01:23.834Z",
+      "https://openai.com/index/codex-flexible-pricing-for-teams/": "2026-06-25T02:51:14.683Z",
       "https://openai.com/index/openai-acquires-tbpn/": "2026-06-04T12:18:51.883Z",
       "https://openai.com/index/introducing-openai-safety-fellowship/": "2026-06-12T04:56:53.422Z",
       "https://openai.com/index/next-phase-of-enterprise-ai/": "2026-05-29T00:25:12.093Z",

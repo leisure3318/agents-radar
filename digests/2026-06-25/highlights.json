@@ -1,4 +1,61 @@
 {
-  "zh": {},
+  "zh": {
+    "ai-cli": [
+      "Claude Code 18 条 Issue 最热",
+      "OpenCode 10 Issue 10 PR 并进",
+      "Codex 发 rust-v0.143.0-alpha.16",
+      "Gemini CLI 夜版 v0.49.0 更新",
+      "Qwen Code 2 Issue 6 PR 迭代中",
+      "配额与跨平台成共同焦点"
+    ],
+    "ai-agents": [
+      "OpenClaw 24 小时 39 条 PR",
+      "10 条 Issue 指向稳定性",
+      "36 个待合并 PR 积压",
+      "#96646 修复 Google Chat 误判",
+      "浏览器插件懒加载崩溃修复",
+      "Cron 与多通道消息一致性修复"
+    ],
+    "ai-trending": [
+      "design.md 今日暴涨 +619 stars",
+      "orca 今日新增 +331 stars",
+      "hiring-agent 今日 +203 stars",
+      "Agent 编排成今日主热点",
+      "coding agents 规范受追捧",
+      "faceswap 仍有稳定需求"
+    ],
+    "ai-web": [
+      "核安全分类器准确率达 96%",
+      "已接入 Claude 真实流量",
+      "联手 DOE/NNSA/国家实验室",
+      "8.1 万用户谈 AI 经济影响",
+      "早期职业群体焦虑更高",
+      "OpenAI 今日仅增索引页"
+    ],
+    "ai-hn": [
+      "Codex 被指狂写 SSD",
+      "LLM 代码风格牵动 token 成本",
+      "harness 中间件 hooks 引热议",
+      "安全神经元层定位代码漏洞",
+      "Claude Fable 引发世界模型讨论",
+      "算力与基础设施成主线"
+    ],
+    "ai-arxiv": [
+      "自蒸馏提分却降多样性",
+      "多模态模型对顺序超敏感",
+      "实时语音会“听懂却不懂”",
+      "多步工具 RL 容易崩塌",
+      "ERC-8004 智能体可托付吗",
+      "形式思维织入代码生成"
+    ],
+    "ai-community": [
+      "Prompt Engineering 仍不会消失",
+      "Evals 不可复现成痛点",
+      "AI 代码评论器拒用 AST",
+      "Flow 开始 OCaml 转 Rust",
+      "社区更看重可控可维护",
+      "AI 工程化话题升温"
+    ]
+  },
   "en": {}
 }

@@ -1,16 +1,15 @@
 # ArXiv AI 研究日报 2026-06-25
 
-> 数据来源: [ArXiv](https://arxiv.org/) (cs.AI, cs.CL, cs.LG) | 共 50 篇论文 | 生成时间: 2026-06-25 01:34 UTC
+> 数据来源: [ArXiv](https://arxiv.org/) (cs.AI, cs.CL, cs.LG) | 共 49 篇论文 | 生成时间: 2026-06-25 03:48 UTC
 
 ---
 
 # ArXiv AI 研究日报（2026-06-25）
 
 ## 1) 今日速览
-今天的论文主线很清晰：**LLM 的可靠性评估与对齐**继续升温，从拒答对齐、安全判别到量化后推理退化，研究重点正从“能否回答”转向“是否稳定、可控、可部署”。  
-第二条主线是**智能体系统的真实环境鲁棒性**，包括工具环境不可靠、GUI 敏感界面、长程 RL 的语义一致性和 bisimulation/反事实估计等问题。  
-第三条主线是**低成本与效率优化**：稀疏 MoE 路由、低比特嵌入、优化问题小样本建模，表明“更强”正在与“更省”同步推进。  
-应用层面则集中在**医疗、多模态、RAG 安全和软件工程**，强调可解释、可审计和面向真实工作流的落地价值。
+今天的论文明显聚焦在 **智能体能力与安全** 两条主线：一方面，工具使用、强化学习、自治数据生成等方向继续加速，研究者开始关注“性能提升是否伴随模式塌缩、输出多样性下降”。另一方面，AI 安全从“检测异常行为”进一步走向 **运行时隔离、模型取证、可验证信任层**，说明行业正在从事后评估转向系统级防护。  
+与此同时，**多模态鲁棒性与评测细化** 成为热点，包括排序敏感性、OCR 退化鲁棒性、多视图推理等，反映出“分数高不等于可靠”的共识正在强化。  
+应用侧则出现了不少高价值落地：机器人操作、语音对话、低资源语言、医学风险分层、工业焊接与水下识别等，显示 AI 正持续向复杂真实场景渗透。  
 
 ---
 
@@ -18,103 +17,98 @@
 
 ### 🧠 大语言模型（架构、训练、对齐、评估）
 
-1. **[SARA: Unlocking Multilingual Knowledge in Mixture-of-Experts via Semantically Anchored Routing Alignment](http://arxiv.org/abs/2606.25821v1)**  
-   作者：Tianyu Dong 等  
-   一句话：通过“语义锚定”的路由对齐提升 MoE 对低资源语言的知识激活，值得关注于多语种模型的稀疏路由优化。
+1. **[On-Policy Self-Distillation with Sampled Demonstrations Reduces Output Diversity](http://arxiv.org/abs/2606.26091v1)**  
+   作者：Nicolicioiu, Pezeshki, Courville  
+   一句话：揭示 on-policy self-distillation 虽能提升 pass@1，但会显著压缩输出多样性，是对“高分不一定更稳健”的重要警示。
 
-2. **[Do Encoders Suffice? A Systematic Comparison of Encoder and Decoder Safety Judges for LLM Adversarial Evaluation](http://arxiv.org/abs/2606.25782v1)**  
-   作者：Han Jeon 等  
-   一句话：系统比较编码器式与解码器式安全判别器，直接回答“低成本安全评估是否必须依赖大解码器”的关键问题。
+2. **[Same Evidence, Different Answer: Auditing Order Sensitivity in Multimodal Large Language Models](http://arxiv.org/abs/2606.26079v1)**  
+   作者：Paruchuri, Koyejo, Adeli  
+   一句话：提出 Facet-Probe 审计框架，系统测试多模态模型对输入顺序的敏感性，补上了传统单点评测忽略的可靠性漏洞。
 
-3. **[RAS: Measuring LLM Safety Through Refusal Alignment](http://arxiv.org/abs/2606.25750v1)**  
-   作者：Chang-Chieh Huang 等  
-   一句话：把安全评估从“输出是否违规”推进到“拒答是否对齐”，为更稳健、更便宜的安全度量提供了新视角。
+3. **[Real-Time Voice AI Hears but Does Not Listen](http://arxiv.org/abs/2606.26083v1)**  
+   作者：Bartelds, Bianchi, Zou  
+   一句话：对主流实时语音系统做“词义 vs 语调”联合评测，显示很多系统能听懂字面却未真正理解说话方式中的情绪与态度。
 
-4. **[BitNet Text Embeddings](http://arxiv.org/abs/2606.25674v1)**  
-   作者：Zhen Li 等  
-   一句话：面向检索的文本嵌入压缩方案，目标是在保持语义质量的同时显著降低推理、存储和带宽成本。
-
-5. **[Quantization Inflates Reasoning: Token Inflation as a Hidden Cost of Low-Bit Reasoning Models](http://arxiv.org/abs/2606.25519v1)**  
-   作者：Xinyu Lian 等  
-   一句话：指出低比特量化不仅影响准确率，还会显著增加推理 token 消耗，是量化模型“隐性算力成本”的重要提醒。
+4. **[Weave of Formal Thought](http://arxiv.org/abs/2606.25987v1)**  
+   作者：Bouayad  
+   一句话：把语法结构显式织入 LLM 的代码生成/形式化思维流程，指向“结构约束 + 生成”而非纯 prompt 的新路线。
 
 ---
 
 ### 🤖 智能体与推理（规划、工具使用、多智能体、思维链）
 
-6. **[Semantic Consistency Policy Optimization for Reinforcement Learning of LLM Agents](http://arxiv.org/abs/2606.25852v1)**  
-   作者：Peng Xu 等  
-   一句话：用“语义一致性”修正长程 RL 中步骤级信用分配的不稳定问题，提升 agent 推理的训练信号质量。
+5. **[Why Multi-Step Tool-Use Reinforcement Learning Collapses and How Supervisory Signals Fix It](http://arxiv.org/abs/2606.26027v1)**  
+   作者：Hao, Jin, Liao et al.  
+   一句话：解释多步工具使用 RL 为什么容易训练崩塌，并指出监督信号能显著稳定学习，是 agentic RL 的关键机制论文。
 
-7. **[Beyond Function Calling: Benchmarking Tool-Using Agents under Tool-Environment Unreliability](http://arxiv.org/abs/2606.25819v1)**  
-   作者：Yang Tian 等  
-   一句话：将工具环境中的失败、噪声与不可信纳入评测，推动 tool-use benchmark 从理想环境走向真实世界。
+6. **[Neglected Free Lunch from Post-training: Progress Advantage for LLM Agents](http://arxiv.org/abs/2606.26080v1)**  
+   作者：Oh, Li, Park et al.  
+   一句话：从 agent 任务的过程奖励难题切入，强调后训练中被忽视的“进展优势”，适合关注长时序智能体优化的人阅读。
 
-8. **[BiPACE: Bisimulation-Guided Policy Optimization with Action Counterfactual Estimation for LLM Agents](http://arxiv.org/abs/2606.25556v1)**  
-   作者：Hanyang Wang 等  
-   一句话：结合 bisimulation 与动作反事实估计，缓解长程 agent RL 中“比较对象不等价”的核心偏差。
+7. **[Can Trustless Agents Be Trusted? An Empirical Study of the ERC-8004 Decentralized AI Agent Ecosystem](http://arxiv.org/abs/2606.26028v1)**  
+   作者：Xiong, Li, Wei et al.  
+   一句话：把智能体协作放到去中心化信任层 ERC-8004 里实证评估，讨论“无中心信任”系统是否真的可信。
 
-9. **[GUI agent: Guided Exploration of User-Sensitive Screens](http://arxiv.org/abs/2606.25705v1)**  
-   作者：Aradhana Nayak 等  
-   一句话：聚焦带敏感信息的 GUI 页面，研究 agent 如何在必要时交还控制权，强调“安全接管”这一现实部署痛点。
-
-10. **[Cliff Tokens: Identifying Single-Token Failure Triggers in LLM Mathematical Reasoning](http://arxiv.org/abs/2606.25524v1)**  
-    作者：Jaeyong Ko 等  
-    一句话：定位数学推理中“单 token 致命触发点”，有助于理解模型为什么会从正确轨迹突然跌落。
+8. **[Autodata: An agentic data scientist to create high quality synthetic data](http://arxiv.org/abs/2606.25996v1)**  
+   作者：Kulikov, Whitehouse, Wu et al.  
+   一句话：让 agent 扮演“数据科学家”自动生成高质量合成数据，体现智能体从执行者走向数据生产者的趋势。
 
 ---
 
 ### 🔧 方法与框架（新技术、基准测试、效率优化）
 
-11. **[Is GraphRAG Needed? From Basic RAG to Graph-/Agentic Solutions with Context Optimization](http://arxiv.org/abs/2606.25656v1)**  
-    作者：Long Chen 等  
-    一句话：系统比较基础 RAG、GraphRAG、Modular RAG 与 Agentic RAG，回答“什么时候真的需要更复杂的 RAG”这一实践问题。
+9. **[The Unfireable Safety Kernel: Execution-Time AI Alignment for AI Agents and Other Escapable AI Systems](http://arxiv.org/abs/2606.26057v1)**  
+   作者：Dobrin, Chmiel  
+   一句话：提出运行时安全内核思路，把控制从 agent 自身地址空间外移，强化“不可被 agent 关闭”的安全边界。
 
-12. **[Security and Privacy in Retrieval-Augmented Generation: Architectures, Threats, Defenses, and Future Directions for Building Trustworthy Systems](http://arxiv.org/abs/2606.25533v1)**  
-    作者：Balamurugan Palanisamy 等  
-    一句话：面向 RAG 的安全与隐私综述，覆盖架构、威胁与防御，适合把 RAG 从“可用”推进到“可信”的读者精读。
+10. **[Model Forensics: Investigating Whether Concerning Behavior Reflects Misalignment](http://arxiv.org/abs/2606.26071v1)**  
+    作者：Singh, Kroiz, Rajamanoharan et al.  
+    一句话：强调“有问题的行为不等于错位”，将安全研究推进到模型取证层面，帮助区分误触发、混淆与真实失配。
+
+11. **[Tensorion: A Tensor-Aware Generalization of the Muon Optimizer](http://arxiv.org/abs/2606.25975v1)**  
+    作者：Bogachev, Aletov, Molozhavenko et al.  
+    一句话：把优化器从“向量视角”升级到“张量结构感知”，为大模型训练中的结构化参数更新提供新工具。
+
+12. **[When Does Synthetic Data Augmentation Improve Score-Based Imbalanced Classification?](http://arxiv.org/abs/2606.26053v1)**  
+    作者：Ma, Lyu, Zhang  
+    一句话：给出合成少数类增强何时有效的理论边界，适合关注数据增强“何时真有用”的读者。
 
 ---
 
 ### 📊 应用（垂直领域、多模态、代码生成）
 
-13. **[Enhancing Brain MRI Anomaly Detection and Reasoning with ROI Rethink and Synthetic Data](http://arxiv.org/abs/2606.25894v1)**  
-    作者：Shangkun Li 等  
-    一句话：将 ROI 级重思考与合成数据结合到脑 MRI 异常检测中，强调可审计的空间依据和临床可用性。
+13. **[Learning Action Priors for Cross-embodiment Robot Manipulation](http://arxiv.org/abs/2606.26095v1)**  
+    作者：Jing, Zhang, Liu et al.  
+    一句话：面向跨本体机器人操作学习动作先验，解决“不同机器人身体结构不同、动作知识难迁移”的核心痛点。
 
-14. **[OncoSynth: Synthetic data generation for treatment effect estimation in oncology](http://arxiv.org/abs/2606.25762v1)**  
-    作者：Octavia-Andreea Ciora 等  
-    一句话：面向肿瘤治疗效应估计的合成数据生成，重点在保留因果关系而不只是表面分布相似。
+14. **[How Robust is OCR-Reasoning? Evaluating OCR-Reasoning Robustness of Vision-Language Models under Visual Perturbations](http://arxiv.org/abs/2606.26041v1)**  
+    作者：Cheng, Wu, Chang  
+    一句话：专门测 OCR 推理在视觉扰动下的稳定性，指出视觉文字理解远没有标准榜单显示得那么稳。
 
-15. **[Evaluating LLMs on Real-World Software Performance Optimization](http://arxiv.org/abs/2606.25530v1)**  
-    作者：Ezgi Sarıkayak 等  
-    一句话：把 LLM 代码优化带回真实代码库与真实性能约束，补齐“只会写样例、不懂工程优化”的评测缺口。
+15. **[AI translation of literary texts is "fine", but readers still prefer human translations](http://arxiv.org/abs/2606.26040v1)**  
+    作者：Ferstler, Podoxin, Brassington et al.  
+    一句话：从读者体验而非自动指标出发评估文学翻译，提醒“可用”与“有文学性”并不等价。
 
-16. **[STEB: A Speech-to-Speech Translation Expressiveness Benchmark for Evaluating Beyond Translation Fidelity](http://arxiv.org/abs/2606.25529v1)**  
-    作者：Sitong Cheng 等  
-    一句话：把语音翻译评测从“忠实翻译”扩展到情绪、风格和非语言声音，更符合真实交互场景。
+16. **[SpeechEQ: Benchmarking Emotional Intelligence Quotient in Socially Aware Voice Conversational Models](http://arxiv.org/abs/2606.25990v1)**  
+    作者：Wu, Chen, Wu et al.  
+    一句话：把语音对话模型的情商纳入系统评测，补齐“能对话”之外的社交理解能力短板。
 
 ---
 
 ## 3) 研究趋势信号
-今天的投稿明显呈现“**可靠性优先**”与“**真实约束优先**”两条线：一方面，安全拒答、RAG 防护、工具不可靠、GUI 敏感界面等问题被系统化处理；另一方面，量化成本、嵌入压缩、稀疏路由和低资源建模持续升温。研究重心正在从单纯追求 benchmark 分数，转向在噪声、成本、隐私和可审计性约束下的稳定性能。
+今日投稿显示，AI 正从“单点能力提升”转向“可控、可证、可审计”的系统工程：工具使用 RL、自治数据生成、去中心化信任层、运行时安全内核等，说明智能体时代的核心问题已从会不会做，变成能否稳定、可信、不可逃逸。同时，多模态与语音评测开始强调顺序敏感、情绪理解、视觉扰动鲁棒性，反映出 benchmark 正在向真实世界复杂性靠拢。
 
 ---
 
 ## 4) 值得精读
-1. **[Security and Privacy in Retrieval-Augmented Generation](http://arxiv.org/abs/2606.25533v1)**  
-   理由：如果你在做 RAG 或企业知识问答，这篇最接近“系统级安全地图”，适合建立威胁模型与防御框架。
+1. **[Why Multi-Step Tool-Use Reinforcement Learning Collapses and How Supervisory Signals Fix It](http://arxiv.org/abs/2606.26027v1)**  
+   理由：直接命中当前 agent RL 的核心瓶颈，兼具现象解释与方法修复，实用价值高。
 
-2. **[Quantization Inflates Reasoning](http://arxiv.org/abs/2606.25519v1)**  
-   理由：它指出低比特模型的一个常被忽视的成本——推理 token 膨胀，对部署决策非常关键。
+2. **[The Unfireable Safety Kernel: Execution-Time AI Alignment for AI Agents and Other Escapable AI Systems](http://arxiv.org/abs/2606.26057v1)**  
+   理由：把安全控制从“模型内部”提升到“系统运行时”，对真实部署场景非常关键。
 
-3. **[Semantic Consistency Policy Optimization for RL of LLM Agents](http://arxiv.org/abs/2606.25852v1)**  
-   理由：这篇直接切中 agent 长程 RL 的训练痛点，方法论对后续 agent 对齐和信用分配研究很有参考价值。  
-
-如果你愿意，我可以把这份日报进一步整理成：
-- **“适合管理层阅读的一页版”**
-- **“研究员版：按方向加深解读”**
-- **“可直接发公众号/Notion 的排版版”**
+3. **[Same Evidence, Different Answer: Auditing Order Sensitivity in Multimodal Large Language Models](http://arxiv.org/abs/2606.26079v1)**  
+   理由：评测视角新、问题典型，能帮助理解多模态模型为何在现实中表现不稳定。
 
 ---
 *本日报由 [agents-radar](https://github.com/leisure3318/agents-radar) 自动生成。*
