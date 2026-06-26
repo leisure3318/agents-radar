@@ -1,0 +1,69 @@
+{
+  "zh": {
+    "ai-cli": [
+      "OpenAI Codex 10个PR齐发",
+      "Gemini CLI升至v0.50.0-preview.1",
+      "OpenCode发版v1.17.11",
+      "Claude Code推v2.1.193",
+      "Copilot CLI堆积10个Issue",
+      "DeepSeek TUI有10个PR修复"
+    ],
+    "ai-agents": [
+      "OpenClaw今日7个Issue",
+      "OpenClaw拉来25个PR",
+      "OpenClaw暂无线下发版",
+      "bootstrap路径误判已修复",
+      "OpenAI兼容tool call修正",
+      "fuzzy edit误改问题修复"
+    ],
+    "ai-trending": [
+      "MinerU单日暴涨+644星",
+      "page-agent今日+163星",
+      "ai-berkshire今日+309星",
+      "AWS Agent Toolkit+47星",
+      "face_recognition仍超5.6万星",
+      "mxcp瞄准企业上下文协议"
+    ],
+    "ai-web": [
+      "Anthropic今日零新增",
+      "OpenAI新增Agents工作页",
+      "路径指向index主题页",
+      "标题是How Agents Are Transforming Work",
+      "发布日期为2026-06-25",
+      "仅有元数据暂无正文"
+    ],
+    "ai-hn": [
+      "OpenKnowledge冲到202分",
+      "OpenAI广告化引发争议",
+      "OpenAI IPO延后受关注",
+      "中国模型差距继续缩小",
+      "DeepSeek Flash重塑Agent成本",
+      "JSON mode结构化输出被质疑"
+    ],
+    "ai-arxiv": [
+      "Ask, Don't Judge更可解释",
+      "Intent-Aware训练提安全",
+      "Feature Steering提升泛化",
+      "Semantic Early-Stopping省算力",
+      "OpenRCA 2.0做因果监督",
+      "NuclearQAv2核工程基准"
+    ],
+    "ai-hf": [
+      "Qwen3.6-35B-A3B-NVFP4获341赞",
+      "Qwen3.6下载破460万",
+      "Gemma4-12B-QAT-Uncensored上榜",
+      "Gemma4变体获1.5万下载",
+      "DeepSeek-v4-Fable瞄准安全",
+      "Ornith-1.0-35B-GGUF本地友好"
+    ],
+    "ai-community": [
+      "Thinking Engineer Toolkit上线",
+      "不让LLM直接分邮件",
+      "AI应用先烧出AWS账单",
+      "给AI Agent造虚拟办公室",
+      "权限矩阵管Agent工具",
+      "Docker本地跑Llama模型"
+    ]
+  },
+  "en": {}
+}
