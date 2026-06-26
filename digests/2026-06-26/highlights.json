@@ -1,68 +1,60 @@
 {
   "zh": {
     "ai-cli": [
-      "OpenAI Codex 10个PR齐发",
-      "Gemini CLI升至v0.50.0-preview.1",
-      "OpenCode发版v1.17.11",
-      "Claude Code推v2.1.193",
-      "Copilot CLI堆积10个Issue",
-      "DeepSeek TUI有10个PR修复"
+      "OpenCode 11 Issues/17 PR 爆发",
+      "Claude Code 会话持久化告警",
+      "OpenAI Codex 遇远程SSH问题",
+      "Gemini CLI 出 nightly release",
+      "DeepSeek TUI 16 个 PR 连发",
+      "Qwen Code 修 CI 和 Plan 模式"
     ],
     "ai-agents": [
-      "OpenClaw今日7个Issue",
-      "OpenClaw拉来25个PR",
-      "OpenClaw暂无线下发版",
-      "bootstrap路径误判已修复",
-      "OpenAI兼容tool call修正",
-      "fuzzy edit误改问题修复"
+      "OpenClaw 32 个 PR 高速修复",
+      "sandbox workdir 审计修复",
+      "Ollama tool_calls 解析修正",
+      "Google Meet 启动更稳定",
+      "模型 alias 排序修正",
+      "toolsAllow 从硬错改告警"
     ],
     "ai-trending": [
-      "MinerU单日暴涨+644星",
-      "page-agent今日+163星",
-      "ai-berkshire今日+309星",
-      "AWS Agent Toolkit+47星",
-      "face_recognition仍超5.6万星",
-      "mxcp瞄准企业上下文协议"
+      "MinerU 今日 +644 stars",
+      "ai-berkshire 今日 +309 stars",
+      "page-agent 今日 +163 stars",
+      "aws 工具包今日 +47 stars",
+      "mxcp 成企业 AI 底座",
+      "Agent / 文档解析双热点"
     ],
     "ai-web": [
-      "Anthropic今日零新增",
-      "OpenAI新增Agents工作页",
-      "路径指向index主题页",
-      "标题是How Agents Are Transforming Work",
-      "发布日期为2026-06-25",
-      "仅有元数据暂无正文"
+      "OpenAI 新增 Agents 主题页",
+      "How Agents Are Transforming Work",
+      "页面归类为 index",
+      "发布日期是 2026-06-25",
+      "Anthropic 今日零新增",
+      "仅抓到元数据无正文"
     ],
     "ai-hn": [
-      "OpenKnowledge冲到202分",
-      "OpenAI广告化引发争议",
-      "OpenAI IPO延后受关注",
-      "中国模型差距继续缩小",
-      "DeepSeek Flash重塑Agent成本",
-      "JSON mode结构化输出被质疑"
+      "OpenKnowledge 224分106评",
+      "OpenAI 广告/IPO 争议升温",
+      "政府要求延迟模型发布",
+      "DeepSeek Flash 颠覆成本",
+      "中文模型追赶前沿",
+      "Self-scaffolding 编码受捧"
     ],
     "ai-arxiv": [
-      "Ask, Don't Judge更可解释",
-      "Intent-Aware训练提安全",
-      "Feature Steering提升泛化",
-      "Semantic Early-Stopping省算力",
-      "OpenRCA 2.0做因果监督",
-      "NuclearQAv2核工程基准"
-    ],
-    "ai-hf": [
-      "Qwen3.6-35B-A3B-NVFP4获341赞",
-      "Qwen3.6下载破460万",
-      "Gemma4-12B-QAT-Uncensored上榜",
-      "Gemma4变体获1.5万下载",
-      "DeepSeek-v4-Fable瞄准安全",
-      "Ornith-1.0-35B-GGUF本地友好"
+      "多模型组合有性能上限",
+      "LLM 知识检索机制被剖析",
+      "高概率答案未必更正确",
+      "多语言级联需更多上下文",
+      "GUI Agent 靠探索+回溯提效",
+      "机器人操控引入 test-time scaling"
     ],
     "ai-community": [
-      "Thinking Engineer Toolkit上线",
-      "不让LLM直接分邮件",
-      "AI应用先烧出AWS账单",
-      "给AI Agent造虚拟办公室",
-      "权限矩阵管Agent工具",
-      "Docker本地跑Llama模型"
+      "ChatGPT 克隆进入运行时战争",
+      "多 Agent 交接成最大痛点",
+      "五家 LLM API 结构化 JSON",
+      "规划器比执行器更关键",
+      "AI 系统要证据链不是日志",
+      "confidence 不能直接驱动执行"
     ]
   },
   "en": {}
