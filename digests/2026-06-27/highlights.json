@@ -1,0 +1,61 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.195 更新",
+      "Codex 连发 v0.142.3/alpha.26",
+      "Copilot CLI 升到 v1.0.66-1",
+      "Qwen Code 夜版到 0.19.2",
+      "会话恢复成全场焦点",
+      "Windows 重启丢会话告急"
+    ],
+    "ai-agents": [
+      "OpenClaw 24h 内 26 个 PR",
+      "3 个修复已关闭落地",
+      "Telegram 启动保留故障上下文",
+      "Feishu SecretRef 解析修复",
+      "OpenAI SSE 读取加上限",
+      "稳定性修复成今日主线"
+    ],
+    "ai-trending": [
+      "Orama 10,447 星高热",
+      "Orama 主打端侧混合检索",
+      "ECG-Language-Models 进榜",
+      "医疗 ECG LLM 继续升温",
+      "今日无直接 AI Trending",
+      "Edge RAG 成社区焦点"
+    ],
+    "ai-web": [
+      "Anthropic 今日新增 18 篇",
+      "OpenAI 仅 2 个元数据页",
+      "LLM 造 exploit 能力被量化",
+      "Claude Mythos 安全能力曝光",
+      "81,000 人 AI 经济调查出炉",
+      "Claude 正转向长时 Agent"
+    ],
+    "ai-hn": [
+      "GPT‑5.6 Sol 834 分刷屏",
+      "502 条评论讨论爆表",
+      "开源 vs 闭源再成焦点",
+      "智能模型路由贴获 144 分",
+      "自建 LLM 网关 Mantis 上榜",
+      "AI 数学边界引热议"
+    ],
+    "ai-hf": [
+      "Ornith-1.0 系列霸榜",
+      "35B 版点赞 122",
+      "9B 版点赞 114",
+      "397B 旗舰版登场",
+      "9B-GGUF 下载 1,779",
+      "NVFP4 量化模型入榜"
+    ],
+    "ai-community": [
+      "AI 代码风险：能跑不等于对",
+      "Guardrails 成代理标配",
+      "LLM 静默失败先看日志",
+      "运行时遥测优先于提交遥测",
+      "输出格式控制成高频痛点",
+      "MCP 更像上下文分发层"
+    ]
+  },
+  "en": {}
+}
