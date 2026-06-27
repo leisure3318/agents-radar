@@ -1,60 +1,52 @@
 {
   "zh": {
     "ai-cli": [
-      "Claude Code v2.1.195 更新",
-      "Codex 连发 v0.142.3/alpha.26",
-      "Copilot CLI 升到 v1.0.66-1",
-      "Qwen Code 夜版到 0.19.2",
-      "会话恢复成全场焦点",
-      "Windows 重启丢会话告急"
+      "Claude Code 10 个 Issue 集中爆发",
+      "OpenAI Codex 桌面端/Windows 不稳",
+      "OpenCode 11 个 PR 高速迭代",
+      "Gemini CLI 遭遇 P0 发布失败",
+      "Qwen Code 9 个 PR 收敛工程",
+      "Pi 聚焦运行时与扩展稳定性"
     ],
     "ai-agents": [
-      "OpenClaw 24h 内 26 个 PR",
-      "3 个修复已关闭落地",
-      "Telegram 启动保留故障上下文",
-      "Feishu SecretRef 解析修复",
-      "OpenAI SSE 读取加上限",
-      "稳定性修复成今日主线"
+      "OpenClaw 30 个 PR 强审查推进",
+      "6 条 Issue 聚焦核心稳定性",
+      "截断 tool call 误执行已修",
+      "模型请求加受控诊断日志",
+      "Slack 到 Telegram 全链路修补",
+      "暂无 Release，验证压力偏高"
     ],
     "ai-trending": [
-      "Orama 10,447 星高热",
-      "Orama 主打端侧混合检索",
-      "ECG-Language-Models 进榜",
-      "医疗 ECG LLM 继续升温",
-      "今日无直接 AI Trending",
-      "Edge RAG 成社区焦点"
+      "Orama 10,447 星，混合检索火",
+      "Orama 可跑浏览器和边缘端",
+      "ECG-Language-Models 进医疗垂直",
+      "ECG 框架仅 15 星",
+      "Trending 榜今日无 AI 项目",
+      "RAG 与底层能力继续升温"
     ],
     "ai-web": [
-      "Anthropic 今日新增 18 篇",
-      "OpenAI 仅 2 个元数据页",
-      "LLM 造 exploit 能力被量化",
-      "Claude Mythos 安全能力曝光",
-      "81,000 人 AI 经济调查出炉",
-      "Claude 正转向长时 Agent"
+      "Anthropic 押注长时 Agent 化",
+      "ExploitBench 测模型攻防能力",
+      "Claude Mythos 强攻网安任务",
+      "8.1 万人调查谈 AI 经济影响",
+      "Claude Tag 进入 Slack 协作流",
+      "DXC、TCS 等企业合作扩张"
     ],
     "ai-hn": [
-      "GPT‑5.6 Sol 834 分刷屏",
-      "502 条评论讨论爆表",
-      "开源 vs 闭源再成焦点",
-      "智能模型路由贴获 144 分",
-      "自建 LLM 网关 Mantis 上榜",
-      "AI 数学边界引热议"
-    ],
-    "ai-hf": [
-      "Ornith-1.0 系列霸榜",
-      "35B 版点赞 122",
-      "9B 版点赞 114",
-      "397B 旗舰版登场",
-      "9B-GGUF 下载 1,779",
-      "NVFP4 量化模型入榜"
+      "GPT-5.6 Sol 获 882 分、532 评",
+      "GPT-5.6 准入与监管成焦点",
+      "开源权重差距引发路线争论",
+      "智能模型路由工具热议",
+      "OpenTag 试做 Slack 版 Claude",
+      "Mantis 自托管网关受关注"
     ],
     "ai-community": [
-      "AI 代码风险：能跑不等于对",
-      "Guardrails 成代理标配",
-      "LLM 静默失败先看日志",
-      "运行时遥测优先于提交遥测",
-      "输出格式控制成高频痛点",
-      "MCP 更像上下文分发层"
+      "D1 迁移踩中 DDL 事务陷阱",
+      "AI Agent 可能毁掉零停机",
+      "LLM Judge 竟是未验证模型",
+      "Claude Code 的 personas 之争",
+      "tool-scoping 该不该更强",
+      "社区焦点转向生产治理"
     ]
   },
   "en": {}
