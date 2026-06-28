@@ -1,52 +1,44 @@
 {
   "zh": {
     "ai-cli": [
-      "Claude Code 10个Issue聚焦误报",
-      "Codex连发3个alpha版",
-      "Qwen Code出夜间版+10PR",
-      "OpenCode 10Issue/10PR最活跃",
-      "Copilot CLI盯TUI回归问题",
-      "Gemini CLI推进7个PR修安全"
+      "Claude Code 13条Issue爆发",
+      "Codex 10 Issue+1 PR齐活",
+      "Gemini CLI 推出nightly发布",
+      "OpenCode 聚焦桌面交互管线",
+      "Qwen Code 修复/new与/clear",
+      "社区转向稳定性与MCP"
     ],
     "ai-agents": [
-      "OpenClaw 24小时17个PR",
-      "P0修复：daemon堆上限",
-      "审批提示误导已修正",
-      "#97334堵住运行时崩溃",
-      "Slack线程隔离成新方向",
-      "Cron触发失败待修复"
+      "OpenClaw 11条PR密集修补",
+      "扫描PDF页已接入视觉模型",
+      "P1/P2补丁围剿稳定性",
+      "消息交付与工具调用在修",
+      "权限边界与会话隔离成焦点",
+      "项目无新发版，待合并PR多"
     ],
     "ai-trending": [
-      "opencode今日+392星",
-      "OpenSpec今日+177星",
-      "claude-howto今日+141星",
-      "AI热点转向coding agent",
-      "Vibe-Trading跻身榜单",
-      "Open-Generative-AI上榜"
+      "opencode 今日+392 stars",
+      "OpenSpec 暴涨 +177 stars",
+      "claude-howto 再涨 +141",
+      "AI 热点押注coding agent",
+      "Vibe-Trading 切入交易智能体",
+      "Open-Generative-AI 走热多模态"
     ],
     "ai-hn": [
-      "Mythos-like模型帖140分127评",
-      "Alibaba挖Claude争议30分29评",
-      "Adrafinil让Agent干活时唤醒Mac",
-      "llama.cpp补丁提20% TPS",
-      "AMD Strix Halo RDMA集群指南",
-      "DeepSpec登上HN讨论"
-    ],
-    "ai-hf": [
-      "DeepSeek-V4-Pro-DSpark获126赞",
-      "下载数为0，仍在预热",
-      "关联论文arxiv:2606.19348",
-      "标签直指text-generation",
-      "transformers+safetensors加持",
-      "Hugging Face榜单被它独占"
+      "亚洲团队 Mythos-like 模型爆红",
+      "头条获172赞、143评",
+      "Adrafinil：Agent工作时Mac常醒",
+      "RDMA集群指南瞄准本地推理",
+      "KV-psi 用PSI裁剪KV cache",
+      "llama.cpp 提速20%引关注"
     ],
     "ai-community": [
-      "Nemotron Floor谈Agent最小模型",
-      "LLM账单藏着5个坑",
-      "自建AI API Gateway爆火",
-      "确定性系统驯服随机AI",
-      "Agent规划记忆验证全解析",
-      "Context rot可编译消除"
+      "团队本周别急着换模型（5赞）",
+      "模型裁判别放热路径（1赞）",
+      "6个AI系统上线踩坑复盘",
+      "Agent开始自己写SKILL.md",
+      "150行代码造自改Agent",
+      "Agent也需要睡觉？"
     ]
   },
   "en": {}
