@@ -1,0 +1,53 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code 10个Issue聚焦误报",
+      "Codex连发3个alpha版",
+      "Qwen Code出夜间版+10PR",
+      "OpenCode 10Issue/10PR最活跃",
+      "Copilot CLI盯TUI回归问题",
+      "Gemini CLI推进7个PR修安全"
+    ],
+    "ai-agents": [
+      "OpenClaw 24小时17个PR",
+      "P0修复：daemon堆上限",
+      "审批提示误导已修正",
+      "#97334堵住运行时崩溃",
+      "Slack线程隔离成新方向",
+      "Cron触发失败待修复"
+    ],
+    "ai-trending": [
+      "opencode今日+392星",
+      "OpenSpec今日+177星",
+      "claude-howto今日+141星",
+      "AI热点转向coding agent",
+      "Vibe-Trading跻身榜单",
+      "Open-Generative-AI上榜"
+    ],
+    "ai-hn": [
+      "Mythos-like模型帖140分127评",
+      "Alibaba挖Claude争议30分29评",
+      "Adrafinil让Agent干活时唤醒Mac",
+      "llama.cpp补丁提20% TPS",
+      "AMD Strix Halo RDMA集群指南",
+      "DeepSpec登上HN讨论"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro-DSpark获126赞",
+      "下载数为0，仍在预热",
+      "关联论文arxiv:2606.19348",
+      "标签直指text-generation",
+      "transformers+safetensors加持",
+      "Hugging Face榜单被它独占"
+    ],
+    "ai-community": [
+      "Nemotron Floor谈Agent最小模型",
+      "LLM账单藏着5个坑",
+      "自建AI API Gateway爆火",
+      "确定性系统驯服随机AI",
+      "Agent规划记忆验证全解析",
+      "Context rot可编译消除"
+    ]
+  },
+  "en": {}
+}
