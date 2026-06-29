@@ -39,7 +39,24 @@
       "8个月做出AI考试App",
       "音乐制作追踪器登场",
       "AI工程化成Dev.to主线"
+    ],
+    "ai-weekly": [
+      "Claude Tag 正式入驻 Slack",
+      "40万会话揭示人机分工",
+      "Anthropic 联手盖茨基金会2亿美元",
+      "核安全分类器已上线 Claude 流量",
+      "OpenClaw v2026.6.10 强化路由",
+      "AI CLI 生态狂修稳定性"
     ]
   },
-  "en": {}
+  "en": {
+    "ai-weekly": [
+      "Claude Tag brings Slack-style team workflows",
+      "Anthropic studied 400k Claude Code sessions",
+      "Debugging gives way to end-to-end execution",
+      "Nuclear safeguards classifier is already live",
+      "OpenClaw hardens routing, fallback, and approvals",
+      "OpenAI Codex faces safety and infra scrutiny"
+    ]
+  }
 }
