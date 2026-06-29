@@ -1,0 +1,61 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Qwen Code 发布 v0.19.3",
+      "Claude Code 误杀固件回滚",
+      "Gemini CLI 爆出 SSRF 绕过",
+      "Codex 强化审批与安全提示",
+      "OpenCode/Pi 押注自托管",
+      "DeepSeek TUI 只读误判待修"
+    ],
+    "ai-agents": [
+      "OpenClaw 发 v2026.6.11-beta.2",
+      "Slack relay mode 上线",
+      "Mattermost 新增 /oc_queue",
+      "DM 场景可覆盖模型",
+      "P1：lane starvation 未解",
+      "子代理投递陷无限重试"
+    ],
+    "ai-trending": [
+      "FluidVoice +365 stars",
+      "lingbot-map +372 stars",
+      "video-use +196 stars",
+      "strix +122 stars",
+      "minimind 5.2 万 stars",
+      "cupy 今日 +174 stars"
+    ],
+    "ai-web": [
+      "Anthropic 今日零更新",
+      "OpenAI 新增一页",
+      "Hp Frontier Partnership",
+      "仅有 index 元数据",
+      "正文不可获取",
+      "暂难解读战略含义"
+    ],
+    "ai-hn": [
+      "GLM 5.2 vs Claude 429分",
+      "Codex 敏感文件热议",
+      "Claude Code 读 MRI",
+      "镜像测试问倒 LLM",
+      "Ornith-1.0 自脚手架",
+      "HN 质疑跑分可信度"
+    ],
+    "ai-hf": [
+      "Qwen 35B GGUF 95赞7.95万下",
+      "DeepSeek-V4-Flash 81赞",
+      "LTX-2.3-3DREAL-LoRA 95赞",
+      "视频生成 LoRA 受捧",
+      "量化版更易传播",
+      "开源权重仍主流"
+    ],
+    "ai-community": [
+      "CEO 侄子接管 AI 平台",
+      "MCP 先烧 5 万 tokens",
+      "上下文过期惹幻觉",
+      "Cursor 硬编码密钥",
+      "GPT-5.6 的关键是准入",
+      "别压缩上下文，要提升"
+    ]
+  },
+  "en": {}
+}
