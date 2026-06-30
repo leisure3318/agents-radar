@@ -1,0 +1,61 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code 升级到 v2.1.196",
+      "Codex 同日发 2 个版本",
+      "OpenCode 10Issue/10PR",
+      "Qwen Code 推出 nightly",
+      "DeepSeek TUI 10 个阻塞项",
+      "安全边界成共同焦点"
+    ],
+    "ai-agents": [
+      "OpenClaw 25 Issue、20 PR",
+      "OpenClaw 今年无新版本",
+      "PR #97964 修复 wiki 误报",
+      "认证与权限加固升温",
+      "会话与消息投递问题密集",
+      "P0/P1 占比明显偏高"
+    ],
+    "ai-trending": [
+      "Council of High Intelligence +331★",
+      "VulnClaw 24小时 +129★",
+      "pathwaycom/llm-app 59,183★",
+      "AI 热点偏 Agent 编排",
+      "MCP 渗透自动化上榜",
+      "RAG/企业搜索仍高频"
+    ],
+    "ai-hn": [
+      "Micro-Agent 挑战前沿模型",
+      "Claude Code 误贴错误引热议",
+      "端侧截图视觉模型上榜",
+      "Open Memory Protocol 受关注",
+      "LLM 效率课题仍热门",
+      "Qwythos-9B 开源模型登场"
+    ],
+    "ai-arxiv": [
+      "Complexity Ceiling 基准出炉",
+      "扩散 LLM 评测幻觉被揭示",
+      "多块扩散语言模型发布",
+      "PolicyGuard 查策略合规",
+      "Selective Memory 管长记忆",
+      "层级实验智能体成热点"
+    ],
+    "ai-hf": [
+      "fal-Krea-2 Style LoRAs 榜首",
+      "仅 1 个热门模型上榜",
+      "75 赞但下载数为 0",
+      "风格 LoRA 集合热度高",
+      "轻量个性化仍最吃香",
+      "底座+LoRA 成主流组合"
+    ],
+    "ai-community": [
+      "What's Next for AI? 83赞87评",
+      "记忆不在模型，在情境",
+      "LLM API 调用细节讲透",
+      "46 仓库语义搜索实践",
+      "MCP Server with Flama",
+      "LangChain 结构化输出教程"
+    ]
+  },
+  "en": {}
+}
