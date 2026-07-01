@@ -1,6 +1,6 @@
 {
   "anthropic": {
-    "lastChecked": "2026-07-01T01:54:24.664Z",
+    "lastChecked": "2026-07-01T04:05:51.837Z",
     "seenUrls": {
       "https://www.anthropic.com/news/responsible-scaling-policy-v3": "2026-02-25T23:57:06.000Z",
       "https://www.anthropic.com/research/deprecation-updates-opus-3": "2026-02-25T20:58:11.000Z",
@@ -407,11 +407,12 @@
       "https://www.anthropic.com/news/introducing-claude-tag": "2026-06-26T12:23:43.000Z",
       "https://www.anthropic.com/research/economic-index-june-2026-report": "2026-06-26T23:50:17.000Z",
       "https://www.anthropic.com/news/claude-sonnet-5": "2026-06-30T21:20:30.000Z",
-      "https://www.anthropic.com/news/claude-science-ai-workbench": "2026-06-30T18:43:57.000Z"
+      "https://www.anthropic.com/news/claude-science-ai-workbench": "2026-06-30T18:43:57.000Z",
+      "https://www.anthropic.com/news/redeploying-fable-5": "2026-07-01T03:16:50.000Z"
     }
   },
   "openai": {
-    "lastChecked": "2026-07-01T01:54:11.644Z",
+    "lastChecked": "2026-07-01T04:05:47.692Z",
     "seenUrls": {
       "https://openai.com/index/arvind-kc-chief-people-officer/": "2026-05-29T00:25:33.242Z",
       "https://openai.com/index/put-ai-to-work-for-your-product-team/": "2026-06-12T04:05:36.713Z",
