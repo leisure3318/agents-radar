@@ -55,7 +55,24 @@
       "Agent 协议选型成焦点",
       "社区重视落地效率",
       "工程复杂度控制受关注"
+    ],
+    "ai-monthly": [
+      "Fable 5 / Mythos 5 安全升级",
+      "Claude Code 40万会话实证",
+      "Claude Tag 进 Slack 团队协作",
+      "OpenClaw v2026.6.6-beta.2 收敛",
+      "OpenAI 企业部署信号密集露出",
+      "Anthropic × Gates 基金会2亿美元"
     ]
   },
-  "en": {}
+  "en": {
+    "ai-monthly": [
+      "Claude Tag brings Claude into Slack",
+      "@Claude enters team workflows",
+      "Anthropic drops a 400k Claude Code study",
+      "Agentic coding is now the default model",
+      "Reliability now beats feature fireworks",
+      "Safety moved into production concerns"
+    ]
+  }
 }
