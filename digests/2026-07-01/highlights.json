@@ -1,0 +1,69 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code 升级到 v2.1.197",
+      "Sonnet 5 默认化，含1M上下文",
+      "Codex 推出 rust-v0.142.5",
+      "Copilot CLI 连发 v1.0.67/66",
+      "OpenCode 升至 v1.17.12",
+      "Qwen Code 与 DeepSeek TUI 同步迭代"
+    ],
+    "ai-agents": [
+      "OpenClaw 今日36个Issue、33个PR",
+      "OpenClaw 发布 v2026.6.11",
+      "修复 stuck sends 与重连问题",
+      "Feishu 媒体回复加入fallback",
+      "强化 admin 默认值安全性",
+      "QR配对、Tailscale需回归验证"
+    ],
+    "ai-trending": [
+      "OmniRoute 今日涨星+387",
+      "Google agents-cli 今日+445",
+      "herdr 终端多Agent，涨星+486",
+      "supervision 视觉工具库涨星+309",
+      "热点集中AI基础设施与Agent",
+      "本日无RAG/训练类项目上榜"
+    ],
+    "ai-web": [
+      "Claude Sonnet 5 正式发布",
+      "Claude Science 科学工作台上线",
+      "Sonnet 5 成为Free/Pro默认",
+      "Anthropic 强调更强agentic能力",
+      "Frontier Red Team 持续更新",
+      "OpenAI 仅元数据，且有重复"
+    ],
+    "ai-hn": [
+      "Claude Sonnet 5 登顶，889分/499评",
+      "Sonnet 5 benchmark 帖获39分",
+      "Claude Sonnet 5 System Card上线",
+      "Claude Science 也登上HN",
+      "143.dev开源内部coding-agent栈",
+      "HN关注定价、隐私与数据保留"
+    ],
+    "ai-arxiv": [
+      "Moral Safety 揭穿表面合规",
+      "双语义嵌入提升LLM水印鲁棒性",
+      "AutoTrainess让模型自主改进模型",
+      "FARS展示可规模化科研智能体",
+      "ECHO优化agent记忆与轨迹",
+      "多语言工具代理：英文思考韩文答"
+    ],
+    "ai-hf": [
+      "LongCat-2.0 点赞103登顶",
+      "Huihui-GLM-5.2 GGUF 点赞101",
+      "Qwen3.6-27B-NVFP4 点赞95",
+      "榜单偏向可本地部署模型",
+      "GGUF、NVFP4、ModelOpt很热",
+      "中文/多语开源家族持续强势"
+    ],
+    "ai-community": [
+      "This Is Software’s iPhone Moment",
+      "Someone Else Pays for Your AI Access",
+      "The Future Of AI Is Local And Open",
+      "The Log Is the Agent",
+      "You Don’t Always Need The Frontier",
+      "AGENTS.md 让AI编程更实用"
+    ]
+  },
+  "en": {}
+}
