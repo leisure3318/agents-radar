@@ -1,0 +1,69 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code 发布 v2.1.198",
+      "Copilot CLI 上线 v1.0.68",
+      "Qwen Code 夜版+稳定版双发",
+      "OpenCode 升级 v1.17.13",
+      "Codex 24h 内 10PR 10Issue",
+      "Copilot CLI 12 个 Issue 激增"
+    ],
+    "ai-agents": [
+      "OpenClaw 66 Issue/42 PR 高压",
+      "OpenClaw 6.11 后回归集中",
+      "OAuth 错误体限读防 OOM",
+      "Telegram 富文本泄漏已修",
+      "Swift CI 缓存恢复增强",
+      "GitHub release 响应限读"
+    ],
+    "ai-trending": [
+      "olmocr 星增 +334 领跑",
+      "CubeSandbox 为 Agent 加沙箱",
+      "ollana 让 Ollama 局域网可发现",
+      "AI 热点转向数据/部署/安全",
+      "三项目锁定基础设施层",
+      "CubeSandbox 今日涨星 +79"
+    ],
+    "ai-web": [
+      "Fable 5 解除限制全球重启",
+      "Pro/Max/Team 先限 50% 用量",
+      "Mythos 5 恢复美国组织访问",
+      "Anthropic 仍在协调全面放开",
+      "Claude Science 切入生命科学",
+      "安全策略误拦率低于 5%"
+    ],
+    "ai-hn": [
+      "ZCode 号称 Claude Code 式",
+      "GLM-5.2 harness 引爆 203 评",
+      "Codex 推理聚类疑似退化",
+      "GPT-5.6 被指“作弊”评测",
+      "Parsewise 文档推理 API 登场",
+      "GolemUI 表单引擎讨论升温"
+    ],
+    "ai-arxiv": [
+      "元认知反馈让 LLM 更诚实",
+      "表格引用错误被系统量化",
+      "ToM 评估扩展到行动规划",
+      "技能组合让 Agent 像搭积木",
+      "浏览器行为蒸馏成技能",
+      "Dafny 验证代码生成"
+    ],
+    "ai-hf": [
+      "Agents-A1 140 赞 511 下载",
+      "Qwopus3.6-35B 下载破1.2万",
+      "两款模型都带视觉标签",
+      "Agent 型模型继续升温",
+      "GGUF 成本地部署主力",
+      "Qwen 系底座仍是热门"
+    ],
+    "ai-community": [
+      "监控 POC 先别跳过测试",
+      "Harness 工程转向 Evals",
+      "WebMCP Agent 用 Playwright+Gemini",
+      "生产级 RAG 要做语义可观测",
+      "自愈软件进军 Agent 时代",
+      "机器人600行 PR 无人想审"
+    ]
+  },
+  "en": {}
+}
