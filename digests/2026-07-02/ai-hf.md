@@ -1,63 +1,53 @@
 # Hugging Face 热门模型日报 2026-07-02
 
-> 数据来源: [Hugging Face Hub](https://huggingface.co/) | 共 2 个模型 | 生成时间: 2026-07-02 01:34 UTC
+> 数据来源: [Hugging Face Hub](https://huggingface.co/) | 共 1 个模型 | 生成时间: 2026-07-02 03:46 UTC
 
 ---
 
-# Hugging Face 热门模型日报（2026-07-02）
+# Hugging Face 热门模型日报  
+**日期：2026-07-02**  
+**榜单样本：1 个热门模型（按周点赞数排序）**
 
-## 1）今日速览
-今天 Hugging Face 热门榜上，**多模态/Agent 能力**继续成为关注焦点，两款模型都带有视觉相关标签，说明“能看图、能对话、能执行任务”的模型仍在升温。  
-同时，榜单也反映出社区对**高性能开源权重**与**本地可部署版本**的强需求：一款偏前沿能力，一款偏 GGUF/llama.cpp 落地。  
-从点赞与下载结构看，趋势不仅在“模型更强”，也在“更容易被用起来”。  
-总体而言，2026 年中旬的模型生态正从单一文本生成，快速走向**多模态 + 工具化 + 端侧部署**。
-
----
-
-## 2）热门模型
-
-### 🧠 语言模型（LLM、对话模型、指令微调）
-- **[InternScience/Agents-A1](https://huggingface.co/InternScience/Agents-A1)**  
-  作者：InternScience ｜ 点赞：140 ｜ 下载：511  
-  一句话说明：这是一款偏 **Agent/指令执行** 方向的生成模型，结合了 **Qwen3.5-MoE** 与多模态标签，说明它不仅能聊，还可能擅长任务型推理与工具协作，因此在趋势榜上表现突出。
-
-### 🎨 多模态与生成（图像、视频、音频、文本到X）
-- **[InternScience/Agents-A1](https://huggingface.co/InternScience/Agents-A1)**  
-  作者：InternScience ｜ 点赞：140 ｜ 下载：511  
-  一句话说明：模型带有 **image-text-to-text** 标签，说明其具备视觉理解与文本生成的多模态能力，符合当前“看图理解 + 任务执行”的热门方向。
-
-- **[Jackrong/Qwopus3.6-35B-A3B-Coder-MTP-GGUF](https://huggingface.co/Jackrong/Qwopus3.6-35B-A3B-Coder-MTP-GGUF)**  
-  作者：Jackrong ｜ 点赞：100 ｜ 下载：12,635  
-  一句话说明：这是一个面向 **视觉输入与代码/文本生成** 的多模态模型，热门原因不仅在于能力组合，更在于其 **GGUF** 形态极利于本地部署与推理，带动了大量下载。
-
-### 🔧 专用模型（代码、数学、医疗、嵌入）
-- **[Jackrong/Qwopus3.6-35B-A3B-Coder-MTP-GGUF](https://huggingface.co/Jackrong/Qwopus3.6-35B-A3B-Coder-MTP-GGUF)**  
-  作者：Jackrong ｜ 点赞：100 ｜ 下载：12,635  
-  一句话说明：模型名中的 **Coder** 已明确指向代码能力，适合开发、补全、推理类任务；高下载量说明开发者社区对“可用的代码模型”需求持续强劲。
-
-### 📦 微调与量化（社区微调、GGUF、AWQ）
-- **[Jackrong/Qwopus3.6-35B-A3B-Coder-MTP-GGUF](https://huggingface.co/Jackrong/Qwopus3.6-35B-A3B-Coder-MTP-GGUF)**  
-  作者：Jackrong ｜ 点赞：100 ｜ 下载：12,635  
-  一句话说明：该模型采用 **GGUF** 发布，显著降低了本地部署门槛；“高下载、相对中等点赞”的结构也很典型，代表量化版模型在实用层面被快速采用。
+## 1) 今日速览
+今天 Hugging Face 热门榜几乎被单一模型占据，核心看点是**安全/攻防方向的开源大模型**。  
+上榜模型来自 **Qwen3** 生态，并采用 **GGUF 量化**，说明社区对“可本地部署、低成本推理”的需求仍然强烈。  
+从标签看，**cybersecurity / offensive-security** 这类垂直场景正在形成更明确的模型供给。  
+整体趋势上，热门不再只集中于通用聊天模型，**专业化 + 轻量化部署**正成为新的关注点。
 
 ---
 
-## 3）生态信号
-当前势头最旺的是 **Qwen 系列相关变体** 与 **多模态/Agent 型模型**：前者继续作为社区改造和二次开发的底座，后者则承接“看图、写代码、执行任务”的新需求。开源权重仍明显强于闭源生态的可参与度，尤其在 Hugging Face 上，社区更偏好能下载、能改造、能部署的模型。值得注意的是，**GGUF** 这类量化发布形式下载量非常高，说明“本地跑得动”已成为模型热度的重要驱动力。
+## 2) 热门模型
+
+### 🔧 专用模型
+#### [BugTraceAI/BugTraceAI-CORE-Ultra-27B-Q6](https://huggingface.co/BugTraceAI/BugTraceAI-CORE-Ultra-27B-Q6)
+- **作者**：BugTraceAI  
+- **点赞数**：110  
+- **下载数**：3,377  
+- **一句话说明**：这是一个基于 **Qwen3** 生态的 **27B 级安全/网络攻防模型**，聚焦 cybersecurity 与 offensive-security，因兼具垂直能力和较强可部署性而进入趋势榜。
+
+### 📦 微调与量化
+- 今日榜单中最突出的就是上述模型的 **GGUF Q6 量化版本**，属于面向本地推理、边缘部署和低显存环境的实用型发布。
+
+### 🧠 语言模型
+- 今日暂无独立上榜的通用 LLM / 对话 / 指令微调模型。
+
+### 🎨 多模态与生成
+- 今日暂无上榜的图像、视频、音频或文本到 X 模型。
 
 ---
 
-## 4）值得探索
-1. **[InternScience/Agents-A1](https://huggingface.co/InternScience/Agents-A1)**  
-   值得研究其 Agent 能力与多模态融合方式，适合关注任务型模型演进的人。
+## 3) 生态信号
+本周热门信号非常明确：**Qwen3 家族持续向垂直领域渗透**，尤其是安全、攻防等高价值场景。榜单上没有闭源模型，说明 Hugging Face 的热度依然明显偏向**开源权重与社区可复现方案**。同时，**GGUF 量化**继续成为重要形态，反映出用户不只看能力，更看重本地运行、低成本和易部署。整体上，模型生态正从“通用能力竞争”转向“专业能力 + 工程落地”的双重竞争。
 
-2. **[Jackrong/Qwopus3.6-35B-A3B-Coder-MTP-GGUF](https://huggingface.co/Jackrong/Qwopus3.6-35B-A3B-Coder-MTP-GGUF)**  
-   值得尝试本地部署与代码场景测试，尤其适合看 GGUF 量化后的实际可用性。
+---
 
-3. **[Jackrong/Qwopus3.6-35B-A3B-Coder-MTP-GGUF](https://huggingface.co/Jackrong/Qwopus3.6-35B-A3B-Coder-MTP-GGUF)**  
-   适合进一步观察多模态代码模型在“视觉理解 + 编程”任务中的表现与边界。
+## 4) 值得探索
+由于今日仅有 1 个热门模型，建议优先关注这一条：
 
-如果你愿意，我也可以把这份日报继续整理成**适合公众号发布的版本**，或者输出成**表格版 Markdown**。
+1. **[BugTraceAI/BugTraceAI-CORE-Ultra-27B-Q6](https://huggingface.co/BugTraceAI/BugTraceAI-CORE-Ultra-27B-Q6)**  
+   理由：安全攻防垂直属性明确，且是 GGUF 量化版本，适合研究“领域能力 + 本地部署”的结合方式。
+
+如你愿意，我也可以把这份日报继续整理成**适合发公众号/飞书/Notion 的版式**。
 
 ---
 *本日报由 [agents-radar](https://github.com/leisure3318/agents-radar) 自动生成。*

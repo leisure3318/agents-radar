@@ -1,108 +1,133 @@
 # ArXiv AI 研究日报 2026-07-02
 
-> 数据来源: [ArXiv](https://arxiv.org/) (cs.AI, cs.CL, cs.LG) | 共 23 篇论文 | 生成时间: 2026-07-02 01:34 UTC
+> 数据来源: [ArXiv](https://arxiv.org/) (cs.AI, cs.CL, cs.LG) | 共 50 篇论文 | 生成时间: 2026-07-02 03:46 UTC
 
 ---
 
 # ArXiv AI 研究日报（2026-07-02）
 
-## 1) 今日速览
-今天的论文整体呈现出一个非常清晰的转向：AI 研究正在从“能做题”走向“能可靠地做事”。一方面，LLM 的**可信表达、表格引用正确性、ToM/说服能力**等评估与对齐问题继续升温；另一方面，**技能组合、浏览器行为蒸馏、形式化验证代码生成**等 agentic 能力成为新焦点。  
-与此同时，**多模态效率优化**（如视觉跳层/跳算）与**具身协作基准**也在加速成熟，说明研究重心已从单模型能力扩展到“多模态 + 行动 + 资源约束”系统能力。  
-应用侧则明显向**机器人、交通、林业、植物表型、3D 动画**等垂直领域下沉，强调真实环境中的可部署性与可验证性。  
+## 今日速览
+今天的投稿明显聚焦在**“更低成本的后训练”**与**“更可信的评估/对齐”**两条主线：有论文显示，LLM 的 RL 微调可能只需更新少量层就能接近全参数训练效果。与此同时，研究者开始更系统地讨论**可验证奖励、人工示范、审计式评估**，试图弥补纯打分式评估的盲区。  
+另一条强信号来自**智能体与记忆**：开放世界工具使用、记忆偏置、失败重试和多轮反馈正成为新问题核心，而不再只是静态基准上的单轮成功率。  
+此外，**量化、零阶优化、test-time scaling** 等效率技术继续升温，说明“算力更省、行为更稳”的工程化方向正在快速收敛。  
+应用层面则出现更多**高风险垂直场景**：医疗、金融、时序预测、视频质量理解与代码/化学生成，体现出 AI 论文从通用能力走向可落地场景。
 
 ---
 
-## 2) 重点论文
+## 重点论文
 
 ### 🧠 大语言模型（架构、训练、对齐、评估）
 
-1. **[Reinforcement Learning with Metacognitive Feedback Elicits Faithful Uncertainty Expression in LLMs](http://arxiv.org/abs/2606.32032v1)**  
-   作者：Liu et al.  
-   一句话：用“元认知反馈”做强化学习，让模型在不确定时更诚实地表达置信度，直接瞄准 LLM 幻觉与过度自信问题。
+- [Measuring the Gap Between Human and LLM Research Ideas](http://arxiv.org/abs/2607.01233v1)  
+  **作者**：Z. Chen 等  
+  **一句话**：首次把“人类研究想法 vs. LLM 想法”的差距作为核心问题来量化，直接回答“LLM 能不能像研究者一样提出问题”。
 
-2. **[When LLMs Read Tables Carelessly: Measuring and Reducing Data Referencing Errors](http://arxiv.org/abs/2606.32029v1)**  
-   作者：Yang et al.  
-   一句话：首次系统测量 LLM 在表格理解中的“数据引用错误”，并给出降低误引、漏引的办法，提升表格问答的可审计性。
+- [Is One Layer Enough? Training A Single Transformer Layer Can Match Full-Parameter RL Training](http://arxiv.org/abs/2607.01232v1)  
+  **作者**：Z. Zhang 等  
+  **一句话**：提出 RL 适配可能高度集中在少数层，若成立将显著降低后训练成本，并重塑我们对 Transformer 层分工的理解。
 
-3. **[Theory of Mind and Persuasion Beyond Conversation: Assessing the Capacity of LLMs to Induce Belief States via Planning and Action](http://arxiv.org/abs/2606.31916v1)**  
-   作者：Slater et al.  
-   一句话：把 ToM 评估从静态问答推进到“规划与行动”场景，检验模型是否真的能通过交互塑造他人信念。
+- [AutoMem: Automated Learning of Memory as a Cognitive Skill](http://arxiv.org/abs/2607.01224v1)  
+  **作者**：S. Wu 等  
+  **一句话**：把“记忆管理”提升为可训练技能，强调何时存、何时取、如何组织知识，对长上下文智能体很有启发。
+
+- [The State-Prediction Separation Hypothesis](http://arxiv.org/abs/2607.01218v1)  
+  **作者**：G. Monea 等  
+  **一句话**：挑战“同一计算流同时做预测和存状态”的传统假设，若成立可能为更高效的语言模型架构打开新路线。
+
+- [Right in the Right Way: LM Training with Verifiable Rewards and Human Demonstrations](http://arxiv.org/abs/2607.01181v1)  
+  **作者**：M. Damani 等  
+  **一句话**：将可验证奖励与人类示范结合，试图补上 RLVR 只优化“可打分部分”的短板，适合高价值对齐场景。
+
+- [\text{Log}_\text{b}Quant: Quantizing Language Models in Logarithmic Space](http://arxiv.org/abs/2607.01127v1)  
+  **作者**：J. Bohn 等  
+  **一句话**：用对数空间量化降低模型存储与推理成本，属于面向端侧部署的实用型压缩方案。
+
+- [Muon as a Residual Connection](http://arxiv.org/abs/2607.01124v1)  
+  **作者**：H. Huang  
+  **一句话**：给 Muon 优化器一个机制解释，把其成功联系到“隐式残差连接”，有助于理解优化器为何有效。
+
+- [Clinician-Level Agreement Without Clinical Caution: LLM Evaluator Limits in Medical AI Benchmarking](http://arxiv.org/abs/2607.01103v1)  
+  **作者**：W. Philipp 等  
+  **一句话**：揭示 LLM 评审可能在“结论一致”上接近医生，但在“临床谨慎性”上仍不足，提醒医疗评测不能只看表面一致率。
 
 ---
 
 ### 🤖 智能体与推理（规划、工具使用、多智能体、思维链）
 
-4. **[Generative Skill Composition for LLM Agents](http://arxiv.org/abs/2606.32025v1)**  
-   作者：Zhao et al.  
-   一句话：提出可生成的技能组合框架，让 agent 能像搭积木一样复用与编排能力，解决复杂任务中的“技能拼装”问题。
+- [Message Passing Enables Efficient Reasoning](http://arxiv.org/abs/2607.01077v1)  
+  **作者**：X. Liu 等  
+  **一句话**：用消息传递替代长链式思维的部分顺序推理开销，为更并行、更省算力的推理提供了新范式。
 
-5. **[Scalable Behaviour Cloning on Browser Using via Skill Distillation](http://arxiv.org/abs/2606.32014v1)**  
-   作者：Yang et al.  
-   一句话：把海量真实浏览器操作提炼成可学习技能，为网页型智能体提供大规模、低成本的行为克隆路径。
+- [Can Agents Generalize to the Open World? Unveiling the Fragility of Static Training in Tool Use](http://arxiv.org/abs/2607.01084v1)  
+  **作者**：S.-L. Lv 等  
+  **一句话**：明确指出工具使用智能体在开放世界下会被“静态训练”击穿，是面向真实部署必须阅读的工作。
 
-6. **[AxDafny: Agentic Verified Code Generation in Dafny](http://arxiv.org/abs/2606.32007v1)**  
-   作者：Breen et al.  
-   一句话：将“写代码”与“写证明”结合，利用 verifier-guided repair 迭代生成可执行程序和验证工件，是可靠代码智能体的重要方向。
+- [MemSyco-Bench: Benchmarking Sycophancy in Agent Memory](http://arxiv.org/abs/2607.01071v1)  
+  **作者**：Z. Xiang 等  
+  **一句话**：专门测量“记忆导致的谄媚偏置”，说明长程记忆不只是增益，也可能放大迎合用户的问题。
 
-7. **[MECoBench: A Systematic Study of Multimodal Agent Collaboration in Embodied Environments](http://arxiv.org/abs/2606.31966v1)**  
-   作者：Liu et al.  
-   一句话：构建具身多模态协作基准，系统研究多个 agent 在视觉环境中的协作能力，为多智能体协同评测补齐关键缺口。
+- [Adversarial Pragmatics for AI Safety Evaluation: A Benchmark for Instruction Conflict, Embedded Commands, and Policy Ambiguity](http://arxiv.org/abs/2607.01153v1)  
+  **作者**：B. Reynolds  
+  **一句话**：把“指令冲突、嵌入命令、策略歧义”做成安全评测基准，适合检验智能体是否真能理解复杂语用。
 
 ---
 
 ### 🔧 方法与框架（新技术、基准测试、效率优化）
 
-8. **[Attend, Transform, or Silence: Operator-Level Visual Skipping for Efficient Multimodal LLM Inference](http://arxiv.org/abs/2606.31903v1)**  
-   作者：Luo et al.  
-   一句话：提出算子级视觉跳算，不是粗暴删 token，而是细粒度决定“看、变换还是静默”，更适合长视觉序列的高效推理。
+- [QuasiMoTTo: Quasi-Monte Carlo Test-Time Scaling](http://arxiv.org/abs/2607.01179v1)  
+  **作者**：M. Y. Li 等  
+  **一句话**：把 test-time 多采样从“独立重复”改成准蒙特卡洛式覆盖，提高推理扩展效率，适合大规模推理加速。
 
-9. **[Z-1: Efficient Reinforcement Learning for Vision-Language-Action Models](http://arxiv.org/abs/2606.31846v1)**  
-   作者：Cao et al.  
-   一句话：面向 VLA 模型的高效强化学习方案，目标是在机器人控制中兼顾学习效果与样本/计算效率。
+- [ZO-Act: Efficient Zeroth-Order Fine-Tuning via One-Shot Activation-Informed Low-Rank Subspaces](http://arxiv.org/abs/2607.01125v1)  
+  **作者**：X. Dong 等  
+  **一句话**：为零阶微调构造“激活感知”的低秩子空间，降低梯度不可得场景下的训练方差。
 
-10. **[Real-Time Source-Free Object Detection](http://arxiv.org/abs/2606.31834v1)**  
-    作者：VCR et al.  
-    一句话：把源自由检测与实时约束结合，面向自动驾驶和机器人场景，强调“部署时也能跑得快、适应域偏移”。
+- [Theoria: Rewrite-Acceptability Verification over Informal Reasoning States](http://arxiv.org/abs/2607.01223v1)  
+  **作者**：B. Slivinski, M. Saldivar  
+  **一句话**：提出对非正式推理状态的“可接受重写验证”，介于形式证明与黑盒评分之间，强调可审计性。
+
+- [Staleness-Learning Rate Scaling Laws for Asynchronous RLHF](http://arxiv.org/abs/2607.01083v1)  
+  **作者**：J. Song 等  
+  **一句话**：把异步 RLHF 中 rollout 陈旧度与学习率的关系系统化，为大吞吐训练提供调参规律。
 
 ---
 
 ### 📊 应用（垂直领域、多模态、代码生成）
 
-11. **[DigitalCoach: Communication and Grounding Gaps in Human and Agentic Computer Use Coaching](http://arxiv.org/abs/2606.31980v1)**  
-    作者：Chen et al.  
-    一句话：提供人类专家—新手的电脑使用教学数据集，聚焦“讲清楚”与“对齐屏幕上下文”的沟通/ grounding 问题。
+- [TiRex-2: Generalizing TiRex to Multivariate Data and Streaming](http://arxiv.org/abs/2607.01204v1)  
+  **作者**：P. Podest 等  
+  **一句话**：将时间序列基础模型扩展到多变量与流式场景，面向真实世界连续预测更实用。
 
-12. **[LUNA: Learning Universal 3D Human Animation Beyond Skinning](http://arxiv.org/abs/2606.31981v1)**  
-    作者：Li et al.  
-    一句话：提出摆脱传统 skinning 的 3D 人体动画方法，提升从单目图像生成可动画化人体 avatar 的真实感与泛化能力。
+- [EchoRisk: A Multicentre Echocardiography Dataset and Benchmark for Cardio-Oncology](http://arxiv.org/abs/2607.01039v1)  
+  **作者**：G. Kalliatakis 等  
+  **一句话**：发布心脏超声多中心纵向数据集，直接服务于肿瘤治疗相关心脏毒性风险评估。
 
-13. **[An Agentic AI Framework to Accelerate Scientific Discovery in Plant Phenotyping](http://arxiv.org/abs/2606.31831v1)**  
-    作者：Souza et al.  
-    一句话：把 agentic AI 用到植物表型分析，目标是自动化处理高通量图像数据，加速科学发现流程。
-
----
-
-## 3) 研究趋势信号
-今天的投稿显示，研究重心正从“模型是否会答”转向“模型是否会**可靠地行动**”。关键词包括：**不确定性表达、表格引用正确性、技能组合、浏览器行为蒸馏、形式化验证、具身协作、视觉推理效率**。同时，评测也从静态 QA 扩展到交互式、行动式与多模态场景，说明 AI 正从语言中心走向“可部署智能体系统”。
+- [Evidence-Supported Credit Risk Report Generation Using News-Centric Financial Knowledge Graphs](http://arxiv.org/abs/2607.01023v1)  
+  **作者**：R. Jimenez-Villen 等  
+  **一句话**：把新闻知识图谱与信用风险报告生成结合，强调“可追溯证据”的金融解释能力。
 
 ---
 
-## 4) 值得精读
+## 研究趋势信号
+今天的论文明显显示：**后训练正在从“全模型、黑盒优化”走向“局部更新、结构化约束、可验证对齐”**。与此同时，**智能体研究开始从静态基准转向开放世界、长期记忆与失败恢复**，说明评测目标正在从“会不会做”变成“能否稳定地在真实环境中做对”。另一个趋势是**评价本身被重新发明**：从单纯分数走向审计、可接受性、临床谨慎性与偏置检测。
 
-1. **[Reinforcement Learning with Metacognitive Feedback Elicits Faithful Uncertainty Expression in LLMs](http://arxiv.org/abs/2606.32032v1)**  
-   理由：这是直接切中 LLM 可信性核心问题的工作——“知道就说知道，不知道就说不知道”。对安全对齐、拒答策略、校准评估都很有参考价值。
+---
 
-2. **[AxDafny: Agentic Verified Code Generation in Dafny](http://arxiv.org/abs/2606.32007v1)**  
-   理由：它把 agentic coding 推向“可验证”层面，不只是生成代码，还生成证明与修复路径。对高可靠软件、关键系统自动化很重要。
+## 值得精读
 
-3. **[Generative Skill Composition for LLM Agents](http://arxiv.org/abs/2606.32025v1)**  
-   理由：技能复用与组合是复杂 agent 能力扩展的关键。该文有望为未来“模块化智能体”提供更通用的设计范式。  
+1. **[Is One Layer Enough? Training A Single Transformer Layer Can Match Full-Parameter RL Training](http://arxiv.org/abs/2607.01232v1)**  
+   理由：如果结果稳健，这会直接影响 RL 微调的成本结构，也能帮助理解哪些层在承担“行为改写”职责。
+
+2. **[Right in the Right Way: LM Training with Verifiable Rewards and Human Demonstrations](http://arxiv.org/abs/2607.01181v1)**  
+   理由：它直击当前对齐方法的痛点——只会优化可量化部分；对高价值任务尤其关键。
+
+3. **[Can Agents Generalize to the Open World? Unveiling the Fragility of Static Training in Tool Use](http://arxiv.org/abs/2607.01084v1)**  
+   理由：这是从“评测好看”走向“真实可用”的关键分水岭，适合关注 agent 落地的人优先阅读。
 
 如果你愿意，我还可以把这份日报进一步整理成：
-- **适合公众号发布的精简版**
-- **投研/技术团队内部简报版**
-- **按“方向-机会-风险”三栏的分析版**
+- **投资/产业视角版**
+- **学术组会汇报版**
+- **按“最可能发顶会”排序的榜单版**
 
 ---
 *本日报由 [agents-radar](https://github.com/leisure3318/agents-radar) 自动生成。*

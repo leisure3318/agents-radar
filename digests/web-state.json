@@ -1,6 +1,6 @@
 {
   "anthropic": {
-    "lastChecked": "2026-07-02T01:34:51.918Z",
+    "lastChecked": "2026-07-02T03:46:56.919Z",
     "seenUrls": {
       "https://www.anthropic.com/news/responsible-scaling-policy-v3": "2026-02-25T23:57:06.000Z",
       "https://www.anthropic.com/research/deprecation-updates-opus-3": "2026-02-25T20:58:11.000Z",
@@ -412,7 +412,7 @@
     }
   },
   "openai": {
-    "lastChecked": "2026-07-02T01:34:45.030Z",
+    "lastChecked": "2026-07-02T03:47:00.007Z",
     "seenUrls": {
       "https://openai.com/index/arvind-kc-chief-people-officer/": "2026-05-29T00:25:33.242Z",
       "https://openai.com/index/put-ai-to-work-for-your-product-team/": "2026-06-12T04:05:36.713Z",
@@ -1134,7 +1134,7 @@
       "https://openai.com/index/how-agents-are-transforming-work/": "2026-07-01T22:45:29.203Z",
       "https://openai.com/index/previewing-gpt-5-6-sol/": "2026-07-01T23:15:29.963Z",
       "https://openai.com/index/hp-frontier-partnership/": "2026-07-01T23:23:03.958Z",
-      "https://openai.com/index/introducing-genebench-pro/": "2026-07-02T01:24:17.914Z",
+      "https://openai.com/index/introducing-genebench-pro/": "2026-07-02T02:19:16.924Z",
       "https://openai.com/index/core-dump-epidemiology-data-infrastructure-bug/": "2026-07-02T00:49:42.100Z"
     }
   }
