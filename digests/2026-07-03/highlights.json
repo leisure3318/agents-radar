@@ -1,4 +1,61 @@
 {
-  "zh": {},
+  "zh": {
+    "ai-cli": [
+      "OpenCode 今日 10 Issue+10 PR",
+      "Claude Code 连出 10 个问题",
+      "Codex 发布 alpha 版本",
+      "Gemini CLI 推出 nightly",
+      "Qwen Code 6 个 PR 连发",
+      "社区聚焦子代理协作"
+    ],
+    "ai-agents": [
+      "OpenClaw 今日 40 个 PR",
+      "OpenClaw 同时有 10 个 Issue",
+      "glob-to-regex 修复 ReDoS",
+      "MCP 响应限 1MiB 防爆内存",
+      "structuredClone 保住原生类型",
+      "Android 新增 licenses 页面"
+    ],
+    "ai-trending": [
+      "codex-plugin-cc 暴涨 +352",
+      "chrome-devtools-mcp +104",
+      "agentskills 规范仓库升温",
+      "langflow 今日 +117 stars",
+      "MCP 与 Skills 成热词",
+      "浏览器接入成新基建"
+    ],
+    "ai-web": [
+      "Claude Sonnet 5 正式发布",
+      "agentic 能力接近 Opus 4.8",
+      "价格更低适合规模化",
+      "浏览器和终端执行更强",
+      "不良行为率低于 4.6",
+      "编码与自治任务再升级"
+    ],
+    "ai-hn": [
+      "OpenAI 股权传闻刷屏 HN",
+      "MCP Cloud 帖子拿 104 分",
+      "Claude-real-video 引发围观",
+      "Goldman 报告引爆失业争论",
+      "开源版 Claude Cowork 出现",
+      "Enola 架构图引发关注"
+    ],
+    "ai-arxiv": [
+      "LACUNA 测 LLM 删得准不准",
+      "LLM 在线安全监控上桌",
+      "DRIFTLENS 盯住推理漂移",
+      "持久状态代理遭分布式攻击",
+      "ReContext 强化长上下文推理",
+      "多智能体辩论涌现隐目标"
+    ],
+    "ai-community": [
+      "block.timestamp 变成漏洞",
+      "VRF 替代伪随机方案",
+      "时间戳可被攻击者操控",
+      "文章讲清 NFT 铸造风险",
+      "适合团队写入安全规范",
+      "工程可信性讨论升温"
+    ]
+  },
   "en": {}
 }
