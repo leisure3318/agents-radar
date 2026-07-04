@@ -1,68 +1,52 @@
 {
   "zh": {
     "ai-cli": [
-      "Qwen Code、OpenCode 双双高活跃",
-      "Codex 与 DeepSeek TUI 同步爆发",
-      "Claude Code 今日连发 2 个 Release",
-      "Qwen Code 一天放出 3 个 Release",
-      "Copilot CLI：10 问题零 PR",
-      "会话恢复成全生态主战场"
+      "Claude Code 今日 10 个 Issue",
+      "OpenAI Codex 有 4 个 PR",
+      "OpenCode 11 个 PR 最活跃",
+      "Gemini CLI 发布 nightly",
+      "会话恢复成核心痛点",
+      "安全隔离成主线诉求"
     ],
     "ai-agents": [
-      "OpenClaw 24小时 105 条更新",
-      "59 个 Issues、46 个 PR",
-      "今日零新版本，仍在修复期",
-      "会话状态和消息投递最热",
-      "PR#99722 修复 session churn",
-      "Gateway 稳定性成核心战场"
+      "OpenClaw 今日 44 个 PR",
+      "OpenClaw 聚焦 11 个 Issue",
+      "session-state 成焦点",
+      "QA smoke 超时已修复",
+      "Windows 命令兼容修复",
+      "新增 transcript-stat 诊断"
     ],
     "ai-trending": [
-      "Claude Code 今日新增 +221 stars",
-      "Graphify 累计 77,137 stars",
-      "全榜仅 2 个明确 AI 项目",
-      "终端原生编程助手继续升温",
-      "知识图谱化成新趋势信号",
-      "AI 热点转向工作流落地"
+      "Claude Code 今日 +221 星",
+      "Graphify 累计 77,137 星",
+      "终端原生助手继续升温",
+      "知识图谱工具受关注",
+      "AI 关注转向工作流",
+      "榜单仅 2 个 AI 项目"
     ],
     "ai-web": [
-      "Anthropic 今日新增 3 篇 news",
-      "OpenAI 官网本日新增 0 篇",
-      "Claude extended thinking 可控推理",
-      "thinking budget 进入产品层",
-      "RSP 强化 AI 安全治理框架",
-      "cyber safeguards 持续推进"
+      "Anthropic 今日新增 3 篇",
+      "Claude extended thinking 可控",
+      "thinking budget 精准控时",
+      "RSP 强化责任扩展政策",
+      "jailbreak 框架更细化",
+      "OpenAI 今日无新增"
     ],
     "ai-hn": [
-      "本地跑 SOTA LLM 帖子最热",
-      "Jamesob 指南拿下 270 分",
-      "124 条评论聚焦部署实践",
-      "GLM5.2 AMD MI355X 性价比高",
-      "Leanstral 1.5 讨论证明能力",
-      "OpenUI 推 Generative UI 标准"
-    ],
-    "ai-arxiv": [
-      "今日无新增论文",
-      "cs.AI/cs.CL/cs.LG 全部空窗",
-      "未检索到任何 AI 研究条目",
-      "无法提炼当日研究热点",
-      "建议结合近 7 天再看趋势",
-      "本日仅能记录“零新增”"
-    ],
-    "ai-hf": [
-      "unsloth/Qwen3.6-27B-MTP-GGUF 登顶",
-      "938 赞、177万下载双高",
-      "Qwen3.6 量化版主攻本地推理",
-      "GGUF 成为最热部署形态",
-      "Qwen 系列热度继续领跑",
-      "热点转向可落地部署"
+      "本地跑 SOTA LLM 热帖297分",
+      "GLM5.2 成本降 2 倍",
+      "Leanstral 1.5 引热议",
+      "省 token 工具受关注",
+      "Claude Code 上下文迁移登场",
+      "AI 生产率仍遭质疑"
     ],
     "ai-community": [
-      "Firecracker 沙箱护 AI 代码",
-      "对抗测试：上线前先打爆",
-      "Cognee 记忆防火墙引关注",
-      "模型写入信号不能直接信",
-      "如何把代码库塞进上下文",
-      "PDF 输入质量决定回答准度"
+      "50ms SLA 检查点引关注",
+      "Agent 数据泄漏成焦点",
+      "Python+AWS 图像管线实践",
+      "MCP Server 生产代码详解",
+      "AI 律师服务公益场景",
+      "Cognee 记忆生命周期游戏化"
     ]
   },
   "en": {}
