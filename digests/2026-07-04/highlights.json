@@ -1,0 +1,69 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Qwen Code、OpenCode 双双高活跃",
+      "Codex 与 DeepSeek TUI 同步爆发",
+      "Claude Code 今日连发 2 个 Release",
+      "Qwen Code 一天放出 3 个 Release",
+      "Copilot CLI：10 问题零 PR",
+      "会话恢复成全生态主战场"
+    ],
+    "ai-agents": [
+      "OpenClaw 24小时 105 条更新",
+      "59 个 Issues、46 个 PR",
+      "今日零新版本，仍在修复期",
+      "会话状态和消息投递最热",
+      "PR#99722 修复 session churn",
+      "Gateway 稳定性成核心战场"
+    ],
+    "ai-trending": [
+      "Claude Code 今日新增 +221 stars",
+      "Graphify 累计 77,137 stars",
+      "全榜仅 2 个明确 AI 项目",
+      "终端原生编程助手继续升温",
+      "知识图谱化成新趋势信号",
+      "AI 热点转向工作流落地"
+    ],
+    "ai-web": [
+      "Anthropic 今日新增 3 篇 news",
+      "OpenAI 官网本日新增 0 篇",
+      "Claude extended thinking 可控推理",
+      "thinking budget 进入产品层",
+      "RSP 强化 AI 安全治理框架",
+      "cyber safeguards 持续推进"
+    ],
+    "ai-hn": [
+      "本地跑 SOTA LLM 帖子最热",
+      "Jamesob 指南拿下 270 分",
+      "124 条评论聚焦部署实践",
+      "GLM5.2 AMD MI355X 性价比高",
+      "Leanstral 1.5 讨论证明能力",
+      "OpenUI 推 Generative UI 标准"
+    ],
+    "ai-arxiv": [
+      "今日无新增论文",
+      "cs.AI/cs.CL/cs.LG 全部空窗",
+      "未检索到任何 AI 研究条目",
+      "无法提炼当日研究热点",
+      "建议结合近 7 天再看趋势",
+      "本日仅能记录“零新增”"
+    ],
+    "ai-hf": [
+      "unsloth/Qwen3.6-27B-MTP-GGUF 登顶",
+      "938 赞、177万下载双高",
+      "Qwen3.6 量化版主攻本地推理",
+      "GGUF 成为最热部署形态",
+      "Qwen 系列热度继续领跑",
+      "热点转向可落地部署"
+    ],
+    "ai-community": [
+      "Firecracker 沙箱护 AI 代码",
+      "对抗测试：上线前先打爆",
+      "Cognee 记忆防火墙引关注",
+      "模型写入信号不能直接信",
+      "如何把代码库塞进上下文",
+      "PDF 输入质量决定回答准度"
+    ]
+  },
+  "en": {}
+}
