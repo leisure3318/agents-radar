@@ -1,52 +1,44 @@
 {
   "zh": {
     "ai-cli": [
-      "Codex推alpha版，补限额倒计时",
-      "Claude Code盯成本显示与压缩",
-      "OpenCode今日10 Issue+10 PR",
-      "Qwen Code上线nightly Release",
-      "Copilot CLI拿到新Release",
-      "生态转向可审计Agent工作台"
+      "Claude Code今日最活跃",
+      "Gemini CLI发nightly版",
+      "OpenCode连发4个PR",
+      "Qwen Code补4个PR",
+      "会话状态成共性痛点",
+      "终端兼容进入主战场"
     ],
     "ai-agents": [
-      "OpenClaw 24h合入36个PR",
-      "今日无新Release",
-      "共享libterminal进Control UI",
-      "TUI忙碌时输入改排队",
-      "折叠工作区空白缝修复",
-      "异步rejection被压制"
+      "OpenClaw今日30个PR",
+      "17个PR已合并/关闭",
+      "文档重写修正偏差",
+      "移动配对入口前置",
+      "Android/iOS终端补强",
+      "P1消息丢失成焦点"
     ],
     "ai-trending": [
-      "meetily狂涨718星",
-      "claude-skills收录337+技能",
-      "unity-mcp今日+69星",
-      "dotnet/skills今日+59星",
-      "terax-ai做终端AI工作台",
-      "CodeCraft用DeepSeek做编程Agent"
+      "meetily狂揽+718 stars",
+      "claude-skills暴涨+136",
+      "unity-mcp新增+69 stars",
+      "dotnet/skills新增+59",
+      "CodeCraft成DeepSeek代理样板",
+      "AI热度转向执行型工具"
     ],
     "ai-hn": [
-      "Claude Code曝会话缓存泄漏",
-      "故障帖拿269分、127评论",
-      "Codex推理退化获132分",
-      "Anthropic疑似提示注入",
-      "Rust写PHP引擎跑WordPress",
-      "HN情绪转向安全与可靠性"
-    ],
-    "ai-hf": [
-      "TwoTower-30B下载破万",
-      "TwoTower拿121赞",
-      "fable-traces获118赞",
-      "fable-traces属Qwen3指令微调",
-      "Leanstral-1.5-119B获100赞",
-      "Mistral 119B变体含finetune"
+      "GPT-5.5 Codex退化引热议",
+      "Codex问题帖获175分",
+      "LLM代理供应链被盯上",
+      "Rust重写PHP引擎出圈",
+      "OpenScience科研工作台受关注",
+      "AI安全与垄断成主旋律"
     ],
     "ai-community": [
-      "OrinIDE v1.0.8上线",
-      "GPU Survivors讲1T推理压测",
-      "vercel/ai误报842 secrets",
-      "AI值班闹出虚构修复事故",
-      "Agent是最越权的账号",
-      "AGENTS.md手把手约束AI"
+      "LLM计费疑云成焦点",
+      "Agent静默失败复盘火了",
+      "Prompt缓存优化很实用",
+      "企业转向原生Agent架构",
+      "规范驱动AI编程受追捧",
+      "新手Agent实战教程上榜"
     ]
   },
   "en": {}

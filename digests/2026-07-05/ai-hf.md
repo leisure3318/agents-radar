@@ -1,83 +1,54 @@
 # Hugging Face 热门模型日报 2026-07-05
 
-> 数据来源: [Hugging Face Hub](https://huggingface.co/) | 共 3 个模型 | 生成时间: 2026-07-05 01:20 UTC
+> 数据来源: [Hugging Face Hub](https://huggingface.co/) | 共 0 个模型 | 生成时间: 2026-07-05 03:37 UTC
 
 ---
 
-# Hugging Face 热门模型日报  
+# 《Hugging Face 热门模型日报》
 **日期：2026-07-05**  
-基于 Hugging Face Hub 周点赞榜（共 3 个模型）
-
-## 今日速览
-今天的热门榜单呈现出两个明显方向：一是**主流开源大模型家族继续占据关注度**，如 Qwen3 生态下的社区微调模型，以及 Mistral 体系的衍生模型；二是**更偏基础设施/专用架构的模型开始获得更高下载量**，说明实际落地需求正在上升。  
-从数据看，**NVIDIA 的 TwoTower 模型下载显著领先**，但点赞并非最高，反映出“被大量试用”与“社区热度”并不完全一致。  
-同时，**社区微调模型仍然很容易在点赞榜上冲高**，尤其是带有 instruct、safetensors、transformers 等典型发布标签的作品。  
-整体来看，当前生态仍由**开源权重、可部署、可二次微调**的路线主导。  
+**数据说明：本次输入的热门模型数量为 0，因此今日榜单为空。**
 
 ---
 
-## 热门模型
+## 1) 今日速览
+今天的 Hugging Face Hub 热门模型榜单为空，没有捕捉到可用于排序的热门模型发布。  
+这意味着本周期内要么整体热度较低，要么数据抓取源未返回有效条目。  
+在这种情况下，无法从点赞、下载和作者维度识别出新的趋势模型。  
+建议将关注重点放在下一次榜单刷新，或补充原始热门模型列表后再做趋势解读。
+
+---
+
+## 2) 热门模型
 
 ### 🧠 语言模型（LLM、对话模型、指令微调）
-1. **[AliesTaha/fable-traces](https://huggingface.co/AliesTaha/fable-traces)**  
-   - 作者：AliesTaha  
-   - 点赞：118  
-   - 下载：0  
-   - 一句话说明：这是一个基于 **Qwen3** 生态的 **instruct / text-generation** 社区模型，属于典型的指令微调方向，说明 Qwen3 相关衍生模型仍有较强关注度。
-
-2. **[mistralai/Leanstral-1.5-119B-A6B](https://huggingface.co/mistralai/Leanstral-1.5-119B-A6B)**  
-   - 作者：mistralai  
-   - 点赞：100  
-   - 下载：4  
-   - 一句话说明：来自 Mistral 体系的大参数模型变体，带有 base_model 与 finetune 标记，表明它既有基础模型价值，也可能承载了进一步微调/部署实验，因此进入趋势榜。
-
----
-
-### 🔧 专用模型（代码、数学、医疗、嵌入）
-1. **[nvidia/Nemotron-Labs-TwoTower-30B-A3B-Base-BF16](https://huggingface.co/nvidia/Nemotron-Labs-TwoTower-30B-A3B-Base-BF16)**  
-   - 作者：nvidia  
-   - 点赞：121  
-   - 下载：10,479  
-   - 一句话说明：这是一个 **Two-Tower** 架构的基础模型，更偏向检索、表示学习或双塔式应用，下载量极高，说明它不仅“被看见”，而且“被大量使用”。
-
----
+- **暂无入榜模型**
 
 ### 🎨 多模态与生成（图像、视频、音频、文本到X）
-- **本日榜单暂无相关模型**
+- **暂无入榜模型**
 
----
+### 🔧 专用模型（代码、数学、医疗、嵌入）
+- **暂无入榜模型**
 
 ### 📦 微调与量化（社区微调、GGUF、AWQ）
-1. **[AliesTaha/fable-traces](https://huggingface.co/AliesTaha/fable-traces)**  
-   - 作者：AliesTaha  
-   - 点赞：118  
-   - 下载：0  
-   - 一句话说明：带有 **instruct** 和 **Qwen3** 相关标签，明显属于社区微调/派生模型，说明“在强基座上做轻量再训练”仍是最活跃的发布形态之一。
+- **暂无入榜模型**
 
-2. **[mistralai/Leanstral-1.5-119B-A6B](https://huggingface.co/mistralai/Leanstral-1.5-119B-A6B)**  
-   - 作者：mistralai  
-   - 点赞：100  
-   - 下载：4  
-   - 一句话说明：模型标签中包含 **base_model** 与 **finetune** 信息，属于典型的微调链路产物，体现了企业级模型发布中“基座 + 派生版本”的常见策略。
+> 注：由于本次热门模型列表为空，因此无法提供模型名、HF 链接、作者、点赞数、下载数及单句说明。
 
 ---
 
-## 生态信号
-本周热门模型继续体现出 **Qwen3、Mistral、NVIDIA** 等家族的强势存在：前两者更偏社区微调与对话能力延展，后者则显示出基础架构和高效部署路线的热度。整体上，**开源权重明显强于闭源模型的可见度**，热门榜几乎都围绕可下载、可复现、可再训练的模型展开。值得注意的是，**微调标签、基础模型链路、以及两塔/检索类专用架构**的出现频率上升，说明生态正在从“单纯拼参数”转向“拼可用性、可部署性和任务适配能力”。
+## 3) 生态信号
+本期榜单为空，暂无法从热门模型中提炼出明确的家族趋势或技术偏好。也无法判断开源权重与闭源方案的相对热度变化。量化、社区微调、GGUF/AWQ 等生态活动在本次数据中未被捕捉到，建议结合后续榜单与全站新模型流量再观察。
 
 ---
 
-## 值得探索
-1. **[nvidia/Nemotron-Labs-TwoTower-30B-A3B-Base-BF16](https://huggingface.co/nvidia/Nemotron-Labs-TwoTower-30B-A3B-Base-BF16)**  
-   理由：下载量极高，说明真实需求强；适合研究双塔架构在检索、表示学习或高效推理中的应用价值。
+## 4) 值得探索
+本次没有可直接推荐的热门模型。  
+如果你愿意，我可以在你补充“热门模型原始列表”后，立即生成一版完整日报，并按以下方向优先筛选：
+1. **高点赞新发布 LLM**
+2. **热门多模态生成模型**
+3. **高下载的 GGUF / AWQ 量化模型**
 
-2. **[AliesTaha/fable-traces](https://huggingface.co/AliesTaha/fable-traces)**  
-   理由：Qwen3 生态下的社区指令微调样本，适合观察新一代开源基座如何被快速二次开发。
-
-3. **[mistralai/Leanstral-1.5-119B-A6B](https://huggingface.co/mistralai/Leanstral-1.5-119B-A6B)**  
-   理由：来自 Mistral 体系的大模型派生版本，适合关注企业级模型发布、微调链路与部署策略。  
-
-如需，我也可以把这份日报继续整理成 **适合公众号/企业晨报风格** 的版本。
+如果你希望，我也可以直接给你一个**可复用的日报模板**，你以后只需贴上模型列表即可自动生成。
 
 ---
 *本日报由 [agents-radar](https://github.com/leisure3318/agents-radar) 自动生成。*
