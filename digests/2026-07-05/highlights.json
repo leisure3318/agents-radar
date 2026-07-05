@@ -1,0 +1,53 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Codex推alpha版，补限额倒计时",
+      "Claude Code盯成本显示与压缩",
+      "OpenCode今日10 Issue+10 PR",
+      "Qwen Code上线nightly Release",
+      "Copilot CLI拿到新Release",
+      "生态转向可审计Agent工作台"
+    ],
+    "ai-agents": [
+      "OpenClaw 24h合入36个PR",
+      "今日无新Release",
+      "共享libterminal进Control UI",
+      "TUI忙碌时输入改排队",
+      "折叠工作区空白缝修复",
+      "异步rejection被压制"
+    ],
+    "ai-trending": [
+      "meetily狂涨718星",
+      "claude-skills收录337+技能",
+      "unity-mcp今日+69星",
+      "dotnet/skills今日+59星",
+      "terax-ai做终端AI工作台",
+      "CodeCraft用DeepSeek做编程Agent"
+    ],
+    "ai-hn": [
+      "Claude Code曝会话缓存泄漏",
+      "故障帖拿269分、127评论",
+      "Codex推理退化获132分",
+      "Anthropic疑似提示注入",
+      "Rust写PHP引擎跑WordPress",
+      "HN情绪转向安全与可靠性"
+    ],
+    "ai-hf": [
+      "TwoTower-30B下载破万",
+      "TwoTower拿121赞",
+      "fable-traces获118赞",
+      "fable-traces属Qwen3指令微调",
+      "Leanstral-1.5-119B获100赞",
+      "Mistral 119B变体含finetune"
+    ],
+    "ai-community": [
+      "OrinIDE v1.0.8上线",
+      "GPU Survivors讲1T推理压测",
+      "vercel/ai误报842 secrets",
+      "AI值班闹出虚构修复事故",
+      "Agent是最越权的账号",
+      "AGENTS.md手把手约束AI"
+    ]
+  },
+  "en": {}
+}
