@@ -1,0 +1,53 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code爆出计费泄漏",
+      "Codex/Gemini/OpenCode各10PR",
+      "Qwen Code推nightly Release",
+      "Copilot CLI卸载也扣Credit",
+      "Pi聚焦Token预算与压缩",
+      "AI CLI核心转向可控计费"
+    ],
+    "ai-agents": [
+      "OpenClaw发v2026.7.1-beta.2",
+      "GPT-5.6已接入OpenClaw",
+      "openclaw attach连外部harness",
+      "24小时32个PR、9个Issue",
+      "OpenClaw四线推进平台能力",
+      "仍有27个PR待审"
+    ],
+    "ai-trending": [
+      "taste-skill今日+863 stars",
+      "CodexBar聚焦AI成本观测",
+      "planning-with-files管长任务",
+      "gastown做多智能体编排",
+      "multimind-sdk做统一多模型接口",
+      "awesome-claude-code成生态入口"
+    ],
+    "ai-hn": [
+      "KiCad in Browser获95分32评",
+      "sqlite-utils 4.0rc2引热议",
+      "Claude Fable写库仅花149刀",
+      "Context graphs谈Agent记忆",
+      "HN警惕幻觉和提示注入",
+      "AI工具热度高于模型本体"
+    ],
+    "ai-hf": [
+      "Qwen3.5-9B微调模型夺榜",
+      "该模型拿下153赞",
+      "下载量达53,962次",
+      "image-text-to-text仍最热",
+      "THINKING/UNCENSORED标签抢眼",
+      "榜单被Qwen家族独占"
+    ],
+    "ai-community": [
+      "验证层取代人工Code Review",
+      "LLM应用评测开始工程化",
+      "Java里做Prompt缓存降本",
+      "自托管LLM默认无认证",
+      "RAG From Scratch实战解析",
+      "量化会毁掉工具调用吗"
+    ]
+  },
+  "en": {}
+}
