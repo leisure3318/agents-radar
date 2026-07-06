@@ -1,52 +1,44 @@
 {
   "zh": {
     "ai-cli": [
-      "Claude Code爆出计费泄漏",
-      "Codex/Gemini/OpenCode各10PR",
-      "Qwen Code推nightly Release",
-      "Copilot CLI卸载也扣Credit",
-      "Pi聚焦Token预算与压缩",
-      "AI CLI核心转向可控计费"
+      "Claude Code 10个Issue高压修复",
+      "Codex 9个Issue集中Windows",
+      "Gemini CLI 出nightly版",
+      "Qwen Code 6个PR密集推进",
+      "OpenCode 4 Issue 3 PR并进",
+      "状态一致性成共同焦点"
     ],
     "ai-agents": [
-      "OpenClaw发v2026.7.1-beta.2",
-      "GPT-5.6已接入OpenClaw",
-      "openclaw attach连外部harness",
-      "24小时32个PR、9个Issue",
-      "OpenClaw四线推进平台能力",
-      "仍有27个PR待审"
+      "OpenClaw 17个Issue/33个PR",
+      "10个Issue已关闭",
+      "4个PR今日处理完",
+      "#100374 防图片读入过大",
+      "#100281 修非视觉降级",
+      "会话回退链路在修复"
     ],
     "ai-trending": [
-      "taste-skill今日+863 stars",
-      "CodexBar聚焦AI成本观测",
-      "planning-with-files管长任务",
-      "gastown做多智能体编排",
-      "multimind-sdk做统一多模型接口",
-      "awesome-claude-code成生态入口"
+      "taste-skill 今日+863星",
+      "CodexBar 今日+153星",
+      "awesome-claude-code +148星",
+      "planning-with-files 解上下文丢失",
+      "gastown 主打多智能体协作",
+      "multimind-sdk 已有92星"
     ],
     "ai-hn": [
-      "KiCad in Browser获95分32评",
-      "sqlite-utils 4.0rc2引热议",
-      "Claude Fable写库仅花149刀",
-      "Context graphs谈Agent记忆",
-      "HN警惕幻觉和提示注入",
-      "AI工具热度高于模型本体"
-    ],
-    "ai-hf": [
-      "Qwen3.5-9B微调模型夺榜",
-      "该模型拿下153赞",
-      "下载量达53,962次",
-      "image-text-to-text仍最热",
-      "THINKING/UNCENSORED标签抢眼",
-      "榜单被Qwen家族独占"
+      "Claude Prompt 116分/31评",
+      "KiCad 浏览器版97分/32评",
+      "sqlite-utils 由Claude Fable写",
+      "Context graphs 讲代理记忆",
+      "HN 热议AI版权与信任",
+      "浏览器/CAD/IDE集成成焦点"
     ],
     "ai-community": [
-      "验证层取代人工Code Review",
-      "LLM应用评测开始工程化",
-      "Java里做Prompt缓存降本",
-      "自托管LLM默认无认证",
-      "RAG From Scratch实战解析",
-      "量化会毁掉工具调用吗"
+      "OrinIDE v1.0.9 获10赞",
+      "Claude Code 省一半Token",
+      "COGNEE 记忆层走红",
+      "OpenOPC 打造AI一人公司",
+      "持久化记忆让代理少重读",
+      "100个子代理筛出12个"
     ]
   },
   "en": {}
