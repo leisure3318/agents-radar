@@ -39,7 +39,24 @@
       "OpenOPC 打造AI一人公司",
       "持久化记忆让代理少重读",
       "100个子代理筛出12个"
+    ],
+    "ai-weekly": [
+      "Claude Sonnet 5 正式发布",
+      "Fable 5/Mythos 5 先停后启",
+      "Claude Code 逼近生产工具",
+      "GitHub 热榜涌现 skills 与 MCP",
+      "OpenClaw 一周高密度修复",
+      "HN 热议本地推理与成本控制"
     ]
   },
-  "en": {}
+  "en": {
+    "ai-weekly": [
+      "Claude Sonnet 5 topped HN discussion",
+      "Fable 5 returned after export-control pause",
+      "Anthropic pushed RSP and jailbreak safeguards",
+      "Claude Code and peers hardened for production",
+      "GitHub Trending favored MCP integrations",
+      "Local/offline AI tools kept gaining momentum"
+    ]
+  }
 }
