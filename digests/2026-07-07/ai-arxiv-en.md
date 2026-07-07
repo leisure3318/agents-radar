@@ -1,6 +1,6 @@
-# AI Open Source Trends 2026-07-07
+# ArXiv AI Research Digest 2026-07-07
 
-> Sources: GitHub Trending + GitHub Search API | Generated: 2026-07-07 03:35 UTC
+> Source: [ArXiv](https://arxiv.org/) (cs.AI, cs.CL, cs.LG) | 50 papers | Generated: 2026-07-07 03:35 UTC
 
 ---
 
