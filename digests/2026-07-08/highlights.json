@@ -1,0 +1,69 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code推v2.1.203/204",
+      "Codex上新alpha.38/39",
+      "Qwen Code连发3个版本",
+      "OpenCode升至v1.17.15",
+      "DeepSeek TUI发v0.8.67",
+      "会话恢复成共同焦点"
+    ],
+    "ai-agents": [
+      "OpenClaw 24h收59个PR",
+      "P1数据丢失问题频现",
+      "SDK修复保留0事件ID",
+      "iMessage插件收敛符号",
+      "Android Skill面板推进",
+      "会话链路与稳定性吃紧"
+    ],
+    "ai-trending": [
+      "ai-job-search暴涨+2514星",
+      "OfficeCLI单日+893星",
+      "pocket-tts获+531星",
+      "AI搜索热榜结果为空",
+      "垂直Agent最易传播",
+      "CPU友好本地推理走热"
+    ],
+    "ai-web": [
+      "Claude Sonnet 5正式发布",
+      "Sonnet 5成默认模型",
+      "更像Agent的Sonnet",
+      "价格逼近Opus级能力",
+      "Anthropic发全局工作区研究",
+      "OpenAI官网今日无更新"
+    ],
+    "ai-hn": [
+      "Rowboat获87分成Top帖",
+      "Shellular手机跑Claude Code",
+      "Claude Code制作幕后受关注",
+      "社区热议本地化工具",
+      "免费额度与定价成焦点",
+      "AI效率与泡沫担忧并存"
+    ],
+    "ai-arxiv": [
+      "最热：Prompting Complexity",
+      "统一自回归/扩散解码",
+      "SpanUQ做span级不确定性",
+      "缓解事实幻觉新方法",
+      "搜索路由开始可学习化",
+      "多智能体+记忆成主线"
+    ],
+    "ai-hf": [
+      "ThinkingCap-Qwen3.6-27B获104赞",
+      "Agents-A1-GGUF下载破1.1万",
+      "多模态/视觉理解最热",
+      "GGUF量化成传播关键",
+      "Qwen系持续领跑榜单",
+      "可本地部署需求强劲"
+    ],
+    "ai-community": [
+      "别再不读文档了",
+      "AI时代工程师在变",
+      "AI讨论转向可靠性",
+      "Agent循环成本在增长",
+      "AI写线程安全代码更慢",
+      "Embedding泄露成新风险"
+    ]
+  },
+  "en": {}
+}
