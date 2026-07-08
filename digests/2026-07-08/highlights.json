@@ -1,68 +1,52 @@
 {
   "zh": {
     "ai-cli": [
-      "Claude Code推v2.1.203/204",
-      "Codex上新alpha.38/39",
-      "Qwen Code连发3个版本",
-      "OpenCode升至v1.17.15",
-      "DeepSeek TUI发v0.8.67",
-      "会话恢复成共同焦点"
+      "Claude Code陷入29个Issue",
+      "resume/continue 输入失灵",
+      "Codex发布 rust-v0.143.0",
+      "OpenCode 7 Issue+10 PR最活跃",
+      "Qwen Code 6个PR冲体验",
+      "Windows/WSL2兼容成主线"
     ],
     "ai-agents": [
-      "OpenClaw 24h收59个PR",
-      "P1数据丢失问题频现",
-      "SDK修复保留0事件ID",
-      "iMessage插件收敛符号",
-      "Android Skill面板推进",
-      "会话链路与稳定性吃紧"
+      "OpenClaw 43个PR狂推修复",
+      "Cron主会话唤醒Bug收敛",
+      "URL/路径/时间误解析已修",
+      "P0生命周期问题仍待收敛",
+      "P1节点执行缺口待补齐",
+      "Unicode截断安全再加固"
     ],
     "ai-trending": [
-      "ai-job-search暴涨+2514星",
-      "OfficeCLI单日+893星",
-      "pocket-tts获+531星",
-      "AI搜索热榜结果为空",
-      "垂直Agent最易传播",
-      "CPU友好本地推理走热"
+      "ai-job-search今日+2514 stars",
+      "Claude Code求职自动化爆红",
+      "OfficeCLI今日+893 stars",
+      "pocket-tts CPU可跑+531 stars",
+      "Trending热度被三项目包揽",
+      "搜索结果为0，靠榜单爆发"
     ],
     "ai-web": [
       "Claude Sonnet 5正式发布",
-      "Sonnet 5成默认模型",
-      "更像Agent的Sonnet",
-      "价格逼近Opus级能力",
-      "Anthropic发全局工作区研究",
-      "OpenAI官网今日无更新"
+      "主打最agentic的Sonnet",
+      "Free/Pro默认切到Sonnet 5",
+      "性能逼近Opus 4.8",
+      "终端和浏览器工具更强",
+      "global workspace研究上线"
     ],
     "ai-hn": [
-      "Rowboat获87分成Top帖",
-      "Shellular手机跑Claude Code",
-      "Claude Code制作幕后受关注",
-      "社区热议本地化工具",
-      "免费额度与定价成焦点",
-      "AI效率与泡沫担忧并存"
-    ],
-    "ai-arxiv": [
-      "最热：Prompting Complexity",
-      "统一自回归/扩散解码",
-      "SpanUQ做span级不确定性",
-      "缓解事实幻觉新方法",
-      "搜索路由开始可学习化",
-      "多智能体+记忆成主线"
-    ],
-    "ai-hf": [
-      "ThinkingCap-Qwen3.6-27B获104赞",
-      "Agents-A1-GGUF下载破1.1万",
-      "多模态/视觉理解最热",
-      "GGUF量化成传播关键",
-      "Qwen系持续领跑榜单",
-      "可本地部署需求强劲"
+      "Rowboat 103分叫板Claude Desktop",
+      "本地优先替代击中隐私痛点",
+      "The Making of Claude Code 52分",
+      "1-bit WebGPU跑1.7B模型",
+      "J-Space曝Claude隐式推理",
+      "Meta Muse Image/Video登场"
     ],
     "ai-community": [
-      "别再不读文档了",
-      "AI时代工程师在变",
-      "AI讨论转向可靠性",
-      "Agent循环成本在增长",
-      "AI写线程安全代码更慢",
-      "Embedding泄露成新风险"
+      "HTTP QUERY冲击旧网关缓存",
+      "Dev.to文章拿到5赞",
+      "Google数字膨胀引发争议",
+      "Lobste.rs贴文79分8评论",
+      "社区开始盯兼容性和成本",
+      "AI扩张的能耗代价被放大"
     ]
   },
   "en": {}
