@@ -1,68 +1,68 @@
 {
   "zh": {
     "ai-cli": [
-      "Claude Code 发布 v2.1.205",
-      "Codex 连出 2 个 alpha",
-      "Gemini CLI 双 release 上线",
-      "OpenCode 长会话成痛点",
-      "Qwen Code 会话隔离补强",
-      "DeepSeek TUI 状态膨胀待修"
+      "OpenAI Codex 10 Issue/10 PR",
+      "OpenCode 9 Issue/10 PR 高活跃",
+      "Claude Code 聚焦 resume 卡死",
+      "Qwen Code 3 Issue/8 PR 推进快",
+      "Gemini CLI nightly 失败",
+      "生态焦点转向状态持久化"
     ],
     "ai-agents": [
-      "OpenClaw 日增 34 个 PR",
-      "两条 P1 直指安全风险",
-      "沙箱流错误已修复",
-      "终态失败改成显式 error",
-      "OpenClaw 新增 Grok 4.5",
-      "稳定性与兼容性并进"
+      "OpenClaw 15 Issue/45 PR 高压修补",
+      "PR#102246 修复 UTF-16 边界",
+      "PR#102377 补 owner 遥测",
+      "Slack Enterprise Grid 支持推进",
+      "Teams inbound normalize 修复",
+      "msteams 原生 CJS 入口补齐"
     ],
     "ai-trending": [
-      "TencentDB-Agent-Memory +318",
-      "DesktopCommanderMCP +28",
-      "ponytail 78,037 星高热",
-      "Agent 长记忆成新焦点",
+      "TencentDB-Agent-Memory 今日+318",
+      "DesktopCommanderMCP 今日+28",
+      "ponytail 仍有 78,037 星",
+      "Agent 长记忆需求升温",
       "MCP 接管终端文件系统",
-      "编码代理赛道继续升温"
+      "AI 正走向可控执行"
     ],
     "ai-web": [
       "Anthropic 今日新增35篇",
-      "双重用途知识可加开关",
-      "Agentic misalignment 直指内鬼",
-      "安全叙事转向知识层",
-      "OpenAI 现 GPT Live",
-      "编码评测新文引关注"
+      "OpenAI 仅4篇标题页",
+      "Agentic misalignment 成焦点",
+      "Dual-use knowledge 推知识层防护",
+      "biorisk 与 cyber defense 密集",
+      "经济与劳动力叙事延续"
     ],
     "ai-hn": [
-      "GPT-Live 588分登顶",
-      "GPT-5.6 Sol 引爆热议",
-      "Coding evals 成焦点",
-      "微软 Flint 亮相 HN",
-      "AI cheating 讨论升温",
-      "开发者追求可观测工具"
+      "GPT-Live 622分/421评登顶",
+      "GPT-5.6 Sol 235分/203评",
+      "OpenAI 评测文175分/66评",
+      "Anthropic 分类器争议195分/183评",
+      "微软 Flint 221分/81评",
+      "社区盯紧实时产品与评测"
     ],
     "ai-arxiv": [
-      "DepthWeave-KV 压缩长上下文",
-      "FreqDepthKV 频率驱动共享",
-      "DynaKRAG 可学习证据控制",
-      "DT-Guard 低延迟安全护栏",
-      "真实数据分析基准来了",
-      "全双工语音模型新架构"
+      "Co-LMLM：连续查询长记忆",
+      "RoPE 频率与数据分布相关",
+      "Future Confidence Distillation",
+      "Agon：跨模型竞争式RL",
+      "Search, Fail, Recover 纠错推理",
+      "PALS：更细粒度剪枝策略"
     ],
     "ai-hf": [
-      "Krea-2 图像编辑冲榜",
-      "Krea-2 深度 ControlNet 热",
-      "DeepSeek-V4-Flash-GGUF 96赞",
-      "Laguna-XS-2.1 获 76 赞",
-      "可控生成比大模型更热",
-      "GGUF 与 LoRA 持续走强"
+      "NVIDIA Nemotron-Labs-Audex-30B-A3B",
+      "70赞0下载的新品信号",
+      "HF 今日仅1个热门模型",
+      "30B级企业文本模型上榜",
+      "头部厂商旗舰仍主导",
+      "量化微调今天未上榜"
     ],
     "ai-community": [
-      "人机协作开发平台上线",
-      "AI Dashboard 接管引关注",
-      "Agent 伪造测试日志",
-      "AI PR Reviewer 评测踩坑",
-      "大上下文未让 RAG 更聪明",
-      "vLLM 性能优化上 Lobste.rs"
+      "AI 写代码看不到自己的 Bug",
+      "MCP Skills 实验被回滚",
+      "证据驱动 CLI 也会拒答",
+      "Java 混淆送 AI 反而翻车",
+      "2026 AI Gateways 对比",
+      "浏览器原生 AI API 上前端"
     ]
   },
   "en": {}

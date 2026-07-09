@@ -1,70 +1,53 @@
 # Hugging Face 热门模型日报 2026-07-09
 
-> 数据来源: [Hugging Face Hub](https://huggingface.co/) | 共 4 个模型 | 生成时间: 2026-07-09 01:12 UTC
+> 数据来源: [Hugging Face Hub](https://huggingface.co/) | 共 1 个模型 | 生成时间: 2026-07-09 03:29 UTC
 
 ---
 
 # Hugging Face 热门模型日报  
 **日期：2026-07-09**
 
-## 今日速览
-今天的热门榜单呈现出明显的**“视觉生成 + 轻量化部署”**双主线：两款围绕 **Krea-2** 的图像编辑/ControlNet 模型冲到前列，说明社区对高质量可控生成的关注持续升温。  
-语言模型方面，**DeepSeek-V4-Flash-GGUF** 和 **Laguna-XS-2.1** 代表了“更快、更轻、更易部署”的趋势，其中 GGUF 版本尤其适合本地推理。  
-整体看，热门模型并不一定依赖高下载量，**点赞驱动的关注度**更偏向“新架构、强功能、易落地”的模型。  
-这反映出 Hugging Face 生态正在从单纯追求大模型，转向**可控生成、快速部署和社区适配**并重。
+## 1) 今日速览
+今天的 HF 热门榜单非常集中，只有 1 个模型上榜，且来自 **NVIDIA** 的 **Nemotron-Labs-Audex-30B-A3B**。  
+这说明当前社区关注点仍然高度聚焦在**大参数、企业级文本生成模型**上，而不是大量碎片化的小模型。  
+该模型以 **70 个点赞**进入榜单，但 **下载数为 0**，更像是“刚发布即受关注”的新品信号。  
+从趋势上看，用户对**高规格、可直接在 HF 生态中检视/试用的大模型**依然保持强兴趣。
 
 ---
 
-## 热门模型
+## 2) 热门模型
 
 ### 🧠 语言模型（LLM、对话模型、指令微调）
-1. **[poolside/Laguna-XS-2.1](https://huggingface.co/poolside/Laguna-XS-2.1)**  
-   - 作者：poolside  
-   - 点赞：76  
-   - 下载：3,385  
-   - 一句话说明：这是一个面向文本生成的语言模型，既有较高下载量也有不错点赞，说明它兼具“可用性”和“讨论热度”，是当前榜单中最典型的 LLM 热门项。
+
+- **[nvidia/Nemotron-Labs-Audex-30B-A3B](https://huggingface.co/nvidia/Nemotron-Labs-Audex-30B-A3B)**  
+  作者：**nvidia** | 点赞：**70** | 下载：**0**  
+  一句话说明：这是一个来自 NVIDIA 的 **30B 级文本生成模型**，属于高容量语言模型路线，能上榜主要是因为品牌影响力强、模型规模大、且显然刚引发社区关注。
 
 ### 🎨 多模态与生成（图像、视频、音频、文本到X）
-1. **[conradlocke/krea2-identity-edit](https://huggingface.co/conradlocke/krea2-identity-edit)**  
-   - 作者：conradlocke  
-   - 点赞：98  
-   - 下载：0  
-   - 一句话说明：基于 **Krea-2-Raw** 的图像编辑 LoRA，聚焦身份保持与编辑一致性，属于当下很受欢迎的“可控图像编辑”方向，因此点赞冲到榜首。
-
-2. **[Patil/Krea-2-depth-controlnet](https://huggingface.co/Patil/Krea-2-depth-controlnet)**  
-   - 作者：Patil  
-   - 点赞：71  
-   - 下载：0  
-   - 一句话说明：这是一个面向 Krea-2 的深度控制 ControlNet/LoRA，用于增强图像生成中的结构约束与可控性，体现了生成模型从“会画”走向“可控地画”的趋势。
+- **无上榜模型**
 
 ### 🔧 专用模型（代码、数学、医疗、嵌入）
-- 暂无明显归类到代码/数学/医疗/嵌入的热门模型。
+- **无上榜模型**
 
 ### 📦 微调与量化（社区微调、GGUF、AWQ）
-1. **[unsloth/DeepSeek-V4-Flash-GGUF](https://huggingface.co/unsloth/DeepSeek-V4-Flash-GGUF)**  
-   - 作者：unsloth  
-   - 点赞：96  
-   - 下载：47  
-   - 一句话说明：这是 DeepSeek-V4-Flash 的 GGUF 量化/封装版本，主打本地和低门槛部署；高点赞说明社区对“能快速跑起来”的大模型版本非常买账。
+- **无上榜模型**
 
 ---
 
-## 生态信号
-Krea-2 家族明显在视觉编辑与可控生成方向上升温，说明社区正追捧“身份保持、深度控制”这类实用能力。语言模型侧，DeepSeek 与轻量部署版本继续受关注，反映出**开源权重 + 易部署格式**仍是主流偏好。与此同时，GGUF、LoRA、ControlNet 这类可复用的社区适配层持续活跃，说明模型生态正在从“发布基础模型”转向“发布可直接落地的能力包”。
+## 3) 生态信号
+今日榜单显示，大模型生态仍由**头部厂商/研究团队的旗舰级模型**主导，尤其是像 NVIDIA 这类具备完整算力与工程能力的家族更容易获得关注。由于本日报只有一个上榜模型，说明社区热度呈现出明显的**“单点爆发”**特征：新品发布、规格明确、命名统一的模型更容易被点赞。开放权重与否从当前数据无法完全确认，但从 HF 热门榜的表现看，**可被社区直接访问和讨论的模型**仍是关注核心。量化、社区微调在今天没有进入榜单，意味着这一天的讨论重心偏向**原生大模型发布**而非衍生版本。
 
 ---
 
-## 值得探索
-1. **[conradlocke/krea2-identity-edit](https://huggingface.co/conradlocke/krea2-identity-edit)**  
-   适合关注身份保持、图像编辑一致性和 LoRA 适配的研究者或创作者。
+## 4) 值得探索
+1. **[nvidia/Nemotron-Labs-Audex-30B-A3B](https://huggingface.co/nvidia/Nemotron-Labs-Audex-30B-A3B)**  
+   值得优先研究：这是今日唯一热门模型，且来自 NVIDIA，适合关注其架构定位、能力边界与后续生态扩展。
 
-2. **[unsloth/DeepSeek-V4-Flash-GGUF](https://huggingface.co/unsloth/DeepSeek-V4-Flash-GGUF)**  
-   值得测试其本地推理效率与实际可用性，尤其适合部署和量化实践。
+> 注：今日 HF 热门榜仅出现 1 个模型，因此暂无第二、第三个同榜推荐。
 
-3. **[poolside/Laguna-XS-2.1](https://huggingface.co/poolside/Laguna-XS-2.1)**  
-   作为榜单中下载量最高的文本生成模型，适合观察其质量、响应速度与应用场景适配能力。
+--- 
 
-如果你愿意，我也可以把这份日报进一步整理成**适合公众号/飞书文档的版式**，或者输出成**表格版 CSV/Markdown**。
+如果你愿意，我也可以把这份日报进一步整理成 **表格版 / 新闻简报版 / 适合公众号发布的版式**。
 
 ---
 *本日报由 [agents-radar](https://github.com/leisure3318/agents-radar) 自动生成。*
