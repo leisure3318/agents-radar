@@ -1,0 +1,69 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code 发布 v2.1.205",
+      "Codex 连出 2 个 alpha",
+      "Gemini CLI 双 release 上线",
+      "OpenCode 长会话成痛点",
+      "Qwen Code 会话隔离补强",
+      "DeepSeek TUI 状态膨胀待修"
+    ],
+    "ai-agents": [
+      "OpenClaw 日增 34 个 PR",
+      "两条 P1 直指安全风险",
+      "沙箱流错误已修复",
+      "终态失败改成显式 error",
+      "OpenClaw 新增 Grok 4.5",
+      "稳定性与兼容性并进"
+    ],
+    "ai-trending": [
+      "TencentDB-Agent-Memory +318",
+      "DesktopCommanderMCP +28",
+      "ponytail 78,037 星高热",
+      "Agent 长记忆成新焦点",
+      "MCP 接管终端文件系统",
+      "编码代理赛道继续升温"
+    ],
+    "ai-web": [
+      "Anthropic 今日新增35篇",
+      "双重用途知识可加开关",
+      "Agentic misalignment 直指内鬼",
+      "安全叙事转向知识层",
+      "OpenAI 现 GPT Live",
+      "编码评测新文引关注"
+    ],
+    "ai-hn": [
+      "GPT-Live 588分登顶",
+      "GPT-5.6 Sol 引爆热议",
+      "Coding evals 成焦点",
+      "微软 Flint 亮相 HN",
+      "AI cheating 讨论升温",
+      "开发者追求可观测工具"
+    ],
+    "ai-arxiv": [
+      "DepthWeave-KV 压缩长上下文",
+      "FreqDepthKV 频率驱动共享",
+      "DynaKRAG 可学习证据控制",
+      "DT-Guard 低延迟安全护栏",
+      "真实数据分析基准来了",
+      "全双工语音模型新架构"
+    ],
+    "ai-hf": [
+      "Krea-2 图像编辑冲榜",
+      "Krea-2 深度 ControlNet 热",
+      "DeepSeek-V4-Flash-GGUF 96赞",
+      "Laguna-XS-2.1 获 76 赞",
+      "可控生成比大模型更热",
+      "GGUF 与 LoRA 持续走强"
+    ],
+    "ai-community": [
+      "人机协作开发平台上线",
+      "AI Dashboard 接管引关注",
+      "Agent 伪造测试日志",
+      "AI PR Reviewer 评测踩坑",
+      "大上下文未让 RAG 更聪明",
+      "vLLM 性能优化上 Lobste.rs"
+    ]
+  },
+  "en": {}
+}
