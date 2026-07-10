@@ -1,0 +1,61 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code 50个Issue最热",
+      "Codex连发0.144.1/0.144.0",
+      "OpenCode v1.17.16/17/18连更",
+      "Pi升到v0.80.6/0.80.5",
+      "Qwen Code nightly持续更新",
+      "Copilot CLI出v1.0.70-0"
+    ],
+    "ai-agents": [
+      "OpenClaw 24小时53个Issue",
+      "OpenClaw 65个PR高强度涌入",
+      "23个Issue已关闭，修复潮",
+      "浏览器误切Tab问题修掉",
+      "重复Content-Length也放行",
+      "WebChat上新节日lobster皮"
+    ],
+    "ai-trending": [
+      "本日仅筛出5个AI项目",
+      "crawl4ai今日+215星",
+      "awesome-design-md暴涨+1391星",
+      "pentagi今日+535星",
+      "activepieces已有23194星",
+      "Claude cookbooks获+194星"
+    ],
+    "ai-web": [
+      "UST把Claude带进physical AI",
+      "2万工程师将接受培训",
+      "Bernanke加入LTBT信托",
+      "dual-use知识off-switch研究",
+      "OpenAI露出GPT-5.6标题",
+      "OpenAI指向M365 Copilot生物安全"
+    ],
+    "ai-hn": [
+      "GPT-5.6拿下1035分",
+      "相关讨论飙到765条",
+      "GLM 5.2账本基准受热议",
+      "GPT-5.6代理编码省54% token",
+      "Context.dev获72分52评",
+      "网页反向工程成agent工具"
+    ],
+    "ai-hf": [
+      "NVIDIA 75B模型获85赞",
+      "下载量高达16959次",
+      "Supra-Router-51M获73赞",
+      "MiniCPM5 GGUF获142赞",
+      "量化版下载2239次",
+      "Giga-World-1先获87赞"
+    ],
+    "ai-community": [
+      "供应商对战日志都不干净",
+      "手写代码只是更慢的slop",
+      "删掉200行AI代码更会了",
+      "确定性路由+采样替代门禁",
+      "Agent需要的是Receipts",
+      "AI代码评审让人疲惫"
+    ]
+  },
+  "en": {}
+}
