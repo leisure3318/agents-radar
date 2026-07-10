@@ -1,60 +1,68 @@
 {
   "zh": {
     "ai-cli": [
-      "Claude Code 50个Issue最热",
-      "Codex连发0.144.1/0.144.0",
-      "OpenCode v1.17.16/17/18连更",
-      "Pi升到v0.80.6/0.80.5",
-      "Qwen Code nightly持续更新",
-      "Copilot CLI出v1.0.70-0"
+      "Claude Code：10条Issue+Release",
+      "OpenAI Codex：8个PR猛冲",
+      "OpenCode：10 Issue、6 PR",
+      "Qwen Code：5个PR集中推进",
+      "Gemini CLI、Copilot CLI发版",
+      "DeepSeek TUI聚焦安全修复"
     ],
     "ai-agents": [
-      "OpenClaw 24小时53个Issue",
-      "OpenClaw 65个PR高强度涌入",
-      "23个Issue已关闭，修复潮",
-      "浏览器误切Tab问题修掉",
-      "重复Content-Length也放行",
-      "WebChat上新节日lobster皮"
+      "OpenClaw：29 Issue、62 PR",
+      "Gateway安全与稳定性成焦点",
+      "ClawRouter管理配置补齐",
+      "旧迁移改为doctor显式启用",
+      "实时工具结果要等完成再ack",
+      "Control UI语言切换刷新修复"
     ],
     "ai-trending": [
-      "本日仅筛出5个AI项目",
-      "crawl4ai今日+215星",
-      "awesome-design-md暴涨+1391星",
-      "pentagi今日+535星",
-      "activepieces已有23194星",
-      "Claude cookbooks获+194星"
+      "5个AI项目上榜，方向很清晰",
+      "Activepieces：23,194星底座",
+      "Crawl4AI今日+215",
+      "Pentagi今日+535",
+      "awesome-design-md今日+1391",
+      "Claude cookbooks今日+194"
     ],
     "ai-web": [
       "UST把Claude带进physical AI",
-      "2万工程师将接受培训",
+      "将培训2万名工程师",
       "Bernanke加入LTBT信托",
-      "dual-use知识off-switch研究",
-      "OpenAI露出GPT-5.6标题",
-      "OpenAI指向M365 Copilot生物安全"
+      "安全研究聚焦dual-use开关",
+      "OpenAI元数据露出GPT-5.6",
+      "还涉及ChatGPT与M365 Copilot"
     ],
     "ai-hn": [
-      "GPT-5.6拿下1035分",
-      "相关讨论飙到765条",
-      "GLM 5.2账本基准受热议",
-      "GPT-5.6代理编码省54% token",
-      "Context.dev获72分52评",
-      "网页反向工程成agent工具"
+      "GPT-5.6：1111分、800评论",
+      "GLM 5.2接近人类记账员",
+      "ARC-AGI结果补强GPT-5.6",
+      "Anthropic再推dual-use安全研究",
+      "Fable：CIFAR Speedrun引关注",
+      "Claude Code/Cursor/Codex管控热"
+    ],
+    "ai-arxiv": [
+      "量化不等于行为等价",
+      "LLM超级权重再受审视",
+      "UltraX：大规模数据精修",
+      "引用核验未必需前沿模型",
+      "MAESTRO：剪掉坏专家",
+      "DominoTree推理更快更稳"
     ],
     "ai-hf": [
-      "NVIDIA 75B模型获85赞",
-      "下载量高达16959次",
-      "Supra-Router-51M获73赞",
-      "MiniCPM5 GGUF获142赞",
-      "量化版下载2239次",
-      "Giga-World-1先获87赞"
+      "MOSS-Transcribe-Diarize登顶",
+      "75赞、2537次下载",
+      "转写+说话人分离一体化",
+      "会议播客整理刚需",
+      "transformers+safetensors",
+      "今日榜单仅此一模型"
     ],
     "ai-community": [
-      "供应商对战日志都不干净",
-      "手写代码只是更慢的slop",
-      "删掉200行AI代码更会了",
-      "确定性路由+采样替代门禁",
-      "Agent需要的是Receipts",
-      "AI代码评审让人疲惫"
+      "4篇都聚焦生产可用性",
+      "Agent交易要托管还是原子锁",
+      "AI事故防护网成热点",
+      "5层AI质量架构受关注",
+      "100天把脚本做成SaaS",
+      "Lobste.rs今日无AI内容"
     ]
   },
   "en": {}
