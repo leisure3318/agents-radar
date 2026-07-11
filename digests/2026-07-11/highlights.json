@@ -1,0 +1,53 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code发v2.1.207",
+      "Codex双alpha发布",
+      "Qwen Code推v0.19.9+nightly",
+      "OpenCode Issues/PR双10",
+      "Copilot CLI发v1.0.71-0",
+      "DeepSeek TUI 10个PR猛修"
+    ],
+    "ai-agents": [
+      "OpenClaw 47Issue/71PR爆发",
+      "聊天页加后台任务面板",
+      "Slack群DM策略修复",
+      "Telegram attestor溢出修补",
+      "会话状态一致性成焦点",
+      "PR 49待合并压力大"
+    ],
+    "ai-trending": [
+      "claude-code-templates今日+118",
+      "stitch-skills今日+117",
+      "memvid冲上趋势榜",
+      "Claude Code监控模板受追捧",
+      "Stitch Skills标准化Agent技能",
+      "单文件记忆层替代RAG"
+    ],
+    "ai-hn": [
+      "GPT-5.6证数学猜想获332赞",
+      "Apple起诉OpenAI刷屏HN",
+      "四大模型同搭4款App",
+      "一页维基吃掉68000 tokens",
+      "GPT-5.6-Sol误删Mac文件",
+      "Fable做出5MB海盗MMO"
+    ],
+    "ai-hf": [
+      "LTX-Best-Face-ID获83赞",
+      "主打人脸身份保持生成",
+      "lingbot-video-moe-30b-a3b获75赞",
+      "30B Video MoE接入Diffusers",
+      "视频生成卷向身份一致性",
+      "开源视频模型重工程落地"
+    ],
+    "ai-community": [
+      "AI供应商失败模型来了",
+      "让AI Agent看懂你的网站",
+      "给AI助手生成代码加Linter",
+      "别把Coding Agent当老虎机",
+      "流式AI零token计费坑",
+      "Tool calling 200不等于执行"
+    ]
+  },
+  "en": {}
+}
