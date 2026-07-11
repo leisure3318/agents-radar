@@ -1,52 +1,44 @@
 {
   "zh": {
     "ai-cli": [
-      "Claude Code发v2.1.207",
-      "Codex双alpha发布",
-      "Qwen Code推v0.19.9+nightly",
-      "OpenCode Issues/PR双10",
-      "Copilot CLI发v1.0.71-0",
-      "DeepSeek TUI 10个PR猛修"
+      "Claude Code盯WSL和远程会话",
+      "OpenCode 10 Issue、5 PR最热",
+      "Codex 9 Issue+4 PR冲Windows",
+      "三家都在补会话恢复能力",
+      "跨平台兼容成今日主线",
+      "9款工具今日零新Release"
     ],
     "ai-agents": [
-      "OpenClaw 47Issue/71PR爆发",
-      "聊天页加后台任务面板",
-      "Slack群DM策略修复",
-      "Telegram attestor溢出修补",
-      "会话状态一致性成焦点",
-      "PR 49待合并压力大"
+      "OpenClaw 61个PR密集待审",
+      "Gateway生命周期成主线",
+      "#103862修复Android重复投递",
+      "#103904堵住静默故障",
+      "消息幂等与一致性在收敛",
+      "Android持久化和浏览器安全并进"
     ],
     "ai-trending": [
       "claude-code-templates今日+118",
       "stitch-skills今日+117",
-      "memvid冲上趋势榜",
-      "Claude Code监控模板受追捧",
-      "Stitch Skills标准化Agent技能",
-      "单文件记忆层替代RAG"
+      "Claude Code模板冲上热榜",
+      "Agent Skills标准化升温",
+      "memvid主打单文件记忆层",
+      "热点集中在Agent工具链"
     ],
     "ai-hn": [
-      "GPT-5.6证数学猜想获332赞",
-      "Apple起诉OpenAI刷屏HN",
-      "四大模型同搭4款App",
-      "一页维基吃掉68000 tokens",
-      "GPT-5.6-Sol误删Mac文件",
-      "Fable做出5MB海盗MMO"
-    ],
-    "ai-hf": [
-      "LTX-Best-Face-ID获83赞",
-      "主打人脸身份保持生成",
-      "lingbot-video-moe-30b-a3b获75赞",
-      "30B Video MoE接入Diffusers",
-      "视频生成卷向身份一致性",
-      "开源视频模型重工程落地"
+      "Apple诉OpenAI占据HN头条",
+      "GPT-5.6证明帖363分293评",
+      "4模型同做4App，138分",
+      "一页维基吃掉6.8万token",
+      "记忆策略决策树引热议",
+      "Pirate MMO仅5MB惊艳HN"
     ],
     "ai-community": [
-      "AI供应商失败模型来了",
-      "让AI Agent看懂你的网站",
-      "给AI助手生成代码加Linter",
-      "别把Coding Agent当老虎机",
-      "流式AI零token计费坑",
-      "Tool calling 200不等于执行"
+      "Dev.to直击LLM账单失控",
+      "流量不涨，账单先涨",
+      "ROI失衡成开发者痛点",
+      "成本监控比接入更重要",
+      "缓存限流成必修课",
+      "模型路由与提示压缩升温"
     ]
   },
   "en": {}
