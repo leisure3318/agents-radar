@@ -1,0 +1,53 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code 50个Issue霸榜",
+      "OpenCode一日10 Issue+10 PR",
+      "OpenAI Codex收获7个PR",
+      "Qwen Code聚焦恢复与缓存",
+      "Gemini CLI严防危险脚本",
+      "CLI生态迈向MCP代理编排"
+    ],
+    "ai-agents": [
+      "OpenClaw发v2026.7.1-beta.5",
+      "38个Issue、65个PR高速迭代",
+      "49个PR待合并，主干吃紧",
+      "macOS安装器挂起已修复",
+      "模型判定审批与遮蔽凭据上新",
+      "确定性fallback补上退路"
+    ],
+    "ai-trending": [
+      "next-ai-draw-io今日+81星",
+      "openai/plugins增星+29",
+      "LLMs-from-scratch近10万星",
+      "MariaDB向量检索升温",
+      "AI榜单仅4个仓库入选",
+      "应用层与RAG底座最热"
+    ],
+    "ai-hn": [
+      "HN热议Claude体验退化",
+      "隐私合规成AI争议核心",
+      "Mesh LLM主打分布式推理",
+      "Sqlsure给AI生成SQL上护栏",
+      "OpenIngress瞄准Agent导航",
+      "Soofi主权模型登场"
+    ],
+    "ai-hf": [
+      "阿语ASR下载7,687居首",
+      "CohereLabs点赞89",
+      "Tess-4-27B点赞84",
+      "Qwen3.5系多模态受关注",
+      "LLM基座本期零上榜",
+      "GGUF/AWQ量化未上榜"
+    ],
+    "ai-community": [
+      "Dev.to 30篇聚焦AI代理",
+      "Slack变AI队友还能开PR",
+      "Claude Code+MCP实战热",
+      "多步Agent追踪成共识",
+      "60B数据集挑战架构神话",
+      "Lobste.rs盯性能与隐私"
+    ]
+  },
+  "en": {}
+}
