@@ -1,52 +1,52 @@
 {
   "zh": {
     "ai-cli": [
-      "Claude Code 50个Issue霸榜",
-      "OpenCode一日10 Issue+10 PR",
-      "OpenAI Codex收获7个PR",
-      "Qwen Code聚焦恢复与缓存",
-      "Gemini CLI严防危险脚本",
-      "CLI生态迈向MCP代理编排"
+      "Claude Code 10条Issue盯Windows",
+      "OpenAI Codex聚焦IDE与上下文",
+      "OpenCode 7PR+7Issue最活跃",
+      "Copilot CLI卡在会话恢复",
+      "Gemini CLI爆出P1发布失败",
+      "Pi走小步快修路线"
     ],
     "ai-agents": [
-      "OpenClaw发v2026.7.1-beta.5",
-      "38个Issue、65个PR高速迭代",
-      "49个PR待合并，主干吃紧",
-      "macOS安装器挂起已修复",
-      "模型判定审批与遮蔽凭据上新",
-      "确定性fallback补上退路"
+      "OpenClaw 14个Issue、46个PR",
+      "PR#104902重构插件回滚",
+      "PR#104910修正maxTokens传递",
+      "PR#104908修复cron误报致命",
+      "PR#104887清理Android死代码",
+      "PR#104900稳住回复时间戳测试"
     ],
     "ai-trending": [
-      "next-ai-draw-io今日+81星",
-      "openai/plugins增星+29",
-      "LLMs-from-scratch近10万星",
-      "MariaDB向量检索升温",
-      "AI榜单仅4个仓库入选",
-      "应用层与RAG底座最热"
+      "next-ai-draw-io今日涨81星",
+      "openai/plugins再增29星",
+      "LLMs-from-scratch逼近10万星",
+      "MariaDB/server切入向量检索",
+      "自然语言改draw.io最吸睛",
+      "AI热度转向工具接入"
     ],
     "ai-hn": [
-      "HN热议Claude体验退化",
-      "隐私合规成AI争议核心",
-      "Mesh LLM主打分布式推理",
-      "Sqlsure给AI生成SQL上护栏",
-      "OpenIngress瞄准Agent导航",
-      "Soofi主权模型登场"
+      "Mesh LLM拿下121分31评",
+      "OpenAI Forked Git获23分17评",
+      "Sqlsure给AI SQL加确定性护栏",
+      "OpenBenchmarks帮Agent选SaaS",
+      "榜首帖反思别再滥问LLM",
+      "Claude/OpenAI隐私计费遭质疑"
     ],
     "ai-hf": [
-      "阿语ASR下载7,687居首",
-      "CohereLabs点赞89",
-      "Tess-4-27B点赞84",
-      "Qwen3.5系多模态受关注",
-      "LLM基座本期零上榜",
-      "GGUF/AWQ量化未上榜"
+      "MiniCPM5-1B拿下911点赞",
+      "下载量冲到36.6万",
+      "openbmb小模型继续领跑",
+      "1B参数主打本地部署",
+      "开源权重仍是主流",
+      "量化版GGUF/AWQ值得等"
     ],
     "ai-community": [
-      "Dev.to 30篇聚焦AI代理",
-      "Slack变AI队友还能开PR",
-      "Claude Code+MCP实战热",
-      "多步Agent追踪成共识",
-      "60B数据集挑战架构神话",
-      "Lobste.rs盯性能与隐私"
+      "LangChain实战教你做Agent",
+      "个人与共享上下文大讨论",
+      "警惕“会AI”的空岗位",
+      "8模型月度对比买家决策",
+      "社区关注Agent能否落地",
+      "上下文工程成新热词"
     ]
   },
   "en": {}
