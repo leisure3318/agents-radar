@@ -39,7 +39,24 @@
       "AFTER：vibe code 需后处理",
       "消费级硬件上的 Micro-AI",
       "足球模型世界杯命中 63/76"
+    ],
+    "ai-weekly": [
+      "Claude Sonnet 5 强化 Agent 执行",
+      "Claude 内部工作区研究再推进",
+      "UST 将 Claude 引入物理 AI",
+      "GPT-5.6 引爆 HN 热议",
+      "Claude Code 33k token 成争议",
+      "OpenClaw 默认切到 GPT-5.6"
     ]
   },
-  "en": {}
+  "en": {
+    "ai-weekly": [
+      "Claude Sonnet 5 boosts agentic workflows",
+      "GPT-5.6 dominates HN and product chatter",
+      "destructive_command_guard tops GitHub trends",
+      "Claude Code vs OpenCode sparks token debate",
+      "OpenClaw v2026.7.1-beta.6 adds new providers",
+      "TencentDB-Agent-Memory pushes long-term memory"
+    ]
+  }
 }
