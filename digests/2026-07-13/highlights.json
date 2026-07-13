@@ -1,52 +1,44 @@
 {
   "zh": {
     "ai-cli": [
-      "OpenCode 10 Issue+10 PR最活跃",
-      "Claude Code 10 Issue盯WSL/安全",
-      "OpenAI Codex聚焦稳定与耗额",
-      "Gemini CLI 10 PR修依赖最猛",
-      "Pi看重多模态与TUI稳定",
-      "Qwen Code长会话与上下文热议"
+      "Claude Code 19 条 issue 爆发",
+      "Codex 10 热点+2 PR，已回滚",
+      "Gemini CLI 上线 nightly v0.52.0",
+      "OpenCode 10 Issue+10 PR 同热",
+      "Claude Code 长会话内存膨胀",
+      "Qwen Code 聚焦配置透传"
     ],
     "ai-agents": [
-      "OpenClaw 35 Issues/47 PR刷屏",
-      "PR #105801让Gateway更快起",
-      "PR #105814补齐原生Skills",
-      "P1/P2多在session/auth安全",
-      "配置默认值与边界在修正",
-      "无新Release但重构不停"
+      "OpenClaw 发版 v2026.7.1-beta.6",
+      "GPT-5.6 成 new-setup 默认",
+      "新增 Featherless 等 5 个 Provider",
+      "支持 Claude Sonnet 5",
+      "24 小时 51 个 PR，高频迭代",
+      "会话状态与沙箱读写现隐患"
     ],
     "ai-trending": [
-      "destructive_command_guard +444",
-      "hallmark 获+155成新宠",
-      "background-agents做后台执行",
-      "project-nomad +125离线生存机",
-      "ai-hedge-fund +115投研AI",
-      "LightRAG继续领跑RAG赛道"
+      "destructive_command_guard +444⭐",
+      "hallmark +155⭐，AI 代码技能包",
+      "project-nomad +125⭐，离线生存电脑",
+      "ai-hedge-fund +115⭐，AI 投研",
+      "background-agents +16⭐，后台代理",
+      "LightRAG 持续高热"
     ],
     "ai-hn": [
-      "Claude Code先发33k tokens",
-      "OpenCode只发7k tokens",
-      "454分热帖：反对LLM炒作",
-      "Apple/OpenAI纠纷再引争议",
-      "OpenAI安全负责人离职",
-      "因果推断解读LLM成焦点"
-    ],
-    "ai-hf": [
-      "Qwen3.6-27B-NVFP4获179赞",
-      "Qwen3.6-27B-NVFP4下载137万",
-      "ThinkingCap-GGUF下载31.2万",
-      "gepard-1.0语音模型获85赞",
-      "lingbot-world-v2走图生视频",
-      "Qwen量化部署继续霸榜"
+      "Claude Code 33k token 开销曝光",
+      "机制可解释性研究引爆讨论",
+      "Anthropic hidden space 引热议",
+      "113M 地震 LLM 从零训练",
+      "Grok 4.5/GPT5.6 反超 Anthropic",
+      "AI 标注与治理成焦点"
     ],
     "ai-community": [
-      "Ollama跑Jetson Nano实测",
-      "AI清误报且不漏真漏洞",
-      "Claude Desktop接Web分析",
-      "MCP落地业务成热文",
-      "LLM账单暴涨防护7招",
-      "文档不是简单切chunks"
+      "LLM 不会自知出错，先兜底",
+      "最便宜模型做出最佳效果",
+      "六层 Loop Agent 架构",
+      "AFTER：vibe code 需后处理",
+      "消费级硬件上的 Micro-AI",
+      "足球模型世界杯命中 63/76"
     ]
   },
   "en": {}
