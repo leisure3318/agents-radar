@@ -1,0 +1,53 @@
+{
+  "zh": {
+    "ai-cli": [
+      "OpenCode 10 Issue+10 PR最活跃",
+      "Claude Code 10 Issue盯WSL/安全",
+      "OpenAI Codex聚焦稳定与耗额",
+      "Gemini CLI 10 PR修依赖最猛",
+      "Pi看重多模态与TUI稳定",
+      "Qwen Code长会话与上下文热议"
+    ],
+    "ai-agents": [
+      "OpenClaw 35 Issues/47 PR刷屏",
+      "PR #105801让Gateway更快起",
+      "PR #105814补齐原生Skills",
+      "P1/P2多在session/auth安全",
+      "配置默认值与边界在修正",
+      "无新Release但重构不停"
+    ],
+    "ai-trending": [
+      "destructive_command_guard +444",
+      "hallmark 获+155成新宠",
+      "background-agents做后台执行",
+      "project-nomad +125离线生存机",
+      "ai-hedge-fund +115投研AI",
+      "LightRAG继续领跑RAG赛道"
+    ],
+    "ai-hn": [
+      "Claude Code先发33k tokens",
+      "OpenCode只发7k tokens",
+      "454分热帖：反对LLM炒作",
+      "Apple/OpenAI纠纷再引争议",
+      "OpenAI安全负责人离职",
+      "因果推断解读LLM成焦点"
+    ],
+    "ai-hf": [
+      "Qwen3.6-27B-NVFP4获179赞",
+      "Qwen3.6-27B-NVFP4下载137万",
+      "ThinkingCap-GGUF下载31.2万",
+      "gepard-1.0语音模型获85赞",
+      "lingbot-world-v2走图生视频",
+      "Qwen量化部署继续霸榜"
+    ],
+    "ai-community": [
+      "Ollama跑Jetson Nano实测",
+      "AI清误报且不漏真漏洞",
+      "Claude Desktop接Web分析",
+      "MCP落地业务成热文",
+      "LLM账单暴涨防护7招",
+      "文档不是简单切chunks"
+    ]
+  },
+  "en": {}
+}
