@@ -1,6 +1,6 @@
 # AI CLI Tools Community Digest 2026-07-14
 
-> Generated: 2026-07-14 00:58 UTC | Tools covered: 9
+> Generated: 2026-07-14 02:38 UTC | Tools covered: 9
 
 - [Claude Code](https://github.com/anthropics/claude-code)
 - [OpenAI Codex](https://github.com/openai/codex)
@@ -62,7 +62,7 @@ _(English digest skipped to save LLM tokens — see the Chinese report for full 
 <details>
 <summary><strong>Kimi Code CLI</strong> — <a href="https://github.com/MoonshotAI/kimi-cli">MoonshotAI/kimi-cli</a></summary>
 
-_(English digest skipped to save LLM tokens — see the Chinese report for full details.)_
+No activity in the last 24 hours.
 
 </details>
 
