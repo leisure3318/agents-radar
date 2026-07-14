@@ -1,0 +1,61 @@
+{
+  "zh": {
+    "ai-cli": [
+      "OpenAI Codex今日10 Issue/10 PR",
+      "Codex连发3个Release",
+      "OpenCode/Pi/Qwen Code齐活跃",
+      "Claude Code 10 Issue仅3 PR",
+      "会话恢复成共同焦点",
+      "Copilot CLI问题多、PR少"
+    ],
+    "ai-agents": [
+      "OpenClaw 24小时75 Issue/59 PR",
+      "新版本v2026.7.1已发布",
+      "新增Featherless和Claude Sonnet 5",
+      "默认新装改用GPT-5.6",
+      "OAuth后刷新模型可用性",
+      "核心改动聚焦gateway与session"
+    ],
+    "ai-trending": [
+      "spec-kit今日涨星543",
+      "airi今日涨星78",
+      "ai-access统一多模型接入",
+      "MoE资料库再受关注",
+      "AI陪伴应用airi走热",
+      "开发工作流成新热点"
+    ],
+    "ai-web": [
+      "Anthropic今日新增7篇",
+      "Claude价值研究看语言差异",
+      "agentic misalignment再被强调",
+      "机器人任务研究上线",
+      "Creative Work connectors登场",
+      "OpenAI官网今日零新增"
+    ],
+    "ai-hn": [
+      "Mr. Meeseeks插件113分49评",
+      "微软Claude Code落地研究",
+      "SQL里实现神经网络引热议",
+      "AI代码质量争议升温",
+      "MIT CASM检测法获讨论",
+      "VLM内部表征研究受关注"
+    ],
+    "ai-hf": [
+      "Qwythos-9B-v2-GGUF下载45189",
+      "Qwythos-9B-v2同步上榜",
+      "GLM-5.2-colibri-int4受捧",
+      "GGUF与llama.cpp热度飙升",
+      "CPU本地部署需求强",
+      "开源权重继续占优"
+    ],
+    "ai-community": [
+      "文档时代并未结束",
+      "AI编码助手致技能退化",
+      "Gemma-4正迁移到Inferentia2",
+      "30天让Claude写90%代码",
+      "停用AI助手30天救职业",
+      "Mastra生产Agent教程火热"
+    ]
+  },
+  "en": {}
+}
