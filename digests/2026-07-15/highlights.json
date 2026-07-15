@@ -1,0 +1,69 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code连发v2.1.210/209",
+      "Codex推rust-v0.144.4+alpha",
+      "OpenCode更新v1.18.0/1.18.1",
+      "Qwen Code走nightly/preview线",
+      "Copilot CLI发v1.0.71-1/2",
+      "Pi更新到v0.80.7"
+    ],
+    "ai-agents": [
+      "OpenClaw今日92条开发动态",
+      "41个Issues+51个PR高压修复",
+      "2026.7.1回归仍是主线",
+      "llama.cpp HTTP兼容已修复",
+      "发布验证阻塞被解除",
+      "自托管接入文档已补齐"
+    ],
+    "ai-trending": [
+      "grok2api今日日增186星",
+      "Grok多账号API网关走红",
+      "AI热度集中在接入层",
+      "知识仓库加112星也上榜",
+      "今天无RAG/Agent爆款",
+      "主题搜索几乎空白"
+    ],
+    "ai-web": [
+      "Claude for Teachers面向K-12",
+      "教师可免费用高阶Claude",
+      "Anthropic砸1000万加元",
+      "联手Amii、Mila、Vector",
+      "Claude使用研究聚焦加拿大",
+      "OpenAI今日公开内容为零"
+    ],
+    "ai-hn": [
+      "Codex子代理加密引爆讨论",
+      "408分240评直指可审计性",
+      "Agnost AI盯用户反馈提取",
+      "LeMario把JEPA搬进马里奥",
+      "在线/离线eval成热门话题",
+      "HN继续质疑厂商叙事"
+    ],
+    "ai-arxiv": [
+      "LLM元认知综述出炉",
+      "LLM-as-Judge偏差被拆解",
+      "AdvancedMathBench测证明",
+      "RAG立场偏置受温度影响",
+      "多文化道德推理MET登场",
+      "Hourglass推理攻归纳"
+    ],
+    "ai-hf": [
+      "Ternary-Bonsai-27B-gguf获139赞",
+      "Bonsai-27B-gguf拿513下载",
+      "M87 LoRA下载冲到2408",
+      "GGUF 1-bit/2-bit继续火",
+      "27B轻量量化成焦点",
+      "图像LoRA仍是高活跃赛道"
+    ],
+    "ai-community": [
+      "RAG评测不稳其实是检索",
+      "Agent账单可直降60%",
+      "AI框架前10%像魔法",
+      "后90%最容易翻车",
+      "防删库Agent指南受关注",
+      "Spec驱动开发再出圈"
+    ]
+  },
+  "en": {}
+}
