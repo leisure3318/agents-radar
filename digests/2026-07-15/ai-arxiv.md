@@ -1,16 +1,16 @@
 # ArXiv AI 研究日报 2026-07-15
 
-> 数据来源: [ArXiv](https://arxiv.org/) (cs.AI, cs.CL, cs.LG) | 共 50 篇论文 | 生成时间: 2026-07-15 00:55 UTC
+> 数据来源: [ArXiv](https://arxiv.org/) (cs.AI, cs.CL, cs.LG) | 共 50 篇论文 | 生成时间: 2026-07-15 02:36 UTC
 
 ---
 
 # ArXiv AI 研究日报（2026-07-15）
 
 ## 1) 今日速览
-今天的投稿明显聚焦在 **“可解释、可验证、可审计”** 的 AI 方向：一方面有元认知综述、LLM-as-Judge 偏差机制、先进数学证明评测、RAG 立场偏置等工作，强调模型行为的细粒度理解与评估。  
-另一方面，**智能体与工具使用安全** 成为热点，从多智能体分布式后门、自动化红队到视觉工具调用基准，说明 agent 系统正从“能用工具”走向“安全地用工具”。  
-第三条主线是 **多模态与具身智能**，包括证据化视频问答、长音频叙事、机器人具身合成与恢复控制，显示模型能力正从文本扩展到真实世界任务。  
-此外，若干理论论文围绕 Transformer 归纳推理、grokking、state-space 动态和离线到在线 RL，表明基础机理研究仍在快速推进。  
+今天的论文明显集中在 **LLM 评估与可靠性**、**智能体记忆/推理/失败归因**、以及 **推理效率优化** 三条主线。  
+一方面，研究者开始系统反思“LLM 评审器”“rubric 评分”“无参考评估”等方法的偏差与可校准性，说明评测正在从“能打分”走向“可解释、可验证”。  
+另一方面，面向长程智能体的记忆、技能演化、失败定位、证据约束推理等工作明显增多，表明 agent 研究正在从 demo 化走向工程可控化。  
+此外，KV Cache 压缩、MoE 解码加速、稀疏注意力、masked diffusion 推理提速等效率论文密集出现，说明大模型系统优化仍是落地关键瓶颈。  
 
 ---
 
@@ -18,95 +18,119 @@
 
 ### 🧠 大语言模型（架构、训练、对齐、评估）
 
-1. **[Metacognition in LLMs: Foundations, Progress, and Opportunities](http://arxiv.org/abs/2607.11881v1)**  
-   作者：G. Liu 等  
-   一句话说明：系统梳理 LLM 元认知能力的概念、进展与研究空白，为“模型是否具备自我监控、自我纠错与不确定性感知”提供框架级路线图，具有很强的综述价值。
+1. **[LLM Judges Can Be Too Generous When There Is No Reference Answer](http://arxiv.org/abs/2607.12885v1)**  
+   作者：K. Kranti 等  
+   一句话说明：指出无参考答案场景下的 LLM 评审器存在“过度宽松”倾向，直接影响开放式任务评估的可信度。
 
-2. **[Inside the Unfair Judge: A Mechanistic Interpretability Account of LLM-as-Judge Bias](http://arxiv.org/abs/2607.11871v1)**  
-   作者：Z. Xu 等  
-   一句话说明：把 LLM 评审偏差从输入输出现象推进到隐藏状态层面的机制解释，直接关系到自动评测、公平性与对齐可信度，实用性和方法论都很强。
+2. **[Can LLMs Write Reliable Rubrics? A Meta-Evaluation for Experiment Reproduction](http://arxiv.org/abs/2607.12835v1)**  
+   作者：H. Hong 等  
+   一句话说明：把“让 LLM 写 rubric”本身变成被评测对象，为实验复现类任务提供更系统的自动化评价框架。
 
-3. **[AdvancedMathBench: A Benchmark Suite for Advanced Mathematical Proof Generation and Verification](http://arxiv.org/abs/2607.11849v1)**  
-   作者：L. Kong 等  
-   一句话说明：面向高阶数学证明生成与验证的新基准，补足现有数学评测“只看题目难度、不看证明细节”的短板，对检验 LLM 的深推理能力很关键。
+3. **[Knowledgeless Language Models: Suppressing Parametric Recall for Evidence-Grounded Language Modeling](http://arxiv.org/abs/2607.12831v1)**  
+   作者：R. Cohen 等  
+   一句话说明：探索通过改造预训练信号抑制参数记忆，减少模型“凭记忆胡说”，让回答更依赖给定证据。
 
-4. **[Production and Perception in LLMs: A Token Probability Approach](http://arxiv.org/abs/2607.11703v1)**  
-   作者：A. Marklová 等  
-   一句话说明：用 token 概率视角研究 LLM 的“生成 vs. 理解”是否存在功能性分离，连接心理语言学与模型行为分析，问题很基础也很有启发性。
+4. **[The One-Word Census: Answer-Choice Conformity Across 44 Language Models](http://arxiv.org/abs/2607.12796v1)**  
+   作者：T. Parikh  
+   一句话说明：揭示多模型在开放选择题中存在显著的答案收敛现象，提示“模型共识”未必等于正确性。
 
-5. **[How Temperature Shapes Ideological Discourse in Retrieval-Augmented Generation?](http://arxiv.org/abs/2607.11783v1)**  
-   作者：E. Salari 等  
-   一句话说明：把 RAG 的稳健性问题推进到“意识形态偏置”层面，揭示采样温度如何影响输出立场，是对 RAG 安全与偏见研究的重要补充。
+5. **[Epistemic Stance Flexibility Probing: Measuring Prompt-Conditioned Register Shift in Large Language Models](http://arxiv.org/abs/2607.12739v1)**  
+   作者：B. Liu, Y. Ren  
+   一句话说明：测试模型能否根据提示在“转述专家观点”和“表达自身立场”之间切换语气与知识立场，对可信对话很关键。
 
-6. **[MET: Theory-Grounded and Culture-Aware Multilingual Moral Reasoning](http://arxiv.org/abs/2607.11736v1)**  
-   作者：A. Lee 等  
-   一句话说明：针对多语言、多文化语境下的道德推理，提出更理论化、文化感知的评测与方法，适合关注对齐、公平性和跨文化泛化的读者。
+6. **[Extractable Memorization From First Principles](http://arxiv.org/abs/2607.12649v1)**  
+   作者：A. F. Cooper 等  
+   一句话说明：从定义层面澄清“可抽取记忆”与“可预测性”的边界，有助于更严格地讨论模型记忆与泄露问题。
 
 ---
 
 ### 🤖 智能体与推理（规划、工具使用、多智能体、思维链）
 
-7. **[Think Through a Bottleneck: Hourglass Reasoning for Rigorous Induction](http://arxiv.org/abs/2607.11696v1)**  
-   作者：H. Zhu  
-   一句话说明：提出“瓶颈式”推理结构来提升归纳能力，强调阶段间信息隔离比简单 self-refinement 更有效，对提示设计和推理链结构很有参考意义。
+7. **[MemOps: Benchmarking Lifecycle Memory Operations in Long-Horizon Conversations](http://arxiv.org/abs/2607.12893v1)**  
+   作者：X. Hao 等  
+   一句话说明：把长对话记忆拆成“存取、更新、遗忘、迁移”等生命周期操作来测评，补上了只看最终问答的盲区。
 
-8. **[MM-ToolSandBox: A Unified Framework for Evaluating Visual Tool-Calling Agents](http://arxiv.org/abs/2607.11818v1)**  
-   作者：K. Ma 等  
-   一句话说明：构建覆盖 500+ 工具、16 个领域的视觉工具调用评测环境，把“会看、会用工具、会多轮协作”统一到一个基准里，是 agent 评测的重要基础设施。
+8. **[Who Grades the Grader? Co-Evolving Evaluation Metrics and Skills for Self-Improving LLM Agents](http://arxiv.org/abs/2607.12790v1)**  
+   作者：X. Zhang 等  
+   一句话说明：提出“指标也要进化”的自改进智能体框架，直击 agent 系统中评价函数缺失的核心难题。
 
-9. **[Agent Hacks Agent: Autoresearch for Production-Agent Red-Teaming](http://arxiv.org/abs/2607.11698v1)**  
-   作者：X. Mao 等  
-   一句话说明：面向真实生产环境中的 LLM agent，提出自动化红队研究思路，直面未授权文件、命令与工作区状态带来的安全风险，具有很强的现实意义。
+9. **[Tracing Agentic Failure from the Flow of Success](http://arxiv.org/abs/2607.12747v1)**  
+   作者：S. Yeh 等  
+   一句话说明：尝试从成功轨迹反推失败归因，为复杂 agent 的调试与错误定位提供更低成本的方法。
+
+10. **[Evidence-Grounded Verified Agentic Reasoning: A Path Toward Eliminating LLM Hallucination in Empirical Inference via Tool-Attested Kernel Proofs](http://arxiv.org/abs/2607.12650v1)**  
+    作者：J. Ren  
+    一句话说明：把工具调用、Lean 4 证明与证据链结合，目标是让经验推理可验证、可追踪、可审计。
+
+11. **[LLMs Can See the Smoke but not the Fire: Evaluating Abductive Reasoning with Elenchos](http://arxiv.org/abs/2607.12733v1)**  
+    作者：J. Steiglechner 等  
+    一句话说明：专门评测 LLM 的溯因能力，观察模型能否从现象推断潜在解释，而不只是模式匹配。
+
+12. **[A Learning-Rate-Gated Failure of GRPO in a Small Language and Vision-Language Model Web Agent: A Controlled Null and Its Mechanism](http://arxiv.org/abs/2607.12640v1)**  
+    作者：C. Gan 等  
+    一句话说明：报告 GRPO 在小型 web agent 上的失效机制，提醒大家强化学习“有效”并不自动成立。
 
 ---
 
 ### 🔧 方法与框架（新技术、基准测试、效率优化）
 
-10. **[RAGU: A Multi-Step GraphRAG Engine with a Compact Domain-Adapted LLM](http://arxiv.org/abs/2607.11683v1)**  
-    作者：M. Komarov 等  
-    一句话说明：通过多步图构建与领域适配的小模型改进 GraphRAG 的噪声与脆弱性，属于“把 RAG 工程做扎实”的代表性工作。
+13. **[Accelerating Masked Diffusion Large Language Models: A Survey of Efficient Inference Techniques](http://arxiv.org/abs/2607.12829v1)**  
+    作者：D. Gwak 等  
+    一句话说明：系统梳理 masked diffusion LLM 的推理加速技术，是把“理论并行”转成“实际吞吐”的路线图。
 
-11. **[Bet on Features: Anytime-Valid and Feature-Aware Auditing of Conditional Quantile Forecasters](http://arxiv.org/abs/2607.11653v1)**  
-    作者：I. Antonov 等  
-    一句话说明：为条件分位数预测提供可持续监控与特征感知审计框架，适合高风险决策场景，体现了 ML 从离线评估走向在线治理。
+14. **[A JoLT for the KV Cache: Near-Lossless KV Cache Compression via Joint Tucker and JL-Residual Allocation for LLMs](http://arxiv.org/abs/2607.12550v1)**  
+    作者：R. Krishnan, V. Schulz  
+    一句话说明：提出接近无损的 KV Cache 压缩方案，直接针对长上下文推理的核心内存瓶颈。
 
-12. **[Active Offline-to-Online Reinforcement Learning](http://arxiv.org/abs/2607.11720v1)**  
-    作者：A. K. Bozkurt 等  
-    一句话说明：把离线 RL 与有限在线交互结合起来做主动式改进，面向非平稳环境很实用，是“数据驱动 + 少量试错”路线的典型方法论文。
+15. **[AVQ-Attention: Adaptive Vector-Quantized Attention](http://arxiv.org/abs/2607.12789v1)**  
+    作者：W. van den dool 等  
+    一句话说明：通过自适应码本分配降低注意力复杂度，兼顾效率与精度，适合高 token 场景。
+
+16. **[Less Experts, Faster Decoding: Cost-Aware Speculative Decoding for Mixture-of-Experts](http://arxiv.org/abs/2607.12696v1)**  
+    作者：J. Xie 等  
+    一句话说明：把 MoE 的专家调用成本纳入 speculative decoding 设计，有望同时降低延迟和推理开销。
+
+17. **[Contrastive-Collapsed Loss for Flexible and Geometrically Optimal Embeddings and Faster Convergence](http://arxiv.org/abs/2607.12916v1)**  
+    作者：B. Cano-Camarero 等  
+    一句话说明：提出 CoCo 损失，兼顾类内塌缩与类间分离，并强调几何最优嵌入和更快收敛。
 
 ---
 
 ### 📊 应用（垂直领域、多模态、代码生成）
 
-13. **[Evidence-Backed Video Question Answering](http://arxiv.org/abs/2607.11862v1)**  
-    作者：S. Wang 等  
-    一句话说明：把视频问答从“给答案”推进到“给可验证证据”，强化视觉 grounding，适合关注多模态可信输出与可解释性的研究者。
+18. **[Evaluating Large Language Models on Misconceptions in Multi-Turn Medical Conversations](http://arxiv.org/abs/2607.12884v1)**  
+    作者：M. Munnangi, S. Savage  
+    一句话说明：聚焦医疗多轮对话中的错误前提识别与纠偏，对安全医疗助手很实用。
 
-14. **[Xiaomi-Robotics-U0: Unified Embodied Synthesis with World Foundation Model](http://arxiv.org/abs/2607.11643v1)**  
-    作者：X. Li 等  
-    一句话说明：面向具身场景统一生成与世界模型能力，强调多视角一致性与几何约束，代表了从生成模型走向机器人智能的最新方向。
+19. **[Learning Mechanistic Reasoning for Chemical Reactions with Large Language Models](http://arxiv.org/abs/2607.12771v1)**  
+    作者：X. Dang 等  
+    一句话说明：把化学反应机理作为可学习的推理对象，推动 LLM 从“配方匹配”走向“机制理解”。
+
+20. **[Learning-based Probabilistic Load Forecasting with Post-hoc and In-model Uncertainty](http://arxiv.org/abs/2607.12730v1)**  
+    作者：S. Al-Shareeda 等  
+    一句话说明：面向建筑负荷预测显式建模输入与模型不确定性，对能源管理落地价值高。
 
 ---
 
 ## 3) 研究趋势信号
-今天的论文显示，AI 正在从“更强的生成能力”转向“更强的可审计能力”：元认知、judge 偏差、RAG 立场漂移、分位数预测审计都在强化可信性；同时，agent 与多智能体安全成为新风险前沿，分布式后门、自动红队、工具调用基准密集出现。另一条清晰趋势是多模态与具身智能快速融合，模型开始被要求在视频、音频、机器人与真实世界环境中提供可验证输出。  
+今天的投稿显示，AI 研究正在从“单点能力提升”转向“**可验证、可诊断、可部署**”的系统能力建设：LLM 评估不再满足于最终分数，而是追求 rubric、无参考评测和评审偏差校准；智能体研究则围绕记忆生命周期、失败归因、证据约束推理展开；基础模型方向继续聚焦 KV cache、MoE、稀疏注意力等推理成本问题。整体看，**可靠性与效率**正在成为大模型研究的双主轴。
 
 ---
 
 ## 4) 值得精读
-1. **[Metacognition in LLMs: Foundations, Progress, and Opportunities](http://arxiv.org/abs/2607.11881v1)**  
-   理由：这是理解“LLM 是否具备自我反思与自我纠错能力”的总入口，适合快速建立领域全景。
+1. **[MemOps: Benchmarking Lifecycle Memory Operations in Long-Horizon Conversations](http://arxiv.org/abs/2607.12893v1)**  
+   理由：长程记忆是 agent 落地的关键能力，这篇把记忆拆成可测的生命周期操作，方法论价值很强。
 
-2. **[Inside the Unfair Judge: A Mechanistic Interpretability Account of LLM-as-Judge Bias](http://arxiv.org/abs/2607.11871v1)**  
-   理由：从机制层解释评审偏差，兼具科学深度和工程价值，对自动评测、对齐与公平性都直接相关。
+2. **[Evidence-Grounded Verified Agentic Reasoning: A Path Toward Eliminating LLM Hallucination in Empirical Inference via Tool-Attested Kernel Proofs](http://arxiv.org/abs/2607.12650v1)**  
+   理由：把工具、证据和形式化证明绑定，代表了“让 LLM 可审计”的一个重要方向。
 
-3. **[Think Through a Bottleneck: Hourglass Reasoning for Rigorous Induction](http://arxiv.org/abs/2607.11696v1)**  
-   理由：它讨论的是“怎样组织推理过程才有效”，这比单纯提升分数更接近推理能力的本质，也很适合做后续方法设计参考。  
+3. **[A JoLT for the KV Cache: Near-Lossless KV Cache Compression via Joint Tucker and JL-Residual Allocation for LLMs](http://arxiv.org/abs/2607.12550v1)**  
+   理由：KV Cache 是长上下文推理的核心瓶颈，这类近无损压缩若成立，对部署影响直接且广泛。
 
-如果你愿意，我也可以把这份日报再整理成：
-- **投资/产品视角版**
-- **研究组周会版 PPT 提纲**
-- **按“最可能发顶会”排序版**
+如果你愿意，我也可以进一步把这 50 篇论文整理成：
+- **“按重要性排序的 Top 10”**
+- **“按研究方向的表格版”**
+- **“适合投稿组会汇报的 1 页 PPT 风格摘要”**
 
 ---
 *本日报由 [agents-radar](https://github.com/leisure3318/agents-radar) 自动生成。*

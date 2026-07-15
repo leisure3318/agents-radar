@@ -1,78 +1,57 @@
 # Hugging Face 热门模型日报 2026-07-15
 
-> 数据来源: [Hugging Face Hub](https://huggingface.co/) | 共 3 个模型 | 生成时间: 2026-07-15 00:55 UTC
+> 数据来源: [Hugging Face Hub](https://huggingface.co/) | 共 1 个模型 | 生成时间: 2026-07-15 02:36 UTC
 
 ---
 
 # Hugging Face 热门模型日报（2026-07-15）
 
 ## 1) 今日速览
-今天的热门模型仍然呈现出两个很清晰的方向：一是 **LLM 量化与社区复刻** 持续升温，尤其是 `prism-ml` 旗下的 Bonsai 系列，说明轻量部署与边缘推理需求依然强劲；二是 **图像生成/微调 LoRA** 继续在生成式赛道保持高活跃度，`mgwr/M87` 的下载数明显领先，反映出基于强基座模型做风格或能力增量的玩法很受欢迎。整体看，榜单更偏向“可直接上手”的实用模型，而非超大参数原生模型。开源权重、GGUF、LoRA 等生态工具链，仍是当前最具热度的模型分发形态。
+今天 Hugging Face 热门榜单非常聚焦：**仅有 1 个模型上榜**，且是一款偏 OCR 的多模态模型，说明当前社区关注点正从“纯文本对话”继续向“文档理解 / 图像文本抽取”延伸。  
+榜单模型来自 **ATH-MaaS**，结合了 **Qwen3.5** 相关标签与 **image-text-to-text** 任务，体现出开源多模态底座的持续外溢。  
+从点赞与下载看，模型虽然不是大规模爆发式传播，但已经获得了明确的社区关注，属于“实用型热门”。  
+今日榜单没有出现 LLM、大模型量化或大规模微调潮，整体更像是一个 **垂直场景驱动的单点热点**。
 
 ---
 
 ## 2) 热门模型
 
 ### 🧠 语言模型（LLM、对话模型、指令微调）
-1. **[prism-ml/Ternary-Bonsai-27B-gguf](https://huggingface.co/prism-ml/Ternary-Bonsai-27B-gguf)**  
-   - 作者：prism-ml  
-   - 点赞：139  
-   - 下载：23  
-   - 一句话说明：这是一个基于 Bonsai 系列的 **27B 三值/2-bit GGUF 量化对话模型**，以极致压缩和本地推理友好为卖点，榜单靠前主要因为“更省显存、能跑大模型”的实用价值。
-
-2. **[prism-ml/Bonsai-27B-gguf](https://huggingface.co/prism-ml/Bonsai-27B-gguf)**  
-   - 作者：prism-ml  
-   - 点赞：83  
-   - 下载：513  
-   - 一句话说明：这是 Bonsai 系列的 **27B 1-bit GGUF 量化版本**，主打超低资源部署与社区可复现性，能上榜说明轻量化大模型依然是 Hugging Face 上的重要流量入口。
+- 今日无上榜模型
 
 ### 🎨 多模态与生成（图像、视频、音频、文本到X）
-1. **[mgwr/M87](https://huggingface.co/mgwr/M87)**  
-   - 作者：mgwr  
-   - 点赞：106  
-   - 下载：2,408  
-   - 一句话说明：这是一个面向 **text-to-image 的 LoRA 微调模型**，基于 `krea/Krea-2-Turbo` 做增量适配，下载量明显领先，说明“强基座 + 轻量微调”仍是图像生成领域的主流玩法。
+- **[ATH-MaaS/OvisOCR2](https://huggingface.co/ATH-MaaS/OvisOCR2)**  
+  作者：ATH-MaaS ｜ 点赞数：86 ｜ 下载数：745  
+  一句话说明：这是一款面向 **OCR / 图文理解** 的多模态模型，定位是把图像中的文字与结构信息转成可用文本，因此在“文档识别、票据解析、截图问答”等场景里很有价值，也因此进入趋势榜。
 
 ### 🔧 专用模型（代码、数学、医疗、嵌入）
-- 暂无进入今日热门榜的专用模型。
+- 今日无上榜模型
 
 ### 📦 微调与量化（社区微调、GGUF、AWQ）
-1. **[prism-ml/Ternary-Bonsai-27B-gguf](https://huggingface.co/prism-ml/Ternary-Bonsai-27B-gguf)**  
-   - 作者：prism-ml  
-   - 点赞：139  
-   - 下载：23  
-   - 一句话说明：代表了 **ternary / 2-bit / GGUF** 的极限量化路线，适合关注推理成本和本地部署上限的用户。
-
-2. **[prism-ml/Bonsai-27B-gguf](https://huggingface.co/prism-ml/Bonsai-27B-gguf)**  
-   - 作者：prism-ml  
-   - 点赞：83  
-   - 下载：513  
-   - 一句话说明：这是更偏“可用性优先”的 **1-bit GGUF** 社区量化版本，适合研究超低比特量化在真实任务中的效果与稳定性。
-
-3. **[mgwr/M87](https://huggingface.co/mgwr/M87)**  
-   - 作者：mgwr  
-   - 点赞：106  
-   - 下载：2,408  
-   - 一句话说明：一个典型的 **LoRA 微调扩展模型**，体现了模型生态从“训练大底座”转向“围绕底座做高效适配”的趋势。
+- 今日无上榜模型
 
 ---
 
 ## 3) 生态信号
-本期最活跃的模型家族是 **prism-ml / Bonsai 系列**，说明 27B 级别模型的社区量化正在形成稳定关注度。开源权重依旧明显占优，且“GGUF、2-bit、1-bit、LoRA”这类轻量化形态比原生闭源发布更容易获得互动。值得注意的是，下载量最高的是图像 LoRA，说明用户不仅关注模型能力，也非常看重可快速落地的微调成果与推理效率。
+今天的榜单只出现 **Qwen3.5 系多模态/OCR** 方向模型，说明开源生态的热度正在向“**实用型视觉语言任务**”集中。相比纯聊天模型，社区更愿意追捧能直接落地的能力，如文档识别、截图解析与信息抽取。当前榜单未见闭源模型身影，说明 Hugging Face 热门仍以 **开源权重 + 社区可复用** 为核心。今天也没有明显的 GGUF/AWQ 量化潮，更多是围绕底座模型做面向场景的微调与封装。
 
 ---
 
 ## 4) 值得探索
-1. **[mgwr/M87](https://huggingface.co/mgwr/M87)**  
-   理由：下载量最高，适合优先研究它在 `Krea-2-Turbo` 上的微调思路，以及 LoRA 对风格/质量的提升边界。
+> 说明：今日热门榜单仅有 1 个模型，因此以下优先推荐该模型本身。
 
-2. **[prism-ml/Ternary-Bonsai-27B-gguf](https://huggingface.co/prism-ml/Ternary-Bonsai-27B-gguf)**  
-   理由：代表超低比特量化的前沿路线，适合关注本地部署、压缩率与推理质量的平衡。
+1. **[ATH-MaaS/OvisOCR2](https://huggingface.co/ATH-MaaS/OvisOCR2)**  
+   适合优先尝试。它代表了当前最明确的趋势之一：**多模态 OCR + 文档理解**，适合验证实际业务场景中的识别与抽取效果。
 
-3. **[prism-ml/Bonsai-27B-gguf](https://huggingface.co/prism-ml/Bonsai-27B-gguf)**  
-   理由：与上一个模型形成对照，适合比较 1-bit 与 ternary 量化在性能、稳定性和可用性上的差异。
+2. **[ATH-MaaS/OvisOCR2](https://huggingface.co/ATH-MaaS/OvisOCR2)**  
+   若你关注模型生态，可继续研究它所依赖的 **Qwen3.5** 相关多模态能力，观察同一底座在不同 OCR / VLM 任务上的迁移表现。
 
-如需，我也可以把这份日报进一步整理成 **适合公众号/内部简报/Markdown 表格版**。
+3. **[ATH-MaaS/OvisOCR2](https://huggingface.co/ATH-MaaS/OvisOCR2)**  
+   对工程落地来说，它值得作为文档 AI、票据处理、截图问答等任务的基线模型，用来评估开源多模态方案的上限与成本。
+
+--- 
+
+如果你希望，我也可以把这份日报进一步整理成 **表格版 / 新闻稿版 / 适合公众号发布的短文版**。
 
 ---
 *本日报由 [agents-radar](https://github.com/leisure3318/agents-radar) 自动生成。*

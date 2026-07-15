@@ -1,68 +1,68 @@
 {
   "zh": {
     "ai-cli": [
-      "Claude Code连发v2.1.210/209",
-      "Codex推rust-v0.144.4+alpha",
-      "OpenCode更新v1.18.0/1.18.1",
-      "Qwen Code走nightly/preview线",
-      "Copilot CLI发v1.0.71-1/2",
-      "Pi更新到v0.80.7"
+      "OpenAI Codex：9 Issue、7 PR、alpha版",
+      "Claude Code：10个Issue集中爆发",
+      "OpenCode：10个Issue，UI回归频发",
+      "Gemini CLI：nightly release上线",
+      "Qwen Code：审批恢复路径失效",
+      "Pi：API兼容与接入细节被追打"
     ],
     "ai-agents": [
-      "OpenClaw今日92条开发动态",
-      "41个Issues+51个PR高压修复",
-      "2026.7.1回归仍是主线",
-      "llama.cpp HTTP兼容已修复",
-      "发布验证阻塞被解除",
-      "自托管接入文档已补齐"
+      "OpenClaw：21个Issue、35个PR",
+      "OpenClaw无新版本，补丁持续合并",
+      "PR#107934修复Discord投递",
+      "z.ai误报rate-limit已修复",
+      "会话状态污染、丢失成核心风险",
+      "Gateway与Control UI回归集中"
     ],
     "ai-trending": [
-      "grok2api今日日增186星",
-      "Grok多账号API网关走红",
-      "AI热度集中在接入层",
-      "知识仓库加112星也上榜",
-      "今天无RAG/Agent爆款",
-      "主题搜索几乎空白"
+      "grok2api今日+186 Stars",
+      "Grok生态API网关最吸睛",
+      "maths-cs-ai-compendium+112 Stars",
+      "AI热点转向接入层工具",
+      "无模型训练/RAG新上榜",
+      "Grok多账号管理需求升温"
     ],
     "ai-web": [
-      "Claude for Teachers面向K-12",
-      "教师可免费用高阶Claude",
-      "Anthropic砸1000万加元",
+      "Claude for Teachers正式上线",
+      "美国K-12教师可免费用Claude",
+      "Anthropic投1000万加元研究",
       "联手Amii、Mila、Vector",
-      "Claude使用研究聚焦加拿大",
-      "OpenAI今日公开内容为零"
+      "加拿大Claude使用研究发布",
+      "OpenAI今日无新增内容"
     ],
     "ai-hn": [
-      "Codex子代理加密引爆讨论",
-      "408分240评直指可审计性",
-      "Agnost AI盯用户反馈提取",
-      "LeMario把JEPA搬进马里奥",
-      "在线/离线eval成热门话题",
-      "HN继续质疑厂商叙事"
+      "Codex子代理提示词加密爆火",
+      "411分、241评论刷屏HN",
+      "Agnost AI抽取Agent反馈",
+      "Oodle.ai推$10/M traces",
+      "在线/离线评测怎么选热议",
+      "AI商业化与治理争议并行"
     ],
     "ai-arxiv": [
-      "LLM元认知综述出炉",
-      "LLM-as-Judge偏差被拆解",
-      "AdvancedMathBench测证明",
-      "RAG立场偏置受温度影响",
-      "多文化道德推理MET登场",
-      "Hourglass推理攻归纳"
+      "LLM Judges无参考时偏宽松",
+      "Rubric生成也要做元评测",
+      "MemOps盯住长对话记忆生命周期",
+      "抑制参数记忆，让回答靠证据",
+      "44模型出现答案选择收敛",
+      "KV Cache与稀疏注意力加速"
     ],
     "ai-hf": [
-      "Ternary-Bonsai-27B-gguf获139赞",
-      "Bonsai-27B-gguf拿513下载",
-      "M87 LoRA下载冲到2408",
-      "GGUF 1-bit/2-bit继续火",
-      "27B轻量量化成焦点",
-      "图像LoRA仍是高活跃赛道"
+      "OvisOCR2成今日唯一上榜模型",
+      "86赞、745下载，热度实用",
+      "Qwen3.5多模态OCR受追捧",
+      "图文理解切入文档AI场景",
+      "截图问答、票据解析都能用",
+      "Hugging Face热点仅聚焦一项"
     ],
     "ai-community": [
-      "RAG评测不稳其实是检索",
-      "Agent账单可直降60%",
-      "AI框架前10%像魔法",
-      "后90%最容易翻车",
-      "防删库Agent指南受关注",
-      "Spec驱动开发再出圈"
+      "Claude Code被扒出5倍耗token",
+      "AI Agent成本漂移0.35%/天",
+      "跨会话漂移用版本化规则防",
+      "OWASP Agentic Top 10热议",
+      "AI学编程别让大脑下线",
+      "社区焦点转向可控、可审计"
     ]
   },
   "en": {}
