@@ -1,0 +1,69 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code 升级到 v2.1.211",
+      "Copilot CLI 推出 v1.0.71-3",
+      "Codex 连发 3 个 alpha 版",
+      "OpenCode 升到 v1.18.2",
+      "Qwen Code 拿下 10 个 PR",
+      "会话完整性成全场焦点"
+    ],
+    "ai-agents": [
+      "OpenClaw 发 v2026.7.2-beta.1",
+      "36 Issues、53 PRs 高活跃",
+      "Remote coding sessions 上线",
+      "iOS Talk Mode 自动更新失效",
+      "ChatGPT OAuth 保存失败",
+      "gateway 迁移冲突频发"
+    ],
+    "ai-trending": [
+      "openinterpreter 日增 +299★",
+      "DeepTutor 日增 +172★",
+      "Gnosis 盯上 LLM 失败预测",
+      "AI 热榜仅 3 个入选项目",
+      "低成本 coding agent 走红",
+      "教育场景 AI 应用升温"
+    ],
+    "ai-web": [
+      "Claude Tag 进 Slack @Claude",
+      "Anthropic 内部 65% 代码由 Claude 产出",
+      "金融 agent 模板一次放出 10 个",
+      "Claude 与 Microsoft 365 联动",
+      "面向教师的免费产品上线",
+      "加拿大研究投入同步推进"
+    ],
+    "ai-hn": [
+      "Codex Micro 登顶 260 分/222 评论",
+      "Inkling 975B 开权重模型",
+      "Claude 跨语言价值观引热议",
+      "GPT-Red 聚焦自我改进",
+      "Brainless 仿 Claude/Codex UI",
+      "MikroTik + LLM 联网玩法"
+    ],
+    "ai-arxiv": [
+      "复杂度感知 Agent 先判难度",
+      "任务无关上下文会翻转预测",
+      "PalmClaw 把 Agent 推上手机",
+      "计划评估的删除非单调性",
+      "危险识别看 J-Space 协议",
+      "LLM 自我激励兼容新框架"
+    ],
+    "ai-hf": [
+      "Inkling 获 333 个赞",
+      "needle 拿下 236 赞、571 下载",
+      "MiniCPM5 衍生版冲到 129 赞",
+      "Hy3-GGUF 本地量化受捧",
+      "多模态与 tool-use 成主线",
+      "开源底座二次加工很热"
+    ],
+    "ai-community": [
+      "AI 时代软件质量怎么量化",
+      "Qwen+MCP 教会 Agent 拒答",
+      "银行聊天机器人难在工程",
+      "LangSmith vs Traccia 对决",
+      "Zod 让 LLM 输出类型安全",
+      "本地 MCP 记忆方案复盘"
+    ]
+  },
+  "en": {}
+}
