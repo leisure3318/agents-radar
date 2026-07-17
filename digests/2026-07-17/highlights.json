@@ -1,60 +1,60 @@
 {
   "zh": {
     "ai-cli": [
-      "Claude Code推v2.1.212",
-      "OpenAI Codex 10PR齐发",
-      "OpenCode发版v1.18.3",
-      "Qwen Code双版本夜更",
-      "DeepSeek TUI升至v0.9.0",
-      "Copilot CLI零PR偏弱"
+      "Claude Code 10 个 Issue，盯安全边界",
+      "OpenAI Codex 9 个 Issue，聚会话管理",
+      "OpenCode 6 PR 激增，修测试与链路",
+      "Qwen Code 8 PR，补状态与权限",
+      "DeepSeek TUI 32 PR，修复最猛",
+      "Pi 6 Issue，跨平台稳定成焦点"
     ],
     "ai-agents": [
-      "OpenClaw 33Issue/59PR",
-      "OpenClaw今日无新版本",
-      "main门禁回归已修",
-      "flaky tests根因修复",
-      "--container卡死被解",
-      "15个PR完成收口"
+      "OpenClaw 44 PR，修复潮爆发",
+      "8 个 Issue 盯消息链路",
+      "release checklist 连修三单",
+      "Windows taskkill 加超时",
+      "worker shutdown/keepalive 优化",
+      "消息丢失、归档成今日主线"
     ],
     "ai-trending": [
-      "PostHog今日+77星",
-      "LobeHub今日+71星",
-      "Copilot SDK今日+13星",
-      "AI热榜仅4个相关仓库",
-      "主题搜索结果为0",
-      "热点转向Agent运营"
+      "PostHog 今日 +77 Stars 冲顶",
+      "LobeHub 今日 +71 Stars",
+      "Copilot SDK 也涨 13 Stars",
+      "AI 热点转向观测与编排",
+      "Apache Ossie 入榜，语义层受捧",
+      "AI 主题搜索结果为 0"
     ],
     "ai-web": [
-      "OpenAI新增《Why Teens》",
-      "Anthropic今日零更新",
-      "仅见官网元数据页",
-      "正文缺失无法解读",
-      "OpenAI内容页仍活跃",
-      "Claude官网静默一天"
+      "OpenAI 新增 index 页 1 篇",
+      "标题直指 Teens 与安全 AI",
+      "Anthropic 今日新增为 0",
+      "OpenAI 官网仍在更新",
+      "仅有元数据，无正文可读",
+      "本日报不宜推测立场"
     ],
     "ai-hn": [
-      "YC 105创始人流向AI巨头",
-      "LLM文本检测再升温",
-      "LM Studio Bionic获143分",
-      "Forall主打形式化验代码",
-      "Prompt Injection防护热",
-      "Claude与1Password高互动"
+      "LM Studio Bionic 171 分爆火",
+      "传统 ML 识别 LLM 文本 163 分",
+      "$100 AI 音乐视频引 152 评论",
+      "Traceforce 聚焦 AI 安全监控",
+      "Prompt Injection 防护再升温",
+      "Moonshot 挑战 Anthropic 受关注"
     ],
-    "ai-hf": [
-      "MiniCPM5-1B GGUF获94赞",
-      "Bonsai 27B 2bit: 7622下载",
-      "Bonsai 27B 1bit: 10760下载",
-      "Wan-Dancer-14B获92赞",
-      "CrossView LoRA适配器上榜",
-      "量化模型成今日主线"
+    "ai-arxiv": [
+      "T^2MLR 引入中层递归",
+      "扩散语言模型迎来策略梯度",
+      "Plover 稳住 GUI Agent 执行",
+      "BrainPilot 让科研流程代理化",
+      "IRT 评估 AI 真的靠谱吗？",
+      "OmniaBench 评测通用 Agent"
     ],
     "ai-community": [
-      "Distill Coding Agent Learnings",
-      "Token Drift解释变慢变贵",
-      "Tiny观测工具盯住agent",
-      "AI代码是迟早要还的债",
-      "agentic harness概念拆解",
-      "Claude正在吃满你的机器"
+      "Agent 一晚发 3 个 PR",
+      "40% 消息都在纠错",
+      "Gemini Nano 三层助手，$0/次",
+      "Cloudflare Workers AI 免后端接入",
+      "孤儿 AI agent 的安全风险",
+      "eval 污染让 0.94 变假分"
     ]
   },
   "en": {}
