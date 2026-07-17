@@ -1,0 +1,61 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code推v2.1.212",
+      "OpenAI Codex 10PR齐发",
+      "OpenCode发版v1.18.3",
+      "Qwen Code双版本夜更",
+      "DeepSeek TUI升至v0.9.0",
+      "Copilot CLI零PR偏弱"
+    ],
+    "ai-agents": [
+      "OpenClaw 33Issue/59PR",
+      "OpenClaw今日无新版本",
+      "main门禁回归已修",
+      "flaky tests根因修复",
+      "--container卡死被解",
+      "15个PR完成收口"
+    ],
+    "ai-trending": [
+      "PostHog今日+77星",
+      "LobeHub今日+71星",
+      "Copilot SDK今日+13星",
+      "AI热榜仅4个相关仓库",
+      "主题搜索结果为0",
+      "热点转向Agent运营"
+    ],
+    "ai-web": [
+      "OpenAI新增《Why Teens》",
+      "Anthropic今日零更新",
+      "仅见官网元数据页",
+      "正文缺失无法解读",
+      "OpenAI内容页仍活跃",
+      "Claude官网静默一天"
+    ],
+    "ai-hn": [
+      "YC 105创始人流向AI巨头",
+      "LLM文本检测再升温",
+      "LM Studio Bionic获143分",
+      "Forall主打形式化验代码",
+      "Prompt Injection防护热",
+      "Claude与1Password高互动"
+    ],
+    "ai-hf": [
+      "MiniCPM5-1B GGUF获94赞",
+      "Bonsai 27B 2bit: 7622下载",
+      "Bonsai 27B 1bit: 10760下载",
+      "Wan-Dancer-14B获92赞",
+      "CrossView LoRA适配器上榜",
+      "量化模型成今日主线"
+    ],
+    "ai-community": [
+      "Distill Coding Agent Learnings",
+      "Token Drift解释变慢变贵",
+      "Tiny观测工具盯住agent",
+      "AI代码是迟早要还的债",
+      "agentic harness概念拆解",
+      "Claude正在吃满你的机器"
+    ]
+  },
+  "en": {}
+}
