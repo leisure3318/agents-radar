@@ -1,68 +1,52 @@
 {
   "zh": {
     "ai-cli": [
-      "OpenAI Codex 3 个 alpha 版",
-      "Copilot CLI 发版 v1.0.72-1",
-      "Claude Code 安全/成本问题集中",
-      "Qwen Code nightly 版上线",
-      "OpenCode、Pi 进入收敛修复",
-      "DeepSeek TUI 卡在发布阻塞"
+      "Claude Code 发布 v2.1.214",
+      "OpenCode 24 小时 11 个 PR",
+      "OpenAI Codex 聚焦稳定性修复",
+      "Gemini CLI nightly 收紧沙箱",
+      "权限边界成今日主线",
+      "会话恢复与缓存失效待解"
     ],
     "ai-agents": [
-      "OpenClaw v2026.7.2-beta.2 发版",
-      "55 条 PR 修稳定性",
-      "Remote coding sessions 上云",
-      "Control UI 跑到云 worker",
-      "Codex/Claude 会话可终端恢复",
-      "MCP/消息链路继续加固"
+      "OpenClaw 44 个 PR 火力全开",
+      "10 个 Issue 紧盯稳定性",
+      "端口占用也要非零退出",
+      "idempotent start 防重复启动",
+      "Cron 编辑修复误四舍五入",
+      "CI 与测试护栏全面加固"
     ],
     "ai-trending": [
-      "code-review-graph 日增 74 星",
-      "turbovec 日增 280 星",
-      "cwc-workshops 日增 45 星",
-      "generative-ai 仍有 2551 星",
-      "热榜偏 AI 编程基础设施",
-      "MCP/CLI 上下文裁剪升温"
+      "turbovec 今日新增 +280 stars",
+      "code-review-graph 增长 +74",
+      "cwc-workshops 增长 +45",
+      "AI 热榜转向基础设施",
+      "Claude/MCP 上下文管理升温",
+      "generative-ai 累计 2551 stars"
     ],
     "ai-web": [
+      "OpenAI 新增《A Scorecard For The Ai Age》",
+      "OpenAI 仅更新 1 条 index 页",
       "Anthropic 今日零新增",
-      "OpenAI 仅新增 1 条页",
-      "新页名为 A Scorecard For The AI Age",
-      "仅见元数据，正文缺失",
-      "公开信号处于空窗日",
-      "OpenAI 官网仍在更新索引"
+      "官方公开信号进入空窗",
+      "正文缺失，主题暂不可知",
+      "OpenAI 官网仍在持续维护"
     ],
     "ai-hn": [
-      "Claude Code 误特性帖 135/116",
-      "OpenAI 给 Codex 指令加密",
-      "Kimi K3 蒸馏争议上 HN",
-      "中国 AI 领先叙事刷屏",
-      "HN 盯上法律、人力、计费",
-      "AI 工具可审计性成焦点"
-    ],
-    "ai-arxiv": [
-      "LLM 统计自洽性新研究",
-      "分词器可原地扩展",
-      "预训练数据可被投毒",
-      "文本安全≠行动安全",
-      "SearchOS-V1 协作搜索",
-      "Bridge Evidence 挑战检索价值"
-    ],
-    "ai-hf": [
-      "unsloth/inkling-GGUF 登顶",
-      "图像+音频都能转文本",
-      "GGUF 方便本地部署",
-      "MoE+对话标签齐全",
-      "点赞90，下载5194",
-      "开源偏爱轻量多模态"
+      "Claude Code 误特性帖 136分116评",
+      "OpenAI 承认 GPT-5.6 会删文件",
+      "医院护士吐槽 AI 监控更糟",
+      "Apple 抢 OpenAI 人才引热议",
+      "Kimi K3 蒸馏传闻冲上 HN",
+      "可验证数学发现综述登场"
     ],
     "ai-community": [
-      "AI Audit 故事帖 45赞25评",
-      "Gemini Nano 端侧实战受关注",
-      "AI-first 别先看技术",
-      "AI 分析器上了 OpenTelemetry",
-      "RAG 自回忆问题被点破",
-      "Agent 自治级别可分层"
+      "AI 建站同质化引发反思",
+      "先锁定品味再写代码",
+      "本地化 AI Agent traces",
+      "小型 LLM 请求录制器走红",
+      "WebMCP 让网站对 Agent 友好",
+      "LLM 故障复现成热门话题"
     ]
   },
   "en": {}
