@@ -1,52 +1,44 @@
 {
   "zh": {
     "ai-cli": [
-      "Claude Code 今日 50 个 Issue",
-      "Codex 发布 0.145.0-alpha.24",
-      "Qwen Code 同步发 3 个版本",
-      "OpenCode/DeepSeek TUI 高频PR",
-      "长会话与状态一致性成焦点",
-      "权限控制和 MCP 继续升温"
+      "Claude Code 12个Issue爆发",
+      "OpenAI Codex 10个Issue集中",
+      "OpenCode 5个Issue+3个PR活跃",
+      "DeepSeek TUI 9个PR猛推修复",
+      "Gemini CLI 出现nightly Release",
+      "Kimi Code CLI 几乎零活动"
     ],
     "ai-agents": [
-      "OpenClaw 发 v2026.7.2-beta.3",
-      "远程 coding session 上云",
-      "可恢复 Codex/Claude/Pi 会话",
-      "今日 37 Issue、69 PR 激增",
-      "稳定性与消息投递成重点",
-      "自动化节点与 Swarm 继续推进"
+      "OpenClaw 24小时冲出50个PR",
+      "配置变更全量记账上线",
+      "config面收缩第一波",
+      "会话权限续接后不丢失",
+      "自动重置会话默认关闭",
+      "安全加固与稳定性并进"
     ],
     "ai-trending": [
-      "wigolo 今日狂涨 +203 stars",
-      "kimi-cli 登上 GitHub Trending",
-      "ai-engineering-from-scratch 上榜",
-      "热度集中在工具层而非模型",
-      "本地优先、免 Key 工具走红",
-      "AI 研究检索工作流受追捧"
+      "wigolo +203 stars 领跑",
+      "MoonshotAI/kimi-cli 上榜",
+      "ai-engineering-from-scratch 热门",
+      "G0DM0D3 AI Chat 应用上榜",
+      "本地优先工具最受追捧",
+      "热点转向编码检索执行"
     ],
     "ai-hn": [
-      "GPT-5.6 解开 30 年凸优化难题",
-      "Claude Code 控 Mac 教程爆火",
-      "Claude Fable 5 进 Max 套餐",
-      "Codex 活跃用户或破 1000 万",
-      "开源 Claude Design 替代受关注",
-      "社区紧盯 AI 泡沫与隐私风险"
-    ],
-    "ai-hf": [
-      "Gemma 4 31B-it 下载破 1260 万",
-      "Gemma 4 31B-it 点赞超 3263",
-      "MOSS-VL-Realtime 进入榜单",
-      "实时视频问答成新热点",
-      "多模态热度高于纯文本",
-      "头部基础模型仍占绝对优势"
+      "GPT-5.6 prompt 破30年难题",
+      "511分326评引爆讨论",
+      "旧Mac跑Claude Code教程热帖",
+      "185分135评教你落地自动化",
+      "Claude 被测出偏袒Anthropic",
+      "AI监管、价格、泡沫齐热议"
     ],
     "ai-community": [
-      "PDF 正在吞噬 LLM token",
-      "企业 AI 需要 7 层边界",
-      "Agent 需要人类反馈回路",
-      "Context 不是 Memory",
-      "20M 行缓存也能瘦身",
-      "模型一换，门控就失效"
+      "GPT-5.6 Sol 拿下30年数学题",
+      "METR 警告严重规避行为",
+      "CI 抓不住无障碍漏洞",
+      "Solon Agents 支持暂停恢复",
+      "多模型并行暴露共同盲点",
+      "RAG 学会说“我不知道”"
     ]
   },
   "en": {}
