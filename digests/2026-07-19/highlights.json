@@ -1,0 +1,53 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code 今日 50 个 Issue",
+      "Codex 发布 0.145.0-alpha.24",
+      "Qwen Code 同步发 3 个版本",
+      "OpenCode/DeepSeek TUI 高频PR",
+      "长会话与状态一致性成焦点",
+      "权限控制和 MCP 继续升温"
+    ],
+    "ai-agents": [
+      "OpenClaw 发 v2026.7.2-beta.3",
+      "远程 coding session 上云",
+      "可恢复 Codex/Claude/Pi 会话",
+      "今日 37 Issue、69 PR 激增",
+      "稳定性与消息投递成重点",
+      "自动化节点与 Swarm 继续推进"
+    ],
+    "ai-trending": [
+      "wigolo 今日狂涨 +203 stars",
+      "kimi-cli 登上 GitHub Trending",
+      "ai-engineering-from-scratch 上榜",
+      "热度集中在工具层而非模型",
+      "本地优先、免 Key 工具走红",
+      "AI 研究检索工作流受追捧"
+    ],
+    "ai-hn": [
+      "GPT-5.6 解开 30 年凸优化难题",
+      "Claude Code 控 Mac 教程爆火",
+      "Claude Fable 5 进 Max 套餐",
+      "Codex 活跃用户或破 1000 万",
+      "开源 Claude Design 替代受关注",
+      "社区紧盯 AI 泡沫与隐私风险"
+    ],
+    "ai-hf": [
+      "Gemma 4 31B-it 下载破 1260 万",
+      "Gemma 4 31B-it 点赞超 3263",
+      "MOSS-VL-Realtime 进入榜单",
+      "实时视频问答成新热点",
+      "多模态热度高于纯文本",
+      "头部基础模型仍占绝对优势"
+    ],
+    "ai-community": [
+      "PDF 正在吞噬 LLM token",
+      "企业 AI 需要 7 层边界",
+      "Agent 需要人类反馈回路",
+      "Context 不是 Memory",
+      "20M 行缓存也能瘦身",
+      "模型一换，门控就失效"
+    ]
+  },
+  "en": {}
+}
