@@ -1,0 +1,53 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code/Codex问题密集",
+      "Gemini CLI出nightly",
+      "Qwen Code连发2版",
+      "Copilot CLI 10个Issue零PR",
+      "会话恢复/undo成焦点",
+      "Windows兼容与静默失败"
+    ],
+    "ai-agents": [
+      "OpenClaw 35个Issue、44个PR",
+      "31个PR待合并",
+      "onboard重跑不清配置",
+      "Windows ComSpec修复",
+      "Telegram链接预览修复",
+      "核心路径仍在回归期"
+    ],
+    "ai-trending": [
+      "ai-agent-book今日+1734星",
+      "ktransformers今日+360星",
+      "WrenAI今日+121星",
+      "AstrBot今日+83星",
+      "cua主打computer-use",
+      "ThinkJEPA首次上榜"
+    ],
+    "ai-hn": [
+      "Claude Code改用Rust+Bun",
+      "Codex上下文砍到272k",
+      "572评论热议工程取舍",
+      "Anthropic大规模代码迁移",
+      "Claude文风被嫌太黏",
+      "Base64基准挑战模型精度"
+    ],
+    "ai-hf": [
+      "Qwen3.6-27B派生模型上榜",
+      "108赞，下载1.67万",
+      "GGUF量化便于本地跑",
+      "Uncensored标签很吸睛",
+      "Qwen家族热度持续",
+      "社区微调版本抢眼"
+    ],
+    "ai-community": [
+      "TypeScript+Hono做社媒Agent",
+      "一行数学卡死Agent",
+      "OneNote MCP重写Graph Auth",
+      "实测：LLM不是最慢的",
+      "Spend Cap失效即开闸",
+      "隔离浏览器调度器实战"
+    ]
+  },
+  "en": {}
+}
