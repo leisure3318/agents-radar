@@ -47,7 +47,24 @@
       "实测：LLM不是最慢的",
       "Spend Cap失效即开闸",
       "隔离浏览器调度器实战"
+    ],
+    "ai-weekly": [
+      "Anthropic密集更新，强化工作流代理",
+      "Codex子代理提示词加密引争议",
+      "Claude Code热议会话恢复与Windows",
+      "Qwen Code两次发版，修复SSE泄漏",
+      "spec-kit、airi登上GitHub Trending",
+      "ktransformers、WrenAI等开源走热"
     ]
   },
-  "en": {}
+  "en": {
+    "ai-weekly": [
+      "Claude for Teachers debuts",
+      "Claude Tag brings agents to Slack",
+      "Financial-services templates ship",
+      "Claude Code moves to Bun in Rust",
+      "Codex context window drops to 272k",
+      "Prompt injection defense goes mainstream"
+    ]
+  }
 }
