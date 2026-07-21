@@ -1,0 +1,61 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.216发布",
+      "Codex 10 Issues+10 PR齐涨",
+      "OpenCode v1.18.4发布",
+      "Qwen Code nightly更新",
+      "Copilot CLI连发v1.0.72/73",
+      "Gemini CLI零Issue仍推4PR"
+    ],
+    "ai-agents": [
+      "OpenClaw 24小时54 Issue/40 PR",
+      "仅2个PR已合并",
+      "Windows子进程清理修复",
+      "JSON日志输出修复",
+      "P1/P2与review队列堆积",
+      "长消息折叠等UX推进"
+    ],
+    "ai-trending": [
+      "fastmcp +96 stars",
+      "transcribe.cpp +395 stars",
+      "moonshine +282 stars",
+      "MCP接入层成新风口",
+      "语音AI成第二增长线",
+      "RAG和训练框架缺席"
+    ],
+    "ai-web": [
+      "Anthropic推罕见病资助",
+      "最高5万Claude credits",
+      "分基础研究与biotech",
+      "AI for Science转垂直",
+      "OpenAI发长时程安全议题",
+      "安全对齐仍是焦点"
+    ],
+    "ai-hn": [
+      "Kimi K3/Qwen 3.8引爆HN",
+      "热帖280分287评",
+      "OpenAI长时程安全受关注",
+      "10分钟AI电影管线Show HN",
+      "Amnesia审计Claude Code记忆",
+      "开放模型必然引争论"
+    ],
+    "ai-hf": [
+      "MiniCPM-RobotManip 129赞登顶",
+      "MiniCPM-RobotTrack 99赞第二",
+      "Nemotron-3-Embed下载61708",
+      "Qwen3.6 35B GGUF版热",
+      "具身智能VLA持续升温",
+      "可部署模型更受欢迎"
+    ],
+    "ai-community": [
+      "AI代码责任归属38赞24评",
+      "ReflectionCLI 2.0本地优先CLI",
+      "smolagents重试Bug曝光",
+      "本地运行不等于安全",
+      "RAG检索质量与延迟优化",
+      "OpenCode工具调用内幕"
+    ]
+  },
+  "en": {}
+}
