@@ -1,60 +1,52 @@
 {
   "zh": {
     "ai-cli": [
-      "Claude Code v2.1.216发布",
-      "Codex 10 Issues+10 PR齐涨",
-      "OpenCode v1.18.4发布",
-      "Qwen Code nightly更新",
-      "Copilot CLI连发v1.0.72/73",
-      "Gemini CLI零Issue仍推4PR"
+      "Claude Code headless 挂死",
+      "Codex 出 rust alpha 新版",
+      "Gemini CLI 夜版 v0.52.0",
+      "OpenCode 9 issue+3 PR",
+      "Qwen Code 参数丢失死循环",
+      "CLI 竞争转向稳定性"
     ],
     "ai-agents": [
-      "OpenClaw 24小时54 Issue/40 PR",
-      "仅2个PR已合并",
-      "Windows子进程清理修复",
-      "JSON日志输出修复",
-      "P1/P2与review队列堆积",
-      "长消息折叠等UX推进"
+      "OpenClaw 30 个 PR 疯狂涌入",
+      "6 个 issue 直击真实场景",
+      "会话历史跨 rotation 保留",
+      "Slack/iMessage/iOS TTS 连环修",
+      "无新发布，今天只修 bug",
+      "22 个 PR 仍在排队"
     ],
     "ai-trending": [
-      "fastmcp +96 stars",
-      "transcribe.cpp +395 stars",
-      "moonshine +282 stars",
-      "MCP接入层成新风口",
-      "语音AI成第二增长线",
-      "RAG和训练框架缺席"
+      "fastmcp 今日 +96 stars",
+      "transcribe.cpp 暴涨 +395",
+      "moonshine 冲上 +282 stars",
+      "MCP 成 Agent 接入层焦点",
+      "语音 AI 成新爆点",
+      "RAG 和训练框架缺席"
     ],
     "ai-web": [
-      "Anthropic推罕见病资助",
-      "最高5万Claude credits",
-      "分基础研究与biotech",
-      "AI for Science转垂直",
-      "OpenAI发长时程安全议题",
-      "安全对齐仍是焦点"
+      "Anthropic 砸 5 万美元 credits",
+      "罕见病科研项目限 6 个月",
+      "分基础研究与临床两路",
+      "OpenAI 新增长程安全对齐",
+      "Claude 正扎进生命科学",
+      "科研生态成两家主线"
     ],
     "ai-hn": [
-      "Kimi K3/Qwen 3.8引爆HN",
-      "热帖280分287评",
-      "OpenAI长时程安全受关注",
-      "10分钟AI电影管线Show HN",
-      "Amnesia审计Claude Code记忆",
-      "开放模型必然引争论"
-    ],
-    "ai-hf": [
-      "MiniCPM-RobotManip 129赞登顶",
-      "MiniCPM-RobotTrack 99赞第二",
-      "Nemotron-3-Embed下载61708",
-      "Qwen3.6 35B GGUF版热",
-      "具身智能VLA持续升温",
-      "可部署模型更受欢迎"
+      "Kimi K3 与 Qwen 3.8 引爆",
+      "302 分、298 评论硬核讨论",
+      "长时程模型安全再升温",
+      "Show HN：10 分钟 AI 电影",
+      "版权、监管、成本成主旋律",
+      "社区更关心赚钱与合规"
     ],
     "ai-community": [
-      "AI代码责任归属38赞24评",
-      "ReflectionCLI 2.0本地优先CLI",
-      "smolagents重试Bug曝光",
-      "本地运行不等于安全",
-      "RAG检索质量与延迟优化",
-      "OpenCode工具调用内幕"
+      "Next.js metadata 浅合并坑",
+      "og:image 可能被吞掉",
+      "AI SEO 审计清单走红",
+      "产品要给 AI 和搜索看懂",
+      "社交卡片展示也受影响",
+      "元信息开始影响分发"
     ]
   },
   "en": {}
