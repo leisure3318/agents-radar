@@ -1,68 +1,68 @@
 {
   "zh": {
     "ai-cli": [
-      "Claude Code 升级到 v2.1.217",
-      "Pi 连发 v0.81.0 / v0.81.1",
-      "Qwen Code 上线多版夜构",
-      "Copilot CLI 推 v1.0.74-0",
-      "MCP/Provider 稳定性成焦点",
-      "OpenCode 与 Codex 高活跃"
+      "Claude Code 丢弃 filesystem MCP",
+      "OpenAI Codex 连发 3 个 Release",
+      "OpenAI Codex 今日 7 个 PR",
+      "OpenCode 24 小时 8 个 PR",
+      "Qwen Code 6 个 PR 零 Issue",
+      "GitHub Copilot CLI 启动告急"
     ],
     "ai-agents": [
-      "OpenClaw 日增 28 Issues",
-      "OpenClaw 日增 54 个 PR",
-      "18 个 PR 已合并/关闭",
-      "cron 限额修复已落地",
-      "#112411 刷新生产依赖",
-      "#112443 修复 fast-uri 风险"
+      "OpenClaw 24 条 PR 高速收敛",
+      "OpenClaw 8 条 Issue 持续修复",
+      "配置重载修复回复链路失效",
+      "模型选择器新增搜索过滤",
+      "session-extension 描述符修复",
+      "transaction snapshot 深拷贝修正"
     ],
     "ai-trending": [
-      "i-have-adhd 今日涨 1866",
-      "llmfit 今日涨 129",
-      "pi-web 今日涨 298",
-      "text-to-cad 今日涨 291",
-      "tradingview-mcp 涨 114",
-      "outlines 今日涨 65"
+      "i-have-adhd 今日涨星 1866",
+      "text-to-cad 获赞 291",
+      "pi-web 涨星 298",
+      "tradingview-mcp 获赞 114",
+      "llmfit 今日 +129 星",
+      "outlines 今日 +65 星"
     ],
     "ai-web": [
-      "Anthropic 今日新增 6 篇",
-      "OpenAI 仅新增 1 条元数据",
-      "Opus 4.7 强化长任务能力",
-      "Sonnet 4.5 主打 coding",
-      "Agent Skills 与 SDK 同步发",
-      "Opus 4.7 强调 cyber safeguards"
+      "Claude Opus 4.8 正式登场",
+      "Opus fast mode 价格降三分之一",
+      "Claude Code 上线 dynamic workflows",
+      "claude.ai 新增 effort 控制",
+      "Opus 4.5 主打 coding agents",
+      "Anthropic 转向模型+工作流"
     ],
     "ai-hn": [
-      "安全事件占据 HN 焦点",
-      "Kimi K3 vs Fable 得 244 分",
-      "ChatGPT 广告化引热议",
-      "Mona Lisa 多模型对比热帖",
-      "CodeAlmanac 获 43 分",
-      "TokenOptimization 压缩 90% tokens"
+      "OpenAI/HF 评测安全争议爆发",
+      "Claude Is Not a Compiler 热议",
+      "ChatGPT 广告引发变现争论",
+      "Anthropic 版权和解刷屏",
+      "CodeAlmanac 把对话变知识库",
+      "Browser Tools SDK 给 agent 上浏览器"
     ],
     "ai-arxiv": [
-      "SWE-Pruner Pro：模型会剪枝",
-      "激活 steering 拉出自循环",
-      "Rubric RL 用自蒸馏增强",
-      "OR Else：可微信任域",
-      "信念表达评估成热点",
-      "自动发现无万能 harness"
+      "Copy Less, Ground More 新方法",
+      "ISO：RLVR 原生优化栈",
+      "Prompt Design at Scale 定量分析",
+      "跨语言事实一致性 steering",
+      "CodeRescue 失败后恢复路由",
+      "Agents in the Wild 讲落地"
     ],
     "ai-hf": [
-      "Laguna-S-2.1 获 3056 下载",
-      "Kimi-K3 点赞 183 居首",
-      "Motif-3-Beta 获 125 下载",
-      "榜单被文本生成模型包揽",
-      "Kimi-K3 零下载高关注",
-      "多模态与代码模型缺席"
+      "Nanbeige4.2-3B 登顶热门榜",
+      "Nanbeige 获 91 个点赞",
+      "该模型下载数仍为 0",
+      "3B 轻量中文 LLM 受捧",
+      "本期榜单仅 1 个模型",
+      "开源权重热度继续走高"
     ],
     "ai-community": [
-      "52 个坏集群测 MCP 运维",
-      "Qwen3-TTS 暴露生物识别风险",
-      "hallint 专治安全代码 bug",
-      "AI Agents 不能修坏架构",
-      "无人值守 watchdog 亮相",
-      "给 Agent 一个漏洞预言机"
+      "3 篇 Dev.to AI 文章全入选",
+      "开源 LLM 选型帖受关注",
+      "本地助手记忆过载踩坑",
+      "两 AI agent 自造语言",
+      "社区聚焦成本与上下文",
+      "Lobste.rs 今日无 AI 内容"
     ]
   },
   "en": {}

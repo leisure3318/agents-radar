@@ -1,69 +1,66 @@
 # Hugging Face 热门模型日报 2026-07-22
 
-> 数据来源: [Hugging Face Hub](https://huggingface.co/) | 共 3 个模型 | 生成时间: 2026-07-22 01:01 UTC
+> 数据来源: [Hugging Face Hub](https://huggingface.co/) | 共 1 个模型 | 生成时间: 2026-07-22 02:47 UTC
 
 ---
 
-# Hugging Face 热门模型日报（2026-07-22）
-
-## 今日速览
-今天的 Hugging Face 热门榜几乎被**文本生成模型**包揽，说明社区关注仍然集中在通用对话、生成能力和新架构验证上。  
-其中，[poolside/Laguna-S-2.1](https://huggingface.co/poolside/Laguna-S-2.1) 和 [Motif-Technologies/Motif-3-Beta](https://huggingface.co/Motif-Technologies/Motif-3-Beta) 都是可直接使用的 text-generation 权重，具备一定下载量，属于“能落地”的热门模型。  
-[reteetzad/Kimi-K3](https://huggingface.co/reteetzad/Kimi-K3) 虽然下载数为 0，但点赞数最高，说明它更像是**高关注度预热/话题型模型**。  
-整体来看，今日榜单缺少多模态、代码、嵌入等细分方向，热度明显向 LLM 主线收敛。  
+# Hugging Face 热门模型日报  
+**日期：2026-07-22**  
+**榜单范围：热门模型 1 个（按周点赞数排序）**
 
 ---
 
-## 热门模型
+## 1) 今日速览
+今天 Hugging Face 热门榜单的核心看点很集中：**Nanbeige/Nanbeige4.2-3B** 以 **91 个点赞**登顶，说明社区对**小参数、可落地、易部署的中文/通用 LLM** 依然高度关注。  
+本期榜单样本较少，但依然能看出一个明确趋势：**轻量化语言模型**比大而全的模型更容易获得快速反馈。  
+同时，模型页显示 **下载数为 0**，这更像是一个**新近发布或尚未大规模扩散**的项目，说明当前热度主要来自社区关注而非实际使用量。  
+从生态角度看，开源权重继续是 Hugging Face 上最容易形成讨论和传播的路径。
+
+---
+
+## 2) 热门模型
 
 ### 🧠 语言模型（LLM、对话模型、指令微调）
-
-1. **[poolside/Laguna-S-2.1](https://huggingface.co/poolside/Laguna-S-2.1)**  
-   - 作者：poolside  
-   - 点赞：182｜下载：3,056  
-   - 一句话说明：这是一个面向文本生成的模型权重，下载量已跑出来，说明它不仅有话题度，也具备一定实际使用热度，适合关注其推理能力与部署表现。
-
-2. **[reteetzad/Kimi-K3](https://huggingface.co/reteetzad/Kimi-K3)**  
-   - 作者：reteetzad  
-   - 点赞：183｜下载：0  
-   - 一句话说明：目前任务未标注且暂无下载，但点赞数位居第一，通常意味着它在社区中有较强关注度，可能是镜像、预告或尚未完整发布的模型。
-
-3. **[Motif-Technologies/Motif-3-Beta](https://huggingface.co/Motif-Technologies/Motif-3-Beta)**  
-   - 作者：Motif-Technologies  
-   - 点赞：124｜下载：125  
-   - 一句话说明：这是一个处于 Beta 阶段的文本生成模型，兼带 feature-extraction 标签，说明它可能同时在生成与表征能力上做了探索，因此能在榜单中获得关注。
-
----
+#### 1. [Nanbeige/Nanbeige4.2-3B](https://huggingface.co/Nanbeige/Nanbeige4.2-3B)
+- **作者**：Nanbeige  
+- **点赞数**：91  
+- **下载数**：0  
+- **一句话说明**：这是一个 **3B 参数级别的文本生成模型**，属于轻量化 LLM 路线；之所以上榜，主要因为它代表了当前社区对**低成本、易部署、性价比高**模型的强烈兴趣。
 
 ### 🎨 多模态与生成（图像、视频、音频、文本到X）
-- **暂无上榜模型**
-
----
+- **暂无入榜模型**
 
 ### 🔧 专用模型（代码、数学、医疗、嵌入）
-- **暂无上榜模型**
-
----
+- **暂无入榜模型**
 
 ### 📦 微调与量化（社区微调、GGUF、AWQ）
-- **暂无上榜模型**
+- **暂无入榜模型**
 
 ---
 
-## 生态信号
-从今天的榜单看，**LLM/文本生成仍是绝对主线**，且以“新版本发布 + Beta 试水”为主要热度来源，说明社区对可直接体验的通用模型最敏感。开源权重依然是热门模型生态的核心，榜单中可下载模型占据真实使用侧优势；而像 Kimi-K3 这类“高点赞、零下载”的条目，则体现出发布预热、品牌关注或镜像传播的影响力。今天没有明显的量化模型上榜，说明当前热度更多集中在基础权重与新模型家族，而非压缩部署方向。  
+## 3) 生态信号
+从今天的榜单看，**Nanbeige** 这类国产/社区驱动的轻量 LLM 仍有明显热度，说明模型生态正在向**“小而强、可快速部署”**倾斜。开源权重依然是 Hugging Face 上最容易获得点赞与讨论的形态，尤其在新模型发布初期更明显。当前榜单未见量化版、GGUF 或 AWQ 等衍生件上榜，意味着这一天的关注点更偏向**原始模型发布**，而非后续压缩与部署生态。
 
 ---
 
-## 值得探索
-1. **[poolside/Laguna-S-2.1](https://huggingface.co/poolside/Laguna-S-2.1)**  
-   理由：下载量最高，最有可能代表真实可用性，适合优先测试实际生成质量与推理稳定性。
+## 4) 值得探索
+1. **[Nanbeige/Nanbeige4.2-3B](https://huggingface.co/Nanbeige/Nanbeige4.2-3B)**  
+   理由：本日唯一上榜模型，最值得优先关注；适合观察其基础能力、指令遵循和部署成本。
 
-2. **[Motif-Technologies/Motif-3-Beta](https://huggingface.co/Motif-Technologies/Motif-3-Beta)**  
-   理由：Beta 版通常意味着新特性或架构探索，适合观察其生成与表征能力是否有亮点。
+2. **Nanbeige 系列的后续版本/衍生量化模型**  
+   理由：如果后续出现 GGUF、AWQ 或更大参数版本，能更清楚判断该家族的实际应用潜力。  
+   *注：本日报榜单中尚未出现对应链接。*
 
-3. **[reteetzad/Kimi-K3](https://huggingface.co/reteetzad/Kimi-K3)**  
-   理由：点赞最高但暂无下载，值得跟踪其是否会补充完整权重、说明文档或后续正式发布。
+3. **同类型 3B 级开源中文 LLM**  
+   理由：可用于横向比较小模型在推理速度、中文能力与微调友好度上的差异。  
+   *注：本日报榜单中未列出其他同类模型。*
+
+---
+
+如果你希望，我还可以把这份日报进一步整理成：  
+- **适合公众号发布的长文版**  
+- **适合飞书/Notion 的表格版**  
+- **带“趋势解读 + 投资/产品视角”的分析版**
 
 ---
 *本日报由 [agents-radar](https://github.com/leisure3318/agents-radar) 自动生成。*

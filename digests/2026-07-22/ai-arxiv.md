@@ -1,99 +1,104 @@
 # ArXiv AI 研究日报 2026-07-22
 
-> 数据来源: [ArXiv](https://arxiv.org/) (cs.AI, cs.CL, cs.LG) | 共 50 篇论文 | 生成时间: 2026-07-22 01:01 UTC
+> 数据来源: [ArXiv](https://arxiv.org/) (cs.AI, cs.CL, cs.LG) | 共 50 篇论文 | 生成时间: 2026-07-22 02:47 UTC
 
 ---
 
 # ArXiv AI 研究日报（2026-07-22）
 
-## 今日速览
-今天的论文整体呈现出一个很清晰的方向：**LLM 正从“能回答”走向“可控地思考、可控地行动”**，包括推理轨迹 steering、路由选择、轨迹压缩和 rubric-based RL 的持续改进。  
-与此同时，**效率与部署**仍是高频主题：上下文剪枝、端侧自适应、流式算子和硬件友好模型不断出现。  
-第三个明显趋势是**评估范式升级**，研究者越来越关注分布偏移、证据充分性、用户语义表达、以及跨域/跨任务的鲁棒性。  
-最后，应用层面从医疗、工业视频、病理、机器人到网络运维，开始更强调**结构约束与任务可解释性**。
+## 1) 今日速览
+今天的投稿明显围绕两个主轴展开：**“更会推理”**与**“更可部署”**。一方面，RLVR、证据驱动训练、推理时 steering 等工作继续推进长上下文、跨语言和难题推理的稳定性，重点从“答对”转向“依据更可靠、过程更少退化”。另一方面，智能体相关论文集中讨论**路由、监控、攻击面和生产落地**，说明 agent 研究正在从 demo 走向工程化与安全治理。  
+与此同时，多模态与垂直领域任务也在加速细分，病理、分子设计、会议理解等方向开始更强调**证据定位、可验证基准**和**任务闭环**。整体来看，今天的信号很清晰：AI 研究正在从单纯追求指标，转向**可控、可审计、可落地**。
 
 ---
 
-## 重点论文
+## 2) 重点论文
 
 ### 🧠 大语言模型（架构、训练、对齐、评估）
 
-- **[It's Not What You Say, It's How You Say It: Evaluating LLM Responses to Expressions of Belief](http://arxiv.org/abs/2607.18232v1)**  
-  作者：Du K. 等  
-  一句话：系统评估 LLM 如何处理用户“表达的信念”，强调语言形式、语境与真伪判断的分离，对对话校准和事实对齐很重要。
+- **[Copy Less, Ground More: Overcoming Repetitive Copying in Long-Context Reasoning via Evidence-Aware Reinforcement Learning](http://arxiv.org/abs/2607.19345v1)**  
+  作者：Fang et al.  
+  一句话：针对长上下文推理中的“重复拷贝”退化，提出证据感知强化学习，让模型更依赖原始证据而不是机械复述，这对长链条推理与检索增强场景很关键。
 
-- **[SWE-Pruner Pro: The Coder LLM Already Knows What to Prune](http://arxiv.org/abs/2607.18213v1)**  
-  作者：Wang Y. 等  
-  一句话：发现 coder LLM 自身隐式携带上下文相关性信号，可用于更高效的长上下文剪枝，直接服务代码智能体的成本控制。
+- **[ISO: An RLVR-Native Optimization Stack](http://arxiv.org/abs/2607.19331v1)**  
+  作者：Zhu et al.  
+  一句话：把 RLVR 从“奖励怎么来”推进到“奖励如何稳定变成参数更新”，关注优化栈而非单点技巧，适合看作 RLVR 工程化的重要基础工作。
 
-- **[How Does Alignment Tuning Shape Representations of Sycophancy and Related Cue-Induced Biases in LLMs?](http://arxiv.org/abs/2607.18114v1)**  
-  作者：Gupta P. 等  
-  一句话：从表示层面分析对齐训练如何影响“附和性”和提示偏置，为理解 alignment 的副作用提供了更细粒度证据。
+- **[Prompt Design at Scale: How Format, Instruction Count, and Context Length Shape Instruction Adherence and Hallucination in Large Language Models](http://arxiv.org/abs/2607.19257v1)**  
+  作者：Eliav  
+  一句话：系统研究格式、指令数量和上下文长度对遵循率与幻觉的影响，为提示工程提供了少见的定量证据。
 
-- **[Enhancing Rubric-based RL via Self-Distillation](http://arxiv.org/abs/2607.18082v1)**  
-  作者：Xia M. 等  
-  一句话：用自蒸馏补足 rubric-based RL 中“未探索准则”的优化信号，提升开放式任务上的探索覆盖与训练效率。
+- **[Inference-Time Steering for Cross-Lingual Factual Consistency in LLMs](http://arxiv.org/abs/2607.19243v1)**  
+  作者：Manev  
+  一句话：用推理时 steering 缓解跨语言事实不一致问题，给“部署时纠偏语言偏置”提供了轻量、实用的路线。
 
 ### 🤖 智能体与推理（规划、工具使用、多智能体、思维链）
 
-- **[Automated Discovery Has No Universally Superior Harness](http://arxiv.org/abs/2607.18235v1)**  
-  作者：Gupta A. 等  
-  一句话：直接挑战“通用发现 harness 最优”的直觉，说明自动发现系统的效果高度依赖架构组合，具有很强的方法论警示意义。
+- **[CodeRescue: Budget-Calibrated Recovery Routing for Coding Agents](http://arxiv.org/abs/2607.19338v1)**  
+  作者：He et al.  
+  一句话：把代码代理失败后的反馈视为可利用信号，设计预算校准的恢复路由机制，解决“失败后如何低成本回收成功率”的问题。
 
-- **[OR Else: A Differentiable Trust Region for Policy Optimization](http://arxiv.org/abs/2607.18163v1)**  
-  作者：Rane C. 等  
-  一句话：提出平滑的一侧饱和替代 PPO/GRPO 的 clipped objective，为大模型策略优化提供更稳定的可微信任域思路。
+- **[Agents in the Wild: Where Research Meets Deployment](http://arxiv.org/abs/2607.19336v1)**  
+  作者：Yang et al.  
+  一句话：概括 agent 从研究原型到生产部署的关键挑战——工具、协调、可靠性和治理——很像一篇面向落地的路线图。
 
-- **[Can We Break LLMs Out of Self-Loops? Fine-Grained Reasoning Control with Activation Steering](http://arxiv.org/abs/2607.18100v1)**  
-  作者：Yu S. 等  
-  一句话：用 activation steering 细粒度干预推理过程，试图把 LLM 从自循环和低效反刍中“拉出来”，是可控推理的重要一步。
+- **[ResearchArena: Evaluating Sabotage and Monitoring in Automated AI R&D](http://arxiv.org/abs/2607.19321v1)**  
+  作者：Libon et al.  
+  一句话：构建 AI R&D 场景下的 sabotage/monitoring 评测，强调在“不信任 agent”的前提下验证其产出能否安全使用。
+
+- **[They'll Verify. They Just Won't Act. How Authority Framing and Laundered Code Turn a Trusted Agentic CI/CD Pipeline Into an Attack Surface](http://arxiv.org/abs/2607.19267v1)**  
+  作者：Sidot  
+  一句话：用 CI/CD 多智能体流水线展示“有验证不等于安全”，揭示了权限框架、代码投毒与代理协作带来的真实攻击面。
 
 ### 🔧 方法与框架（新技术、基准测试、效率优化）
 
-- **[The Many Senses of Visual Similarity: A Text-Prompted Image Perceptual Metric](http://arxiv.org/abs/2607.18237v1)**  
-  作者：Wang S.-Y. 等  
-  一句话：把“视觉相似”拆解为可由文本提示选择的多个维度，突破传统单标量感知指标的局限。
+- **[Provable diffusion-based posterior sampling for linear inverse problems via DDIM](http://arxiv.org/abs/2607.19333v1)**  
+  作者：Jiao et al.  
+  一句话：把 diffusion 用于线性逆问题的后验采样，并给出理论保证，兼顾可证明性与效率。
 
-- **[PPL-Factory: Task-Aware and Budget-Aware Data Selection from Language Modeling to Reasoning](http://arxiv.org/abs/2607.18199v1)**  
-  作者：Zhang H. 等  
-  一句话：面向不同任务与预算条件做训练数据选择，目标是在更低成本下保留甚至提升下游表现。
+- **[AdaFlash: Adaptive Speculative Decoding via On-Policy Distilled Diffusion Drafters](http://arxiv.org/abs/2607.19223v1)**  
+  作者：Qian et al.  
+  一句话：将 speculative decoding 与 on-policy 蒸馏的 diffusion drafter 结合，目标是在不牺牲质量的前提下进一步提升推理速度。
 
-- **[The Calibration Channel Determines the Bayes-Error Proxy: An Exact Law for Temperature-Induced Distortion](http://arxiv.org/abs/2607.18162v1)**  
-  作者：Khandale S. P.  
-  一句话：给出温度扰动下 Bayes-error proxy 的精确规律，帮助理解校准误差如何系统性扭曲风险估计。
+- **[Conservative Query and Adaptive Regularization for Offline RL Under Uncertainty Estimation](http://arxiv.org/abs/2607.19199v1)**  
+  作者：Zhou et al.  
+  一句话：针对离线 RL 的覆盖不足问题，引入保守查询与自适应正则化，强调在不确定性下稳健改进策略。
 
 ### 📊 应用（垂直领域、多模态、代码生成）
 
-- **[Patch Policy: Efficient Embodied Control via Dense Visual Representations](http://arxiv.org/abs/2607.18236v1)**  
-  作者：Zhou G. 等  
-  一句话：把 ViT 的稠密视觉表征更充分地用于机器人控制，在保留空间细节的同时提升效率。
+- **[PathAgentBench: Benchmarking Evidence-Seeking Vision-Language Models on Whole-Slide Pathology Image](http://arxiv.org/abs/2607.19261v1)**  
+  作者：Liao et al.  
+  一句话：面向全切片病理图像的证据检索与多尺度推理基准，补上了只测最终答案、忽略证据定位的评估缺口。
 
-- **[GigaPath-Flash and GigaTIME-Flash: Efficient Pathology Foundation Models for Whole-Slide and Tumor Microenvironment Analysis](http://arxiv.org/abs/2607.18218v1)**  
-  作者：Usuyama N. 等  
-  一句话：面向病理全切片与肿瘤微环境分析的高效基础模型，体现医疗 AI 从“能用”向“可部署、可扩展”演进。
+- **[DBMol: Design of High-Affinity, Target-Specific Small Molecules through Structure Prediction Models](http://arxiv.org/abs/2607.19237v1)**  
+  作者：Qin et al.  
+  一句话：把结构预测模型用于高亲和力、小靶点特异性分子设计，切入药物发现里最具应用价值的方向之一。
 
-- **[O-VAD: Industrial Video Anomaly Detection through Object-Centric Tracking and Reasoning](http://arxiv.org/abs/2607.18142v1)**  
-  作者：Yuan M. 等  
-  一句话：把工业视频异常检测拆成对象跟踪与推理，适合处理真实工厂中稀疏、组合式异常证据。
-
----
-
-## 研究趋势信号
-今天的投稿呈现出三条明显主线：**LLM 的可控推理与路由**正在成为核心问题；**效率/部署**从压缩上下文延伸到端侧自适应、流式执行和硬件约束；**评估与鲁棒性**则越来越关注分布偏移、证据充分性和语境敏感性。与此同时，病理、工业视觉、机器人、网络运维等垂直场景正在成为验证方法泛化能力的新战场。
+- **[MeetingToM: Evaluating Multimodal LLMs on Theory-of-Mind Reasoning in Multi-Party Meetings](http://arxiv.org/abs/2607.19235v1)**  
+  作者：Wang et al.  
+  一句话：评测多模态 LLM 在多人会议中的 Theory-of-Mind 能力，重点考察对隐式意图、知识状态和多模态线索的整合。
 
 ---
 
-## 值得精读
-1. **[Automated Discovery Has No Universally Superior Harness](http://arxiv.org/abs/2607.18235v1)**  
-   值得精读的原因：它不只是做一个系统，而是在拆解“自动发现”里哪些设计选择真正起作用，适合作为方法论参考。
+## 3) 研究趋势信号
+今日最明显的趋势是：**RLVR 正在从单点技巧演进为完整优化栈**，研究者开始同时处理奖励稀疏、证据利用、推理成本和训练稳定性；另一条线是**agent 的部署安全**，监控、路由、审计与攻击面评测几乎成为标配。与此同时，多模态与垂直应用更强调“**找证据再下结论**”的可验证能力，说明评测重心正在从结果正确性转向过程可信性与系统可控性。
 
-2. **[Can We Break LLMs Out of Self-Loops? Fine-Grained Reasoning Control with Activation Steering](http://arxiv.org/abs/2607.18100v1)**  
-   值得精读的原因：直接对应当前最关键的问题之一——如何在不改模型权重的情况下，精细控制推理轨迹。
+---
 
-3. **[The Many Senses of Visual Similarity: A Text-Prompted Image Perceptual Metric](http://arxiv.org/abs/2607.18237v1)**  
-   值得精读的原因：它重新定义了“相似度”这个基础指标，可能影响生成、检索、编辑和评测多个方向。  
+## 4) 值得精读
+1. **[Agents in the Wild: Where Research Meets Deployment](http://arxiv.org/abs/2607.19336v1)**  
+   理由：它不只是讲一个方法，而是在总结 agent 走向真实部署时必须面对的系统性问题，适合把握行业方向。
 
-如果你愿意，我也可以把这份日报进一步整理成：**适合发公众号的版本**、**适合汇报 PPT 的要点版**，或者**按“最有可能被高引”排序**。
+2. **[Copy Less, Ground More: Overcoming Repetitive Copying in Long-Context Reasoning via Evidence-Aware Reinforcement Learning](http://arxiv.org/abs/2607.19345v1)**  
+   理由：直接切中长上下文推理中的常见退化模式，且方法和问题都很“底层”，对后续工作参考价值高。
+
+3. **[ResearchArena: Evaluating Sabotage and Monitoring in Automated AI R&D](http://arxiv.org/abs/2607.19321v1)**  
+   理由：AI 自动化研发一旦进入现实环境，安全评测会变成核心门槛；这篇很适合关注“如何把风险评估做成基准”。
+
+如果你愿意，我也可以把这份日报进一步整理成：
+- **投资/产业视角版**
+- **学术组会汇报版（更短）**
+- **按“最可能发顶会”排序版**
 
 ---
 *本日报由 [agents-radar](https://github.com/leisure3318/agents-radar) 自动生成。*
