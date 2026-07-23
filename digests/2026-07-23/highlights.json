@@ -1,0 +1,69 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code 发版 v2.1.218",
+      "Codex 连发4个 alpha 版",
+      "Gemini CLI 上新 v0.52/0.53",
+      "Copilot CLI 补丁连发3次",
+      "多 Provider 兼容成主线",
+      "长会话恢复成稳定焦点"
+    ],
+    "ai-agents": [
+      "OpenClaw 24小时48 Issue+46 PR",
+      "Feishu Drive 丢评论已修复",
+      "发布 tarball 清单校验修正",
+      "Discord/Teams schema 下沉插件",
+      "Matrix 线程回复流程被修复",
+      "Control UI 升级不掉权限"
+    ],
+    "ai-trending": [
+      "awesome-claude-skills 单日+163⭐",
+      "Kronos 瞄准金融垂直大模型",
+      "Finance-LLMs 汇总落地案例",
+      "Claude Skills 生态快速升温",
+      "垂直模型与Agent工作流齐热",
+      "今日仅3个AI项目入选榜单"
+    ],
+    "ai-web": [
+      "Anthropic 把经济指数接入Claude",
+      "Anthropic 豪掷2亿美元做研究",
+      "支持公共政策教育再加码",
+      "OpenAI 官网新增3个页面",
+      "AI 经济影响成 Anthropic 主线",
+      "经济研究开始产品化"
+    ],
+    "ai-hn": [
+      "Bento 单文件PPT拿632分",
+      "Cactus Hybrid 让Gemma学会认错",
+      "Agent in 9 Lines Python 引围观",
+      "Millwright 主打自托管LLM路由",
+      "儿童与LLM拟人化互动受关注",
+      "Cleric 生产修复验证帖上榜"
+    ],
+    "ai-arxiv": [
+      "GAMUT 把评测补到“事实完整”",
+      "CircuitKIT 让电路发现可干预",
+      "选择性状态空间提升推理适配",
+      "1-Lipschitz 网络扩展到流形",
+      "ROMS-IMLE 单步生成挑战扩散",
+      "分布式分类理论给Agent设边界"
+    ],
+    "ai-hf": [
+      "Solar-Open2-250B 赞数冲到240",
+      "Mage-Flow 图像编辑热度高",
+      "Cosmos3-Edge 下载破6623",
+      "Laguna-S-2.1 NVFP4 获1953下载",
+      "社区版 Laguna GGUF 点赞106",
+      "官方 Laguna GGUF 也上榜"
+    ],
+    "ai-community": [
+      "Substack AI 检测再曝盲点",
+      "36个MCP服务器，1/3会坑agent",
+      "Loop Engineering 防奖励黑客",
+      "0失败不等于安全",
+      "上下文窗口到底是什么",
+      "AI时代教学要保留摩擦"
+    ]
+  },
+  "en": {}
+}
