@@ -1,68 +1,60 @@
 {
   "zh": {
     "ai-cli": [
-      "Claude Code 发版 v2.1.218",
-      "Codex 连发4个 alpha 版",
-      "Gemini CLI 上新 v0.52/0.53",
-      "Copilot CLI 补丁连发3次",
-      "多 Provider 兼容成主线",
-      "长会话恢复成稳定焦点"
+      "OpenCode 当日 10 PR 最活跃",
+      "Claude Code 暴露 10 个 Issue",
+      "OpenAI Codex 10 个 Issue 集中",
+      "Gemini CLI 发 nightly 版",
+      "Qwen Code 5 个 PR 推进",
+      "DeepSeek TUI 6 个问题待修"
     ],
     "ai-agents": [
-      "OpenClaw 24小时48 Issue+46 PR",
-      "Feishu Drive 丢评论已修复",
-      "发布 tarball 清单校验修正",
-      "Discord/Teams schema 下沉插件",
-      "Matrix 线程回复流程被修复",
-      "Control UI 升级不掉权限"
+      "OpenClaw 24 小时 14 Issue",
+      "OpenClaw 26 个 PR 高速涌入",
+      "9 个 PR 已合并",
+      "17 个 PR 仍待审",
+      "extended-stable 发布链路补齐",
+      "iOS/Web 体验修复并进"
     ],
     "ai-trending": [
-      "awesome-claude-skills 单日+163⭐",
-      "Kronos 瞄准金融垂直大模型",
-      "Finance-LLMs 汇总落地案例",
-      "Claude Skills 生态快速升温",
-      "垂直模型与Agent工作流齐热",
-      "今日仅3个AI项目入选榜单"
+      "Kronos 切入金融垂直模型",
+      "awesome-claude-skills 今日+163",
+      "Finance-LLMs 聚焦落地案例",
+      "Claude Skills 资源突然升温",
+      "Agent 工作流成新热点",
+      "垂直模型热度抬头"
     ],
     "ai-web": [
-      "Anthropic 把经济指数接入Claude",
-      "Anthropic 豪掷2亿美元做研究",
-      "支持公共政策教育再加码",
-      "OpenAI 官网新增3个页面",
-      "AI 经济影响成 Anthropic 主线",
-      "经济研究开始产品化"
+      "Claude 接入 Economic Index",
+      "Anthropic 推出经济索引 connector",
+      "Anthropic 豪掷 2 亿美元基金",
+      "聚焦 AI 冲击就业与职业",
+      "捐赠支持公共政策教育",
+      "OpenAI 官网新增 3 页元数据"
     ],
     "ai-hn": [
-      "Bento 单文件PPT拿632分",
-      "Cactus Hybrid 让Gemma学会认错",
-      "Agent in 9 Lines Python 引围观",
-      "Millwright 主打自托管LLM路由",
-      "儿童与LLM拟人化互动受关注",
-      "Cleric 生产修复验证帖上榜"
+      "Bento 单文件 PPT 675 分爆火",
+      "Cactus Hybrid 获 81 分热议",
+      "儿童拟人化 LLM 话题升温",
+      "自托管路由器 Millwright 亮相",
+      "9 行 Python 写出 Agent",
+      "AI 安全/失控话题占满 HN"
     ],
     "ai-arxiv": [
-      "GAMUT 把评测补到“事实完整”",
-      "CircuitKIT 让电路发现可干预",
-      "选择性状态空间提升推理适配",
-      "1-Lipschitz 网络扩展到流形",
-      "ROMS-IMLE 单步生成挑战扩散",
-      "分布式分类理论给Agent设边界"
-    ],
-    "ai-hf": [
-      "Solar-Open2-250B 赞数冲到240",
-      "Mage-Flow 图像编辑热度高",
-      "Cosmos3-Edge 下载破6623",
-      "Laguna-S-2.1 NVFP4 获1953下载",
-      "社区版 Laguna GGUF 点赞106",
-      "官方 Laguna GGUF 也上榜"
+      "可验证激活解释新法",
+      "LLM 安全界限可证明",
+      "模型会“记笔记”再推理",
+      "认知异质性驱动推理",
+      "长期任务规划更稳",
+      "Maskability Index 评估对齐"
     ],
     "ai-community": [
-      "Substack AI 检测再曝盲点",
-      "36个MCP服务器，1/3会坑agent",
-      "Loop Engineering 防奖励黑客",
-      "0失败不等于安全",
-      "上下文窗口到底是什么",
-      "AI时代教学要保留摩擦"
+      "零 AI 编码成反潮流",
+      "普通硬件跑 AI OS",
+      "硬预算管住 Agent 花费",
+      "mctx 缓冲拷贝慢 3 倍",
+      "制造业转 ML 的路径",
+      "开发者更重可控与成本"
     ]
   },
   "en": {}
