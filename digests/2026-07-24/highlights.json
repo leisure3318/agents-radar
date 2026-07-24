@@ -1,0 +1,69 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code曝破坏性命令争议",
+      "Codex 10个PR+2个alpha发布",
+      "Copilot CLI迎来2个Release",
+      "Qwen Code推日更nightly版",
+      "Kimi Code CLI修复潮涌动",
+      "DeepSeek TUI聚焦输入兼容"
+    ],
+    "ai-agents": [
+      "OpenClaw 48 Issue/45 PR高活跃",
+      "#113157统一chat run状态",
+      "#113165心跳任务拆成cron",
+      "#113163图片回复修复base路径",
+      "#113158 Telegram原生富列表",
+      "#113179入站文本统一归一化"
+    ],
+    "ai-trending": [
+      "ego-lite今日+247星",
+      "open-code-review今日+180星",
+      "Qwen Qlib仍有46,564星",
+      "Agent化工作流成主线",
+      "代码审查+规则引擎+LLM",
+      "浏览器被做成Agent工作台"
+    ],
+    "ai-web": [
+      "Claude Opus 4.7强化软件工程",
+      "先验证再回报更稳",
+      "视觉理解升到更高分辨率",
+      "Claude for Creative Work上线",
+      "Opus 4.5定价降至5/25美元",
+      "OpenAI仅抓到Health元页"
+    ],
+    "ai-hn": [
+      "Echo 212分103评热爆",
+      "OneCLI 80分27评护凭证",
+      "Claude-thermos 65分50评",
+      "Anthropic编程补贴达13x",
+      "Claude Opus 5仅4分1评",
+      "开放权重冲击闭源阵营"
+    ],
+    "ai-arxiv": [
+      "LKValues对齐斯里兰卡价值",
+      "SoftReason全可微推理架构",
+      "Lipschitzian SLLNs新理论",
+      "本地化对齐成研究焦点",
+      "感知到逻辑的端到端推理",
+      "收敛性理论继续推进"
+    ],
+    "ai-hf": [
+      "Qwen TTS 12Hz 1.7B霸榜",
+      "语音模型下载量破249万",
+      "Antares-1b获121点赞",
+      "35B GGUF版获117点赞",
+      "Qwen生态从LLM扩到TTS",
+      "轻量安全模型冒头"
+    ],
+    "ai-community": [
+      "AI Agents真实成本被戳破",
+      "AI Endpoints重塑API链路",
+      "Guardrail隐性成本受关注",
+      "AI编码上下文减95%",
+      "先规则后LLM再流行",
+      "Claude Crash Test可审计"
+    ]
+  },
+  "en": {}
+}
