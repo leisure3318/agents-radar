@@ -1,6 +1,6 @@
 {
   "anthropic": {
-    "lastChecked": "2026-07-24T01:02:24.365Z",
+    "lastChecked": "2026-07-24T02:48:17.720Z",
     "seenUrls": {
       "https://www.anthropic.com/news/responsible-scaling-policy-v3": "2026-02-25T23:57:06.000Z",
       "https://www.anthropic.com/research/deprecation-updates-opus-3": "2026-02-25T20:58:11.000Z",
@@ -432,7 +432,7 @@
     }
   },
   "openai": {
-    "lastChecked": "2026-07-24T01:02:11.453Z",
+    "lastChecked": "2026-07-24T02:48:18.118Z",
     "seenUrls": {
       "https://openai.com/index/arvind-kc-chief-people-officer/": "2026-05-29T00:25:33.242Z",
       "https://openai.com/index/put-ai-to-work-for-your-product-team/": "2026-07-15T18:28:33.111Z",
@@ -448,7 +448,7 @@
       "https://openai.com/news/safety-alignment/": "2026-07-15T20:04:10.101Z",
       "https://openai.com/news/product-releases/": "2026-07-15T20:04:14.621Z",
       "https://openai.com/news/company-announcements/": "2026-07-15T20:04:18.219Z",
-      "https://openai.com/index/openai-scholars/": "2026-07-24T00:25:13.363Z",
+      "https://openai.com/index/openai-scholars/": "2026-07-24T01:59:19.318Z",
       "https://openai.com/index/special-projects/": "2026-06-03T18:57:49.093Z",
       "https://openai.com/index/team-update/": "2026-06-03T18:57:46.155Z",
       "https://openai.com/index/team-update-august/": "2026-06-03T18:57:00.513Z",
@@ -1167,7 +1167,7 @@
       "https://openai.com/index/a-scorecard-for-the-ai-age/": "2026-07-23T22:18:36.877Z",
       "https://openai.com/index/safety-alignment-long-horizon-models/": "2026-07-23T21:09:02.335Z",
       "https://openai.com/index/david-velez-robin-vince-join-openai-boards/": "2026-07-23T23:22:00.503Z",
-      "https://openai.com/index/introducing-openai-presence/": "2026-07-24T00:09:29.736Z",
+      "https://openai.com/index/introducing-openai-presence/": "2026-07-24T02:31:28.819Z",
       "https://openai.com/index/how-news-organizations-are-using-ai/": "2026-07-24T00:31:43.246Z",
       "https://openai.com/index/health-in-chatgpt/": "2026-07-24T00:51:03.367Z"
     }

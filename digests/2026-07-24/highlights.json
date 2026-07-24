@@ -1,68 +1,60 @@
 {
   "zh": {
     "ai-cli": [
-      "Claude Code曝破坏性命令争议",
-      "Codex 10个PR+2个alpha发布",
-      "Copilot CLI迎来2个Release",
-      "Qwen Code推日更nightly版",
-      "Kimi Code CLI修复潮涌动",
-      "DeepSeek TUI聚焦输入兼容"
+      "DeepSeek TUI 17 个 Issue",
+      "Claude Code 15 个 Issue",
+      "Qwen Code 5 个 PR 冲刺",
+      "OpenAI Codex 4 个 PR 推进",
+      "长会话上下文成核心战场",
+      "权限与安全边界继续升温"
     ],
     "ai-agents": [
-      "OpenClaw 48 Issue/45 PR高活跃",
-      "#113157统一chat run状态",
-      "#113165心跳任务拆成cron",
-      "#113163图片回复修复base路径",
-      "#113158 Telegram原生富列表",
-      "#113179入站文本统一归一化"
+      "OpenClaw 18 个 PR 持续推进",
+      "iOS 发布卡顿被修复",
+      "Matrix 富文本能力补齐",
+      "Gateway tracing 成焦点",
+      "审批流与 Cron 稳定性受关注",
+      "OpenClaw 需求密度持续高"
     ],
     "ai-trending": [
-      "ego-lite今日+247星",
-      "open-code-review今日+180星",
-      "Qwen Qlib仍有46,564星",
-      "Agent化工作流成主线",
-      "代码审查+规则引擎+LLM",
-      "浏览器被做成Agent工作台"
+      "ImageNet-D 独占今日热点",
+      "47 stars 研究基准入选",
+      "CVPR 2024 Highlight 资源",
+      "今日无 Trending 榜单数据",
+      "数据与评测成唯一方向",
+      "智能体/RAG 未见爆发"
     ],
     "ai-web": [
-      "Claude Opus 4.7强化软件工程",
-      "先验证再回报更稳",
-      "视觉理解升到更高分辨率",
-      "Claude for Creative Work上线",
-      "Opus 4.5定价降至5/25美元",
-      "OpenAI仅抓到Health元页"
+      "Claude Opus 4.7 强化编程",
+      "长任务更稳还会先自检",
+      "Creative Work 接入创意软件",
+      "Opus 4.5 价格降到5/25美元",
+      "Claude Code 扩展三云平台",
+      "OpenAI 只剩 Health 页面"
     ],
     "ai-hn": [
-      "Echo 212分103评热爆",
-      "OneCLI 80分27评护凭证",
-      "Claude-thermos 65分50评",
-      "Anthropic编程补贴达13x",
-      "Claude Opus 5仅4分1评",
-      "开放权重冲击闭源阵营"
+      "Echo 253 分冲榜首",
+      "OneCLI 81 分谈密钥隔离",
+      "Claude-thermos 76 分走红",
+      "open-weight 挑战闭源模型",
+      "AI coding 补贴能撑多久",
+      "监管、电力、数据中心升温"
     ],
     "ai-arxiv": [
-      "LKValues对齐斯里兰卡价值",
-      "SoftReason全可微推理架构",
-      "Lipschitzian SLLNs新理论",
-      "本地化对齐成研究焦点",
-      "感知到逻辑的端到端推理",
-      "收敛性理论继续推进"
-    ],
-    "ai-hf": [
-      "Qwen TTS 12Hz 1.7B霸榜",
-      "语音模型下载量破249万",
-      "Antares-1b获121点赞",
-      "35B GGUF版获117点赞",
-      "Qwen生态从LLM扩到TTS",
-      "轻量安全模型冒头"
+      "Möbius 边界重塑位置编码",
+      "LLM 自解释真伪可训练",
+      "QuantiBias 盯住量化偏见",
+      "高温采样会破坏拒答",
+      "Euclid-MCP 接入 Prolog 推理",
+      "GRADRAG 协同多智能体RAG"
     ],
     "ai-community": [
-      "AI Agents真实成本被戳破",
-      "AI Endpoints重塑API链路",
-      "Guardrail隐性成本受关注",
-      "AI编码上下文减95%",
-      "先规则后LLM再流行",
-      "Claude Crash Test可审计"
+      "Codex+Gemini 做状态化修图",
+      "两阶段管线锁住角色脸",
+      "5/8 答案错了，表格没说",
+      "AI 开发从演示走向工作流",
+      "MCP 技能开始产品化",
+      "角色一致性成生成痛点"
     ]
   },
   "en": {}
