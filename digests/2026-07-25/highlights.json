@@ -1,68 +1,60 @@
 {
   "zh": {
     "ai-cli": [
-      "Claude Code v2.1.219发布",
-      "Codex连发4个Rust alpha",
-      "Copilot CLI v1.0.75上线",
-      "OpenCode v1.18.5发布",
-      "Qwen Code多次预发布",
-      "Opus 5切换引发回归"
+      "Claude Code v2.1.220 上线",
+      "Codex rust-v0.146.0-alpha.10",
+      "OpenCode 6 个 PR 修复",
+      "会话恢复成最大痛点",
+      "Gmail/MCP 连接器失灵",
+      "长会话卡顿与冻结频现"
     ],
     "ai-agents": [
-      "OpenClaw 20个Issue/36个PR",
-      "文件发布改为崩溃可恢复",
-      "SQLite只读态修复完成",
-      "重启网关保留Provider状态",
-      "会话状态与路径兼容成焦点",
-      "下轮发布前集中补洞"
+      "OpenClaw 今日 11 个 PR 推进",
+      "3 条 Issue 聚焦稳定性",
+      "/new /reset 失效成 P1",
+      "多会话统计修复已合并",
+      "SQLite 后端一致性修复",
+      "仍有 8 个 PR 待合并"
     ],
     "ai-trending": [
-      "Chat2DB今日+82星",
-      "awesome-MLSecOps 440星",
-      "Medical_Image_Analysis 237星",
-      "dive-into-llms热度攀升",
-      "AI落地转向数据库工具",
-      "开源安全治理成新热点"
+      "Chat2DB 今日 +82 stars",
+      "awesome-MLSecOps 440 stars",
+      "Medical_Image_Analysis 237 stars",
+      "dive-into-llms 进入热榜",
+      "AI 正渗入数据库工具",
+      "安全治理成新热门"
     ],
     "ai-web": [
-      "Anthropic投2亿美元研究基金",
-      "Claude Opus 5正式发布",
-      "Opus 5进编码和知识SOTA",
-      "Opus 5成本约Fable 5一半",
-      "Project Pilot测无人机控制",
-      "OpenAI官网今日零增量"
+      "Claude Opus 5 正式发布",
+      "Claude Max 默认切到 Opus 5",
+      "Claude Pro 最强模型上新",
+      "主打编码与知识工作",
+      "强调成本效率优势",
+      "安全任务仍落后 Mythos 5"
     ],
     "ai-hn": [
-      "Claude Opus 5刷屏HN",
-      "1263分/689评引爆讨论",
-      "Claude Cookbook获286分",
-      "Context Engineering成焦点",
-      "OpenAI安全叙事遭质疑",
-      "OCR与token节省帖受追捧"
+      "Claude Opus 5 引爆 HN",
+      "1338 分、724 评论刷屏",
+      "Claude Cookbook 获 289 分",
+      "agent 越权安全被热议",
+      "Codex 误操作遭围观",
+      "OCR 与上下文工程升温"
     ],
     "ai-arxiv": [
-      "Windowed-MTP降百万token税",
-      "AgenticContextManagement管记忆",
-      "OpenForgeRL直训工具环境",
-      "AREX做递归自改进研究",
-      "词级检测人机共写内容",
-      "BeyondSycophancy拆服从结构"
-    ],
-    "ai-hf": [
-      "KAT-Coder-V2.5-Dev点赞121",
-      "GLM-5.2-Vision-NVFP4下载494",
-      "代码模型成今日头号热门",
-      "多模态模型重视可部署",
-      "Qwen3.5 MoE系继续升温",
-      "开源权重仍占榜单主流"
+      "Emergent Misalignment 亮相",
+      "Adapter 写入容量按 bits 量化",
+      "HOPE 框架拆解深层表征",
+      "梯度集中解释类遗忘",
+      "离散扩散有新去噪法",
+      "对齐与安全成研究主线"
     ],
     "ai-community": [
-      "Sentry帖暴露隐性重试",
-      "5-Agent管线最高22.6秒",
-      "修bug的人42赞42评",
-      "6个开源工具夺回Web",
-      "上下文压缩让Agent学会忘记",
-      "原生Tracing成AI刚需"
+      "AI 工具准入要打分",
+      "Codex 可读 Claude 记忆",
+      "AI agent 测试框架登场",
+      "提示词变更风险受关注",
+      "状态管理成 agent 痛点",
+      "讨论从尝鲜转向落地"
     ]
   },
   "en": {}

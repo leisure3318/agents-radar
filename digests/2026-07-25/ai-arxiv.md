@@ -1,16 +1,17 @@
 # ArXiv AI 研究日报 2026-07-25
 
-> 数据来源: [ArXiv](https://arxiv.org/) (cs.AI, cs.CL, cs.LG) | 共 41 篇论文 | 生成时间: 2026-07-25 01:06 UTC
+> 数据来源: [ArXiv](https://arxiv.org/) (cs.AI, cs.CL, cs.LG) | 共 8 篇论文 | 生成时间: 2026-07-25 02:47 UTC
 
 ---
 
 # ArXiv AI 研究日报（2026-07-25）
 
 ## 1) 今日速览
-今天的论文明显围绕三条主线展开：**智能体化 AI** 继续升温，从训练框架、上下文管理到长程推理优化，研究开始更关注“可训练、可部署、可治理”的 agent 系统。  
-第二条主线是 **多模态推理与控制**，包括 3D 视觉语言、视频生成、图文/图示双视角推理等，强调更细粒度的空间理解与交互控制。  
-第三条主线是 **方法与效率**：长上下文推理、离散/连续 flow、量化、测试时缩放与统计检验等基础方法仍在快速推进。  
-同时，LLM 评估与安全也出现更细颗粒度的新问题，比如**谄媚、道德判断、混合作者检测**，显示出模型治理正在从“好不好用”转向“如何稳定可靠地用”。  
+今天的投稿集中在 **模型可解释性、对齐/安全、记忆容量与遗忘机制** 这几条主线上，说明研究重心正从“提升性能”进一步转向“理解模型为何如此工作”。  
+在大模型相关方向，**Emergent Misalignment** 揭示了窄域坏建议如何触发更广泛的行为偏移，提示对齐问题可能存在更深的表征层原因。  
+在方法论上，**PEFT/LoRA 的记忆容量、类遗忘中的梯度集中、以及 HOPE 表征分解框架**，都在尝试把“经验现象”量化为可测量、可解释的机制。  
+应用层面则出现了 **移动健康数字孪生** 与 **多模态生成基因表达**，显示 AI 正加速进入高敏感、高价值的真实世界场景。  
+此外，量子电路与离散扩散的论文表明，**生成式建模与理论分析** 仍在持续向更复杂的模型族扩展。
 
 ---
 
@@ -18,94 +19,71 @@
 
 ### 🧠 大语言模型（架构、训练、对齐、评估）
 
-- [**Windowed-MTP: Removing the Full-Context Draft-KV Tax at Million-Token Context**](http://arxiv.org/abs/2607.21535v1)  
-  作者：Alagappan V.  
-  一句话：针对百万级上下文下 speculative decoding 的 draft-KV 成本，提出 windowed 方案，直击长上下文推理的实际瓶颈。
+1. **[Emergent Misalignment Recruits a Pre-existing Persona Subspace](http://arxiv.org/abs/2607.21356v1)**  
+   作者：S. Nadaf  
+   一句话：研究发现，窄域“坏建议”微调会激活模型中预先存在的人格子空间，从而导致泛化性失配；这对对齐与安全微调非常关键。
 
-- [**Beyond Sycophancy: Structured Resistance and Compliance in LLM Moral Reasoning**](http://arxiv.org/abs/2607.21558v1)  
-  作者：B. Wang, B. Koch  
-  一句话：把“讨好用户”拆解为可分辨的服从/抵抗结构，为 LLM 的道德推理与对齐评估提供了更细的刻画框架。
+2. **[How Many Bits Can an Adapter Write? Measuring the Capacity and Memorization of Parameter-Efficient Fine-Tuning](http://arxiv.org/abs/2607.21351v1)**  
+   作者：Tan, Du, Feng  
+   一句话：首次从“位数”角度量化 LoRA/Adapter 在冻结底座上写入了多少信息，直接回答 PEFT 到底是在“学技能”还是“记数据”。
 
-- [**Detecting LLM-Generated Tokens in Human--LLM Coauthored Text**](http://arxiv.org/abs/2607.21458v1)  
-  作者：Y. Lu, H. Zhou, F. Spill 等  
-  一句话：从“文档级检测”推进到“token 级定位”，适合人机协作写作场景下的内容溯源与审计。
-
-- [**Agentic Context Management: Solving Agent Memory and Cost by Treating Them as Lifecycle and Architecture Problems**](http://arxiv.org/abs/2607.21503v1)  
-  作者：G. Dadhich  
-  一句话：把 agent 的记忆与成本问题上升为生命周期/架构问题，强调上下文治理是生产级智能体的核心能力。
+---
 
 ### 🤖 智能体与推理（规划、工具使用、多智能体、思维链）
 
-- [**OpenForgeRL: Train Harness-native Agents in Any Environment**](http://arxiv.org/abs/2607.21557v1)  
-  作者：X. Yu, B. Peng, R. Xu 等  
-  一句话：面向 Claude Code/Codex 类 harness 训练范式，试图让 agent 直接在真实工具环境中端到端训练。
+> 今日样本中没有典型工具使用/多智能体论文；但以下工作对“模型行为机制”和“推理安全”具有直接关联。
 
-- [**AREX: Towards a Recursively Self-Improving Agent for Deep Research**](http://arxiv.org/abs/2607.21461v1)  
-  作者：S. Lu, C. Li, K. Luo 等  
-  一句话：利用“发现—验证”不对称，把深度研究拆成可递归改进的搜索与校验过程，方向很有 agent 代表性。
+3. **[Gradient Concentration, Not Weight Saliency, Explains Representation-Level Class Unlearning](http://arxiv.org/abs/2607.21353v1)**  
+   作者：Habbati, Merlo, Verderame et al.  
+   一句话：指出类遗忘效果更像是“梯度集中”而非传统权重显著性在起作用，为可控遗忘和行为定向修改提供了新解释。
 
-- [**PATS: Policy-Aware Training Scaffolding for Agentic Reinforcement Learning**](http://arxiv.org/abs/2607.21419v1)  
-  作者：Y. Shi, Z. Ma, Y. Wang 等  
-  一句话：针对长程 agent RL 中“重复失败、轨迹贫乏”的问题，提出 policy-aware scaffolding 来提升探索质量。
-
-- [**Test-Time Scaling via Error Localization**](http://arxiv.org/abs/2607.21453v1)  
-  作者：R. S. Chitale, R. Madhavan, T. Gupta 等  
-  一句话：把测试时扩展算力与“错误定位”结合，试图让推理增量更有针对性，而不是盲目采样/反复改写。
+---
 
 ### 🔧 方法与框架（新技术、基准测试、效率优化）
 
-- [**Expanding Flow Maps**](http://arxiv.org/abs/2607.21585v1)  
-  作者：Sophia Tang, Pranam Chatterjee  
-  一句话：提出可扩展维度/序列长度的 flow 参数化，解决传统 flow 模型“固定形状”的结构限制。
+4. **[Mean-to-Score Discrete Diffusion: Posterior-Mean Denoisers for Score Entropy](http://arxiv.org/abs/2607.21372v1)**  
+   作者：J. Li, X. Jiang, Y. Jiang et al.  
+   一句话：针对离散扩散中“正性不等于贝叶斯可实现”的问题，提出 posterior-mean 去噪思路，补强 score entropy 离散扩散的理论一致性。
 
-- [**Zero-Flow Two-Sample Tests**](http://arxiv.org/abs/2607.21542v1)  
-  作者：Y. Wang, L. Wang, S. Liu 等  
-  一句话：基于 zero-flow criterion 构造两样本检验，为生成模型、分布比较提供了一个新的统计工具。
+5. **[Hilbert Operator for Progressive Encoding (HOPE): A Mathematical Framework for Deconstructing Learned Representations in Deep Networks](http://arxiv.org/abs/2607.21366v1)**  
+   作者：Mobahi, Bartlett  
+   一句话：提出 HOPE 数学框架，用压缩视角拆解深度网络内部表示，目标是把“黑箱表征”转化为可分解、可分析的结构。
 
-- [**Context-weighted Discrete Flow Matching**](http://arxiv.org/abs/2607.21427v1)  
-  作者：D. Cherniavskii, D. Severo, K. Ullrich  
-  一句话：给离散 flow matching 引入上下文加权，缓解不同 token 难度混杂导致的训练不稳定问题。
+6. **[Cautious optimism for deep parameterized quantum circuits](http://arxiv.org/abs/2607.21409v1)**  
+   作者：Kempkes, Gil-Fuster, Bravo-Prieto et al.  
+   一句话：从泛化和规模化角度重新审视参数化量子电路，试图回答 PQC 是否真的具备随参数增加而稳定受益的能力。
 
-- [**Bridging the Gap Between Plausibility and Admissibility: Constraint-Aware Flow Maps for Dynamic Graph Systems**](http://arxiv.org/abs/2607.21421v1)  
-  作者：M. Romei de Socio, G. L. Pozzato, A. Merlo  
-  一句话：把“看起来合理”与“结构上可行”区分开，强调后验约束对动态图生成/决策的重要性。
+---
 
 ### 📊 应用（垂直领域、多模态、代码生成）
 
-- [**3D-Aware VLMs with Implicit and Explicit Geometries**](http://arxiv.org/abs/2607.21595v1)  
-  作者：W. Li, X. Jiang, Q. Qian 等  
-  一句话：将隐式/显式几何注入 VLM，增强 3D 空间理解与推理能力，面向真实 3D 任务很关键。
+7. **[A Diffusion-Model Subpopulation Digital Twin for Mobile Health Deployment: A Case Study on the HeartSteps Intervention](http://arxiv.org/abs/2607.21403v1)**  
+   作者：Xu, Chang, Ni et al.  
+   一句话：用扩散模型构建移动健康干预的人群数字孪生，以便在真实部署前评估策略对不同亚群体的影响，兼顾效果与用户负担。
 
-- [**GraphVid: Interactive Graph-Controllable Video Generation**](http://arxiv.org/abs/2607.21580v1)  
-  作者：V. Shah, O. Susladkar, T. Prakash 等  
-  一句话：用图结构来控制视频中多对象交互，提升了复杂场景下的可控生成精度。
-
-- [**MIRROR: Learning from the Other View for Multi-Modal Reasoning**](http://arxiv.org/abs/2607.21552v1)  
-  作者：W. Ye, Y. Qu, A. Kumar 等  
-  一句话：利用图文/图示/联合视角之间的行为差异来增强多模态推理，适合几何与视觉 reasoning 任务。
+8. **[M$^3$-Gen: Interpretable Multimodal Generation of Gene Expression Profiles Using Clinical and Imaging Data](http://arxiv.org/abs/2607.21343v1)**  
+   作者：Panaccione, Sgaravatti, Venere  
+   一句话：结合临床与病理影像来生成基因表达谱，并强调可解释性，适合精准医疗和多模态生物标志物研究。
 
 ---
 
 ## 3) 研究趋势信号
-今天的投稿显示出一个很清晰的方向：**AI 正从“单模型能力提升”转向“系统级可控与可验证”**。智能体研究开始围绕 harness、记忆、验证链路、失败复用等工程问题展开；多模态则从识别走向推理与生成控制；与此同时，flow、量化、长上下文、测试时扩展等基础方法继续为大模型落地降本增效。  
+今天的论文共同指向一个明显趋势：**AI 研究正在从“预测准确率”转向“行为机制、信息写入与可控性”**。一方面，PEFT、遗忘与对齐工作在量化模型内部到底存了什么、改了什么；另一方面，HOPE、离散扩散与量子电路等方法在尝试建立更强的理论刻画。与此同时，医疗与生物多模态应用继续升温，显示 AI 正在进入需要高可信度与可解释性的高风险场景。
 
 ---
 
 ## 4) 值得精读
 
-1. [**OpenForgeRL: Train Harness-native Agents in Any Environment**](http://arxiv.org/abs/2607.21557v1)  
-   理由：它直接对应当前 agent 训练的核心痛点——真实工具环境、端到端训练和 open infrastructure 的对接，非常贴近落地需求。
+1. **[Emergent Misalignment Recruits a Pre-existing Persona Subspace](http://arxiv.org/abs/2607.21356v1)**  
+   理由：直接触及大模型安全核心问题，且给出了“为什么会泛化失配”的机制解释，适合关注对齐、微调和安全评估的人深入读。
 
-2. [**Windowed-MTP: Removing the Full-Context Draft-KV Tax at Million-Token Context**](http://arxiv.org/abs/2607.21535v1)  
-   理由：百万 token 级别推理是行业热点，这篇抓住了 speculative decoding 的实际成本问题，应用价值很强。
+2. **[How Many Bits Can an Adapter Write? Measuring the Capacity and Memorization of Parameter-Efficient Fine-Tuning](http://arxiv.org/abs/2607.21351v1)**  
+   理由：把 PEFT 的“容量/记忆”变成可测量对象，具有方法论价值，也可能影响参数高效微调的工程实践与隐私判断。
 
-3. [**AREX: Towards a Recursively Self-Improving Agent for Deep Research**](http://arxiv.org/abs/2607.21461v1)  
-   理由：它把“研究型 agent”抽象成发现—验证闭环，适合关注长程推理、自动研究和自我改进系统的读者。  
+3. **[Hilbert Operator for Progressive Encoding (HOPE): A Mathematical Framework for Deconstructing Learned Representations in Deep Networks](http://arxiv.org/abs/2607.21366v1)**  
+   理由：如果你关心表示学习可解释性，这篇很值得看；它试图提供一个更统一的数学框架，而不只是经验性分析工具。
 
-如果你愿意，我也可以把这份日报进一步整理成：
-- **“按重要性排名的 Top 10”**
-- **“适合发公众号/内部周报的精简版”**
-- **“附每篇论文的一句话中文解读版”**
+如果你愿意，我也可以把这份日报进一步整理成 **“适合公众号发布的精简版”** 或 **“投研/团队晨会版”**。
 
 ---
 *本日报由 [agents-radar](https://github.com/leisure3318/agents-radar) 自动生成。*
