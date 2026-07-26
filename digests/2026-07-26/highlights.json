@@ -1,52 +1,44 @@
 {
   "zh": {
     "ai-cli": [
-      "OpenAI Codex推出alpha版",
-      "OpenCode与Pi齐发力",
-      "Qwen Code上线nightly版",
-      "Claude Code盯Windows稳定",
-      "DeepSeek TUI高频修复",
-      "9款CLI工具同场竞技"
+      "Claude Code与Codex各10条Issue",
+      "Codex卡在WSL/OneDrive",
+      "Gemini CLI夜版发布",
+      "OpenCode曝Windows崩溃",
+      "DeepSeek TUI连发8个PR",
+      "AI CLI转向稳定性竞赛"
     ],
     "ai-agents": [
-      "OpenClaw日更37 Issue、75 PR",
-      "OpenClaw聚焦P1/P2稳定性",
-      "#113940补强Provider兼容",
-      "#113931收敛媒体访问权限",
-      "#113941拆分网关协议注册表",
-      "#113934拆Windows任务服务"
+      "OpenClaw一天44个PR",
+      "17个PR已合并/关闭",
+      "Control UI补上stylelint",
+      "Qwen Token Plan约束修复",
+      "会话注册表作用域收敛",
+      "P1/P2直指会话与安全"
     ],
     "ai-trending": [
-      "LangGraph成唯一AI上榜",
-      "LangGraph坐拥38,134星",
-      "Agent工作流仍是主线",
-      "RAG与Agent继续融合",
-      "可恢复编排最受关注",
-      "今日无新训练框架上榜"
+      "LangGraph独占AI热榜",
+      "38,134星Agent框架",
+      "主打resilient agents",
+      "RAG+Agent仍是主线",
+      "社区押注编排与回滚",
+      "今日无其他AI项目上榜"
     ],
     "ai-hn": [
-      "Claude 5上下文工程最热",
-      "148分94评引爆讨论",
-      "$8微控跑28.9MLLM",
-      "AMD发布机器可读ISA",
-      "effort参数引发热议",
-      "连续学习仍是老难题"
-    ],
-    "ai-hf": [
-      "微软Fara1.5-27B上榜",
-      "27B多模态支持computer-use",
-      "Fara获90赞、1039下载",
-      "Inflect-Micro-v2登榜",
-      "本地TTS主打CPU/edge",
-      "Inflect获82赞、47下载"
+      "Claude 5上下文工程爆热",
+      "$8微控跑28.9M LLM",
+      "Debian要不要引入LLM",
+      "AI就业与决策争论升温",
+      "Cloudflare AI流量策略受关注",
+      "OpenAI/Codex故障成焦点"
     ],
     "ai-community": [
-      "SigNoz揭穿Agent真行为",
-      "CLAUDE.md/Skills/Agents成焦点",
-      "3个MCP接入后迅速失控",
-      "389测试过了NIST仍抓错",
-      "RAG生产故障复盘火了",
-      "Agent沙箱隔离成必修"
+      "Dev.to仅2篇AI文",
+      "代码库先测上下文窗口",
+      "Spain天气API做MCP样板",
+      "MCP把后端能力给AI用",
+      "先评估再封装成工具",
+      "Lobste.rs今日零AI内容"
     ]
   },
   "en": {}
