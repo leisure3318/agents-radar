@@ -1,0 +1,53 @@
+{
+  "zh": {
+    "ai-cli": [
+      "OpenAI Codex推出alpha版",
+      "OpenCode与Pi齐发力",
+      "Qwen Code上线nightly版",
+      "Claude Code盯Windows稳定",
+      "DeepSeek TUI高频修复",
+      "9款CLI工具同场竞技"
+    ],
+    "ai-agents": [
+      "OpenClaw日更37 Issue、75 PR",
+      "OpenClaw聚焦P1/P2稳定性",
+      "#113940补强Provider兼容",
+      "#113931收敛媒体访问权限",
+      "#113941拆分网关协议注册表",
+      "#113934拆Windows任务服务"
+    ],
+    "ai-trending": [
+      "LangGraph成唯一AI上榜",
+      "LangGraph坐拥38,134星",
+      "Agent工作流仍是主线",
+      "RAG与Agent继续融合",
+      "可恢复编排最受关注",
+      "今日无新训练框架上榜"
+    ],
+    "ai-hn": [
+      "Claude 5上下文工程最热",
+      "148分94评引爆讨论",
+      "$8微控跑28.9MLLM",
+      "AMD发布机器可读ISA",
+      "effort参数引发热议",
+      "连续学习仍是老难题"
+    ],
+    "ai-hf": [
+      "微软Fara1.5-27B上榜",
+      "27B多模态支持computer-use",
+      "Fara获90赞、1039下载",
+      "Inflect-Micro-v2登榜",
+      "本地TTS主打CPU/edge",
+      "Inflect获82赞、47下载"
+    ],
+    "ai-community": [
+      "SigNoz揭穿Agent真行为",
+      "CLAUDE.md/Skills/Agents成焦点",
+      "3个MCP接入后迅速失控",
+      "389测试过了NIST仍抓错",
+      "RAG生产故障复盘火了",
+      "Agent沙箱隔离成必修"
+    ]
+  },
+  "en": {}
+}
