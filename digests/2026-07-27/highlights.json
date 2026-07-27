@@ -1,0 +1,53 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Qwen Code 出现 nightly Release",
+      "OpenCode 10 Issue 10 PR 最活跃",
+      "Claude Code 与 Codex 各10 Issue",
+      "DeepSeek TUI 10 PR 快速修复",
+      "GitHub Copilot CLI 8 Issue 零PR",
+      "跨平台稳定性成共同焦点"
+    ],
+    "ai-agents": [
+      "OpenClaw 一天 33 条 Issue",
+      "24 条 PR，10 条已合并",
+      "修复 SQLite WAL 文件保留",
+      "清理死进程遗留 worktree 锁",
+      "适配新 Claude id 合约",
+      "多渠道稳定性修补加速"
+    ],
+    "ai-trending": [
+      "PocketFlow 突破 11,044 星",
+      "impeccable 今日 +413 星",
+      "100 行级 LLM/Agent 框架",
+      "AI harness 设计语言走红",
+      "热点转向开发者工具链",
+      "智能体工作流继续升温"
+    ],
+    "ai-hn": [
+      "Opus 5 错误率引爆讨论",
+      "91分75评，热度最高",
+      "Kimi K3 定价被质疑",
+      "OpenAI containment 引安全焦虑",
+      "Claude Code 提示词砍80%",
+      "模型推理降本继续升温"
+    ],
+    "ai-hf": [
+      "Mage-Flow-Edit-Turbo 上榜",
+      "微软的图像编辑模型",
+      "88赞、946下载",
+      "指令式修图最热",
+      "diffusers+safetensors",
+      "多模态转向可控编辑"
+    ],
+    "ai-community": [
+      "Dev.to 29篇、Lobste.rs 1条",
+      "多智能体 tracing 成焦点",
+      "SigNoz 仪表盘包受关注",
+      "Hermes Agent 本地优先方案",
+      "TraceGate 反查 demo 假象",
+      "LLM 评测不必过度复杂"
+    ]
+  },
+  "en": {}
+}
