@@ -39,7 +39,24 @@
       "安全加固直击攻击面",
       "AI 落地先补安全短板",
       "开发者更看重可复现"
+    ],
+    "ai-weekly": [
+      "Claude Opus 5 正式登场",
+      "Claude Code 稳定性翻车集中爆发",
+      "OpenCode v1.18.6 强补桌面端",
+      "Qwen Code 进入工程治理期",
+      "OpenClaw 重构恢复与状态一致性",
+      "Trending 转向 LangGraph 等 Agent 项目"
     ]
   },
-  "en": {}
+  "en": {
+    "ai-weekly": [
+      "Claude Opus 5 became Claude Max default",
+      "Opus 4.8/4.7, Sonnet 5, Haiku 4.5 landed",
+      "Effort controls and dynamic workflows arrived",
+      "Economic Index connector came to Claude",
+      "Anthropic launched a $200M research fund",
+      "Claude Code bugs: silent deletions, false success"
+    ]
+  }
 }
