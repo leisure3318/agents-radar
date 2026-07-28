@@ -1,0 +1,53 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Codex 10 Issue/10 PR，连发2个alpha",
+      "OpenCode 发布 v1.18.7",
+      "Copilot CLI 升到 v1.0.76-0",
+      "Qwen Code 夜版连发且有失败",
+      "Claude Code 聚焦长会话恢复",
+      "生态转向状态化工作台/MCP"
+    ],
+    "ai-agents": [
+      "OpenClaw 24h：37 Issue/61 PR",
+      "watched-session awareness 上线",
+      "TUI 丢回复/串线修复",
+      "写入状态前先验 provider",
+      "Telegram 预览闪现修复",
+      "ClickClack 侧栏跟随主题"
+    ],
+    "ai-web": [
+      "Anthropic 澄清不禁开权重",
+      "焦点转向危险能力与国安",
+      "携 Cognizant 扩大合作",
+      "Claude 进入 Flowsource/Neuro",
+      "Claude 认证员工体系",
+      "OpenAI 仅增 1 条元数据"
+    ],
+    "ai-hn": [
+      "Anthropic 开权重帖登顶",
+      "全场最高：395分/525评",
+      "Let's Seal 拿到 60分",
+      "multiaes 常数时间 AES",
+      "Decispher 新增 Grok CLI",
+      "政治罗盘测 LLM 引争议"
+    ],
+    "ai-hf": [
+      "moonshotai/Kimi-K3 6139赞",
+      "Kimi-K3 下载量 2850",
+      "unsloth/Kimi-K3 96赞",
+      "社区版主打压缩/部署",
+      "榜单全是 image-text-to-text",
+      "多模态热度被 Kimi 拉满"
+    ],
+    "ai-community": [
+      "AI 打断新人培养链路（84赞）",
+      "MCPRadar 盯上 MCP 安全",
+      "Unlimited context 被批技术债",
+      "AgentForger：一链劫持内网",
+      "5 个 coding agents 凭证隔离",
+      "Agent Skills 要做威胁建模"
+    ]
+  },
+  "en": {}
+}
