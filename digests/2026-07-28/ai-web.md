@@ -1,77 +1,95 @@
 # AI 官方内容追踪报告 2026-07-28
 
-> 今日更新 | 新增内容: 3 篇 | 生成时间: 2026-07-28 00:59 UTC
+> 今日更新 | 新增内容: 5 篇 | 生成时间: 2026-07-28 02:39 UTC
 
 数据来源:
-- Anthropic: [anthropic.com](https://www.anthropic.com) — 新增 2 篇（sitemap 共 427 条）
-- OpenAI: [openai.com](https://openai.com) — 新增 1 篇（sitemap 共 877 条）
+- Anthropic: [anthropic.com](https://www.anthropic.com) — 新增 0 篇（sitemap 共 427 条）
+- OpenAI: [openai.com](https://openai.com) — 新增 5 篇（sitemap 共 882 条）
 
 ---
 
 # AI 官方内容追踪报告  
-**覆盖范围：2026-07-28 增量更新（实际发布日期多为 2026-07-27）**  
-**来源：Anthropic（claude.com / anthropic.com）与 OpenAI（openai.com）官网增量内容**
+**时间范围：2026-07-28 增量更新**  
+**数据来源：Anthropic（claude.com / anthropic.com）、OpenAI（openai.com）官网抓取内容**
 
 ---
 
 ## 1) 今日速览
 
-今天最重要的信号来自 Anthropic：一边是 **公开澄清其并不支持“禁止 open-weights 模型”**，并将讨论重点转向国家安全与“危险能力”风险；另一边是 **与 Cognizant 扩大企业合作**，把 Claude 更深地嵌入大型 IT 服务与企业交付体系。这说明 Anthropic 当前同时在做两件事：**争夺 AI 政策叙事的解释权**，以及 **继续强化企业落地与渠道生态**。
-
-从内容结构看，Anthropic 今天的新增信息明显偏向“**政策 + 商业化**”双线并进：前者强调安全边界与战略立场，后者强调 Claude 在企业系统中的部署深度和伙伴网络扩张。相较之下，OpenAI 今日仅有一条 **元数据级新增条目**，缺少正文，暂时无法从公开内容中提取有效战略信号。
+- **Anthropic 今日无新增内容**，官网内容节奏在本次抓取窗口内相对平静，没有出现新的公开公告、研究或产品文档更新。  
+- **OpenAI 今日新增 5 篇内容，且全部集中在 `business/guides-and-resources` 目录**，显示其当天内容重心明显偏向企业采用、实操指南和资源型页面，而非研究或安全公告。  
+- 从发布形态看，这是一组**面向落地与推广的内容批量更新**，更像是在强化产品使用路径、企业教育与商业化转化，而不是单点技术突破的对外披露。  
+- 由于 OpenAI 当前提供的是**仅元数据**（标题、分类、发布日期、URL），**无法基于正文做具体摘要**；但从信息组织方式上，仍可判断其官网在强化“business resources”内容阵地。  
 
 ---
 
 ## 2) Anthropic / Claude 内容精选
 
-### 分类：news
+### 官网入口
+- Anthropic 官网：<https://anthropic.com>
+- Claude 官网：<https://claude.com>
 
-#### 1. Our position on open-weights models  
-- **发布日期**：2026-07-27  
-- **官网链接**：https://www.anthropic.com/news/position-open-weights-models  
+### 今日新增内容
+**今日增量：0 篇新内容**
 
-**核心观点**
-- Anthropic CEO Dario Amodei 明确表示：**Anthropic 从未主张禁止 open-weights 模型**，并认为“没有危险能力的 open-weights 模型”是公共产品，具备对企业、开发者和研究者的现实价值。  
-- 文章将争论焦点从“是否应该封禁开源/开权重模型”转向更具体的安全议题：Anthropic 真正担心的是 **威权政权构建出更强 AI 并用于战略目的** 的国家安全风险。  
-- 这篇文章的语气非常直接，显然是在回应近期外部舆论与行业信件对 Anthropic 立场的误读，意图把公司立场重新锚定在“**不反对开放权重本身，但强调能力边界与安全威胁**”。
-
-**战略意义**
-- 这是一次典型的 **议题设置（agenda-setting）**：Anthropic 试图把“开权重”与“安全风险”解耦，避免自己被贴上“反开放”的标签。  
-- 同时，这种表述也在为后续更强的安全治理、模型发布限制或地缘政治立场预留空间：公司不是反开放，而是反对“在高风险能力下的无边界扩散”。  
-- 对企业和开发者而言，这意味着 Anthropic 未来仍可能支持开放生态的工具性价值，但会更强调 **模型能力分层、风险分级和使用边界**。
-
----
-
-#### 2. Expanding our partnership with Cognizant | Anthropic  
-- **发布日期**：2026-07-27  
-- **官网链接**：https://www.anthropic.com/news/cognizant-anthropic  
-
-**核心观点**
-- Anthropic 宣布与 Cognizant 扩大合作，将 Claude 更深入地带入 Cognizant 的企业服务与客户交付体系，覆盖制造、生命科学、保险等行业。  
-- Cognizant 不仅把 Claude 用于客户项目，还在自有工程和业务平台中更广泛地嵌入 Claude，并推进 **Claude-certified workforce** 与 **Frontier Certified workforce model**。  
-- 文中提到 Cognizant 的多个平台已经集成 Claude，包括 **Flowsource™、Neuro® AI Engineering、Neuro® IT Ops**；其中 Flowsource 还将 Claude Code 用于 **Spec-Driven Development** 模块，说明 Claude 正向“开发流程基础设施”渗透，而不只是单点助手能力。
-
-**战略意义**
-- 这不是普通的渠道合作，而是 **企业级分销与实施网络扩张**：Anthropic 正在借助 Cognizant 的行业知识、工程实施和全球交付能力，降低 Claude 在大企业中的导入门槛。  
-- “30,000+ associates 完成 Claude training” 这一数字非常关键，意味着 Anthropic 正在从“卖模型”转向“**培养可交付劳动力与认证体系**”，这对企业采购非常有吸引力。  
-- 对产品路线而言，Claude Code 与 Spec-Driven Development 的结合，说明 Anthropic 正在把编码能力嵌入更标准化的工程流程，强化 **面向企业的软件研发场景**。
+#### 结论
+- 本次抓取窗口内，Anthropic 与 Claude 官网**没有新增可分析条目**。  
+- 因此，无法按 news / research / engineering / learn 等分类提取今日新增内容，也无法建立本次增量的时间线里程碑。  
+- 若后续补齐历史抓取数据，可以进一步判断其是否存在“研究—产品—安全”之间的内容节奏切换。  
 
 ---
 
 ## 3) OpenAI 内容精选
 
-> **数据说明**：本次 OpenAI 仅提供 **元数据模式**，即只有新增条目标题与分类，**没有正文内容**。因此以下仅做客观列举，不对标题含义进行推测，不编造摘要。
+> **重要说明**：OpenAI 本次数据为**仅元数据模式**，仅有标题、URL 路径、分类和发布日期；**未获取正文**。  
+> 因此以下内容**只做客观列举**，不对页面实际内容进行推测性解读。
 
-### 分类：index
+### 分类：business / guides-and-resources
 
-#### 1. How Ai Is Expanding What People Do At Work  
-- **发布日期**：2026-07-27  
-- **官网链接**：https://openai.com/index/how-ai-is-expanding-what-people-do-at-work/  
+#### 1. [Identifying And Scaling Ai Use Cases](https://openai.com/business/guides-and-resources/identifying-and-scaling-ai-use-cases/)
+- **发布日期**：2026-07-28  
+- **分类**：business  
+- **链接**：<https://openai.com/business/guides-and-resources/identifying-and-scaling-ai-use-cases/>
+- **说明**：当前仅能确认该页面属于 business 目录下的 guides-and-resources。  
+- 由于缺少正文，无法判断其是否涉及方法论、案例、实施框架或产品说明。  
+- 从元数据层面看，它属于**企业内容/资源型页面**，但不宜进一步推断具体观点。  
 
-**可确认信息**
-- 该条目属于 OpenAI 官网的 **index** 分类。  
-- 当前仅能确认标题路径信息，无法从现有数据判断正文主题、论点结构、引用案例或产品指向。  
-- 由于缺少正文，暂无法评估其技术、商业或政策层面的战略含义。
+#### 2. [Inside Gpt5 Our Best Model For Work](https://openai.com/business/guides-and-resources/inside-gpt5-our-best-model-for-work/)
+- **发布日期**：2026-07-28  
+- **分类**：business  
+- **链接**：<https://openai.com/business/guides-and-resources/inside-gpt5-our-best-model-for-work/>
+- **说明**：仅可确认其位于 business / guides-and-resources 路径下。  
+- 目前没有正文内容，因此无法确认该页面是否包含模型介绍、工作场景说明或企业案例。  
+- 由于信息受限，建议仅将其视为**OpenAI 官网的企业资源页面新增项**。  
+
+#### 3. [A Practical Guide To Building Ai Agents](https://openai.com/business/guides-and-resources/a-practical-guide-to-building-ai-agents/)
+- **发布日期**：2026-07-28  
+- **分类**：business  
+- **链接**：<https://openai.com/business/guides-and-resources/a-practical-guide-to-building-ai-agents/>
+- **说明**：页面标题与路径显示其为 guides-and-resources 资源页，归属 business 频道。  
+- 但在没有正文的情况下，无法确认其是否为技术教程、实施指南、架构说明或营销文档。  
+- 目前只能将其记录为**新增企业资源页**，不作内容扩展。  
+
+#### 4. [A Practical Guide To Building With Ai](https://openai.com/business/guides-and-resources/a-practical-guide-to-building-with-ai/)
+- **发布日期**：2026-07-28  
+- **分类**：business  
+- **链接**：<https://openai.com/business/guides-and-resources/a-practical-guide-to-building-with-ai/>
+- **说明**：该条目同样位于 business / guides-and-resources 目录。  
+- 由于缺少正文，不宜判断其面向开发者、企业决策者还是非技术用户。  
+- 就元数据而言，它是**OpenAI 当日集中新增的资源页之一**。  
+
+#### 5. [How Openai Uses Codex](https://openai.com/business/guides-and-resources/how-openai-uses-codex/)
+- **发布日期**：2026-07-28  
+- **分类**：business  
+- **链接**：<https://openai.com/business/guides-and-resources/how-openai-uses-codex/>
+- **说明**：当前仅知道它是 OpenAI 官网 business 目录下的资源页面。  
+- 没有正文时，无法判断其是否包含内部实践、案例说明或产品使用方法。  
+- 这条仍应视为**资源中心新增页面**，不应超出元数据范围解读。  
+
+### OpenAI 今日增量小结
+- 今日新增的 5 个条目**全部集中在同一目录结构**：`/business/guides-and-resources/`。  
+- 这说明 OpenAI 当天的内容投放高度一致，属于**企业内容矩阵的批量更新**，而非分散式公告。  
+- 由于缺少正文，本次不对各页主题做进一步推断。  
 
 ---
 
@@ -79,78 +97,83 @@
 
 ### 4.1 各自近期技术优先级
 
-#### Anthropic：安全叙事 + 企业化落地并重
-- **安全/政策优先级很高**：今天关于 open-weights 的文章明显不是纯产品声明，而是主动介入公共政策与行业争议，说明 Anthropic 在塑造外部认知方面非常活跃。  
-- **企业产品化持续加强**：与 Cognizant 的合作显示 Claude 正在被系统性嵌入企业交付链路，重点不只是单个聊天产品，而是工程平台、IT 运维和行业方案。  
-- **能力路线与开发者工具继续前推**：Claude Code 出现在企业流程中，意味着 Anthropic 仍在押注“编程/软件工程”这一高价值场景。
+#### Anthropic
+- 本次增量中**没有新内容**，因此无法从官网公开内容判断其今日优先级变化。  
+- 从“无新增”这一事实本身看，至少在这个时间窗口里，Anthropic **没有通过官网发布新研究、工程或产品导向内容来抢占叙事**。  
+- 这不等于技术停滞，只能说明其对外内容节奏较为平稳。  
 
-#### OpenAI：今日可见信号不足，无法判断最新优先级
-- 由于仅有元数据条目，无法从今天的内容确认 OpenAI 在模型能力、安全、产品化或生态上的最新侧重。  
-- 就本次可观察数据而言，OpenAI 今天的公开信号明显弱于 Anthropic，更多是“存在一条新增内容”，但不可分析其策略。
-
----
+#### OpenAI
+- 今日新增全部落在 **business / guides-and-resources**，这强烈指向其当前对外优先级偏向：  
+  1) **产品化与落地方法**  
+  2) **企业采用与使用路径**  
+  3) **开发者/业务用户教育**  
+- 今日没有看到 research、safety 或 company 类新增条目，说明此次更新更像是**商业化与 adoption 层面的内容强化**。  
+- 从内容组织方式看，OpenAI 更像在搭建“帮助用户把模型和工具用起来”的内容基础设施，而不是当天集中发布新研究结果。  
 
 ### 4.2 竞争态势：谁在引领议题，谁在跟进
 
-- **Anthropic 今天明显在引领议题**。  
-  它主动回应 open-weights 争论，直接澄清立场，并把讨论框定到“危险能力”和国家安全上；这属于典型的议题塑形，而不是被动应答。  
-- 在商业层面，Anthropic 也通过 Cognizant 这样的头部 SI / 服务商释放信号：它不只是在做模型能力竞争，也在做 **企业分发与交付网络竞争**。  
-- **OpenAI 今日没有可比的正文信号**，因此在本次增量中更像是“观察位”，而不是话语主导者。
-
----
+- **OpenAI 今日在“官网议题设置”上更活跃**：连续 5 篇企业资源页面的新增，说明其在主动推动“如何用 AI / 如何规模化落地 / 如何围绕产品构建”这一类话题。  
+- **Anthropic 今日没有新增官网内容**，因此在这一天的公开叙事上处于静默状态。  
+- 若仅看本次增量，OpenAI 更像是**主动发起内容节奏的一方**；Anthropic 则暂时不构成今日的内容引领者。  
+- 但需要注意：**“没有新内容”不等于“没有动作”**，Anthropic 可能将资源投入在闭门客户、模型迭代或未公开的研发进程中。  
 
 ### 4.3 对开发者和企业用户的潜在影响
 
-#### 对开发者
-- Claude Code 被进一步嵌入企业工程平台，意味着开发者工具链会更趋向 **规范化、流程化、可审计**。  
-- 如果企业通过 Cognizant 等伙伴统一导入 Claude，开发者在实际项目中使用 Claude 的方式可能会从“个人试用”变成“**标准工作流组件**”。
-
-#### 对企业用户
-- Cognizant 的“Frontier Certified workforce model” 暗示企业采购 Claude 时，可能不再只买 API，而是买 **交付能力 + 培训认证 + 解决方案**。  
-- 这会降低大客户导入门槛，特别是制造、生命科学、保险这类对合规、流程和行业知识要求高的行业。  
-- Anthropic 对 open-weights 的表述也对企业有间接意义：它在释放一种信号——**开放不是问题，问题是能力与风险管理**。这有利于企业在合规框架下采用 Claude，而不是陷入“开源/闭源”的二元争论。
+- 对**开发者**而言，OpenAI 这类 `guides-and-resources` 页面通常意味着：  
+  - 更清晰的上手路径  
+  - 更完整的产品/工具使用说明  
+  - 更强的从“试用”到“集成”的转化支持  
+- 对**企业用户**而言，这种集中更新通常释放出一个信号：OpenAI 正在加强**销售前教育、实施指导与规模化 adoption 的内容支撑**。  
+- 如果这种资源页持续增加，往往意味着：
+  - 产品能力正在被整理成可交付的企业叙事  
+  - 商业团队和内容团队的协同在增强  
+  - 生态伙伴、集成商、解决方案团队将更容易引用官方材料推进落地  
+- 对比之下，Anthropic 今日无新增内容，意味着企业和开发者在公开官网上获得的“新信息密度”较低，短期内在内容层面的存在感弱于 OpenAI。  
 
 ---
 
 ## 5) 值得关注的细节
 
-### 1. “Anthropic has never advocated for a ban on open-weights models”
-- 这句话非常关键，属于对市场与政策圈的**明确纠偏**。  
-- 它意味着 Anthropic 不希望被归类为“反开放阵营”，而是希望成为“**支持开放，但强调安全边界**”的一方。
+### 5.1 新兴词汇或话题的首次出现
+- 本次 OpenAI 新增页面中，`guides-and-resources` 这一目录下出现了多个以 **“Practical Guide”**、**“How OpenAI Uses …”**、**“Inside …”** 结构命名的页面。  
+- 这类标题风格本身是一个信号：**内容形态偏向指南、案例或经验总结**，而不是单纯新闻通稿。  
+- 但由于当前没有正文，不能进一步解释这些词汇对应的具体技术议题。  
 
-### 2. “public good” 与 “dangerous capabilities” 的并置
-- Anthropic 同时使用了“公共产品”和“危险能力”两组词，说明它在构建一种更精细的叙事框架：  
-  **低风险模型可以开放，高风险能力需要治理。**  
-- 这比简单的“支持/反对开源”更有政策弹性，也更利于未来监管沟通。
+### 5.2 某类主题的密集发布
+- 今日 5 篇 OpenAI 内容**全部集中在 business 资源目录**，属于明显的**批量发布/批量上线**特征。  
+- 这种密集度往往意味着：  
+  - 内容库扩容  
+  - 产品推广节点临近  
+  - 企业营销/教育活动在加速  
+  - 站内知识架构或落地文档体系在重整  
+- 从官网策略角度，这通常比单篇博客更能体现“商业化推进”的组织能力。  
 
-### 3. “Frontier Certified workforce model”
-- 这是一个值得留意的新型企业传播词汇。  
-- 它暗示 Anthropic 正在把 AI 能力包装成 **可认证、可培训、可规模化复制的人才体系**，这对大型企业和 SI 渠道非常重要。
+### 5.3 政策、合规、安全方面动向
+- 本次增量中**没有出现 safety / policy / governance 相关条目**。  
+- 这意味着至少在 2026-07-28 的这次抓取中，两家公司都没有通过官网新增内容来释放明确的安全或合规信号。  
+- 但从“缺席”本身只能得出：**今日官网更新重点不在安全议题**，不能推断安全投入强弱。  
 
-### 4. “Spec-Driven Development” 与 Claude Code 的结合
-- 这说明 Claude 不再只是辅助写代码，而是进入 **规范驱动的软件工程流程**。  
-- 对企业来说，这类叙事通常意味着更强的可控性、更明确的输出约束，以及更容易被纳入工程治理体系。
-
-### 5. 同日“政策声明 + 企业合作”双线发布
-- 这不是偶然组合。  
-- 它说明 Anthropic 在主动同时管理两种市场认知：  
-  1) 自己是 **安全与治理的严肃参与者**；  
-  2) 自己也是 **可落地、可扩张、可商业化的企业 AI 平台**。  
-- 这种双线并进，通常是进入更大规模商业阶段的标志。
+### 5.4 发布时机的隐含信号
+- OpenAI 在同一天集中更新 5 个 business 资源页，说明其内容发布可能存在**批次化运营**特征，而不是随机散发。  
+- 若这种节奏持续，值得观察是否会在随后几天出现：  
+  - 产品发布会前的铺垫  
+  - 企业解决方案页联动更新  
+  - 开发者文档、案例、指南的同步扩展  
+- Anthropic 的“零新增”则提示需要继续观察其下一轮更新是否会出现**补发式**内容集中上线。  
 
 ---
 
-## 结论
+## 总结判断
 
-就今天的增量而言，**Anthropic 的信号非常清晰且强烈**：一方面通过 open-weights 文章争夺安全与政策叙事，另一方面通过 Cognizant 合作强化企业交付与生态渠道。它正在同时推进“**安全品牌**”与“**企业渗透**”两条主线。
+- **今天的公开内容节奏由 OpenAI 主导，Anthropic 处于静默。**  
+- **OpenAI 的增量全部属于 business 资源类页面，显示其当前更重视产品落地、企业采用和内容化支持体系。**  
+- **由于 OpenAI 仅提供元数据，本次不能做正文摘要或技术细节判断；但从发布结构来看，这仍然是一个明确的商业化/产品化信号。**  
+- 若后续继续出现同目录批量更新，建议重点跟踪：  
+  1) 是否与新产品节点联动  
+  2) 是否补充企业案例/开发者指南/实施框架  
+  3) 是否进一步强化“把模型用于工作”的叙事链条  
 
-**OpenAI 今日由于仅有元数据条目，公开可分析信号不足。**  
-如果后续补充正文，建议重点关注其是否涉及工作场景、生产力、企业采用或安全治理等议题，以判断其与 Anthropic 的对位方向。
-
-如果你愿意，我也可以把这份报告进一步整理成：
-1. **管理层简报版（1 页）**  
-2. **投资/竞品分析版**  
-3. **带时间线的长期追踪模板**
+如果你愿意，我可以把这份报告进一步整理成**“表格版周报模板”**或**“面向管理层的一页纸简报版”**。
 
 ---
 *本日报由 [agents-radar](https://github.com/leisure3318/agents-radar) 自动生成。*

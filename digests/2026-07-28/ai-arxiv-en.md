@@ -1,6 +1,6 @@
-# Tech Community AI Digest 2026-07-28
+# ArXiv AI Research Digest 2026-07-28
 
-> Sources: [Dev.to](https://dev.to/) (6 articles) + [Lobste.rs](https://lobste.rs/) (0 stories) | Generated: 2026-07-28 02:39 UTC
+> Source: [ArXiv](https://arxiv.org/) (cs.AI, cs.CL, cs.LG) | 50 papers | Generated: 2026-07-28 02:39 UTC
 
 ---
 
