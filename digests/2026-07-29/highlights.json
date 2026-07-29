@@ -1,68 +1,52 @@
 {
   "zh": {
     "ai-cli": [
-      "OpenAI Codex 10I/10PR",
-      "Gemini CLI 双Release",
-      "OpenCode 10I/10PR，2个Release",
-      "Qwen Code 10I/10PR，2个Release",
-      "Claude Code 10问题仅1PR",
-      "社区聚焦长任务与会话恢复"
+      "OpenAI Codex 推出 rust-v0.146.0",
+      "Gemini CLI 夜版 v0.55.0",
+      "Claude Code 10 个 Issue",
+      "OpenCode 9 个 PR",
+      "Qwen Code 10 个 PR",
+      "权限与 Hook 成焦点"
     ],
     "ai-agents": [
-      "OpenClaw 32I/42PR",
-      "v2026.7.2-beta.5发布",
-      "quarantine store护住数据",
-      "SQLite快照可崩溃恢复",
-      "schema升级拒绝丢数据",
-      "Telegram/Discord回归集中"
-    ],
-    "ai-trending": [
-      "speech-to-speech +227星",
-      "book-to-skill 暴涨+423星",
-      "agent-governance-toolkit +46星",
-      "今日仅3个AI相关项目",
-      "热点集中Agent与语音",
-      "治理工具成新焦点"
+      "OpenClaw 16 Issue 32 PR",
+      "生态覆盖 13 个项目",
+      "sandbox 失败不耗尽 fallback",
+      "去重 runtime/plugin/chat 路径",
+      "补齐 gateway/memory 向导",
+      "隐藏 credential profiles 标签"
     ],
     "ai-web": [
-      "Claude发现密码学弱点",
-      "HAWK与降轮AES被攻击",
-      "Dario澄清不禁open-weights",
-      "强调国家安全风险",
-      "OpenAI仅见元数据条目",
-      "Anthropic今日新增2篇"
+      "Claude 找到密码学弱点",
+      "HAWK 后量子签名受冲击",
+      "round-reduced AES 新攻击",
+      "Dario：未主张禁开权重",
+      "开权重被视为公共品",
+      "OpenAI 仅现科学计算条目"
     ],
     "ai-hn": [
-      "Codex Security登顶324分",
-      "Claude研究175分118评",
-      "HAWK-256攻击56分",
-      "agentic AI科学计算热议",
-      "社区焦点转向安全可信",
-      "隐私与治理讨论升温"
+      "Codex Security 366分领跑",
+      "Claude 研究 187/129",
+      "OpenAI 科学计算 27/9",
+      "open LLM 更乐观 31/14",
+      "LeanScreen 验证帖",
+      "Flashpaper 无库密钥分享"
     ],
     "ai-arxiv": [
-      "Kimi K3：100万token上下文",
-      "DataOrchestra样本级编排",
-      "D-Score做幻觉检测",
-      "分组风险控制更合规",
-      "长程规划蒸馏新框架",
-      "修复循环≠可靠"
-    ],
-    "ai-hf": [
-      "Qwen3.6-35B GGUF获197赞",
-      "Qwen模型下载近9.97万",
-      "Kimi-K3-GGUF上榜",
-      "社区偏爱本地可部署",
-      "Hermes指令微调受捧",
-      "Qwen/Kimi双线领跑"
+      "Kimi K3：2.8T MoE",
+      "支持 100 万 token 上下文",
+      "DataOrchestra 样本级编排",
+      "D-Score 盯上幻觉检测",
+      "Looping Is Not Reliability",
+      "分组风险控制更合规"
     ],
     "ai-community": [
-      "Slopsquatting成新攻击面",
-      "AI Agent写权限要审计",
-      "MCP Gateway成落地关键",
-      "TypeScript从零建MCP Server",
-      "Cursor+BrowserAct避脆弱选择器",
-      "先出计划再写代码"
+      "Cloud AI 操控家庭",
+      "但不交出家居控制权",
+      "FSM 给 Agent 加约束",
+      "FSM 文拿到 2 赞 6 评",
+      "本地运行与隐私成焦点",
+      "AI 正从炫技转系统"
     ]
   },
   "en": {}
