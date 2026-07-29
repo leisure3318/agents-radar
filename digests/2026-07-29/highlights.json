@@ -1,0 +1,69 @@
+{
+  "zh": {
+    "ai-cli": [
+      "OpenAI Codex 10I/10PR",
+      "Gemini CLI 双Release",
+      "OpenCode 10I/10PR，2个Release",
+      "Qwen Code 10I/10PR，2个Release",
+      "Claude Code 10问题仅1PR",
+      "社区聚焦长任务与会话恢复"
+    ],
+    "ai-agents": [
+      "OpenClaw 32I/42PR",
+      "v2026.7.2-beta.5发布",
+      "quarantine store护住数据",
+      "SQLite快照可崩溃恢复",
+      "schema升级拒绝丢数据",
+      "Telegram/Discord回归集中"
+    ],
+    "ai-trending": [
+      "speech-to-speech +227星",
+      "book-to-skill 暴涨+423星",
+      "agent-governance-toolkit +46星",
+      "今日仅3个AI相关项目",
+      "热点集中Agent与语音",
+      "治理工具成新焦点"
+    ],
+    "ai-web": [
+      "Claude发现密码学弱点",
+      "HAWK与降轮AES被攻击",
+      "Dario澄清不禁open-weights",
+      "强调国家安全风险",
+      "OpenAI仅见元数据条目",
+      "Anthropic今日新增2篇"
+    ],
+    "ai-hn": [
+      "Codex Security登顶324分",
+      "Claude研究175分118评",
+      "HAWK-256攻击56分",
+      "agentic AI科学计算热议",
+      "社区焦点转向安全可信",
+      "隐私与治理讨论升温"
+    ],
+    "ai-arxiv": [
+      "Kimi K3：100万token上下文",
+      "DataOrchestra样本级编排",
+      "D-Score做幻觉检测",
+      "分组风险控制更合规",
+      "长程规划蒸馏新框架",
+      "修复循环≠可靠"
+    ],
+    "ai-hf": [
+      "Qwen3.6-35B GGUF获197赞",
+      "Qwen模型下载近9.97万",
+      "Kimi-K3-GGUF上榜",
+      "社区偏爱本地可部署",
+      "Hermes指令微调受捧",
+      "Qwen/Kimi双线领跑"
+    ],
+    "ai-community": [
+      "Slopsquatting成新攻击面",
+      "AI Agent写权限要审计",
+      "MCP Gateway成落地关键",
+      "TypeScript从零建MCP Server",
+      "Cursor+BrowserAct避脆弱选择器",
+      "先出计划再写代码"
+    ]
+  },
+  "en": {}
+}
