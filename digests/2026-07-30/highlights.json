@@ -1,0 +1,69 @@
+{
+  "zh": {
+    "ai-cli": [
+      "OpenAI Codex 今日 3 个新 Release",
+      "GitHub Copilot CLI 连发 4 个 Release",
+      "OpenCode 10 Issues/10 PR 同时爆发",
+      "Qwen Code 兼容 Anthropic 5.x",
+      "Gemini CLI 并行调用报 400",
+      "Claude Code Skills 上榜"
+    ],
+    "ai-agents": [
+      "OpenClaw 今日 37 条 PR 更新",
+      "OpenClaw Issue 关闭率达 54.5%",
+      "Wear OS 资源压缩修复已合并",
+      "Mattermost 出站结算丢失修复",
+      "gateway 安全边界成焦点",
+      "多端状态一致性风险突出"
+    ],
+    "ai-trending": [
+      "VibeVoice 今日狂涨 336 星",
+      "openwork 日增 97 星热度高",
+      "FlashKDA CUDA 核心加速",
+      "ANE 逆向 Apple Neural Engine",
+      "Trending 仅 4 个 AI 项目",
+      "热点转向低延迟可部署"
+    ],
+    "ai-web": [
+      "Claude 找到密码学弱点",
+      "HAWK 数字签名遭攻击",
+      "round-reduced AES 出新招",
+      "Anthropic 强调不影响生产",
+      "OpenAI 今日新增 7 篇内容",
+      "gpt-5-6 frontier 条目现身"
+    ],
+    "ai-hn": [
+      "Gemma 4 26B 仅 2GB 内存",
+      "HN 热议 Claude 反密码分析",
+      "Tokenless 主打自动切模型省钱",
+      "Physical AI 评测引争论",
+      "Theo Conjecture 破数学难题",
+      "ARC-AGI-3 三倍分数遭质疑"
+    ],
+    "ai-arxiv": [
+      "Pass the Baton 轨迹接力蒸馏",
+      "UniMem 兼顾情景与参数记忆",
+      "MemLens 做记忆价值管理",
+      "Desktop-Delta Bench 测 GUI 转移",
+      "Messier 统一跨基准评测",
+      "Interactive Reward Agent 验证状态"
+    ],
+    "ai-hf": [
+      "Solar-Open2-250B NVFP4 热榜",
+      "Qwen3.5-9B GGUF 下载破 11.2 万",
+      "VibeVoice-ASR-BitNet 上榜",
+      "Mage-VL 图文多模态登场",
+      "250B 大模型开始低精度落地",
+      "社区微调+GGUF 仍最热"
+    ],
+    "ai-community": [
+      "Kimi K3 推理边界被热议",
+      "8 个月不写代码反而产出更高",
+      "OpenAI 沙箱逃逸全纪录",
+      "便宜模型路由方案失效",
+      "MCP 计量防账单惊喜",
+      "开源模型成 AI 安全武器"
+    ]
+  },
+  "en": {}
+}
