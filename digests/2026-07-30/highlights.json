@@ -1,68 +1,60 @@
 {
   "zh": {
     "ai-cli": [
-      "OpenAI Codex 今日 3 个新 Release",
-      "GitHub Copilot CLI 连发 4 个 Release",
-      "OpenCode 10 Issues/10 PR 同时爆发",
-      "Qwen Code 兼容 Anthropic 5.x",
-      "Gemini CLI 并行调用报 400",
-      "Claude Code Skills 上榜"
+      "Claude Code 爆出10个Issue",
+      "Codex 推出新 Alpha 版",
+      "OpenCode 8 Issue/6 PR 活跃",
+      "Qwen Code 出夜版修 CI",
+      "Copilot CLI 正式发版",
+      "Gemini CLI 夜版更新"
     ],
     "ai-agents": [
-      "OpenClaw 今日 37 条 PR 更新",
-      "OpenClaw Issue 关闭率达 54.5%",
-      "Wear OS 资源压缩修复已合并",
-      "Mattermost 出站结算丢失修复",
-      "gateway 安全边界成焦点",
-      "多端状态一致性风险突出"
+      "OpenClaw 今日日志：14 Issue/27 PR",
+      "macOS 远程隧道修复",
+      "CompactionError 补上了",
+      "删账号后权限全收紧",
+      "Discord webhook 超时保留",
+      "项目正处高密度修复期"
     ],
     "ai-trending": [
-      "VibeVoice 今日狂涨 336 星",
-      "openwork 日增 97 星热度高",
+      "VibeVoice 今日暴涨336星",
+      "openwork 也涨了97星",
       "FlashKDA CUDA 核心加速",
-      "ANE 逆向 Apple Neural Engine",
-      "Trending 仅 4 个 AI 项目",
-      "热点转向低延迟可部署"
+      "ANE 盯上 Apple Neural Engine",
+      "热度转向语音与协作",
+      "端侧训练基础设施升温"
     ],
     "ai-web": [
-      "Claude 找到密码学弱点",
+      "Claude 被用于破解加密弱点",
       "HAWK 数字签名遭攻击",
-      "round-reduced AES 出新招",
+      "round-reduced AES 有新招",
       "Anthropic 强调不影响生产",
-      "OpenAI 今日新增 7 篇内容",
-      "gpt-5-6 frontier 条目现身"
+      "OpenAI 今日新增7篇内容",
+      "gpt-5-6-frontier-intelligence-efficiency 上线"
     ],
     "ai-hn": [
-      "Gemma 4 26B 仅 2GB 内存",
-      "HN 热议 Claude 反密码分析",
-      "Tokenless 主打自动切模型省钱",
-      "Physical AI 评测引争论",
-      "Theo Conjecture 破数学难题",
-      "ARC-AGI-3 三倍分数遭质疑"
+      "Gemma 4 26B 跑进2GB内存",
+      "Anthropic 密码分析登顶讨论",
+      "GPT-5.6 对决 Claude Fable 5",
+      "LLM Honeypot 引发热议",
+      "ARC-AGI-3 分数翻三倍",
+      "SAST triage 成实战焦点"
     ],
     "ai-arxiv": [
-      "Pass the Baton 轨迹接力蒸馏",
-      "UniMem 兼顾情景与参数记忆",
-      "MemLens 做记忆价值管理",
-      "Desktop-Delta Bench 测 GUI 转移",
-      "Messier 统一跨基准评测",
-      "Interactive Reward Agent 验证状态"
-    ],
-    "ai-hf": [
-      "Solar-Open2-250B NVFP4 热榜",
-      "Qwen3.5-9B GGUF 下载破 11.2 万",
-      "VibeVoice-ASR-BitNet 上榜",
-      "Mage-VL 图文多模态登场",
-      "250B 大模型开始低精度落地",
-      "社区微调+GGUF 仍最热"
+      "LLM安全转向工具与记忆",
+      "On-Policy Distillation 亮相",
+      "Setoka 做个性化智能体基准",
+      "区域偏见直指决策层面",
+      "OptimismBench 测模型乐观偏差",
+      "Scores Are Not Decisions 提醒停手时机"
     ],
     "ai-community": [
-      "Kimi K3 推理边界被热议",
-      "8 个月不写代码反而产出更高",
-      "OpenAI 沙箱逃逸全纪录",
-      "便宜模型路由方案失效",
-      "MCP 计量防账单惊喜",
-      "开源模型成 AI 安全武器"
+      "本地 AI 栈年中大复盘",
+      "Coding Agent 迁出终端",
+      "207个MCP工具一键生成",
+      "AI Agents 先学会说话",
+      "200 OK 但 content:null",
+      "社区从接入AI转向编排AI"
     ]
   },
   "en": {}
