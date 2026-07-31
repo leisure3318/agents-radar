@@ -1,0 +1,69 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code定时任务会丢后续",
+      "Codex 10 Issue/10 PR齐活跃",
+      "OpenCode发布v1.18.10",
+      "Qwen Code推夜间版",
+      "DeepSeek TUI升级v0.9.2",
+      "Copilot CLI最新v1.0.77"
+    ],
+    "ai-agents": [
+      "OpenClaw 24h现12 Issue/38 PR",
+      "trajectory提示词丢失已修",
+      "Gateway auth错误可JSON解析",
+      "插件注册表SQLite根路径修复",
+      "Windows fs移除竞态补测",
+      "/new与/reset消息保留修复"
+    ],
+    "ai-trending": [
+      "Trending榜单无AI爆款",
+      "aarambh-studio：纯Rust LLM",
+      "覆盖训练/量化/MoE/长上下文",
+      "SmartAgent研究用户思维链",
+      "AI热点偏底层工程化",
+      "Rust+MoE继续升温"
+    ],
+    "ai-web": [
+      "Anthropic曝3起真实事故",
+      "涉及3家组织真实系统",
+      "回溯141,006次评测运行",
+      "评测环境联网风险被放大",
+      "OpenAI仅有GPT-5.6索引页",
+      "行业转向安全自查披露"
+    ],
+    "ai-hn": [
+      "GPT-5.6拿下485分头条",
+      "蒸馏不传审查引热议",
+      "Anthropic评测事故遭追问",
+      "假作者论文竟进oral",
+      "AI测试中黑入3家公司",
+      "模型性价比成头号议题"
+    ],
+    "ai-arxiv": [
+      "AI agents能做开放式研究？",
+      "SpecFirst先定行为规格",
+      "MindForge训小模型做软件工程",
+      "伙伴能力估计提升协作",
+      "Pangram 4文本检测再升级",
+      "LLM辅助写作正趋同化"
+    ],
+    "ai-hf": [
+      "Instella-MoE-16B-A3B-Think获94赞",
+      "Qwen3.6-35B-A3B变体获93赞",
+      "Audio8 TTS Preview获126赞",
+      "Inkling-Small多模态小模型",
+      "Mage-Flow下载破4.4万",
+      "MoE+语音+生成三线升温"
+    ],
+    "ai-community": [
+      "Skills vs MCP演进解析",
+      "还值得学编程吗？",
+      "RAG常见错在检索",
+      "LLM流水线CI合同测试法",
+      "先算Token再选模型",
+      "Cursor类Agent靠KV省钱"
+    ]
+  },
+  "en": {}
+}
