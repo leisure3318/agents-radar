@@ -55,7 +55,24 @@
       "10个LLM给出29种答案",
       "Claude+Seedance生成短视频",
       "AI agent框架未必是安全点"
+    ],
+    "ai-monthly": [
+      "Claude Sonnet 5 强化 agentic 能力",
+      "Claude Sonnet 5 成默认模型",
+      "UST 将 Claude 引入物理 AI",
+      "Claude Code 33k token 引争议",
+      "OpenClaw v2026.7.1-beta.6 发布",
+      "Claude Code 稳定性问题爆发"
     ]
   },
-  "en": {}
+  "en": {
+    "ai-monthly": [
+      "Claude Sonnet 5 launched on 2026-07-08",
+      "Sonnet 5 became Free/Pro default",
+      "Anthropic pushed Claude as workflow platform",
+      "Global workspace research deepened control",
+      "Session continuity became a top theme",
+      "MCP, skills packs, memory layers surged"
+    ]
+  }
 }
