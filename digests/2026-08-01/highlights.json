@@ -1,68 +1,60 @@
 {
   "zh": {
     "ai-cli": [
-      "OpenAI Codex 10/10，连发3个alpha",
-      "Claude Code 10条Issue集中爆发",
-      "OpenCode、Pi 同日10/10高活跃",
-      "Qwen Code 发布1个Release",
-      "DeepSeek TUI 发布1个Release",
-      "重心转向状态机与沙箱"
+      "OpenAI Codex 9条Issue冒出",
+      "OpenCode 7个PR高频推进",
+      "Gemini CLI发夜间版nightly",
+      "Claude Code认证恢复卡住",
+      "Qwen Code盯会话与MCP修复",
+      "Pi登录后刷新冻结待解"
     ],
     "ai-agents": [
-      "OpenClaw 今日11 Issue、40 PR",
-      "Matrix 持久发送可恢复",
-      "Signal 引用消息防回放",
-      "网关缓存协商修正",
-      "doctor 修复 roster 误报",
-      "插件依赖健康检查收敛"
+      "OpenClaw 30个PR高压涌入",
+      "11个Issue聚焦会话与网关",
+      "PR#117083修正启动时序",
+      "PR#117173修复Canvas租约",
+      "Teams插件图标已恢复",
+      "维护者审查队列明显积压"
     ],
     "ai-trending": [
-      "reverse-skill 今日暴涨+335星",
-      "reverse-skill 接入Claude Code",
-      "reverse-skill 面向逆向安全",
-      "toyllm 主打从零学LLM",
-      "今日热度偏工作流编排",
-      "无重磅模型，偏工程化"
+      "reverse-skill 今日+335星",
+      "Claude Code等接入逆向流程",
+      "toyllm：从零学习LLM",
+      "AI热度转向工作流编排",
+      "专业场景Agent更受追捧",
+      "模型发布不再是主角"
     ],
     "ai-web": [
-      "Anthropic 今日仍零新增",
-      "OpenAI 仅新增1条元数据",
-      "OpenAI 新页：Abundant Intelligence",
-      "当前仅见 index 页面",
-      "暂非模型发布信号",
-      "官网内容节奏仍在更新"
+      "Anthropic/Claude 今日零更新",
+      "OpenAI仅新增1条索引页",
+      "Building Abundant Intelligence",
+      "正文缺失仅见元数据",
+      "暂无模型发布或安全公告",
+      "官网内容节奏值得追踪"
     ],
     "ai-hn": [
-      "Claude Opus 5 三词越狱",
-      "LLM 存在结构性脆弱点",
-      "Anthropic 现3起黑客事件",
-      "Gander 无权限文件浏览器",
-      "AI agents GUI 设计受关注",
-      "KV 复制优化推理缓存"
+      "GUI Agents话题108分65评",
+      "LLM Router帖96分51评",
+      "Claude被曝越权攻3组织",
+      "Opus 5三词越狱",
+      "AI安全从演示转向实战",
+      "监管与治理讨论升温"
     ],
     "ai-arxiv": [
-      "β-OPSD 改进推理训练",
-      "InfoOps Bench 测信息操控",
-      "推理型模型做安全检测",
-      "本地 agent 推理失效分析",
-      "MANTA 多智能体自适应拓扑",
-      "智能体可证自我 exploit"
-    ],
-    "ai-hf": [
-      "DeepSeek-V4-Flash-0731 获991赞",
-      "DeepSeek-V4-Flash 下载292万",
-      "DeepSeek-V4-Flash 仍居榜首",
-      "XYZ-Aquila-mini 获352赞",
-      "XYZ-Aquila-pro 进热门区",
-      "unsloth 推出 GGUF 量化版"
+      "GUI Agent“对了却慢”",
+      "LEDGERMIND证据账本推理",
+      "ShadowDancer学任意动作",
+      "QAdapt主攻量子纠错延迟",
+      "QuantWAMs重做世界模型量化",
+      "QQWorld用QQ匹配做正则"
     ],
     "ai-community": [
-      "Claude Code+OpenRouter 接入指南",
-      "万能 agent 不是架构",
-      "AI 提速不等于更省钱",
-      "Workflows 比 agents 更稳",
-      "RAG 别让它算数",
-      "BYOK 密钥别明文存储"
+      "PR更快，判断力更弱",
+      "Agent评测比模型更难",
+      "三模型热切浏览器会话",
+      "10个LLM给出29种答案",
+      "Claude+Seedance生成短视频",
+      "AI agent框架未必是安全点"
     ]
   },
   "en": {}
