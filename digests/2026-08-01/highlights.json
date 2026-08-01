@@ -1,0 +1,69 @@
+{
+  "zh": {
+    "ai-cli": [
+      "OpenAI Codex 10/10，连发3个alpha",
+      "Claude Code 10条Issue集中爆发",
+      "OpenCode、Pi 同日10/10高活跃",
+      "Qwen Code 发布1个Release",
+      "DeepSeek TUI 发布1个Release",
+      "重心转向状态机与沙箱"
+    ],
+    "ai-agents": [
+      "OpenClaw 今日11 Issue、40 PR",
+      "Matrix 持久发送可恢复",
+      "Signal 引用消息防回放",
+      "网关缓存协商修正",
+      "doctor 修复 roster 误报",
+      "插件依赖健康检查收敛"
+    ],
+    "ai-trending": [
+      "reverse-skill 今日暴涨+335星",
+      "reverse-skill 接入Claude Code",
+      "reverse-skill 面向逆向安全",
+      "toyllm 主打从零学LLM",
+      "今日热度偏工作流编排",
+      "无重磅模型，偏工程化"
+    ],
+    "ai-web": [
+      "Anthropic 今日仍零新增",
+      "OpenAI 仅新增1条元数据",
+      "OpenAI 新页：Abundant Intelligence",
+      "当前仅见 index 页面",
+      "暂非模型发布信号",
+      "官网内容节奏仍在更新"
+    ],
+    "ai-hn": [
+      "Claude Opus 5 三词越狱",
+      "LLM 存在结构性脆弱点",
+      "Anthropic 现3起黑客事件",
+      "Gander 无权限文件浏览器",
+      "AI agents GUI 设计受关注",
+      "KV 复制优化推理缓存"
+    ],
+    "ai-arxiv": [
+      "β-OPSD 改进推理训练",
+      "InfoOps Bench 测信息操控",
+      "推理型模型做安全检测",
+      "本地 agent 推理失效分析",
+      "MANTA 多智能体自适应拓扑",
+      "智能体可证自我 exploit"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Flash-0731 获991赞",
+      "DeepSeek-V4-Flash 下载292万",
+      "DeepSeek-V4-Flash 仍居榜首",
+      "XYZ-Aquila-mini 获352赞",
+      "XYZ-Aquila-pro 进热门区",
+      "unsloth 推出 GGUF 量化版"
+    ],
+    "ai-community": [
+      "Claude Code+OpenRouter 接入指南",
+      "万能 agent 不是架构",
+      "AI 提速不等于更省钱",
+      "Workflows 比 agents 更稳",
+      "RAG 别让它算数",
+      "BYOK 密钥别明文存储"
+    ]
+  },
+  "en": {}
+}
