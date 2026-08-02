@@ -1,6 +1,6 @@
 # OpenClaw 生态日报 2026-08-02
 
-> Issues: 21 | PRs: 41 | 覆盖项目: 13 个 | 生成时间: 2026-08-02 01:10 UTC
+> Issues: 11 | PRs: 29 | 覆盖项目: 13 个 | 生成时间: 2026-08-02 02:55 UTC
 
 - [OpenClaw](https://github.com/openclaw/openclaw)
 - [NanoBot](https://github.com/HKUDS/nanobot)
@@ -35,7 +35,7 @@
 <details>
 <summary><strong>NanoBot</strong> — <a href="https://github.com/HKUDS/nanobot">HKUDS/nanobot</a></summary>
 
-⚠️ 摘要生成失败。
+过去24小时无活动。
 
 </details>
 
@@ -49,14 +49,14 @@
 <details>
 <summary><strong>PicoClaw</strong> — <a href="https://github.com/sipeed/picoclaw">sipeed/picoclaw</a></summary>
 
-⚠️ 摘要生成失败。
+过去24小时无活动。
 
 </details>
 
 <details>
 <summary><strong>NanoClaw</strong> — <a href="https://github.com/qwibitai/nanoclaw">qwibitai/nanoclaw</a></summary>
 
-⚠️ 摘要生成失败。
+过去24小时无活动。
 
 </details>
 
@@ -91,14 +91,14 @@
 <details>
 <summary><strong>Moltis</strong> — <a href="https://github.com/moltis-org/moltis">moltis-org/moltis</a></summary>
 
-⚠️ 摘要生成失败。
+过去24小时无活动。
 
 </details>
 
 <details>
 <summary><strong>CoPaw</strong> — <a href="https://github.com/agentscope-ai/CoPaw">agentscope-ai/CoPaw</a></summary>
 
-⚠️ 摘要生成失败。
+过去24小时无活动。
 
 </details>
 
