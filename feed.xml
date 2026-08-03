@@ -6,16 +6,16 @@
     <description>AI 开源生态每日简报 · Daily AI ecosystem digest</description>
     <language>zh-CN</language>
     <atom:link href="https://duanyytop.github.io/agents-radar/feed.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Mon, 03 Aug 2026 01:11:27 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 03 Aug 2026 02:58:09 +0000</lastBuildDate>
     <item>
       <title>AI CLI 工具社区动态日报 2026-08-03</title>
       <link>https://duanyytop.github.io/agents-radar/#2026-08-03/ai-cli</link>
       <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-08-03/ai-cli</guid>
       <pubDate>Mon, 03 Aug 2026 00:00:00 +0000</pubDate>
-      <description>AI CLI 工具社区动态日报 2026-08-03 生成时间: 2026-08-03 01:11 UTC | 覆盖工具: 9 个 Claude Code OpenAI Codex Gemini CLI GitHub Copilot CLI Kimi Code CLI OpenCode Pi Qwen Code DeepSeek TUI Claude Code Skills 横向对比 各工具详细报告 Claude Code — anthropics/claude-code Claude Code Skills 社区热点 数据来源: anthropics/skills ⚠️ Skills 摘要生成失败。 ⚠️ 摘要生成失败。 OpenAI Codex — openai/codex ⚠️ 摘要生成失败。 Gemini CLI — google-gemini/gemini-cli ⚠️ 摘要生成失败。 GitHub Copilot CLI — github/copilot-cli ⚠️ 摘要生成失败。 Kimi Code CLI — MoonshotAI/kimi-cli ⚠️ 摘要生成失败...</description>
+      <description>AI CLI 工具社区动态日报 2026-08-03 生成时间: 2026-08-03 02:56 UTC | 覆盖工具: 9 个 Claude Code OpenAI Codex Gemini CLI GitHub Copilot CLI Kimi Code CLI OpenCode Pi Qwen Code DeepSeek TUI Claude Code Skills 横向对比 各工具详细报告 Claude Code — anthropics/claude-code Claude Code Skills 社区热点 数据来源: anthropics/skills ⚠️ Skills 摘要生成失败。 ⚠️ 摘要生成失败。 OpenAI Codex — openai/codex ⚠️ 摘要生成失败。 Gemini CLI — google-gemini/gemini-cli ⚠️ 摘要生成失败。 GitHub Copilot CLI — github/copilot-cli 过去24小时无活动。 Kimi Code CLI — MoonshotAI/kimi-cli 过去24小时无活动...</description>
       <content:encoded><![CDATA[<h1>AI CLI 工具社区动态日报 2026-08-03</h1>
 <blockquote>
-<p>生成时间: 2026-08-03 01:11 UTC | 覆盖工具: 9 个</p>
+<p>生成时间: 2026-08-03 02:56 UTC | 覆盖工具: 9 个</p>
 </blockquote>
 <ul>
 <li><a href="https://github.com/anthropics/claude-code">Claude Code</a></li>
@@ -60,13 +60,13 @@
 <details>
 <summary><strong>GitHub Copilot CLI</strong> — <a href="https://github.com/github/copilot-cli">github/copilot-cli</a></summary>
 
-<p>⚠️ 摘要生成失败。</p>
+<p>过去24小时无活动。</p>
 </details>
 
 <details>
 <summary><strong>Kimi Code CLI</strong> — <a href="https://github.com/MoonshotAI/kimi-cli">MoonshotAI/kimi-cli</a></summary>
 
-<p>⚠️ 摘要生成失败。</p>
+<p>过去24小时无活动。</p>
 </details>
 
 <details>
@@ -102,10 +102,10 @@
       <link>https://duanyytop.github.io/agents-radar/#2026-08-03/ai-cli-en</link>
       <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-08-03/ai-cli-en</guid>
       <pubDate>Mon, 03 Aug 2026 00:00:00 +0000</pubDate>
-      <description>AI CLI Tools Community Digest 2026-08-03 Generated: 2026-08-03 01:11 UTC | Tools covered: 9 Claude Code OpenAI Codex Gemini CLI GitHub Copilot CLI Kimi Code CLI OpenCode Pi Qwen Code DeepSeek TUI Claude Code Skills Cross-Tool Comparison (English digest skipped to save LLM tokens — see the Chinese report for full details.) Per-Tool Reports Claude Code — anthropics/claude-code Claude Code Skills Highlights Source: anthropics/skills (English digest skipped to save LLM tokens — see the Chinese repor...</description>
+      <description>AI CLI Tools Community Digest 2026-08-03 Generated: 2026-08-03 02:56 UTC | Tools covered: 9 Claude Code OpenAI Codex Gemini CLI GitHub Copilot CLI Kimi Code CLI OpenCode Pi Qwen Code DeepSeek TUI Claude Code Skills Cross-Tool Comparison (English digest skipped to save LLM tokens — see the Chinese report for full details.) Per-Tool Reports Claude Code — anthropics/claude-code Claude Code Skills Highlights Source: anthropics/skills (English digest skipped to save LLM tokens — see the Chinese repor...</description>
       <content:encoded><![CDATA[<h1>AI CLI Tools Community Digest 2026-08-03</h1>
 <blockquote>
-<p>Generated: 2026-08-03 01:11 UTC | Tools covered: 9</p>
+<p>Generated: 2026-08-03 02:56 UTC | Tools covered: 9</p>
 </blockquote>
 <ul>
 <li><a href="https://github.com/anthropics/claude-code">Claude Code</a></li>
@@ -151,13 +151,13 @@
 <details>
 <summary><strong>GitHub Copilot CLI</strong> — <a href="https://github.com/github/copilot-cli">github/copilot-cli</a></summary>
 
-<p><em>(English digest skipped to save LLM tokens — see the Chinese report for full details.)</em></p>
+<p>No activity in the last 24 hours.</p>
 </details>
 
 <details>
 <summary><strong>Kimi Code CLI</strong> — <a href="https://github.com/MoonshotAI/kimi-cli">MoonshotAI/kimi-cli</a></summary>
 
-<p><em>(English digest skipped to save LLM tokens — see the Chinese report for full details.)</em></p>
+<p>No activity in the last 24 hours.</p>
 </details>
 
 <details>
@@ -193,10 +193,10 @@
       <link>https://duanyytop.github.io/agents-radar/#2026-08-03/ai-agents</link>
       <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-08-03/ai-agents</guid>
       <pubDate>Mon, 03 Aug 2026 00:00:00 +0000</pubDate>
-      <description>OpenClaw 生态日报 2026-08-03 Issues: 15 | PRs: 38 | 覆盖项目: 13 个 | 生成时间: 2026-08-03 01:11 UTC OpenClaw NanoBot Hermes Agent PicoClaw NanoClaw NullClaw IronClaw LobsterAI TinyClaw Moltis CoPaw ZeptoClaw ZeroClaw OpenClaw 项目深度报告 ⚠️ 摘要生成失败。 横向生态对比 同赛道项目详细报告 NanoBot — HKUDS/nanobot ⚠️ 摘要生成失败。 Hermes Agent — nousresearch/hermes-agent ⚠️ 摘要生成失败。 PicoClaw — sipeed/picoclaw ⚠️ 摘要生成失败。 NanoClaw — qwibitai/nanoclaw ⚠️ 摘要生成失败。 NullClaw — nullclaw/nullclaw 过去24小时无活动。 IronClaw — nearai/ironclaw ⚠️ 摘要生成失败。 LobsterA...</description>
+      <description>OpenClaw 生态日报 2026-08-03 Issues: 10 | PRs: 32 | 覆盖项目: 13 个 | 生成时间: 2026-08-03 02:56 UTC OpenClaw NanoBot Hermes Agent PicoClaw NanoClaw NullClaw IronClaw LobsterAI TinyClaw Moltis CoPaw ZeptoClaw ZeroClaw OpenClaw 项目深度报告 ⚠️ 摘要生成失败。 横向生态对比 同赛道项目详细报告 NanoBot — HKUDS/nanobot ⚠️ 摘要生成失败。 Hermes Agent — nousresearch/hermes-agent ⚠️ 摘要生成失败。 PicoClaw — sipeed/picoclaw ⚠️ 摘要生成失败。 NanoClaw — qwibitai/nanoclaw 过去24小时无活动。 NullClaw — nullclaw/nullclaw 过去24小时无活动。 IronClaw — nearai/ironclaw 过去24小时无活动。 LobsterA...</description>
       <content:encoded><![CDATA[<h1>OpenClaw 生态日报 2026-08-03</h1>
 <blockquote>
-<p>Issues: 15 | PRs: 38 | 覆盖项目: 13 个 | 生成时间: 2026-08-03 01:11 UTC</p>
+<p>Issues: 10 | PRs: 32 | 覆盖项目: 13 个 | 生成时间: 2026-08-03 02:56 UTC</p>
 </blockquote>
 <ul>
 <li><a href="https://github.com/openclaw/openclaw">OpenClaw</a></li>
@@ -241,7 +241,7 @@
 <details>
 <summary><strong>NanoClaw</strong> — <a href="https://github.com/qwibitai/nanoclaw">qwibitai/nanoclaw</a></summary>
 
-<p>⚠️ 摘要生成失败。</p>
+<p>过去24小时无活动。</p>
 </details>
 
 <details>
@@ -253,7 +253,7 @@
 <details>
 <summary><strong>IronClaw</strong> — <a href="https://github.com/nearai/ironclaw">nearai/ironclaw</a></summary>
 
-<p>⚠️ 摘要生成失败。</p>
+<p>过去24小时无活动。</p>
 </details>
 
 <details>
@@ -271,7 +271,7 @@
 <details>
 <summary><strong>Moltis</strong> — <a href="https://github.com/moltis-org/moltis">moltis-org/moltis</a></summary>
 
-<p>⚠️ 摘要生成失败。</p>
+<p>过去24小时无活动。</p>
 </details>
 
 <details>
@@ -289,7 +289,7 @@
 <details>
 <summary><strong>ZeroClaw</strong> — <a href="https://github.com/zeroclaw-labs/zeroclaw">zeroclaw-labs/zeroclaw</a></summary>
 
-<p>⚠️ 摘要生成失败。</p>
+<p>过去24小时无活动。</p>
 </details>
 
 <hr>
@@ -301,10 +301,10 @@
       <link>https://duanyytop.github.io/agents-radar/#2026-08-03/ai-agents-en</link>
       <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-08-03/ai-agents-en</guid>
       <pubDate>Mon, 03 Aug 2026 00:00:00 +0000</pubDate>
-      <description>OpenClaw Ecosystem Digest 2026-08-03 Issues: 15 | PRs: 38 | Projects covered: 13 | Generated: 2026-08-03 01:11 UTC OpenClaw NanoBot Hermes Agent PicoClaw NanoClaw NullClaw IronClaw LobsterAI TinyClaw Moltis CoPaw ZeptoClaw ZeroClaw OpenClaw Deep Dive (English digest skipped to save LLM tokens — see the Chinese report for full details.) Cross-Ecosystem Comparison (English digest skipped to save LLM tokens — see the Chinese report for full details.) Peer Project Reports NanoBot — HKUDS/nanobot (En...</description>
+      <description>OpenClaw Ecosystem Digest 2026-08-03 Issues: 10 | PRs: 32 | Projects covered: 13 | Generated: 2026-08-03 02:56 UTC OpenClaw NanoBot Hermes Agent PicoClaw NanoClaw NullClaw IronClaw LobsterAI TinyClaw Moltis CoPaw ZeptoClaw ZeroClaw OpenClaw Deep Dive (English digest skipped to save LLM tokens — see the Chinese report for full details.) Cross-Ecosystem Comparison (English digest skipped to save LLM tokens — see the Chinese report for full details.) Peer Project Reports NanoBot — HKUDS/nanobot (En...</description>
       <content:encoded><![CDATA[<h1>OpenClaw Ecosystem Digest 2026-08-03</h1>
 <blockquote>
-<p>Issues: 15 | PRs: 38 | Projects covered: 13 | Generated: 2026-08-03 01:11 UTC</p>
+<p>Issues: 10 | PRs: 32 | Projects covered: 13 | Generated: 2026-08-03 02:56 UTC</p>
 </blockquote>
 <ul>
 <li><a href="https://github.com/openclaw/openclaw">OpenClaw</a></li>
@@ -350,7 +350,7 @@
 <details>
 <summary><strong>NanoClaw</strong> — <a href="https://github.com/qwibitai/nanoclaw">qwibitai/nanoclaw</a></summary>
 
-<p><em>(English digest skipped to save LLM tokens — see the Chinese report for full details.)</em></p>
+<p>No activity in the last 24 hours.</p>
 </details>
 
 <details>
@@ -362,7 +362,7 @@
 <details>
 <summary><strong>IronClaw</strong> — <a href="https://github.com/nearai/ironclaw">nearai/ironclaw</a></summary>
 
-<p><em>(English digest skipped to save LLM tokens — see the Chinese report for full details.)</em></p>
+<p>No activity in the last 24 hours.</p>
 </details>
 
 <details>
@@ -380,7 +380,7 @@
 <details>
 <summary><strong>Moltis</strong> — <a href="https://github.com/moltis-org/moltis">moltis-org/moltis</a></summary>
 
-<p><em>(English digest skipped to save LLM tokens — see the Chinese report for full details.)</em></p>
+<p>No activity in the last 24 hours.</p>
 </details>
 
 <details>
@@ -398,7 +398,7 @@
 <details>
 <summary><strong>ZeroClaw</strong> — <a href="https://github.com/zeroclaw-labs/zeroclaw">zeroclaw-labs/zeroclaw</a></summary>
 
-<p><em>(English digest skipped to save LLM tokens — see the Chinese report for full details.)</em></p>
+<p>No activity in the last 24 hours.</p>
 </details>
 
 <hr>
@@ -410,10 +410,10 @@
       <link>https://duanyytop.github.io/agents-radar/#2026-08-03/ai-trending</link>
       <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-08-03/ai-trending</guid>
       <pubDate>Mon, 03 Aug 2026 00:00:00 +0000</pubDate>
-      <description>AI 开源趋势日报 2026-08-03 数据来源: GitHub Trending + GitHub Search API | 生成时间: 2026-08-03 01:11 UTC ⚠️ 趋势报告生成失败。 本日报由 agents-radar 自动生成。</description>
+      <description>AI 开源趋势日报 2026-08-03 数据来源: GitHub Trending + GitHub Search API | 生成时间: 2026-08-03 02:56 UTC ⚠️ 趋势报告生成失败。 本日报由 agents-radar 自动生成。</description>
       <content:encoded><![CDATA[<h1>AI 开源趋势日报 2026-08-03</h1>
 <blockquote>
-<p>数据来源: GitHub Trending + GitHub Search API | 生成时间: 2026-08-03 01:11 UTC</p>
+<p>数据来源: GitHub Trending + GitHub Search API | 生成时间: 2026-08-03 02:56 UTC</p>
 </blockquote>
 <hr>
 <p>⚠️ 趋势报告生成失败。</p>
@@ -426,10 +426,10 @@
       <link>https://duanyytop.github.io/agents-radar/#2026-08-03/ai-trending-en</link>
       <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-08-03/ai-trending-en</guid>
       <pubDate>Mon, 03 Aug 2026 00:00:00 +0000</pubDate>
-      <description>AI Open Source Trends 2026-08-03 Sources: GitHub Trending + GitHub Search API | Generated: 2026-08-03 01:11 UTC (English digest skipped to save LLM tokens — see the Chinese report for full details.) This digest is auto-generated by agents-radar.</description>
+      <description>AI Open Source Trends 2026-08-03 Sources: GitHub Trending + GitHub Search API | Generated: 2026-08-03 02:56 UTC (English digest skipped to save LLM tokens — see the Chinese report for full details.) This digest is auto-generated by agents-radar.</description>
       <content:encoded><![CDATA[<h1>AI Open Source Trends 2026-08-03</h1>
 <blockquote>
-<p>Sources: GitHub Trending + GitHub Search API | Generated: 2026-08-03 01:11 UTC</p>
+<p>Sources: GitHub Trending + GitHub Search API | Generated: 2026-08-03 02:56 UTC</p>
 </blockquote>
 <hr>
 <p><em>(English digest skipped to save LLM tokens — see the Chinese report for full details.)</em></p>
@@ -442,10 +442,10 @@
       <link>https://duanyytop.github.io/agents-radar/#2026-08-03/ai-hn-en</link>
       <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-08-03/ai-hn-en</guid>
       <pubDate>Mon, 03 Aug 2026 00:00:00 +0000</pubDate>
-      <description>Hacker News AI Community Digest 2026-08-03 Source: Hacker News | 30 stories | Generated: 2026-08-03 01:11 UTC (English digest skipped to save LLM tokens — see the Chinese report for full details.) This digest is auto-generated by agents-radar.</description>
+      <description>Hacker News AI Community Digest 2026-08-03 Source: Hacker News | 30 stories | Generated: 2026-08-03 02:56 UTC (English digest skipped to save LLM tokens — see the Chinese report for full details.) This digest is auto-generated by agents-radar.</description>
       <content:encoded><![CDATA[<h1>Hacker News AI Community Digest 2026-08-03</h1>
 <blockquote>
-<p>Source: <a href="https://news.ycombinator.com/">Hacker News</a> | 30 stories | Generated: 2026-08-03 01:11 UTC</p>
+<p>Source: <a href="https://news.ycombinator.com/">Hacker News</a> | 30 stories | Generated: 2026-08-03 02:56 UTC</p>
 </blockquote>
 <hr>
 <p><em>(English digest skipped to save LLM tokens — see the Chinese report for full details.)</em></p>
@@ -458,10 +458,10 @@
       <link>https://duanyytop.github.io/agents-radar/#2026-08-03/ai-hf-en</link>
       <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-08-03/ai-hf-en</guid>
       <pubDate>Mon, 03 Aug 2026 00:00:00 +0000</pubDate>
-      <description>Hugging Face Trending Models Digest 2026-08-03 Source: Hugging Face Hub | 0 models | Generated: 2026-08-03 01:11 UTC (English digest skipped to save LLM tokens — see the Chinese report for full details.) This digest is auto-generated by agents-radar.</description>
+      <description>Hugging Face Trending Models Digest 2026-08-03 Source: Hugging Face Hub | 1 models | Generated: 2026-08-03 02:56 UTC (English digest skipped to save LLM tokens — see the Chinese report for full details.) This digest is auto-generated by agents-radar.</description>
       <content:encoded><![CDATA[<h1>Hugging Face Trending Models Digest 2026-08-03</h1>
 <blockquote>
-<p>Source: <a href="https://huggingface.co/">Hugging Face Hub</a> | 0 models | Generated: 2026-08-03 01:11 UTC</p>
+<p>Source: <a href="https://huggingface.co/">Hugging Face Hub</a> | 1 models | Generated: 2026-08-03 02:56 UTC</p>
 </blockquote>
 <hr>
 <p><em>(English digest skipped to save LLM tokens — see the Chinese report for full details.)</em></p>
@@ -474,10 +474,10 @@
       <link>https://duanyytop.github.io/agents-radar/#2026-08-03/ai-community-en</link>
       <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-08-03/ai-community-en</guid>
       <pubDate>Mon, 03 Aug 2026 00:00:00 +0000</pubDate>
-      <description>Tech Community AI Digest 2026-08-03 Sources: Dev.to (26 articles) + Lobste.rs (0 stories) | Generated: 2026-08-03 01:11 UTC (English digest skipped to save LLM tokens — see the Chinese report for full details.) This digest is auto-generated by agents-radar.</description>
+      <description>Tech Community AI Digest 2026-08-03 Sources: Dev.to (2 articles) + Lobste.rs (0 stories) | Generated: 2026-08-03 02:56 UTC (English digest skipped to save LLM tokens — see the Chinese report for full details.) This digest is auto-generated by agents-radar.</description>
       <content:encoded><![CDATA[<h1>Tech Community AI Digest 2026-08-03</h1>
 <blockquote>
-<p>Sources: <a href="https://dev.to/">Dev.to</a> (26 articles) + <a href="https://lobste.rs/">Lobste.rs</a> (0 stories) | Generated: 2026-08-03 01:11 UTC</p>
+<p>Sources: <a href="https://dev.to/">Dev.to</a> (2 articles) + <a href="https://lobste.rs/">Lobste.rs</a> (0 stories) | Generated: 2026-08-03 02:56 UTC</p>
 </blockquote>
 <hr>
 <p><em>(English digest skipped to save LLM tokens — see the Chinese report for full details.)</em></p>
