@@ -6,7 +6,485 @@
     <description>AI 开源生态每日简报 · Daily AI ecosystem digest</description>
     <language>zh-CN</language>
     <atom:link href="https://duanyytop.github.io/agents-radar/feed.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Sun, 02 Aug 2026 02:56:45 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 03 Aug 2026 01:11:27 +0000</lastBuildDate>
+    <item>
+      <title>AI CLI 工具社区动态日报 2026-08-03</title>
+      <link>https://duanyytop.github.io/agents-radar/#2026-08-03/ai-cli</link>
+      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-08-03/ai-cli</guid>
+      <pubDate>Mon, 03 Aug 2026 00:00:00 +0000</pubDate>
+      <description>AI CLI 工具社区动态日报 2026-08-03 生成时间: 2026-08-03 01:11 UTC | 覆盖工具: 9 个 Claude Code OpenAI Codex Gemini CLI GitHub Copilot CLI Kimi Code CLI OpenCode Pi Qwen Code DeepSeek TUI Claude Code Skills 横向对比 各工具详细报告 Claude Code — anthropics/claude-code Claude Code Skills 社区热点 数据来源: anthropics/skills ⚠️ Skills 摘要生成失败。 ⚠️ 摘要生成失败。 OpenAI Codex — openai/codex ⚠️ 摘要生成失败。 Gemini CLI — google-gemini/gemini-cli ⚠️ 摘要生成失败。 GitHub Copilot CLI — github/copilot-cli ⚠️ 摘要生成失败。 Kimi Code CLI — MoonshotAI/kimi-cli ⚠️ 摘要生成失败...</description>
+      <content:encoded><![CDATA[<h1>AI CLI 工具社区动态日报 2026-08-03</h1>
+<blockquote>
+<p>生成时间: 2026-08-03 01:11 UTC | 覆盖工具: 9 个</p>
+</blockquote>
+<ul>
+<li><a href="https://github.com/anthropics/claude-code">Claude Code</a></li>
+<li><a href="https://github.com/openai/codex">OpenAI Codex</a></li>
+<li><a href="https://github.com/google-gemini/gemini-cli">Gemini CLI</a></li>
+<li><a href="https://github.com/github/copilot-cli">GitHub Copilot CLI</a></li>
+<li><a href="https://github.com/MoonshotAI/kimi-cli">Kimi Code CLI</a></li>
+<li><a href="https://github.com/anomalyco/opencode">OpenCode</a></li>
+<li><a href="https://github.com/badlogic/pi-mono">Pi</a></li>
+<li><a href="https://github.com/QwenLM/qwen-code">Qwen Code</a></li>
+<li><a href="https://github.com/Hmbown/DeepSeek-TUI">DeepSeek TUI</a></li>
+<li><a href="https://github.com/anthropics/skills">Claude Code Skills</a></li>
+</ul>
+<hr>
+<h2>横向对比</h2>
+<hr>
+<h2>各工具详细报告</h2>
+<details>
+<summary><strong>Claude Code</strong> — <a href="https://github.com/anthropics/claude-code">anthropics/claude-code</a></summary>
+
+<h2>Claude Code Skills 社区热点</h2>
+<blockquote>
+<p>数据来源: <a href="https://github.com/anthropics/skills">anthropics/skills</a></p>
+</blockquote>
+<p>⚠️ Skills 摘要生成失败。</p>
+<hr>
+<p>⚠️ 摘要生成失败。</p>
+</details>
+
+<details>
+<summary><strong>OpenAI Codex</strong> — <a href="https://github.com/openai/codex">openai/codex</a></summary>
+
+<p>⚠️ 摘要生成失败。</p>
+</details>
+
+<details>
+<summary><strong>Gemini CLI</strong> — <a href="https://github.com/google-gemini/gemini-cli">google-gemini/gemini-cli</a></summary>
+
+<p>⚠️ 摘要生成失败。</p>
+</details>
+
+<details>
+<summary><strong>GitHub Copilot CLI</strong> — <a href="https://github.com/github/copilot-cli">github/copilot-cli</a></summary>
+
+<p>⚠️ 摘要生成失败。</p>
+</details>
+
+<details>
+<summary><strong>Kimi Code CLI</strong> — <a href="https://github.com/MoonshotAI/kimi-cli">MoonshotAI/kimi-cli</a></summary>
+
+<p>⚠️ 摘要生成失败。</p>
+</details>
+
+<details>
+<summary><strong>OpenCode</strong> — <a href="https://github.com/anomalyco/opencode">anomalyco/opencode</a></summary>
+
+<p>⚠️ 摘要生成失败。</p>
+</details>
+
+<details>
+<summary><strong>Pi</strong> — <a href="https://github.com/badlogic/pi-mono">badlogic/pi-mono</a></summary>
+
+<p>⚠️ 摘要生成失败。</p>
+</details>
+
+<details>
+<summary><strong>Qwen Code</strong> — <a href="https://github.com/QwenLM/qwen-code">QwenLM/qwen-code</a></summary>
+
+<p>⚠️ 摘要生成失败。</p>
+</details>
+
+<details>
+<summary><strong>DeepSeek TUI</strong> — <a href="https://github.com/Hmbown/DeepSeek-TUI">Hmbown/DeepSeek-TUI</a></summary>
+
+<p>⚠️ 摘要生成失败。</p>
+</details>
+
+<hr>
+<p><em>本日报由 <a href="https://github.com/leisure3318/agents-radar">agents-radar</a> 自动生成。</em></p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>AI CLI Tools Digest 2026-08-03</title>
+      <link>https://duanyytop.github.io/agents-radar/#2026-08-03/ai-cli-en</link>
+      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-08-03/ai-cli-en</guid>
+      <pubDate>Mon, 03 Aug 2026 00:00:00 +0000</pubDate>
+      <description>AI CLI Tools Community Digest 2026-08-03 Generated: 2026-08-03 01:11 UTC | Tools covered: 9 Claude Code OpenAI Codex Gemini CLI GitHub Copilot CLI Kimi Code CLI OpenCode Pi Qwen Code DeepSeek TUI Claude Code Skills Cross-Tool Comparison (English digest skipped to save LLM tokens — see the Chinese report for full details.) Per-Tool Reports Claude Code — anthropics/claude-code Claude Code Skills Highlights Source: anthropics/skills (English digest skipped to save LLM tokens — see the Chinese repor...</description>
+      <content:encoded><![CDATA[<h1>AI CLI Tools Community Digest 2026-08-03</h1>
+<blockquote>
+<p>Generated: 2026-08-03 01:11 UTC | Tools covered: 9</p>
+</blockquote>
+<ul>
+<li><a href="https://github.com/anthropics/claude-code">Claude Code</a></li>
+<li><a href="https://github.com/openai/codex">OpenAI Codex</a></li>
+<li><a href="https://github.com/google-gemini/gemini-cli">Gemini CLI</a></li>
+<li><a href="https://github.com/github/copilot-cli">GitHub Copilot CLI</a></li>
+<li><a href="https://github.com/MoonshotAI/kimi-cli">Kimi Code CLI</a></li>
+<li><a href="https://github.com/anomalyco/opencode">OpenCode</a></li>
+<li><a href="https://github.com/badlogic/pi-mono">Pi</a></li>
+<li><a href="https://github.com/QwenLM/qwen-code">Qwen Code</a></li>
+<li><a href="https://github.com/Hmbown/DeepSeek-TUI">DeepSeek TUI</a></li>
+<li><a href="https://github.com/anthropics/skills">Claude Code Skills</a></li>
+</ul>
+<hr>
+<h2>Cross-Tool Comparison</h2>
+<p><em>(English digest skipped to save LLM tokens — see the Chinese report for full details.)</em></p>
+<hr>
+<h2>Per-Tool Reports</h2>
+<details>
+<summary><strong>Claude Code</strong> — <a href="https://github.com/anthropics/claude-code">anthropics/claude-code</a></summary>
+
+<h2>Claude Code Skills Highlights</h2>
+<blockquote>
+<p>Source: <a href="https://github.com/anthropics/skills">anthropics/skills</a></p>
+</blockquote>
+<p><em>(English digest skipped to save LLM tokens — see the Chinese report for full details.)</em></p>
+<hr>
+<p><em>(English digest skipped to save LLM tokens — see the Chinese report for full details.)</em></p>
+</details>
+
+<details>
+<summary><strong>OpenAI Codex</strong> — <a href="https://github.com/openai/codex">openai/codex</a></summary>
+
+<p><em>(English digest skipped to save LLM tokens — see the Chinese report for full details.)</em></p>
+</details>
+
+<details>
+<summary><strong>Gemini CLI</strong> — <a href="https://github.com/google-gemini/gemini-cli">google-gemini/gemini-cli</a></summary>
+
+<p><em>(English digest skipped to save LLM tokens — see the Chinese report for full details.)</em></p>
+</details>
+
+<details>
+<summary><strong>GitHub Copilot CLI</strong> — <a href="https://github.com/github/copilot-cli">github/copilot-cli</a></summary>
+
+<p><em>(English digest skipped to save LLM tokens — see the Chinese report for full details.)</em></p>
+</details>
+
+<details>
+<summary><strong>Kimi Code CLI</strong> — <a href="https://github.com/MoonshotAI/kimi-cli">MoonshotAI/kimi-cli</a></summary>
+
+<p><em>(English digest skipped to save LLM tokens — see the Chinese report for full details.)</em></p>
+</details>
+
+<details>
+<summary><strong>OpenCode</strong> — <a href="https://github.com/anomalyco/opencode">anomalyco/opencode</a></summary>
+
+<p><em>(English digest skipped to save LLM tokens — see the Chinese report for full details.)</em></p>
+</details>
+
+<details>
+<summary><strong>Pi</strong> — <a href="https://github.com/badlogic/pi-mono">badlogic/pi-mono</a></summary>
+
+<p><em>(English digest skipped to save LLM tokens — see the Chinese report for full details.)</em></p>
+</details>
+
+<details>
+<summary><strong>Qwen Code</strong> — <a href="https://github.com/QwenLM/qwen-code">QwenLM/qwen-code</a></summary>
+
+<p><em>(English digest skipped to save LLM tokens — see the Chinese report for full details.)</em></p>
+</details>
+
+<details>
+<summary><strong>DeepSeek TUI</strong> — <a href="https://github.com/Hmbown/DeepSeek-TUI">Hmbown/DeepSeek-TUI</a></summary>
+
+<p><em>(English digest skipped to save LLM tokens — see the Chinese report for full details.)</em></p>
+</details>
+
+<hr>
+<p><em>This digest is auto-generated by <a href="https://github.com/leisure3318/agents-radar">agents-radar</a>.</em></p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>AI Agents 生态日报 2026-08-03</title>
+      <link>https://duanyytop.github.io/agents-radar/#2026-08-03/ai-agents</link>
+      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-08-03/ai-agents</guid>
+      <pubDate>Mon, 03 Aug 2026 00:00:00 +0000</pubDate>
+      <description>OpenClaw 生态日报 2026-08-03 Issues: 15 | PRs: 38 | 覆盖项目: 13 个 | 生成时间: 2026-08-03 01:11 UTC OpenClaw NanoBot Hermes Agent PicoClaw NanoClaw NullClaw IronClaw LobsterAI TinyClaw Moltis CoPaw ZeptoClaw ZeroClaw OpenClaw 项目深度报告 ⚠️ 摘要生成失败。 横向生态对比 同赛道项目详细报告 NanoBot — HKUDS/nanobot ⚠️ 摘要生成失败。 Hermes Agent — nousresearch/hermes-agent ⚠️ 摘要生成失败。 PicoClaw — sipeed/picoclaw ⚠️ 摘要生成失败。 NanoClaw — qwibitai/nanoclaw ⚠️ 摘要生成失败。 NullClaw — nullclaw/nullclaw 过去24小时无活动。 IronClaw — nearai/ironclaw ⚠️ 摘要生成失败。 LobsterA...</description>
+      <content:encoded><![CDATA[<h1>OpenClaw 生态日报 2026-08-03</h1>
+<blockquote>
+<p>Issues: 15 | PRs: 38 | 覆盖项目: 13 个 | 生成时间: 2026-08-03 01:11 UTC</p>
+</blockquote>
+<ul>
+<li><a href="https://github.com/openclaw/openclaw">OpenClaw</a></li>
+<li><a href="https://github.com/HKUDS/nanobot">NanoBot</a></li>
+<li><a href="https://github.com/nousresearch/hermes-agent">Hermes Agent</a></li>
+<li><a href="https://github.com/sipeed/picoclaw">PicoClaw</a></li>
+<li><a href="https://github.com/qwibitai/nanoclaw">NanoClaw</a></li>
+<li><a href="https://github.com/nullclaw/nullclaw">NullClaw</a></li>
+<li><a href="https://github.com/nearai/ironclaw">IronClaw</a></li>
+<li><a href="https://github.com/netease-youdao/LobsterAI">LobsterAI</a></li>
+<li><a href="https://github.com/TinyAGI/tinyagi">TinyClaw</a></li>
+<li><a href="https://github.com/moltis-org/moltis">Moltis</a></li>
+<li><a href="https://github.com/agentscope-ai/CoPaw">CoPaw</a></li>
+<li><a href="https://github.com/qhkm/zeptoclaw">ZeptoClaw</a></li>
+<li><a href="https://github.com/zeroclaw-labs/zeroclaw">ZeroClaw</a></li>
+</ul>
+<hr>
+<h2>OpenClaw 项目深度报告</h2>
+<p>⚠️ 摘要生成失败。</p>
+<hr>
+<h2>横向生态对比</h2>
+<hr>
+<h2>同赛道项目详细报告</h2>
+<details>
+<summary><strong>NanoBot</strong> — <a href="https://github.com/HKUDS/nanobot">HKUDS/nanobot</a></summary>
+
+<p>⚠️ 摘要生成失败。</p>
+</details>
+
+<details>
+<summary><strong>Hermes Agent</strong> — <a href="https://github.com/nousresearch/hermes-agent">nousresearch/hermes-agent</a></summary>
+
+<p>⚠️ 摘要生成失败。</p>
+</details>
+
+<details>
+<summary><strong>PicoClaw</strong> — <a href="https://github.com/sipeed/picoclaw">sipeed/picoclaw</a></summary>
+
+<p>⚠️ 摘要生成失败。</p>
+</details>
+
+<details>
+<summary><strong>NanoClaw</strong> — <a href="https://github.com/qwibitai/nanoclaw">qwibitai/nanoclaw</a></summary>
+
+<p>⚠️ 摘要生成失败。</p>
+</details>
+
+<details>
+<summary><strong>NullClaw</strong> — <a href="https://github.com/nullclaw/nullclaw">nullclaw/nullclaw</a></summary>
+
+<p>过去24小时无活动。</p>
+</details>
+
+<details>
+<summary><strong>IronClaw</strong> — <a href="https://github.com/nearai/ironclaw">nearai/ironclaw</a></summary>
+
+<p>⚠️ 摘要生成失败。</p>
+</details>
+
+<details>
+<summary><strong>LobsterAI</strong> — <a href="https://github.com/netease-youdao/LobsterAI">netease-youdao/LobsterAI</a></summary>
+
+<p>过去24小时无活动。</p>
+</details>
+
+<details>
+<summary><strong>TinyClaw</strong> — <a href="https://github.com/TinyAGI/tinyagi">TinyAGI/tinyagi</a></summary>
+
+<p>过去24小时无活动。</p>
+</details>
+
+<details>
+<summary><strong>Moltis</strong> — <a href="https://github.com/moltis-org/moltis">moltis-org/moltis</a></summary>
+
+<p>⚠️ 摘要生成失败。</p>
+</details>
+
+<details>
+<summary><strong>CoPaw</strong> — <a href="https://github.com/agentscope-ai/CoPaw">agentscope-ai/CoPaw</a></summary>
+
+<p>⚠️ 摘要生成失败。</p>
+</details>
+
+<details>
+<summary><strong>ZeptoClaw</strong> — <a href="https://github.com/qhkm/zeptoclaw">qhkm/zeptoclaw</a></summary>
+
+<p>过去24小时无活动。</p>
+</details>
+
+<details>
+<summary><strong>ZeroClaw</strong> — <a href="https://github.com/zeroclaw-labs/zeroclaw">zeroclaw-labs/zeroclaw</a></summary>
+
+<p>⚠️ 摘要生成失败。</p>
+</details>
+
+<hr>
+<p><em>本日报由 <a href="https://github.com/leisure3318/agents-radar">agents-radar</a> 自动生成。</em></p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>AI Agents Ecosystem Digest 2026-08-03</title>
+      <link>https://duanyytop.github.io/agents-radar/#2026-08-03/ai-agents-en</link>
+      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-08-03/ai-agents-en</guid>
+      <pubDate>Mon, 03 Aug 2026 00:00:00 +0000</pubDate>
+      <description>OpenClaw Ecosystem Digest 2026-08-03 Issues: 15 | PRs: 38 | Projects covered: 13 | Generated: 2026-08-03 01:11 UTC OpenClaw NanoBot Hermes Agent PicoClaw NanoClaw NullClaw IronClaw LobsterAI TinyClaw Moltis CoPaw ZeptoClaw ZeroClaw OpenClaw Deep Dive (English digest skipped to save LLM tokens — see the Chinese report for full details.) Cross-Ecosystem Comparison (English digest skipped to save LLM tokens — see the Chinese report for full details.) Peer Project Reports NanoBot — HKUDS/nanobot (En...</description>
+      <content:encoded><![CDATA[<h1>OpenClaw Ecosystem Digest 2026-08-03</h1>
+<blockquote>
+<p>Issues: 15 | PRs: 38 | Projects covered: 13 | Generated: 2026-08-03 01:11 UTC</p>
+</blockquote>
+<ul>
+<li><a href="https://github.com/openclaw/openclaw">OpenClaw</a></li>
+<li><a href="https://github.com/HKUDS/nanobot">NanoBot</a></li>
+<li><a href="https://github.com/nousresearch/hermes-agent">Hermes Agent</a></li>
+<li><a href="https://github.com/sipeed/picoclaw">PicoClaw</a></li>
+<li><a href="https://github.com/qwibitai/nanoclaw">NanoClaw</a></li>
+<li><a href="https://github.com/nullclaw/nullclaw">NullClaw</a></li>
+<li><a href="https://github.com/nearai/ironclaw">IronClaw</a></li>
+<li><a href="https://github.com/netease-youdao/LobsterAI">LobsterAI</a></li>
+<li><a href="https://github.com/TinyAGI/tinyagi">TinyClaw</a></li>
+<li><a href="https://github.com/moltis-org/moltis">Moltis</a></li>
+<li><a href="https://github.com/agentscope-ai/CoPaw">CoPaw</a></li>
+<li><a href="https://github.com/qhkm/zeptoclaw">ZeptoClaw</a></li>
+<li><a href="https://github.com/zeroclaw-labs/zeroclaw">ZeroClaw</a></li>
+</ul>
+<hr>
+<h2>OpenClaw Deep Dive</h2>
+<p><em>(English digest skipped to save LLM tokens — see the Chinese report for full details.)</em></p>
+<hr>
+<h2>Cross-Ecosystem Comparison</h2>
+<p><em>(English digest skipped to save LLM tokens — see the Chinese report for full details.)</em></p>
+<hr>
+<h2>Peer Project Reports</h2>
+<details>
+<summary><strong>NanoBot</strong> — <a href="https://github.com/HKUDS/nanobot">HKUDS/nanobot</a></summary>
+
+<p><em>(English digest skipped to save LLM tokens — see the Chinese report for full details.)</em></p>
+</details>
+
+<details>
+<summary><strong>Hermes Agent</strong> — <a href="https://github.com/nousresearch/hermes-agent">nousresearch/hermes-agent</a></summary>
+
+<p><em>(English digest skipped to save LLM tokens — see the Chinese report for full details.)</em></p>
+</details>
+
+<details>
+<summary><strong>PicoClaw</strong> — <a href="https://github.com/sipeed/picoclaw">sipeed/picoclaw</a></summary>
+
+<p><em>(English digest skipped to save LLM tokens — see the Chinese report for full details.)</em></p>
+</details>
+
+<details>
+<summary><strong>NanoClaw</strong> — <a href="https://github.com/qwibitai/nanoclaw">qwibitai/nanoclaw</a></summary>
+
+<p><em>(English digest skipped to save LLM tokens — see the Chinese report for full details.)</em></p>
+</details>
+
+<details>
+<summary><strong>NullClaw</strong> — <a href="https://github.com/nullclaw/nullclaw">nullclaw/nullclaw</a></summary>
+
+<p>No activity in the last 24 hours.</p>
+</details>
+
+<details>
+<summary><strong>IronClaw</strong> — <a href="https://github.com/nearai/ironclaw">nearai/ironclaw</a></summary>
+
+<p><em>(English digest skipped to save LLM tokens — see the Chinese report for full details.)</em></p>
+</details>
+
+<details>
+<summary><strong>LobsterAI</strong> — <a href="https://github.com/netease-youdao/LobsterAI">netease-youdao/LobsterAI</a></summary>
+
+<p>No activity in the last 24 hours.</p>
+</details>
+
+<details>
+<summary><strong>TinyClaw</strong> — <a href="https://github.com/TinyAGI/tinyagi">TinyAGI/tinyagi</a></summary>
+
+<p>No activity in the last 24 hours.</p>
+</details>
+
+<details>
+<summary><strong>Moltis</strong> — <a href="https://github.com/moltis-org/moltis">moltis-org/moltis</a></summary>
+
+<p><em>(English digest skipped to save LLM tokens — see the Chinese report for full details.)</em></p>
+</details>
+
+<details>
+<summary><strong>CoPaw</strong> — <a href="https://github.com/agentscope-ai/CoPaw">agentscope-ai/CoPaw</a></summary>
+
+<p><em>(English digest skipped to save LLM tokens — see the Chinese report for full details.)</em></p>
+</details>
+
+<details>
+<summary><strong>ZeptoClaw</strong> — <a href="https://github.com/qhkm/zeptoclaw">qhkm/zeptoclaw</a></summary>
+
+<p>No activity in the last 24 hours.</p>
+</details>
+
+<details>
+<summary><strong>ZeroClaw</strong> — <a href="https://github.com/zeroclaw-labs/zeroclaw">zeroclaw-labs/zeroclaw</a></summary>
+
+<p><em>(English digest skipped to save LLM tokens — see the Chinese report for full details.)</em></p>
+</details>
+
+<hr>
+<p><em>This digest is auto-generated by <a href="https://github.com/leisure3318/agents-radar">agents-radar</a>.</em></p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>AI 开源趋势日报 2026-08-03</title>
+      <link>https://duanyytop.github.io/agents-radar/#2026-08-03/ai-trending</link>
+      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-08-03/ai-trending</guid>
+      <pubDate>Mon, 03 Aug 2026 00:00:00 +0000</pubDate>
+      <description>AI 开源趋势日报 2026-08-03 数据来源: GitHub Trending + GitHub Search API | 生成时间: 2026-08-03 01:11 UTC ⚠️ 趋势报告生成失败。 本日报由 agents-radar 自动生成。</description>
+      <content:encoded><![CDATA[<h1>AI 开源趋势日报 2026-08-03</h1>
+<blockquote>
+<p>数据来源: GitHub Trending + GitHub Search API | 生成时间: 2026-08-03 01:11 UTC</p>
+</blockquote>
+<hr>
+<p>⚠️ 趋势报告生成失败。</p>
+<hr>
+<p><em>本日报由 <a href="https://github.com/leisure3318/agents-radar">agents-radar</a> 自动生成。</em></p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>AI Open Source Trends 2026-08-03</title>
+      <link>https://duanyytop.github.io/agents-radar/#2026-08-03/ai-trending-en</link>
+      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-08-03/ai-trending-en</guid>
+      <pubDate>Mon, 03 Aug 2026 00:00:00 +0000</pubDate>
+      <description>AI Open Source Trends 2026-08-03 Sources: GitHub Trending + GitHub Search API | Generated: 2026-08-03 01:11 UTC (English digest skipped to save LLM tokens — see the Chinese report for full details.) This digest is auto-generated by agents-radar.</description>
+      <content:encoded><![CDATA[<h1>AI Open Source Trends 2026-08-03</h1>
+<blockquote>
+<p>Sources: GitHub Trending + GitHub Search API | Generated: 2026-08-03 01:11 UTC</p>
+</blockquote>
+<hr>
+<p><em>(English digest skipped to save LLM tokens — see the Chinese report for full details.)</em></p>
+<hr>
+<p><em>This digest is auto-generated by <a href="https://github.com/leisure3318/agents-radar">agents-radar</a>.</em></p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Hacker News AI Community Digest 2026-08-03</title>
+      <link>https://duanyytop.github.io/agents-radar/#2026-08-03/ai-hn-en</link>
+      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-08-03/ai-hn-en</guid>
+      <pubDate>Mon, 03 Aug 2026 00:00:00 +0000</pubDate>
+      <description>Hacker News AI Community Digest 2026-08-03 Source: Hacker News | 30 stories | Generated: 2026-08-03 01:11 UTC (English digest skipped to save LLM tokens — see the Chinese report for full details.) This digest is auto-generated by agents-radar.</description>
+      <content:encoded><![CDATA[<h1>Hacker News AI Community Digest 2026-08-03</h1>
+<blockquote>
+<p>Source: <a href="https://news.ycombinator.com/">Hacker News</a> | 30 stories | Generated: 2026-08-03 01:11 UTC</p>
+</blockquote>
+<hr>
+<p><em>(English digest skipped to save LLM tokens — see the Chinese report for full details.)</em></p>
+<hr>
+<p><em>This digest is auto-generated by <a href="https://github.com/leisure3318/agents-radar">agents-radar</a>.</em></p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Hugging Face Trending Models Digest 2026-08-03</title>
+      <link>https://duanyytop.github.io/agents-radar/#2026-08-03/ai-hf-en</link>
+      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-08-03/ai-hf-en</guid>
+      <pubDate>Mon, 03 Aug 2026 00:00:00 +0000</pubDate>
+      <description>Hugging Face Trending Models Digest 2026-08-03 Source: Hugging Face Hub | 0 models | Generated: 2026-08-03 01:11 UTC (English digest skipped to save LLM tokens — see the Chinese report for full details.) This digest is auto-generated by agents-radar.</description>
+      <content:encoded><![CDATA[<h1>Hugging Face Trending Models Digest 2026-08-03</h1>
+<blockquote>
+<p>Source: <a href="https://huggingface.co/">Hugging Face Hub</a> | 0 models | Generated: 2026-08-03 01:11 UTC</p>
+</blockquote>
+<hr>
+<p><em>(English digest skipped to save LLM tokens — see the Chinese report for full details.)</em></p>
+<hr>
+<p><em>This digest is auto-generated by <a href="https://github.com/leisure3318/agents-radar">agents-radar</a>.</em></p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Tech Community AI Digest 2026-08-03</title>
+      <link>https://duanyytop.github.io/agents-radar/#2026-08-03/ai-community-en</link>
+      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-08-03/ai-community-en</guid>
+      <pubDate>Mon, 03 Aug 2026 00:00:00 +0000</pubDate>
+      <description>Tech Community AI Digest 2026-08-03 Sources: Dev.to (26 articles) + Lobste.rs (0 stories) | Generated: 2026-08-03 01:11 UTC (English digest skipped to save LLM tokens — see the Chinese report for full details.) This digest is auto-generated by agents-radar.</description>
+      <content:encoded><![CDATA[<h1>Tech Community AI Digest 2026-08-03</h1>
+<blockquote>
+<p>Sources: <a href="https://dev.to/">Dev.to</a> (26 articles) + <a href="https://lobste.rs/">Lobste.rs</a> (0 stories) | Generated: 2026-08-03 01:11 UTC</p>
+</blockquote>
+<hr>
+<p><em>(English digest skipped to save LLM tokens — see the Chinese report for full details.)</em></p>
+<hr>
+<p><em>This digest is auto-generated by <a href="https://github.com/leisure3318/agents-radar">agents-radar</a>.</em></p>
+]]></content:encoded>
+    </item>
     <item>
       <title>AI CLI 工具社区动态日报 2026-08-02</title>
       <link>https://duanyytop.github.io/agents-radar/#2026-08-02/ai-cli</link>
@@ -3759,2760 +4237,6 @@
 </ul>
 <hr>
 <p><em>本日报由 <a href="https://github.com/leisure3318/agents-radar">agents-radar</a> 自动生成。</em></p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>ArXiv AI Research Digest 2026-08-01</title>
-      <link>https://duanyytop.github.io/agents-radar/#2026-08-01/ai-arxiv-en</link>
-      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-08-01/ai-arxiv-en</guid>
-      <pubDate>Sat, 01 Aug 2026 00:00:00 +0000</pubDate>
-      <description>ArXiv AI Research Digest 2026-08-01 Source: ArXiv (cs.AI, cs.CL, cs.LG) | 11 papers | Generated: 2026-08-01 02:56 UTC (English digest skipped to save LLM tokens — see the Chinese report for full details.) This digest is auto-generated by agents-radar.</description>
-      <content:encoded><![CDATA[<h1>ArXiv AI Research Digest 2026-08-01</h1>
-<blockquote>
-<p>Source: <a href="https://arxiv.org/">ArXiv</a> (cs.AI, cs.CL, cs.LG) | 11 papers | Generated: 2026-08-01 02:56 UTC</p>
-</blockquote>
-<hr>
-<p><em>(English digest skipped to save LLM tokens — see the Chinese report for full details.)</em></p>
-<hr>
-<p><em>This digest is auto-generated by <a href="https://github.com/leisure3318/agents-radar">agents-radar</a>.</em></p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>Hugging Face 热门模型日报 2026-08-01</title>
-      <link>https://duanyytop.github.io/agents-radar/#2026-08-01/ai-hf</link>
-      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-08-01/ai-hf</guid>
-      <pubDate>Sat, 01 Aug 2026 00:00:00 +0000</pubDate>
-      <description>Hugging Face 热门模型日报 2026-08-01 数据来源: Hugging Face Hub | 共 0 个模型 | 生成时间: 2026-08-01 02:56 UTC Hugging Face 热门模型日报（2026-08-01） 1) 今日速览 本次抓取到的 Hugging Face 热门模型榜单为空（0 个模型），因此今天没有可确认的上榜模型可供解读。这通常意味着当前统计窗口内没有模型满足“周点赞数排序”的展示条件，或数据源处于空窗/延迟状态。由于缺少榜单样本，无法从今日数据直接判断具体模型家族的热度变化。建议后续结合前后日期继续观察，重点留意 LLM、社区微调版和量化模型是否重新回到榜单。 2) 热门模型 🧠 语言模型（LLM、对话模型、指令微调） 暂无上榜模型 🎨 多模态与生成（图像、视频、音频、文本到X） 暂无上榜模型 🔧 专用模型（代码、数学、医疗、嵌入） 暂无上榜模型 📦 微调与量化（社区微调、GGUF、AWQ） 暂无上榜模型 3) 生态信号 本日榜单为空，因而无法从热榜直接提取明确的模型家族势头或开源/闭源竞争信号。若将“空榜”视为数据窗口特征...</description>
-      <content:encoded><![CDATA[<h1>Hugging Face 热门模型日报 2026-08-01</h1>
-<blockquote>
-<p>数据来源: <a href="https://huggingface.co/">Hugging Face Hub</a> | 共 0 个模型 | 生成时间: 2026-08-01 02:56 UTC</p>
-</blockquote>
-<hr>
-<h1>Hugging Face 热门模型日报（2026-08-01）</h1>
-<h2>1) 今日速览</h2>
-<p>本次抓取到的 Hugging Face 热门模型榜单为空（0 个模型），因此今天没有可确认的上榜模型可供解读。<br>这通常意味着当前统计窗口内没有模型满足“周点赞数排序”的展示条件，或数据源处于空窗/延迟状态。<br>由于缺少榜单样本，无法从今日数据直接判断具体模型家族的热度变化。<br>建议后续结合前后日期继续观察，重点留意 LLM、社区微调版和量化模型是否重新回到榜单。</p>
-<hr>
-<h2>2) 热门模型</h2>
-<h3>🧠 语言模型（LLM、对话模型、指令微调）</h3>
-<ul>
-<li>暂无上榜模型</li>
-</ul>
-<h3>🎨 多模态与生成（图像、视频、音频、文本到X）</h3>
-<ul>
-<li>暂无上榜模型</li>
-</ul>
-<h3>🔧 专用模型（代码、数学、医疗、嵌入）</h3>
-<ul>
-<li>暂无上榜模型</li>
-</ul>
-<h3>📦 微调与量化（社区微调、GGUF、AWQ）</h3>
-<ul>
-<li>暂无上榜模型</li>
-</ul>
-<hr>
-<h2>3) 生态信号</h2>
-<p>本日榜单为空，因而无法从热榜直接提取明确的模型家族势头或开源/闭源竞争信号。若将“空榜”视为数据窗口特征，则更像是一次采样空窗而非生态降温。后续值得重点观察的是：大模型基座是否继续带动社区微调版增长、GGUF/AWQ 等轻量部署格式是否保持高关注，以及多模态模型是否在新版本发布时快速冲榜。</p>
-<hr>
-<h2>4) 值得探索</h2>
-<p>由于本次没有可用上榜模型，今天不做具体模型推荐。<br>建议优先关注以下三类后续候选：</p>
-<ol>
-<li><strong>新发布的指令微调 LLM</strong>：通常最容易在榜单恢复时快速获得点赞。  </li>
-<li><strong>GGUF / AWQ 量化版</strong>：更适合本地部署，常有较强社区传播性。  </li>
-<li><strong>多模态生成模型</strong>：如果有新版本发布，往往会带来明显关注度跃升。</li>
-</ol>
-<p>如你愿意，我也可以把这份日报改成<strong>可直接用于自动化输出的模板版</strong>，方便你后续每天喂入榜单数据自动生成。</p>
-<hr>
-<p><em>本日报由 <a href="https://github.com/leisure3318/agents-radar">agents-radar</a> 自动生成。</em></p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>Hugging Face Trending Models Digest 2026-08-01</title>
-      <link>https://duanyytop.github.io/agents-radar/#2026-08-01/ai-hf-en</link>
-      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-08-01/ai-hf-en</guid>
-      <pubDate>Sat, 01 Aug 2026 00:00:00 +0000</pubDate>
-      <description>Hugging Face Trending Models Digest 2026-08-01 Source: Hugging Face Hub | 0 models | Generated: 2026-08-01 02:56 UTC (English digest skipped to save LLM tokens — see the Chinese report for full details.) This digest is auto-generated by agents-radar.</description>
-      <content:encoded><![CDATA[<h1>Hugging Face Trending Models Digest 2026-08-01</h1>
-<blockquote>
-<p>Source: <a href="https://huggingface.co/">Hugging Face Hub</a> | 0 models | Generated: 2026-08-01 02:56 UTC</p>
-</blockquote>
-<hr>
-<p><em>(English digest skipped to save LLM tokens — see the Chinese report for full details.)</em></p>
-<hr>
-<p><em>This digest is auto-generated by <a href="https://github.com/leisure3318/agents-radar">agents-radar</a>.</em></p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>技术社区 AI 动态日报 2026-08-01</title>
-      <link>https://duanyytop.github.io/agents-radar/#2026-08-01/ai-community</link>
-      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-08-01/ai-community</guid>
-      <pubDate>Sat, 01 Aug 2026 00:00:00 +0000</pubDate>
-      <description>技术社区 AI 动态日报 2026-08-01 数据来源: Dev.to (7 篇) + Lobste.rs (0 条) | 生成时间: 2026-08-01 02:56 UTC 技术社区 AI 动态日报（2026-08-01） 1) 今日速览 今天技术社区对 AI 的关注点，明显从“模型有多强”转向“怎么把它用对”。Dev.to 上高频讨论集中在：AI 辅助开发带来的判断力退化、Agent 的评估难题、多模型输出不一致，以及基于 MCP 的浏览器/视频/研究类工作流集成。整体来看，开发者更关心的是可靠性、评测、安全边界和生产可用性，而不是单纯的能力演示。另一个明显趋势是，围绕 Agent 的文章开始从概念讨论转向具体实践与工程模式。 2) Dev.to 精选 1. Faster PRs, Weaker Instincts: The Judgment Problem in AI-Assisted Engineering 点赞：5｜评论：0 一句话说明：讨论 AI 提升交付速度后，工程师如何避免“更快合并、却更弱判断”的能力退化问题，适合团队管理者与 Tech Lead 阅读。 2. W...</description>
-      <content:encoded><![CDATA[<h1>技术社区 AI 动态日报 2026-08-01</h1>
-<blockquote>
-<p>数据来源: <a href="https://dev.to/">Dev.to</a> (7 篇) + <a href="https://lobste.rs/">Lobste.rs</a> (0 条) | 生成时间: 2026-08-01 02:56 UTC</p>
-</blockquote>
-<hr>
-<h1>技术社区 AI 动态日报（2026-08-01）</h1>
-<h2>1) 今日速览</h2>
-<p>今天技术社区对 AI 的关注点，明显从“模型有多强”转向“怎么把它用对”。Dev.to 上高频讨论集中在：AI 辅助开发带来的判断力退化、Agent 的评估难题、多模型输出不一致，以及基于 MCP 的浏览器/视频/研究类工作流集成。整体来看，开发者更关心的是<strong>可靠性、评测、安全边界和生产可用性</strong>，而不是单纯的能力演示。另一个明显趋势是，围绕 Agent 的文章开始从概念讨论转向具体实践与工程模式。</p>
-<hr>
-<h2>2) Dev.to 精选</h2>
-<h3>1. <a href="https://dev.to/debashish_ghosal/faster-prs-weaker-instincts-the-judgment-problem-in-ai-assisted-engineering-4fd8">Faster PRs, Weaker Instincts: The Judgment Problem in AI-Assisted Engineering</a></h3>
-<ul>
-<li>点赞：5｜评论：0</li>
-<li>一句话说明：讨论 AI 提升交付速度后，工程师如何避免“更快合并、却更弱判断”的能力退化问题，适合团队管理者与 Tech Lead 阅读。</li>
-</ul>
-<h3>2. <a href="https://dev.to/debashish_ghosal/why-agent-evaluation-is-harder-than-model-evaluation-poe">Why Agent Evaluation Is Harder Than Model Evaluation</a></h3>
-<ul>
-<li>点赞：5｜评论：1</li>
-<li>一句话说明：从真实构建经验出发，解释为什么 Agent 的评测比单模型更复杂，是做 AI 产品和评测体系的人最该看的文章之一。</li>
-</ul>
-<h3>3. <a href="https://dev.to/alexey_sokolov_10deecd763/three-models-one-live-duolingo-lesson-hot-swapping-the-llm-mid-task-in-a-real-browser-session-lk2">Three models, one live Duolingo lesson: hot-swapping the LLM mid-task in a real browser session</a></h3>
-<ul>
-<li>点赞：1｜评论：0</li>
-<li>一句话说明：展示如何在真实浏览器会话中热切换不同 LLM，适合关注 Agent 编排、工具调用与实战演示的开发者。</li>
-</ul>
-<h3>4. <a href="https://dev.to/dan_cristian_c97aa535c495/we-asked-10-llms-to-recommend-brands-they-gave-us-29-different-answers-27ap">We Asked 10 LLMs to Recommend Brands. They Gave Us 29 Different Answers.</a></h3>
-<ul>
-<li>点赞：1｜评论：0</li>
-<li>一句话说明：用实证方式呈现多模型在推荐场景中的输出分歧，帮助开发者理解一致性、熵和 RAG 波动问题。</li>
-</ul>
-<h3>5. <a href="https://dev.to/germey/how-to-generate-short-videos-from-claudeai-with-a-seedance-mcp-connector-4dna">How to Generate Short Videos from Claude.ai with a Seedance MCP Connector</a></h3>
-<ul>
-<li>点赞：1｜评论：0</li>
-<li>一句话说明：把 Claude 与视频生成能力通过 MCP 串起来，展示了“对话式 AI + 内容生成工具链”的快速原型路径。</li>
-</ul>
-<h3>6. <a href="https://dev.to/iamwaqarjaved/your-ai-agent-framework-probably-isnt-your-security-problem-7020-trials-say-so-456f">Your AI agent framework probably isn&#39;t your security problem (7,020 trials say so)</a></h3>
-<ul>
-<li>点赞：1｜评论：0</li>
-<li>一句话说明：纠正“选哪个 Agent 框架更安全”的常见误区，提醒开发者真正的风险点往往在流程、提示和边界控制。</li>
-</ul>
-<h3>7. <a href="https://dev.to/danish08654/ai-multi-agent-research-system-1o7k">AI Multi-Agent Research System</a></h3>
-<ul>
-<li>点赞：1｜评论：1</li>
-<li>一句话说明：介绍多 Agent 协同研究系统的设计思路，适合想把单次 LLM 调用升级为分工式工作流的实践者。</li>
-</ul>
-<hr>
-<h2>3) Lobste.rs 精选</h2>
-<ul>
-<li>今日未检索到 Lobste.rs 的 AI 相关内容，暂无可选条目。</li>
-</ul>
-<hr>
-<h2>4) 社区脉搏</h2>
-<p>今天的讨论焦点非常集中：<strong>Agent 评测、AI 辅助开发的判断力、以及多模型/多 Agent 的实际工程化</strong>。开发者最关心的不是“能不能做”，而是“结果是否稳定、是否可控、是否可解释”。MCP、浏览器会话热切换、视频生成等教程开始增多，说明社区正在把 AI 从 demo 推向可复用工作流；同时，安全与评估也逐渐成为落地前必须补齐的基础能力。</p>
-<hr>
-<h2>5) 值得精读</h2>
-<ol>
-<li><p><a href="https://dev.to/debashish_ghosal/why-agent-evaluation-is-harder-than-model-evaluation-poe">Why Agent Evaluation Is Harder Than Model Evaluation</a>  </p>
-<ul>
-<li>理由：这是今天最贴近“AI 产品落地”的主题，直接关系到如何设计可验证、可回归的 Agent 系统。</li>
-</ul>
-</li>
-<li><p><a href="https://dev.to/debashish_ghosal/faster-prs-weaker-instincts-the-judgment-problem-in-ai-assisted-engineering-4fd8">Faster PRs, Weaker Instincts: The Judgment Problem in AI-Assisted Engineering</a>  </p>
-<ul>
-<li>理由：它讨论的是团队级长期影响，不只是工具效率，而是工程判断和代码文化的变化。</li>
-</ul>
-</li>
-<li><p><a href="https://dev.to/danish08654/ai-multi-agent-research-system-1o7k">AI Multi-Agent Research System</a>  </p>
-<ul>
-<li>理由：适合想学习多 Agent 设计模式的人，能帮助理解“协作式 LLM 系统”如何拆分任务与组织流程。</li>
-</ul>
-</li>
-</ol>
-<p>如果你愿意，我也可以把这份日报进一步整理成：</p>
-<ul>
-<li><strong>适合发公众号/微信群的精简版</strong></li>
-<li><strong>适合内部周报的正式版</strong></li>
-<li><strong>带“趋势标签”和“风险提示”的增强版</strong></li>
-</ul>
-<hr>
-<p><em>本日报由 <a href="https://github.com/leisure3318/agents-radar">agents-radar</a> 自动生成。</em></p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>Tech Community AI Digest 2026-08-01</title>
-      <link>https://duanyytop.github.io/agents-radar/#2026-08-01/ai-community-en</link>
-      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-08-01/ai-community-en</guid>
-      <pubDate>Sat, 01 Aug 2026 00:00:00 +0000</pubDate>
-      <description>Tech Community AI Digest 2026-08-01 Sources: Dev.to (7 articles) + Lobste.rs (0 stories) | Generated: 2026-08-01 02:56 UTC (English digest skipped to save LLM tokens — see the Chinese report for full details.) This digest is auto-generated by agents-radar.</description>
-      <content:encoded><![CDATA[<h1>Tech Community AI Digest 2026-08-01</h1>
-<blockquote>
-<p>Sources: <a href="https://dev.to/">Dev.to</a> (7 articles) + <a href="https://lobste.rs/">Lobste.rs</a> (0 stories) | Generated: 2026-08-01 02:56 UTC</p>
-</blockquote>
-<hr>
-<p><em>(English digest skipped to save LLM tokens — see the Chinese report for full details.)</em></p>
-<hr>
-<p><em>This digest is auto-generated by <a href="https://github.com/leisure3318/agents-radar">agents-radar</a>.</em></p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>AI 工具生态月报 2026-08-01</title>
-      <link>https://duanyytop.github.io/agents-radar/#2026-08-01/ai-monthly</link>
-      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-08-01/ai-monthly</guid>
-      <pubDate>Sat, 01 Aug 2026 00:00:00 +0000</pubDate>
-      <description>AI 工具生态月报 2026-07 数据来源: 4 份周报 | 生成时间: 2026-08-01 05:29 UTC AI 工具生态月报（2026 年 7 月，截至 7/27） 覆盖区间：2026-06-30 ~ 2026-07-27数据来源：7 月 4 份周报综合整理（W28-W31）月度判断口径：以 GitHub 活跃度、HN 讨论热度、官方发布节奏、社区反馈密度为核心信号 一、月度要闻 7 月 AI 开源工具生态的核心结论非常明确：模型能力继续前进，但社区关注点已经稳定转向“生产级可用性”——稳定、可恢复、可控、可审计、可降本。Anthropic 仍然是本月最强势的议程设置者，而 CLI/Agent 工具链则进入了明显的工程整固阶段。 1）7/1-7/3｜Anthropic 连发重磅内容，主导月初议程 Claude Fable 5 / Mythos 5 先因出口管制暂停、后恢复部署。 随后 Claude Sonnet 5 发布，强调更强的 agentic 能力、更低成本、更广泛可用性。 这一阶段的主线不是“更大模型”，而是 “能力升级 + 合规恢复 + 安全治理”三线并行。 意义...</description>
-      <content:encoded><![CDATA[<h1>AI 工具生态月报 2026-07</h1>
-<blockquote>
-<p>数据来源: 4 份周报 | 生成时间: 2026-08-01 05:29 UTC</p>
-</blockquote>
-<hr>
-<h1>AI 工具生态月报（2026 年 7 月，截至 7/27）</h1>
-<blockquote>
-<p>覆盖区间：2026-06-30 ~ 2026-07-27<br>数据来源：7 月 4 份周报综合整理（W28-W31）<br>月度判断口径：以 GitHub 活跃度、HN 讨论热度、官方发布节奏、社区反馈密度为核心信号</p>
-</blockquote>
-<hr>
-<h2>一、月度要闻</h2>
-<p>7 月 AI 开源工具生态的核心结论非常明确：<strong>模型能力继续前进，但社区关注点已经稳定转向“生产级可用性”——稳定、可恢复、可控、可审计、可降本。</strong><br>Anthropic 仍然是本月最强势的议程设置者，而 CLI/Agent 工具链则进入了明显的工程整固阶段。</p>
-<h3>1）7/1-7/3｜Anthropic 连发重磅内容，主导月初议程</h3>
-<ul>
-<li>Claude Fable 5 / Mythos 5 先因出口管制暂停、后恢复部署。</li>
-<li>随后 Claude Sonnet 5 发布，强调更强的 agentic 能力、更低成本、更广泛可用性。</li>
-<li>这一阶段的主线不是“更大模型”，而是 <strong>“能力升级 + 合规恢复 + 安全治理”三线并行</strong>。</li>
-</ul>
-<p><strong>意义：</strong><br>Anthropic 在 7 月初完成了一个很关键的转向：不再只讲模型 benchmark，而是把模型放进真实工作流、真实组织和真实约束里叙述。</p>
-<hr>
-<h3>2）7/8｜Claude Sonnet 5 发布，成为本月最重要的模型节点</h3>
-<ul>
-<li>Sonnet 5 被定位为更 agentic 的主力模型。</li>
-<li>强化了计划、工具调用、浏览器/终端操作、自动化执行等能力。</li>
-<li>同时被设为 Free/Pro 默认模型，意味着 Anthropic 在推动中端模型承担规模化入口角色。</li>
-</ul>
-<p><strong>意义：</strong><br>这不是单纯的“新模型发布”，而是 <strong>把中位模型推向生产级入口</strong>。社区对它的讨论重点也从“参数与能力”转向“能不能真正融入工作流、值不值、贵不贵、稳不稳”。</p>
-<hr>
-<h3>3）7/10｜Anthropic 宣布 UST 将 Claude 引入 physical AI 场景</h3>
-<ul>
-<li>覆盖芯片、汽车、制造、通信、IoT 等工业链路。</li>
-<li>这是本月最强的“AI 进入工程生产系统”信号之一。</li>
-</ul>
-<p><strong>意义：</strong><br>Anthropic 明确在做“从数字工作流走向物理/工业工作流”的外延扩张，这说明它不只想做写代码工具，更想做跨场景代理层。</p>
-<hr>
-<h3>4）7/12｜HN 热帖聚焦 Claude Code token 成本，社区成本敏感度显著上升</h3>
-<ul>
-<li>“Claude Code 读 prompt 前先发 33k tokens，而 OpenCode 只发 7k”成为高热工程讨论。</li>
-<li>社区对 agent 工具的关注点从“能不能做”变成“单位任务成本是否合理”。</li>
-</ul>
-<p><strong>意义：</strong><br>这标志着 AI CLI/Agent 进入了 <strong>成本治理时代</strong>。上下文效率、token 利用率、缓存/压缩策略开始直接影响产品口碑和使用门槛。</p>
-<hr>
-<h3>5）7/13｜OpenClaw 发布 v2026.7.1-beta.6</h3>
-<ul>
-<li>新增多项 Provider/模型支持。</li>
-<li>新安装默认模型策略切到 GPT-5.6。</li>
-<li>引入 <code>/think</code> 策略分层、OAuth 后刷新模型可用性等能力。</li>
-</ul>
-<p><strong>意义：</strong><br>OpenClaw 的信号很清楚：Agent 平台正在从“能跑”进入“模型路由 + 成本控制 + 策略分层”的精细化阶段。</p>
-<hr>
-<h3>6）7/14-7/20｜AI CLI 进入生产级压测期</h3>
-<p>这一周到下一周，Claude Code、OpenAI Codex、OpenCode、Qwen Code、DeepSeek TUI 的反馈高度集中在：</p>
-<ul>
-<li>会话恢复</li>
-<li>权限边界</li>
-<li>Windows / 桌面端兼容</li>
-<li>长任务状态一致性</li>
-<li>成本和 credit 可观测性</li>
-</ul>
-<p><strong>意义：</strong><br>这说明 AI CLI 已经被真实工作流大规模消化，赛道竞争核心从“功能丰富度”切换为 <strong>“生产稳定性”</strong>。</p>
-<hr>
-<h3>7）7/20-7/27｜Claude Code 社区问题集中爆发，稳定性与数据安全成焦点</h3>
-<ul>
-<li>sandbox 删除 Git 目录</li>
-<li>假成功未写盘</li>
-<li>Desktop 草稿丢失</li>
-<li>session 恢复失败</li>
-<li>Windows/Git Bash 性能开销</li>
-<li>权限误判、hooks 行为不一致、transcript 丢失等问题</li>
-</ul>
-<p><strong>意义：</strong><br>Claude Code 已经是事实上的参照系，但也因此暴露出最多生产级问题。社区评价从“强不强”变成“会不会破坏环境、会不会假成功、能不能恢复”。</p>
-<hr>
-<h3>8）7/22-7/27｜OpenCode、Qwen Code、OpenClaw 三个工程化项目同步加速</h3>
-<ul>
-<li>OpenCode：v1.18.6 发布，继续补强桌面端、Web shell、插件链路、会话稳定性。</li>
-<li>Qwen Code：CI、退出状态、终端恢复、SSE 泄漏、工作区隔离等治理密集推进。</li>
-<li>OpenClaw：restart recovery、turn accounting、channel trait、配置写入、session/registry 统一持续重构。</li>
-</ul>
-<p><strong>意义：</strong><br>这三者共同代表了月内最清晰的趋势：<strong>Agent 工具从 demo 期进入平台化收口期</strong>，底层结构稳定性比新功能更重要。</p>
-<hr>
-<h2>二、CLI 工具月度进展</h2>
-<h3>1）Claude Code：月度热度最高，但也是问题暴露最充分的工具</h3>
-<p><strong>整体轨迹：</strong></p>
-<ul>
-<li>本月持续保持极高社区热度。</li>
-<li>7 月初延续 Sonnet 5 的红利，7 月中下旬则被大量稳定性问题和成本讨论包围。</li>
-<li>议题重心逐渐从“功能与能力”转向：<ul>
-<li>长会话恢复</li>
-<li>权限与沙箱边界</li>
-<li>Windows / Desktop / VS Code 一致性</li>
-<li>token 成本与上下文效率</li>
-<li>hooks / plugin / skills 扩展生态</li>
-</ul>
-</li>
-</ul>
-<p><strong>重要信号：</strong></p>
-<ul>
-<li>社区已经把它当作生产工具来评估，而不是实验工具。</li>
-<li>出现明显的“参照系效应”：OpenCode、Qwen Code 等工具常被拿来与其做成本和上下文效率对比。</li>
-</ul>
-<p><strong>月度判断：</strong></p>
-<ul>
-<li>Claude Code 仍是最强势的 AI CLI 心智锚点。</li>
-<li>但它面临的挑战也最集中：<strong>越强大，越暴露工程边界问题。</strong></li>
-</ul>
-<hr>
-<h3>2）OpenAI Codex：产品化推进较快，安全与工程治理压力同步上升</h3>
-<p><strong>整体轨迹：</strong></p>
-<ul>
-<li>本月公开讨论活跃度高，尤其在 HN 和开发者社区。</li>
-<li>主要聚焦：<ul>
-<li>alpha / rust 版迭代</li>
-<li>Windows / desktop / browser 链路</li>
-<li>session / subagent / tool call 一致性</li>
-<li>prompt 加密与安全隔离</li>
-<li>长任务状态维护</li>
-</ul>
-</li>
-<li>“Codex starts encrypting sub-agent prompts” 一度引发安全 vs 可调试性的争议。</li>
-</ul>
-<p><strong>重要版本/变化：</strong></p>
-<ul>
-<li>继续推进 alpha 迭代。</li>
-<li>出现模型上下文压缩、远控链路、提示词加密等工程动作。</li>
-<li>社区还围绕其底层实现栈与性能取舍进行了大量讨论。</li>
-</ul>
-<p><strong>月度判断：</strong></p>
-<ul>
-<li>Codex 的核心特征是 <strong>产品化速度快，但稳定性仍在补课</strong>。</li>
-<li>它正在从“开发者工具”向“可执行工作台”升级，但治理能力仍是关键短板。</li>
-</ul>
-<hr>
-<h3>3）Gemini CLI：安静推进，偏基础能力建设</h3>
-<p><strong>整体轨迹：</strong></p>
-<ul>
-<li>本月外显讨论较少，社区噪音低于 Claude Code、Codex、OpenCode。</li>
-<li>主要是 nightly / 小版本持续推进。</li>
-<li>议题集中在：<ul>
-<li>OAuth / 凭证回退</li>
-<li>沙箱权限收紧</li>
-<li>PowerShell / 跨平台兼容</li>
-<li>路径与仓库约定文件识别</li>
-</ul>
-</li>
-</ul>
-<p><strong>月度判断：</strong></p>
-<ul>
-<li>Gemini CLI 是典型的“<strong>低噪音、稳态维护</strong>”路线。</li>
-<li>虽然热度不高，但工程节奏连续，属于持续补基础设施的类型。</li>
-</ul>
-<hr>
-<h3>4）OpenCode：本月最典型的高强度工程化迭代者</h3>
-<p><strong>整体轨迹：</strong></p>
-<ul>
-<li>月内 PR / Issue 活跃度持续高位。</li>
-<li>7 月底发布 v1.18.6，桌面端、Web shell、插件链路继续增强。</li>
-<li>重点围绕：<ul>
-<li>session 状态恢复</li>
-<li>hook 卡死修复</li>
-<li>prompt 丢失问题</li>
-<li>split-view / sidebar / UI 稳定性</li>
-<li>SSE 重连、SQLite 恢复、跨端一致性</li>
-</ul>
-</li>
-</ul>
-<p><strong>月度判断：</strong></p>
-<ul>
-<li>OpenCode 已明显进入“边扩功能、边补可靠性”的阶段。</li>
-<li>在成本效率和上下文利用率上，社区把它看作 Claude Code 的重要对照对象。</li>
-<li>其竞争力来自：<strong>更轻、更省、更快收敛</strong>。</li>
-</ul>
-<hr>
-<h3>5）Qwen Code：工程治理最明显的上升期之一</h3>
-<p><strong>整体轨迹：</strong></p>
-<ul>
-<li>本月 PR 数量持续偏高。</li>
-<li>重点工作非常集中：<ul>
-<li>CI 与测试治理</li>
-<li>退出状态清理</li>
-<li>终端模式恢复</li>
-<li>daemon resume</li>
-<li>worktree 隔离</li>
-<li>SSE 泄漏修复</li>
-<li>会话导出与审批闭环</li>
-</ul>
-</li>
-</ul>
-<p><strong>月度判断：</strong></p>
-<ul>
-<li>Qwen Code 的特点是“<strong>修得很细，改得很快</strong>”。</li>
-<li>它不像 Claude Code 那样外界争议极强，但工程推进更像一条清晰的质量收敛线。</li>
-<li>如果下个月继续保持这种节奏，它有机会从“可用”进入“可依赖”。</li>
-</ul>
-<hr>
-<h3>6）DeepSeek TUI：低噪声、持续修补</h3>
-<p><strong>整体轨迹：</strong></p>
-<ul>
-<li>体量不大，但一直在修 TUI 交互、通知、MCP、终端状态等细节。</li>
-<li>本月也涉及 router/mode/subagent、Windows 兼容、snapshot/checkpoint、doctor probe 等问题。</li>
-</ul>
-<p><strong>月度判断：</strong></p>
-<ul>
-<li>属于典型的“基础体验增强型项目”。</li>
-<li>热度不如头部 CLI，但路线清晰，适合长期观察。</li>
-</ul>
-<hr>
-<h3>7）Pi、Copilot CLI、Kimi Code CLI：存在感相对较弱</h3>
-<ul>
-<li><strong>Pi</strong>：围绕 provider 语义、重试、配置透传、长会话内存增长做打磨。</li>
-<li><strong>Copilot CLI</strong>：本月公开噪声较低。</li>
-<li><strong>Kimi Code CLI</strong>：主要是 Windows 安装/undo/fork/context 错位等兼容细节。</li>
-</ul>
-<p><strong>月度判断：</strong></p>
-<ul>
-<li>这几条线本月都不是生态主叙事中心。</li>
-<li>它们更多体现为“局部修补”和“维持基础活跃”。</li>
-</ul>
-<hr>
-<h3>CLI 生态总体判断</h3>
-<p>本月 CLI 赛道已经很明确地进入了 <strong>生产级代理系统阶段</strong>。<br>竞争主轴不再是“谁功能更多”，而是：</p>
-<ol>
-<li>会话能不能续  </li>
-<li>权限会不会误伤  </li>
-<li>跨平台会不会崩  </li>
-<li>长任务会不会丢状态  </li>
-<li>token 成本能不能控制</li>
-</ol>
-<p>换句话说，<strong>CLI 正在从“命令行助手”进化为“可嵌入工作流的代理平台”</strong>。</p>
-<hr>
-<h2>三、AI Agent 生态月报</h2>
-<h3>1）OpenClaw：月内最强的 Agent 基础设施项目</h3>
-<p><strong>整体表现：</strong></p>
-<ul>
-<li>7 月全月保持高强度活跃。</li>
-<li>Issues 和 PR 同时高位，且 PR 往往更高，说明开发吞吐强。</li>
-<li>不是简单堆功能，而是在做平台结构收口。</li>
-</ul>
-<p><strong>本月核心修复方向：</strong></p>
-<ul>
-<li>restart recovery</li>
-<li>turn accounting</li>
-<li>channel / trait 抽象统一</li>
-<li>配置写入与导出链路</li>
-<li>会话 / registry 作用域一致性</li>
-<li>性能与资源回收</li>
-<li>认证、回退、重连、消息幂等</li>
-<li>Web / mobile / terminal 体验一致性</li>
-</ul>
-<p><strong>生态意义：</strong></p>
-<ul>
-<li>OpenClaw 体现了 Agent 工具从“能跑 demo”进入“像基础设施一样稳定”的阶段。</li>
-<li>它的关键不是“智能更强”，而是 <strong>状态管理与可恢复执行更可靠</strong>。</li>
-</ul>
-<hr>
-<h3>2）新兴项目：从“Agent 能力”转向“Agent 护栏、记忆和上下文治理”</h3>
-<p>本月 GitHub Trending 和社区热点共同指向几个方向：</p>
-<h4>A. Agent 安全护栏</h4>
-<p>代表项目：</p>
-<ul>
-<li><code>destructive_command_guard</code></li>
-<li><code>policy enforcement for Claude Code, Cursor, and Codex</code></li>
-<li><code>hallmark</code></li>
-</ul>
-<p><strong>信号解读：</strong></p>
-<ul>
-<li>社区已开始把危险命令阻断、权限控制、策略审计视为基础设施，而不是附加功能。</li>
-</ul>
-<hr>
-<h4>B. Agent 长期记忆 / 上下文管理</h4>
-<p>代表项目：</p>
-<ul>
-<li><code>TencentDB-Agent-Memory</code></li>
-<li><code>memvid</code></li>
-<li><code>planning-with-files</code></li>
-<li><code>openwiki</code></li>
-</ul>
-<p><strong>信号解读：</strong></p>
-<ul>
-<li>Agent 不再只追求单轮能力，而是开始处理长期记忆、上下文压缩、知识组织和计划持久化。</li>
-</ul>
-<hr>
-<h4>C. 工具调用与生态编排</h4>
-<p>代表项目：</p>
-<ul>
-<li><code>fastmcp</code></li>
-<li><code>chrome-devtools-mcp</code></li>
-<li><code>agents-cli</code></li>
-<li><code>DesktopCommanderMCP</code></li>
-</ul>
-<p><strong>信号解读：</strong></p>
-<ul>
-<li>MCP / tool server / harness / shell bridge 成为新一轮基础设施热点。</li>
-<li>工具链不再围绕单个模型，而是围绕“模型如何安全地调用外部世界”展开。</li>
-</ul>
-<hr>
-<h4>D. 规格驱动与工作流模板</h4>
-<p>代表项目：</p>
-<ul>
-<li><code>spec-kit</code></li>
-<li><code>taste-skill</code></li>
-<li><code>claude-skills</code></li>
-<li><code>awesome-claude-code</code></li>
-</ul>
-<p><strong>信号解读：</strong></p>
-<ul>
-<li>“技能包 / 模板 / 约定文件 / 工作流规范”正在成为新的分发单位。</li>
-<li>竞争点从模型本体扩展到 <strong>模型外部的能力组织方式</strong>。</li>
-</ul>
-<hr>
-<h3>3）生态格局变化：Agent 从“智能”走向“可靠状态机”</h3>
-<p>本月 Agent 生态最重要的变化是：</p>
-<ul>
-<li>过去强调：能否完成任务  </li>
-<li>现在强调：  <ul>
-<li>能否恢复  </li>
-<li>能否回滚  </li>
-<li>能否审计  </li>
-<li>能否分层授权  </li>
-<li>能否多通道统一  </li>
-<li>能否长期记忆不失真</li>
-</ul>
-</li>
-</ul>
-<p>这意味着 Agent 正在从“实验性智能体”升级为“运行型系统”。</p>
-<hr>
-<h2>四、技术趋势总结</h2>
-<h3>1）从模型中心转向工程中心</h3>
-<p>本月最明显的范式变化是：<br><strong>社区讨论焦点正在从“模型能力”迁移到“模型如何被工程化地使用”。</strong></p>
-<p>表现为：</p>
-<ul>
-<li>长会话恢复</li>
-<li>上下文压缩</li>
-<li>任务状态持久化</li>
-<li>权限边界</li>
-<li>成本观测</li>
-<li>跨端一致性</li>
-<li>工具调用的可审计性</li>
-</ul>
-<hr>
-<h3>2）上下文工程成为核心竞争力</h3>
-<p>Claude Code 的 token 开销争议，实际上是全月最有代表性的工程议题之一。<br>社区开始比较：</p>
-<ul>
-<li>谁在发更多 token</li>
-<li>谁能更好地压缩上下文</li>
-<li>谁更少重复读 prompt</li>
-<li>谁更适合长任务</li>
-</ul>
-<p>这说明 <strong>上下文管理能力已经成为产品体验和成本控制的分水岭</strong>。</p>
-<hr>
-<h3>3）Agent 安全从“补丁”变成“基础设施”</h3>
-<p>月内高频出现的关键词包括：</p>
-<ul>
-<li>permission</li>
-<li>sandbox</li>
-<li>allowlist</li>
-<li>hidden prompts</li>
-<li>destructive command guard</li>
-<li>secret management</li>
-<li>containment</li>
-</ul>
-<p>这意味着安全不再是后期补充，而是 Agent 系统的默认设计前提。</p>
-<hr>
-<h3>4）MCP / tool server / harness 生态继续扩张</h3>
-<p>围绕 Chrome、Desktop、终端、数据库、web shell 的 MCP/工具服务器项目热度明显上升。<br>这说明大家越来越认同：<strong>Agent 的关键不在于“一个聪明模型”，而在于“一个可控的工具执行层”</strong>。</p>
-<hr>
-<h3>5）“技能包/模板化工作流”开始成为新分发单位</h3>
-<p><code>claude-skills</code>、<code>taste-skill</code>、<code>spec-kit</code> 等项目显示：</p>
-<ul>
-<li>生态正在把经验沉淀为可复用技能包</li>
-<li>模型能力通过模板、规范、工作流被产品化</li>
-<li>这会进一步降低使用门槛，也提升生态锁定</li>
-</ul>
-<hr>
-<h3>6）本地化、低成本和跨平台可用性持续升温</h3>
-<p>HN 和 GitHub 热点都显示：</p>
-<ul>
-<li>本地运行 SOTA LLM</li>
-<li>token 成本优化</li>
-<li>Windows / PowerShell / desktop 兼容</li>
-<li>远程会话恢复</li>
-<li>离线/半离线工作流</li>
-</ul>
-<p>这些都说明：<strong>AI 工具的竞争正在从“谁最强”转向“谁最稳、最省、最容易落地”。</strong></p>
-<hr>
-<h2>五、社区生态健康度</h2>
-<h3>1）整体活跃度：头部项目高热，长尾项目分层明显</h3>
-<p>本月社区活跃呈现出明显分层：</p>
-<h4>第一梯队：高热、问题密集、讨论最强</h4>
-<ul>
-<li>Claude Code</li>
-<li>OpenCode</li>
-<li>Qwen Code</li>
-<li>OpenClaw</li>
-</ul>
-<p>这些项目共同特征：</p>
-<ul>
-<li>Issue / PR 高密度</li>
-<li>社区反馈强烈</li>
-<li>高频暴露真实生产问题</li>
-<li>处在“快速迭代 + 高风险并存”阶段</li>
-</ul>
-<h4>第二梯队：稳步推进、活跃但不喧闹</h4>
-<ul>
-<li>OpenAI Codex</li>
-<li>Gemini CLI</li>
-<li>DeepSeek TUI</li>
-<li>Pi</li>
-</ul>
-<p>特点：</p>
-<ul>
-<li>持续更新</li>
-<li>社区噪音较低或中等</li>
-<li>以工程修复和兼容性优化为主</li>
-</ul>
-<h4>第三梯队：低噪声、生态补充</h4>
-<ul>
-<li>Copilot CLI</li>
-<li>Kimi Code CLI</li>
-<li>一些小体量技能/模板仓库</li>
-</ul>
-<p>特点：</p>
-<ul>
-<li>活跃度弱</li>
-<li>但作为生态补位存在</li>
-<li>更像是边缘补充而非主叙事中心</li>
-</ul>
-<hr>
-<h3>2）开发者参与度：从“围观发布”转向“参与修复”</h3>
-<p>本月最值得注意的变化是：</p>
-<ul>
-<li>社区不再只是追发布新闻</li>
-<li>而是大量参与：<ul>
-<li>bug 报告</li>
-<li>修复建议</li>
-<li>性能对比</li>
-<li>安全讨论</li>
-<li>方案争议</li>
-</ul>
-</li>
-</ul>
-<p>这意味着 AI 工具生态已经进入 <strong>高参与度、高反馈密度</strong> 阶段。<br>对项目方来说，这是好事：说明产品进入真实使用期。<br>但对用户来说，这也意味着工具的稳定性短板会被迅速放大。</p>
-<hr>
-<h3>3）健康度评价：生态“热”，但已进入工程收敛期</h3>
-<p>如果用一句话概括本月生态健康度：</p>
-<blockquote>
-<p><strong>社区热度很高，但讨论主题不再偏“新奇”，而是偏“可靠性、治理和成本”，这说明生态正在成熟。</strong></p>
-</blockquote>
-<p>这通常是一个好信号，因为它表明：</p>
-<ul>
-<li>项目已经有真实用户</li>
-<li>已开始承受生产压力</li>
-<li>进入“可用性竞争”而非“概念竞争”</li>
-</ul>
-<hr>
-<h2>六、官方动态回顾：Anthropic 与 OpenAI 的战略意义</h2>
-<h3>1）Anthropic：本月最强的战略推进者</h3>
-<p>Anthropic 在 7 月的动作非常一致，核心是把 Claude 从“模型”升级为“工作流代理层”。</p>
-<h4>主要动作</h4>
-<ul>
-<li>发布 Claude Sonnet 5，强化 agentic 能力</li>
-<li>推 Claude Opus 5，强调日常可用与成本效率</li>
-<li>推进 Claude 在教师、金融、工业、Slack 协作等场景落地</li>
-<li>持续释放模型可解释性与安全治理叙事</li>
-<li>在官方内容中不断强调真实组织中的工作流嵌入</li>
-</ul>
-<h4>战略意义</h4>
-<ol>
-<li><p><strong>从模型竞争转向场景竞争</strong><br>Anthropic 不再只证明“模型很强”，而是证明“模型能嵌入组织流程”。</p>
-</li>
-<li><p><strong>中端模型规模化入口化</strong><br>Sonnet 5 作为默认模型的意义非常大，意味着 Anthropic 把“可大规模部署”放在了比“极限性能”更前的位置。</p>
-</li>
-<li><p><strong>安全与可解释性成为长期护城河</strong><br>无论是 internal workspace、agentic misalignment 还是长期安全治理，都说明 Anthropic 在构建“可信 AI”的品牌定位。</p>
-</li>
-<li><p><strong>从数字工作流走向工业/物理场景</strong><br>这让 Anthropic 的产品边界比纯编码工具更广，也更像未来的企业级代理基础设施。</p>
-</li>
-</ol>
-<hr>
-<h3>2）OpenAI：更偏工程产品化与平台升级</h3>
-<p>OpenAI 本月没有 Anthropic 那样密集的“模型发布式”议程，但 Codex 相关动作很明显。</p>
-<h4>主要信号</h4>
-<ul>
-<li>Codex 持续 alpha 迭代</li>
-<li>出现 Rust / Bun 等底层实现讨论</li>
-<li>强调桌面端、Windows、浏览器自动化、远控链路</li>
-<li>推进子代理、会话恢复、权限和协议一致性</li>
-<li>强化安全隔离，如 sub-agent prompts 加密</li>
-</ul>
-<h4>战略意义</h4>
-<ol>
-<li><p><strong>从研究型产品走向可执行工作台</strong><br>Codex 的路线越来越像一个“可接入真实工作流的执行平台”。</p>
-</li>
-<li><p><strong>工程治理优先于宣传</strong>
-本月 OpenAI 的公开讨论更多集中在可靠性、兼容性、安全边界，而不是单纯模型能力。</p>
-</li>
-<li><p><strong>对企业/高风险场景更敏感</strong>
-子代理提示加密、会话一致性、权限控制等动作表明 OpenAI 正在回应“企业可控性”诉求。</p>
-</li>
-<li><p><strong>产品叙事偏稳健</strong>
-相比 Anthropic 的高密度发布，OpenAI 更像在持续打磨 Codex 的基础设施层，路线更偏稳。</p>
-</li>
-</ol>
-<hr>
-<h2>七、下月展望</h2>
-<p>基于 7 月的趋势，8 月最值得关注的方向大致有六个：</p>
-<h3>1）CLI 工具的“生产级收敛”会继续加速</h3>
-<p>重点观察：</p>
-<ul>
-<li>会话恢复是否进一步稳定</li>
-<li>权限弹窗与安全策略是否更精细</li>
-<li>desktop / Windows / TUI 是否持续补齐</li>
-<li>长任务状态是否更可靠</li>
-</ul>
-<p><strong>判断：</strong><br>下月不会只是“更多功能”，更可能是“更多修复 + 更多治理”。</p>
-<hr>
-<h3>2）上下文效率会成为竞争焦点</h3>
-<p>HN 已经明显把 token 开销当成核心指标。<br>下月很可能继续出现：</p>
-<ul>
-<li>prompt 压缩</li>
-<li>上下文裁剪</li>
-<li>更激进的缓存策略</li>
-<li>model routing 优化</li>
-<li>长任务分段执行</li>
-</ul>
-<p><strong>判断：</strong><br>谁能更好地把 token 变成有效工作，谁就更容易赢得重度用户。</p>
-<hr>
-<h3>3）Agent 安全护栏将继续升温</h3>
-<p>预计会有更多项目围绕：</p>
-<ul>
-<li>危险命令拦截</li>
-<li>secret 管理</li>
-<li>policy enforcement</li>
-<li>沙箱与回放审计</li>
-<li>human-in-the-loop 授权</li>
-</ul>
-<p><strong>判断：</strong><br>安全不再是附加值，而是 Agent 进入企业与高风险环境的前提。</p>
-<hr>
-<h3>4）MCP / 工具服务器生态会进一步扩张</h3>
-<p>重点方向：</p>
-<ul>
-<li>浏览器自动化</li>
-<li>桌面控制</li>
-<li>文件系统与知识库</li>
-<li>数据库与分析工具</li>
-<li>跨平台 shell bridge</li>
-</ul>
-<p><strong>判断：</strong><br>Agent 平台的战场正在从模型层转向工具层，MCP 类项目会持续受关注。</p>
-<hr>
-<h3>5）技能包 / 工作流模板会成为新一轮生态入口</h3>
-<p><code>claude-skills</code>、<code>taste-skill</code>、<code>spec-kit</code> 这类项目提示：</p>
-<ul>
-<li>下一阶段竞争不仅是模型和 CLI</li>
-<li>还包括“能力如何打包、如何分发、如何复用”</li>
-</ul>
-<p><strong>判断：</strong><br>下月可能会看到更多围绕技能模板、工作流规范、任务编排的项目出现。</p>
-<hr>
-<h3>6）Anthropic 仍可能继续主导官方议程</h3>
-<p>结合 7 月节奏，Anthropic 很可能继续推进：</p>
-<ul>
-<li>Claude 系列能力更新</li>
-<li>场景化落地内容</li>
-<li>安全 / 对齐 / 可解释性叙事</li>
-<li>与工作流、企业、工业相关的产品化动作</li>
-</ul>
-<p><strong>判断：</strong><br>如果 8 月继续保持这种节奏，Anthropic 仍会是社区最重要的议程设置者之一。</p>
-<hr>
-<h1>总结：7 月的核心结论</h1>
-<p>7 月 AI 开源工具生态最关键的变化，不是“模型突然变强”，而是：</p>
-<blockquote>
-<p><strong>整个生态已经从“模型驱动的能力展示期”，进入“工程驱动的生产化整固期”。</strong></p>
-</blockquote>
-<p>具体表现为：</p>
-<ul>
-<li>CLI 进入生产级竞争</li>
-<li>Agent 进入状态机与恢复能力竞争</li>
-<li>社区关注 token 成本与上下文效率</li>
-<li>安全、权限、审计成为默认要求</li>
-<li>技能包、MCP、工作流模板成为新的分发单位</li>
-<li>Anthropic 主导官方叙事，OpenAI 更偏产品工程推进</li>
-</ul>
-<p>如果你愿意，我可以进一步把这份月报整理成：</p>
-<ol>
-<li><strong>适合汇报的 PPT 版提纲</strong></li>
-<li><strong>适合公众号发布的精炼版</strong></li>
-<li><strong>带表格的“项目对比矩阵”版本</strong></li>
-</ol>
-<hr>
-<p><em>本日报由 <a href="https://github.com/leisure3318/agents-radar">agents-radar</a> 自动生成。</em></p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>AI Tools Monthly Digest 2026-08-01</title>
-      <link>https://duanyytop.github.io/agents-radar/#2026-08-01/ai-monthly-en</link>
-      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-08-01/ai-monthly-en</guid>
-      <pubDate>Sat, 01 Aug 2026 00:00:00 +0000</pubDate>
-      <description>AI Tools Ecosystem Monthly Report 2026-07 Sources: 4 weekly reports | Generated: 2026-08-01 05:29 UTC AI Tools Ecosystem Monthly Report — July 2026 Coverage window: 2026-07-01 to 2026-07-27, based on the four weekly digests providedExecutive summary:July 2026 marked a clear transition in the AI open-source ecosystem from “what can these tools do?” to “can they run reliably in production?” Across CLI assistants and agent runtimes, the dominant themes were session continuity, permission boundaries...</description>
-      <content:encoded><![CDATA[<h1>AI Tools Ecosystem Monthly Report 2026-07</h1>
-<blockquote>
-<p>Sources: 4 weekly reports | Generated: 2026-08-01 05:29 UTC</p>
-</blockquote>
-<hr>
-<h1>AI Tools Ecosystem Monthly Report — July 2026</h1>
-<p><strong>Coverage window:</strong> 2026-07-01 to 2026-07-27, based on the four weekly digests provided<br><strong>Executive summary:</strong><br>July 2026 marked a clear transition in the AI open-source ecosystem from “what can these tools do?” to “can they run reliably in production?” Across CLI assistants and agent runtimes, the dominant themes were <strong>session continuity, permission boundaries, state recovery, cost efficiency, and cross-platform stability</strong>. Anthropic remained the most active strategic narrator of the month, but the open-source community’s attention shifted decisively toward the engineering substrate: MCP/tooling, skills packs, memory layers, guardrails, and recoverable execution.</p>
-<hr>
-<h2>1) Month’s Top Stories</h2>
-<h3>1. Anthropic kicked off July with a broad model-and-workflow push</h3>
-<p><strong>Early July (7/1–7/3)</strong><br>Anthropic’s month began with a sequence of announcements and product updates that framed Claude less as a raw model and more as a <strong>workflow platform</strong>. The messaging connected model capability, compliance, and practical deployment across organizations.</p>
-<h3>2. Claude Sonnet 5 became the month’s most consequential model launch</h3>
-<p><strong>2026-07-08</strong><br>Claude Sonnet 5 was positioned as a more agentic mainline model, with stronger planning, tool use, browser/terminal operation, and automated execution. The fact that it was set as a default model for Free/Pro users signaled Anthropic’s intent to turn a capable mid-tier model into a <strong>high-volume entry point</strong>.</p>
-<h3>3. Anthropic introduced “global workspace” research, reinforcing interpretability and control</h3>
-<p><strong>2026-07-08</strong><br>The “global workspace in language models” work pushed the narrative toward internal structure and explainability. Strategically, this matters because it links capability gains with a story about <strong>understanding, governance, and safety</strong>.</p>
-<h3>4. Anthropic extended Claude into physical and enterprise workflows</h3>
-<p><strong>2026-07-10 to 2026-07-17</strong><br>Two directions became visible:</p>
-<ul>
-<li><strong>Physical AI / industrial workflows</strong> via the UST announcement</li>
-<li><strong>Team workflow embedding</strong> via Claude Tag and financial agent templates</li>
-</ul>
-<p>This showed a shift from “model demo” toward <strong>organizational integration</strong>.</p>
-<h3>5. Community scrutiny of Claude Code intensified around cost, recovery, and data safety</h3>
-<p><strong>2026-07-12 to 2026-07-27</strong><br>Claude Code remained one of the most discussed tools of the month, but the tone shifted from enthusiasm to operational scrutiny:</p>
-<ul>
-<li>token overhead concerns</li>
-<li>session recovery failures</li>
-<li>sandbox and destructive-action risks</li>
-<li>data loss / fake success reports</li>
-<li>Windows, Git Bash, and desktop-bridge friction</li>
-</ul>
-<p>This is a classic signal of a tool entering <strong>serious production usage</strong>.</p>
-<h3>6. OpenClaw entered a platformization and recovery-hardening phase</h3>
-<p><strong>Mid to late July</strong><br>OpenClaw remained highly active and increasingly looked like a runtime infrastructure project rather than an app demo. The month’s focus was on:</p>
-<ul>
-<li>restart recovery</li>
-<li>turn accounting</li>
-<li>channel abstraction</li>
-<li>config write/export consistency</li>
-<li>session/registry scoping</li>
-<li>message delivery reliability</li>
-</ul>
-<h3>7. OpenCode accelerated release and reliability work</h3>
-<p><strong>2026-07-27</strong><br>OpenCode’s v1.18.6 release capped a month of high-velocity fixes across:</p>
-<ul>
-<li>desktop and web shell consistency</li>
-<li>hook hangs</li>
-<li>prompt loss</li>
-<li>split-view/sidebar UX</li>
-<li>reconnect and session stability</li>
-</ul>
-<p>This is a strong sign of a project moving from “fast iteration” into <strong>operational hardening</strong>.</p>
-<h3>8. Qwen Code entered a serious engineering governance phase</h3>
-<p><strong>Throughout the month, especially 7/20–7/27</strong><br>Qwen Code showed a high PR cadence and strong attention to:</p>
-<ul>
-<li>CI/test discipline</li>
-<li>terminal state restoration</li>
-<li>daemon resume</li>
-<li>worktree isolation</li>
-<li>SSE leak fixes</li>
-<li>approval/security flows</li>
-</ul>
-<p>The project’s signal this month was not flashy growth, but <strong>credible engineering maturation</strong>.</p>
-<h3>9. The community’s AI interest shifted toward agents, skills, and MCP-centric workflow layers</h3>
-<p><strong>Throughout July</strong><br>GitHub trending repeatedly favored projects in:</p>
-<ul>
-<li>agent orchestration</li>
-<li>skills packs</li>
-<li>MCP/tool integration</li>
-<li>context management</li>
-<li>observability</li>
-<li>local inference and optimization</li>
-</ul>
-<p>This suggests the ecosystem’s center of gravity is moving away from model release hype and into the <strong>operating system layer for AI work</strong>.</p>
-<h3>10. HN discussion converged on safety, containment, and cost</h3>
-<p><strong>Throughout July</strong><br>HN attention consistently reflected a cautious posture:</p>
-<ul>
-<li>hidden prompts / encryption tradeoffs</li>
-<li>destructive-command safety</li>
-<li>long-horizon agent risk</li>
-<li>secret management</li>
-<li>token efficiency and inference cost</li>
-</ul>
-<p>The community is no longer just asking “is it smart?” but “is it controllable, inspectable, and affordable?”</p>
-<hr>
-<h2>2) CLI Tools Monthly Progress</h2>
-<h2>Overall trajectory</h2>
-<p>The AI CLI category is now clearly in a <strong>production-readiness race</strong>. July’s competitive edge was not about adding one more feature; it was about proving:</p>
-<ul>
-<li>long-session continuity</li>
-<li>permission correctness</li>
-<li>recovery after crashes/restarts</li>
-<li>cross-platform parity</li>
-<li>cost efficiency</li>
-<li>trustworthy execution</li>
-</ul>
-<p>Below is the month-by-month assessment for the main players.</p>
-<h3>Claude Code</h3>
-<p><strong>Status:</strong> Highest visibility, highest scrutiny, most mature user pressure</p>
-<p><strong>Monthly trajectory</strong></p>
-<ul>
-<li>Continued to dominate community attention.</li>
-<li>Became the main reference point for what a serious AI CLI should do—and what can go wrong when it becomes deeply embedded in real workflows.</li>
-<li>Community issues clustered around:<ul>
-<li>sandbox behavior and accidental environment damage</li>
-<li>session restore failures</li>
-<li>false-positive success states</li>
-<li>data loss in Desktop workflows</li>
-<li>Windows/Git Bash performance and compatibility</li>
-<li>prompt/context overhead</li>
-</ul>
-</li>
-</ul>
-<p><strong>Key signal</strong></p>
-<ul>
-<li>Claude Code is effectively in the “market leader under stress test” phase.</li>
-<li>The tool’s usage has clearly broadened enough that the community now evaluates it on <strong>trustworthiness, not novelty</strong>.</li>
-</ul>
-<p><strong>Community growth</strong></p>
-<ul>
-<li>Very high discussion volume</li>
-<li>Heavy user pain surfaced publicly</li>
-<li>Strong sign of adoption, but also strong evidence of trust friction</li>
-</ul>
-<hr>
-<h3>OpenCode</h3>
-<p><strong>Status:</strong> One of the most active engineering projects this month</p>
-<p><strong>Monthly trajectory</strong></p>
-<ul>
-<li>Maintained high PR and issue velocity.</li>
-<li>Focused on reliability, UX consistency, and state recovery.</li>
-<li>Repeated themes:<ul>
-<li>session persistence</li>
-<li>prompt loss and reconnect bugs</li>
-<li>hook hangs</li>
-<li>SQLite/session recovery</li>
-<li>desktop vs terminal consistency</li>
-<li>UI regressions in split-view/sidebar flows</li>
-</ul>
-</li>
-</ul>
-<p><strong>Key signal</strong></p>
-<ul>
-<li>OpenCode feels like a project in the middle of the classic transition from “fast-moving tool” to “production-grade runtime.”</li>
-<li>The month’s release cadence and fix density show strong internal momentum.</li>
-</ul>
-<p><strong>Community growth</strong></p>
-<ul>
-<li>Rising attention from technically sophisticated users</li>
-<li>Strong traction among people comparing it to Claude Code on efficiency and reliability</li>
-<li>Growing credibility as a serious open-source alternative</li>
-</ul>
-<hr>
-<h3>Qwen Code</h3>
-<p><strong>Status:</strong> Engineering-governance-led growth</p>
-<p><strong>Monthly trajectory</strong></p>
-<ul>
-<li>Qwen Code stood out for disciplined infrastructure work rather than hype.</li>
-<li>The recurring themes were:<ul>
-<li>CI and testing maturity</li>
-<li>terminal state cleanup</li>
-<li>daemon resume flow</li>
-<li>worktree isolation</li>
-<li>SSE leak fixing</li>
-<li>session export and approval closure</li>
-<li>reliability of interactive flows</li>
-</ul>
-</li>
-</ul>
-<p><strong>Key signal</strong></p>
-<ul>
-<li>Qwen Code appears to be building a platformable CLI, with more emphasis on correctness and operational safety than on user-facing flash.</li>
-</ul>
-<p><strong>Community growth</strong></p>
-<ul>
-<li>Lower public noise than Claude Code, but the contribution pattern suggests a healthy development base.</li>
-<li>The project looks increasingly attractive to users who prioritize <strong>control and determinism</strong>.</li>
-</ul>
-<hr>
-<h3>OpenAI Codex</h3>
-<p><strong>Status:</strong> Productization accelerating, stability still being refined</p>
-<p><strong>Monthly trajectory</strong></p>
-<ul>
-<li>Continued alpha-style iteration.</li>
-<li>The month’s visible community concerns centered on:<ul>
-<li>desktop/Windows/browser workflows</li>
-<li>session and subagent consistency</li>
-<li>permissions and consent flows</li>
-<li>context reduction / token management</li>
-<li>long-task reliability</li>
-<li>security-related tradeoffs</li>
-</ul>
-</li>
-</ul>
-<p><strong>Key signal</strong></p>
-<ul>
-<li>Codex is increasingly being framed as a serious execution environment rather than just a code assistant.</li>
-<li>The community’s debate around hidden or encrypted sub-agent prompts underscores the tension between <strong>security</strong> and <strong>debuggability</strong>.</li>
-</ul>
-<p><strong>Community growth</strong></p>
-<ul>
-<li>Strong enterprise and technical interest</li>
-<li>Less broad public chatter than Claude Code, but a clear perception of ongoing platform investment</li>
-</ul>
-<hr>
-<h3>Gemini CLI</h3>
-<p><strong>Status:</strong> Quiet, stable, maintenance-oriented</p>
-<p><strong>Monthly trajectory</strong></p>
-<ul>
-<li>Low-noise month.</li>
-<li>Continued nightly and minor update flow.</li>
-<li>Main concerns were authentication, OAuth fallback, and cross-platform compatibility.</li>
-</ul>
-<p><strong>Key signal</strong></p>
-<ul>
-<li>Gemini CLI appears to be following a “steady infrastructure” path rather than a high-visibility launch path.</li>
-</ul>
-<p><strong>Community growth</strong></p>
-<ul>
-<li>Smaller public footprint than Claude Code/OpenCode/Qwen Code</li>
-<li>Healthy enough to keep moving, but not the center of discussion</li>
-</ul>
-<hr>
-<h3>DeepSeek TUI</h3>
-<p><strong>Status:</strong> Incremental, low-noise improvement cycle</p>
-<p><strong>Monthly trajectory</strong></p>
-<ul>
-<li>Continued small but steady fixes around:<ul>
-<li>TUI interaction</li>
-<li>notification behavior</li>
-<li>MCP integration</li>
-<li>terminal state</li>
-<li>subagent/router handling</li>
-<li>Windows compatibility</li>
-</ul>
-</li>
-</ul>
-<p><strong>Key signal</strong></p>
-<ul>
-<li>The project remains focused and pragmatic, with a strong “make it work better” engineering profile.</li>
-</ul>
-<p><strong>Community growth</strong></p>
-<ul>
-<li>Modest but coherent</li>
-<li>More of a niche tool than a mass discussion driver</li>
-</ul>
-<hr>
-<h3>Pi</h3>
-<p><strong>Status:</strong> Small but persistent</p>
-<p><strong>Monthly trajectory</strong></p>
-<ul>
-<li>Improvements centered on metadata, context visibility, configuration/auth, and long-session behavior.</li>
-<li>Some attention to memory growth and compaction edge cases.</li>
-</ul>
-<p><strong>Key signal</strong></p>
-<ul>
-<li>Pi is in the “compact but serious” category—less visible, but still maintaining relevant technical work.</li>
-</ul>
-<p><strong>Community growth</strong></p>
-<ul>
-<li>Limited public chatter</li>
-<li>Likely a small, technically focused user base</li>
-</ul>
-<hr>
-<h3>GitHub Copilot CLI</h3>
-<p><strong>Status:</strong> Quiet month</p>
-<p><strong>Monthly trajectory</strong></p>
-<ul>
-<li>Limited public signal.</li>
-<li>Activity appears comparatively stable, with no major community flashpoints in the supplied digests.</li>
-</ul>
-<p><strong>Key signal</strong></p>
-<ul>
-<li>Copilot CLI is present, but not driving the month’s narrative.</li>
-</ul>
-<hr>
-<h3>Kimi Code CLI</h3>
-<p><strong>Status:</strong> Low-visibility, issue-focused</p>
-<p><strong>Monthly trajectory</strong></p>
-<ul>
-<li>Main issues involved Windows installation, undo/fork behavior, and context alignment.</li>
-</ul>
-<p><strong>Key signal</strong></p>
-<ul>
-<li>Still in the category of “functional, but not yet a major ecosystem narrative.”</li>
-</ul>
-<hr>
-<h2>CLI category conclusion</h2>
-<p>The month’s main competitive axis is now clear:</p>
-<blockquote>
-<p><strong>The winner is not the CLI with the most features, but the one that can survive long sessions, preserve state, respect permissions, and work reliably across platforms.</strong></p>
-</blockquote>
-<p>That is the new standard for AI developer tooling.</p>
-<hr>
-<h2>3) AI Agent Ecosystem Monthly Review</h2>
-<h2>OpenClaw: the clearest indicator of where agents are heading</h2>
-<p>OpenClaw was the month’s most representative agent-runtimes story. Its development pattern strongly suggests the field is entering a <strong>platform hardening phase</strong>.</p>
-<h3>What changed this month</h3>
-<p>OpenClaw’s core work was not new “agent intelligence,” but <strong>system reliability</strong>:</p>
-<ul>
-<li>restart recovery</li>
-<li>turn accounting</li>
-<li>channel trait unification</li>
-<li>config write/export integrity</li>
-<li>session and registry scope correctness</li>
-<li>lifecycle cleanup and resource management</li>
-<li>webhook persistence and message durability</li>
-<li>UI visibility for state and control</li>
-</ul>
-<h3>Why that matters</h3>
-<p>This indicates the ecosystem is moving away from one-off autonomous demos and toward systems that must behave more like:</p>
-<ul>
-<li>message brokers</li>
-<li>workflow engines</li>
-<li>state machines</li>
-<li>recoverable runtimes</li>
-</ul>
-<h3>Related project signals</h3>
-<p>Several projects and themes rose in parallel:</p>
-<ul>
-<li><strong>destructive_command_guard</strong>: danger blocking as infrastructure</li>
-<li><strong>policy enforcement for Claude Code, Cursor, and Codex</strong>: cross-tool governance</li>
-<li><strong>hallmark</strong>: control and policy concepts</li>
-<li><strong>TencentDB-Agent-Memory / memvid</strong>: long-horizon memory and retrieval</li>
-<li><strong>DesktopCommanderMCP</strong>: desktop control surface integration</li>
-<li><strong>WrenAI / ktransformers / ThinkJEPA</strong>: data, optimization, and reasoning-efficiency adjacent interest</li>
-</ul>
-<h2>Landscape shift</h2>
-<p>The ecosystem is converging on four agent-stack layers:</p>
-<ol>
-<li><p><strong>Execution layer</strong><br>Can the agent do the task?</p>
-</li>
-<li><p><strong>Safety layer</strong><br>Can dangerous actions be blocked or reviewed?</p>
-</li>
-<li><p><strong>Memory/state layer</strong><br>Can the system recover, remember, and resume?</p>
-</li>
-<li><p><strong>Integration layer</strong><br>Can it connect cleanly to terminals, desktops, Slack, web shells, and MCP services?</p>
-</li>
-</ol>
-<p>That is the real shape of the market right now.</p>
-<hr>
-<h2>4) Technical Trend Summary</h2>
-<h2>1. Reliability beats novelty</h2>
-<p>The clearest technical shift this month is that <strong>stability has become a first-class product feature</strong>.
-Common failure modes included:</p>
-<ul>
-<li>fake success</li>
-<li>session loss</li>
-<li>prompt loss</li>
-<li>permission misfires</li>
-<li>restore failures</li>
-<li>channel inconsistency</li>
-<li>terminal state corruption</li>
-</ul>
-<p>This is the sign of a category crossing into real-world workload usage.</p>
-<hr>
-<h2>2. Session continuity and recovery are now core primitives</h2>
-<p>Across CLI tools and agents, the same concern kept appearing:</p>
-<ul>
-<li>resume after restart</li>
-<li>recover from crash</li>
-<li>maintain transcript state</li>
-<li>avoid orphaned tool results</li>
-<li>rehydrate context correctly</li>
-</ul>
-<p>In July, “session” became as important as “model.”</p>
-<hr>
-<h2>3. Permissioning and guardrails are moving into the default stack</h2>
-<p>The community is increasingly treating security as baseline infrastructure, not an optional add-on.
-Important patterns:</p>
-<ul>
-<li>hidden/encrypted sub-agent prompts</li>
-<li>destructive command guards</li>
-<li>tool allowlists</li>
-<li>approval loops</li>
-<li>policy enforcement across tools</li>
-<li>sandbox correctness</li>
-</ul>
-<p>The agent ecosystem is learning that autonomy without governance does not scale.</p>
-<hr>
-<h2>4. Token economics and context efficiency are now strategic concerns</h2>
-<p>There was strong sensitivity to:</p>
-<ul>
-<li>prompt overhead</li>
-<li>context bloat</li>
-<li>compaction quality</li>
-<li>hidden system prompt costs</li>
-<li>model routing choices</li>
-<li>“how many tokens were spent before the task even started”</li>
-</ul>
-<p>This is a major shift: <strong>performance is now measured in capability per token, not just capability per benchmark</strong>.</p>
-<hr>
-<h2>5. Skills, MCP, and workflow templates are becoming distribution units</h2>
-<p>Trending projects increasingly emphasized:</p>
-<ul>
-<li>skills packs</li>
-<li>planning files</li>
-<li>MCP integrations</li>
-<li>observability</li>
-<li>context-aware workflows</li>
-</ul>
-<p>This suggests a modular ecosystem where value is increasingly packaged as <strong>portable work primitives</strong> rather than monolithic applications.</p>
-<hr>
-<h2>6. Multi-surface execution is becoming normal</h2>
-<p>The tools that gained traction were those able to span:</p>
-<ul>
-<li>terminal</li>
-<li>desktop</li>
-<li>web shell</li>
-<li>IDE</li>
-<li>Slack</li>
-<li>browser automation</li>
-<li>mobile/remote control surfaces</li>
-</ul>
-<p>The agent stack is becoming a cross-surface operating layer, not just a CLI.</p>
-<hr>
-<h2>7. Long-horizon memory is no longer an experimental niche</h2>
-<p>The rise of memory-oriented projects shows that the ecosystem is now taking persistence seriously.
-The theme is no longer “can the model remember?” but:</p>
-<ul>
-<li>what should be remembered?</li>
-<li>where is it stored?</li>
-<li>how is it retrieved?</li>
-<li>how does it survive failure?</li>
-<li>how do we prevent leakage?</li>
-</ul>
-<hr>
-<h2>5) Community Health Assessment</h2>
-<h2>Activity comparison by project tier</h2>
-<h3>Tier 1: Highest engagement and scrutiny</h3>
-<p><strong>Claude Code</strong></p>
-<ul>
-<li>Highest public attention</li>
-<li>Most user-reported issues</li>
-<li>Strong indication of real-world adoption</li>
-<li>Also the strongest trust/reliability pressure</li>
-</ul>
-<p><strong>Assessment:</strong><br>Very healthy engagement, but with the highest friction. This is what a category leader looks like under operational load.</p>
-<hr>
-<h3>Tier 2: High engineering throughput and strong momentum</h3>
-<p><strong>OpenClaw, OpenCode, Qwen Code</strong></p>
-<ul>
-<li>High issue/PR velocity</li>
-<li>Frequent reliability and recovery work</li>
-<li>Strong signs of active contributor communities</li>
-<li>Good balance of product ambition and technical cleanup</li>
-</ul>
-<p><strong>Assessment:</strong><br>These projects look healthiest from a development-process standpoint. They are actively converging toward production utility.</p>
-<hr>
-<h3>Tier 3: Stable but less visible</h3>
-<p><strong>Gemini CLI, DeepSeek TUI, Pi</strong></p>
-<ul>
-<li>Lower community noise</li>
-<li>Continued maintenance and incremental improvement</li>
-<li>Likely smaller but committed contributor/user bases</li>
-</ul>
-<p><strong>Assessment:</strong><br>Healthy enough to continue, but not driving ecosystem narrative.</p>
-<hr>
-<h3>Tier 4: Quiet this month</h3>
-<p><strong>GitHub Copilot CLI, Kimi Code CLI</strong></p>
-<ul>
-<li>Limited public signal in the provided reports</li>
-<li>Few ecosystem-driving moments this month</li>
-</ul>
-<p><strong>Assessment:</strong><br>Not unhealthy, but not currently shaping the conversation.</p>
-<hr>
-<h2>Developer engagement evaluation</h2>
-<h3>What looks strong</h3>
-<ul>
-<li><strong>Open-source contribution energy is high</strong></li>
-<li>PR-heavy repos indicate active engineering cycles</li>
-<li>The community is willing to discuss deep technical tradeoffs, not just surface UX</li>
-<li>HN and GitHub Trending both show strong interest in serious infrastructure problems</li>
-</ul>
-<h3>What looks fragile</h3>
-<ul>
-<li>Many top tools are still carrying:<ul>
-<li>state bugs</li>
-<li>permission bugs</li>
-<li>platform bugs</li>
-<li>recovery bugs</li>
-<li>cost concerns</li>
-</ul>
-</li>
-</ul>
-<p>This means engagement is high, but user trust is still being earned.</p>
-<h3>Bottom line</h3>
-<p>The ecosystem’s health is good, but in a <strong>stress-tested</strong> way:</p>
-<ul>
-<li>adoption is real</li>
-<li>expectations are rising</li>
-<li>reliability debt is now visible</li>
-<li>the next winners will be the projects that reduce operational friction fastest</li>
-</ul>
-<hr>
-<h2>6) Official Announcements Review</h2>
-<h2>Anthropic: the month’s strategic leader</h2>
-<p>Anthropic clearly dominated the official narrative this month. Its strategy can be summarized as:</p>
-<h3>1. Turn models into usable defaults</h3>
-<ul>
-<li>Sonnet 5 was positioned as an agentic mainstream model.</li>
-<li>Opus 5 was framed as a daily-usable, cost-conscious flagship.</li>
-</ul>
-<p>This is important: Anthropic is trying to compress the gap between frontier capability and everyday utility.</p>
-<h3>2. Pair capability with interpretability and safety</h3>
-<ul>
-<li>The “global workspace” work reinforced the idea that Anthropic is not just shipping models, but also shaping the theory and governance around them.</li>
-<li>This pairing strengthens credibility with enterprise and high-assurance users.</li>
-</ul>
-<h3>3. Embed Claude into real workflows</h3>
-<ul>
-<li>Claude for Teachers</li>
-<li>Claude Tag in Slack-like collaboration flows</li>
-<li>Financial agent templates</li>
-<li>Physical AI / industrial deployment narratives</li>
-</ul>
-<p>This is a broad push toward <strong>workflow-native AI</strong>, not just chat models.</p>
-<h3>Strategic read</h3>
-<p>Anthropic’s July posture was coherent and aggressive:</p>
-<ul>
-<li><strong>scale the product</strong></li>
-<li><strong>broaden the deployment surface</strong></li>
-<li><strong>keep safety and interpretability in the story</strong></li>
-</ul>
-<p>That combination is likely to continue influencing the market.</p>
-<hr>
-<h2>OpenAI: quieter publicly, but clearly pushing Codex as a secure execution platform</h2>
-<p>OpenAI’s visible July story was narrower than Anthropic’s, but still meaningful.</p>
-<h3>1. Codex remained the core visible surface</h3>
-<p>The public discussion centered on:</p>
-<ul>
-<li>alpha iteration</li>
-<li>desktop and Windows workflows</li>
-<li>session consistency</li>
-<li>permissions and consent</li>
-<li>context reduction</li>
-<li>long-running task reliability</li>
-</ul>
-<p>This suggests a sustained push to make Codex a credible <strong>developer execution environment</strong>.</p>
-<h3>2. Security and transparency tradeoffs became a major theme</h3>
-<p>The community discussion around encrypted sub-agent prompts highlights the central tension in OpenAI’s tool direction:</p>
-<ul>
-<li>stronger isolation and security are good</li>
-<li>but reduced inspectability can hurt debugging and trust</li>
-</ul>
-<p>That is a classic enterprise tradeoff.</p>
-<h3>3. Engineering stack and runtime choices matter more than before</h3>
-<p>The “Bun written in Rust” discussion around Claude Code, while not OpenAI content, illustrates the same ecosystem pressure that OpenAI faces: users now care deeply about runtime architecture, performance, and reliability.</p>
-<h3>Strategic read</h3>
-<p>OpenAI appears to be taking a more incremental, engineering-heavy path this month:</p>
-<ul>
-<li>less loud product marketing than Anthropic</li>
-<li>more focus on execution detail</li>
-<li>strong interest in secure, controlled tool use</li>
-</ul>
-<hr>
-<h2>Comparative conclusion</h2>
-<ul>
-<li><strong>Anthropic</strong>: more visible, more strategic, broader narrative leadership</li>
-<li><strong>OpenAI</strong>: narrower public output, but serious platform hardening around Codex</li>
-</ul>
-<hr>
-<h2>7) Next Month’s Outlook</h2>
-<p>Based on July’s patterns, August 2026 is likely to be shaped by the following directions:</p>
-<h3>1. More reliability and recovery releases</h3>
-<p>Expect continued emphasis on:</p>
-<ul>
-<li>session recovery</li>
-<li>crash resilience</li>
-<li>prompt preservation</li>
-<li>terminal/desktop parity</li>
-<li>state synchronization</li>
-<li>recovery after failed tool calls</li>
-</ul>
-<p>This is especially likely in Claude Code, OpenCode, Qwen Code, and OpenClaw.</p>
-<hr>
-<h3>2. Stronger guardrails and policy enforcement</h3>
-<p>Watch for more work on:</p>
-<ul>
-<li>destructive command prevention</li>
-<li>approval systems</li>
-<li>sandbox enforcement</li>
-<li>secret handling</li>
-<li>cross-tool policy layers</li>
-</ul>
-<p>The market is clearly moving toward <strong>safe autonomy</strong>, not raw autonomy.</p>
-<hr>
-<h3>3. More attention to context compression and token economics</h3>
-<p>As usage scales, the next month will likely feature:</p>
-<ul>
-<li>better prompt compression</li>
-<li>more efficient model routing</li>
-<li>lower pre-task token overhead</li>
-<li>longer context with less waste</li>
-<li>stronger observability around cost</li>
-</ul>
-<p>The token-efficiency conversation is only going to intensify.</p>
-<hr>
-<h3>4. Agent memory and persistence will become a louder topic</h3>
-<p>Projects around:</p>
-<ul>
-<li>long-term memory</li>
-<li>transcript retention</li>
-<li>context stores</li>
-<li>retrieval-backed execution</li>
-</ul>
-<p>should gain more attention, especially as users try to make agents useful across days and weeks rather than single sessions.</p>
-<hr>
-<h3>5. Skills/MCP ecosystems will expand further</h3>
-<p>Expect:</p>
-<ul>
-<li>more skills packs</li>
-<li>more workflow templates</li>
-<li>more reusable agent recipes</li>
-<li>more integration layers around terminals, browsers, Slack, and desktop systems</li>
-</ul>
-<p>The ecosystem is moving toward <strong>modular capability packaging</strong>.</p>
-<hr>
-<h3>6. Anthropic will likely keep driving the market narrative</h3>
-<p>If July is a guide, Anthropic will remain a major agenda setter through:</p>
-<ul>
-<li>additional Claude model or workflow announcements</li>
-<li>more enterprise-friendly integrations</li>
-<li>deeper safety/interpretability messaging</li>
-<li>vertical templates for knowledge work and specialized domains</li>
-</ul>
-<hr>
-<h3>7. OpenAI may continue Codex hardening and enterprise polishing</h3>
-<p>Potential watch items:</p>
-<ul>
-<li>alpha-to-beta progression</li>
-<li>better desktop/remote execution</li>
-<li>clearer session/permission models</li>
-<li>more secure tool-chain behavior</li>
-<li>further reduction of context and runtime overhead</li>
-</ul>
-<hr>
-<h2>Final takeaway</h2>
-<p>July 2026 was the month when AI open-source tooling stopped being judged primarily by “how smart it is” and started being judged by <strong>how safely and reliably it can operate as infrastructure</strong>. The winners in the next phase will be the projects that combine:</p>
-<ul>
-<li>execution reliability</li>
-<li>transparent permissions</li>
-<li>low token waste</li>
-<li>strong recovery semantics</li>
-<li>cross-platform consistency</li>
-<li>practical workflow integration</li>
-</ul>
-<p>In other words: the market is no longer rewarding only intelligence. It is rewarding <strong>operational trust</strong>.</p>
-<hr>
-<p><em>This digest is auto-generated by <a href="https://github.com/leisure3318/agents-radar">agents-radar</a>.</em></p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>AI CLI 工具社区动态日报 2026-07-31</title>
-      <link>https://duanyytop.github.io/agents-radar/#2026-07-31/ai-cli</link>
-      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-07-31/ai-cli</guid>
-      <pubDate>Fri, 31 Jul 2026 00:00:00 +0000</pubDate>
-      <description>AI CLI 工具社区动态日报 2026-07-31 生成时间: 2026-07-31 02:56 UTC | 覆盖工具: 9 个 Claude Code OpenAI Codex Gemini CLI GitHub Copilot CLI Kimi Code CLI OpenCode Pi Qwen Code DeepSeek TUI Claude Code Skills 横向对比 以下是基于 2026-07-31 各 AI CLI 工具社区动态的横向对比分析报告。 1) 生态全景 过去 24 小时内，AI CLI 生态整体呈现出两个明显特征：一是主流工具进入“可用性打磨期”，大量讨论集中在稳定性、状态一致性、安装/运行兼容性等基础问题；二是部分开源项目仍处于快速迭代阶段，以问题修复、能力扩展和平台适配为主，PR 活跃度明显高于头部商业工具。从热度看，Claude Code、OpenAI Codex 依然拥有最高的用户反馈密度；从迭代效率看，OpenCode、Qwen Code 的工程推进更活跃。值得注意的是，今天所有工具都没有新增 Release，说明当前生态更多是在“修复与优化”...</description>
-      <content:encoded><![CDATA[<h1>AI CLI 工具社区动态日报 2026-07-31</h1>
-<blockquote>
-<p>生成时间: 2026-07-31 02:56 UTC | 覆盖工具: 9 个</p>
-</blockquote>
-<ul>
-<li><a href="https://github.com/anthropics/claude-code">Claude Code</a></li>
-<li><a href="https://github.com/openai/codex">OpenAI Codex</a></li>
-<li><a href="https://github.com/google-gemini/gemini-cli">Gemini CLI</a></li>
-<li><a href="https://github.com/github/copilot-cli">GitHub Copilot CLI</a></li>
-<li><a href="https://github.com/MoonshotAI/kimi-cli">Kimi Code CLI</a></li>
-<li><a href="https://github.com/anomalyco/opencode">OpenCode</a></li>
-<li><a href="https://github.com/badlogic/pi-mono">Pi</a></li>
-<li><a href="https://github.com/QwenLM/qwen-code">Qwen Code</a></li>
-<li><a href="https://github.com/Hmbown/DeepSeek-TUI">DeepSeek TUI</a></li>
-<li><a href="https://github.com/anthropics/skills">Claude Code Skills</a></li>
-</ul>
-<hr>
-<h2>横向对比</h2>
-<p>以下是基于 2026-07-31 各 AI CLI 工具社区动态的<strong>横向对比分析报告</strong>。</p>
-<hr>
-<h2>1) 生态全景</h2>
-<p>过去 24 小时内，AI CLI 生态整体呈现出两个明显特征：<strong>一是主流工具进入“可用性打磨期”</strong>，大量讨论集中在稳定性、状态一致性、安装/运行兼容性等基础问题；<strong>二是部分开源项目仍处于快速迭代阶段</strong>，以问题修复、能力扩展和平台适配为主，PR 活跃度明显高于头部商业工具。<br>从热度看，<strong>Claude Code、OpenAI Codex</strong> 依然拥有最高的用户反馈密度；从迭代效率看，<strong>OpenCode、Qwen Code</strong> 的工程推进更活跃。<br>值得注意的是，今天所有工具都<strong>没有新增 Release</strong>，说明当前生态更多是在“修复与优化”而非“发布驱动”的节奏上推进。<br>整体趋势显示，AI CLI 正从“能用”走向“稳定可控、可集成、可治理”的阶段。</p>
-<hr>
-<h2>2) 各工具活跃度对比</h2>
-<table>
-<thead>
-<tr>
-<th>工具</th>
-<th align="right">Issues 数</th>
-<th align="right">PR 数</th>
-<th>Release 情况</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>Claude Code</td>
-<td align="right">10</td>
-<td align="right">0</td>
-<td>无新增 Release</td>
-</tr>
-<tr>
-<td>OpenAI Codex</td>
-<td align="right">8</td>
-<td align="right">0</td>
-<td>无新增 Release</td>
-</tr>
-<tr>
-<td>Gemini CLI</td>
-<td align="right">1</td>
-<td align="right">0</td>
-<td>无新增 Release</td>
-</tr>
-<tr>
-<td>GitHub Copilot CLI</td>
-<td align="right">0</td>
-<td align="right">0</td>
-<td>无活动 / 无新增 Release</td>
-</tr>
-<tr>
-<td>Kimi Code CLI</td>
-<td align="right">0</td>
-<td align="right">0</td>
-<td>无活动 / 无新增 Release</td>
-</tr>
-<tr>
-<td>OpenCode</td>
-<td align="right">4</td>
-<td align="right">10</td>
-<td>无新增 Release</td>
-</tr>
-<tr>
-<td>Pi</td>
-<td align="right">1</td>
-<td align="right">0</td>
-<td>无新增 Release</td>
-</tr>
-<tr>
-<td>Qwen Code</td>
-<td align="right">3</td>
-<td align="right">4</td>
-<td>无新增 Release</td>
-</tr>
-<tr>
-<td>DeepSeek TUI</td>
-<td align="right">0</td>
-<td align="right">0</td>
-<td>无活动 / 无新增 Release</td>
-</tr>
-</tbody></table>
-<p><strong>合计：27 个 Issues，14 个 PR，0 个新增 Release。</strong></p>
-<hr>
-<h2>3) 共同关注的功能方向</h2>
-<h3>A. 稳定性、静默失败与状态机可靠性</h3>
-<p>多个工具都在关注“<strong>系统看起来没报错，但实际已经失败</strong>”的问题。</p>
-<ul>
-<li><strong>Claude Code</strong><ul>
-<li>静默丢消息、会话挂起、配置失效、恢复后 MCP 未注册</li>
-</ul>
-</li>
-<li><strong>OpenAI Codex</strong><ul>
-<li>模型容量不足、付费后额度未刷新、Goal mode 卡死</li>
-</ul>
-</li>
-<li><strong>OpenCode</strong><ul>
-<li>429 固定窗口额度继续重试、网络恢复后接口空响应</li>
-</ul>
-</li>
-<li><strong>Qwen Code</strong><ul>
-<li>需要区分 tool execution outcome 与 terminal status，统一错误分类</li>
-</ul>
-</li>
-</ul>
-<p><strong>共同诉求：</strong></p>
-<ul>
-<li>失败要可感知</li>
-<li>状态要可恢复</li>
-<li>错误要可分类、可追踪</li>
-</ul>
-<hr>
-<h3>B. IDE / TUI / 桌面端交互一致性</h3>
-<p>很多问题不是“功能缺失”，而是<strong>状态展示和真实执行不一致</strong>。</p>
-<ul>
-<li><strong>Claude Code</strong><ul>
-<li>VS Code sidebar 模型 badge 与 <code>/model</code> 输出不一致</li>
-<li>会话恢复后 Chrome MCP 注册异常</li>
-</ul>
-</li>
-<li><strong>OpenAI Codex</strong><ul>
-<li>Desktop 线程创建、上下文绑定、幂等性问题</li>
-</ul>
-</li>
-<li><strong>OpenCode</strong><ul>
-<li>新布局快捷键失效、session picker scope 混乱</li>
-</ul>
-</li>
-<li><strong>Qwen Code</strong><ul>
-<li>macOS + tmux + IME 输入光标错位</li>
-</ul>
-</li>
-<li><strong>Gemini / Pi</strong><ul>
-<li>暂无足够信号，但整体生态的交互稳定性已成为普遍关注点</li>
-</ul>
-</li>
-</ul>
-<p><strong>共同诉求：</strong></p>
-<ul>
-<li>UI 状态必须可信</li>
-<li>快捷键/布局不能破坏既有工作流</li>
-<li>跨终端、跨平台输入体验要稳定</li>
-</ul>
-<hr>
-<h3>C. 企业网络、云端与环境兼容性</h3>
-<p>AI CLI 正在明显进入企业与受控网络场景。</p>
-<ul>
-<li><strong>Claude Code</strong><ul>
-<li>企业网络 / 代理 / 云端 Routine / Chrome MCP 兼容</li>
-</ul>
-</li>
-<li><strong>OpenCode</strong><ul>
-<li>GHES endpoint 变量兼容</li>
-</ul>
-</li>
-<li><strong>OpenAI Codex</strong><ul>
-<li>Windows PowerShell 安装、环境初始化</li>
-</ul>
-</li>
-<li><strong>OpenCode / Claude Code</strong><ul>
-<li>多工作区、后台执行、受限网络下的可用性</li>
-</ul>
-</li>
-</ul>
-<p><strong>共同诉求：</strong></p>
-<ul>
-<li>代理、端点、shell、工作区路径要显式可控</li>
-<li>云端/本地/企业环境行为要一致</li>
-<li>安装与运行不能强依赖“理想环境”</li>
-</ul>
-<hr>
-<h3>D. 更强的可治理自动化</h3>
-<p>用户已经开始要求 AI 工具“自动，但不要乱自动”。</p>
-<ul>
-<li><strong>Claude Code</strong><ul>
-<li>多会话审批统一管理、AGENTS/行为边界</li>
-</ul>
-</li>
-<li><strong>OpenAI Codex</strong><ul>
-<li>skill 自动调用策略本地覆盖</li>
-<li>ChatGPT→Codex handoff 希望携带模型与 reasoning 建议</li>
-</ul>
-</li>
-<li><strong>Pi</strong><ul>
-<li>强调 global AGENTS.md、analyze-only、stop-after-this-run</li>
-</ul>
-</li>
-<li><strong>OpenCode</strong><ul>
-<li>插件自动加载约束、provider 配置治理</li>
-</ul>
-</li>
-<li><strong>Qwen Code</strong><ul>
-<li>telemetry 契约统一，本质上也是治理基础设施</li>
-</ul>
-</li>
-</ul>
-<p><strong>共同诉求：</strong></p>
-<ul>
-<li>默认自动化要可控</li>
-<li>策略要可覆盖</li>
-<li>行为边界要明确</li>
-</ul>
-<hr>
-<h2>4) 差异化定位分析</h2>
-<h3>Claude Code</h3>
-<ul>
-<li><strong>功能侧重</strong>：IDE/VS Code 集成、会话恢复、Chrome/MCP、多会话协同</li>
-<li><strong>目标用户</strong>：重度编码用户、IDE 深度集成用户、企业团队</li>
-<li><strong>技术路线</strong>：强调多终端一致性与生产可用性</li>
-<li><strong>特征</strong>：社区热度最高，但问题集中在“稳定性与一致性”</li>
-</ul>
-<h3>OpenAI Codex</h3>
-<ul>
-<li><strong>功能侧重</strong>：CLI + Desktop 双形态、模型可用性、订阅/额度、智能 handoff</li>
-<li><strong>目标用户</strong>：生产力用户、桌面端用户、偏工作流编排用户</li>
-<li><strong>技术路线</strong>：围绕模型选择、任务状态机、上下文绑定进行产品化</li>
-<li><strong>特征</strong>：典型的“进入规模化使用后”的平台治理问题</li>
-</ul>
-<h3>Gemini CLI</h3>
-<ul>
-<li><strong>功能侧重</strong>：当前以发布链路稳定性为主</li>
-<li><strong>目标用户</strong>：使用 nightly/预览版的早期用户和内部验证人群</li>
-<li><strong>技术路线</strong>：自动化发布与 CI/CD 健康度优先</li>
-<li><strong>特征</strong>：社区反馈少，但 P0 release-failure 说明工程链路很关键</li>
-</ul>
-<h3>OpenCode</h3>
-<ul>
-<li><strong>功能侧重</strong>：多模型/provider 生态、TUI 体验、企业集成、插件体系</li>
-<li><strong>目标用户</strong>：开源重度用户、企业 GitHub 环境用户、跨平台开发者</li>
-<li><strong>技术路线</strong>：高频迭代，修复与新能力并行推进</li>
-<li><strong>特征</strong>：PR 活跃度最高，说明项目处于快速演进期</li>
-</ul>
-<h3>Pi</h3>
-<ul>
-<li><strong>功能侧重</strong>：Agent 行为约束、AGENTS.md、分析模式控制</li>
-<li><strong>目标用户</strong>：希望 Agent “少做事、做对事”的治理型用户</li>
-<li><strong>技术路线</strong>：聚焦规则化与约束优先</li>
-<li><strong>特征</strong>：社区小而聚焦，方向非常明确</li>
-</ul>
-<h3>Qwen Code</h3>
-<ul>
-<li><strong>功能侧重</strong>：Telemetry 标准化、多工作区隔离、TUI/输入体验</li>
-<li><strong>目标用户</strong>：终端重度用户、需要可观测性和可治理性的团队</li>
-<li><strong>技术路线</strong>：工程基础设施优先，强调状态语义统一</li>
-<li><strong>特征</strong>：PR 与 Issues 同步推进，说明在补齐平台底座</li>
-</ul>
-<h3>GitHub Copilot CLI / Kimi Code CLI / DeepSeek TUI</h3>
-<ul>
-<li><strong>状态</strong>：今日无活动</li>
-<li><strong>可判断</strong>：要么社区讨论较少，要么当前不在高频迭代期</li>
-<li><strong>定位信号</strong>：暂时缺乏足够的公开动态支持更细分判断</li>
-</ul>
-<hr>
-<h2>5) 社区热度与成熟度</h2>
-<h3>社区热度高</h3>
-<ol>
-<li><p><strong>Claude Code</strong>  </p>
-<ul>
-<li>10 个 Issues，社区反馈最密集  </li>
-<li>更像是“用户规模大、问题暴露多”的成熟产品阶段</li>
-</ul>
-</li>
-<li><p><strong>OpenAI Codex</strong>  </p>
-<ul>
-<li>8 个 Issues，集中在模型可用性、额度、桌面端可靠性  </li>
-<li>热度高，且问题更偏产品规模化后暴露的系统性问题</li>
-</ul>
-</li>
-</ol>
-<h3>快速迭代阶段</h3>
-<ol>
-<li><p><strong>OpenCode</strong>  </p>
-<ul>
-<li>4 个 Issues + 10 个 PR  </li>
-<li>工程推进速度最快，明显处于高频修复和扩展并行阶段</li>
-</ul>
-</li>
-<li><p><strong>Qwen Code</strong>  </p>
-<ul>
-<li>3 个 Issues + 4 个 PR  </li>
-<li>说明其在快速补齐 telemetry、隔离、输入体验等底层能力</li>
-</ul>
-</li>
-</ol>
-<h3>低热度 / 低可见度</h3>
-<ul>
-<li><strong>Gemini CLI</strong>：1 个 Issue，主要是发布失败告警</li>
-<li><strong>Pi</strong>：1 个 Issue，方向清晰但总体声量较低</li>
-<li><strong>Copilot CLI、Kimi Code CLI、DeepSeek TUI</strong>：今日无活动</li>
-</ul>
-<h3>成熟度判断</h3>
-<ul>
-<li><strong>Claude Code / Codex</strong>：更像“已进入规模化使用、正在做稳定性治理”</li>
-<li><strong>OpenCode / Qwen Code</strong>：更像“快速迭代、基础设施持续打磨”</li>
-<li><strong>Gemini / Pi</strong>：更偏局部信号明确，但整体动态较少</li>
-<li><strong>其余工具</strong>：暂缺足够公开数据判断</li>
-</ul>
-<hr>
-<h2>6) 值得关注的趋势信号</h2>
-<h3>1. AI CLI 的竞争焦点正在从“模型能力”转向“工作流可靠性”</h3>
-<p>今天最密集的问题不是模型本身，而是：</p>
-<ul>
-<li>消息会不会丢</li>
-<li>状态会不会错</li>
-<li>恢复后能不能继续</li>
-<li>终端/IDE 还能不能正常工作</li>
-</ul>
-<p><strong>参考工具：</strong> Claude Code、Codex、OpenCode、Qwen Code</p>
-<p><strong>对开发者的价值：</strong></p>
-<ul>
-<li>未来评估 AI CLI，不能只看“回答质量”，更要看“任务完成率”和“异常恢复能力”。</li>
-</ul>
-<hr>
-<h3>2. “可观测性标准化”正在成为底层竞争力</h3>
-<p>Qwen Code 对 telemetry 的拆分与统一、OpenCode 对空响应/网络恢复的处理，都说明：</p>
-<ul>
-<li>工具链正在从“黑盒调用”走向“可解释、可统计、可审计”</li>
-</ul>
-<p><strong>参考工具：</strong> Qwen Code、OpenCode</p>
-<p><strong>对开发者的价值：</strong></p>
-<ul>
-<li>后续做产品、做平台、做企业部署时，日志语义和错误分类会直接影响可运维性。</li>
-</ul>
-<hr>
-<h3>3. 企业场景是 AI CLI 下一阶段的重要增量</h3>
-<p>Claude Code 的企业网络、OpenCode 的 GHES 兼容、Codex 的 Windows 安装体验，都说明：</p>
-<ul>
-<li>生态已不再只面向个人开发者</li>
-<li>端点、代理、权限、shell、工作区边界正在成为“标配要求”</li>
-</ul>
-<p><strong>参考工具：</strong> Claude Code、OpenCode、OpenAI Codex</p>
-<p><strong>对开发者的价值：</strong></p>
-<ul>
-<li>如果要进入企业落地，必须把环境假设降到最低。</li>
-</ul>
-<hr>
-<h3>4. “默认自动化”正在让位于“可治理自动化”</h3>
-<p>Pi、Codex、Claude Code 的讨论都表明：</p>
-<ul>
-<li>用户要的是自动化，但前提是可控、可覆盖、可停止</li>
-</ul>
-<p><strong>参考工具：</strong> Pi、OpenAI Codex、Claude Code、OpenCode</p>
-<p><strong>对开发者的价值：</strong></p>
-<ul>
-<li>未来工具设计需要更强的策略层，而不是单纯增加自动执行能力。</li>
-</ul>
-<hr>
-<h3>5. 交互细节正在决定产品口碑</h3>
-<p>从 VS Code badge、快捷键、IME 光标、TUI scope 到安装脚本，越来越多反馈落在“细节稳定性”上。</p>
-<p><strong>参考工具：</strong> Claude Code、OpenAI Codex、OpenCode、Qwen Code</p>
-<p><strong>对开发者的价值：</strong></p>
-<ul>
-<li>CLI 产品进入成熟期后，体验差异往往不在大功能，而在“细节是否可预测”。</li>
-</ul>
-<hr>
-<p>如果你愿意，我可以继续把这份分析整理成以下任一版本：</p>
-<ol>
-<li><strong>管理层一页纸摘要版</strong></li>
-<li><strong>面向研发团队的风险优先级版</strong></li>
-<li><strong>按“市场热度 / 工程活跃度 / 成熟度”三维评分版</strong></li>
-</ol>
-<hr>
-<h2>各工具详细报告</h2>
-<details>
-<summary><strong>Claude Code</strong> — <a href="https://github.com/anthropics/claude-code">anthropics/claude-code</a></summary>
-
-<h2>Claude Code Skills 社区热点</h2>
-<blockquote>
-<p>数据来源: <a href="https://github.com/anthropics/skills">anthropics/skills</a></p>
-</blockquote>
-<p>以下为基于你提供的数据整理的 <strong>Claude Code Skills 社区热点报告</strong>（截至 2026-07-31）。<br>注：你给出的 PR 列表里“评论数”字段大多未显式展示，因此我按<strong>热门排序 + 议题热度</strong>综合挑选。</p>
-<hr>
-<h2>1) 热门 Skills 排行（PR）</h2>
-<table>
-<thead>
-<tr>
-<th>排名</th>
-<th>PR</th>
-<th>功能 / 讨论热点</th>
-<th>当前状态</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>1</td>
-<td><a href="https://github.com/anthropics/skills/pull/1298">#1298</a></td>
-<td><strong>skill-creator 评估链路修复</strong>：修复 <code>run_eval.py</code> 一直报 <code>recall=0%</code>、Windows 流读取、触发检测、并行 worker 等问题。社区关注点集中在“技能优化系统是否可信”。</td>
-<td>open</td>
-</tr>
-<tr>
-<td>2</td>
-<td><a href="https://github.com/anthropics/skills/pull/514">#514</a></td>
-<td><strong>document-typography</strong>：面向生成文档的排版质量控制，解决孤行/寡行、标题悬挂、编号对齐等问题。热点是“AI 文档输出是否足够专业”。</td>
-<td>open</td>
-</tr>
-<tr>
-<td>3</td>
-<td><a href="https://github.com/anthropics/skills/pull/486">#486</a></td>
-<td><strong>ODT skill</strong>：支持 OpenDocument 文档创建、模板填充与解析。讨论重点是开放格式办公自动化与 LibreOffice 兼容。</td>
-<td>open</td>
-</tr>
-<tr>
-<td>4</td>
-<td><a href="https://github.com/anthropics/skills/pull/1367">#1367</a></td>
-<td><strong>self-audit</strong>：在交付前做机械校验 + 四维推理审计，强调输出前验证与质量门禁。社区关注“减少幻觉/漏交付”。</td>
-<td>open</td>
-</tr>
-<tr>
-<td>5</td>
-<td><a href="https://github.com/anthropics/skills/pull/723">#723</a></td>
-<td><strong>testing-patterns</strong>：覆盖单测、组件测试、测试金字塔、React Testing Library 等。热点是“如何把测试最佳实践做成可执行技能”。</td>
-<td>open</td>
-</tr>
-<tr>
-<td>6</td>
-<td><a href="https://github.com/anthropics/skills/pull/525">#525</a></td>
-<td><strong>pyxel 复古游戏开发</strong>：围绕 Pyxel MCP 的写-跑-看-迭代工作流。关注点是“AI 辅助小型可视化应用/游戏开发”。</td>
-<td>open</td>
-</tr>
-<tr>
-<td>7</td>
-<td><a href="https://github.com/anthropics/skills/pull/1302">#1302</a></td>
-<td><strong>color-expert</strong>：颜色命名体系、色彩空间与调色建议。社区热度来自设计/视觉任务的实际需求。</td>
-<td>open</td>
-</tr>
-<tr>
-<td>8</td>
-<td><a href="https://github.com/anthropics/skills/pull/83">#83</a></td>
-<td><strong>skill-quality-analyzer / skill-security-analyzer</strong>：技能质量与安全分析元技能。热点是“如何自动评审 Skills 本身”。</td>
-<td>open</td>
-</tr>
-</tbody></table>
-<hr>
-<h2>2) 社区需求趋势</h2>
-<h3>A. 安全与信任边界</h3>
-<ul>
-<li><a href="https://github.com/anthropics/skills/issues/492">Issue #492</a><br>社区最强烈的担忧之一是：<strong>community skills 使用 <code>anthropic/</code> 命名空间可能造成“官方伪装”与权限误判</strong>。<br>说明 Skills 生态已经从“能不能用”进入“是否可信”的阶段。</li>
-</ul>
-<h3>B. 技能分发与组织协作</h3>
-<ul>
-<li><a href="https://github.com/anthropics/skills/issues/228">Issue #228</a><br>很多用户希望 <strong>组织内共享 Skills</strong>，而不是依赖下载、转发、手动安装。<br>这类诉求意味着社区在追求“Skills 平台化”。</li>
-</ul>
-<h3>C. 评估、触发与可靠性修复</h3>
-<ul>
-<li><a href="https://github.com/anthropics/skills/issues/556">Issue #556</a>  </li>
-<li><a href="https://github.com/anthropics/skills/issues/1169">Issue #1169</a>  </li>
-<li><a href="https://github.com/anthropics/skills/issues/1061">Issue #1061</a><br>社区高度关注 <code>skill-creator</code> 的 <strong>触发检测、评估准确性、Windows 兼容性</strong>。<br>本质上是希望官方把“技能生成/优化”这条链路做得<strong>可验证、可复现、跨平台</strong>。</li>
-</ul>
-<h3>D. 文档自动化与办公格式支持</h3>
-<ul>
-<li><a href="https://github.com/anthropics/skills/issues/1175">Issue #1175</a>  </li>
-<li><a href="https://github.com/anthropics/skills/issues/62">Issue #62</a><br>文档类能力仍是高频诉求：<strong>DOCX/PDF/ODT/SharePoint/模板填充/排版质量</strong>。<br>说明 Claude Code Skills 在企业办公场景的需求非常明确。</li>
-</ul>
-<h3>E. 上下文效率与技能冗余治理</h3>
-<ul>
-<li><a href="https://github.com/anthropics/skills/issues/189">Issue #189</a>  </li>
-<li><a href="https://github.com/anthropics/skills/issues/1487">Issue #1487</a><br>社区开始明显关注 <strong>重复技能、过大上下文注入、token 浪费</strong>。<br>这意味着“技能数量”不再是重点，<strong>技能的轻量化与可组合性</strong>更重要。</li>
-</ul>
-<h3>F. 新一代“元能力”技能</h3>
-<ul>
-<li><a href="https://github.com/anthropics/skills/issues/1329">Issue #1329</a>  </li>
-<li><a href="https://github.com/anthropics/skills/issues/412">Issue #412</a>  </li>
-<li><a href="https://github.com/anthropics/skills/issues/1385">Issue #1385</a><br>社区在提需求时，越来越偏向：<strong>记忆压缩、治理、安全审计、推理质量门禁</strong>。<br>这说明大家希望 Skills 不只是“做事”，还要“控质量”。</li>
-</ul>
-<hr>
-<h2>3) 高潜力待合并 Skills</h2>
-<p>以下 PR 具备较强的“近期落地”信号，主要因为它们都在修复<strong>核心链路问题</strong>或<strong>明确的兼容性缺陷</strong>：</p>
-<ul>
-<li><a href="https://github.com/anthropics/skills/pull/1298">#1298</a><br><code>skill-creator</code> 评估链路修复，属于基础设施级修复，优先级很高。  </li>
-<li><a href="https://github.com/anthropics/skills/pull/1323">#1323</a><br>修复 <code>run_eval</code> 的触发检测错误，直接影响优化循环结果，落地概率高。  </li>
-<li><a href="https://github.com/anthropics/skills/pull/1261">#1261</a><br>隔离 trigger-eval 生成的命令文件，避免污染真实项目注册表，属于关键安全/隔离修复。  </li>
-<li><a href="https://github.com/anthropics/skills/pull/1099">#1099</a><br>Windows 下 subprocess pipe 崩溃修复，典型的跨平台阻断问题。  </li>
-<li><a href="https://github.com/anthropics/skills/pull/1050">#1050</a><br>Windows subprocess + encoding 修复，和上面一起构成 Windows 兼容性主线。  </li>
-<li><a href="https://github.com/anthropics/skills/pull/538">#538</a><br>PDF skill 文档中的大小写路径修复，属于低风险高必要性修复。  </li>
-<li><a href="https://github.com/anthropics/skills/pull/541">#541</a><br>DOCX tracked change ID 冲突修复，面向文档破坏问题，实用性强。  </li>
-<li><a href="https://github.com/anthropics/skills/pull/539">#539</a><br>YAML frontmatter 的 description 解析防错，属于会显著提升稳定性的基础修复。</li>
-</ul>
-<hr>
-<h2>4) Skills 生态洞察</h2>
-<p><strong>一句话总结：</strong><br>当前社区最集中的诉求，不是“再多几个新 Skill”，而是把 Skills 做成 <strong>可信、跨平台、低上下文成本、可验证、可共享</strong> 的生产级能力。</p>
-<p>如果你愿意，我可以进一步把这份报告整理成：</p>
-<ol>
-<li><strong>表格版 CSV/Excel 结构</strong>，或  </li>
-<li><strong>适合发博客/周报的简报版</strong>。</li>
-</ol>
-<hr>
-<h1>Claude Code 社区动态日报（2026-07-31）</h1>
-<h2>1) 今日速览</h2>
-<p>今天没有新增 Release，PR 也暂无更新；社区讨论几乎全部集中在 <strong>稳定性回归、IDE/扩展集成异常、以及企业网络/云端场景兼容</strong> 上。<br>其中最值得警惕的是几类“<strong>静默失败</strong>”问题：消息被悄然丢弃、会话恢复后 MCP 未注册、CLI 挂起无报错，这些都会直接影响生产可用性。  </p>
-<hr>
-<h2>2) 版本发布</h2>
-<ul>
-<li><strong>今日无新增 Release</strong>，本日报略去版本发布细节。</li>
-</ul>
-<hr>
-<h2>3) 社区热点 Issues（挑选 10 个）</h2>
-<ol>
-<li><p><strong><a href="https://github.com/anthropics/claude-code/issues/82772">#82772</a> User turn silently dropped in VS Code extension</strong>  </p>
-<ul>
-<li>重要性：用户消息入队后被“出队但未分发”，会话卡在 running 状态，属于高危静默故障。  </li>
-<li>社区反应：<strong>0 评论 / 0 👍</strong>，但复现链路描述很完整，影响面很广。</li>
-</ul>
-</li>
-<li><p><strong><a href="https://github.com/anthropics/claude-code/issues/82769">#82769</a> <code>claude --continue --chrome</code> resuming sessions does not register the Claude-in-Chrome MCP server</strong>  </p>
-<ul>
-<li>重要性：恢复会话后 MCP 服务缺失，直接影响 Chrome 扩展联动能力。  </li>
-<li>社区反应：<strong>1 评论 / 0 👍</strong>，是今天少数已有跟进讨论的热点问题。</li>
-</ul>
-</li>
-<li><p><strong><a href="https://github.com/anthropics/claude-code/issues/82765">#82765</a> CLI appears to hang or freeze during execution</strong>  </p>
-<ul>
-<li>重要性：CLI 卡死是最影响日常使用的基础稳定性问题之一。  </li>
-<li>社区反应：<strong>0 评论 / 0 👍</strong>，但属于典型“无错误、只是假死”的高风险体验。</li>
-</ul>
-</li>
-<li><p><strong><a href="https://github.com/anthropics/claude-code/issues/82761">#82761</a> <code>CLAUDE_AUTOCOMPACT_PCT_OVERRIDE</code> silently stopped taking effect</strong>  </p>
-<ul>
-<li>重要性：自动压缩阈值配置失效，属于明显回归，且“静默失效”会让用户误判系统行为。  </li>
-<li>社区反应：<strong>0 评论 / 0 👍</strong>，但提供了环境与二进制排查信息，定位价值高。</li>
-</ul>
-</li>
-<li><p><strong><a href="https://github.com/anthropics/claude-code/issues/82766">#82766</a> VS Code sidebar model badge shows Haiku while <code>/model</code> reports Sonnet 5, blocking Auto mode</strong>  </p>
-<ul>
-<li>重要性：模型状态展示与真实状态不一致，会直接阻断 Auto mode，属于 IDE 集成一致性问题。  </li>
-<li>社区反应：<strong>0 评论 / 0 👍</strong>，但涉及侧边栏状态和命令输出的不一致，影响面大。</li>
-</ul>
-</li>
-<li><p><strong><a href="https://github.com/anthropics/claude-code/issues/82760">#82760</a> Scheduled Routine trigger fails at network layer with CONNECT tunnel 403</strong>  </p>
-<ul>
-<li>重要性：云端 Routine 在首个网络请求就失败，说明后台执行环境与交互式会话的网络路径不一致。  </li>
-<li>社区反应：<strong>0 评论 / 0 👍</strong>，但对自动化/定时任务场景非常关键。</li>
-</ul>
-</li>
-<li><p><strong><a href="https://github.com/anthropics/claude-code/issues/82770">#82770</a> Workflow tool: args not forwarded to script when combined with scriptPath</strong>  </p>
-<ul>
-<li>重要性：Workflow API 参数透传失败，属于开发者工作流中的基础功能 bug。  </li>
-<li>社区反应：<strong>0 评论 / 0 👍</strong>，复现稳定，适合优先排查。</li>
-</ul>
-</li>
-<li><p><strong><a href="https://github.com/anthropics/claude-code/issues/82773">#82773</a> Bash-tool grep wrapper returns nothing on text files with a stray NUL byte</strong>  </p>
-<ul>
-<li>重要性：底层 grep 包装器把“带 NUL 的文本”误判成二进制，导致无输出且无提示。  </li>
-<li>社区反应：<strong>0 评论 / 0 👍</strong>，但这类工具链 bug 会严重影响排障效率。</li>
-</ul>
-</li>
-<li><p><strong><a href="https://github.com/anthropics/claude-code/issues/82763">#82763</a> Claude Code fails with non-English system prompts</strong>  </p>
-<ul>
-<li>重要性：国际化/多语言系统提示直接失败，影响非英文工作流与全球用户。  </li>
-<li>社区反应：<strong>0 评论 / 0 👍</strong>，但属于跨语言兼容性的显著短板。</li>
-</ul>
-</li>
-<li><p><strong><a href="https://github.com/anthropics/claude-code/issues/82764">#82764</a> Unified “Pending Approvals” panel for multi-worktree / multi-session workflows</strong></p>
-</li>
-</ol>
-<ul>
-<li>重要性：这是面向重度用户的高价值功能请求，解决多会话审批分散的问题。  </li>
-<li>社区反应：<strong>0 评论 / 0 👍</strong>，但符合当前多任务并行使用趋势，值得跟踪。</li>
-</ul>
-<hr>
-<h2>4) 重要 PR 进展</h2>
-<ul>
-<li><strong>今日无更新 PR</strong>，暂无可纳入重点分析的 PR 条目。</li>
-</ul>
-<hr>
-<h2>5) 功能需求趋势</h2>
-<ol>
-<li><p><strong>IDE / VS Code 集成一致性</strong></p>
-<ul>
-<li>典型诉求：模型状态、扩展状态、会话恢复后的 MCP 注册必须一致。  </li>
-<li>代表 Issue：<a href="https://github.com/anthropics/claude-code/issues/82766">#82766</a>、<a href="https://github.com/anthropics/claude-code/issues/82769">#82769</a></li>
-</ul>
-</li>
-<li><p><strong>多会话 / 多工作树协同管理</strong></p>
-<ul>
-<li>用户希望统一查看和处理审批、会话、上下文状态，减少来回切换成本。  </li>
-<li>代表 Issue：<a href="https://github.com/anthropics/claude-code/issues/82764">#82764</a></li>
-</ul>
-</li>
-<li><p><strong>企业网络与认证兼容性</strong></p>
-<ul>
-<li>包括代理、受控网络、云端 Routine、特殊网段识别等场景的可用性。  </li>
-<li>代表 Issue：<a href="https://github.com/anthropics/claude-code/issues/82760">#82760</a>、<a href="https://github.com/anthropics/claude-code/issues/82762">#82762</a></li>
-</ul>
-</li>
-<li><p><strong>会话稳定性与“静默失败”治理</strong></p>
-<ul>
-<li>用户更在意“无提示丢消息、无提示挂起、恢复后状态错乱”这类隐性故障。  </li>
-<li>代表 Issue：<a href="https://github.com/anthropics/claude-code/issues/82772">#82772</a>、<a href="https://github.com/anthropics/claude-code/issues/82765">#82765</a>、<a href="https://github.com/anthropics/claude-code/issues/82761">#82761</a></li>
-</ul>
-</li>
-<li><p><strong>工具链鲁棒性与终端交互体验</strong></p>
-<ul>
-<li>包括 Bash-tool、grep、AskUserQuestion 等终端 UI/脚本工具的边界条件处理。  </li>
-<li>代表 Issue：<a href="https://github.com/anthropics/claude-code/issues/82773">#82773</a>、<a href="https://github.com/anthropics/claude-code/issues/82768">#82768</a></li>
-</ul>
-</li>
-</ol>
-<hr>
-<h2>6) 开发者关注点</h2>
-<ul>
-<li><p><strong>“静默失败”比显式报错更危险</strong>：消息被丢弃、配置没生效、会话挂起但不退出，这类问题会显著放大排障成本。  </p>
-<ul>
-<li>参考：<a href="https://github.com/anthropics/claude-code/issues/82772">#82772</a>、<a href="https://github.com/anthropics/claude-code/issues/82761">#82761</a>、<a href="https://github.com/anthropics/claude-code/issues/82765">#82765</a></li>
-</ul>
-</li>
-<li><p><strong>IDE/扩展状态一致性需要优先保证</strong>：模型 badge、/model 输出、Chrome/MCP 注册状态一旦不一致，会直接破坏用户信任。  </p>
-<ul>
-<li>参考：<a href="https://github.com/anthropics/claude-code/issues/82766">#82766</a>、<a href="https://github.com/anthropics/claude-code/issues/82769">#82769</a></li>
-</ul>
-</li>
-<li><p><strong>企业网络和自动化场景的兼容性需求在上升</strong>：云端 Routine、受限网络、特殊 IP/代理路径都在成为真实生产环境的一部分。  </p>
-<ul>
-<li>参考：<a href="https://github.com/anthropics/claude-code/issues/82760">#82760</a>、<a href="https://github.com/anthropics/claude-code/issues/82762">#82762</a></li>
-</ul>
-</li>
-<li><p><strong>终端与脚本工具的边界条件仍是痛点</strong>：NUL 字节、软换行、多语言输入等“非主路径”问题，往往会在重度使用时集中暴露。  </p>
-<ul>
-<li>参考：<a href="https://github.com/anthropics/claude-code/issues/82773">#82773</a>、<a href="https://github.com/anthropics/claude-code/issues/82768">#82768</a>、<a href="https://github.com/anthropics/claude-code/issues/82763">#82763</a></li>
-</ul>
-</li>
-</ul>
-<p>如需，我可以把这份日报进一步整理成 <strong>“管理层摘要版”</strong> 或 <strong>“研发排障版”</strong>。</p>
-</details>
-
-<details>
-<summary><strong>OpenAI Codex</strong> — <a href="https://github.com/openai/codex">openai/codex</a></summary>
-
-<h1>OpenAI Codex 社区动态日报｜2026-07-31</h1>
-<h2>1) 今日速览</h2>
-<p>今天 Codex 社区几乎完全被 <strong>CLI/桌面端稳定性、模型可用性、订阅/额度校验、Windows 安装体验</strong> 这几类问题占据，说明产品正在进入“高频使用后的可用性打磨期”。<br>与此同时，也出现了对 <strong>ChatGPT→Codex handoff 智能推荐、Skill 自动调用策略可配置、Desktop 创建线程的幂等与项目上下文管理</strong> 等偏生产力与可控性的增强需求。<br>今天 <strong>无新 Releases、无更新 PR</strong>，整体以用户反馈和功能提议为主。</p>
-<hr>
-<h2>2) 社区热点 Issues</h2>
-<blockquote>
-<p>本日共 8 条更新，以下按“影响面 + 反馈强度 + 代表性”筛选为全部重点条目。</p>
-</blockquote>
-<h3>1. [#36252] gpt-5.6-terra 模型提示“Selected model is at capacity”</h3>
-<ul>
-<li>链接：<a href="https://github.com/openai/codex/issues/36252">https://github.com/openai/codex/issues/36252</a></li>
-<li>为什么重要：这是直接影响核心使用链路的 <strong>模型容量/可用性</strong> 问题，用户在 CLI 中选中模型后却无法继续执行。</li>
-<li>社区反应：<code>1</code> 条评论，暂无点赞；属于典型的“高频但反馈量不大”的阻塞型问题。</li>
-<li>关注点：是否需要自动降级、备用模型切换、或更清晰的容量提示。</li>
-</ul>
-<h3>2. [#36246] 购买付费订阅后，周度 Codex usage limit 未更新</h3>
-<ul>
-<li>链接：<a href="https://github.com/openai/codex/issues/36246">https://github.com/openai/codex/issues/36246</a></li>
-<li>为什么重要：这是 <strong>订阅权益同步</strong> 问题，直接影响用户是否能立即使用服务。</li>
-<li>社区反应：<code>1</code> 条评论，暂无点赞；说明问题明确但更多是个体故障排查型。</li>
-<li>关注点：支付完成后的 entitlement 刷新时效与状态一致性。</li>
-</ul>
-<h3>3. [#36249] Goal mode 在可恢复失败后进入单向 blocked 状态</h3>
-<ul>
-<li>链接：<a href="https://github.com/openai/codex/issues/36249">https://github.com/openai/codex/issues/36249</a></li>
-<li>为什么重要：涉及 Codex Desktop 的 <strong>任务推进与状态机可靠性</strong>，会让长任务在“可继续”的情况下被错误卡死。</li>
-<li>社区反应：<code>1</code> 条评论，暂无点赞；属于影响任务连续性的 UX/状态管理缺陷。</li>
-<li>关注点：blocked 状态是否应该可逆、以及“继续执行”指令是否能真正恢复流程。</li>
-</ul>
-<h3>4. [#36251] ChatGPT→Codex handoff 需要携带模型与 reasoning-level 推荐</h3>
-<ul>
-<li>链接：<a href="https://github.com/openai/codex/issues/36251">https://github.com/openai/codex/issues/36251</a></li>
-<li>为什么重要：这是一个 <strong>跨产品协同优化</strong> 需求，目标是让 ChatGPT 在交接任务给 Codex 时更智能地选模型/推理等级。</li>
-<li>社区反应：<code>2</code> 条评论，是本日评论数最高的问题之一，说明需求共鸣较强。</li>
-<li>关注点：自动推荐是否能基于任务复杂度、风险等级、时效性做决策。</li>
-</ul>
-<h3>5. [#36253] Deep research 在桌面端和网页端均无法激活</h3>
-<ul>
-<li>链接：<a href="https://github.com/openai/codex/issues/36253">https://github.com/openai/codex/issues/36253</a></li>
-<li>为什么重要：属于 <strong>功能不可达</strong> 问题，且横跨 desktop/web 两端，说明可能是权限、账号或 feature flag 层面的系统性障碍。</li>
-<li>社区反应：暂无评论/点赞，但问题指向明确，典型“能力开关失效”。</li>
-<li>关注点：deep research 的可用性、账号权限与 troubleshooting 覆盖是否充分。</li>
-</ul>
-<h3>6. [#36250] Desktop <code>create_thread</code> 需要原子化项目上下文、runtime roots 与幂等性</h3>
-<ul>
-<li>链接：<a href="https://github.com/openai/codex/issues/36250">https://github.com/openai/codex/issues/36250</a></li>
-<li>为什么重要：这是偏平台/架构层面的增强，直接关系到 <strong>Desktop 线程创建的一致性与可恢复性</strong>。</li>
-<li>社区反应：暂无评论/点赞，但内容技术含量高，对集成方很关键。</li>
-<li>关注点：幂等重试、项目绑定、运行时工作区根路径是否能一次性提交并稳定生效。</li>
-</ul>
-<h3>7. [#36248] 允许本地覆盖 skill 的 implicit invocation policy</h3>
-<ul>
-<li>链接：<a href="https://github.com/openai/codex/issues/36248">https://github.com/openai/codex/issues/36248</a></li>
-<li>为什么重要：这是 <strong>可配置性与可控性</strong> 需求，涉及技能是否能自动触发，影响自动化程度与安全边界。</li>
-<li>社区反应：暂无评论/点赞，但对团队/仓库级治理很有价值。</li>
-<li>关注点：repo 级策略与个人本地偏好如何共存，避免“一刀切”。</li>
-</ul>
-<h3>8. [#36247] Windows PowerShell 安装说明应使用 <code>-NoProfile</code></h3>
-<ul>
-<li>链接：<a href="https://github.com/openai/codex/issues/36247">https://github.com/openai/codex/issues/36247</a></li>
-<li>为什么重要：这是 <strong>新用户安装成功率</strong> 问题，属于文档但影响实际落地。</li>
-<li>社区反应：暂无评论/点赞，但很可能是 Windows 环境里真实的安装坑。</li>
-<li>关注点：减少环境变量、shell profile、polyfill 对安装脚本的干扰。</li>
-</ul>
-<hr>
-<h2>3) 重要 PR 进展</h2>
-<blockquote>
-<p>本日 GitHub 数据中 <strong>无更新 PR（0 条）</strong>，因此暂无可汇总的 PR 进展。</p>
-</blockquote>
-<ul>
-<li>PR 列表：暂无  </li>
-<li>链接：<a href="https://github.com/openai/codex/pulls">https://github.com/openai/codex/pulls</a></li>
-</ul>
-<hr>
-<h2>4) 功能需求趋势</h2>
-<h3>1. 模型选择与推理等级的智能化</h3>
-<ul>
-<li>代表 Issue：<a href="https://github.com/openai/codex/issues/36251">#36251</a></li>
-<li>趋势判断：用户希望系统能在任务交接时自动推荐更合适的模型/推理档位，而不是手动猜测。</li>
-<li>说明：这反映出社区对“<strong>更少选择成本、更高任务匹配度</strong>”的需求上升。</li>
-</ul>
-<h3>2. CLI/服务可用性与容量治理</h3>
-<ul>
-<li>代表 Issue：<a href="https://github.com/openai/codex/issues/36252">#36252</a>、<a href="https://github.com/openai/codex/issues/36246">#36246</a></li>
-<li>趋势判断：模型容量、rate limit、订阅额度同步，是今天最明显的高频痛点。</li>
-<li>说明：用户最关注的是“能不能立即用”，其次才是模型本身。</li>
-</ul>
-<h3>3. 桌面端任务状态机与恢复能力</h3>
-<ul>
-<li>代表 Issue：<a href="https://github.com/openai/codex/issues/36249">#36249</a>、<a href="https://github.com/openai/codex/issues/36250">#36250</a></li>
-<li>趋势判断：社区希望长任务、线程创建、失败重试、继续执行都能具备更强的幂等和可恢复性。</li>
-<li>说明：这属于从“能跑”走向“<strong>可靠地跑</strong>”的阶段性升级需求。</li>
-</ul>
-<h3>4. 自定义策略与自动化控制</h3>
-<ul>
-<li>代表 Issue：<a href="https://github.com/openai/codex/issues/36248">#36248</a></li>
-<li>趋势判断：用户希望在 repo/本地/个人偏好之间，对技能自动调用策略保留更细粒度控制。</li>
-<li>说明：AI 工具正在从“默认自动化”走向“<strong>可治理自动化</strong>”。</li>
-</ul>
-<h3>5. Windows 安装与环境兼容性</h3>
-<ul>
-<li>代表 Issue：<a href="https://github.com/openai/codex/issues/36247">#36247</a></li>
-<li>趋势判断：安装脚本、PowerShell profile、环境探测等 Windows 体验问题仍然是落地门槛。</li>
-<li>说明：社区对“第一步能否顺利安装”仍高度敏感。</li>
-</ul>
-<h3>6. 高级能力的可达性与开关稳定性</h3>
-<ul>
-<li>代表 Issue：<a href="https://github.com/openai/codex/issues/36253">#36253</a></li>
-<li>趋势判断：deep research 等能力在桌面/网页端的可用性仍然是关注点。</li>
-<li>说明：这类能力一旦不可用，用户会直接感知为“产品不稳定”。</li>
-</ul>
-<hr>
-<h2>5) 开发者关注点</h2>
-<h3>1. 优先解决“模型不可用/额度不一致”</h3>
-<ul>
-<li>代表 Issue：<a href="https://github.com/openai/codex/issues/36252">#36252</a>、<a href="https://github.com/openai/codex/issues/36246">#36246</a></li>
-<li>痛点：选择了模型却提示容量满、付费后额度未刷新，会直接打断工作流。</li>
-<li>开发者预期：更清晰的错误提示、自动重试或自动降级策略。</li>
-</ul>
-<h3>2. 任务失败后的“可继续”机制需要真正可恢复</h3>
-<ul>
-<li>代表 Issue：<a href="https://github.com/openai/codex/issues/36249">#36249</a></li>
-<li>痛点：状态进入 blocked 后，如果有替代路径或可恢复子任务，系统应允许继续推进。</li>
-<li>开发者预期：状态机更健壮，UI 状态与实际可执行性一致。</li>
-</ul>
-<h3>3. Desktop/CLI 的上下文绑定要更原子、更幂等</h3>
-<ul>
-<li>代表 Issue：<a href="https://github.com/openai/codex/issues/36250">#36250</a></li>
-<li>痛点：项目、workspace roots、重试身份若分散更新，容易出现不一致。</li>
-<li>开发者预期：一次提交、重复执行不出错、恢复时不丢上下文。</li>
-</ul>
-<h3>4. 更强的“智能默认值”</h3>
-<ul>
-<li>代表 Issue：<a href="https://github.com/openai/codex/issues/36251">#36251</a></li>
-<li>痛点：用户不想总是手动选模型和 reasoning level。</li>
-<li>开发者预期：系统能根据任务复杂度自动建议合适配置。</li>
-</ul>
-<h3>5. 安装与环境兼容性仍需持续打磨</h3>
-<ul>
-<li>代表 Issue：<a href="https://github.com/openai/codex/issues/36247">#36247</a></li>
-<li>痛点：Windows/PowerShell 环境下安装脚本容易被 profile 或 shell 扩展干扰。</li>
-<li>开发者预期：更鲁棒的安装指引和更少的环境假设。</li>
-</ul>
-<h3>6. 自动化策略要“默认安全、可本地覆盖”</h3>
-<ul>
-<li>代表 Issue：<a href="https://github.com/openai/codex/issues/36248">#36248</a></li>
-<li>痛点：repo 级策略不一定适用于个人工作流。</li>
-<li>开发者预期：既能统一治理，又能保留本地 override 能力。</li>
-</ul>
-<hr>
-<p>如需，我也可以把这份日报进一步整理成：</p>
-<ol>
-<li><strong>更适合发 Slack/飞书的超短版</strong>，或  </li>
-<li><strong>带“风险等级/优先级”排序的管理层版本</strong>。</li>
-</ol>
-</details>
-
-<details>
-<summary><strong>Gemini CLI</strong> — <a href="https://github.com/google-gemini/gemini-cli">google-gemini/gemini-cli</a></summary>
-
-<p>以下为 <strong>2026-07-31 Gemini CLI 社区动态日报</strong>（基于过去 24 小时 GitHub 数据）：</p>
-<hr>
-<h2>1. 今日速览</h2>
-<p>过去 24 小时内，Gemini CLI <strong>没有新版本发布</strong>，社区更新量也较低。<br>当前最值得关注的是一条 <strong>P0 级 nightly release 失败</strong> 的告警 Issue，说明项目的自动化发布链路出现了稳定性风险，值得优先排查。</p>
-<hr>
-<h2>2. 版本发布</h2>
-<ul>
-<li><strong>无新 Release</strong></li>
-</ul>
-<hr>
-<h2>3. 社区热点 Issues</h2>
-<blockquote>
-<p>过去 24 小时内仅有 1 条更新 Issue，因此以下为当前最重要的社区动态。</p>
-</blockquote>
-<h3>#28605 [OPEN] [priority/p0, release-failure] Nightly Release Failed for on 2026-07-31</h3>
-<ul>
-<li>链接：<a href="https://github.com/google-gemini/gemini-cli/issues/28605">https://github.com/google-gemini/gemini-cli/issues/28605</a></li>
-<li>重要性：这是一个 <strong>P0 等级</strong> 的发布失败问题，直接影响 nightly 构建/发布流程，属于项目健康度和交付链路的核心告警。</li>
-<li>关注点：问题指向 GitHub Actions 中的 nightly-release workflow 失败，说明需要尽快确认是构建、测试、签名、打包还是权限/依赖问题。</li>
-<li>社区反应：当前 <strong>暂无评论</strong>，更像是自动化监控触发的内部流程型问题，而非公开讨论型 issue。</li>
-</ul>
-<hr>
-<h2>4. 重要 PR 进展</h2>
-<ul>
-<li><strong>过去 24 小时内无更新 PR</strong></li>
-<li>链接：无</li>
-</ul>
-<hr>
-<h2>5. 功能需求趋势</h2>
-<p>根据过去 24 小时的公开数据，<strong>未观察到新的功能需求型 Issues</strong>。<br>当前可见的唯一明显趋势是：</p>
-<ul>
-<li><strong>发布与 CI/CD 稳定性优先级上升</strong><ul>
-<li>链接：<a href="https://github.com/google-gemini/gemini-cli/issues/28605">https://github.com/google-gemini/gemini-cli/issues/28605</a></li>
-<li>说明：夜间发布失败表明社区/维护团队当前更关注“能否稳定出包”，而不是新增功能。</li>
-</ul>
-</li>
-</ul>
-<hr>
-<h2>6. 开发者关注点</h2>
-<p>从现有数据看，开发者最需要关注的痛点集中在：</p>
-<ol>
-<li><p><strong>自动化发布流程可靠性</strong></p>
-<ul>
-<li>nightly release 失败会放大后续版本验证、回归排查和发布节奏的不确定性。</li>
-<li>链接：<a href="https://github.com/google-gemini/gemini-cli/issues/28605">https://github.com/google-gemini/gemini-cli/issues/28605</a></li>
-</ul>
-</li>
-<li><p><strong>CI / GitHub Actions 可观测性</strong></p>
-<ul>
-<li>需要快速定位失败步骤，减少人工翻查 workflow run 的成本。</li>
-<li>链接：<a href="https://github.com/google-gemini/gemini-cli/issues/28605">https://github.com/google-gemini/gemini-cli/issues/28605</a></li>
-</ul>
-</li>
-<li><p><strong>发布链路阻塞风险</strong></p>
-<ul>
-<li>当 nightly 流程失效时，可能影响内部验证和后续版本推进。</li>
-<li>链接：<a href="https://github.com/google-gemini/gemini-cli/issues/28605">https://github.com/google-gemini/gemini-cli/issues/28605</a></li>
-</ul>
-</li>
-</ol>
-<hr>
-<p>如你愿意，我也可以把这份日报进一步整理成：</p>
-<ul>
-<li><strong>适合内部周报的更正式版本</strong></li>
-<li><strong>面向管理层的 1 页摘要版</strong></li>
-<li><strong>带“风险等级/影响面/建议动作”的运维分析版</strong></li>
-</ul>
-</details>
-
-<details>
-<summary><strong>GitHub Copilot CLI</strong> — <a href="https://github.com/github/copilot-cli">github/copilot-cli</a></summary>
-
-<p>过去24小时无活动。</p>
-</details>
-
-<details>
-<summary><strong>Kimi Code CLI</strong> — <a href="https://github.com/MoonshotAI/kimi-cli">MoonshotAI/kimi-cli</a></summary>
-
-<p>过去24小时无活动。</p>
-</details>
-
-<details>
-<summary><strong>OpenCode</strong> — <a href="https://github.com/anomalyco/opencode">anomalyco/opencode</a></summary>
-
-<h1>OpenCode 社区动态日报｜2026-07-31</h1>
-<h2>1) 今日速览</h2>
-<p>今天 OpenCode 的社区活跃度主要集中在 <strong>稳定性修复、平台兼容性和新能力接入</strong> 三条线：一方面，围绕 429 额度重试、网络恢复后 API 空响应、GHES 环境变量适配等问题出现了多条修复 PR；另一方面，Gemini thinking、xAI native options、Friendli provider 等模型/供应商生态继续扩展。<br>同时，TUI 新布局相关的快捷键、会话选择器、tab scope 等交互细节也在持续打磨，说明项目当前正处于“功能扩展 + 可用性修正”并行推进阶段。</p>
-<hr>
-<h2>2) 社区热点 Issues</h2>
-<blockquote>
-<p>注：今日更新的 Issue 共 4 条，以下为全部重点。</p>
-</blockquote>
-<h3>1. [#39790] Session retries fixed-window usage quota errors until reset</h3>
-<ul>
-<li>链接：<a href="https://github.com/anomalyco/opencode/issues/39790">https://github.com/anomalyco/opencode/issues/39790</a></li>
-<li>重要性：这是一个典型的 <strong>重试策略误判</strong> 问题。对于固定窗口 429 额度耗尽，继续重试不会成功，只会增加请求噪音和等待成本。</li>
-<li>社区反应：已有 <strong>2 条评论</strong>，是今天讨论最活跃的 Issue 之一；同时对应修复 PR 已提交，说明问题已被快速接住。</li>
-</ul>
-<h3>2. [#39794] <code>/api/command</code> and <code>/api/skill</code> intermittently return empty body / {&quot;data&quot;:[]} after network recovery</h3>
-<ul>
-<li>链接：<a href="https://github.com/anomalyco/opencode/issues/39794">https://github.com/anomalyco/opencode/issues/39794</a></li>
-<li>重要性：涉及 <strong>网络恢复后的接口一致性</strong>，客户端恢复连接后仍可能拿到“看似成功、实际空数据”的响应，这类问题对前端状态同步和错误判断影响很大。</li>
-<li>社区反应：有 <strong>1 条评论</strong>。该问题描述清晰，属于较高优先级的可靠性问题。</li>
-</ul>
-<h3>3. [#39789] GitHub Action ignores GHES API endpoint variables</h3>
-<ul>
-<li>链接：<a href="https://github.com/anomalyco/opencode/issues/39789">https://github.com/anomalyco/opencode/issues/39789</a></li>
-<li>重要性：影响 <strong>GitHub Enterprise Server（GHES）</strong> 场景下的 Action 兼容性。若忽略 <code>GITHUB_API_URL</code> / <code>GITHUB_GRAPHQL_URL</code>，会直接导致企业环境请求打到错误端点。</li>
-<li>社区反应：有 <strong>1 条评论</strong>。问题面向企业用户，影响面较窄但优先级高。</li>
-</ul>
-<h3>4. [#39785] mod+shift+w and mod+o do nothing in the new layout</h3>
-<ul>
-<li>链接：<a href="https://github.com/anomalyco/opencode/issues/39785">https://github.com/anomalyco/opencode/issues/39785</a></li>
-<li>重要性：属于 <strong>新布局快捷键失效</strong>，直接影响核心工作流效率，尤其是新会话页和项目打开入口。</li>
-<li>社区反应：有 <strong>1 条评论</strong>。问题已被定位到命令注册范围，说明修复路径比较明确。</li>
-</ul>
-<hr>
-<h2>3) 重要 PR 进展</h2>
-<h3>1. [#39791] fix(session): stop retrying fixed-window usage quotas</h3>
-<ul>
-<li>链接：<a href="https://github.com/anomalyco/opencode/pull/39791">https://github.com/anomalyco/opencode/pull/39791</a></li>
-<li>内容：修复固定窗口额度耗尽时的无效重试，避免对 5 小时/周/月等长窗口 quota 继续重试。</li>
-<li>意义：直接对应 Issue #39790，是今天最关键的稳定性修复之一。</li>
-</ul>
-<h3>2. [#39788] fix(github): honor GHES REST and GraphQL endpoints</h3>
-<ul>
-<li>链接：<a href="https://github.com/anomalyco/opencode/pull/39788">https://github.com/anomalyco/opencode/pull/39788</a></li>
-<li>内容：让 GitHub Action 正确使用 GHES 提供的 REST 和 GraphQL endpoint。</li>
-<li>意义：修复企业版 GitHub 场景兼容性，减少 Action 在 GHES 环境中的错误请求。</li>
-</ul>
-<h3>3. [#39796] feat(ai): support Gemini thinking levels</h3>
-<ul>
-<li>链接：<a href="https://github.com/anomalyco/opencode/pull/39796">https://github.com/anomalyco/opencode/pull/39796</a></li>
-<li>内容：为 Gemini 增加 thinking 配置能力，支持 <code>thinkingBudget</code>、<code>includeThoughts</code>、<code>thinkingLevel</code> 等组合。</li>
-<li>意义：增强模型推理控制能力，利于精细化成本/效果平衡。</li>
-</ul>
-<h3>4. [#39795] fix(opencode): spawn configured posix shell directly on Windows</h3>
-<ul>
-<li>链接：<a href="https://github.com/anomalyco/opencode/pull/39795">https://github.com/anomalyco/opencode/pull/39795</a></li>
-<li>内容：修复 Windows 下配置 POSIX shell 时 <code>bash</code> 工具无法正确启动的问题。</li>
-<li>意义：提升跨平台一致性，尤其对 Windows 开发者很关键。</li>
-</ul>
-<h3>5. [#39786] [contributor] fix(app): register new workspace and open project shortcuts in the new layout</h3>
-<ul>
-<li>链接：<a href="https://github.com/anomalyco/opencode/pull/39786">https://github.com/anomalyco/opencode/pull/39786</a></li>
-<li>内容：修复新布局中 <code>mod+shift+w</code> 和 <code>mod+o</code> 快捷键无效的问题。</li>
-<li>意义：直接对应 Issue #39785，恢复核心导航效率。</li>
-</ul>
-<h3>6. [#39784] [contributor] fix(tui): align session picker scope</h3>
-<ul>
-<li>链接：<a href="https://github.com/anomalyco/opencode/pull/39784">https://github.com/anomalyco/opencode/pull/39784</a></li>
-<li>内容：会话选择器初始 scope 现在与 Tabs &gt; Scope 设置对齐，并保留用户手动切换后的状态。</li>
-<li>意义：改善 TUI 中“默认范围”和“用户显式选择”之间的一致性。</li>
-</ul>
-<h3>7. [#39783] [contributor] fix(tui): default tabs to global scope</h3>
-<ul>
-<li>链接：<a href="https://github.com/anomalyco/opencode/pull/39783">https://github.com/anomalyco/opencode/pull/39783</a></li>
-<li>内容：让 session tabs 默认使用全局 tab set，避免不同工作目录各自分裂默认 tab 状态。</li>
-<li>意义：简化默认行为，减少多目录工作流中的认知负担。</li>
-</ul>
-<h3>8. [#39787] [CLOSED] fix(core): map xAI native options</h3>
-<ul>
-<li>链接：<a href="https://github.com/anomalyco/opencode/pull/39787">https://github.com/anomalyco/opencode/pull/39787</a></li>
-<li>内容：将 <code>@ai-sdk/xai</code> 的相关设置映射到 native xAI provider 选项，并过滤无效参数。</li>
-<li>意义：这是一个已关闭的完成项，说明 xAI 集成能力在进一步收敛和规范化。</li>
-</ul>
-<h3>9. [#39793] docs(web): add Friendli provider documentation</h3>
-<ul>
-<li>链接：<a href="https://github.com/anomalyco/opencode/pull/39793">https://github.com/anomalyco/opencode/pull/39793</a></li>
-<li>内容：为 Friendli provider 补充 Web 文档与接入说明。</li>
-<li>意义：反映出项目在扩展 provider 生态的同时，也在补齐可用文档。</li>
-</ul>
-<h3>10. [#39792] [needs:compliance] docs: document V1 plugin export format and auto-load constraints</h3>
-<ul>
-<li>链接：<a href="https://github.com/anomalyco/opencode/pull/39792">https://github.com/anomalyco/opencode/pull/39792</a></li>
-<li>内容：补充 V1 插件导出格式与自动加载约束说明，明确文件型插件必须导出 <code>id</code>。</li>
-<li>意义：对插件生态非常关键，能减少“可写但不可加载”的配置误区。</li>
-</ul>
-<hr>
-<h2>4) 功能需求趋势</h2>
-<p>从今日 Issues 与 PR 组合来看，社区关注点主要集中在以下方向：</p>
-<ol>
-<li><p><strong>运行稳定性与重试策略</strong></p>
-<ul>
-<li>典型诉求：避免在 quota 已确定不可恢复时继续重试。</li>
-<li>代表：#39790 / #39791。</li>
-</ul>
-</li>
-<li><p><strong>网络恢复后的状态一致性</strong></p>
-<ul>
-<li>典型诉求：SSE 重连、连接中断恢复后，API 不应返回“空但成功”的模糊状态。</li>
-<li>代表：#39794。</li>
-</ul>
-</li>
-<li><p><strong>GitHub / GHES 企业集成</strong></p>
-<ul>
-<li>典型诉求：Action 和 API 客户端必须尊重 GHES 环境变量。</li>
-<li>代表：#39789 / #39788。</li>
-</ul>
-</li>
-<li><p><strong>TUI 交互与快捷键可用性</strong></p>
-<ul>
-<li>典型诉求：新布局下快捷键、scope、tab 默认行为要和用户预期一致。</li>
-<li>代表：#39785 / #39786 / #39784 / #39783。</li>
-</ul>
-</li>
-<li><p><strong>模型能力扩展与参数映射</strong></p>
-<ul>
-<li>典型诉求：支持 Gemini thinking、xAI native options 等更细粒度的模型控制。</li>
-<li>代表：#39796 / #39787。</li>
-</ul>
-</li>
-<li><p><strong>插件与 Provider 文档完善</strong></p>
-<ul>
-<li>典型诉求：减少接入门槛，明确插件格式、自动加载规则、provider 配置方式。</li>
-<li>代表：#39792 / #39793。</li>
-</ul>
-</li>
-</ol>
-<hr>
-<h2>5) 开发者关注点</h2>
-<p>今天开发者反馈中的高频痛点可以归纳为：</p>
-<ul>
-<li><strong>“错误是否可恢复”需要更准确判断</strong>：固定窗口 429 不应继续盲目重试。</li>
-<li><strong>“成功响应但数据为空”对前端很危险</strong>：网络恢复后接口空返回会干扰状态机。</li>
-<li><strong>企业环境兼容性仍需加强</strong>：GHES 端点变量必须被严格遵守。</li>
-<li><strong>新布局不能牺牲旧工作流</strong>：快捷键和命令注册不能在重构中丢失。</li>
-<li><strong>跨平台 shell 行为要一致</strong>：Windows 下调用 POSIX shell 的路径和 spawn 行为需要更稳。</li>
-<li><strong>文档是生态扩张的关键配套</strong>：插件格式、provider 接入、模型参数映射都需要同步说明。</li>
-</ul>
-<p>如果你希望，我也可以把这份日报进一步整理成：</p>
-<ul>
-<li><strong>适合 Slack/飞书发布的短版</strong></li>
-<li><strong>适合周报归档的长版</strong></li>
-<li><strong>按“产品 / 工程 / 社区”三栏的表格版</strong></li>
-</ul>
-</details>
-
-<details>
-<summary><strong>Pi</strong> — <a href="https://github.com/badlogic/pi-mono">badlogic/pi-mono</a></summary>
-
-<h1>Pi 社区动态日报（2026-07-31）</h1>
-<h2>1. 今日速览</h2>
-<p>今天仓库 <code>badlogic/pi-mono</code> 没有新 Release，也没有 PR 更新，社区动态主要集中在 1 条 Issue 上：围绕 <strong>全局 AGENTS.md 规则扩展</strong> 的讨论，核心是减少 session-log 中重复的行为偏差与执行摩擦。<br>整体来看，当前关注点更偏向 <strong>Agent 行为约束、会话连续性和用户意图遵循</strong>，而不是功能发布。</p>
-<hr>
-<h2>2. 版本发布</h2>
-<ul>
-<li><strong>无新 Release</strong></li>
-</ul>
-<hr>
-<h2>3. 社区热点 Issues</h2>
-<blockquote>
-<p>过去 24 小时内仅有 1 条 Issue 更新，因此以下为本日唯一重点。</p>
-</blockquote>
-<ol>
-<li><strong>#7351 [CLOSED] [untriaged] Expand global AGENTS.md from session-log friction</strong>  <ul>
-<li>链接：<a href="https://github.com/badlogic/pi-mono/issues/7351">https://github.com/badlogic/pi-mono/issues/7351</a>  </li>
-<li>为什么重要：<br>该 Issue 直接指向 <strong>Agent 运行规范的可控性</strong>，尤其是全局 <code>AGENTS.md</code> 是否需要更强的默认约束。提到的痛点包括：  <ul>
-<li>用户只想“分析”，但 Agent 却倾向于自动跑任务 / 发 PR / push  </li>
-<li>compaction 后“stop after this run” 等停止指令容易被忽略  </li>
-<li>batch fan-out 行为过激，导致执行范围扩散</li>
-</ul>
-</li>
-<li>社区反应：<br>当前仅 1 次评论、0 个点赞，说明讨论更偏“问题确认”和“经验反馈”，尚未形成广泛争议，但问题本身很贴近实际使用场景。</li>
-</ul>
-</li>
-</ol>
-<hr>
-<h2>4. 重要 PR 进展</h2>
-<ul>
-<li><strong>过去 24 小时内无 PR 更新</strong></li>
-</ul>
-<hr>
-<h2>5. 功能需求趋势</h2>
-<p>从本日唯一 Issue 可提炼出以下社区关注方向：</p>
-<ol>
-<li><p><strong>Agent 行为约束与可控性</strong></p>
-<ul>
-<li>更严格的全局规则、默认行为边界、停止指令优先级。</li>
-</ul>
-</li>
-<li><p><strong>分析模式 / 只读模式</strong></p>
-<ul>
-<li>用户希望“analyze-only” 能被稳定遵守，减少自动执行动作。</li>
-</ul>
-</li>
-<li><p><strong>会话连续性与 compaction 稳定性</strong></p>
-<ul>
-<li>compaction 之后，Agent 需要更可靠地继承用户的上下文与约束。</li>
-</ul>
-</li>
-<li><p><strong>批量任务扩散控制</strong></p>
-<ul>
-<li>对 batch fan-out、自动扩展执行范围的行为提出更强限制需求。</li>
-</ul>
-</li>
-<li><p><strong>规范化项目级指令</strong></p>
-<ul>
-<li><code>AGENTS.md</code> 之类的项目/全局控制文件，正在成为社区关注的治理入口。</li>
-</ul>
-</li>
-</ol>
-<hr>
-<h2>6. 开发者关注点</h2>
-<p>从反馈看，开发者当前最在意的不是“多做什么”，而是“别做错什么”：</p>
-<ul>
-<li><strong>避免越权执行</strong>：用户明确要求分析时，不应默认进入改动、提交、推送流程。  </li>
-<li><strong>停止指令必须可靠</strong>：类似“这次运行后停止”的意图，在 compaction 后仍要保持。  </li>
-<li><strong>减少上下文漂移</strong>：会话压缩后，Agent 不应遗失关键约束。  </li>
-<li><strong>控制自动扩散</strong>：批量分发任务要更谨慎，防止范围膨胀。  </li>
-<li><strong>提升可预测性</strong>：社区希望 Agent 行为更稳定、更可审计，而不是“智能但不可控”。</li>
-</ul>
-<hr>
-<p>如果你愿意，我也可以把这份日报进一步整理成：</p>
-<ol>
-<li><strong>适合直接发群的精简版</strong>，或  </li>
-<li><strong>适合内部周报风格的正式版</strong>。</li>
-</ol>
-</details>
-
-<details>
-<summary><strong>Qwen Code</strong> — <a href="https://github.com/QwenLM/qwen-code">QwenLM/qwen-code</a></summary>
-
-<h1>Qwen Code 社区动态日报｜2026-07-31</h1>
-<h2>今日速览</h2>
-<p>今天社区讨论高度集中在 <strong>Telemetry/可观测性标准化</strong>：两条相关 Issue + 两条相关 PR 同步推进，核心目标是把工具调用的终态、执行态和错误分类统一起来，减少统计与 UI 展示口径不一致的问题。<br>另一条值得关注的是 <strong>macOS + tmux + IME 输入异常</strong>，这是明显影响日常使用的交互类阻断问题，属于优先级较高的体验修复。<br>整体来看，今天的更新体现出 Qwen Code 正在同时补齐“后端观测一致性”和“前端交互稳定性”两条主线。</p>
-<hr>
-<h2>版本发布</h2>
-<p>今日无新 Release。</p>
-<hr>
-<h2>社区热点 Issues</h2>
-<blockquote>
-<p>今日更新的 Issue 共 3 条，以下为全部条目，按关注度排序。</p>
-</blockquote>
-<h3>1) <a href="https://github.com/QwenLM/qwen-code/issues/8179">#8179 feat(telemetry): Distinguish tool execution outcomes from terminal call status</a></h3>
-<ul>
-<li><strong>重要性</strong>：这是典型的“观测语义拆分”需求。当前 terminal <code>status</code> 只适合描述整个调用的最终结果，但无法准确表达 <code>invocation.execute()</code> 是否真正进入执行阶段、是否执行成功，容易导致 telemetry、UI 和统计口径混淆。</li>
-<li><strong>社区反应</strong>：2 条评论，暂无点赞。说明这是一个较“技术向”的改进，但讨论已经开始，且与后续 PR 强关联，推进速度较快。</li>
-</ul>
-<h3>2) <a href="https://github.com/QwenLM/qwen-code/issues/8175">#8175 Standardize tool-call terminal telemetry and error classification</a></h3>
-<ul>
-<li><strong>重要性</strong>：这是 telemetry 体系的基础设施问题，涉及 <code>status</code>、<code>success</code>、<code>error</code>、<code>error_type</code> 的统一。若不标准化，会直接影响 UI 呈现、使用统计和错误分析的一致性。</li>
-<li><strong>社区反应</strong>：2 条评论，暂无点赞。说明开发者对“统一契约”的关注度较高，问题被认为有结构性影响，而不是单点 bug。</li>
-</ul>
-<h3>3) <a href="https://github.com/QwenLM/qwen-code/issues/8177">#8177 光标错位/输入乱码：macOS + tmux 本地 session 中输入法（IME）导致光标和文本渲染异常</a></h3>
-<ul>
-<li><strong>重要性</strong>：这是直接影响可用性的交互问题，涉及中文输入、光标定位、候选窗叠加和文本渲染错乱，属于高优先级体验缺陷。</li>
-<li><strong>社区反应</strong>：2 条评论，暂无点赞。尽管点赞不高，但这类问题通常对真实用户影响更直接，尤其是本地终端 + tmux + IME 的高频使用场景。</li>
-</ul>
-<hr>
-<h2>重要 PR 进展</h2>
-<blockquote>
-<p>今日更新的 PR 共 4 条，以下为全部条目。</p>
-</blockquote>
-<h3>1) <a href="https://github.com/QwenLM/qwen-code/pull/8180">#8180 feat(telemetry): Track tool execution outcomes</a></h3>
-<ul>
-<li><strong>内容</strong>：为工具调用引入执行级别的 outcome，和终态 <code>status</code> 分离，补足 <code>executionStatus</code> 语义。</li>
-<li><strong>意义</strong>：这是对 Issue #8179 的直接实现，能让 telemetry 更准确地区分“调用完成”与“实际执行成功/失败”。</li>
-</ul>
-<h3>2) <a href="https://github.com/QwenLM/qwen-code/pull/8176">#8176 feat(core): Normalize tool-call terminal telemetry</a></h3>
-<ul>
-<li><strong>内容</strong>：统一工具调用终态遥测契约，软错误若没有机器可读分类则归为 <code>unknown</code>，并保证兼容字段从统一状态派生。</li>
-<li><strong>意义</strong>：这是对 Issue #8175 的核心修复方向，重点在于统一数据口径，降低下游消费复杂度。</li>
-</ul>
-<h3>3) <a href="https://github.com/QwenLM/qwen-code/pull/8178">#8178 feat(channels): isolate daemon adapter state by workspace</a></h3>
-<ul>
-<li><strong>内容</strong>：为每个 daemon 管理的 channel 实例创建与 workspace 绑定的稳定状态目录，并通过安全命名与哈希隔离实例目录。</li>
-<li><strong>意义</strong>：提升多 workspace 场景下的状态隔离与安全性，避免 channel 状态互相污染。</li>
-</ul>
-<h3>4) <a href="https://github.com/QwenLM/qwen-code/pull/8174">#8174 refactor(web-shell): simplify plugin page action button labels</a></h3>
-<ul>
-<li><strong>内容</strong>：缩短插件管理页按钮文案，如 “Add Extension” 改为 “Add”，同时优化中英文显示一致性。</li>
-<li><strong>意义</strong>：属于 UI 细节优化，目标是提升界面简洁度和多语言一致性，降低认知负担。</li>
-</ul>
-<hr>
-<h2>功能需求趋势</h2>
-<p>结合今日 Issue，可以看出社区最关注的方向集中在以下几类：</p>
-<ol>
-<li><p><strong>Telemetry / 可观测性标准化</strong></p>
-<ul>
-<li>重点是工具调用终态、执行态、错误类型三者的统一。</li>
-<li>社区明显希望日志、统计、UI 展示能使用同一套语义契约。</li>
-</ul>
-</li>
-<li><p><strong>工具执行结果的精细化表达</strong></p>
-<ul>
-<li>不仅要知道“调用是否结束”，还要知道“是否真正执行过、执行是否成功、失败属于哪类”。</li>
-</ul>
-</li>
-<li><p><strong>终端交互稳定性</strong></p>
-<ul>
-<li>macOS + tmux + IME 场景下的光标和输入渲染问题，说明终端类产品对输入法和复杂 TTY 环境仍然有较强适配需求。</li>
-</ul>
-</li>
-<li><p><strong>多工作区/多实例隔离</strong></p>
-<ul>
-<li>从 PR #8178 可以看到，社区对 daemon/channel 状态隔离、安全命名和 workspace 边界越来越敏感。</li>
-</ul>
-</li>
-</ol>
-<hr>
-<h2>开发者关注点</h2>
-<p>从今日反馈可以提炼出几个高频痛点：</p>
-<ul>
-<li><strong>遥测口径不一致</strong>：<code>status</code>、<code>success</code>、<code>error</code>、<code>error_type</code> 的语义不统一，容易造成统计偏差。</li>
-<li><strong>软错误缺少机器可读分类</strong>：这会让错误分析、告警和自动化处理变得困难。</li>
-<li><strong>终端输入法兼容性不足</strong>：macOS + tmux + IME 组合下的光标错位和乱码，属于典型的跨环境适配痛点。</li>
-<li><strong>状态隔离需求增强</strong>：daemon/channel 的 workspace 隔离说明用户对多项目并行、状态污染防护的要求在上升。</li>
-<li><strong>UI 文案简化与本地化一致性</strong>：插件管理页按钮文案收敛，反映出团队也在持续打磨使用体验。</li>
-</ul>
-<hr>
-<p>如果你愿意，我也可以把这份日报进一步整理成：</p>
-<ol>
-<li><strong>适合发群的短版摘要</strong>，或  </li>
-<li><strong>适合周报/晨报的表格版</strong>。</li>
-</ol>
-</details>
-
-<details>
-<summary><strong>DeepSeek TUI</strong> — <a href="https://github.com/Hmbown/DeepSeek-TUI">Hmbown/DeepSeek-TUI</a></summary>
-
-<p>过去24小时无活动。</p>
-</details>
-
-<hr>
-<p><em>本日报由 <a href="https://github.com/leisure3318/agents-radar">agents-radar</a> 自动生成。</em></p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>AI CLI Tools Digest 2026-07-31</title>
-      <link>https://duanyytop.github.io/agents-radar/#2026-07-31/ai-cli-en</link>
-      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-07-31/ai-cli-en</guid>
-      <pubDate>Fri, 31 Jul 2026 00:00:00 +0000</pubDate>
-      <description>AI CLI Tools Community Digest 2026-07-31 Generated: 2026-07-31 02:56 UTC | Tools covered: 9 Claude Code OpenAI Codex Gemini CLI GitHub Copilot CLI Kimi Code CLI OpenCode Pi Qwen Code DeepSeek TUI Claude Code Skills Cross-Tool Comparison (English digest skipped to save LLM tokens — see the Chinese report for full details.) Per-Tool Reports Claude Code — anthropics/claude-code Claude Code Skills Highlights Source: anthropics/skills (English digest skipped to save LLM tokens — see the Chinese repor...</description>
-      <content:encoded><![CDATA[<h1>AI CLI Tools Community Digest 2026-07-31</h1>
-<blockquote>
-<p>Generated: 2026-07-31 02:56 UTC | Tools covered: 9</p>
-</blockquote>
-<ul>
-<li><a href="https://github.com/anthropics/claude-code">Claude Code</a></li>
-<li><a href="https://github.com/openai/codex">OpenAI Codex</a></li>
-<li><a href="https://github.com/google-gemini/gemini-cli">Gemini CLI</a></li>
-<li><a href="https://github.com/github/copilot-cli">GitHub Copilot CLI</a></li>
-<li><a href="https://github.com/MoonshotAI/kimi-cli">Kimi Code CLI</a></li>
-<li><a href="https://github.com/anomalyco/opencode">OpenCode</a></li>
-<li><a href="https://github.com/badlogic/pi-mono">Pi</a></li>
-<li><a href="https://github.com/QwenLM/qwen-code">Qwen Code</a></li>
-<li><a href="https://github.com/Hmbown/DeepSeek-TUI">DeepSeek TUI</a></li>
-<li><a href="https://github.com/anthropics/skills">Claude Code Skills</a></li>
-</ul>
-<hr>
-<h2>Cross-Tool Comparison</h2>
-<p><em>(English digest skipped to save LLM tokens — see the Chinese report for full details.)</em></p>
-<hr>
-<h2>Per-Tool Reports</h2>
-<details>
-<summary><strong>Claude Code</strong> — <a href="https://github.com/anthropics/claude-code">anthropics/claude-code</a></summary>
-
-<h2>Claude Code Skills Highlights</h2>
-<blockquote>
-<p>Source: <a href="https://github.com/anthropics/skills">anthropics/skills</a></p>
-</blockquote>
-<p><em>(English digest skipped to save LLM tokens — see the Chinese report for full details.)</em></p>
-<hr>
-<p><em>(English digest skipped to save LLM tokens — see the Chinese report for full details.)</em></p>
-</details>
-
-<details>
-<summary><strong>OpenAI Codex</strong> — <a href="https://github.com/openai/codex">openai/codex</a></summary>
-
-<p><em>(English digest skipped to save LLM tokens — see the Chinese report for full details.)</em></p>
-</details>
-
-<details>
-<summary><strong>Gemini CLI</strong> — <a href="https://github.com/google-gemini/gemini-cli">google-gemini/gemini-cli</a></summary>
-
-<p><em>(English digest skipped to save LLM tokens — see the Chinese report for full details.)</em></p>
-</details>
-
-<details>
-<summary><strong>GitHub Copilot CLI</strong> — <a href="https://github.com/github/copilot-cli">github/copilot-cli</a></summary>
-
-<p>No activity in the last 24 hours.</p>
-</details>
-
-<details>
-<summary><strong>Kimi Code CLI</strong> — <a href="https://github.com/MoonshotAI/kimi-cli">MoonshotAI/kimi-cli</a></summary>
-
-<p>No activity in the last 24 hours.</p>
-</details>
-
-<details>
-<summary><strong>OpenCode</strong> — <a href="https://github.com/anomalyco/opencode">anomalyco/opencode</a></summary>
-
-<p><em>(English digest skipped to save LLM tokens — see the Chinese report for full details.)</em></p>
-</details>
-
-<details>
-<summary><strong>Pi</strong> — <a href="https://github.com/badlogic/pi-mono">badlogic/pi-mono</a></summary>
-
-<p><em>(English digest skipped to save LLM tokens — see the Chinese report for full details.)</em></p>
-</details>
-
-<details>
-<summary><strong>Qwen Code</strong> — <a href="https://github.com/QwenLM/qwen-code">QwenLM/qwen-code</a></summary>
-
-<p><em>(English digest skipped to save LLM tokens — see the Chinese report for full details.)</em></p>
-</details>
-
-<details>
-<summary><strong>DeepSeek TUI</strong> — <a href="https://github.com/Hmbown/DeepSeek-TUI">Hmbown/DeepSeek-TUI</a></summary>
-
-<p>No activity in the last 24 hours.</p>
-</details>
-
-<hr>
-<p><em>This digest is auto-generated by <a href="https://github.com/leisure3318/agents-radar">agents-radar</a>.</em></p>
 ]]></content:encoded>
     </item>
   </channel>
