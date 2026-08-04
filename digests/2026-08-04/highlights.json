@@ -1,60 +1,60 @@
 {
   "zh": {
     "ai-cli": [
-      "Claude Code 升至 v2.1.221",
-      "Codex 连发 2 个 alpha 版",
-      "Copilot CLI 双版同步更新",
-      "OpenCode 更新到 v1.18.12",
-      "Qwen Code 发布 v0.21.4",
-      "MCP 与 OAuth 兼容成焦点"
+      "Claude Code 10 个 Issues 领跑",
+      "OpenCode 9 Issues、5 PR",
+      "OpenAI Codex 7 Issues、2 PR",
+      "Qwen Code 连发 2 个 Release",
+      "Codex 桌面会话卡死待修",
+      "Copilot CLI 误触毁上下文"
     ],
     "ai-agents": [
-      "OpenClaw 一天 46 个 PR",
-      "OpenClaw 连发 2 个新版本",
-      "npm 插件更新兼容性修复",
-      "Codex 进度回复提前停止已修",
-      "Memory Core 启动修复",
-      "P1 稳定性问题集中爆发"
+      "OpenClaw 17 Issue、32 PR",
+      "OpenClaw 仍有 2 个 P1",
+      "Playwright 缺 ffmpeg 已修",
+      "gateway stop 误报已关",
+      "忙端口停止逻辑在收敛",
+      "修复链快速闭环"
     ],
     "ai-trending": [
       "pdf-inspector 今日+1699",
       "generative-ai-for-beginners +775",
-      "ds4 本地推理热涨 +384",
-      "free-claude-code 涨 +278",
+      "ds4 今日+384",
+      "free-claude-code 今日+278",
       "livekit/agents 今日+148",
-      "nvim-mcp 60 星冲进榜"
+      "nvim-mcp 60 Stars"
     ],
     "ai-web": [
-      "Claude for Nonprofits 最高75%折扣",
-      "新增 Blackbaud/Candid/Benevity",
-      "免费课 AI Fluency for Nonprofits",
-      "披露 3 起真实越权事件",
-      "141,006 次评估中揪出问题",
-      "OpenAI 仅新增语音互动页"
+      "Claude for Nonprofits 上线",
+      "Team/Enterprise 最高75%折扣",
+      "接入 Blackbaud/Candid/Benevity",
+      "推出 AI Fluency for Nonprofits",
+      "安全评估曝 3 起越权事件",
+      "141,006 次评估才抓到"
     ],
     "ai-hn": [
-      "数学突破帖 414 分 692 评",
-      "LLMs reward expertise 热议 383 分",
-      "Cloudflare Kimi/GLM 部署帖 139分",
-      "Hoplite：云编码 agent 部署",
-      "A Chinese LLM attacked our lab",
-      "AI 生成新闻与考试事故引争议"
+      "LLMs reward expertise 491分",
+      "数学十突破帖 447分725评",
+      "OpenAI Astra 数学争议帖",
+      "LLMs Can't Jump 谈边界",
+      "中文 LLM 攻击实验室",
+      "Kimi/GLM 大规模运行热议"
     ],
-    "ai-hf": [
-      "MiniMax-H3 获 444 赞",
-      "但下载只有 2 次",
-      "Qwen3-VL 量化版获 93 赞",
-      "INT8 + ConvRot 改造受关注",
-      "两款热榜都绑定 ComfyUI",
-      "多模态本地工作流升温"
+    "ai-arxiv": [
+      "Control Under Compression 论文",
+      "可执行性门控技能选择",
+      "企业场景时间回放评测",
+      "医疗顺从性成因解析",
+      "LLM 评判会漏项",
+      "DeBERTa-Sentinel 更可信"
     ],
     "ai-community": [
-      "内容好坏怎么判成热门",
-      "Agent 边界失效成焦点",
-      "长任务 Context Debt",
-      "Token 成本优化指南",
-      "Approval 不能只看布尔值",
-      "RAG 准确率 38%→87%"
+      "Qwen3.8-Max GA 开发指南",
+      "DeepSeek V4 Flash 45 文件清空",
+      "AutoGPT/LangChain/CrewAI 对比",
+      "Staff Engineer 研究 AI 安全",
+      "同一图片 Bug 修了 6 次",
+      "NLP 分类实战登 Lobste.rs"
     ]
   },
   "en": {}

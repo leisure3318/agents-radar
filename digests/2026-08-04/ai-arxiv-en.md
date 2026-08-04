@@ -1,6 +1,6 @@
-# Hacker News AI Community Digest 2026-08-04
+# ArXiv AI Research Digest 2026-08-04
 
-> Source: [Hacker News](https://news.ycombinator.com/) | 30 stories | Generated: 2026-08-04 02:41 UTC
+> Source: [ArXiv](https://arxiv.org/) (cs.AI, cs.CL, cs.LG) | 39 papers | Generated: 2026-08-04 02:41 UTC
 
 ---
 
