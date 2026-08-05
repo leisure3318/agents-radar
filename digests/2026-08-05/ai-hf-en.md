@@ -1,6 +1,6 @@
 # Hugging Face Trending Models Digest 2026-08-05
 
-> Source: [Hugging Face Hub](https://huggingface.co/) | 3 models | Generated: 2026-08-05 00:58 UTC
+> Source: [Hugging Face Hub](https://huggingface.co/) | 0 models | Generated: 2026-08-05 02:39 UTC
 
 ---
 
