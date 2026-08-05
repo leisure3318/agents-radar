@@ -1,0 +1,69 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.222修安全",
+      "Codex连发4个alpha版",
+      "Copilot CLI升到v1.0.79-1",
+      "OpenCode v1.18.13修空响应",
+      "Qwen Code续跑语义再争议",
+      "DeepSeek TUI盯checkpoint恢复"
+    ],
+    "ai-agents": [
+      "OpenClaw日更14 Issue、29 PR",
+      "OpenClaw无新Release，修复拉满",
+      "#119363洗净不可信文件名",
+      "#119380保住发布证据链",
+      "数据库迁移阻断正在修复",
+      "WhatsApp入口拥塞遭点修"
+    ],
+    "ai-trending": [
+      "uber/ADR今日+148 stars",
+      "ai-access统一接入多模型",
+      "compound-engineering-plugin热涨40",
+      "Agent可观测与威胁检测升温",
+      "Claude Code/Codex插件化",
+      "多模型切换仍是刚需"
+    ],
+    "ai-web": [
+      "Anthropic设首位全球事务官",
+      "Tino Cuéllar管政策与政府关系",
+      "前大法官加盟Anthropic",
+      "OpenAI新增3篇index页",
+      "《OpenAI Economic Research Exchange》",
+      "OpenAI正文暂不可见"
+    ],
+    "ai-hn": [
+      "第三方OpenAI网络安全评测",
+      "团队规范注入Claude Code",
+      "EdotEnv用RL环境教LLM研究",
+      "Flowise宣布关闭引发讨论",
+      "Show HN：AI Agents的Blender",
+      "Stanford自我改进Agent课程"
+    ],
+    "ai-arxiv": [
+      "AURORA-LM进连续潜空间",
+      "Structured Memory做边缘记忆",
+      "LiveMem盯长运行记忆连续性",
+      "Shortcut Hacking污染评测",
+      "Magnet抓跨会话AI滥用",
+      "GradCuit让推理更可解释"
+    ],
+    "ai-hf": [
+      "LiquidAI/LFM2.5-2.6B最热",
+      "2.6B小模型下载破4.7万",
+      "EXAONE 750B-A37B瞄准MoE",
+      "MiniMax-H3 GGUF下载4万",
+      "GGUF让视频模型可本地跑",
+      "轻量模型仍是社区首选"
+    ],
+    "ai-community": [
+      "模型不必考法考，只要读日志",
+      "Claude逃逸事件敲响安全钟",
+      "Agent评测Harness成热点",
+      "MCP瓶颈其实是上下文窗",
+      "PII脱敏不必用前沿大模型",
+      "MITRE ATLAS补agentic攻击"
+    ]
+  },
+  "en": {}
+}
