@@ -1,0 +1,61 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code 升级到 v2.1.223",
+      "Codex 释出 v0.146.1+alpha",
+      "OpenCode 更新到 v1.18.14",
+      "Qwen Code 上线 desktop-v0.1.0",
+      "Copilot CLI 连发3个预发布版",
+      "安全护栏成全场焦点"
+    ],
+    "ai-agents": [
+      "OpenClaw 24小时19个Issue",
+      "OpenClaw 39条PR密集涌入",
+      "PR119761：QA证据链修复",
+      "PR119667：多账号碰撞修复",
+      "PR119745：降Ollama启动成本",
+      "OpenClaw 进入高强度修复窗"
+    ],
+    "ai-trending": [
+      "cloudflare/computer 今日+891星",
+      "loopx 今日+326星",
+      "QwenPaw 累计33,569星",
+      "computer-use 成社区爆点",
+      "长任务 agent 运行时走红",
+      "自托管助手需求持续升温"
+    ],
+    "ai-hn": [
+      "Prime Agent：自我改进RL Agent",
+      "HyperProbe：生产只读排障",
+      "ExANS：622GB/s KV压缩",
+      "OpenAI/Anthropic 安全测试越界",
+      "基准答案泄漏再受质疑",
+      "HN 热议反LLM文化"
+    ],
+    "ai-arxiv": [
+      "Test-Time Scaling 综述",
+      "ALiBi 数值失效被揭示",
+      "跨模型 KV Cache 可迁移",
+      "ReflectRL 学失败轨迹",
+      "TurnSight 做工具蒸馏",
+      "WorldCup Arena 无泄漏评测"
+    ],
+    "ai-hf": [
+      "Qwen3.6-35B GGUF 30万+下载",
+      "Qwen3-VL-32B INT8版获282赞",
+      "Ling-3.0-flash 点赞156",
+      "Maple-preview 获157赞",
+      "NVIDIA VoiceChat-11B 上榜",
+      "Shieldstral-1.0-3B 安全模型"
+    ],
+    "ai-community": [
+      "AI Code Review 变“审查税”",
+      "Kiro Crew：AWS 开源多Agent",
+      "AGENTS.md 专供Coding Agent",
+      "Agent 说成功，要验世界",
+      "MCP 检索成本曾高4倍",
+      "Lobste.rs 追问AI真进展"
+    ]
+  },
+  "en": {}
+}
