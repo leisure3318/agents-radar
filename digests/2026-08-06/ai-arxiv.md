@@ -1,117 +1,94 @@
 # ArXiv AI 研究日报 2026-08-06
 
-> 数据来源: [ArXiv](https://arxiv.org/) (cs.AI, cs.CL, cs.LG) | 共 50 篇论文 | 生成时间: 2026-08-06 00:58 UTC
+> 数据来源: [ArXiv](https://arxiv.org/) (cs.AI, cs.CL, cs.LG) | 共 50 篇论文 | 生成时间: 2026-08-06 02:41 UTC
 
 ---
 
-# ArXiv AI 研究日报
+# ArXiv AI 研究日报（2026-08-06）
 
 ## 1) 今日速览
-今天的论文明显围绕三个主线展开：**推理时算力如何更聪明地花**、**智能体如何在工具与长期任务中更稳地学习**、以及**面向真实场景的评估与基准**。一批工作从 test-time scaling、KV cache 复用、动态采样等角度提升效率，说明“同样参数下更强推理”仍是主战场。另一批工作聚焦工具增强、反思式训练、技能持续演化，表明 LLM 正从“会答题”转向“会做事”。同时，社交预测、直播赛事、医疗影像、地理推理、OCR 等新基准密集出现，反映出社区正在从静态排行榜转向更贴近真实世界的能力测量。
+今天的论文整体呈现出一个很明确的转向：AI 研究正在从“模型是否会做题”转向“模型是否可验证、可审计、可复现”。  
+一批工作聚焦于 LLM 的训练与对齐新范式，尤其是自蒸馏、思维链监控、推理压缩和评测可靠性。  
+另一批工作则把重心放到智能体系统：多智能体通信、代码库级理解、长期工作流记忆与工具选择诊断。  
+同时，医疗、航空、能源、足球等高风险或强约束场景明显增多，说明 AI 正加速进入“可部署、可问责”的应用阶段。
 
 ---
 
 ## 2) 重点论文
 
 ### 🧠 大语言模型（架构、训练、对齐、评估）
+- **[Revealed Rationality: Label-Free Evaluation and Regularization from Representation Theorems](http://arxiv.org/abs/2608.05015v1)**  
+  作者：I. Andrews  
+  —— 把决策理论中的表示定理引入 LLM 评估与正则化，尝试用“无标签”方式刻画模型是否足够理性，方法论价值很强。
 
-- **[Test-Time Scaling in Reasoning LLMs: Inference Regimes, Evaluation, and Reproducibility](http://arxiv.org/abs/2608.04001v1)**  
-  作者：Hariri et al.  
-  一句话：系统梳理推理模型的测试时扩展范式、评估方式与可复现性问题，是理解“推理时加算力”最重要的综述型工作之一。
+- **[Privileged, but Biased: How PI-Conditioned Teachers Break Self-Distillation](http://arxiv.org/abs/2608.04794v1)**  
+  作者：S. Harne et al.  
+  —— 揭示“带特权信息的老师模型”会给自蒸馏引入系统性偏差，是理解 SD/蒸馏训练失效机制的重要工作。
 
-- **[When Attention Goes Blind: Numerical Failure in ALiBi Positional Encodings](http://arxiv.org/abs/2608.03994v1)**  
-  作者：Schröder et al.  
-  一句话：揭示 ALiBi 因浮点下溢导致注意力权重大面积失效的数值 bug，对长上下文模型的稳定性非常关键。
-
-- **[Cross-Model KV Cache Transfer in LLM Families: A Closed-Form Linear Mapping for Prefill Reuse](http://arxiv.org/abs/2608.03893v1)**  
-  作者：Heo et al.  
-  一句话：提出模型家族间 KV cache 迁移的闭式线性映射，可直接减少换模、路由和级联推理的 prefill 成本。
-
-- **[ReflectRL: Learning from Golden Negative Trajectories via Reflective-to-Direct Reasoning](http://arxiv.org/abs/2608.03972v1)**  
-  作者：Bi et al.  
-  一句话：用“强模型失败轨迹”进行反思式训练，解决专家也会错时监督信号不足的问题，适合关注 RL 后训练的人读。
-
----
+- **[Chain-of-Thought Monitoring Can Be Unreliable in Implicit-Influence Settings](http://arxiv.org/abs/2608.04735v1)**  
+  作者：A. Duzan, A. C. Stickland  
+  —— 直接挑战“思维链可监控就更安全”的假设，指出在隐式影响场景下 CoT 监控可能失灵，安全意义很高。
 
 ### 🤖 智能体与推理（规划、工具使用、多智能体、思维链）
+- **[WorldCycle: Self-Verifiable Reinforcement Learning for Long-Horizon Video World Models](http://arxiv.org/abs/2608.04964v1)**  
+  作者：B. Gu et al.  
+  —— 面向长时序视频世界模型提出自验证 RL，试图突破“没有 ground truth 就难以训练”的瓶颈。
 
-- **[TurnSight: Turn-Level Hindsight Self-Distillation for Tool-Integrated Reasoning](http://arxiv.org/abs/2608.04007v1)**  
-  作者：Qu et al.  
-  一句话：把工具交互拆到 turn 级别做 hindsight 蒸馏，改善长链路任务中的细粒度信用分配。
+- **[Scrouting: Cost-Aware Routing of Coding Agents by Scouting the Repository First](http://arxiv.org/abs/2608.04804v1)**  
+  作者：I. Bhola et al.  
+  —— 先“侦察”代码仓库再路由到合适模型，解决代码智能体中“仅看 issue 文本就派单”的低效问题。
 
-- **[SocietyBench: Forecasting Counterfactual Social-World Evolution](http://arxiv.org/abs/2608.04009v1)**  
-  作者：Wang et al.  
-  一句话：把“社会世界如何演化”变成可评测任务，补上 LLM 在社会预测与反事实推演上的空白。
-
-- **[WorldCup Arena: Prospective, Leakage-Free Evaluation of Frontier LLMs on a Live Tournament](http://arxiv.org/abs/2608.04008v1)**  
-  作者：Wang et al.  
-  一句话：用世界杯直播赛事做前瞻式、无泄漏评测，方法论上比传统回溯式 benchmark 更可信。
-
-- **[ContinualSkillBench: Can LLM Agents Truly Evolve Their Capabilities?](http://arxiv.org/abs/2608.03874v1)**  
-  作者：Guan et al.  
-  一句话：直接检验智能体是否能持续积累并复用技能，是“长期自治 agent”能力评估的重要基准。
-
----
+- **[EviGraph: Evidence-Guided Autonomous Research Agents](http://arxiv.org/abs/2608.04738v1)**  
+  作者：Z. Ren et al.  
+  —— 让科研智能体围绕证据图谱生成假设、执行实验和写作，重点解决“结论有了但证据链不闭合”的问题。
 
 ### 🔧 方法与框架（新技术、基准测试、效率优化）
+- **[SciCode-Verified: How Benchmark Defects Underestimated the Scientific-Coding Ability of Language Models](http://arxiv.org/abs/2608.04975v1)**  
+  作者：S. Hu et al.  
+  —— 通过修正 SciCode 基准缺陷，说明过去对模型科学编程能力的评估可能被系统性低估，基准可信度很关键。
 
-- **[Interpretable Adaptive Sampling for LLM Test-Time Scaling](http://arxiv.org/abs/2608.03961v1)**  
-  作者：Kashaniyan, Jannesari  
-  一句话：让测试时采样预算随题目难度自适应分配，并解释为何要多采样，兼顾效率与可解释性。
+- **[A Chain Is Only as Strong as Its Weakest Link: A Scoping Review of System Integration Audits in AI](http://arxiv.org/abs/2608.04921v1)**  
+  作者：L. Davis et al.  
+  —— 从系统集成视角重构 AI 审计框架，强调“模型没问题不代表系统没风险”，非常适合安全/治理研究者关注。
 
-- **[SciRet: A Compute-Aware Empirical Study of Retrieval and Reranking for Scientific RAG](http://arxiv.org/abs/2608.03860v1)**  
-  作者：Anas Apurba et al.  
-  一句话：不是再造模型，而是系统比较科学 RAG 中检索、重排与算力规模的性价比，很适合做工程参考。
-
-- **[ADMITBench: A Safety-Governed Reference Framework for Evaluating the Admissibility of Industrial LLM Advisories](http://arxiv.org/abs/2608.03866v1)**  
-  作者：Misra et al.  
-  一句话：面向工业建议的安全治理型评测框架，强调“建议是否可采纳”而非仅仅“答得像不像”。
-
----
+- **[Fewer Tokens, Smaller Cache: Reward-Coordinated Efficient Reasoning](http://arxiv.org/abs/2608.04771v1)**  
+  作者：Q. Zhu et al.  
+  —— 用奖励协调中间推理长度与 KV cache 压缩，目标是降低长 CoT 带来的推理成本，同时尽量不损失效果。
 
 ### 📊 应用（垂直领域、多模态、代码生成）
+- **[From Score Matrices to Football-Aware Match-State Simulation: An Auditable LLM Harness for Exact-Score Reranking](http://arxiv.org/abs/2608.05030v1)**  
+  作者：S. Liang  
+  —— 将统计比分模型与 LLM 的战术上下文理解结合，用于精确比分重排序，属于“可审计体育预测”方向的代表作。
 
-- **[Video-DeepResearch: Towards the Next-Generation Multimodal Deepresearch Agent](http://arxiv.org/abs/2608.03979v1)**  
-  作者：Fang et al.  
-  一句话：把多模态深度研究智能体从静态图像推进到长视频流，针对时空定位与开放网页探索的结合做了新尝试。
+- **[Guideline-as-Oracle: Zero-Annotation Training of an Ophthalmic Telephone Triage Agent](http://arxiv.org/abs/2608.04772v1)**  
+  作者：C. Wang et al.  
+  —— 把眼科指南编译成可执行规则表，实现零标注训练电话分诊智能体，医疗落地价值和工程可迁移性都很强。
 
-- **[CARE-X: Towards Clinically Useful Radiology VLMs with Auxiliary Supervision, Reward-Aligned Learning, and Tool-Augmented Measurement](http://arxiv.org/abs/2608.03890v1)**  
-  作者：Ranjit et al.  
-  一句话：面向胸片临床可用性，兼顾分类、定位与测量，体现医疗 VLM 正从“会描述”走向“可用”。
-
-- **[MultiGlobeQA: A Multilingual and Globally Diverse Benchmark for Geospatial Reasoning](http://arxiv.org/abs/2608.03882v1)**  
-  作者：Böckling et al.  
-  一句话：覆盖多语言与全球地理场景，专门测 LLM 的距离、包含关系与空间推理能力。
-
-- **[Can Large Language Models Recover Semantic Optimization Opportunities That Compilers Miss?](http://arxiv.org/abs/2608.03983v1)**  
-  作者：Jiang et al.  
-  一句话：探索 LLM 是否能从 C/C++ 上下文中恢复编译器漏掉的优化语义，是“AI for systems”方向的代表性问题。
-
-- **[BanglaWild: An In-the-Wild Bengali Scene Text Recognition Benchmark for OCR and Vision-Language Models](http://arxiv.org/abs/2608.03884v1)**  
-  作者：Shiper et al.  
-  一句话：补齐孟加拉语自然场景文字识别的真实世界评测，适合关注低资源语言与 OCR/VLM 交叉的人。
+- **[Traceable LLM-Generated Hazard Scenarios for Operational Safety Analysis of Aviation Systems Using ASRS Reports](http://arxiv.org/abs/2608.04697v1)**  
+  作者：C. Mascia et al.  
+  —— 面向航空运行安全，从 ASRS 报告中生成可追溯危险场景，体现了 LLM 在高安全场景中的“辅助建模”潜力。
 
 ---
 
 ## 3) 研究趋势信号
-今天的投稿显示，LLM 研究正从“参数规模竞争”转向“**计算分配、推理效率和评测可信度**”三件事：一边是 test-time scaling、KV cache 复用、动态采样等效率方法，另一边是漏泄评测、社会预测、直播赛事等更难作弊的基准。同时，工具使用、技能持续演化、反思式训练等工作说明智能体研究开始重视**长期行为改进**而非单轮正确率。多模态与垂直行业应用也在加速落地，尤其医疗、视频、OCR 与代码优化场景最活跃。
+今日投稿最明显的信号是：LLM 研究正从“更大更强”转向“可验证、可审计、可复现”。一类工作聚焦自蒸馏、思维链、缓存压缩等训练与推理效率；另一类集中在多智能体、代码库、长期工作流中的记忆、检索与工具选择；同时，医疗、航空、能源等高风险场景的审计与合规化明显升温。
 
 ---
 
 ## 4) 值得精读
-1. **[Test-Time Scaling in Reasoning LLMs: Inference Regimes, Evaluation, and Reproducibility](http://arxiv.org/abs/2608.04001v1)**  
-   理由：它不是单点技巧，而是对整个 test-time scaling 生态的系统整理，适合把握领域共识与坑点。
+1. **[Chain-of-Thought Monitoring Can Be Unreliable in Implicit-Influence Settings](http://arxiv.org/abs/2608.04735v1)**  
+   理由：直接触及 AI 安全中的关键假设，结论对“用 CoT 做监控”的研究路线影响很大。
 
-2. **[TurnSight: Turn-Level Hindsight Self-Distillation for Tool-Integrated Reasoning](http://arxiv.org/abs/2608.04007v1)**  
-   理由：工具调用型智能体的核心难题就是信用分配，这篇正好打在问题中心，方法也具有较强可迁移性。
+2. **[Privileged, but Biased: How PI-Conditioned Teachers Break Self-Distillation](http://arxiv.org/abs/2608.04794v1)**  
+   理由：它揭示了一个很常见、但经常被忽视的训练偏差来源，对蒸馏与对齐方法设计很有参考价值。
 
-3. **[Video-DeepResearch: Towards the Next-Generation Multimodal Deepresearch Agent](http://arxiv.org/abs/2608.03979v1)**  
-   理由：把“研究型 agent”扩展到长视频，是一个很有代表性的多模态 agent 新方向，值得关注其任务设计与失败模式。
+3. **[EviGraph: Evidence-Guided Autonomous Research Agents](http://arxiv.org/abs/2608.04738v1)**  
+   理由：如果你关注科研智能体，这篇很值得读；它把“能产出”推进到“能自证”，是未来研究代理的重要方向。
 
-如果你愿意，我还可以把这份日报进一步整理成：
-- **适合公众号发布的版式**
-- **适合团队周会的 PPT 提纲**
-- **按“论文重要性 + 研究方向”打分的排行榜**
+如果你愿意，我还可以把这份日报再整理成：
+- **一页 PPT 风格版**
+- **投资/产业视角版**
+- **研究组晨会速读版**
 
 ---
 *本日报由 [agents-radar](https://github.com/leisure3318/agents-radar) 自动生成。*
