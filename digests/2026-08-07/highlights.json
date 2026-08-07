@@ -1,0 +1,61 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Codex 发布 rust-v0.147.0",
+      "Pi 升级到 v0.84.0",
+      "Qwen Code 连发三版",
+      "Claude Code 防误删 git reset",
+      "Copilot CLI 1.0.79-6 发布",
+      "Gemini CLI 附件冻结待修"
+    ],
+    "ai-agents": [
+      "OpenClaw 43 Issues、36 PR",
+      "无新版本，修复优先",
+      "关闭#120011 安全绕过推荐",
+      "关闭#119836 会话Key修复",
+      "#120059 修正/new字节统计",
+      "Gateway 重启健康误报"
+    ],
+    "ai-web": [
+      "OpenAI 今日新增3篇",
+      "ChatGPT 使用案例页上线",
+      "GPT-5.6 优化页曝光",
+      "OpenAI×APA 促责任AI",
+      "Anthropic 今日零新增",
+      "官网叙事聚焦产品与治理"
+    ],
+    "ai-hn": [
+      "HN 被 OpenAI 话题刷屏",
+      "Wallfacer 管 Claude Code 终端",
+      "mcp-use v2 重构 MCP",
+      "vLLM 内幕文获57分",
+      "B200 软件优化逼近 Cerebras",
+      "AI 接 911 电话引争议"
+    ],
+    "ai-arxiv": [
+      "Poli-Bias 测政治偏见",
+      "句法先验重做位置编码",
+      "免微调 token 级共写",
+      "LangChoiceBench 解析语言偏好",
+      "硬件 Keystore 护 Agent 签名",
+      "ECHO 本地健康助手上阵"
+    ],
+    "ai-hf": [
+      "MiniMax-H3 LoRA 点赞300",
+      "MiniMax-H3 ComfyUI 适配",
+      "MiniMax-H3 量化版下载27万",
+      "FLUX.1-dev 下载52万+",
+      "LFM2.5-2.6B-GGUF 热度稳",
+      "Qwen3-VL-32B 组件版上榜"
+    ],
+    "ai-community": [
+      "AI 重构管理：9个变化",
+      "Kiro Crew 一日实测",
+      "LLM Judge 评测有盲点",
+      "Agent 熔断模式现身",
+      "全链路追踪仍救不了事故",
+      "企业 RAG 先做范围设计"
+    ]
+  },
+  "en": {}
+}
