@@ -1,85 +1,42 @@
 # Hugging Face 热门模型日报 2026-08-07
 
-> 数据来源: [Hugging Face Hub](https://huggingface.co/) | 共 6 个模型 | 生成时间: 2026-08-07 01:52 UTC
+> 数据来源: [Hugging Face Hub](https://huggingface.co/) | 共 0 个模型 | 生成时间: 2026-08-07 02:44 UTC
 
 ---
 
 # Hugging Face 热门模型日报（2026-08-07）
 
-## 1) 今日速览
-今天的榜单明显被 **MiniMax-H3 视频生成家族** 刷屏：同一底座上同时出现了 LoRA、ComfyUI 适配和量化/转换版本，说明社区正在快速围绕热门视频模型做“可用化”和“工作流化”。  
-**FLUX.1-dev** 继续以高下载领跑，显示成熟图像生成底座依然有强劲的长期需求。  
-**LFM2.5-2.6B-GGUF** 则体现了本地部署与轻量推理的热度，GGUF 仍是社区最实用的分发形态之一。  
-整体来看，榜单几乎全部是开源权重或社区派生件，生态重心继续向 **可本地运行、可二次改造** 倾斜。
+> 注：你提供的当天热门模型榜单为空（共 0 个模型），因此以下日报基于“无上榜数据”生成；当前无法给出具体模型排名、作者、点赞数、下载数及链接。
 
----
+## 1) 今日速览
+- 今日 Hugging Face 热门模型榜单显示为 **0 个模型**，没有可用于排序和对比的上榜对象。  
+- 这通常意味着：当天榜单未更新、数据抓取失败，或热门页短暂无有效条目。  
+- 在缺少具体模型数据的情况下，无法判断 LLM、多模态、专用模型或量化微调哪一类最活跃。  
+- 建议结合前后日期的 Trending 页面，观察是否存在跨日延续上榜的模型家族。
 
 ## 2) 热门模型
 
 ### 🧠 语言模型（LLM、对话模型、指令微调）
-- [LiquidAI/LFM2.5-2.6B-GGUF](https://huggingface.co/LiquidAI/LFM2.5-2.6B-GGUF)  
-  作者：LiquidAI｜点赞：125｜下载：12,790  
-  一句话说明：一个 2.6B 级别的 GGUF 量化语言模型，主打 llama.cpp / 本地推理，能上榜说明“轻量、可部署”的 LLM 仍有稳定关注。
+- **暂无上榜模型**
 
 ### 🎨 多模态与生成（图像、视频、音频、文本到X）
-- [larryvrh/MiniMax-H3-Turbo-Lora](https://huggingface.co/larryvrh/MiniMax-H3-Turbo-Lora)  
-  作者：larryvrh｜点赞：300｜下载：0  
-  一句话说明：MiniMax-H3 Turbo 的 LoRA 适配器，代表社区正在围绕视频/音频生成底座做快速定制，点赞高但下载低，偏“热议型”新件。
-
-- [drbaph/MiniMax-H3-Turbo-Lora-ComfyUI](https://huggingface.co/drbaph/MiniMax-H3-Turbo-Lora-ComfyUI)  
-  作者：drbaph｜点赞：118｜下载：0  
-  一句话说明：面向 ComfyUI 的 MiniMax-H3 LoRA 工作流组件，说明热门模型的竞争已从“模型本体”转向“可接入的生态插件”。
-
-- [Abiray/Minimax-H3-nvfp4-INT4-INT8-Convrot](https://huggingface.co/Abiray/Minimax-H3-nvfp4-INT4-INT8-Convrot)  
-  作者：Abiray｜点赞：109｜下载：272,963  
-  一句话说明：MiniMax-H3 的量化/转换版，支持视频相关工作流；高下载表明它是“能直接用”的落地版本，传播效率很高。
-
-- [black-forest-labs/FLUX.1-dev](https://huggingface.co/black-forest-labs/FLUX.1-dev)  
-  作者：black-forest-labs｜点赞：14,010｜下载：523,234  
-  一句话说明：成熟的文本到图像基础模型，依旧是图像生成生态里的高频选择，下载量极高说明其仍是事实标准之一。
+- **暂无上榜模型**
 
 ### 🔧 专用模型（代码、数学、医疗、嵌入）
-- [sakamakismile/Qwen3-VL-32B-Heretic-MiniMax-H3-NVFP4](https://huggingface.co/sakamakismile/Qwen3-VL-32B-Heretic-MiniMax-H3-NVFP4)  
-  作者：sakamakismile｜点赞：108｜下载：0  
-  一句话说明：偏 ComfyUI / 视觉语言链路的 NVFP4 组件型模型，虽然不属于典型代码/医学类，但属于很明显的“专用组件”路线。
+- **暂无上榜模型**
 
 ### 📦 微调与量化（社区微调、GGUF、AWQ）
-- [LiquidAI/LFM2.5-2.6B-GGUF](https://huggingface.co/LiquidAI/LFM2.5-2.6B-GGUF)  
-  作者：LiquidAI｜点赞：125｜下载：12,790  
-  一句话说明：GGUF 让小参数 LLM 更容易被本地用户采用，是本日最典型的量化分发模型。
-
-- [larryvrh/MiniMax-H3-Turbo-Lora](https://huggingface.co/larryvrh/MiniMax-H3-Turbo-Lora)  
-  作者：larryvrh｜点赞：300｜下载：0  
-  一句话说明：LoRA 微调件，体现社区对同一底座“快速试验、快速扩展”的偏好。
-
-- [drbaph/MiniMax-H3-Turbo-Lora-ComfyUI](https://huggingface.co/drbaph/MiniMax-H3-Turbo-Lora-ComfyUI)  
-  作者：drbaph｜点赞：118｜下载：0  
-  一句话说明：把 LoRA 适配到 ComfyUI 的工作流组件，属于典型的“微调 + 工程化封装”。
-
-- [Abiray/Minimax-H3-nvfp4-INT4-INT8-Convrot](https://huggingface.co/Abiray/Minimax-H3-nvfp4-INT4-INT8-Convrot)  
-  作者：Abiray｜点赞：109｜下载：272,963  
-  一句话说明：NVFP4 / INT4 / INT8 多规格量化与转换版，强调部署兼容性，是最典型的可用性导向产物。
-
-- [sakamakismile/Qwen3-VL-32B-Heretic-MiniMax-H3-NVFP4](https://huggingface.co/sakamakismile/Qwen3-VL-32B-Heretic-MiniMax-H3-NVFP4)  
-  作者：sakamakismile｜点赞：108｜下载：0  
-  一句话说明：专用量化组件，说明视觉语言链路也在向轻量化、本地化迁移。
-
----
+- **暂无上榜模型**
 
 ## 3) 生态信号
-本周最强势的是 **MiniMax-H3 家族**，同一底座衍生出 LoRA、ComfyUI 适配与 NVFP4/INT4/INT8 量化件，显示视频生成正在快速组件化。**FLUX.1-dev** 仍是图像生成高下载基座，说明成熟开源底座的生命周期很长。榜单整体几乎没有闭源 API 型模型，更多是开源权重与社区派生件，量化、LoRA、工作流封装成为最活跃的创新方向。
-
----
+今日榜单为空，无法从点赞与下载数据中提炼家族势头、开源/闭源偏好或量化/微调活跃度。从数据层面看，这更像是一次“不可观测状态”而非明确的生态趋势；若连续多日出现空榜，需优先排查榜单接口、抓取逻辑或页面更新延迟。若后续恢复正常，重点应关注是否有同一底座模型衍生出大量社区微调、GGUF/AWQ 量化版本，以及多模态模型是否继续抢占热度。
 
 ## 4) 值得探索
-1. **[black-forest-labs/FLUX.1-dev](https://huggingface.co/black-forest-labs/FLUX.1-dev)**  
-   下载量最高，适合观察当前图像生成主流能力边界。
+- **暂无可推荐模型**：由于今日榜单为空，无法基于热度数据筛选出最值得尝试的具体模型。  
+- **建议优先回看前后日期榜单**：若存在连续上榜模型，通常更能反映真实生态趋势。  
+- **可重点观察热门家族的衍生微调/量化版本**：这类模型往往最能体现社区活跃度与落地需求。
 
-2. **[Abiray/Minimax-H3-nvfp4-INT4-INT8-Convrot](https://huggingface.co/Abiray/Minimax-H3-nvfp4-INT4-INT8-Convrot)**  
-   兼顾热度和落地性，适合研究视频生成模型的量化部署路径。
-
-3. **[LiquidAI/LFM2.5-2.6B-GGUF](https://huggingface.co/LiquidAI/LFM2.5-2.6B-GGUF)**  
-   小参数、GGUF、本地推理，适合关注边缘部署与轻量 LLM 生态。
+如果你愿意，我也可以在你提供“上一日/下一日热门模型列表”后，直接补成一版完整的可发布日报。
 
 ---
 *本日报由 [agents-radar](https://github.com/leisure3318/agents-radar) 自动生成。*

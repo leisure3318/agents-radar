@@ -1,14 +1,17 @@
 # ArXiv AI 研究日报 2026-08-07
 
-> 数据来源: [ArXiv](https://arxiv.org/) (cs.AI, cs.CL, cs.LG) | 共 50 篇论文 | 生成时间: 2026-08-07 01:52 UTC
+> 数据来源: [ArXiv](https://arxiv.org/) (cs.AI, cs.CL, cs.LG) | 共 27 篇论文 | 生成时间: 2026-08-07 02:44 UTC
 
 ---
 
 # ArXiv AI 研究日报（2026-08-07）
 
 ## 1) 今日速览
-今天的投稿整体呈现出一个非常清晰的趋势：AI 研究正在从“单纯追求更强模型”转向“更可控、更可评估、更可部署”。一方面，LLM 的偏见测量、语言选择、语法先验、个性化生成等评估与对齐问题持续升温；另一方面，智能体系统开始真正走向工程化，安全签名、医院级平台、长期记忆与护栏成为核心议题。  
-与此同时，方法论论文明显增多，尤其是局部置信估计、后训练适配、时序检索增强和气象/临床等高价值场景的专用建模。总体来看，今天的亮点不是“更大”，而是“更稳、更安全、更能落地”。
+今天的投稿整体呈现出一个非常清晰的信号：**AI 研究正在从“模型会不会做题”转向“模型是否真的可靠地完成任务”**。  
+一方面，关于 **智能体工具使用、历史鲁棒性、搜索与检索奖励审计** 的论文明显增多，说明研究重点已从单步推理扩展到多步交互的真实失败模式。  
+另一方面，**评估基准的空白** 成为热门议题，研究者开始系统质疑现有 benchmark 是否真的测到了模态、搜索、引用与安全性。  
+同时，多个工作把“可验证反馈”进一步做实：从 RLVR、自蒸馏，到 world rehearsal、proof-of-retrieval audit，体现出 **过程级监督与可审计性** 正在成为新主线。  
+应用层面则继续向 **视觉编辑、文档解析、代码 agent、金融 agent、3D 场景生成** 等高价值垂直场景下沉。
 
 ---
 
@@ -16,85 +19,119 @@
 
 ### 🧠 大语言模型（架构、训练、对齐、评估）
 
-- [Poli-Bias: Understanding and Measuring Large Language Model Biases in International Political Conflicts](http://arxiv.org/abs/2608.06123v1)  
-  作者：Abboud et al.  
-  一句话说明：提出面向国际政治冲突的反事实偏见测量框架，能更细粒度地揭示 LLM 在立场、法理与叙事 framing 上的系统性偏差，适合做模型治理基准。
+- **[DASH: Divergence-Adaptive Supervision Horizons for On-Policy Self-Distillation of Reasoning Models](http://arxiv.org/abs/2608.06243v1)**  
+  作者：ZhiYan Hou 等  
+  一句话说明：提出自蒸馏中“监督视野”随策略偏离自适应调整的机制，直接瞄准 RLVR/自蒸馏训练中稀疏反馈与分布漂移的核心痛点。
 
-- [Beyond Sequence Order: Syntax-Informed Positional Embeddings for Transformers](http://arxiv.org/abs/2608.06111v1)  
-  作者：Riaz et al.  
-  一句话说明：把句法结构引入位置编码，试图突破 Transformer 只建模线性顺序的局限，是一种有望广泛迁移到 NLP 的轻量结构先验。
+- **[What Current AI Benchmarks Leave Unmeasured: Modality, Search, Citations, and Implications (for Safety Evaluations)](http://arxiv.org/abs/2608.06202v1)**  
+  作者：Ro Encarnación 等  
+  一句话说明：系统审视现有 benchmark 的测量盲区，尤其是模态、搜索、引用与多次运行稳定性，值得作为“评估评估”的方法论文精读。
 
-- [Training-Free Token-Level Steering for LLM Personalized Co-Writing](http://arxiv.org/abs/2608.06069v1)  
-  作者：Mao et al.  
-  一句话说明：无需微调即可实现 token 级个性化引导，为“低成本、快速更新、细粒度控制”的个性化写作提供了实用路径。
+- **[Mind the Gaps: Mixture-of-Minds for Human Simulation](http://arxiv.org/abs/2608.06115v1)**  
+  作者：Pranav Dahiya  
+  一句话说明：讨论 LLM 作为“人类模拟器”时对个体差异的压平问题，强调群体均值与个体异质性的鸿沟，是社会模拟方向的重要反思。
 
-- [LangChoiceBench: Measuring and Explaining Programming-Language Choice in LLMs](http://arxiv.org/abs/2608.06041v1)  
-  作者：Twist et al.  
-  一句话说明：首次系统评估 LLM 在项目级代码生成中为何偏爱某些语言，适合用于代码模型的行为诊断与可解释性分析。
+- **[Reducing belief in conspiracy theories as they unfold using large language models](http://arxiv.org/abs/2608.06151v1)**  
+  作者：Thomas H. Costello 等  
+  一句话说明：把 LLM 用作实时干预工具，验证其在谣言/阴谋论生成过程中降低信念的能力，兼具对齐与社会影响研究价值。
+
+---
 
 ### 🤖 智能体与推理（规划、工具使用、多智能体、思维链）
 
-- [Hardware Keystores for AI Agent Signing Workflows: A Zero-Trust MCP Enforcement Architecture](http://arxiv.org/abs/2608.06130v1)  
-  作者：Sambrook & Sovio  
-  一句话说明：针对 AI agent 进行签名、认证等关键操作的密钥泄露风险，提出零信任硬件 keystore 架构，直接命中“可用但不安全”的落地痛点。
+- **[EnvACE: Internalizing Environment Dynamics via World Rehearsal for Agentic Reinforcement Learning](http://arxiv.org/abs/2608.06197v1)**  
+  作者：Zishan Xu 等  
+  一句话说明：通过“world rehearsal”把环境动态内化到 agent 学习中，减少对昂贵可执行环境的依赖，面向长程工具使用很有代表性。
 
-- [AgentOPSD: Recursive Self-Distillation for Agentic Reinforcement Learning](http://arxiv.org/abs/2608.05987v1)  
-  作者：Wang et al.  
-  一句话说明：通过递归式自蒸馏改善长链路智能体任务中的信用分配问题，适合长时序、多轮决策型 agent 训练。
+- **[Comparative Approaches to Agent Retrieval over Large Skill Libraries](http://arxiv.org/abs/2608.06196v1)**  
+  作者：Indivara Kolluru, Nathan Sportsman  
+  一句话说明：研究大规模 skill library 的检索与编排策略，解决“加载哪些技能、按什么顺序加载”的 agent 基础设施问题。
 
-- [ECHO: A Locally-Deployable Agentic Health Assistant with Temporal Memory, Safety Guardrails, and Speech Assessment](http://arxiv.org/abs/2608.06110v1)  
-  作者：Külçe et al.  
-  一句话说明：把长期记忆、安全护栏与语音评估集成到可本地部署的健康助手中，展示了医疗场景 agent 从 demo 走向系统化产品的路径。
+- **[When History Lies: Evaluating and Improving Tool Use under Misleading Multi-Turn Histories](http://arxiv.org/abs/2608.06057v1)**  
+  作者：Xiaoqing Wu 等  
+  一句话说明：揭示多轮历史中“结构上合理但语义已过期”的轨迹会误导工具调用策略，是工具 agent 鲁棒性的重要补丁方向。
+
+- **[HERALD: Counterfactual Audits and Minimal Repairs for Proof-of-Retrieval Rewards](http://arxiv.org/abs/2608.06012v1)**  
+  作者：Zhuowen Liu 等  
+  一句话说明：提出对检索证据奖励进行反事实审计与最小修复，直接针对 search agent 中“高分不等于真检索”的奖励黑盒问题。
+
+- **[Contextual Information Policy Optimization for Search Agents](http://arxiv.org/abs/2608.06128v1)**  
+  作者：Xingyu Guo 等  
+  一句话说明：把搜索过程中的上下文信息纳入策略优化，强调 agent 的可靠性不仅取决于检索，还取决于如何利用证据。
+
+- **[Learning Globally Reusable Skills for Coding Agents](http://arxiv.org/abs/2608.06153v1)**  
+  作者：Chen Yang 等  
+  一句话说明：关注 coding agent 的技能进化是否能跨任务复用，核心价值在于从“局部改进”走向“全局技能库”的可迁移学习。
+
+---
 
 ### 🔧 方法与框架（新技术、基准测试、效率优化）
 
-- [Beyond Marginal Validity: Finite-Sample Guarantees for Localized Conformal Prediction](http://arxiv.org/abs/2608.06206v1)  
-  作者：Conrad et al.  
-  一句话说明：在保持有限样本保证的前提下增强局部校准能力，直接回应“边际有效但局部失准”的老问题。
+- **[The Illusion of Visual Tool-Use: A Causal Audit of Thinking with Images](http://arxiv.org/abs/2608.06270v1)**  
+  作者：Zhiheng Wang 等  
+  一句话说明：对“边看边想”的视觉工具使用进行因果审计，指出 crop/zoom 等操作常带来高 token 成本却几乎无收益，直击当前多模态推理热潮的泡沫问题。
 
-- [A Six-Dimensional Taxonomy of Post-Training Adaptation Techniques with Applications in AI Governance](http://arxiv.org/abs/2608.06246v1)  
-  作者：Afdideh et al.  
-  一句话说明：从治理视角重构后训练适配技术版图，有助于统一理解 fine-tuning、editing、unlearning、RAG、calibration 等方法。
+- **[PRISM: Distribution-Gated Flow Matching for Controllable Unpaired Image Translation](http://arxiv.org/abs/2608.06240v1)**  
+  作者：Elad Yoshai, Natan T. Shaked  
+  一句话说明：用分布门控的 flow matching 做无配对图像翻译，强调按图像自适应控制“保留什么、改变什么”，方法设计较新。
 
-- [TS-RAG: Retrieval Augmented Generation for Time Series Forecasting](http://arxiv.org/abs/2608.06223v1)  
-  作者：Xiao et al.  
-  一句话说明：把 RAG 引入时间序列预测，试图缓解纯 Transformer 在稀疏历史模式上的泛化不足，属于很有潜力的跨域方法迁移。
+- **[PaDoc: Layout-Grounded Parallel Decoding for Document Parsing](http://arxiv.org/abs/2608.06146v1)**  
+  作者：Hao Yu 等  
+  一句话说明：通过布局约束实现文档解析的并行解码，缓解自回归序列过长问题，对长文档理解和结构化抽取很实用。
 
-- [Timestep-Conditioned Transformers for Global Weather Forecasting](http://arxiv.org/abs/2608.06241v1)  
-  作者：Levang et al.  
-  一句话说明：通过可变时间步建模全球天气预测中的误差累积与动态分辨率问题，对气象预测这类长滚动任务很关键。
+- **[MicroEvo: Knowledge-Guided LLM Sampling for Efficient Microarchitecture Design Space Exploration](http://arxiv.org/abs/2608.06183v1)**  
+  作者：Jia Xiong 等  
+  一句话说明：将知识引导的 LLM 采样用于芯片微架构探索，试图在有限仿真预算下提高设计搜索效率，属于“LLM+EDA”交叉方向。
+
+- **[OPERA: Operator-residual feedback for reliable autonomous optical experiments with language-model agents](http://arxiv.org/abs/2608.05990v1)**  
+  作者：Ning Xu 等  
+  一句话说明：把实验动作表示为物理算子，并用残差反馈衡量实验成败，为科研自动化提供了可解释、可闭环的框架。
+
+---
 
 ### 📊 应用（垂直领域、多模态、代码生成）
 
-- [Decolonizing Linguistic Policies in Automated Speech Recognition: A Framework for Cross-Culturally Competent Speech AI](http://arxiv.org/abs/2608.06141v1)  
-  作者：Cunningham et al.  
-  一句话说明：把 ASR 的低资源/非标准语言失败提升到“技术+政策”双重议题，强调跨文化能力与公平性，而不只是 WER。
+- **[Visual Grounding in Zero-Shot Vision-Language Control](http://arxiv.org/abs/2608.06154v1)**  
+  作者：J. de Curtò 等  
+  一句话说明：检验 VLM 作为零样本控制器时是否真的“看懂”了视觉输入，重点区分了成功轨迹与真实 grounding 之间的差距。
 
-- [Clinical Communication Processing with Models Trained on LLM-Generated Synthetic Data: A Structured Survey and Novel Application Case Studies](http://arxiv.org/abs/2608.05993v1)  
-  作者：Apartsin & Aperstein  
-  一句话说明：聚焦临床沟通这一“非结构化但高价值”的数据源，并系统讨论 LLM 合成数据在该领域的可用性与风险。
+- **[Domain-Grounded Candidate Selection for Agentic Image Editing: A Shadow Removal Case](http://arxiv.org/abs/2608.06075v1)**  
+  作者：Shilin Hu 等  
+  一句话说明：以去阴影为例讨论 agentic 图像编辑中的候选选择问题，体现出把通用视觉先验与物理约束结合的趋势。
+
+- **[Depth-Guided Video Object Counting in Crowded Scenes](http://arxiv.org/abs/2608.06236v1)**  
+  作者：Yuanjing Xu 等  
+  一句话说明：将深度信息引入拥挤场景视频计数，提升遮挡环境下的可分辨性，属于典型的多模态感知增强工作。
+
+- **[Audio-to-Score Transcription using Pre-trained Features, Data Augmentation, and the New SheetSage-A2S Dataset](http://arxiv.org/abs/2608.06165v1)**  
+  作者：Eoin Cummins 等  
+  一句话说明：发布新的音频到乐谱数据集并结合预训练特征与增强策略，推进流行音乐转录这一长期难题。
+
+- **[Toward Deployable Bangla Sign Language Recognition with Expert-Validated Data and a Lightweight Attention-Based Model](http://arxiv.org/abs/2608.06252v1)**  
+  作者：Saad Ahmed, Md Khalid Syfullaha  
+  一句话说明：面向可部署的孟加拉手语识别，强调专家验证数据与轻量模型，具有明确的社会应用价值。
 
 ---
 
 ## 3) 研究趋势信号
-今日论文明显呈现三条主线：一是从“模型能力”转向“可验证、可治理”，如偏见测量、局部置信、后训练适配分类；二是智能体基础设施快速补齐，涵盖密钥保护、医院平台、长期记忆与安全护栏；三是领域模型继续下沉到气象、临床、语音、时间序列等高价值场景，并更强调检索、结构先验与跨模态融合。
+今天最强的趋势不是单纯“更大模型”，而是 **更可审计、更可验证、更贴近真实交互过程的智能体研究**：包括工具使用中的历史污染、搜索奖励的伪相关、视觉操作的真实收益、以及 benchmark 未覆盖的模态与引用维度。与此同时，越来越多工作尝试把环境、证据和实验结果“内化”为可训练信号，说明 **过程监督、反事实审计与可解释反馈** 正在成为 AI 进入真实场景的关键基础设施。
 
 ---
 
 ## 4) 值得精读
+1. **[The Illusion of Visual Tool-Use: A Causal Audit of Thinking with Images](http://arxiv.org/abs/2608.06270v1)**  
+   理由：它不是简单报告“某方法不好”，而是用因果审计拆解视觉工具使用的真实收益，能帮助判断多模态推理的方向是否被高估。
 
-1. [Beyond Marginal Validity: Finite-Sample Guarantees for Localized Conformal Prediction](http://arxiv.org/abs/2608.06206v1)  
-   **理由**：这是“理论保证 + 实际可用性”兼顾的代表作，适合想理解可靠不确定性估计下一步怎么走的读者。
+2. **[What Current AI Benchmarks Leave Unmeasured: Modality, Search, Citations, and Implications (for Safety Evaluations)](http://arxiv.org/abs/2608.06202v1)**  
+   理由：这篇很适合做“评估方法论”参考，直接指出当前 benchmark 对安全、可靠性与部署准备度的测量缺口。
 
-2. [Hardware Keystores for AI Agent Signing Workflows: A Zero-Trust MCP Enforcement Architecture](http://arxiv.org/abs/2608.06130v1)  
-   **理由**：非常贴近 agent 落地中的真实安全问题，既有系统设计价值，也有立即可应用的工程参考意义。
+3. **[HERALD: Counterfactual Audits and Minimal Repairs for Proof-of-Retrieval Rewards](http://arxiv.org/abs/2608.06012v1)**  
+   理由：它抓住了 search agent 最常见的结构性问题——高分不等于真检索——并给出可操作的审计与修复框架，实用性很强。
 
-3. [Beyond Sequence Order: Syntax-Informed Positional Embeddings for Transformers](http://arxiv.org/abs/2608.06111v1)  
-   **理由**：如果你关注 Transformer 的结构归纳偏置，这篇可能有较强的通用影响力，值得看它如何把句法注入位置表示。
-
---- 
-
-如果你愿意，我还可以把这 50 篇再进一步整理成：**“按重要性排序的 Top 10”**、**“适合组会汇报的 5 篇”**，或者**“按研究方向（LLM/Agent/医疗/时序/安全）分组的详细版”**。
+如果你愿意，我还可以继续把这份日报整理成：
+- **适合发公众号的精简版**
+- **适合团队晨会的 1 页 PPT 版**
+- **按“LLM / Agent / 多模态 / 评估”做成表格版**
 
 ---
 *本日报由 [agents-radar](https://github.com/leisure3318/agents-radar) 自动生成。*
