@@ -1,68 +1,68 @@
 {
   "zh": {
     "ai-cli": [
-      "Claude Code 升到 v2.1.224",
-      "OpenAI Codex：10 Issue+10 PR",
-      "OpenCode v1.18.15 上线",
-      "Pi v0.84.1 更新",
-      "Copilot CLI 连发3个版本",
-      "会话同步成共识焦点"
+      "Claude Code 推出 v2.1.225",
+      "Claude Code 12 个 Issue 爆发",
+      "OpenAI Codex 上线 alpha.4",
+      "OpenCode 5 个 PR 并进",
+      "Qwen Code nightly 连发 4 PR",
+      "权限治理成共同焦点"
     ],
     "ai-agents": [
-      "OpenClaw：20 Issue、38 PR",
-      "为2026.8.1发布做硬化",
-      "发布验证修复：run URL不丢",
-      "active-run 准入改原子",
-      "聊天活动UI更清爽",
-      "重点修复鉴权与丢消息"
+      "OpenClaw 24 小时 19 Issue 21 PR",
+      "OpenClaw 今日无新版本",
+      "warm session 与审批被保留",
+      "embedded run registry lint 修复",
+      "run 生命周期测试被拆分",
+      "工具参数回传问题在修复"
     ],
     "ai-trending": [
-      "prime-agent 暴涨 +2293⭐",
-      "google/skills +327⭐",
-      "MiroFish +141⭐",
-      "semantica +122⭐",
-      "swarm-forge +81⭐",
-      "Agent化和工具层爆发"
+      "prime-agent 今日暴涨 +2293",
+      "google/skills 获 +327 stars",
+      "MiroFish 今日新增 +141 stars",
+      "semantica 获 +122 stars",
+      "swarm-forge 增长 +81 stars",
+      "Agent 化成为今日主线"
     ],
     "ai-web": [
-      "Anthropic发Fable 5安全更新",
-      "生物相关fallback降85%",
-      "健康/教育场景更可用",
-      "高风险研究仍回退Opus 5",
-      "virology/toxicology仍受限",
-      "OpenAI今日0篇新增"
+      "Claude Fable 5 生物护栏更新",
+      "生物相关 fallback 降 85%",
+      "健康教育场景更可用",
+      "高风险领域仍回退 Opus 5",
+      "Anthropic 今日仅新增 1 篇",
+      "OpenAI 今日无新增内容"
     ],
     "ai-hn": [
-      "OpenAI cyber帖 144分165评",
-      "Claude Code 8/14起默认自动模式",
-      "Kimi K3曝sandbox escape",
-      "Remembrane：单SQLite记忆",
-      "OpenAI训练期协调exploit",
-      "社区聚焦安全、权限与滥用"
+      "OpenAI cyber 话题登顶",
+      "HN 聚焦 AI 滥用与治理",
+      "Fable 5 生物护栏受关注",
+      "Kimi K3 沙箱逃逸引警惕",
+      "Gödel/Turing 边界讨论回潮",
+      "Claude Code 相关话题升温"
     ],
     "ai-arxiv": [
-      "选择性信任上下文优化",
-      "工具调用正走向脚本化",
-      "HarnessOpt-Bench评harness",
-      "无监督 on-policy 自蒸馏",
-      "RRC重构生成式奖励",
-      "TRAJDEBUG追踪长程失误"
+      "MACRO 学习 Transformer 动态路由",
+      "因果记忆驱动 Agent 修复",
+      "Unified Agent 管理跨设备交互",
+      "AppDeltaWorld 面向移动 GUI",
+      "LLM-as-a-Judge 偏差可校正",
+      "潜在提示恢复可检出机器文"
     ],
     "ai-hf": [
-      "Minimax-h3-Turbo 126赞",
-      "PinkCherry_MiniMax-H3 112赞",
-      "Kijai/MiniMax-H3_comfy 105赞",
-      "榜单被MiniMax-H3系包揽",
-      "i2v/t2v/r2v三路齐热",
-      "ComfyUI适配最吃香"
+      "MiniMax-H3-experimental 登顶",
+      "106 赞但下载数为 0",
+      "实验性模型而非成品",
+      "疑似 MiniMax-H3 系列预热",
+      "开放权重与推理方式未明",
+      "榜单今天只有 1 个模型"
     ],
     "ai-community": [
-      "Agent观测不是探测器问题",
-      "Agent沙箱隔离成必修课",
-      "Kiro cron省下4小时周工",
-      "AI写50次测试仍碰边界",
-      "训练数据会悄悄说谎",
-      "仪表盘全绿，Agent在胡编"
+      "MCP 工具返回值做了 72 次实测",
+      "Agent 框架未必适合自动化",
+      "AI 开发别变维护噩梦",
+      "Spring Boot Agent 免 LLM 测试",
+      "AI 编码代理接入 CI 自修复",
+      "ROS2 机器人从仿真到现实"
     ]
   },
   "en": {}
