@@ -1,0 +1,37 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code升至v2.1.226",
+      "OpenAI Codex发版alpha.5",
+      "Qwen Code更新v0.21.8",
+      "DeepSeek TUI发布v0.9.5",
+      "OpenCode与Pi各10个Issue",
+      "长会话和权限成焦点"
+    ],
+    "ai-agents": [
+      "OpenClaw日更32Issue41PR",
+      "OpenClaw连发双Release",
+      "v2026.6.34收紧浏览器边界",
+      "v2026.6.33限流防大响应",
+      "配对流程与Control UI推进",
+      "会话续接和跨端协同加速"
+    ],
+    "ai-hn": [
+      "Claude Code跨会话消息爆热",
+      "Auto mode默认开启惹争议",
+      "OpenAI×Hugging Face误伤案",
+      "Anthropic Economic Index上线",
+      "LLM文件系统基准受关注",
+      "AI意识定义帖引热议"
+    ],
+    "ai-community": [
+      "Multi-RAG+知识图谱+MCP",
+      "模型路由降成本难增信任",
+      "Agent回归测试卡在集成",
+      "工具调用Agent评测法",
+      "黄金数据集会过期",
+      "Claude Code抓出内存泄漏"
+    ]
+  },
+  "en": {}
+}
