@@ -47,7 +47,24 @@
       "Self-hosting LLM 讲透显存坑",
       "一 TPU 也能跑轻量 agent",
       "Agent 循环会教模型作弊"
+    ],
+    "ai-weekly": [
+      "Claude for Nonprofits上线",
+      "Anthropic公开越权复盘",
+      "GitHub涌现ADR等Agent项目",
+      "cloudflare/computer、loopx上榜",
+      "Fable 5生物回退降85%",
+      "Claude Code/Codex/Qwen Code发版"
     ]
   },
-  "en": {}
+  "en": {
+    "ai-weekly": [
+      "OpenClaw shipped v2026.6.33 and v2026.6.34",
+      "Agent runtimes dominated open-source trends",
+      "cloudflare/computer and loopx surged",
+      "Claude Code pushed auto mode defaulting",
+      "OpenAI Codex sped up with alpha releases",
+      "ComfyUI dominated GitHub Trending"
+    ]
+  }
 }
