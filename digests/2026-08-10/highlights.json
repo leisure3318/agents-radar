@@ -1,0 +1,53 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Gemini CLI 发布 Nightly v0.56.0",
+      "Qwen Code Nightly 升至 v0.21.8",
+      "Claude Code 与 Codex 各 10 条 Issue",
+      "OpenCode 今日 PR 直接拉满 10 个",
+      "长会话与恢复成跨项目焦点",
+      "多 Agent、MCP、安全议题升温"
+    ],
+    "ai-agents": [
+      "OpenClaw 24h 内 20 Issue、52 PR",
+      "Android Talk 契约漂移已修复",
+      "transcript 写入不再全量扫缓存",
+      "internal turns 线程保持补齐",
+      "sqlite 同步 fence 强化一致性",
+      "Control UI 高危操作加确认"
+    ],
+    "ai-trending": [
+      "ComfyUI 今日暴涨 +365 Stars",
+      "code-graph-rag 斩获 +96 Stars",
+      "weathernext 冲上 +86 Stars",
+      "harvey-labs 聚焦 Agent 评测",
+      "4/4 Trending 全是 AI 仓库",
+      "热点集中在可视化与 RAG"
+    ],
+    "ai-hn": [
+      "LLM 学复杂主题成今日头帖",
+      "Claude Code 自动模式默认开启",
+      "Muse Code 默认把指令发给 Meta",
+      "Self Hosting Coding LLMs 受关注",
+      "Qwen 3.8 与 Opus 5 引热议",
+      "ByteDance 10T 参数模型曝光"
+    ],
+    "ai-hf": [
+      "BigBang-v1 以 125 赞登榜",
+      "Mach-1-Additive-35B 获 104 赞",
+      "BigBang-v1 主打图文对话",
+      "Mach-1-Additive-35B 玩 ternary",
+      "Qwen3.5-MoE 生态继续领跑",
+      "榜单聚焦多模态与效率研究"
+    ],
+    "ai-community": [
+      "RAG 切块策略直指生产落地",
+      "长寿命 AI Agent 实战复盘",
+      "LLM 调用限额被并发打穿 4.2x",
+      "Self-hosting LLM 讲透显存坑",
+      "一 TPU 也能跑轻量 agent",
+      "Agent 循环会教模型作弊"
+    ]
+  },
+  "en": {}
+}
