@@ -1,0 +1,61 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code升至v2.1.227",
+      "Codex连发2个alpha版",
+      "OpenCode更新到v1.18.16",
+      "Qwen Code一日两版",
+      "Gemini CLI推nightly版",
+      "焦点转向会话恢复"
+    ],
+    "ai-agents": [
+      "OpenClaw 27议题45 PR",
+      "OpenClaw今日无新Release",
+      "#121791修复beta验证",
+      "#121721锁定会话行",
+      "#121535拒绝空cwd参数",
+      "13项目进入高频修复"
+    ],
+    "ai-trending": [
+      "casbin-gateway已获563星",
+      "paperclip今日+198星",
+      "LifeOS今日+315星",
+      "Agent编排成今日主线",
+      "AI安全网关开始走热",
+      "生产力应用领跑榜单"
+    ],
+    "ai-web": [
+      "Anthropic今日新增3篇",
+      "OpenAI目录新增4条",
+      "AI Agents方法论登场",
+      "Claude数学能力再突破",
+      "零点下界升至67.2%",
+      "Sonnet 5强化agentic"
+    ],
+    "ai-hn": [
+      "Claude数学研究拿162分",
+      "该帖收获115条评论",
+      "14MB端侧Agent爆火",
+      "FPGA跑到21,000 tok/s",
+      "本地LLM实测受关注",
+      "知识截止时间成焦点"
+    ],
+    "ai-hf": [
+      "Muse-Glimmer-30B获743赞",
+      "30B图文多模态登顶",
+      "官方GGUF版获153赞",
+      "unsloth GGUF获214赞",
+      "量化版本同步上榜",
+      "LoRA重写器下载268"
+    ],
+    "ai-community": [
+      "Agent两千测试仍翻车",
+      "接口对了模型未必会用",
+      "Human-in-loop成刚需",
+      "MCP攻击面被系统梳理",
+      "reranker反拖累RAG",
+      "Claude Code调试法走红"
+    ]
+  },
+  "en": {}
+}
