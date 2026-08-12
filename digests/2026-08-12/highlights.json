@@ -1,0 +1,61 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code 推出 v2.1.228",
+      "Codex 连发 3 个 alpha 版",
+      "Gemini CLI 4 个版本齐发",
+      "Qwen Code 推出 3 个版本",
+      "稳定性修复成社区主线",
+      "会话恢复与长任务续接升温"
+    ],
+    "ai-agents": [
+      "OpenClaw 24h 内 49 个 PR",
+      "21 个 Issues 持续涌入",
+      "Gateway 读模型目录成瓶颈",
+      "Control UI 菜单层级已修复",
+      "远程 Markdown 图显示占位",
+      "Slack/Web/Android 多端修补"
+    ],
+    "ai-trending": [
+      "anthropics/skills 暴涨 +485",
+      "Agent Skills 成热门基础设施",
+      "静态评测转向动态 LLMEval",
+      "关注数据污染与基准失真",
+      "社区热度集中在两条线",
+      "Agent 工作流与评测双热"
+    ],
+    "ai-web": [
+      "OpenAI 新增 AWS 可用页面",
+      "Daybreak Models 标题露出",
+      "Anthropic 今日零新增",
+      "OpenAI 仅更新 1 条元数据",
+      "无正文，无法技术解读",
+      "官网内容处于低信息日"
+    ],
+    "ai-hn": [
+      "OpenAI 伦理负责人离职引爆",
+      "高层离职与 IPO 预期受追问",
+      "MCP 工具链持续升温",
+      "Claude Code 成工程焦点",
+      "VLM 视觉检索话题受关注",
+      "模型推理链泄露引发讨论"
+    ],
+    "ai-hf": [
+      "LTX-2.5 以 228 赞登顶",
+      "Nemotron-3.5 下载 19250",
+      "Ling-3.0-tiny 获 154 赞",
+      "MiniMax-H3 LoRA 热度高",
+      "MiniMax-H3 GGUF 本地化",
+      "视频生成仍是最热赛道"
+    ],
+    "ai-community": [
+      "7 招让 AI Agent 更稳定",
+      "Claude 新水印引发热议",
+      "CISO 审批模型获得通过",
+      "Pi Agent 对比 Claude Code",
+      "RAG 架构从零搭建指南",
+      "评测体系可靠性再受质疑"
+    ]
+  },
+  "en": {}
+}
