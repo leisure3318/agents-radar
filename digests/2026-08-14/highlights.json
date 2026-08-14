@@ -1,0 +1,69 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code双发2.1.232/231",
+      "Codex连发4个alpha版",
+      "Qwen Code三版本齐更",
+      "OpenCode与Pi各10项PR",
+      "DeepSeek TUI发布v0.9.7",
+      "Windows/TUI稳定性成焦点"
+    ],
+    "ai-agents": [
+      "OpenClaw日更31 Issues/57 PR",
+      "今日无新Release",
+      "PR#123386修复UI裁切",
+      "升级补齐外部插件安装",
+      "收紧skills共享根边界",
+      "会话/网关/插件同修"
+    ],
+    "ai-trending": [
+      "unsloth今日+328星领跑",
+      "holaOS今日+241星升温",
+      "obsidian-skills+292星",
+      "Mini 3D应用modly上榜",
+      "Agent OS工作空间走热",
+      "微调与本地化成焦点"
+    ],
+    "ai-web": [
+      "Claude数学能力再突破",
+      "ζ零点下界提至67.2%",
+      "生成可验证形式化证明",
+      "未公开研究模型参与",
+      "OpenAI仅增2条元数据页",
+      "产品预告+高管任命页"
+    ],
+    "ai-hn": [
+      "Codex Linux预览引爆HN",
+      "445分/300评最热帖",
+      "AI文本水印原理受追问",
+      "概念推理指数引争议",
+      "组织如何用AI成焦点",
+      "前沿LLM召回是瓶颈"
+    ],
+    "ai-arxiv": [
+      "长上下文反噬参数知识",
+      "预算一变模型排名就变",
+      "HLA LLM现“巨激活”",
+      "Test-time强弱能力迁移",
+      "VAKRA测跨API多跳推理",
+      "相似性信号诱发合作"
+    ],
+    "ai-hf": [
+      "MiniMax-Music3获339赞/25下",
+      "DeepSeek-V4-Pro-0813获302赞",
+      "Anima-2.9B图像模型上榜",
+      "音频生成赛道继续升温",
+      "DeepSeek家族热度延续",
+      "开放权重新发即热"
+    ],
+    "ai-community": [
+      "Agent工具加门禁控制",
+      "AI生成代码最怕过测",
+      "AI记忆评测框架上线",
+      "向量库不等于持久记忆",
+      "MCP C#协议协商受关注",
+      "AI编码追踪器自报性质"
+    ]
+  },
+  "en": {}
+}
