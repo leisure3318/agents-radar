@@ -1,0 +1,69 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.233 上线",
+      "Codex 4 个 alpha 连发",
+      "Qwen Code 33 Issue 48 PR",
+      "OpenCode 修复长会话静默失败",
+      "DeepSeek TUI 升至 v0.9.8",
+      "GitHub Copilot CLI 双 release"
+    ],
+    "ai-agents": [
+      "OpenClaw 16 Issue 50 PR",
+      "项目今日无新版本发布",
+      "会话崩溃和消息丢失告急",
+      "Control UI 启动包超预算已修",
+      "旧标签页越权派发已修",
+      "xAI 空配置校验误报修正"
+    ],
+    "ai-trending": [
+      "deepseek-agent 单日+222星",
+      "ToolJet 单日+132星",
+      "cursor/plugins 单日+41星",
+      "AI Agent 与工作流领跑",
+      "平台化插件生态升温",
+      "模型训练与RAG今日缺席"
+    ],
+    "ai-web": [
+      "Claude 文本水印首次公开",
+      "直指 EU AI Act 落地",
+      "水印不增成本也不降质",
+      "56项试验综述再培训效果",
+      "培训仅带来2-3点就业提升",
+      "OpenAI 今日零新增内容"
+    ],
+    "ai-hn": [
+      "Claude Code 技巧贴130分",
+      "Anthropic 风险报告热议",
+      "文本水印帖41分53评",
+      "GPU 内核可验证研究上榜",
+      "终端 Deep Research 受追捧",
+      "代码审查必要性再争论"
+    ],
+    "ai-arxiv": [
+      "LittleLearner 用88B token",
+      "Persona Pretraining 前移对齐",
+      "Beyond Final Scores 评估代理",
+      "OmniScientist 跨学科科研",
+      "StateBridge 做隐状态对齐",
+      "规则 vs 性格的安全尺度"
+    ],
+    "ai-hf": [
+      "Qwen3.8-27B 点赞9014",
+      "Qwen3.8-27B-GGUF 点赞807",
+      "Qwen3.8-27B-FP8 已上线",
+      "dots3-note-prev 进入榜单",
+      "同底座多发行形态成主流",
+      "本地推理需求持续升温"
+    ],
+    "ai-community": [
+      "OpenAI 发票审计成焦点",
+      "评测别只看模型别看Harness",
+      "Human-in-the-loop 设计热",
+      "记忆 SaaS 被质疑",
+      "长任务要先做 checkpoint",
+      "推理链泄露需审计"
+    ]
+  },
+  "en": {}
+}
