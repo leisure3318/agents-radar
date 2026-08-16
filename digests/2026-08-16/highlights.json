@@ -1,0 +1,61 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Codex 10 Issue、10 PR",
+      "Qwen Code 2 个 Release",
+      "Gemini CLI 发 Nightly",
+      "Claude Code 盯记忆恢复",
+      "OpenCode resume 失效",
+      "Pi 处理 compaction 污染"
+    ],
+    "ai-agents": [
+      "OpenClaw 推 v2026.8.1-beta.2",
+      "secret 出站强绑定生效",
+      "GPT-5.6 Ultra 登场",
+      "24小时 17 Issue、27 PR",
+      "消息丢失成核心痛点",
+      "Windows 兼容仍待修"
+    ],
+    "ai-trending": [
+      "Soup 今日+297 stars",
+      "CLI-Anything 今日+118",
+      "Trending 仅 2 个 AI 项目",
+      "Soup：一份 YAML 微调LLM",
+      "CLI-Anything 主打 agent-native",
+      "AI 热点转向低成本训练"
+    ],
+    "ai-web": [
+      "Anthropic 今日新增 2 篇",
+      "多智能体风险研究上线",
+      "Claude 文本水印公开",
+      "对齐 EU AI Act 合规",
+      "OpenAI 今日零更新",
+      "内容治理成新主线"
+    ],
+    "ai-hn": [
+      "AI 药物发现 85分43评",
+      "Netflix GenRec 32分50评",
+      "OpenAI/Anthropic IPO受审视",
+      "训练数据与水印再争",
+      "Claude 硬件 HUD 出圈",
+      "AI 浏览器话题再起"
+    ],
+    "ai-hf": [
+      "Qwen3.8-27B-NVFP4 登顶",
+      "它拿下 90,924 次下载",
+      "Qwen3.8 FP8 紧随其后",
+      "LiquidAI 3B VL 上榜",
+      "量化成社区热度核心",
+      "Qwen3.8 生态最强势"
+    ],
+    "ai-community": [
+      "AI Badge 不代表你想的",
+      "4200 次试验测 Agent 失效",
+      "LLM 评测别看“感觉不错”",
+      "Agent 记忆问题是信任",
+      "AI 编码代理别见 API Keys",
+      "本地语音 AI 讨论升温"
+    ]
+  },
+  "en": {}
+}
