@@ -1,0 +1,53 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code 子代理上下文暴涨",
+      "OpenAI Codex 10 Issue 10 PR",
+      "Gemini CLI 上线 nightly release",
+      "Qwen Code 也发 nightly release",
+      "OpenCode、DeepSeek TUI 高活跃",
+      "GitHub Copilot CLI 更新偏少"
+    ],
+    "ai-agents": [
+      "OpenClaw 24小时25个 Issue",
+      "OpenClaw 31个 PR 强势涌入",
+      "新增证据版 pr-124528 profiles",
+      "Gateway CPU 剖析公开",
+      "安全与会话状态成焦点",
+      "多代理归属问题被追问"
+    ],
+    "ai-trending": [
+      "CodeWhale 4.08万星爆红",
+      "DATAGEN 做科研自动化",
+      "今日仅剩 2 个 AI 强相关项目",
+      "Rust agent harness 成焦点",
+      "AI 热点转向多智能体工作流",
+      "Trending 总榜无 AI 上榜"
+    ],
+    "ai-hn": [
+      "五年级语料研究引爆讨论",
+      "Anthropic 多智能体研究上榜",
+      "Stripe 传出收购 OpenRouter",
+      "Claude 生态话题几乎包场",
+      "DeepSeek V4 Flash 压到57GB",
+      "Widen 用端侧LLM做PG GUI"
+    ],
+    "ai-hf": [
+      "Qwen3.8-27B GGUF 热度最高",
+      "社区版下载破18.4万",
+      "非审查版本地推理走红",
+      "MiniMax-Music-3 进榜",
+      "ComfyUI 继续带火音乐生成",
+      "开放权重与量化仍最吃香"
+    ],
+    "ai-community": [
+      "AI 记忆其实是存储问题",
+      "Agent 需要可追溯 receipts",
+      "Prompt 不是安全边界",
+      "AI 生成代码要可靠性栈",
+      "MCP 每轮重传7000 tokens",
+      "TTFT 不等于 TTFB"
+    ]
+  },
+  "en": {}
+}
