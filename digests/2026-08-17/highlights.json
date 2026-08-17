@@ -47,7 +47,24 @@
       "AI 生成代码要可靠性栈",
       "MCP 每轮重传7000 tokens",
       "TTFT 不等于 TTFB"
+    ],
+    "ai-weekly": [
+      "Anthropic推多智能体安全研究",
+      "Claude文本水印正式浮出水面",
+      "Claude Code会话恢复成焦点",
+      "Codex alpha/preview连更",
+      "Qwen Code/OpenCode密集修复",
+      "OpenClaw转向安全与性能收敛"
     ]
   },
-  "en": {}
+  "en": {
+    "ai-weekly": [
+      "Anthropic pushed agent safety",
+      "Claude Sonnet 5 landed",
+      "Claude text watermarking updated",
+      "Claude Code chased session recovery",
+      "Codex desktop preview hit Linux",
+      "GPT-5.6 ultrafast mode arrived"
+    ]
+  }
 }
