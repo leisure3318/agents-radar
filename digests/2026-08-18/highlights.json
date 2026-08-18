@@ -1,0 +1,53 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code升至v2.1.234",
+      "Codex与Gemini CLI高频迭代",
+      "Qwen Code连发稳版+夜版",
+      "OpenCode、Pi均日更10PR",
+      "Copilot CLI仍偏慢节奏",
+      "MCP权限与审计成焦点"
+    ],
+    "ai-agents": [
+      "OpenClaw日更60个PR",
+      "27个PR已合并或关闭",
+      "草稿重启不丢：#125332",
+      "网关热重载修复待跟进",
+      "Matrix授权改为大小写敏感",
+      "P1/P2稳定性问题仍在排队"
+    ],
+    "ai-trending": [
+      "ai-memory单日增207星",
+      "omlx单日增78星",
+      "Agent长期记忆成热点",
+      "多厂商交接需求升温",
+      "Apple Silicon本地推理走热",
+      "训练榜单今日全空"
+    ],
+    "ai-web": [
+      "Anthropic今日零新增",
+      "OpenAI仅新增1条",
+      "新条目名为《Ports Pike Project》",
+      "页面仅有元数据无正文",
+      "无法判断是新闻还是合作",
+      "官网内容密度明显偏低"
+    ],
+    "ai-hn": [
+      "GPT-5.6 Sol视觉能力冲榜",
+      "GPT-5.6 Sol价格砍半50%",
+      "Llama.cpp v0.1.0登HN",
+      "Speko主打语音AI路由层",
+      "1667终端AI写作工具爆评论",
+      "Claude水印机制引发讨论"
+    ],
+    "ai-community": [
+      "AI写代码风险在看不懂产物",
+      "MCP Eval成新测试焦点",
+      "Agent忽略失败调用怎么抓",
+      "别让模型直接写SQL",
+      "Provider退役模型引发事故",
+      "代码仓库AI工具链被审视"
+    ]
+  },
+  "en": {}
+}
