@@ -1,0 +1,69 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code 发版 v2.1.235",
+      "Codex 连发 0.148.0 和 alpha",
+      "Gemini CLI 推出 nightly",
+      "Copilot CLI 升至 v1.0.81-1",
+      "Qwen Code 上线预览版",
+      "OpenCode 聚焦会话修复"
+    ],
+    "ai-agents": [
+      "OpenClaw 24小时 29 个PR",
+      "PR#126101 清理陈旧MCP",
+      "stdio关停残留被修掉",
+      "guided auth 保持原子性",
+      "聚焦会话状态一致性",
+      "消息交付与目录恢复修补"
+    ],
+    "ai-trending": [
+      "munder-difflin 今增306星",
+      "OpenViking 今增213星",
+      "ray 星数达 43,547",
+      "多智能体编排成热点",
+      "Agent 记忆库升温",
+      "端侧小模型实验走热"
+    ],
+    "ai-web": [
+      "Claude 提速蛋白binder设计",
+      "15个靶点命中14个",
+      "单设计成功率达35%",
+      "NMR/LC-MS 23分钟出结果",
+      "OpenAI 新增5篇索引页",
+      "CodeAI 合作页现身"
+    ],
+    "ai-hn": [
+      "GLM-5.3 基准帖73分",
+      "OpenAI限速引发热议",
+      "Claude Code 教打印机108分",
+      "machine0 推CLI云VM",
+      "Anthropic→GLM迁移Agent",
+      "PantheonGPU测GPU健康"
+    ],
+    "ai-arxiv": [
+      "Model Hypnosis：隐性提示可控",
+      "反事实实验评估LLM解释",
+      "人类反馈驱动策略迭代",
+      "Semantic Bandits曝偏置",
+      "BATON攻长程机器人",
+      "Embodied Agent现新攻击面"
+    ],
+    "ai-hf": [
+      "Qwen3.8-27B衍生款霸榜",
+      "MLX版点赞274",
+      "GGUF版下载2.7万+",
+      "Ridge-GGUF下载1.3万+",
+      "10Eros-Max视频模型266赞",
+      "uncensored本地热度飙升"
+    ],
+    "ai-community": [
+      "GoogleAI聊Evals设计",
+      "Agent别只会while(true)",
+      "Timeout应视作状态",
+      "五国发布Agent安全指南",
+      "计费应按任务不是token",
+      "Claude比tiktoken高64%"
+    ]
+  },
+  "en": {}
+}
