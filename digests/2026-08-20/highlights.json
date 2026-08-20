@@ -1,0 +1,61 @@
+{
+  "zh": {
+    "ai-cli": [
+      "OpenCode、Pi、Qwen Code齐冲第一梯队",
+      "OpenAI Codex日更10 Issue+10 PR",
+      "Gemini CLI发v0.57.0-preview.0",
+      "Claude Code补丁版v2.1.236/237",
+      "Copilot CLI连发4个prerelease",
+      "Qwen Code上线v0.21.14"
+    ],
+    "ai-agents": [
+      "OpenClaw 24小时6 Issue、31 PR",
+      "生态覆盖13个项目",
+      "无新版本，仍是高强度修复日",
+      "P1聚焦崩溃回归与会话状态",
+      "子进程信号转发修复已关闭",
+      "Discord poll改走canonical链路"
+    ],
+    "ai-web": [
+      "OpenAI今日新增4条元数据",
+      "仅2个唯一URL被抓到",
+      "Zero Data Retention登场",
+      "ChatGPT Ads扩至欧洲",
+      "Anthropic今日零新增",
+      "官网议题聚焦隐私与商业化"
+    ],
+    "ai-hn": [
+      "AGENTS.md需求128分75评",
+      "OneCLI沙箱代理51分16评",
+      "Frugal Tokens追踪代理成本",
+      "Claude中间token别当思考痕迹",
+      "Claude蛋白设计研究被讨论",
+      "RelArena-α开源发布"
+    ],
+    "ai-arxiv": [
+      "TokEval首提Tokenizer评测套件",
+      "LLM判分可带风险保证",
+      "Rubric评分胜过纯智能",
+      "自改进Agent很脆弱",
+      "Chain-of-Experience持续改进",
+      "StagedWorkspace引入版本工作区"
+    ],
+    "ai-hf": [
+      "Qwen3.8-27B家族几乎包场",
+      "orcarouter版187赞最吸睛",
+      "0bserverx版24.5万下载",
+      "Blackfrost版16.4万下载",
+      "huihui-ai GGUF版9.4万下载",
+      "完整版safetensors仍在榜"
+    ],
+    "ai-community": [
+      "5个AI引擎测同站全不同",
+      "少写代码也许正是答案",
+      "Qwen3.8-27B视觉大模型深挖",
+      "MCP工具schema校验要严",
+      "Agent记忆必须有信任边界",
+      "Prompt Caching可省70-90%账单"
+    ]
+  },
+  "en": {}
+}
