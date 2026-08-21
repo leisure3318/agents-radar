@@ -1,0 +1,69 @@
+{
+  "zh": {
+    "ai-cli": [
+      "OpenAI Codex 10PR10Issue",
+      "Qwen Code v0.21.15+nightly",
+      "Claude Code v2.1.238 发布",
+      "Gemini CLI nightly 连发",
+      "OpenCode v1.18.19 高活跃",
+      "Copilot CLI 10Issue 爆发"
+    ],
+    "ai-agents": [
+      "OpenClaw 22 Issue 40 PR",
+      "OpenClaw 无新版本",
+      "消息交付 bug 集中修复",
+      "onboard 明文 token 已修",
+      "auth profiles 定位修正",
+      "多个 PR 卡在验证中"
+    ],
+    "ai-trending": [
+      "modular 今日新增 268 星",
+      "AI-Infra-Guard 新增 50 星",
+      "agent-substrate 新增 22 星",
+      "AI 热点转向基础设施",
+      "红队安全成新焦点",
+      "paradedb 持续升温"
+    ],
+    "ai-web": [
+      "Anthropic 新增 1 篇研究",
+      "Claude 15靶中 14 个成功",
+      "Opus 5 20分钟做谱图分析",
+      "原始 NMR/LC-MS 直出结果",
+      "OpenAI 今日无新增内容",
+      "Claude 进军科研场景"
+    ],
+    "ai-hn": [
+      "Huzzah 获 217 分 116评",
+      "Vomit 清理输出获 189分",
+      "Codex 两周清完5年工程",
+      "Claude.md 吐槽引热议",
+      "水印识别 Quiz 引讨论",
+      "代码验证与 harness 升温"
+    ],
+    "ai-arxiv": [
+      "Learning When to Think",
+      "Daedalus-150M 主打 CPU 推理",
+      "MemTrapBench 测记忆误导",
+      "EchoCoT 提取隐藏 CoT",
+      "规则约束视觉规划升温",
+      "Agent 评测与行业化并进"
+    ],
+    "ai-hf": [
+      "Qwen3.8-27B-OBLITERATED 270赞",
+      "Ornith-1.5-35B-A3B 220赞",
+      "GGUF 版下载 53,691",
+      "开源大模型家族霸榜",
+      "可直接部署更受欢迎",
+      "ASR 与多模态上榜"
+    ],
+    "ai-community": [
+      "Reasoning Ledger 记决策",
+      "MCP memory server 实测6周",
+      "Prompt injection 测试失守",
+      "Agent 看不见 blast radius",
+      "文件式 brain 防遗忘",
+      "索引从30秒提速到98毫秒"
+    ]
+  },
+  "en": {}
+}
