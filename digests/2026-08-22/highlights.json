@@ -1,0 +1,61 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code 发布 v2.1.239",
+      "Codex 推出 6 个 Rust alpha",
+      "Gemini CLI 升级 v0.56.0-nightly",
+      "Copilot CLI 到 v1.0.81-7",
+      "OpenCode 连发 v1.18.21/20",
+      "Qwen Code 聚焦 CI 与安全"
+    ],
+    "ai-agents": [
+      "OpenClaw 31 个 PR 密集推进",
+      "beta.3 候选版进入审查",
+      "修复 mac 连接模式漂移",
+      "终端转录投影已收口",
+      "CLI 让无效超时返回 JSON",
+      "状态丢失与幽灵态仍高发"
+    ],
+    "ai-trending": [
+      "apache/maka 单日涨星 +148",
+      "ruvnet/ruflo 单日涨星 +140",
+      "maka 主打本地优先工作区",
+      "ruflo 强调多智能体编排",
+      "onnxruntime 仍是推理底座",
+      "Agent 基础设施成焦点"
+    ],
+    "ai-hn": [
+      "Claudette 198 分 136 评论",
+      "让 Claude 少说废话爆红",
+      "自托管 agent 工厂 83 分",
+      "推理更快更便宜成焦点",
+      "Opus 4.6 900 次空输出",
+      "隐私与监控争议升温"
+    ],
+    "ai-arxiv": [
+      "ConceptGuard 评测上下文遗忘",
+      "Phantom Gains 审计自改进",
+      "无检索文档内化成热点",
+      "文本与数字证据仲裁",
+      "从电脑轨迹归纳任务模型",
+      "OenoBench 做葡萄酒域评测"
+    ],
+    "ai-hf": [
+      "Qwen3.8-27B-DFlash2 居榜首",
+      "DFlash2 主打推理加速",
+      "GGUF 版下载破 15 万",
+      "社区偏爱本地部署封装",
+      "Qwen 家族几乎包揽榜单",
+      "性能和易部署成门槛"
+    ],
+    "ai-community": [
+      "157 次 Agent 规划实验复盘",
+      "真问题不在执行，在规划",
+      "Pi Agent 对比 OpenCode 热议",
+      "7 条检查防 LLM 假阳性",
+      "Guardrails 也挡不住资金风险",
+      "任务完成权归属引热议"
+    ]
+  },
+  "en": {}
+}
