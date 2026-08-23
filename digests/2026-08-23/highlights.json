@@ -1,0 +1,53 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code 连发 v2.1.240/241",
+      "OpenAI Codex 连发 2 个 alpha",
+      "OpenCode 今日 10 Issue+10 PR",
+      "Qwen Code stable+nightly 双更",
+      "社区共识转向会话恢复",
+      "稳定性优先成主旋律"
+    ],
+    "ai-agents": [
+      "OpenClaw 24h：12 Issue+29 PR",
+      "6 个 PR 集中修 UI 性能",
+      "长缓存膨胀问题已修复",
+      "待审批倒计时拖慢整页",
+      "消息丢失与恢复仍是 P1",
+      "项目无 Release 但高活跃"
+    ],
+    "ai-trending": [
+      "Codex 单日新增 +1544 stars",
+      "n8n 持续领跑 AI 工作流",
+      "sub2api 冲上多模型接入",
+      "Karpathy Skills 引发关注",
+      "热榜聚焦编程智能体",
+      "AI 搜索结果今日为 0"
+    ],
+    "ai-hn": [
+      "Claude Code 降 effort 引热议",
+      "本地 LLM 体感更笨：174/57",
+      "NanoGPT Speedrun Frontier",
+      "AI 生成数学危机被关注",
+      "给生产库开 LLM 容易关难",
+      "Claudish 翻译器获 48/27"
+    ],
+    "ai-hf": [
+      "Qwen3.8-9B-Distill：165赞/9260下",
+      "Qwen 蒸馏版继续霸榜",
+      "Minimax 超分模型 159 赞",
+      "图像提质类需求仍强",
+      "今日仅 2 个热门模型",
+      "实用型模型更受青睐"
+    ],
+    "ai-community": [
+      "关掉标签页也在烧钱",
+      "同一模型，两种速度",
+      "数据库操作需人工审批",
+      "多模型路由成缺失层",
+      "Token 计费并非只看字节",
+      "大模型没修好 Planner 三错"
+    ]
+  },
+  "en": {}
+}
