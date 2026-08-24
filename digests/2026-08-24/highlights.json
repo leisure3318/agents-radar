@@ -1,0 +1,53 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Codex连发0.149.1与alpha版",
+      "Qwen Code推nightly新包",
+      "Gemini CLI上架夜版v0.56",
+      "DeepSeek TUI升至v0.9.11",
+      "OpenCode与Pi双双高频修补",
+      "Claude Code聚焦权限与会话"
+    ],
+    "ai-agents": [
+      "OpenClaw日增27个PR",
+      "OpenClaw无新版本仍高活跃",
+      "#128371清除Beta发布阻塞",
+      "#128382修复Matrix消息转义",
+      "#128436强化重启验证逻辑",
+      "项目转向稳定性与可观测"
+    ],
+    "ai-trending": [
+      "GPT-Image-2提示引擎+401星",
+      "Claude插件社区+225星",
+      "Agent Skills资源库+156星",
+      "OpenHuman本地记忆+39星",
+      "AI主题搜索结果为0",
+      "热度转向生态工具链"
+    ],
+    "ai-hn": [
+      "AI拒用者离开梦校引热议",
+      "七颗ESP32拼出0.4B LLM",
+      "可声明Agent配置器获关注",
+      "Codex可从Claude Code调用",
+      "社区聚焦Agent编排与成本",
+      "安全与职业焦虑升温"
+    ],
+    "ai-hf": [
+      "Qwen生态继续领跑榜单",
+      "Ornith-1.5-9B获183赞",
+      "Qwen3.8-27B-DFlash2获163赞",
+      "Qwen模板资源点赞最高200",
+      "GGUF版下载冲到35.9万",
+      "推理加速与本地部署最热"
+    ],
+    "ai-community": [
+      "RAG提质九招引关注",
+      "Agent需要淘汰策略",
+      "从Demo到生产的护栏清单",
+      "MCP stdio三大隐藏陷阱",
+      "10个MCP服务器吐47K tokens",
+      "Garry Tan吐槽MCP很差"
+    ]
+  },
+  "en": {}
+}
