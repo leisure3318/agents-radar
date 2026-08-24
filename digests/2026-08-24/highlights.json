@@ -47,7 +47,24 @@
       "MCP stdio三大隐藏陷阱",
       "10个MCP服务器吐47K tokens",
       "Garry Tan吐槽MCP很差"
+    ],
+    "ai-weekly": [
+      "Claude Code争议升温",
+      "Codex GitHub涨1544星",
+      "Claude进军蛋白设计",
+      "AI CLI集体重视稳定性",
+      "OpenClaw高密度修修补补",
+      "Trending偏向Agent底座"
     ]
   },
-  "en": {}
+  "en": {
+    "ai-weekly": [
+      "Claude boosts protein design workflows",
+      "Anthropic nails NMR/LC-MS analysis",
+      "Codex spiked on GitHub Trending",
+      "Codex hones permissions and sandboxing",
+      "CLIs race on session restore and compaction",
+      "OpenClaw pushes durable delivery fixes"
+    ]
+  }
 }
