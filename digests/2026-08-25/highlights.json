@@ -1,0 +1,61 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.243 发布",
+      "Linux 回归引爆 50 条 Issue",
+      "Codex rust-v0.150.0-alpha.8",
+      "Gemini CLI 双 Release 连发",
+      "OpenCode v1.18.22 推 PTY 恢复",
+      "Qwen Code nightly 收敛 WebShell"
+    ],
+    "ai-agents": [
+      "OpenClaw 推 v2026.8.1-beta.3",
+      "33 个 Issue、34 个 PR 同冲刺",
+      "GPT-5.6 语推扩到四 runtime",
+      "首启流程直通 Custodian",
+      "新增 CDP relay 桥接 Chrome",
+      "Telegram 私密 topic 已修复"
+    ],
+    "ai-trending": [
+      "freellmapi 一天涨 174 星",
+      "openclaw 再飙 173 星",
+      "claude-obsidian 暴涨 310 星",
+      "多模型路由成新基础设施",
+      "第二大脑/知识图谱最吸睛",
+      "Trending 只剩应用层热度"
+    ],
+    "ai-web": [
+      "Anthropic 新增 Economics 页",
+      "Economic Index 讲 AI 经济影响",
+      "蛋白设计 15 靶点成 14 个",
+      "成功率达 22%–35%",
+      "Opus 5 解析谱图 19–23 分钟",
+      "文本水印对齐 EU AI Act"
+    ],
+    "ai-hn": [
+      "小米新 CPU 对标苹果芯片",
+      "OpenAI 降价引发热议",
+      "Anthropic 故障连上热帖",
+      "LLM 可借推理引擎控主机",
+      "开源模型藏时效后门",
+      "OCR It 让 LLM 读不可复制文档"
+    ],
+    "ai-hf": [
+      "Qwen3.8-27B-Uncensored 走热",
+      "点赞 170，下载破 1 万",
+      "Audio8 TTS Preview 入榜",
+      "语音模型正加速试用",
+      "Qwen 社区改版持续扩散",
+      "开源权重仍是热门核心"
+    ],
+    "ai-community": [
+      "Agent 的根因是记忆，不是推理",
+      "测试过了，契约却错了",
+      "AI 应用最怕过度工程",
+      "Claude Code 真实工作流曝光",
+      "RAG 也会胡说 API",
+      "170 个 Agent 目标只花 $0.49"
+    ]
+  },
+  "en": {}
+}
