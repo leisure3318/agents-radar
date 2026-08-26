@@ -1,0 +1,69 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code 连发 v2.1.245/246",
+      "Codex 3 个 alpha 版同日更",
+      "OpenCode 推进到 v1.18.23",
+      "Gemini CLI 夜间版已发布",
+      "Qwen Code 与 Pi PR 最活跃",
+      "Kimi Code CLI 仅 1 条问题"
+    ],
+    "ai-agents": [
+      "OpenClaw 24 小时 51 个 PR",
+      "OpenClaw 21 个 Issue 持续修复",
+      "清理旧 JSONL 协议存储",
+      "Inbox 告警限于选定 agent",
+      "空闲重置丢消息已修复",
+      "仍有 45 个 PR 待合并"
+    ],
+    "ai-trending": [
+      "marin 单日狂涨 231 stars",
+      "唯一入榜 AI 项目就是 marin",
+      "面向 foundation models 研发",
+      "训练底座再次成热门",
+      "AI 应用与 Agent 今日缺席",
+      "开源模型研发框架爆红"
+    ],
+    "ai-web": [
+      "Anthropic Insights 接替 Clio",
+      "Claude 可查经济指数 connector",
+      "启动 5000 万美元 wellbeing 资助",
+      "再推 2 亿美元研究基金",
+      "Anthropic 聚焦评估与政策",
+      "OpenAI 今日仅有少量可见更新"
+    ],
+    "ai-hn": [
+      "Jalapeño 对比 Blackwell 最热",
+      "OpenAI 自研芯片引爆讨论",
+      "319 分/220 评的头条帖",
+      "Qwen 本地车载 AI 获 97 分",
+      "MI300X vs H100 做一致性推理",
+      "社区紧盯推理效率与成本"
+    ],
+    "ai-arxiv": [
+      "Critic 训练更稳更高效",
+      "推理微调失配可被抑制",
+      "SWE Refactor Bench 测长任务",
+      "SRPO 强化长程推理反思",
+      "SkillAlchemy 自动造 Agent 技能",
+      "Prime Agent 主打自我提升"
+    ],
+    "ai-hf": [
+      "SenseNova-U1.5-8B-MoT 点赞153",
+      "原生 any-to-any 多模态",
+      "Qwen3.8-27B-Escha-W2 上榜",
+      "2-bit 量化成部署热点",
+      "Qwen 生态衍生持续升温",
+      "小模型与低成本并行受捧"
+    ],
+    "ai-community": [
+      "RAG 上线前必看清单受追捧",
+      "AI 编码时你在做什么？",
+      "AI 评测热图给干系人看",
+      "聊天历史也要像搜索一样管",
+      "agent-inspect 调试轨迹",
+      "本地 AI 与硬件选型升温"
+    ]
+  },
+  "en": {}
+}
