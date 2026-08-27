@@ -1,0 +1,69 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code推v2.1.247",
+      "Codex 10个PR齐发",
+      "Gemini CLI夜修安全",
+      "Copilot CLI补会话恢复",
+      "Qwen Code升到v0.22.2",
+      "DeepSeek TUI 17个PR修复"
+    ],
+    "ai-agents": [
+      "OpenClaw 44个PR高频迭代",
+      "23个Issue中11个已关闭",
+      "并发database is not open已修",
+      "status误报WARN已修正",
+      "Telegram反引号保真修复",
+      "今日无Release专注稳定"
+    ],
+    "ai-trending": [
+      "archify今日暴涨1035星",
+      "scientific-agent-skills涨138星",
+      "garden-skills上涨113星",
+      "Agent Skills成今日热点",
+      "三项目兼容多AI环境",
+      "技能包取代手工流程"
+    ],
+    "ai-web": [
+      "Anthropic今日新增30篇",
+      "OpenAI新增5篇仅元数据",
+      "Claude教育捐赠100万美元",
+      "Usage Policy新增入侵禁令",
+      "LLNL扩展Claude给1万人",
+      "安全治理成Anthropic主线"
+    ],
+    "ai-hn": [
+      "OpenExecutive帖拿506分325评",
+      "GLM-5.3-Flash评测136/54",
+      "Laion Big Video Dataset受捧",
+      "视频模型数据过滤热议",
+      "OpenAI WebMCP Challenge上榜",
+      "AI替代岗位争议升温"
+    ],
+    "ai-arxiv": [
+      "Prefix Sliding降推理成本",
+      "Trace Integrity强调可审计",
+      "ProgRouter调度多Agent工作流",
+      "R^3让机器人学语言推理",
+      "VBVR-Pro做可验证视觉推理",
+      "50篇论文聚焦Agent化"
+    ],
+    "ai-hf": [
+      "Qwen3.8-Flash-Next夺冠",
+      "Qwen模型获3770赞",
+      "GLM-5.3-Flash拿1109赞",
+      "Qwen3.8-GGUF本地版走红",
+      "GLM-5.3-GGUF量化版上榜",
+      "MiniMax控制模型获3148下载"
+    ],
+    "ai-community": [
+      "DEV上线AI Disclosure",
+      "5款Design-to-Code实测",
+      "Vibe Debugging被点名",
+      "WAF看不懂Agent动作",
+      "AI Gateway要监控工具调用",
+      "50分钟Issue到合并"
+    ]
+  },
+  "en": {}
+}
