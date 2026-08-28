@@ -1,0 +1,69 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code 双发 v2.1.250/248",
+      "OpenAI Codex 连发3个 alpha",
+      "OpenCode 10 PR，修跨平台",
+      "Qwen Code nightly，AUTO/MCP",
+      "Copilot CLI 强攻 MCP 与 hooks",
+      "Pi 10 Issue/8 PR，TUI再进化"
+    ],
+    "ai-agents": [
+      "OpenClaw 24h：41 Issues/55 PR",
+      "25 条 PR 已合并/关闭",
+      "会话状态一致性成焦点",
+      "Usage 重置后历史不丢了",
+      "取消命令后进程仍在跑",
+      "侧边栏会话列表被截断"
+    ],
+    "ai-trending": [
+      "go-modern-guidelines +300★",
+      "唯一入选 AI 热榜项目",
+      "面向 AI coding agents",
+      "AI 主题搜索结果为 0",
+      "社区转向代码规范",
+      "Agent-ready 仓库受追捧"
+    ],
+    "ai-web": [
+      "Anthropic 今日新增 19 篇",
+      "MHS 研究预览上线",
+      "Claude 开始控显微镜/机械臂",
+      "10,000 个 Claude 科学家席位",
+      "科研支持扩到多学科",
+      "OpenAI 新增 3 篇涉巴西泰国"
+    ],
+    "ai-hn": [
+      "MHS 讨论 116分/45评",
+      "OpenRouter 方案 179分/35评",
+      "Claude quota 工具 79分/56评",
+      "Concord 串联三大AI CLI",
+      "SLM 挑战 GPT5.5-xhigh",
+      "Hy4 Preview 低调亮相"
+    ],
+    "ai-arxiv": [
+      "CritICL：弱模失败反哺强模",
+      "TTPO：测试时也能优化策略",
+      "弱模型引导 RLVR 探索",
+      "多域 RLVR 融合范式",
+      "道德知识的结构化组织",
+      "D2C-Routing：混源文本检测"
+    ],
+    "ai-hf": [
+      "Hy4-preview 161赞/0下",
+      "Qwen FP8 136赞/2219下",
+      "Breeze-TTS-2 语音热",
+      "Thomson-1.0-Small 入榜",
+      "MiniMax-H3 LoRA 集合",
+      "多模态+TTS+视频齐升"
+    ],
+    "ai-community": [
+      "交付更快，维护更贵",
+      "NexPath：提示质量层",
+      "Agent 连拒96次也对",
+      "双LLM复核未必靠谱",
+      "Scanner 一说，AI就点头",
+      "教你审查生成代码"
+    ]
+  },
+  "en": {}
+}
