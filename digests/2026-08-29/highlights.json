@@ -1,0 +1,61 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.251 上新",
+      "Codex 5 个 Rust alpha 连发",
+      "Gemini CLI 兼容 Hooks 迁移",
+      "Copilot CLI 认证报错可诊断",
+      "Qwen Code 正式版+nightly 双更",
+      "OpenCode 模型路由/MCP 并进"
+    ],
+    "ai-agents": [
+      "OpenClaw 发 v2026.9.1-beta.1",
+      "Gateway 重启可续跑 turns",
+      "配置写入可靠性再升级",
+      "17 Issue、53 PR 高强度修修",
+      "PR #132251 修 macOS 隔离",
+      "会话状态与权限边界成焦点"
+    ],
+    "ai-trending": [
+      "热榜只命中 2 个 AI 项目",
+      "screenshot-to-code 今日+326",
+      "GitNexus 今日+202",
+      "截图直出 HTML/Tailwind/React",
+      "GitNexus 零服务器知识图谱",
+      "Graph RAG Agent 直攻仓库问答"
+    ],
+    "ai-web": [
+      "Anthropic 连发 4 篇内容",
+      "自动研究员直攻对齐失败",
+      "安全缺口关闭比例成指标",
+      "Claude for Teachers 上线",
+      "1 万科学家席位计划",
+      "MHS 预览切入硬件实验室"
+    ],
+    "ai-hn": [
+      "OpenAI/Anthropic 争议霸榜",
+      "LLM 记忆误成程序分析",
+      "引用幻觉报告引讨论",
+      "OpenAI/HF 入侵事件被复盘",
+      "HTTPX2 迁移引发 81 条评论",
+      "本地开源 StemDeck 受关注"
+    ],
+    "ai-hf": [
+      "仅 2 款 text-generation 上榜",
+      "GLM-5.3 狂揽 1,171 赞",
+      "phonellm-alpha-1 获 121 赞",
+      "phonellm-alpha-1 已有 64 下载",
+      "今天无多模态或代码模型",
+      "开放权重仍是社区主流"
+    ],
+    "ai-community": [
+      "AI 讨论转向可控可测",
+      "Claude Opus 5 冲到 99.95%",
+      "幻觉治理被视为架构问题",
+      "日志只能作证词不能作证据",
+      ".mcp.json 可能泄露密钥",
+      "Gemini 结构化输出有隐规则"
+    ]
+  },
+  "en": {}
+}
