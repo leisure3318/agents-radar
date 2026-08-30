@@ -1,0 +1,61 @@
+{
+  "zh": {
+    "ai-cli": [
+      "OpenAI Codex连发3个Release",
+      "OpenCode与Qwen Code各10PR",
+      "DeepSeek TUI今日11个PR",
+      "Claude Code今日10个Issue",
+      "Gemini CLI推送nightly版",
+      "Kimi Code CLI零活动"
+    ],
+    "ai-agents": [
+      "OpenClaw今日8 Issue 28 PR",
+      "PR#133061修复并发卡顿",
+      "PR#133034护住缓存一致性",
+      "消息丢失与会话态成焦点",
+      "Gateway恢复链路持续补丁",
+      "仅1个PR关闭为重构"
+    ],
+    "ai-trending": [
+      "workweave/router单日+284星",
+      "THU-MAIC/OpenMAIC暴涨907星",
+      "Osmantic/ODS成AI Server",
+      "p-e-w/heretic涨星150",
+      "Tiel-Coder-35B-A3B-GGUF走红",
+      "趋势转向编排与私有化"
+    ],
+    "ai-web": [
+      "MHS研究预览发布",
+      "面向物理设备代理",
+      "覆盖显微镜和机械臂",
+      "瞄准科研与制造场景",
+      "联手HHMI Janelia",
+      "主打安全标准化"
+    ],
+    "ai-hn": [
+      "vLLM v0.28.0登上HN",
+      "Warp自我改进agent热议",
+      "Claude Code限额调整",
+      "网页摘要可诱导Claude",
+      "Claude/Codex/Hermes被钓",
+      "版权监管争议升温"
+    ],
+    "ai-hf": [
+      "FastVideo 4-step预览版",
+      "视频生成更快更省",
+      "FastVideo获154赞",
+      "Tiel-Coder 35B-A3B-GGUF",
+      "GGUF下载近4.8万",
+      "llama.cpp本地部署热"
+    ],
+    "ai-community": [
+      "最佳模型组合却最不可信",
+      "Qwen3.8-Flash-Next以6B胜17B",
+      "PlannerCritic对比AdversarialDebate",
+      "GraphRAG评测口径左右结论",
+      "Anthropic SDLC缺第四控",
+      "AI作品集像文件柜"
+    ]
+  },
+  "en": {}
+}
