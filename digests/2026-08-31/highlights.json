@@ -47,7 +47,24 @@
       "Prompt也该进CI回归",
       "Agent平台战转向Skills",
       "Git worktrees并行跑Agent"
+    ],
+    "ai-weekly": [
+      "Anthropic推经济影响测量工具",
+      "MHS预览：AI接管真实硬件",
+      "OpenClaw v2026.9.1-beta.1主打恢复",
+      "Claude Code默认写入Session URL引争议",
+      "Codex狂更：Windows与会话恢复升级",
+      "OpenClaw v2026.8.1支持历史搜索"
     ]
   },
-  "en": {}
+  "en": {
+    "ai-weekly": [
+      "Anthropic previews Model Hardware Standard",
+      "Claude for Teachers widens Anthropic's reach",
+      "Anthropic adds support for scientists",
+      "AI education pledge broadens classroom push",
+      "Claude Code backlash over session URLs in Git",
+      "OpenClaw ships v2026.8.1-beta.3 with fixes"
+    ]
+  }
 }
