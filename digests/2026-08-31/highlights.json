@@ -1,0 +1,53 @@
+{
+  "zh": {
+    "ai-cli": [
+      "OpenAI Codex连发3个alpha版",
+      "OpenCode 10 Issue+10 PR",
+      "Qwen Code 10 Issue+10 PR",
+      "DeepSeek TUI 10 Issue+10 PR",
+      "Claude Code聚焦会话恢复",
+      "Gemini CLI上线nightly版"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.8.1发布",
+      "历史对话搜索上线",
+      "跨Gateway继续会话",
+      "40个PR高频合入",
+      "5个Issue已关闭",
+      "会话路由与迁移修复"
+    ],
+    "ai-trending": [
+      "awesome-mcp-servers今日+96星",
+      "MCP服务器生态持续升温",
+      "FeatureBench冲上热榜",
+      "microduck_rl今日+168星",
+      "Agentic Coding评测受捧",
+      "具身RL训练基础设施走热"
+    ],
+    "ai-hn": [
+      "Claude提交默认带Session URL",
+      "188分/208评引爆争议",
+      "Co-author自动署名惹怒开发者",
+      "Claude可被网页总结诱骗",
+      "CDLM扩散语言模型获69分",
+      "EU AI Act与Cursor变动"
+    ],
+    "ai-hf": [
+      "Qwen3.8 GGUF冲上榜首",
+      "125赞、4.3万次下载",
+      "Uncensored版本受追捧",
+      "本地推理需求仍强",
+      "GGUF继续成热门格式",
+      "Qwen家族社区再封装"
+    ],
+    "ai-community": [
+      "MCP只读声明也要审计",
+      "1万次mutation全抓住",
+      "Go方案让LLM账单降71%",
+      "Prompt也该进CI回归",
+      "Agent平台战转向Skills",
+      "Git worktrees并行跑Agent"
+    ]
+  },
+  "en": {}
+}
