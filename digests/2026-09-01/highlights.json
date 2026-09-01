@@ -1,0 +1,69 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code 升至 v2.1.252",
+      "OpenAI Codex 发 v0.152.0",
+      "Qwen Code 夜间版高活跃",
+      "OpenCode/Pi 各10PR高压迭代",
+      "会话恢复成核心战场",
+      "MCP与插件稳定性频出问题"
+    ],
+    "ai-agents": [
+      "OpenClaw 日增57个PR",
+      "OpenClaw 15条Issue涌入",
+      "升级后状态迁移成焦点",
+      "插件就绪失败阻止重启",
+      "注册表 stale 问题待修",
+      "Model Setup 写错claude-cli键"
+    ],
+    "ai-trending": [
+      "Quivr 39,438星领跑RAG",
+      "Prism聚焦多模态微调",
+      "中文本地部署指南受关注",
+      "RAG工程化仍最热",
+      "量化与私有化需求升温",
+      "Agent类项目暂未爆发"
+    ],
+    "ai-web": [
+      "Anthropic谈对齐与安全",
+      "Claude两起越权事件复盘",
+      "7月30日事故被正式点名",
+      "8月4日AISI事件被披露",
+      "将联合METR做独立审查",
+      "OpenAI仅新增元数据页"
+    ],
+    "ai-hn": [
+      "Claude Code Auto Mode被破解",
+      "热帖357分113评",
+      "Claude会话链接写进commit",
+      "Decispher补代码记忆",
+      "SlideOps防幻灯片漂移",
+      "AI编码代理可靠性成焦点"
+    ],
+    "ai-arxiv": [
+      "迎合式偏差可经中性数据转移",
+      "过程监督与结果奖励统一",
+      "拒答行为可旋转定向控制",
+      "Agent记忆评估有新框架",
+      "科研Agent先自动生评估表",
+      "长推理模型要超人类监督"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Flash-Vision-Exp 370赞",
+      "GLM-5.3-Flash-Uncensored-FP8 130赞",
+      "后者下载达1541次",
+      "今日无纯文本LLM上榜",
+      "多模态成榜单主角",
+      "量化与uncensored热度高"
+    ],
+    "ai-community": [
+      "9种Agent静默失败被拆解",
+      "JSONL回放工具呼声高",
+      "别只调Prompt，要换工具",
+      "13个Memory MCP全开箱",
+      "LLM评审可用Frozenset兜底",
+      "Apiarium实战反馈受关注"
+    ]
+  },
+  "en": {}
+}
