@@ -63,7 +63,24 @@
       "13个Memory MCP全开箱",
       "LLM评审可用Frozenset兜底",
       "Apiarium实战反馈受关注"
+    ],
+    "ai-monthly": [
+      "openai/codex +1544 stars",
+      "Claude Code v2.1.226 发布",
+      "Qwen Code v0.21.8 上线",
+      "cloudflare/computer 冲上趋势榜",
+      "会话恢复成 Agent 底线",
+      "MCP/OAuth/Hooks 进入深水区"
     ]
   },
-  "en": {}
+  "en": {
+    "ai-monthly": [
+      "Claude for Nonprofits launches on Aug 4",
+      "Anthropic discloses privilege escalation incident",
+      "Session continuity becomes baseline",
+      "MCP, OAuth, hooks shift to control-plane issues",
+      "Windows/Desktop reliability stays a pain point",
+      "Agent tools move toward workflow platforms"
+    ]
+  }
 }
