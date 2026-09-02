@@ -1,0 +1,69 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code连发v2.1.257/258",
+      "OpenAI Codex 10 Issue+10 PR",
+      "OpenCode一日12 Issue、10 PR",
+      "Gemini CLI发0.58.0版",
+      "Qwen Code 10 Issue+10 PR",
+      "DeepSeek TUI 10 PR仅1 Issue"
+    ],
+    "ai-agents": [
+      "OpenClaw发布v2026.8.2",
+      "Home agent快捷键上线",
+      "工作快照可预览可移除",
+      "今日65 Issues、51 PR",
+      "41个Issue已关闭",
+      "心跳告警重复已修复"
+    ],
+    "ai-trending": [
+      "academic-research-skills今日+193星",
+      "career-ops冲到69,775星",
+      "quivr已有39,451星",
+      "EasyJailbreak 906星越狱框架",
+      "AI热度转向工作流型Agent",
+      "RAG与安全工具持续走热"
+    ],
+    "ai-web": [
+      "Anthropic推EFS企业防滥用",
+      "EFS把ZDR和误用检测结合",
+      "Claude水印对齐EU AI Act",
+      "Anthropic复盘对齐与安全",
+      "OpenAI新增4篇涉医疗/青少",
+      "客户云基础设施可控存储"
+    ],
+    "ai-hn": [
+      "Claude Fable 5.1刷屏HN",
+      "981分/920评成全站最热",
+      "System Card同步曝光",
+      "ARC-AGI实测结果出炉",
+      "Nori Robotics低成本人形机",
+      "Mcptunnels给MCP加OAuth"
+    ],
+    "ai-arxiv": [
+      "LLM-as-a-Judge机制拆解",
+      "Verbal RL成训练新信号",
+      "SWE Agent看轨迹评测",
+      "Benign微调会削弱对齐",
+      "中期蒸馏更偏推理",
+      "SFT-RL预算分配最优解"
+    ],
+    "ai-hf": [
+      "TimeFM 3.0拿下226赞",
+      "Qwen3.8-27B GGUF获127赞",
+      "Qwen量化版下载5.6万",
+      "时序基础模型热度上升",
+      "量化/轻量化仍是焦点",
+      "开源竞争转向可部署性"
+    ],
+    "ai-community": [
+      "可信AI评测怎么做",
+      "AI让代码变便宜，债更大",
+      "Semantic caching再受讨论",
+      "自改prompt被安全门全拒",
+      "Agent明知错却被放行",
+      "六模型比拼，最便宜胜"
+    ]
+  },
+  "en": {}
+}
