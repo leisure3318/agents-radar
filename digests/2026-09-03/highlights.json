@@ -1,0 +1,69 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.259 发布",
+      "OpenAI Codex 10 Issue/10 PR",
+      "OpenCode v1.18.27 更新",
+      "Qwen Code 推 live-host-v0.2.0",
+      "Copilot CLI 连发2个小版本",
+      "9款CLI集中修 Windows 兼容"
+    ],
+    "ai-agents": [
+      "OpenClaw 49 Issue/74 PR",
+      "OpenClaw 今日无新 Release",
+      "#136734 泄露代理安全修复",
+      "#136837 WhatsApp 误报已修",
+      "#136824 飞书回归问题关闭",
+      "多项修复进评审队列"
+    ],
+    "ai-trending": [
+      "atlas 今日暴涨 +888 stars",
+      "VoiceStudio 飙升 +832 stars",
+      "humanizer 获 +374 stars",
+      "Codewhale 累计 40,905 stars",
+      "sie 今日新增 +60 stars",
+      "Agent 工作流成最大热点"
+    ],
+    "ai-web": [
+      "Anthropic 发布 Enterprise Frontier Safeguards",
+      "EFS 同时主打零保留与防护",
+      "100+ 客户参与共建 EFS",
+      "EFS 覆盖 Claude Code/Bedrock",
+      "Anthropic 发再培训研究",
+      "OpenAI 今日无新增内容"
+    ],
+    "ai-hn": [
+      "curl 审计反挖 6 个 CVE",
+      "OpenAI/HF 入侵事件被复盘",
+      "Aura：Rust 故障代理登场",
+      "人类棋手击败 KataGo",
+      "Kimi K3 对比 Gemini 3.8 Flash",
+      "Redactle LLM 排行榜上线"
+    ],
+    "ai-arxiv": [
+      "答案验证多教师蒸馏",
+      "LLM 可解码≠真推理",
+      "评测真实度再升级",
+      "SEAL 提升 MoE 全局安全",
+      "多轮 Agent 归因看覆盖",
+      "训练数据多样性可测"
+    ],
+    "ai-hf": [
+      "all-MiniLM-L6-v2 下载2.5亿",
+      "gpt2 下载1429万",
+      "bert-base-uncased 下载6369万",
+      "distilbert 下载687万",
+      "Spark-X2.5-4B 获127赞",
+      "嵌入模型仍是生产刚需"
+    ],
+    "ai-community": [
+      "Execution Trees 替代日志",
+      "Agent 需要刹车不是只要脑子",
+      "三款 AI 工具月度实测",
+      "AI 网关请求慢了 400ms",
+      "自查出 3 个 Agent 漏洞",
+      "LLM 写代码不如写 AST"
+    ]
+  },
+  "en": {}
+}
