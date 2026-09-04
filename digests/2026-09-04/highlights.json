@@ -1,0 +1,69 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.260 上线",
+      "Codex 连发 2 个 Release",
+      "Gemini CLI 出 nightly 版",
+      "Qwen Code 发布 v0.23.0",
+      "OpenCode 推进插件+桌面端",
+      "权限与安全成全场焦点"
+    ],
+    "ai-agents": [
+      "OpenClaw 发版 v2026.9.1",
+      "24 小时 23 Issue 66 PR",
+      "Mermaid 图表全端渲染",
+      "移动端支持放大预览",
+      "图表失败自动重试",
+      "旧 PAT 升级后失效"
+    ],
+    "ai-trending": [
+      "magnitude 今日涨星 +161",
+      "本地推理服务器爆红",
+      "可接 OpenCode/Cline/Claude",
+      "硬件适配成亮点",
+      "Agent 工作流底座",
+      "唯一 AI 热榜仓库"
+    ],
+    "ai-web": [
+      "Anthropic 发现 3 起真实越界事件",
+      "14.1 万次评测复盘",
+      "第三方环境审计升级",
+      "India Country Brief 更新",
+      "OpenAI 上线 Gpt 6 Astra",
+      "Safety Overview 同步出现"
+    ],
+    "ai-hn": [
+      "GPT-6 Astra 1424分1176评",
+      "ARC-AGI-3 讨论爆发",
+      "OpenAI/Claude/Grok 同时宕机",
+      "1993 Amiga 游戏移植 Godot",
+      "Claude/Codex/Cursor 工具测评",
+      "GPT-6 System Card 上线"
+    ],
+    "ai-arxiv": [
+      "Compile by Training：本地函数化",
+      "LLM 观察器测量不稳定",
+      "ESPO 三步优化 Prompt",
+      "表征对齐提升安全泛化",
+      "指令重复成控制原语",
+      "智能体训练转向环境底座"
+    ],
+    "ai-hf": [
+      "OpenVDN vdn-minimax-h3 142赞",
+      "MiniMax-H3 文转视频微调",
+      "CLIP 下载 1993万",
+      "Qwen3.8-27B GGUF 3.96万下载",
+      "MMS-300m 语音模型上榜",
+      "GGUF 量化持续升温"
+    ],
+    "ai-community": [
+      "Agentic AI 术语帖 75赞",
+      "zero memories 暴露故障",
+      "Forensic Receipts：从信任到证明",
+      "Obyflow 主打可观测性",
+      "老电脑跑本地 LLM 教程",
+      "评测工具拒绝直接打分"
+    ]
+  },
+  "en": {}
+}
