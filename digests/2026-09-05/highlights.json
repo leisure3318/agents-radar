@@ -1,0 +1,61 @@
+{
+  "zh": {
+    "ai-cli": [
+      "OpenAI Codex连发2个版本",
+      "Copilot CLI一天3个release",
+      "Claude Code推v2.1.261",
+      "OpenCode、Pi各爆10个PR",
+      "DeepSeek TUI贡献12个PR",
+      "Gemini CLI夜版+10个PR"
+    ],
+    "ai-agents": [
+      "OpenClaw一天42个PR",
+      "10个Issue直指session-state",
+      "security与gateway成焦点",
+      "PR#138796砍CI启动成本",
+      "PR#138758优化SQLite热路径",
+      "项目今日仍无新版本"
+    ],
+    "ai-trending": [
+      "miles成唯一AI上榜项目",
+      "LLM/VLM后训练框架走红",
+      "今天热榜只出现1个AI项目",
+      "miles今日新增64星",
+      "AI主题搜索结果为空",
+      "热度转向对齐与后训练"
+    ],
+    "ai-web": [
+      "Claude 11天证完费马大定理",
+      "首个机器可检验证明诞生",
+      "Anthropic印度用户画像曝光",
+      "再培训政策被证有效但有限",
+      "OpenAI官网今日零新增",
+      "三篇更新全部来自Anthropic"
+    ],
+    "ai-hn": [
+      "Fermat研究帖524分327评",
+      "Next-token理论战93分208评",
+      "Lean 4版费马定理热议",
+      "AI Index v4.2获关注",
+      "TERMy：不用LLM的终端助手",
+      "社区转向agent安全与降本"
+    ],
+    "ai-hf": [
+      "K2-Horizon-MoVA-36B-A4B登榜",
+      "155赞、433下载领跑",
+      "唯一上榜的是36B LLM",
+      "MoVA系列热度集中爆发",
+      "文本生成仍是HF主轴",
+      "多模态与专用模型缺席"
+    ],
+    "ai-community": [
+      "AI工程难在改工作方式",
+      "AI生成测试暴露自身盲区",
+      "Detector报零的真实故障",
+      "别造Agent，先造系统",
+      "AI网关内部机制被拆解",
+      "1,135个Agent PR教会了什么"
+    ]
+  },
+  "en": {}
+}
