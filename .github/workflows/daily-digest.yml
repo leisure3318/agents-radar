@@ -39,7 +39,7 @@ jobs:
           LLM_PROVIDER: openai
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           OPENAI_BASE_URL: http://107.174.65.61:8318/v1
-          OPENAI_MODEL: gpt-5.4-mini
+          OPENAI_MODEL: gpt-5.5
           PRODUCTHUNT_TOKEN: ${{ secrets.PRODUCTHUNT_TOKEN }}
           DIGEST_REPO: ${{ github.repository }}
         run: pnpm start
