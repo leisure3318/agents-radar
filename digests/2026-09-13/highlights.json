@@ -1,4 +1,53 @@
 {
-  "zh": {},
+  "zh": {
+    "ai-cli": [
+      "Codex今日41个Issue最活跃",
+      "OpenCode更新30 Issue、18 PR",
+      "Claude Code稳定性问题集中",
+      "Qwen Code聚焦安全与隐私",
+      "DeepSeek TUI多Agent阻塞发版",
+      "Windows原生体验成CLI焦点"
+    ],
+    "ai-agents": [
+      "OpenClaw今日57 Issue、72 PR",
+      "2026.9.4升级失败成P0焦点",
+      "Gateway handoff问题集中爆发",
+      "Doctor修复流程急需增强",
+      "SQLite与消息投递PR密集",
+      "58个PR待合并压力高"
+    ],
+    "ai-trending": [
+      "DeskcommCRM单日新增504星",
+      "CloddsBot交易Agent增376星",
+      "MathModelAgent新增262星",
+      "YuE2音乐Agent增210星",
+      "Claude-Red安全技能库增113星",
+      "worktrunk瞄准多Agent并行开发"
+    ],
+    "ai-hn": [
+      "AI减速争论主导HN",
+      "Apple私有数据训练引热议",
+      "默认模型选择96条评论",
+      "AI数学能力风险叙事受质疑",
+      "GPT-2危险旧闻被翻出",
+      "Claude Code签名行为遭吐槽"
+    ],
+    "ai-hf": [
+      "腾讯AuK登上HF热榜",
+      "AuK获160赞、1202下载",
+      "zero-shot TTS持续升温",
+      "声音克隆成今日模型焦点",
+      "开源音频生成迎大厂投入",
+      "今日无LLM模型上榜"
+    ],
+    "ai-community": [
+      "AI互审30天仍漏关键Bug",
+      "AI编程时代为何还雇你",
+      "Agent测试回放问题受关注",
+      "记忆API基准公平性引讨论",
+      "Mac会议AI工具获产品灵感",
+      "Vibe Coding工程边界再争论"
+    ]
+  },
   "en": {}
 }
