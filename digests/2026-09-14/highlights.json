@@ -1,0 +1,53 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Qwen Code 连发 nightly 与 CUA Driver",
+      "DeepSeek TUI 发布 v0.9.13",
+      "Gemini CLI 推 v0.61 nightly",
+      "Codex 聚焦 Windows Desktop",
+      "Claude Code 热议缓存成本",
+      "OpenCode V2 UI 引发争议"
+    ],
+    "ai-agents": [
+      "OpenClaw 今日 63 个 PR 更新",
+      "OpenClaw 54 个 PR 待合并",
+      "Web UI 空状态问题集中爆发",
+      "Gateway 稳定性成重点",
+      "Android Access 认证待修复",
+      "云会话启动性能受关注"
+    ],
+    "ai-trending": [
+      "colibri 单日暴涨 868 stars",
+      "OpenResearch 今日 +289 stars",
+      "agent-skills 今日 +265 stars",
+      "纯 C 本地 MoE 推理走热",
+      "Agent 技能注册成新焦点",
+      "PRM 资料库进入搜索热点"
+    ],
+    "ai-hn": [
+      "前沿模型监管成 HN 焦点",
+      "GPT-2 暂缓发布旧文翻红",
+      "Anthropic 安全争议升温",
+      "开放模型阅读清单受关注",
+      "Claude 破解 370 年密码",
+      "AI 是否削弱工程能力热议"
+    ],
+    "ai-hf": [
+      "NeoHorse-1-4B 获 1739 赞",
+      "MiniMax-H3 适配下载 11860",
+      "Agnes-3.0-Flash 登多模态榜",
+      "Qwen 系轻量模型热度强",
+      "ComfyUI 视频工作流走热",
+      "4B Agentic LLM 成焦点"
+    ],
+    "ai-community": [
+      "Dev.to 今日 22 篇 AI 文章",
+      "RAG 入门五层教程受关注",
+      "Claude 终端月耗 2.4 万美元",
+      "AI 评测污染成热门话题",
+      "MCP 合规与结构化输出受关注",
+      "原型免费后产品责任更重要"
+    ]
+  },
+  "en": {}
+}
