@@ -47,7 +47,24 @@
       "AI 评测污染成热门话题",
       "MCP 合规与结构化输出受关注",
       "原型免费后产品责任更重要"
+    ],
+    "ai-weekly": [
+      "AI CLI转向生产级Agent平台",
+      "Agent命令执行安全成焦点",
+      "Codex高活跃推进Sandbox",
+      "OpenCode聚焦V2 UI与多会话",
+      "Qwen Code发布nightly与CUA Driver",
+      "Gemini CLI发布v0.61.0 nightly"
     ]
   },
-  "en": {}
+  "en": {
+    "ai-weekly": [
+      "AI CLIs shift toward agent runtime reliability",
+      "CLI safety UX becomes urgent across major tools",
+      "Claude Code users flag rm -rf permission risks",
+      "OpenAI Codex focuses on Windows and sandboxing",
+      "OpenCode advances V2 UI and worktree workflows",
+      "Qwen Code pushes daemon, ACP, and Web Shell"
+    ]
+  }
 }
