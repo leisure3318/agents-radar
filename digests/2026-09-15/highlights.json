@@ -1,0 +1,53 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code 连发 v2.1.271/272",
+      "Codex 发布 4 个 Rust alpha",
+      "Copilot CLI 连发 3 个版本",
+      "OpenCode v1.18.31 发布",
+      "Pi 24小时更新 26 个 Issue",
+      "Gemini CLI 强化企业 policy"
+    ],
+    "ai-agents": [
+      "OpenClaw 24小时更新 59 个 PR",
+      "OpenClaw 46 个 PR 待合并",
+      "OpenClaw P0/P1 Bug 仍积压",
+      "Settings 保持选中 Agent 修复",
+      "Gateway E2E 测试噪音降低",
+      "会话丢失与升级失败成焦点"
+    ],
+    "ai-trending": [
+      "oh-my-hermes 单日新增 77星",
+      "今日唯一 AI Trending 项目",
+      "Hermes Agent 插件生态升温",
+      "长期记忆成 Agent 热点",
+      "编码智能体工作流受关注",
+      "底层模型项目今日缺席"
+    ],
+    "ai-hn": [
+      "OpenAI 与 RubyGems 安全引热议",
+      "Siri 可替换 Claude/ChatGPT",
+      "ML research agent 过拟合争议",
+      "LLM 裁判可信度遭质疑",
+      "OpenArch 获 134 分关注",
+      "自托管 Ollama 迁移经验走热"
+    ],
+    "ai-hf": [
+      "Llama-3.1-8B 下载 562万",
+      "Llama-3.1-8B 获 7606 赞",
+      "Swift-Qwen3.8-27b 登热门",
+      "DeepSeek V4.1 FP8 下载 3868",
+      "Qwen 多模态社区扩展活跃",
+      "FP8 量化部署热度上升"
+    ],
+    "ai-community": [
+      "Dev.to 热议 Agent 工程化",
+      "AI 测评失效话题获 58赞",
+      "AI 编码是否胜过开发者",
+      "ToolJet MCP 控制台实践",
+      "30分钟加入 Agent 验证循环",
+      "数据质量误判模型能力成警示"
+    ]
+  },
+  "en": {}
+}
