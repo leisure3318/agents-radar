@@ -1,0 +1,61 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Codex连发3个Rust alpha版",
+      "Claude Code升至v2.1.273",
+      "Gemini CLI推v0.60.0正式版",
+      "Copilot CLI发布v1.0.85",
+      "Qwen Code推cua-driver v0.20.9",
+      "OpenCode多线推进Provider/TUI"
+    ],
+    "ai-agents": [
+      "OpenClaw今日56个PR更新",
+      "48个PR仍待维护者合并",
+      "WebUI注释体验问题已关闭",
+      "侧栏触屏预览修复待合并",
+      "SQLite与队列性能成重点",
+      "MCP/Crabbox兼容性推进"
+    ],
+    "ai-trending": [
+      "pi单日暴涨458星",
+      "LibreChat今日新增254星",
+      "ASC新增129星受Agent关注",
+      "pi主打统一LLM API",
+      "LibreChat集成MCP与Agents",
+      "自托管AI应用继续升温"
+    ],
+    "ai-web": [
+      "OpenAI新增企业AI助手页面",
+      "Gartner 2026页面上线",
+      "新内容归类business",
+      "发布日期为2026-09-15",
+      "Anthropic今日零新增",
+      "官方信号偏企业市场"
+    ],
+    "ai-hn": [
+      "LLM悲观文获160分热议",
+      "Navier-Stokes引发推理争论",
+      "RL永不放弃机制受关注",
+      "单Prompt破坏对齐登上HN",
+      "OpenAI用LLM设计AI芯片",
+      "Pizza Bot展示后台Agent收件箱"
+    ],
+    "ai-arxiv": [
+      "LLM拒答风险控制新方法",
+      "OPEN-1B主打全可审计训练",
+      "LLM上下文信念几何被研究",
+      "Transformer跨层持久记忆",
+      "Agent社会需要社交约束",
+      "ScienceBuddy探索科研Agent自进化"
+    ],
+    "ai-community": [
+      "AI编程代价成Dev.to焦点",
+      "技术人AI时代压力获热议",
+      "AI让假完成更容易出现",
+      "认知退化话题引发讨论",
+      "AI代码需设SDLC门禁",
+      "跨会话记忆难题受关注"
+    ]
+  },
+  "en": {}
+}
