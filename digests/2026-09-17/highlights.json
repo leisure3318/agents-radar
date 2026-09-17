@@ -1,0 +1,69 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code发布v2.1.274",
+      "Codex alpha版本密集迭代",
+      "Qwen Code单日41个Issue",
+      "Qwen Code合并36个PR",
+      "Copilot CLI连发v1.0.86补丁",
+      "OpenCode聚焦桌面与TUI"
+    ],
+    "ai-agents": [
+      "OpenClaw单日66个PR",
+      "60个OpenClaw PR待合并",
+      "Gateway阻塞成P1焦点",
+      "会话恢复进入修复主线",
+      "WebUI体验获集中改进",
+      "Apple端侧模型引导推进"
+    ],
+    "ai-trending": [
+      "Cloudflare安全技能+927星",
+      "WeKnora企业知识库爆红",
+      "Cline今日新增112星",
+      "Anthropic开源知识插件",
+      "Agent技能模块化升温",
+      "安全审计Agent成热点"
+    ],
+    "ai-web": [
+      "OpenAI新增57篇官网内容",
+      "恶意使用治理集中更新",
+      "Anthropic今日无新增",
+      "对齐风险框架重复出现",
+      "AI商业价值内容上新",
+      "AI广告主题页面出现"
+    ],
+    "ai-hn": [
+      "Claude Cowork并入Claude",
+      "OpenAI广告Agent引争议",
+      "三值LLM论文获156分",
+      "DeepSeek KV压缩受关注",
+      "Swift-Qwen提速近1.95倍",
+      "AI治理讨论情绪谨慎"
+    ],
+    "ai-arxiv": [
+      "零阶LLM偏好对齐登场",
+      "奖励黑客可用表征监测",
+      "合成数据坍缩获新解释",
+      "MoE专家高阶剪枝提出",
+      "无限参数LLM概念出现",
+      "Agent隐私暴露评估升温"
+    ],
+    "ai-hf": [
+      "Swift-Qwen GGUF下载5.5万",
+      "Comfy-Org YuE2下载5.9万",
+      "Taichu5.0-9B多模态上榜",
+      "Qwen本地部署需求旺盛",
+      "ComfyUI生态继续扩张",
+      "国产VLM空间推理受关注"
+    ],
+    "ai-community": [
+      "Gemini实时语音教程走热",
+      "Claude Code对比Cursor",
+      "AI代码审查治理升温",
+      "Agent重遇分布式老问题",
+      "工具调用入门教程受关注",
+      "AI混合团队组织法走红"
+    ]
+  },
+  "en": {}
+}
