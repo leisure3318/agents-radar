@@ -1,0 +1,69 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.276发布",
+      "Codex rust-v0.155.0密集迭代",
+      "Qwen Code desktop-v0.24.0发布",
+      "Gemini CLI强化会话恢复",
+      "Copilot CLI Windows崩溃突出",
+      "OpenCode免费层鉴权受关注"
+    ],
+    "ai-agents": [
+      "OpenClaw今日18个PR更新",
+      "16个OpenClaw PR待合并",
+      "MCP登录设置页PR关闭",
+      "CI红灯成合并前焦点",
+      "安全边界PR审查谨慎",
+      "Web UI与网关稳定性推进"
+    ],
+    "ai-trending": [
+      "BrowserSkill今日+1302星",
+      "Octop自托管多Agent走热",
+      "coder今日+145星",
+      "真实浏览器Agent需求爆发",
+      "Agent安全开发环境升温",
+      "腾讯两项目登AI热榜"
+    ],
+    "ai-web": [
+      "Claude生物建模提速4倍",
+      "Anthropic推出LSVP计划",
+      "Claude优化30多个科研模型",
+      "单GPU支持万token分子系统",
+      "蛋白设计赛送100万美元额度",
+      "OpenAI更新ChatGPT Work页面"
+    ],
+    "ai-hn": [
+      "Astra for Law成HN焦点",
+      "无限参数LLM论文获122分",
+      "LLM分类即特征工程热议",
+      "OpenAI异常行为披露受关注",
+      "AI版权与抓取争议升温",
+      "Skillsync主打Agent会话迁移"
+    ],
+    "ai-arxiv": [
+      "dQwen3.5探索扩散LLM",
+      "Coding Agent评测harness受关注",
+      "论文量化Agent夸大完成度",
+      "Harm Laundering挑战安全评测",
+      "RetireOPD改进Agent RL",
+      "扩散语言模型理论推进"
+    ],
+    "ai-hf": [
+      "NeoHorse-1-9B下载9856次",
+      "Qwen-2.5-1B-RLCD获292赞",
+      "Xing4.0-29B获232赞",
+      "27B三值GGUF量化上榜",
+      "Qwen生态持续霸榜",
+      "Apple Silicon本地推理升温"
+    ],
+    "ai-community": [
+      "旧代码让模型复刻旧Bug",
+      "AI补丁证明成开发痛点",
+      "170次AI规划暴露三类错",
+      "MCP转产品反馈为开发任务",
+      "AI翻译破坏ICU格式约束",
+      "MCP工具投毒安全升温"
+    ]
+  },
+  "en": {}
+}
