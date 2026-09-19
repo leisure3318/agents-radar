@@ -1,0 +1,61 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code 连发 v2.1.277/278",
+      "Codex 发布 rust-v0.155.1",
+      "Qwen Code 推 v0.24.1-preview.0",
+      "DeepSeek TUI 今日 27 条 PR",
+      "AGENTS.md 成 CLI 新规范焦点",
+      "AI CLI 转向 Agent 平台"
+    ],
+    "ai-agents": [
+      "OpenClaw 今日 71 条 PR 更新",
+      "OpenClaw 发布 v2026.9.5",
+      "Doctor 升级保留会话历史",
+      "Gateway 启动阻塞获修复",
+      "66 条 PR 仍待合并",
+      "安全边界 PR 需重点验证"
+    ],
+    "ai-trending": [
+      "supermemory 单日 +140 stars",
+      "AI 记忆层登上 Trending",
+      "Context Engine 热度升温",
+      "本地 AI 基础设施受关注",
+      "RAG 走向长期记忆管理",
+      "今日唯一 AI Trending 项目"
+    ],
+    "ai-web": [
+      "Anthropic 新增 2 篇内容",
+      "Accenture 嵌入式评估合作",
+      "双方五年各投 10 亿美元",
+      "Claude 优化 30 多个生物模型",
+      "生物模型平均提速约 4 倍",
+      "OpenAI 官网今日零更新"
+    ],
+    "ai-hn": [
+      "Claude Code 支持 AGENTS.md 爆火",
+      "LLM 语义直连引安全担忧",
+      "不可读语言挑战模型审计",
+      "阿里开源医疗 AI 受关注",
+      "AI 入侵工具引发热议",
+      "AI 编程代理规范升温"
+    ],
+    "ai-hf": [
+      "Bonsai 27B 2-bit 登顶热榜",
+      "Ternary-Bonsai 下载 5056 次",
+      "Atria-Dawn-Preview 获 168 赞",
+      "InternLM 预览 MoE 新架构",
+      "laya RL Agent 获 154 赞",
+      "MLX 低比特推理持续升温"
+    ],
+    "ai-community": [
+      "Agent IAM 安全成热门话题",
+      "3022 个恶意 Gems 引争议",
+      "AI Agent 密钥泄露防护受关注",
+      "Cypress 测试流式 AI UI",
+      "5 美元 VPS 搭 MCP Gateway",
+      "Bonsai 27B 本地替代订阅"
+    ]
+  },
+  "en": {}
+}
