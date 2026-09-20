@@ -1,0 +1,61 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Codex连发3个Rust Alpha",
+      "Pi发布v0.86.0版本",
+      "Gemini CLI推v0.62 nightly",
+      "Claude Code权限问题升温",
+      "OpenCode聚焦V2迁移",
+      "Qwen Code长会话受关注"
+    ],
+    "ai-agents": [
+      "OpenClaw发布v2026.9.5",
+      "OpenClaw单日55个PR",
+      "45个PR仍待合并",
+      "Linux companion稳定版上线",
+      "升级校验失败成P0风险",
+      "Gateway性能修复密集"
+    ],
+    "ai-trending": [
+      "higgsfield单日+196星",
+      "docling单日+129星",
+      "Codex-X单日+32星",
+      "titania全栈LLM教学走热",
+      "RAG文档预处理持续升温",
+      "AI编程工作流成热点"
+    ],
+    "ai-web": [
+      "OpenAI新增青少年安全页",
+      "Australian Youth Safety上线",
+      "Anthropic今日无新增",
+      "OpenAI聚焦澳洲合规",
+      "官网仅抓到元数据",
+      "区域安全政策值得跟踪"
+    ],
+    "ai-hn": [
+      "AI写作争议登顶HN",
+      "训练数据劳动盗窃引热议",
+      "AI安全叙事遭质疑",
+      "Step 5进入AA评测视野",
+      "CUA-S1电脑使用模型亮相",
+      "AMD本地LLM工具链受关注"
+    ],
+    "ai-hf": [
+      "openjev获226点赞",
+      "Qwen3.8 GGUF下载31099",
+      "音频tokenizer获155赞",
+      "Qwen生态继续扩张",
+      "GGUF量化部署持续火热",
+      "音乐生成组件化提速"
+    ],
+    "ai-community": [
+      "AI面试双标引发热议",
+      "AI自我辩论工作流走红",
+      "AI写测试半年复盘火了",
+      "1558个绿灯测试翻车",
+      "Agent token成本被拆解",
+      "System 1低延迟模型升温"
+    ]
+  },
+  "en": {}
+}
