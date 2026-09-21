@@ -1,0 +1,53 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Codex 连发 4 个 Rust Alpha",
+      "Qwen Code 发布 v0.24.2",
+      "Pi 发布 v0.86.1",
+      "OpenCode 更新 50 个 PR",
+      "Qwen Code 推 Web Shell",
+      "Claude Code 聚焦 Hooks 与 Sandbox"
+    ],
+    "ai-agents": [
+      "OpenClaw 单日更新 73 个 PR",
+      "65 个 PR 等待维护者审核",
+      "Gateway 项目发现提速 38%",
+      "修复 operator 权限裁剪问题",
+      "会话与子代理生命周期成重点",
+      "浏览器扩展能力持续打磨"
+    ],
+    "ai-trending": [
+      "json-render 单日新增 291 stars",
+      "Anthropic 金融方案涨 260 stars",
+      "生成式 UI 成今日最热方向",
+      "AI 垂直行业应用升温",
+      "热榜仅 2 个 AI 项目入选",
+      "AI 应用层热过模型训练"
+    ],
+    "ai-hn": [
+      "LLM 模型删除救援获 478 分",
+      "ChatGPT 广告追踪引热议",
+      "DAPO 开源 RL 系统上榜",
+      "Claude 辅助发现哈希碰撞",
+      "Anthropic 建 AI 湿实验室",
+      "自托管与模型保存受关注"
+    ],
+    "ai-hf": [
+      "Qwen-Image-2.1 获 878 赞",
+      "ComfyUI 版 Qwen 图像模型上榜",
+      "Qwen 图像模型主导热榜",
+      "图像编辑模型热度领先",
+      "扩散模型单文件适配升温",
+      "本地创作工作流快速跟进"
+    ],
+    "ai-community": [
+      "企业 Agent DevSecOps 受关注",
+      "Agentic Coding 心流引讨论",
+      "Orca 支持并行编码代理",
+      "Planner 与 Implementer 契约实践",
+      "Agent 记忆被视为攻击面",
+      "AI 原生平台架构持续升温"
+    ]
+  },
+  "en": {}
+}
