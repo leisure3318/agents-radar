@@ -47,7 +47,24 @@
       "Planner 与 Implementer 契约实践",
       "Agent 记忆被视为攻击面",
       "AI 原生平台架构持续升温"
+    ],
+    "ai-weekly": [
+      "Claude Code 支持 AGENTS.md",
+      "Codex Rust CLI 高频 Alpha",
+      "Qwen Code 连发 v0.24.x",
+      "Pi v0.86 强化缓存",
+      "OpenClaw v2026.9.5 发布",
+      "BrowserSkill 登上 Trending"
     ]
   },
-  "en": {}
+  "en": {
+    "ai-weekly": [
+      "Claude Code adopts AGENTS.md fallback",
+      "Codex Rust CLI hits rapid alpha cycle",
+      "Qwen Code ships v0.24.x and Desktop builds",
+      "OpenClaw v2026.9.5 focuses on safer upgrades",
+      "Codex adds work on daemon and session recovery",
+      "Qwen advances Web Shell, ACP, and sandboxing"
+    ]
+  }
 }
