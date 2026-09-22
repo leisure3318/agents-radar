@@ -1,0 +1,69 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Codex Rust alpha 连发三版",
+      "OpenCode v1.18.32 发布",
+      "Pi v0.87.0 高速迭代",
+      "Qwen Code v0.24.3 更新",
+      "Kimi CLI 1.51.0 成最终版",
+      "Claude Code 聚焦会话隔离"
+    ],
+    "ai-agents": [
+      "OpenClaw 50 个 PR 更新",
+      "OpenClaw v2026.7.35 发布",
+      "extended-stable 面向网关",
+      "39 个 PR 等待合并",
+      "新增模型支持回迁稳定版",
+      "会话污染成核心问题"
+    ],
+    "ai-trending": [
+      "AutoClip 单日涨 250 stars",
+      "AI 视频剪辑登上热榜",
+      "自动高光提取受追捧",
+      "短视频二创工具升温",
+      "今日仅 1 个 AI 热门项目",
+      "应用层 AI 更吸睛"
+    ],
+    "ai-web": [
+      "Anthropic 优化 30 多个模型",
+      "Claude 生物建模提速 4 倍",
+      "低显存模式支持万级 token",
+      "蛋白设计赛奖百万 credits",
+      "OpenAI 新增数学 AI 顾问组",
+      "OpenAI 聚焦企业学习路径"
+    ],
+    "ai-hn": [
+      "Mini-AGI 获 256 分登顶",
+      "8GB VRAM 持续学习受热议",
+      "OpenAI 数学顾问组引争论",
+      "Foremerge 管多 Agent 冲突",
+      "Navier-Stokes 争议上 HN",
+      "社区质疑大厂 AI 叙事"
+    ],
+    "ai-arxiv": [
+      "onPanda 降低对齐标注成本",
+      "端侧个性化 LoRA 新方案",
+      "Kimi Delta Attention 被增强",
+      "iSDFT 缓解 LLM 遗忘",
+      "医疗推理引入 rubric 奖励",
+      "工具使用 RL 成研究焦点"
+    ],
+    "ai-hf": [
+      "Qwen-Image-2.1-GGUF 领跑",
+      "Qwen 图像模型 678 点赞",
+      "GGUF 版本下载 33232 次",
+      "Hemmingway-1 获 396 点赞",
+      "Yandex 发布 80B 基座模型",
+      "Confucius4-R2T2 下载 1864"
+    ],
+    "ai-community": [
+      "浏览器内 Agent 获 73 赞",
+      "Agent 不应做最终决策",
+      "monday.com 实测 Agent Eval",
+      "AWS Lambda 沙箱跑编码 Agent",
+      "RAG 漏检问题获关注",
+      "社区转向可审计 Agent"
+    ]
+  },
+  "en": {}
+}
