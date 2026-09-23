@@ -1,0 +1,69 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code 发布 v2.1.280",
+      "Codex 推 rust-v0.156.1",
+      "GPT-6 Sol/Luna 接入 Codex",
+      "Gemini CLI 夜版 v0.62.0",
+      "Copilot CLI 更新至 1.0.89-0",
+      "Kimi Code CLI 发布 1.52.0"
+    ],
+    "ai-agents": [
+      "OpenClaw 今日 28 个 PR",
+      "OpenClaw 修复会话持久化",
+      "Gateway 主线程阻塞成焦点",
+      "claude-cli 启动失败待修",
+      "doctor 写错模型 ID 暴露回归",
+      "2026.9.6 发布前收敛"
+    ],
+    "ai-trending": [
+      "google/ax 今日 +2305 stars",
+      "univer 主打 Agent 办公运行时",
+      "treg 做 Agent 工具路由",
+      "三大热榜全是 Agent 项目",
+      "Google 入局智能体编排",
+      "工具路由成落地新基础设施"
+    ],
+    "ai-web": [
+      "OpenAI 新增 3 个独立页面",
+      "GPT-6 Sol/Luna 页面上线",
+      "GPT-6 prompt caching 现身",
+      "Anthropic 今日无新增内容",
+      "OpenAI 页面出现重复抓取",
+      "新模型与评估治理升温"
+    ],
+    "ai-hn": [
+      "Claude Opus 5.5 获 1295 分",
+      "GPT-6 Sol/Luna 获 1283 分",
+      "GPT-6 Astra 破解 Enigma 热议",
+      "Opus 5.5 性价比被深挖",
+      "HN 聚焦模型真实能力",
+      "基准可信度再受质疑"
+    ],
+    "ai-arxiv": [
+      "Flash-dLLM 加速扩散语言模型",
+      "低比特推理引入 on-policy 蒸馏",
+      "FP16/BF16 输出差异被证明",
+      "LLM 评估需重视校准性",
+      "Agensh 扩展到 1024 Agents",
+      "Agent 安全与评估成主线"
+    ],
+    "ai-hf": [
+      "Qwen-Image GGUF 下载 18.2 万",
+      "needle3 下载 5.45 万",
+      "MiMo 蒸馏 Qwen-9B 上榜",
+      "Qwen 生态继续霸榜",
+      "端侧 tool-calling 模型升温",
+      "ComfyUI 本地部署受追捧"
+    ],
+    "ai-community": [
+      "Gemini File Search 低成本 RAG",
+      "Agent 测试从 2490 次降到 206",
+      "LLM 生成代码防密钥泄露",
+      "多 Agent 失控风险引热议",
+      "Glasshouse 发布记忆基准",
+      "AI 会议助手转向任务追踪"
+    ]
+  },
+  "en": {}
+}
