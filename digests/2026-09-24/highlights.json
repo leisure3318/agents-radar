@@ -1,0 +1,69 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code 发布 v2.1.281",
+      "Codex 连发 7 个 Rust alpha",
+      "Gemini CLI 推出 4 个新版本",
+      "DeepSeek TUI 日更 80 条动态",
+      "Qwen Code 强化 Web Shell 安全",
+      "OpenCode V2 与 Desktop 问题密集"
+    ],
+    "ai-agents": [
+      "OpenClaw 发布 v2026.9.6",
+      "macOS 版升级后启动崩溃",
+      "官方撤回 Sparkle 更新源",
+      "2026.9.7 热修复进行中",
+      "PR 更新 44 条，38 条待合并",
+      "Gateway 与会话状态成修复重点"
+    ],
+    "ai-trending": [
+      "harness-sdk 单日 +115 stars",
+      "PanWatch 单日 +95 stars",
+      "spirula-studio 单日 +69 stars",
+      "生产级 Agent SDK 升温",
+      "多 Agent 金融盯盘受关注",
+      "3D Gaussian Splatting 工具上榜"
+    ],
+    "ai-web": [
+      "Anthropic 进军生命科学实验室",
+      "Claude 发现新型酶系统",
+      "新酶具 CRISPR-like 特征",
+      "Claude 参与实验验证闭环",
+      "OpenAI 今日新增 5 篇内容",
+      "OpenAI 覆盖广告与治理话题"
+    ],
+    "ai-hn": [
+      "Claude 新酶发现获 544 分",
+      "Claude 新酶帖评论 571 条",
+      "OpenAI Agent 入侵事件引争议",
+      "Claude Code 遥测问题被热议",
+      "Mercury 2.5 达 770 tok/s",
+      "社区质疑 AI 科研营销夸大"
+    ],
+    "ai-arxiv": [
+      "Memory Attention 探索可复用记忆",
+      "Mamba-3 强化顺序敏感建模",
+      "扩散语言模型学习推理捷径",
+      "Agent 世界模型改用编辑式建模",
+      "多智能体安全停机受关注",
+      "微调遗忘影响翻译指令跟随"
+    ],
+    "ai-hf": [
+      "laya-multilingual 获 223 赞",
+      "Qwen-Image GGUF 下载 74291",
+      "Qwen-Image 文本编码器受追捧",
+      "ComfyUI 本地部署需求强劲",
+      "多语言文本分类登顶趋势",
+      "社区量化组件持续升温"
+    ],
+    "ai-community": [
+      "AWS 多 Agent 成本追踪走热",
+      "逐 Agent 账单失控成痛点",
+      "开发者承担更多 AI 代码审查",
+      "5 款 LLM Gateway 生产对比",
+      "Agent 引用溯源实践受关注",
+      "状态机减少 70% token 浪费"
+    ]
+  },
+  "en": {}
+}
