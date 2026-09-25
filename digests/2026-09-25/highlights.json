@@ -1,0 +1,69 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code发布v2.1.282",
+      "Codex推rust-v0.157.0",
+      "Codex 0.158.0 alpha连发",
+      "Gemini CLI发布v0.62 nightly",
+      "Copilot CLI升至v1.0.89-3",
+      "Qwen Code发布v0.24.5"
+    ],
+    "ai-agents": [
+      "OpenClaw单日48个PR更新",
+      "45个OpenClaw PR仍待合并",
+      "Gateway安全边界改动密集",
+      "Agents与插件体系持续重构",
+      "移动端和CI稳定性成重点",
+      "iOS Cloudflare登录问题曝光"
+    ],
+    "ai-trending": [
+      "hindsight单日新增1668星",
+      "Agent长期记忆需求升温",
+      "NVIDIA Model-Optimizer涨44星",
+      "stable-diffusion.cpp涨36星",
+      "本地多模型图像推理走热",
+      "流式JSON解析工具受关注"
+    ],
+    "ai-web": [
+      "Anthropic发布Project Swap",
+      "Claude代理进入图书交易市场",
+      "代理偏好匹配率达61%",
+      "Anthropic成立生命科学实验室",
+      "Claude发现类CRISPR酶系统",
+      "OpenAI官网今日无新增"
+    ],
+    "ai-hn": [
+      "Whiteboard成HN最高热AI帖",
+      "ChatGPT人工审阅引争议",
+      "AI医保决策引发治理讨论",
+      "Anthropic生物实验室受关注",
+      "MentalHealthBench登上HN",
+      "LLM解码17世纪书信获95分"
+    ],
+    "ai-arxiv": [
+      "MISVO实现轻量模型引导",
+      "PoEM预测RL后训练结果",
+      "自博弈预训练挑战数据依赖",
+      "LLM评测可复现性遭审计",
+      "JevOut揭示上下文翻转风险",
+      "ExplorationBench评估探索能力"
+    ],
+    "ai-hf": [
+      "Audio8-ASR-Infinite登顶热榜",
+      "Nemotron-3下载量达4282",
+      "Ming-Image面向设计生成",
+      "音频AI成HF今日主线",
+      "ASR与说话人分离升温",
+      "GGUF格式进入音频模型"
+    ],
+    "ai-community": [
+      "Agent评估避坑文获21赞",
+      "VS Code仓库上下文插件走热",
+      "RAG索引优先于继续训练",
+      "AI是否遵守补丁成新评测",
+      "语义缓存误命中引关注",
+      "Confused Deputy在Agent中复现"
+    ]
+  },
+  "en": {}
+}
