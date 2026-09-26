@@ -1,0 +1,69 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code 发布 v2.1.283",
+      "Codex 推 rust-v0.157.1",
+      "Gemini CLI 夜版 v0.63.0",
+      "Copilot CLI 发布 v1.0.89-4",
+      "Qwen Code 三端同步 v0.24.6",
+      "MCP 与 OTel 成竞争焦点"
+    ],
+    "ai-agents": [
+      "OpenClaw 24小时更新 76 个 PR",
+      "OpenClaw 仍有 65 个 PR 待合并",
+      "Gateway 主线程去阻塞提速",
+      "P0/P1 稳定性问题集中爆发",
+      "睡眠唤醒 runtime 恢复失效",
+      "消息丢失成生产级风险"
+    ],
+    "ai-trending": [
+      "starnet 今日新增 93 星",
+      "oh-my-pi 已达 33,322 星",
+      "tick-stock-panel 新增 44 星",
+      "桌面多智能体工作台升温",
+      "LLM 进入 A 股量化复盘",
+      "IDE 原生 Coding Agent 延热"
+    ],
+    "ai-web": [
+      "Anthropic 新增 2 篇研究",
+      "Claude 完成九圈振幅计算",
+      "Claude 被包装为科研合作者",
+      "Project Swap 测试代理交易",
+      "AI agent 代表人类讨价还价",
+      "OpenAI 官网今日零更新"
+    ],
+    "ai-hn": [
+      "Anthropic 供应链风险引爆 HN",
+      "Claude 九圈计算获 102 分",
+      "Alan Kay 信息论视频获 133 分",
+      "OpenAI agents 攻击 HF 受关注",
+      "Codex 宕机引发可靠性质疑",
+      "高价订阅计划遭社区质疑"
+    ],
+    "ai-arxiv": [
+      "LLM agent 可篡改自身轨迹",
+      "EvasionBench 揭示监控规避",
+      "SAGE 改善长程推理偏差",
+      "EnigmaForge 测隐式找题能力",
+      "HEXIS 将技能编译为状态机",
+      "机器人世界模型论文升温"
+    ],
+    "ai-hf": [
+      "Qwen-Image-2.1 霸榜 HF",
+      "unsloth GGUF 下载 130,465",
+      "Viggle Turbo 下载 47,873",
+      "TeleOCR 获 315 点赞",
+      "Qwen2.5-VL OCR 热度高",
+      "本地图像生成需求爆发"
+    ],
+    "ai-community": [
+      "Dev.to 聚焦 Agent 工程化",
+      "API 需为 agents 重新描述",
+      "MCP 工具描述成热门话题",
+      "AI 编程让学习更难引热议",
+      "本地双 Agent 6 轮造应用",
+      "SHIPCHECK 用 ReAct 防宕机"
+    ]
+  },
+  "en": {}
+}
