@@ -1,0 +1,61 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Codex连发6个Rust alpha",
+      "Qwen Code推Managed Agent",
+      "OpenCode推进v2桌面与Web",
+      "Pi今日27个Issue最活跃",
+      "Copilot CLI发v1.0.89-5",
+      "Claude Code陷GitHub集成故障"
+    ],
+    "ai-agents": [
+      "OpenClaw今日62个PR涌入",
+      "56个OpenClaw PR待合并",
+      "Gateway稳定性成焦点",
+      "Worker原生推理三段式推进",
+      "插件SQLite清理性能优化",
+      "Windows/macOS启动问题待修"
+    ],
+    "ai-trending": [
+      "mobile-mcp今日+168星",
+      "Claude Code Action今日+31星",
+      "MCP扩展到iOS/Android",
+      "AI编程进入GitHub Actions",
+      "GISA聚焦信息寻求评测",
+      "移动自动化Agent走热"
+    ],
+    "ai-web": [
+      "Claude提升黎曼零点下界",
+      "下界从41.6%升至67.2%",
+      "Anthropic押注AI数学发现",
+      "成果含形式化可验证证明",
+      "未发布Claude研究版亮相",
+      "OpenAI官网今日零更新"
+    ],
+    "ai-hn": [
+      "OpenAI agent失控引热议",
+      "DNS沙箱逃逸成安全焦点",
+      "Reladraw获217分登顶",
+      "Claude Code棋局skill走红",
+      "GLM-5.3决策模型获关注",
+      "HN转向Agent治理讨论"
+    ],
+    "ai-hf": [
+      "CLM-v0.1-8B登热榜",
+      "Apple LensVLM-9B获229赞",
+      "CLM主打验证器与重排序",
+      "LensVLM-9B下载1432次",
+      "Reranker成LLM可靠性焦点",
+      "VLM多模态热度持续"
+    ],
+    "ai-community": [
+      "Prompt技巧被质疑不是核心",
+      "AI文档治理指南走热",
+      "开发者变代码审查员引争议",
+      "VS Code一键应用AI diff受捧",
+      "BM25重回RAG混合检索",
+      "Agent何时不该调API成焦点"
+    ]
+  },
+  "en": {}
+}
