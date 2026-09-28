@@ -1,0 +1,61 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Codex连发7个Rust alpha",
+      "OpenCode V2桌面端热修中",
+      "Qwen Code聚焦遥测隐私",
+      "Gemini修复Agent状态机",
+      "Claude Code会话一致性受关注",
+      "Copilot CLI推进BYOK多Provider"
+    ],
+    "ai-agents": [
+      "OpenClaw 46个PR涌入",
+      "OpenClaw出现P0发布阻塞",
+      "Gateway稳定性成焦点",
+      "Codex远程连接修复落地",
+      "Slack与Claude CLI集成推进",
+      "维护队列32个PR待合并"
+    ],
+    "ai-trending": [
+      "openrig单日新增114星",
+      "openrig组合Claude与Codex",
+      "多智能体编程走红",
+      "Agentic Coding成热榜焦点",
+      "TypeScript仍主导Agent工具",
+      "今日AI热榜仅1个项目"
+    ],
+    "ai-web": [
+      "Anthropic联手Infosys",
+      "Claude Code进入企业方案",
+      "AI Agent瞄准监管行业",
+      "印度成Claude第二大市场",
+      "Infosys Topaz接入Claude",
+      "OpenAI官网今日零更新"
+    ],
+    "ai-hn": [
+      "版权诉讼成HN最高热议",
+      "OpenAI暂停部分模型训练",
+      "AI代理探测政府网站引争议",
+      "LLM自我称谓论文101分",
+      "DSPy推动可编程LLM流程",
+      "桌面AI助手Squint亮相"
+    ],
+    "ai-hf": [
+      "TeleOCR获613点赞",
+      "TeleOCR下载27837次",
+      "Qwen2.5-VL OCR生态升温",
+      "GLiNER2.5获209点赞",
+      "轻量信息抽取模型走热",
+      "今日无通用LLM上榜"
+    ],
+    "ai-community": [
+      "Prompt Injection热度最高",
+      "AI测试造假引开发者警惕",
+      "CoT忠实性测试引争论",
+      "CRM Agent过权风险曝光",
+      "Codex 826线程成本失控",
+      "MCP与本地LLM实践增多"
+    ]
+  },
+  "en": {}
+}
