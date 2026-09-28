@@ -55,7 +55,24 @@
       "CRM Agent过权风险曝光",
       "Codex 826线程成本失控",
       "MCP与本地LLM实践增多"
+    ],
+    "ai-weekly": [
+      "GPT-6 Sol/Luna页面曝光",
+      "Claude Opus 5.5引爆HN",
+      "Claude Code连发v2.1.280+",
+      "OpenClaw v2026.7.35发布",
+      "OpenClaw v2026.9.6崩溃撤回",
+      "Google ax等Agent项目上榜"
     ]
   },
-  "en": {}
+  "en": {
+    "ai-weekly": [
+      "Claude Opus 5.5 shook up AI coding tools",
+      "GPT-6 Sol/Luna drove model catalog updates",
+      "CLI tools shifted into multi-endpoint runtimes",
+      "Agent runtimes focused on reliability and observability",
+      "MCP, plugins, sandboxing and permissions dominated",
+      "OpenClaw logged 28–76 PRs per day"
+    ]
+  }
 }
