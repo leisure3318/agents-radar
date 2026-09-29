@@ -1,0 +1,69 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.284发布",
+      "Codex rust-v0.158.0上线",
+      "Gemini CLI夜版v0.63.0发布",
+      "Copilot CLI连发4个版本",
+      "OpenCode聚焦V2稳定性",
+      "Pi今日26条Issue更新"
+    ],
+    "ai-agents": [
+      "OpenClaw发布v2026.8.33",
+      "OpenClaw今日65条PR更新",
+      "47条OpenClaw PR待合并",
+      "Gateway阻塞P0回归曝光",
+      "extended-stable成准LTS线",
+      "会话一致性成修复重点"
+    ],
+    "ai-trending": [
+      "byoungd/up单日涨327星",
+      "AI学习指南登上Trending",
+      "故事生成论文集获657星",
+      "今日无新AI框架爆发",
+      "LLM创意写作热度延续",
+      "AI学习路线仍具传播力"
+    ],
+    "ai-web": [
+      "Anthropic发布Project Swap",
+      "Agent交易实验揭示偏好瓶颈",
+      "Claude偏好匹配率达61%",
+      "模型能力胜过提示词差异",
+      "OpenAI新增澳洲相关页面",
+      "Lenfest AI合作页面更新"
+    ],
+    "ai-hn": [
+      "Sonnet 5.5获674分热议",
+      "Sonnet 5.5评论达447条",
+      "OpenAI安全争议升温",
+      "HN关注rogue agents风险",
+      "浏览器小模型项目受关注",
+      "奖励黑客研究再引讨论"
+    ],
+    "ai-arxiv": [
+      "Telescopic LM适配多算力",
+      "Loop MoE提升参数复用",
+      "自适应Loop Transformer扩算力",
+      "MS-GLA优化长上下文记忆",
+      "SANTA++免训练近似注意力",
+      "TokenCast预测Agent耗币"
+    ],
+    "ai-hf": [
+      "Julia-1获265点赞登榜",
+      "OrcaSAQ-2-27B下载1663",
+      "Qwen生态27B模型走热",
+      "决策分类模型受关注",
+      "vLLM友好模型持续升温",
+      "safetensors仍是传播关键"
+    ],
+    "ai-community": [
+      "Claude+Obsidian QA文获90赞",
+      "AI FOMO文章评论15条",
+      "伪Agent被批GPU账单高",
+      "ToolTrap聚焦工具安全",
+      "AI修Bug认知风险受热议",
+      "Dev.to热议MCP成本治理"
+    ]
+  },
+  "en": {}
+}
