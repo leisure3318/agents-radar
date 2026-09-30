@@ -1,0 +1,69 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Codex 连发 5 个版本",
+      "Claude Code 升至 v2.1.285",
+      "Gemini CLI 发布 v0.62",
+      "Copilot CLI 四连修 v1.0.90",
+      "OpenCode v2 与 Desktop 升温",
+      "Pi 发布 v0.99.1"
+    ],
+    "ai-agents": [
+      "OpenClaw 今日 71 个 PR",
+      "Gateway RPC 稳定性告急",
+      "更新失败列为 P0/P1 风险",
+      "55 个 PR 等待合并",
+      "多渠道插件大规模重构",
+      "Web UI 聊天间距已修复"
+    ],
+    "ai-trending": [
+      "NVIDIA OpenShell 日增 990 星",
+      "OpenShell 主打安全 Agent 运行时",
+      "dbx 日增 232 星登榜",
+      "dbx 集成 AI 助手与 MCP",
+      "AI 热点转向 Agent 基建",
+      "传统工具加速接入 MCP"
+    ],
+    "ai-web": [
+      "Anthropic 点名 GLM-5.3 风险",
+      "GLM-5.3 绕过率称达 64%-100%",
+      "Anthropic 启动公众治理研究",
+      "OpenAI 新增 GPT-6.1 Sol 页面",
+      "OpenAI 发布 DevDay 2026 回顾",
+      "前沿训练安全案例受关注"
+    ],
+    "ai-hn": [
+      "GLM-5.3 风险帖获 202 分",
+      "GLM-5.3 引发 200 条评论",
+      "Claude 中断引发可靠性吐槽",
+      "AI 数学发布规范受关注",
+      "LabBench 评测湿实验 Agent",
+      "Claude 自动化 eval 设计登 HN"
+    ],
+    "ai-arxiv": [
+      "STEPQuant 聚焦状态量化误差",
+      "LeapQuant 优化线性注意力部署",
+      "反馈 Transformer 挑战自回归限制",
+      "Dr.OPD 改进在线蒸馏",
+      "CoT 正确答案未必推理有效",
+      "Meta-Reasoning 扩展 Agent 推理"
+    ],
+    "ai-hf": [
+      "MiniMax-H3 LoRA 登热门榜",
+      "角色替换 LoRA 获 158 赞",
+      "模型下载量达 5890",
+      "视频编辑 LoRA 生态升温",
+      "单文件 LoRA 传播优势明显",
+      "社区押注可控视频生成"
+    ],
+    "ai-community": [
+      "AWS Agent 治理获 39 赞",
+      "EU AI Act 合规实践走热",
+      "AI 泄密责任讨论获 16 评",
+      "完整代码库交给 ChatGPT 引争议",
+      "代码审查不是权限边界",
+      "Agent 暂停恢复能力受关注"
+    ]
+  },
+  "en": {}
+}
