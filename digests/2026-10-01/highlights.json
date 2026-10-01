@@ -63,7 +63,24 @@
       "Discord实时AI审核教程走热",
       "Gemma 4在T4上int4优化",
       "无效AI Guardrail遭质疑"
+    ],
+    "ai-monthly": [
+      "AI CLI转向生产级Agent平台",
+      "Agent操作安全成社区焦点",
+      "Qwen Code v0.24.2密集发布",
+      "Claude Code支持AGENTS.md",
+      "AGENTS.md遥测故障引隐私质疑",
+      "OpenAI Codex Rust CLI高频Alpha"
     ]
   },
-  "en": {}
+  "en": {
+    "ai-monthly": [
+      "Agent Runtimes became the core AI tooling layer",
+      "CLI agents expanded into daemon, desktop and cloud",
+      "MCP, ACP and A2A emerged as key standards",
+      "Session recovery and memory became differentiators",
+      "Security boundaries became a top community concern",
+      "Anthropic and OpenAI pushed enterprise governance"
+    ]
+  }
 }
