@@ -1,0 +1,69 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.286发布",
+      "Codex rust-v0.161 alpha推进",
+      "Gemini CLI v0.64.0 nightly更新",
+      "Copilot CLI v1.0.91-0发布",
+      "OpenCode v1.18.34聚焦多Provider",
+      "Qwen Code v0.24.7强化Hosted Workspace"
+    ],
+    "ai-agents": [
+      "OpenClaw今日73个PR更新",
+      "OpenClaw仍有P0/P1阻塞",
+      "Gateway消息投递一致性修复",
+      "Windows更新回滚有修复路径",
+      "PR #162257清理旧发布失败提示",
+      "PR #162357治理CI计时竞态"
+    ],
+    "ai-trending": [
+      "codegraph今日新增118星",
+      "context-mode今日新增90星",
+      "MCP servers今日新增50星",
+      "AI代码知识图谱升温",
+      "Agent上下文压缩成热点",
+      "OpenBB连接金融数据与Agent"
+    ],
+    "ai-web": [
+      "Anthropic推出LSVP计划",
+      "LSVP开放Mythos等模型访问",
+      "生物科研转向验证后授权",
+      "Anthropic研究机器人任务暴露",
+      "Anthropic公开征集AI社会反馈",
+      "Anthropic分析GLM-5.3网安风险"
+    ],
+    "ai-hn": [
+      "Magnitude获137分61评",
+      "Agent推理成本成焦点",
+      "Parrot会议记录工具受关注",
+      "Gemini 4 Argon重回前三讨论",
+      "OpenAI披露模型蒸馏攻防",
+      "AI IPO与FTC调查引热议"
+    ],
+    "ai-arxiv": [
+      "RLVR稳健性新方法SCAPO",
+      "AI网页文本价值被量化",
+      "174语言unlearning基准发布",
+      "Looped MoE scaling law提出",
+      "扩散语言模型蒸馏提速",
+      "EvoDuet进化科研搜索Agent"
+    ],
+    "ai-hf": [
+      "Qwen3.8 GGUF全面霸榜",
+      "Swift Qwen3.8下载17.5万",
+      "BFS Face Swap下载16.8万",
+      "OrcaSAQ Cyber 27B获7186下载",
+      "Qwen3.8 Coder GGUF下载3.3万",
+      "GSQ与RCO量化路线升温"
+    ],
+    "ai-community": [
+      "AI幻觉包名成供应链风险",
+      "Agent路径审计引发关注",
+      "10年开发者反思AI冲击",
+      "Discord实时AI审核教程走热",
+      "Gemma 4在T4上int4优化",
+      "无效AI Guardrail遭质疑"
+    ]
+  },
+  "en": {}
+}
