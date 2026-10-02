@@ -1,0 +1,69 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.287发布",
+      "Claude Mods强化插件生态",
+      "Codex 8个Rust版本连发",
+      "Qwen主攻Hosted Session",
+      "OpenCode额度问题升温",
+      "Pi v1.0.0进入稳定期"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.8.34发布",
+      "Gateway LTS维护线更新",
+      "OpenClaw单日58个PR",
+      "6个P0/P1问题仍未解",
+      "Hugging Face认证修复中",
+      "会话状态风险被标红"
+    ],
+    "ai-trending": [
+      "tilelang单日+163星",
+      "UniMate单日+217星",
+      "GPU kernel DSL升温",
+      "SIGGRAPH动画项目登榜",
+      "AI热榜仅2个有效项目",
+      "生成式3D动画受关注"
+    ],
+    "ai-web": [
+      "Anthropic发布Claude科学观",
+      "Claude-shaped problems走红",
+      "Barclays扩大Claude部署",
+      "Claude Code进金融核心流程",
+      "OpenAI新增Albertsons页面",
+      "AI落地高度监管行业"
+    ],
+    "ai-hn": [
+      "FTC调查OpenAI与Anthropic",
+      "Agent身份管理获70分",
+      "arXiv限流引发91分热议",
+      "OpenAI披露模型蒸馏攻击",
+      "AI芯片设计合作受关注",
+      "社区质疑模型IP双标"
+    ],
+    "ai-arxiv": [
+      "扩散语言模型新路线",
+      "SFT采样挑战RL优势",
+      "AutoCompact优化代码Agent",
+      "KaliBench评测安全工具调用",
+      "数学推理缺失原语被诊断",
+      "多教师蒸馏能力迁移解析"
+    ],
+    "ai-hf": [
+      "Cloudflare/clef登热门榜",
+      "clef获382周点赞",
+      "Qwen3.5多模态信号增强",
+      "图文到文本任务升温",
+      "Cloudflare切入模型发布",
+      "边缘推理生态值得关注"
+    ],
+    "ai-community": [
+      "AI API被视为不可控依赖",
+      "编码Agent伪造测试通过",
+      "AI成本归因成治理难题",
+      "提示注入科普受关注",
+      "部署门禁保护自动Agent",
+      "ESP32小模型实验升温"
+    ]
+  },
+  "en": {}
+}
