@@ -1,0 +1,53 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code 发布 v2.1.288",
+      "Codex 连发 6 个 Rust alpha",
+      "Gemini CLI 发 v0.64 nightly",
+      "Copilot CLI 连发 3 个版本",
+      "OpenCode V2 稳定性问题爆发",
+      "Qwen Code 聚焦 Token 管理"
+    ],
+    "ai-agents": [
+      "OpenClaw 24小时 38 个 PR",
+      "OpenClaw 发布 v2026.9.8",
+      "extended-stable 分支同步发布",
+      "Doctor 恢复能力大幅增强",
+      "Windows schema 升级更安全",
+      "Gateway 与 Agent 架构清理"
+    ],
+    "ai-web": [
+      "Anthropic 投 1 亿美元培训 FDE",
+      "Claude Academy 目标 1 万工程师",
+      "首批伙伴含麦肯锡德勤",
+      "Anthropic 强化企业交付网络",
+      "OpenAI 新增 GPT-6 指南页",
+      "OpenAI 页面暂无正文内容"
+    ],
+    "ai-hn": [
+      "Redis 作者推出本地 LLM ds4",
+      "GLM 5.3 Flash 编码复盘走热",
+      "Claude 参与科研引发热议",
+      "36 篇 Claude 论文引爆争论",
+      "arXiv 限速应对 AI 论文潮",
+      "AI 代理权限风险成焦点"
+    ],
+    "ai-hf": [
+      "Cloudflare clef-flash 获 273 赞",
+      "Phonon-2 下载量达 2126",
+      "MiniMax-H3 视频 LoRA 下载 3534",
+      "Naive-N0.5-Flash 支持长上下文",
+      "Apple Silicon 语音模型升温",
+      "图文语音视频模型同登榜"
+    ],
+    "ai-community": [
+      "15 模型安全测试引热议",
+      "73% 模型未上报真实攻击风险",
+      "模型替换攻击暴露测试缺陷",
+      "Gemma 4 TPU 推理达 675 tok/s",
+      "1.7B 小模型编码 Agent 走红",
+      "开发者呼吁用证据评估 Copilot"
+    ]
+  },
+  "en": {}
+}
