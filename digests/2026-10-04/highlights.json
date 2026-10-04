@@ -1,0 +1,53 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.289发布",
+      "Codex alpha.10/11连发",
+      "Pi v1.0.1/1.0.2发布",
+      "Qwen Code推托管工作区",
+      "OpenCode v2聚焦MCP生命周期",
+      "CLI竞争转向远程控制"
+    ],
+    "ai-agents": [
+      "OpenClaw 31 Issues 50 PRs",
+      "19个Issue仍未关闭",
+      "2026.9.8升级故障爆发",
+      "Gateway启动问题成P0阻塞",
+      "Control UI性能持续修复",
+      "插件生命周期成稳定性焦点"
+    ],
+    "ai-trending": [
+      "Agentic RAG课程日增193星",
+      "Cloudflare OS日增85星",
+      "LongCat-Video登上热榜",
+      "Agent+RAG+视频三线升温",
+      "Cloudflare押注Agent工作区",
+      "生产级RAG实践最受追捧"
+    ],
+    "ai-hn": [
+      "Kolibri主权LLM获410分",
+      "Opus 5.5实践帖195分",
+      "OpenAI安全离职引信任危机",
+      "HN热议谁约束AI公司",
+      "Mythos红队能力引关注",
+      "Offrun统一管理编码Agent"
+    ],
+    "ai-hf": [
+      "Kolibri-1获262赞居首",
+      "Xing4.0 GGUF下载11013",
+      "GLM-5.3 EXL3获185赞",
+      "GGUF量化继续走热",
+      "EXL3面向低显存推理",
+      "MoE推理模型成焦点"
+    ],
+    "ai-community": [
+      "866次提交引理解力焦虑",
+      "DSA+AI求职观获23赞",
+      "Attrition查OTel过期属性",
+      "资深代码直觉被AI追问",
+      "AI安全复盘需事实校验",
+      "绿色测试也会欺骗流水线"
+    ]
+  },
+  "en": {}
+}
