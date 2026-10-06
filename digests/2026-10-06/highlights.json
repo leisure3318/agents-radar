@@ -1,0 +1,69 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Qwen Code 32 Issues、37 PR领跑",
+      "Claude Code 连发 v2.1.290/291",
+      "Codex rust-v0.160.1 修复加速",
+      "Copilot CLI 一日四个版本",
+      "OpenCode V2 聚焦安全与 Desktop",
+      "Pi v1.0.4 强化 MCP 筛选"
+    ],
+    "ai-agents": [
+      "OpenClaw 发布 v2026.10.1-beta.1",
+      "OpenClaw 41 个 PR 高速推进",
+      "P0 crash-loop 风险浮现",
+      "Sessions and memory 成 beta 核心",
+      "Gateway 性能与移动端被重点修",
+      "28 个 PR 等待维护者审查"
+    ],
+    "ai-trending": [
+      "pstack-claude 今日新增 223 stars",
+      "Codewhale 4.1 万 stars 领跑",
+      "AI 编程代理成今日开源热点",
+      "VidCom2 聚焦视频大模型加速",
+      "pstack 适配 Claude/Codex 等工具",
+      "Rust 终端 Agent 仍受追捧"
+    ],
+    "ai-web": [
+      "Anthropic 发布机器人就业研究",
+      "机器人暴露指数首次成焦点",
+      "80% 工作时间暴露于 AI/机器人",
+      "机器人已覆盖约四分之三物理任务",
+      "仅 0.3% 任务具成本竞争力",
+      "OpenAI 新增广告衡量页面索引"
+    ],
+    "ai-hn": [
+      "Anthropic 报警用户日记引争议",
+      "OpenAI 代理扰动 Wikimedia 热议",
+      "Khanmigo 两年教育实验受关注",
+      "Claude Code 让工程师感到空心化",
+      "Self-bench 测真实编码代理",
+      "HN 聚焦 AI 治理与信任危机"
+    ],
+    "ai-arxiv": [
+      "Base Model 推理或由 token 触发",
+      "CLIFT 推进 Web Agent 自验证",
+      "OVAL 降低长上下文 KV 成本",
+      "循环语言模型固定点再被重估",
+      "Hybrid LM 记忆路径被系统分析",
+      "Agent 基准与长期记忆升温"
+    ],
+    "ai-hf": [
+      "JEV-27B-VL 下载超127万",
+      "autotrust 包揽 HF 热榜前二",
+      "GEV-26B-Decide 下载44.6万",
+      "Gemma4 生态微调持续升温",
+      "humanizer 获 251 赞进入热榜",
+      "多模态模型仍是社区中心"
+    ],
+    "ai-community": [
+      "AI 审计日志可信性引热议",
+      "Agent 文档爬虫 49 秒抓 60 页",
+      "microVM 复制运行中 Agent",
+      "Claude Code 联动 Playwright MCP",
+      "一键部署开源 Agent 到 K8s",
+      "开发者反思 AI 让人停止思考"
+    ]
+  },
+  "en": {}
+}
