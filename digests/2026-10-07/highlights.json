@@ -1,0 +1,69 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code 发布 v2.1.292",
+      "Codex 连发 3 个 Rust alpha",
+      "Gemini CLI 三版本齐发",
+      "Copilot CLI 更新到 v1.0.93-3",
+      "OpenCode 发布 v1.18.35",
+      "Qwen Code 推 v0.25.1 预览"
+    ],
+    "ai-agents": [
+      "OpenClaw 今日 40 个 PR 更新",
+      "OpenClaw 28 个 PR 待合并",
+      "多个 P1 指向消息丢失",
+      "Gateway 阻塞风险集中修复",
+      "SQLite 迁移到 worker 线程",
+      "Homebrew Node 路径问题修复"
+    ],
+    "ai-trending": [
+      "rea 单日暴涨 2956 stars",
+      "DeepGEMM 今日新增 199 stars",
+      "openclaude 累计 33665 stars",
+      "Agent 逆向工程工具爆火",
+      "DeepSeek GPU Kernel 受关注",
+      "Claude-like Agent 生态升温"
+    ],
+    "ai-web": [
+      "Anthropic 扩展 CVP 计划",
+      "CVP 开放三层安全访问",
+      "Opus 5.5 纳入 CVP",
+      "OpenAI 新增 8 篇官网内容",
+      "OpenAI 聚焦数学与 Codex",
+      "Agentic 工作流成官方重点"
+    ],
+    "ai-hn": [
+      "OpenAI 数学帖 626 分",
+      "数学进展引发 570 评论",
+      "整数乘法突破登上热议",
+      "OpenAI 公开 700+ 预印本",
+      "证明工件库开放复核",
+      "AI Agent 安全讨论升温"
+    ],
+    "ai-arxiv": [
+      "Web Agent 抗提示注入成焦点",
+      "IdeaAnchor 生成科研创意",
+      "Sherpa 让 LLM 自适应教学",
+      "参数内长期记忆受关注",
+      "道德判断后训练论文亮眼",
+      "Agent in a Bottle 降低推理成本"
+    ],
+    "ai-hf": [
+      "EmbeddingGemma-2 登热门榜",
+      "Google 嵌入模型获 589 赞",
+      "EmbeddingGemma-2 下载 364",
+      "Gemma 扩展到专用模型",
+      "RAG 基础模型热度回升",
+      "本地可部署嵌入受关注"
+    ],
+    "ai-community": [
+      "AI Agent 上生产风险刷屏",
+      "Claude Code 实践热度不减",
+      "MCP 自动 Review 工作流出现",
+      "假包 slopsquatting 被实测",
+      "Supabase 暴露问题被扫描",
+      "免费模型难测真实计费风险"
+    ]
+  },
+  "en": {}
+}
