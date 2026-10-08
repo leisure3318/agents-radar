@@ -1,0 +1,69 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code 发布 v2.1.293",
+      "Codex 推 rust-v0.161.0",
+      "Gemini CLI 夜版 v0.65.0",
+      "Copilot CLI 更新至 v1.0.94",
+      "Pi 发布 v1.1.0",
+      "cmux 带火 Agent 终端需求"
+    ],
+    "ai-agents": [
+      "OpenClaw 发 beta.2 热修复",
+      "OpenClaw 24小时 27 个 PR",
+      "Gateway 会话状态成焦点",
+      "Doctor 诊断修复提速",
+      "SQLite 升级兼容风险突出",
+      "子 Agent 恢复获重点修复"
+    ],
+    "ai-trending": [
+      "cmux 登上 GitHub Trending",
+      "cmux 今日新增 44 stars",
+      "AI Agent 终端工具升温",
+      "macOS 原生 AI 终端受关注",
+      "多 Agent 并行成新需求",
+      "开发工具热度超过模型层"
+    ],
+    "ai-web": [
+      "Claude 发现新型酶系统",
+      "Anthropic 建生命科学实验室",
+      "Cyber 验证计划扩容",
+      "双用途能力分级开放",
+      "AI 治理访谈继续推进",
+      "OpenAI 现 GPT-6 页面线索"
+    ],
+    "ai-hn": [
+      "Claude Haiku 5.5 获 770 分",
+      "Haiku 5.5 引发 380 评论",
+      "GPT-6 话题获 558 分",
+      "Intelligent UI 引 289 评论",
+      "OpenAI 数学成果再引争议",
+      "MiMo 评测泄漏被质疑"
+    ],
+    "ai-arxiv": [
+      "RLVR 探索优化被解耦",
+      "EngramEdit 支持知识热更新",
+      "PHRBench 评估幻觉后推理",
+      "自教师改进长程任务训练",
+      "BehaviorTrace 追踪 RL 行为来源",
+      "欺骗回答出现推理 token 峰值"
+    ],
+    "ai-hf": [
+      "ema-lightning 获 274 赞",
+      "土耳其语 TTS 登顶热榜",
+      "embeddinggemma-2 下载 1.1万",
+      "GEV-26B 下载 14957 次",
+      "whistle 主打端侧语音识别",
+      "GGUF 与 NVFP4 部署升温"
+    ],
+    "ai-community": [
+      "AI 编程验证成热门话题",
+      "不信任生成代码获 25 赞",
+      "Decisions API 接入 Strands",
+      "前端 AI 成本优化受关注",
+      "TypeScript Agent 教程上榜",
+      "提示注入被视为数据流问题"
+    ]
+  },
+  "en": {}
+}
