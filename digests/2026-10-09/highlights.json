@@ -1,0 +1,61 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code发布v2.1.295",
+      "Codex发布rust-v0.162.0",
+      "Copilot CLI连发v1.0.94/95",
+      "OpenCode V2迁移活跃",
+      "Qwen Code推进多Agent安全",
+      "DeepSeek TUI阻塞0.10.2"
+    ],
+    "ai-agents": [
+      "OpenClaw发布v2026.9.9",
+      "新版本含185次提交",
+      "OpenClaw合入112个PR",
+      "92位贡献者参与发布",
+      "升级卡在package-swap",
+      "SQLite迁移worker加速"
+    ],
+    "ai-web": [
+      "Anthropic推出Cyber Mission",
+      "CIDP瞄准关键基础设施",
+      "Claude 2026政策将生效",
+      "政策强化自主行动管控",
+      "Claude Science用于天文补全",
+      "OpenAI新增滥用治理条目"
+    ],
+    "ai-hn": [
+      "LittleBit压缩获78分",
+      "Claude禁虐政策引伦理争议",
+      "OpenAI财务预期引质疑",
+      "Jevman用吃豆人测Agent",
+      "Liquid d1主打边缘决策",
+      "OpenAI数学成果遭审视"
+    ],
+    "ai-arxiv": [
+      "Value表征预测对齐泛化",
+      "安全基准遭心理测量审计",
+      "LLM冲突证据谦逊性评估",
+      "VFold压缩长上下文KV缓存",
+      "白盒probe检测模型欺骗",
+      "OnTrack实时干预Agent轨迹"
+    ],
+    "ai-hf": [
+      "GLM5.3 Flash获461赞",
+      "LiquidAI d1-3B获201赞",
+      "Qwen GGUF下载61万次",
+      "多模态模型占据热榜",
+      "GGUF本地部署热度高",
+      "MoE与vLLM成部署关键词"
+    ],
+    "ai-community": [
+      "Retry策略讨论获40评论",
+      "工程团队分享AI落地经验",
+      "TouchGrass主张少用屏幕",
+      "Flash-Lite实现零错误决策",
+      "AI提速不等于工程成熟",
+      "149k脏图训练离线识别"
+    ]
+  },
+  "en": {}
+}
