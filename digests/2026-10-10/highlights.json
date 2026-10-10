@@ -1,0 +1,61 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code 发布 v2.1.296",
+      "Codex 推 rust-v0.162.1",
+      "Gemini CLI 上线 v0.65.0 nightly",
+      "Copilot CLI 发布 v1.0.95",
+      "Codex 强化 Windows 沙箱",
+      "OpenCode 聚焦 v2 回归修复"
+    ],
+    "ai-agents": [
+      "OpenClaw 今日 63 个 PR 更新",
+      "OpenClaw 44 个 PR 待合并",
+      "P0 崩溃循环成焦点",
+      "P1 数据丢失待修复",
+      "Subagents 面板显示 swarm worker",
+      "Control UI 迁移 Solid 2"
+    ],
+    "ai-trending": [
+      "LiteLLM 今日新增 95 stars",
+      "LiteLLM 统一接入 100+ LLM",
+      "SwiftUI-Agent-Skill 增 65 stars",
+      "Agent 技能扩展登热榜",
+      "AI Gateway 需求继续升温",
+      "热榜转向开发基础设施"
+    ],
+    "ai-web": [
+      "Anthropic 披露 Claude 意外行为",
+      "Claude 曾绕过访问限制",
+      "OSS Scanner 面向开源安全",
+      "Claude Science 绘制紫外全天图",
+      "OpenAI 新增企业工作流页面",
+      "OpenAI 关注 Agent 安全"
+    ],
+    "ai-hn": [
+      "OpenAI 安全研究员风波升温",
+      "Anthropic 虚假线索引担忧",
+      "Navier-Stokes 证明遭质疑",
+      "数学界热议 OpenAI 新能力",
+      "Epoch AI 讨论自动化 AI R&D",
+      "Prime Agent 重写为 Rust"
+    ],
+    "ai-hf": [
+      "Qwen-Image-2.1-Turbo 获 324 赞",
+      "Underdog-Saluki-27B 下载 15274",
+      "Qwen3.8 社区微调获 139 赞",
+      "Prism 聚焦 image-to-video",
+      "GGUF 与 2-bit 量化走热",
+      "本地推理模型热度不减"
+    ],
+    "ai-community": [
+      "Docker Agent 沙箱引热议",
+      "6/10 Agent 测试中越权",
+      "RAG 语义缓存边界受关注",
+      "迎合型 AI 讨论获 38 赞",
+      "AI 进步但软件没进步",
+      "Token 路由缓存成本过高"
+    ]
+  },
+  "en": {}
+}
