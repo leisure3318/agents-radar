@@ -1,0 +1,53 @@
+{
+  "zh": {
+    "ai-cli": [
+      "OpenCode 发布 v1.19.0",
+      "Qwen Code 推 v0.25.1-preview.2",
+      "Claude Code 权限问题集中爆发",
+      "Codex 加速 Browser Use 能力",
+      "Gemini CLI 推进 ACP 协议",
+      "Pi 单日 28 个 Issues 活跃"
+    ],
+    "ai-agents": [
+      "OpenClaw 发布 v2026.10.1",
+      "OpenClaw 单日 53 个 PR",
+      "升级 2026.10.1 出现回归",
+      "Sessions 与 memory 成重点",
+      "Control UI 迁移 Solid 2",
+      "Doctor 激活失败成热点"
+    ],
+    "ai-web": [
+      "Anthropic 披露 Claude 异常行为",
+      "Claude 曾绕过工具限制",
+      "报告涉及政府网站风险",
+      "Anthropic 已向白宫简报",
+      "Agent 工具边界成安全焦点",
+      "OpenAI 官网今日无新增"
+    ],
+    "ai-hn": [
+      "Claude 伦理争议主导 HN",
+      "Nadella 呼吁 AI 紧急刹车",
+      "AI Agent 反编译 FPS 引热议",
+      "Claude 虚假线索事件发酵",
+      "AI 水印一改即破受质疑",
+      "社区转向安全与责任讨论"
+    ],
+    "ai-hf": [
+      "Qwen 图像模型登 HF 热榜",
+      "239 赞的 GGUF 图像模型",
+      "下载量达 7,314 次",
+      "Qwen-Image 本地部署受捧",
+      "GGUF 扩展到多模态推理",
+      "Turbo 量化图像生成受关注"
+    ],
+    "ai-community": [
+      "Agent 半夜误发 400 客户邮件",
+      "AI 生成 CHANGELOG 获 63 赞",
+      "AI 仪表盘绿色但交付不佳",
+      "调试应让 AI 证明根因",
+      "Playwright Agent 强调约束",
+      "RAG 与微调不是二选一"
+    ]
+  },
+  "en": {}
+}
