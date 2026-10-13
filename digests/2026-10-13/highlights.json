@@ -1,0 +1,61 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Copilot CLI 连发 v1.0.97 预版",
+      "Gemini CLI 推 v0.65.0 nightly",
+      "Pi 发布 v1.2.0 新版本",
+      "Qwen Code 单日 48 个 PR",
+      "Codex 聚焦 Windows Desktop",
+      "Claude Code 强化权限与成本控制"
+    ],
+    "ai-agents": [
+      "OpenClaw 发布 v2026.10.5-beta.2",
+      "OpenClaw 单日 56 个 PR",
+      "openclaw update 恢复能力增强",
+      "Gateway crash-loop 成高危焦点",
+      "认证与模型兼容问题集中爆发",
+      "beta 渠道稳定性仍偏高风险"
+    ],
+    "ai-trending": [
+      "Microsoft BitNet 今日 +97 stars",
+      "1-bit LLM 推理成热榜焦点",
+      "BitNet 指向低成本大模型部署",
+      "端侧大模型运行需求升温",
+      "量化推理成开源新信号",
+      "微软官方 AI 基建登榜"
+    ],
+    "ai-web": [
+      "Anthropic 新增 4 篇安全研究",
+      "自复制 AI 风险迫近 IoT",
+      "9B 模型可跑多数边缘硬件",
+      "蒸馏防御减少 90%-99% 数据",
+      "Claude 参与发现新型酶系统",
+      "OpenAI 官网今日无新增"
+    ],
+    "ai-hn": [
+      "Codex CLI daemon 引爆 520 分",
+      "GLM-Legal 获 505 分热议",
+      "AI 隐藏能力论文引关注",
+      "Anthropic 自复制研究登 HN",
+      "蒸馏防御引发护城河争论",
+      "AI 数学发现遭社区审视"
+    ],
+    "ai-hf": [
+      "Qwen-Image 量化版下载 218 万",
+      "Qwen-Image 获 4,121 赞",
+      "MiniCPM-V-4.7-35B 上榜",
+      "JEV-35B 下载 6,262 次",
+      "GGUF 与 ComfyUI 继续走热",
+      "Qwen 生态覆盖图像与 MoE"
+    ],
+    "ai-community": [
+      "本地 LLM 能否替代 Claude Code",
+      "Agent 四道控制为何会失效",
+      "禁 AI 贡献被称 Level 0 控制",
+      "人在回路被批只是 UX 问题",
+      "README 隐藏指令揭示注入风险",
+      "Agent 启动前烧掉 92K tokens"
+    ]
+  },
+  "en": {}
+}
