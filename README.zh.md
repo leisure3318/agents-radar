@@ -299,6 +299,7 @@ pnpm start
 | `ai-agents.md` | OpenClaw 深度报告 + 横向生态对比 + 11 个同赛道项目详情 | `openclaw` |
 | `ai-web.md` | 官网内容报告（仅在有新内容时生成） | `web` |
 | `ai-trending.md` | GitHub AI 趋势热榜 — 按维度分类 + 趋势信号分析（仅在有数据时生成） | `trending` |
+| `ai-skills.md` | skills.sh 新上榜 Skill — 仅首次出现、中文用途与使用提示（每日最多 5 个） | `skills` |
 | `ai-hn.md` | Hacker News AI 社区动态 — 热门帖子分类 + 情绪分析（仅在抓取成功时生成） | `hn` |
 
 `digests/web-state.json` 用于记录已处理的 URL，随每日简报一并提交。
@@ -375,6 +376,28 @@ OpenAI 内容精选            (research / release / company / safety / ...)
 趋势信号分析
 社区关注热点
 ```
+
+`ai-skills.md` 结构：
+```
+数据来源: skills.sh Trending + Hot
+
+今日发现
+  Skill 名称
+  它做什么 / 适合谁用 / 为什么现在值得看 / 如何使用 / 注意
+```
+
+### 配置 skills.sh 数据代理
+
+skills.sh 正式 API 需要 Vercel OIDC，GitHub Actions 不应保存该凭证。仓库已提供只读代理：[`vercel/skills-proxy/`](./vercel/skills-proxy/)。把这个目录导入一个新的 Vercel 项目，在项目 Settings → OIDC Federation 打开 OIDC；部署成功后，把 `https://你的项目.vercel.app/api/skills` 保存为仓库 Secret `SKILLS_PROXY_URL`。日报会请求：
+
+```
+GET $SKILLS_PROXY_URL?view=trending&per_page=30
+GET $SKILLS_PROXY_URL?view=hot&per_page=30
+```
+
+代理只允许 `trending` 与 `hot` 两个视图，并用自己的 Vercel OIDC 身份请求 `https://skills.sh/api/v1/skills`；它不会将令牌返回给调用方。每个条目至少应带 `id`（推荐 `{source}/{slug}`）；可选字段为 `name`、`source`、`slug`、`description`、`installs`、`url`、`install_command`、`isDuplicate`。未设置 Secret 时，Skills 栏目会安全跳过，不影响其余日报。
+
+系统合并 Trending（24 小时）和 Hot（小时级爆发）榜，过滤 `isDuplicate`，以稳定 `id` 在 `digests/dedup.db` 中永久去重；只有报告成功写入后才标记为已通知。
 
 `ai-hn.md` 结构：
 ```

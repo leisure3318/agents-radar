@@ -12,12 +12,14 @@ import {
   buildWeeklyPrompt,
   buildMonthlyPrompt,
   buildHnPrompt,
+  buildSkillsTrendingPrompt,
 } from "../prompts-data.ts";
 import type { RepoConfig, GitHubItem, GitHubRelease } from "../github.ts";
 import type { RepoDigest } from "../prompts.ts";
 import type { TrendingData } from "../trending.ts";
 import type { HnData } from "../hn.ts";
 import type { WebFetchResult } from "../web.ts";
+import type { TrendingSkill } from "../skills.ts";
 
 // ---------------------------------------------------------------------------
 // Fixtures
@@ -222,6 +224,28 @@ describe("buildTrendingPrompt", () => {
     const result = buildTrendingPrompt(data, "2026-03-09");
     expect(result).toContain("[topic:ai-agent]");
     expect(result).toContain("1,000");
+  });
+});
+
+describe("buildSkillsTrendingPrompt", () => {
+  it("includes the stable source URL, heat signal, and safety constraint", () => {
+    const skills: TrendingSkill[] = [
+      {
+        id: "anthropics/skills/webapp-testing",
+        name: "webapp-testing",
+        source: "anthropics/skills",
+        slug: "webapp-testing",
+        description: "Test a web application.",
+        installs: 12,
+        url: "https://www.skills.sh/anthropics/skills/webapp-testing",
+        installCommand: "npx skills add anthropics/skills",
+        views: ["trending", "hot"],
+      },
+    ];
+    const result = buildSkillsTrendingPrompt(skills, "2026-10-14");
+    expect(result).toContain("webapp-testing");
+    expect(result).toContain("Hot（小时爆发）");
+    expect(result).toContain("审阅 SKILL.md");
   });
 });
 

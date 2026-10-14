@@ -17,6 +17,7 @@ const REPORT_FILES = [
   "ai-web-en",
   "ai-trending",
   "ai-trending-en",
+  "ai-skills",
   "ai-hn",
   "ai-hn-en",
   "ai-ph",

@@ -69,6 +69,12 @@ export const TRENDING_REPORT = {
     lang === "en" ? `📈 AI Open Source Trends ${dateStr}` : `📈 AI 开源趋势日报 ${dateStr}`,
 } as const;
 
+export const SKILLS_REPORT = {
+  title: "AI Skills 新上榜日报",
+  source: "数据来源: skills.sh Trending + Hot（仅首次发现的 Skill）",
+  issueTitle: (dateStr: string) => `🧩 AI Skills 新上榜日报 ${dateStr}`,
+} as const;
+
 export const HN_REPORT = {
   title: t("Hacker News AI 社区动态日报", "Hacker News AI Community Digest"),
   issueTitle: (dateStr: string, lang: Lang) =>
@@ -115,6 +121,9 @@ export const ISSUE_LABELS = {
   openclaw: t("openclaw", "openclaw-en"),
   web: t("web", "web-en"),
   trending: t("trending", "trending-en"),
+  // Reuse the existing label so the first production run cannot fail merely
+  // because a manually-created GitHub label is missing.
+  skills: t("trending", "trending-en"),
   hn: t("hn", "hn-en"),
   ph: t("ph", "ph-en"),
   arxiv: t("arxiv", "arxiv-en"),
@@ -153,6 +162,7 @@ export const REPORT_LABELS: Record<string, string> = {
   "ai-web-en": "Official AI Content Report",
   "ai-trending": "AI 开源趋势日报",
   "ai-trending-en": "AI Open Source Trends",
+  "ai-skills": "AI Skills 新上榜",
   "ai-hn": "Hacker News AI 社区动态日报",
   "ai-hn-en": "Hacker News AI Community Digest",
   "ai-ph": "Product Hunt AI 产品日报",
@@ -174,6 +184,7 @@ export const NOTIFY_LABELS: Record<string, Record<Lang, string>> = {
   "ai-agents": t("AI Agents 生态", "AI Agents Ecosystem"),
   "ai-web": t("官网动态", "Official Updates"),
   "ai-trending": t("GitHub 趋势", "GitHub Trends"),
+  "ai-skills": t("AI Skills 新上榜", "New AI Skills"),
   "ai-hn": t("HN 社区动态", "HN Community"),
   "ai-ph": t("Product Hunt", "Product Hunt"),
   "ai-arxiv": t("ArXiv 研究", "ArXiv Research"),

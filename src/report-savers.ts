@@ -7,6 +7,7 @@ import {
   type Lang,
   WEB_REPORT,
   TRENDING_REPORT,
+  SKILLS_REPORT,
   HN_REPORT,
   PH_REPORT,
   ARXIV_REPORT,
@@ -32,6 +33,7 @@ import type { ArxivData } from "./arxiv.ts";
 import type { HfData } from "./hf.ts";
 import type { DevtoData } from "./devto.ts";
 import type { LobstersData } from "./lobsters.ts";
+import type { SkillsData } from "./skills.ts";
 
 // ---------------------------------------------------------------------------
 // Web report
@@ -135,6 +137,35 @@ export async function saveTrendingReport(
     const trendingUrl = await createGitHubIssue(trendingTitle, trendingContent, trendingLabel);
     console.log(`  Created trending issue (${lang}): ${trendingUrl}`);
   }
+}
+
+// ---------------------------------------------------------------------------
+// skills.sh — Chinese-only: the requested product is a Chinese daily discovery.
+// ---------------------------------------------------------------------------
+
+export async function saveSkillsReport(
+  data: SkillsData,
+  summary: string,
+  utcStr: string,
+  dateStr: string,
+  digestRepo: string,
+  footer: string,
+): Promise<boolean> {
+  if (!data.fetchSuccess || data.skills.length === 0) {
+    console.log("  [skills.sh] No newly discovered skills, skipping report.");
+    return false;
+  }
+  const content =
+    `# ${SKILLS_REPORT.title} ${dateStr}\n\n` +
+    `> ${SKILLS_REPORT.source} | 新发现: ${data.skills.length} 个 | 生成时间: ${utcStr} UTC\n\n---\n\n` +
+    summary +
+    footer;
+  console.log(`  Saved ${saveFile(content, dateStr, "ai-skills.md")}`);
+  if (digestRepo) {
+    const issueUrl = await createGitHubIssue(SKILLS_REPORT.issueTitle(dateStr), content, ISSUE_LABELS.skills.zh);
+    console.log(`  Created skills issue: ${issueUrl}`);
+  }
+  return true;
 }
 
 // ---------------------------------------------------------------------------

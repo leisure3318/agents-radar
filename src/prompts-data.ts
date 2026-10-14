@@ -13,7 +13,37 @@ import type { ArxivData } from "./arxiv.ts";
 import type { HfData } from "./hf.ts";
 import type { DevtoData } from "./devto.ts";
 import type { LobstersData } from "./lobsters.ts";
+import type { TrendingSkill } from "./skills.ts";
 import type { Lang } from "./i18n.ts";
+
+export function buildSkillsTrendingPrompt(skills: TrendingSkill[], dateStr: string): string {
+  const rows = skills
+    .map((skill) => {
+      const heat = skill.views.map((view) => (view === "hot" ? "Hot（小时爆发）" : "Trending（24小时趋势）")).join(" + ");
+      return [
+        `### [${skill.name}](${skill.url})`,
+        `- ID：${skill.id}${skill.source ? ` | 来源：${skill.source}` : ""} | 榜单：${heat}${skill.installs !== null ? ` | 安装量：${skill.installs.toLocaleString()}` : ""}`,
+        skill.description ? `- 原始说明：${skill.description}` : "- 原始说明：未提供",
+        skill.installCommand ? `- 安装命令：\`${skill.installCommand}\`` : "",
+      ].filter(Boolean).join("\n");
+    })
+    .join("\n\n");
+
+  return `你在为开发者编写 ${dateStr} 的「AI Skills 新上榜」日报。以下条目均为 skills.sh 当前 Trending 或 Hot 榜中、且本日报历史上从未出现过的 Skill。请只根据给定资料作答；不确定时明确写“需查看 SKILL.md 确认”，不要编造功能或安全结论。
+
+${rows}
+
+请以中文输出，先写 1~2 句「今日发现」，然后每个 Skill 使用以下固定结构：
+
+## [Skill 名称](链接)
+- **它做什么**：一句平实中文解释。
+- **适合谁用**：目标使用者或场景。
+- **为什么现在值得看**：结合 Trending / Hot 信号，不要把安装量误称为今日新增。
+- **如何使用**：保留给出的安装命令；没有则写“请在原页面查看安装方式”。
+- **注意**：只列有证据的限制或风险；没有足够资料则写“使用前请先审阅 SKILL.md 与来源仓库”。
+
+最多报告 ${skills.length} 个，不要重复历史条目。`;
+}
 export function buildTrendingPrompt(data: TrendingData, dateStr: string, lang: Lang = "zh"): string {
   const trendingSection =
     data.trendingFetchSuccess && data.trendingRepos.length > 0

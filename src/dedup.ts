@@ -45,8 +45,31 @@ export function openDedupDb(): Database.Database {
       story_url TEXT PRIMARY KEY,
       last_seen TEXT NOT NULL
     );
+    CREATE TABLE IF NOT EXISTS seen_skills (
+      skill_id TEXT PRIMARY KEY,
+      first_seen TEXT NOT NULL
+    );
   `);
   return db;
+}
+
+// ---------------------------------------------------------------------------
+// skills.sh skills — permanently notify each stable skill ID only once.
+// ---------------------------------------------------------------------------
+
+export function filterUnseenSkills<T extends { id: string }>(db: Database.Database, skills: T[]): T[] {
+  if (skills.length === 0) return skills;
+  const seen = new Set((db.prepare("SELECT skill_id FROM seen_skills").all() as { skill_id: string }[]).map((r) => r.skill_id));
+  const unseen = skills.filter((skill) => !seen.has(skill.id));
+  console.log(`  [dedup/skills] ${skills.length} skills → ${unseen.length} new (${skills.length - unseen.length} skipped)`);
+  return unseen;
+}
+
+export function markSkillsSeen(db: Database.Database, skills: { id: string }[], dateStr: string): void {
+  if (skills.length === 0) return;
+  const insert = db.prepare("INSERT OR IGNORE INTO seen_skills (skill_id, first_seen) VALUES (?, ?)");
+  db.transaction((items: { id: string }[]) => items.forEach((skill) => insert.run(skill.id, dateStr)))(skills);
+  console.log(`  [dedup/skills] Marked ${skills.length} skills as seen on ${dateStr}`);
 }
 
 // ---------------------------------------------------------------------------

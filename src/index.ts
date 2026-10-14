@@ -28,6 +28,7 @@ import {
   buildSkillsPrompt,
 } from "./prompts.ts";
 import { buildTrendingPrompt, buildHighlightsPrompt, type ReportHighlights } from "./prompts-data.ts";
+import { buildSkillsTrendingPrompt } from "./prompts-data.ts";
 import {
   callLlmLang,
   saveFile,
@@ -44,9 +45,11 @@ import {
   saveArxivReport,
   saveHfReport,
   saveCommunityReport,
+  saveSkillsReport,
 } from "./report-savers.ts";
 import { loadWebState, fetchSiteContent, type WebFetchResult, type WebState } from "./web.ts";
 import { fetchTrendingData, type TrendingData } from "./trending.ts";
+import { fetchSkillsTrendingData, type SkillsData } from "./skills.ts";
 import { fetchHnData, type HnData } from "./hn.ts";
 import { fetchPhData, type PhData } from "./ph.ts";
 import { fetchArxivData, type ArxivData } from "./arxiv.ts";
@@ -72,6 +75,8 @@ import {
   markDevtoArticlesSeen,
   filterUnseenLobstersStories,
   markLobstersStoriesSeen,
+  filterUnseenSkills,
+  markSkillsSeen,
 } from "./dedup.ts";
 
 // ---------------------------------------------------------------------------
@@ -113,10 +118,11 @@ async function fetchAllData(
   hfData: HfData;
   devtoData: DevtoData;
   lobstersData: LobstersData;
+  skillsTrendingData: SkillsData;
 }> {
   const allConfigs = [...CLI_REPOS, OPENCLAW, ...OPENCLAW_PEERS];
   console.log(
-    `  Tracking: ${allConfigs.map((r) => r.id).join(", ")}, claude-code-skills, web, hn, ph, arxiv, hf, devto, lobsters`,
+    `  Tracking: ${allConfigs.map((r) => r.id).join(", ")}, claude-code-skills, skills.sh, web, hn, ph, arxiv, hf, devto, lobsters`,
   );
 
   const [
@@ -130,6 +136,7 @@ async function fetchAllData(
     hfData,
     devtoData,
     lobstersData,
+    skillsTrendingData,
   ] = await Promise.all([
     Promise.all(
       allConfigs.map(async (cfg) => {
@@ -188,6 +195,7 @@ async function fetchAllData(
     fetchHfData().catch((): HfData => ({ models: [], fetchSuccess: false })),
     fetchDevtoData().catch((): DevtoData => ({ articles: [], fetchSuccess: false })),
     fetchLobstersData().catch((): LobstersData => ({ stories: [], fetchSuccess: false })),
+    fetchSkillsTrendingData(),
   ]);
 
   return {
@@ -201,6 +209,7 @@ async function fetchAllData(
     hfData,
     devtoData,
     lobstersData,
+    skillsTrendingData,
   };
 }
 
@@ -351,6 +360,7 @@ async function main(): Promise<void> {
     hfData,
     devtoData,
     lobstersData,
+    skillsTrendingData,
   } = await fetchAllData(since, webState);
 
   // Cross-day dedup cache (SQLite): drop issues/PRs/releases/trending repos
@@ -379,6 +389,14 @@ async function main(): Promise<void> {
     ...trendingData,
     trendingRepos: filterSeenRepos(dedupDb, trendingData.trendingRepos, "html"),
     searchRepos: filterSeenRepos(dedupDb, trendingData.searchRepos, "search"),
+  };
+
+  // A skill is deliberately reported only once, ever. We take the first five
+  // unseen entries from the combined Trending + Hot boards to keep the daily
+  // notification useful rather than exhaustive.
+  const filteredSkillsData: SkillsData = {
+    ...skillsTrendingData,
+    skills: filterUnseenSkills(dedupDb, skillsTrendingData.skills).slice(0, 5),
   };
 
   // Deduplicate HF trending models: filter out models seen in the last N days, then mark today's batch
@@ -443,8 +461,6 @@ async function main(): Promise<void> {
       dateStr,
     );
   }
-  dedupDb.close();
-
   // 3. Generate cross-repo comparisons in parallel (zh + en)
   console.log("  Calling LLM for comparative analyses (ZH + EN)...");
   const summariesByLang = { zh: zhSummaries, en: enSummaries };
@@ -480,6 +496,18 @@ async function main(): Promise<void> {
 
   const comparisonByLang = { zh: zhComparison, en: enComparison };
   const peersComparisonByLang = { zh: zhPeersComparison, en: enPeersComparison };
+
+  // Chinese-only by product design: this report explains newly discovered
+  // skills to the user, unlike the bilingual ecosystem digest.
+  const skillsSummary = filteredSkillsData.skills.length
+    ? await summarize(
+        "skills.sh",
+        buildSkillsTrendingPrompt(filteredSkillsData.skills, dateStr),
+        "⚠️ AI Skills 新上榜报告生成失败。",
+        "zh",
+        LLM_TOKENS_TRENDING,
+      )
+    : "";
 
   // 4. Build + save all reports (zh + en)
   const cliContent: Record<Lang, string> = {} as Record<Lang, string>;
@@ -522,7 +550,15 @@ async function main(): Promise<void> {
     await saveWebReport(webResults, webState, utcStr, dateStr, digestRepo, autoGenFooter(lang), lang);
   }
 
-  await Promise.all([
+  const [skillsReportWritten] = await Promise.all([
+    saveSkillsReport(
+      filteredSkillsData,
+      skillsSummary,
+      utcStr,
+      dateStr,
+      digestRepo,
+      autoGenFooter("zh"),
+    ),
     saveTrendingReport(
       filteredTrendingData,
       zhSummaries.trendingSummary,
@@ -569,6 +605,11 @@ async function main(): Promise<void> {
     ),
   ]);
 
+  // Do not burn a discovery when report creation failed: a later successful
+  // run must be able to notify it. SQLite is committed alongside digests.
+  if (skillsReportWritten) markSkillsSeen(dedupDb, filteredSkillsData.skills, dateStr);
+  dedupDb.close();
+
   // 5. Generate highlights for Telegram notification
   const readReport = (name: string): string | undefined => {
     const p = path.join("digests", dateStr, name);
@@ -578,6 +619,7 @@ async function main(): Promise<void> {
   const zhReports: Record<string, string> = { "ai-cli": cliContent.zh, "ai-agents": openclawContent.zh };
   const enReports: Record<string, string> = { "ai-cli": cliContent.en, "ai-agents": openclawContent.en };
   for (const [id, zhFile, enFile] of [
+    ["ai-skills", "ai-skills.md", ""],
     ["ai-trending", "ai-trending.md", "ai-trending-en.md"],
     ["ai-web", "ai-web.md", "ai-web-en.md"],
     ["ai-hn", "ai-hn.md", "ai-hn-en.md"],
@@ -587,7 +629,7 @@ async function main(): Promise<void> {
     ["ai-community", "ai-community.md", "ai-community-en.md"],
   ] as const) {
     const zh = readReport(zhFile);
-    const en = readReport(enFile);
+    const en = enFile ? readReport(enFile) : undefined;
     if (zh) zhReports[id] = zh;
     if (en) enReports[id] = en;
   }
