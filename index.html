@@ -368,6 +368,23 @@ function assetUrls(path) {
   ];
 }
 
+// Some browser extensions block direct Markdown downloads from both Pages and
+// raw.githubusercontent.com. The Contents API returns the same file as JSON,
+// which gives readers a final route that does not depend on a .md request.
+async function fetchFromGitHubApi(path) {
+  const url = `https://api.github.com/repos/leisure3318/agents-radar/contents/${path}?ref=master`;
+  const res = await fetch(url, { cache: 'no-cache' });
+  if (!res.ok) throw new Error(`HTTP ${res.status}`);
+
+  const data = await res.json();
+  if (typeof data.content !== 'string' || data.encoding !== 'base64') {
+    throw new Error('GitHub 返回了无法读取的文件内容');
+  }
+
+  const bytes = Uint8Array.from(atob(data.content.replace(/\s/g, '')), char => char.charCodeAt(0));
+  return new Response(new TextDecoder().decode(bytes));
+}
+
 async function fetchAsset(path, attempts = 3) {
   let lastError;
   for (const url of assetUrls(path)) {
@@ -385,6 +402,13 @@ async function fetchAsset(path, attempts = 3) {
       }
     }
   }
+
+  try {
+    return await fetchFromGitHubApi(path);
+  } catch (error) {
+    lastError = error;
+  }
+
   throw lastError || new Error('请求失败');
 }
 
