@@ -641,17 +641,20 @@ window.addEventListener('popstate', () => {
     if (!dates?.length) throw new Error('manifest is empty');
 
     buildNav(dates);
-    initSearch(dates);
 
     const hash = getHash();
     const first = dates[0];
     if (hash && dates.find(d => d.date === hash.date && d.reports.includes(hash.report))) {
-      loadReport(hash.date, hash.report, false);
+      await loadReport(hash.date, hash.report, false);
     } else if (first?.reports?.length) {
       const r0 = first.reports[0];
       history.replaceState(null, '', `#${first.date}/${r0}`);
-      loadReport(first.date, r0, false);
+      await loadReport(first.date, r0, false);
     }
+
+    // Do not let hundreds of background archive requests delay the report the
+    // reader explicitly opened.
+    initSearch(dates);
   } catch (e) {
     document.getElementById('nav').innerHTML =
       '<div class="msg" style="height:80px;font-size:10px">⚠️ ' + e.message + '</div>';
