@@ -361,23 +361,28 @@ function getHash() {
 // GitHub Pages occasionally drops an individual asset request at the network
 // layer. Resolve every asset from the document base and retry transient errors
 // so a momentary failure does not leave the reader on a broken report.
-function assetUrl(path) {
-  return new URL(path, document.baseURI).href;
+function assetUrls(path) {
+  return [
+    new URL(path, location.href).href,
+    `https://raw.githubusercontent.com/leisure3318/agents-radar/master/${path}`,
+  ];
 }
 
 async function fetchAsset(path, attempts = 3) {
   let lastError;
-  for (let attempt = 0; attempt < attempts; attempt += 1) {
-    try {
-      const res = await fetch(assetUrl(path), { cache: 'no-cache' });
-      if (res.ok) return res;
-      lastError = new Error(`HTTP ${res.status}`);
-    } catch (error) {
-      lastError = error;
-    }
+  for (const url of assetUrls(path)) {
+    for (let attempt = 0; attempt < attempts; attempt += 1) {
+      try {
+        const res = await fetch(url, { cache: 'no-cache' });
+        if (res.ok) return res;
+        lastError = new Error(`HTTP ${res.status}`);
+      } catch (error) {
+        lastError = error;
+      }
 
-    if (attempt < attempts - 1) {
-      await new Promise((resolve) => setTimeout(resolve, 350 * (attempt + 1)));
+      if (attempt < attempts - 1) {
+        await new Promise((resolve) => setTimeout(resolve, 350 * (attempt + 1)));
+      }
     }
   }
   throw lastError || new Error('请求失败');
