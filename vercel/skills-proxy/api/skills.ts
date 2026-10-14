@@ -20,7 +20,10 @@ export default async function handler(request: IncomingMessage, response: Server
   const view = incoming.searchParams.get("view") ?? "trending";
   if (!ALLOWED_VIEWS.has(view)) return sendJson(response, 400, { error: "Unsupported view" });
 
-  const token = process.env.VERCEL_OIDC_TOKEN;
+  // Vercel puts a function invocation token on the request header. The
+  // environment variable is available during builds, not function execution.
+  const oidcHeader = request.headers["x-vercel-oidc-token"];
+  const token = (Array.isArray(oidcHeader) ? oidcHeader[0] : oidcHeader) ?? process.env.VERCEL_OIDC_TOKEN;
   if (!token) return sendJson(response, 503, { error: "Vercel OIDC is not configured" });
 
   const upstream = new URL("https://skills.sh/api/v1/skills");
