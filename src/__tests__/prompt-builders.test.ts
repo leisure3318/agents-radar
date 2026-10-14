@@ -240,12 +240,14 @@ describe("buildSkillsTrendingPrompt", () => {
         url: "https://www.skills.sh/anthropics/skills/webapp-testing",
         installCommand: "npx skills add anthropics/skills",
         views: ["trending", "hot"],
+        skillMd: "# Web application testing\nUse Playwright to verify user flows.",
       },
     ];
     const result = buildSkillsTrendingPrompt(skills, "2026-10-14");
     expect(result).toContain("webapp-testing");
     expect(result).toContain("Hot（小时爆发）");
-    expect(result).toContain("审阅 SKILL.md");
+    expect(result).toContain("来源 SKILL.md");
+    expect(result).toContain("Use Playwright");
   });
 });
 

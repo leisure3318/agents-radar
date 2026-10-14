@@ -24,23 +24,24 @@ export function buildSkillsTrendingPrompt(skills: TrendingSkill[], dateStr: stri
         `### [${skill.name}](${skill.url})`,
         `- ID：${skill.id}${skill.source ? ` | 来源：${skill.source}` : ""} | 榜单：${heat}${skill.installs !== null ? ` | 安装量：${skill.installs.toLocaleString()}` : ""}`,
         skill.description ? `- 原始说明：${skill.description}` : "- 原始说明：未提供",
+        skill.skillMd ? `- 来源 SKILL.md（原文，可能被截断）：\n\n${skill.skillMd}` : "- 来源 SKILL.md：未读取到",
         skill.installCommand ? `- 安装命令：\`${skill.installCommand}\`` : "",
       ].filter(Boolean).join("\n");
     })
     .join("\n\n");
 
-  return `你在为开发者编写 ${dateStr} 的「AI Skills 新上榜」日报。以下条目均为 skills.sh 当前 Trending 或 Hot 榜中、且本日报历史上从未出现过的 Skill。请只根据给定资料作答；不确定时明确写“需查看 SKILL.md 确认”，不要编造功能或安全结论。
+  return `你在为开发者编写 ${dateStr} 的「AI Skills 新上榜」日报。以下条目均为 skills.sh 当前 Trending 或 Hot 榜中、且本日报历史上从未出现过的 Skill。请只根据给定资料作答；优先依据来源 SKILL.md，提炼具体工作流、依赖、命令和限制。不要编造功能或安全结论。
 
 ${rows}
 
 请以中文输出，先写 1~2 句「今日发现」，然后每个 Skill 使用以下固定结构：
 
 ## [Skill 名称](链接)
-- **它做什么**：一句平实中文解释。
-- **适合谁用**：目标使用者或场景。
+- **它做什么**：用 2~4 句中文解释核心能力和实际产出；若有 SKILL.md，必须基于其中内容说明。
+- **适合谁用**：目标使用者、典型场景和前置条件。
 - **为什么现在值得看**：结合 Trending / Hot 信号，不要把安装量误称为今日新增。
-- **如何使用**：保留给出的安装命令；没有则写“请在原页面查看安装方式”。
-- **注意**：只列有证据的限制或风险；没有足够资料则写“使用前请先审阅 SKILL.md 与来源仓库”。
+- **如何使用**：保留给出的安装命令，并概括 SKILL.md 中最重要的启动/验证命令；没有资料则写“请在原页面查看安装方式”。
+- **注意**：列出 SKILL.md 明确提到的环境依赖、审批要求或限制；若来源文件未读取到，写“未读取到 SKILL.md，请先审阅来源仓库”。
 
 最多报告 ${skills.length} 个，不要重复历史条目。`;
 }

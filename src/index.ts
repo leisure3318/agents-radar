@@ -49,7 +49,7 @@ import {
 } from "./report-savers.ts";
 import { loadWebState, fetchSiteContent, type WebFetchResult, type WebState } from "./web.ts";
 import { fetchTrendingData, type TrendingData } from "./trending.ts";
-import { fetchSkillsTrendingData, type SkillsData } from "./skills.ts";
+import { enrichSkillsWithSource, fetchSkillsTrendingData, type SkillsData } from "./skills.ts";
 import { fetchHnData, type HnData } from "./hn.ts";
 import { fetchPhData, type PhData } from "./ph.ts";
 import { fetchArxivData, type ArxivData } from "./arxiv.ts";
@@ -398,6 +398,7 @@ async function main(): Promise<void> {
     ...skillsTrendingData,
     skills: filterUnseenSkills(dedupDb, skillsTrendingData.skills).slice(0, 5),
   };
+  filteredSkillsData.skills = await enrichSkillsWithSource(filteredSkillsData.skills);
 
   // Deduplicate HF trending models: filter out models seen in the last N days, then mark today's batch
   const filteredHfData: HfData = {

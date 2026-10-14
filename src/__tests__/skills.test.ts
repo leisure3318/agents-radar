@@ -23,6 +23,7 @@ describe("parseSkillsResponse", () => {
 
     expect(skills).toHaveLength(1);
     expect(skills[0]).toMatchObject({ id: "anthropics/skills/webapp-testing", installs: 42, views: ["hot"] });
+    expect(skills[0]?.skillMd).toBe("");
   });
 
   it("accepts proxy data arrays and derives an id from source and slug", () => {
