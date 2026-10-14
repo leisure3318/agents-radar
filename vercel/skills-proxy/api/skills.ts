@@ -18,16 +18,21 @@ export default async function handler(request: Request): Promise<Response> {
   upstream.searchParams.set("view", view);
   upstream.searchParams.set("per_page", "30");
 
-  const response = await fetch(upstream, {
-    headers: { Authorization: `Bearer ${token}`, Accept: "application/json" },
-  });
-  const body = await response.text();
-  return new Response(body, {
-    status: response.status,
-    headers: {
-      "Content-Type": response.headers.get("Content-Type") ?? "application/json",
-      // A daily client does not need stale leaderboard data.
-      "Cache-Control": "no-store",
-    },
-  });
+  try {
+    const response = await fetch(upstream, {
+      headers: { Authorization: `Bearer ${token}`, Accept: "application/json" },
+    });
+    const body = await response.text();
+    return new Response(body, {
+      status: response.status,
+      headers: {
+        "Content-Type": response.headers.get("Content-Type") ?? "application/json",
+        // A daily client does not need stale leaderboard data.
+        "Cache-Control": "no-store",
+      },
+    });
+  } catch (error) {
+    console.error("skills.sh request failed", error);
+    return Response.json({ error: "Unable to reach skills.sh" }, { status: 502 });
+  }
 }
