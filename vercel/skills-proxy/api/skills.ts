@@ -6,8 +6,6 @@
 
 const ALLOWED_VIEWS = new Set(["trending", "hot"]);
 
-export const config = { runtime: "edge" };
-
 export default async function handler(request: Request): Promise<Response> {
   const incoming = new URL(request.url);
   const view = incoming.searchParams.get("view") ?? "trending";

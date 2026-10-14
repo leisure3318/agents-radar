@@ -1,5 +1,0 @@
-{
-  "functions": {
-    "api/skills.ts": { "runtime": "edge" }
-  }
-}
