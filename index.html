@@ -358,6 +358,31 @@ function getHash() {
   return /^\d{4}-\d{2}-\d{2}$/.test(date) && report ? { date, report } : null;
 }
 
+// GitHub Pages occasionally drops an individual asset request at the network
+// layer. Resolve every asset from the document base and retry transient errors
+// so a momentary failure does not leave the reader on a broken report.
+function assetUrl(path) {
+  return new URL(path, document.baseURI).href;
+}
+
+async function fetchAsset(path, attempts = 3) {
+  let lastError;
+  for (let attempt = 0; attempt < attempts; attempt += 1) {
+    try {
+      const res = await fetch(assetUrl(path), { cache: 'no-cache' });
+      if (res.ok) return res;
+      lastError = new Error(`HTTP ${res.status}`);
+    } catch (error) {
+      lastError = error;
+    }
+
+    if (attempt < attempts - 1) {
+      await new Promise((resolve) => setTimeout(resolve, 350 * (attempt + 1)));
+    }
+  }
+  throw lastError || new Error('请求失败');
+}
+
 // ── State ──
 let currentKey = null;
 let searchIndex = null;
@@ -407,8 +432,7 @@ async function buildSearchIndex(dates) {
       const chunks = await Promise.all(
         reports.map(async (report) => {
           try {
-            const res = await fetch(`./digests/${date}/${report}.md`);
-            if (!res.ok) return '';
+            const res = await fetchAsset(`digests/${date}/${report}.md`);
             return await res.text();
           } catch {
             return '';
@@ -480,12 +504,13 @@ async function loadReport(date, report, push = true) {
   cwrap.scrollTop = 0;
 
   try {
-    const res = await fetch(`./digests/${date}/${report}.md`);
-    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    const res = await fetchAsset(`digests/${date}/${report}.md`);
     const raw = await res.text();
     const safe = renderMarkdown(raw);
     setContent(`<div class="md fade">${safe}</div>`);
   } catch (e) {
+    // A failed request must remain retryable when the reader clicks it again.
+    if (currentKey === key) currentKey = null;
     setContent(`<div class="msg"><div class="msg-icon">⚠️</div><div>加载失败：${e.message}</div></div>`);
   }
 }
@@ -606,8 +631,7 @@ window.addEventListener('popstate', () => {
 // ── Init ──
 (async () => {
   try {
-    const res = await fetch('./manifest.json');
-    if (!res.ok) throw new Error('manifest.json not found');
+    const res = await fetchAsset('manifest.json');
     const { dates } = await res.json();
     if (!dates?.length) throw new Error('manifest is empty');
 
