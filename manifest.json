@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-14T04:09:51.789Z",
+  "generated": "2026-10-14T13:24:15.579Z",
   "dates": [
     {
       "date": "2026-10-14",
@@ -12,6 +12,7 @@
         "ai-web-en",
         "ai-trending",
         "ai-trending-en",
+        "ai-skills",
         "ai-hn",
         "ai-hn-en",
         "ai-arxiv",
