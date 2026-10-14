@@ -1,6 +1,6 @@
 # Tech Community AI Digest 2026-10-14
 
-> Sources: [Dev.to](https://dev.to/) (30 articles) + [Lobste.rs](https://lobste.rs/) (1 stories) | Generated: 2026-10-14 03:58 UTC
+> Sources: [Dev.to](https://dev.to/) (20 articles) + [Lobste.rs](https://lobste.rs/) (1 stories) | Generated: 2026-10-14 13:15 UTC
 
 ---
 

@@ -1,68 +1,76 @@
 {
   "zh": {
     "ai-cli": [
-      "Claude Code 发布 v2.1.299",
-      "Codex 连发 4 个 Rust alpha",
-      "Gemini CLI 推 v0.64.0",
-      "Copilot CLI 4 个版本更新",
-      "OpenCode 聚焦 V2 稳定性",
-      "AI CLI 迈向 agent runtime"
+      "Copilot CLI 发布 v1.0.98-2",
+      "Claude Code 今日 50 条 Issue",
+      "Codex 聚焦 Windows 桌面端",
+      "OpenCode v2 稳定性成热点",
+      "Qwen Code 推进 Managed Agent",
+      "Gemini CLI 修复原子写入"
     ],
     "ai-agents": [
-      "OpenClaw 24小时 47 个 PR",
-      "OpenClaw 发布 2 个新版本",
-      "v2026.10.5-beta.3 强化升级",
-      "Gateway 升级可保持运行",
-      "Windows Scheduled Task 增强",
-      "42 个 PR 待合并压力高"
+      "OpenClaw 今日 44 Issues",
+      "OpenClaw 今日 46 PRs",
+      "Gateway 启动诊断成焦点",
+      "P0/P1 更新失败待修复",
+      "Solid UI 迁移继续推进",
+      "Guest 项目选择修复中"
+    ],
+    "ai-skills": [
+      "hyperframes-cli 安装量 30599",
+      "hyperframes-animation 登趋势榜",
+      "hyperframes 主 Skill 新上榜",
+      "media-use 安装量 30203",
+      "ai-image-generation 登榜",
+      "Heygen Hyperframes 集体走热"
     ],
     "ai-trending": [
-      "vercel-labs/skills 今日 +190 星",
-      "Agent skills 成新热点",
-      "npx skills 推动 CLI 分发",
-      "智能体能力模块化升温",
-      "今日无模型/RAG 新爆点",
-      "Agent 能力市场露雏形"
+      "iFixAi 单日新增 2143 stars",
+      "Agent 审计工具爆火",
+      "可信执行成开源焦点",
+      "热榜仅 1 个 AI 项目",
+      "RAG 与训练框架缺席",
+      "Agent 治理需求升温"
     ],
     "ai-web": [
-      "Anthropic 新增 2 篇高信号文",
-      "Scion 替代 Git 支撑 monorepo",
-      "Anthropic 日合并超 3 万次",
-      "Claude 正重塑研发基础设施",
-      "蒸馏攻击防御降采集 90%-99%",
+      "Anthropic 新加坡办公室开业",
+      "Anthropic 签新加坡 MOU",
+      "Claude 进入 GovTech 场景",
+      "Grab 与 DBS 已采用 Claude",
+      "合作聚焦 AI 安全评估",
       "OpenAI 官网今日零更新"
     ],
     "ai-hn": [
-      "Anthropic 源码管理帖 605 分",
-      "OpenAI 窃听事件引爆讨论",
-      "Apple 闲置芯片 GPU 云 238 分",
-      "AI 自我复制风险引争议",
-      "FrontierML 推端到端基准",
-      "LLM 代码翻译类型映射受关注"
+      "Anthropic 源码控制文 815 分",
+      "源码控制讨论达 870 评论",
+      "OpenAI 窃听事件引热议",
+      "Parsimony 衡量 AI 代码膨胀",
+      "Claude Code 工作流受关注",
+      "FrontierML 推端到端基准"
     ],
     "ai-arxiv": [
-      "今日 5 篇聚焦长期记忆",
-      "DeepThink 提知识可寻址模型",
-      "Hashrope 优化 KV-cache 复用",
-      "Phantom Merge 揭示实体混淆",
-      "潜在通信助力多智能体协作",
-      "Lüshi-1840 研究古汉语截止"
+      "Agentic AI 成论文主线",
+      "DoubtLess 降低 CoT 成本",
+      "Depth Memory 改进深层传播",
+      "Token 奖励归因无需训练",
+      "Tev 聚焦长程 Agent 奖励",
+      "Hybrid Agents 融合工具推理"
     ],
     "ai-hf": [
-      "MiniCPM-V-4.7-1B 登热榜",
-      "JEV-35B-NVFP4 下载 20494",
-      "LiquidAI 24B MoE 获 186 赞",
-      "NVFP4 量化部署热度高",
-      "1B 多模态模型继续升温",
-      "Qwen3.5 MoE 生态受关注"
+      "fishaudio/drama-3 登热门榜",
+      "drama-3 获 221 点赞",
+      "drama-3 下载量 839",
+      "多说话人 TTS 受关注",
+      "戏剧化语音生成走热",
+      "Fish Audio 生态值得跟踪"
     ],
     "ai-community": [
-      "AI 疲劳帖获 57 赞",
-      "Vibe coding 克隆应用引热议",
-      "Agent 越权行为成安全焦点",
-      "K8s 测 AI 代码实践受关注",
-      "生产数据能否交给 coding agent",
-      "Agent 重启失忆修复案例"
+      "浏览器端 AI 成 Dev.to 热点",
+      "Agent 权限边界受关注",
+      "端到端 Evals 讨论升温",
+      "金融 Agent 审计成焦点",
+      "AI 记忆不等于学习",
+      "开放 AI 营销遭讽刺"
     ]
   },
   "en": {}
