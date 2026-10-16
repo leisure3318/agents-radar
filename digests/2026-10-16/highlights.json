@@ -1,4 +1,53 @@
 {
-  "zh": {},
+  "zh": {
+    "ai-cli": [
+      "OpenCode现唯一活跃PR：#55952",
+      "OpenCode拟将三个测试合并为一个",
+      "OpenCode拟移除相关MCP测试脚本",
+      "OpenCode测试覆盖环境变量占位符",
+      "OpenCode读取/api/config验证配置",
+      "OpenCode测试改进PR尚未合并"
+    ],
+    "ai-agents": [
+      "OpenClaw：CJK内容压缩前遭预检拒绝",
+      "OpenClaw拟限制万条会话扫描负载",
+      "OpenClaw临时执行残留目录问题已关闭",
+      "OpenClaw拟迁移复制与下载反馈至Solid",
+      "OpenClaw拟用Solid管理MCP草稿",
+      "OpenClaw拟改善侧栏长PR标题显示"
+    ],
+    "ai-skills": [
+      "5个新上榜Skill聚焦移动UI与视频",
+      "HyperFrames工作室技能安装量23,511",
+      "HyperFrames要求先辨意图再改文件",
+      "HyperFrames规范分镜与可编辑时间线",
+      "design-mobile-apps安装量21,141",
+      "Sleek串联移动界面设计与代码实现"
+    ],
+    "ai-trending": [
+      "xerj今日新增715星，领跑样本热榜",
+      "xerj用Rust构建Agent数据检索",
+      "xerj兼容Elasticsearch客户端",
+      "tokenspeed推理引擎今日新增30星",
+      "serviette聚焦实时RAG，总星58,799",
+      "awesome-ai-eval覆盖模型与Agent评估"
+    ],
+    "ai-hn": [
+      "Anthropic原创性争议获235分、76评",
+      "Anthropic独立评估进展获28分",
+      "苹果分享MLX与RDMA分布式推理",
+      "Mistral发布Timestral，能力待核实",
+      "Claude Code内核补丁被指出竞态问题",
+      "Claude Code接管网站与广告预算实验"
+    ],
+    "ai-community": [
+      "Dev.to案例自述：月27.7万次请求430美元",
+      "Agent零按token计费，成本边界待核实",
+      "产品真的需要聊天入口吗？文章引讨论",
+      "SaaS接入AI：先看任务，而非默认聊天",
+      "Tripo AI付费实测关注3D产物可用性",
+      "Tripo AI评测追问生成后的材料成本"
+    ]
+  },
   "en": {}
 }
