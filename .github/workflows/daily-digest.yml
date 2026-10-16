@@ -58,7 +58,7 @@ jobs:
           LLM_PROVIDER: openai
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           OPENAI_BASE_URL: http://107.174.65.61:8318/v1
-          OPENAI_MODEL: gpt-5.5
+          OPENAI_MODEL: gpt-6.1-sol
           PRODUCTHUNT_TOKEN: ${{ secrets.PRODUCTHUNT_TOKEN }}
           # A Vercel OIDC-backed proxy for skills.sh. See README.zh.md.
           SKILLS_PROXY_URL: ${{ secrets.SKILLS_PROXY_URL }}
