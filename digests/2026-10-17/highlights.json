@@ -1,0 +1,61 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.302新增空闲压缩开关",
+      "Codex发布0.164.0两版Alpha",
+      "Copilot CLI连发3版，完善会话浏览器",
+      "OpenCode发布v1.19.3，推进v2迁移",
+      "Qwen Code更新40条PR，推进任务控制",
+      "9款CLI更新212条Issue，可靠性成焦点"
+    ],
+    "ai-agents": [
+      "OpenClaw更新87条PR，今日无新版本",
+      "OpenClaw推进Gateway启动与数据库优化",
+      "OpenClaw改进Memory索引与凭据边界",
+      "OpenClaw重构Control UI侧栏菜单",
+      "OpenClaw用户反馈Windows更新激活问题",
+      "OpenClaw执行审批与锁所有权问题待关注"
+    ],
+    "ai-skills": [
+      "Skills榜单新发现5项，均来自24小时趋势榜",
+      "find-skills累计安装17,637次",
+      "find-skills串联技能搜索、筛选与安装",
+      "find-skills要求推荐前核查来源信誉",
+      "ai-video-generation安装量14,623",
+      "video-edit安装量14,602，功能待核验"
+    ],
+    "ai-web": [
+      "Anthropic新增收录6篇，无新模型公告",
+      "Anthropic智能体与员工工时比约6∶1",
+      "超半数Anthropic员工预测AI能做八成工作",
+      "诺奖级AI发现预期：员工91%，公众39%",
+      "Claude量子电路研究结合自动验证与自主搜索",
+      "Anthropic向METR提供类似员工的访问权限"
+    ],
+    "ai-hn": [
+      "Claude曲线起源研究获667分、269评",
+      "Claude Code代码审查实践引来219评",
+      "Mac Studio分布式推理获265分",
+      "Gemini 4 Argon玩星际争霸获185分",
+      "FLUX 3 Image Klein获113分关注",
+      "Claude量子电路优化研究获98分"
+    ],
+    "ai-hf": [
+      "本期仅收录NVIDIA一款Qwen系模型",
+      "Qwen3.8-Flash-Next-FP4-Local上榜",
+      "该模型获148次点赞、771次下载",
+      "任务标注为图文输入、文本输出",
+      "FP4与ModelOpt标签指向低精度优化",
+      "Local命名引关注，显存与许可仍待核验"
+    ],
+    "ai-community": [
+      "并行AI编程代理管理工具盘点获47赞",
+      "AI应用构建器信任评估文章获39赞",
+      "大仓库代码检索实践附复现实验，获13赞",
+      "Agent工程加固讨论聚焦非确定性风险",
+      "作者实测称T4升温后Gemma 4解码降7%",
+      "三款本地工具补强代理记忆与变更防护"
+    ]
+  },
+  "en": {}
+}
