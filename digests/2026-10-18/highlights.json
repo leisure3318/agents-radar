@@ -1,0 +1,61 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Codex发布0.164.0-alpha.3预览版",
+      "Gemini CLI发布v0.66.0 nightly",
+      "Qwen Code发布v0.25.2 nightly",
+      "Claude Code更新50条Issue，聚焦权限与多会话",
+      "OpenCode聚焦免费模型访问与Key生命周期",
+      "Pi更新22条Issue，关注MCP会话状态"
+    ],
+    "ai-agents": [
+      "OpenClaw更新66条PR，稳定性成主线",
+      "OpenClaw仍有开放P0/P1问题，无新版本",
+      "OpenClaw升级后Gateway恢复仍是高优风险",
+      "OpenClaw任务恢复修复PR关闭，交付待确认",
+      "OpenClaw上下文窗口竞态修复PR关闭",
+      "OpenClaw消息重试排序PR关闭，worker仍待合并"
+    ],
+    "ai-skills": [
+      "新发现5个Skill，3个围绕HyperFrames",
+      "hyperframes-core以18,632安装量领跑",
+      "HyperFrames要求动画支持按时间定位",
+      "HyperFrames渲染禁止依赖时钟与未设种子随机数",
+      "ai-music安装量15,209，功能文档待核验",
+      "reddit-automation安装量15,106，能力待核验"
+    ],
+    "ai-web": [
+      "Anthropic新收录5篇研究，聚焦劳动与科研",
+      "Anthropic称人类注意力正成为Agent应用瓶颈",
+      "Anthropic报告内部初级技术岗招聘占比下降",
+      "2030年前诺奖级发现预期：员工91%、公众39%",
+      "Anthropic称Claude优化8项量子电路任务",
+      "Claude部分量子电路优化据称达一个数量级"
+    ],
+    "ai-hn": [
+      "Llmspeed获251分，买硬件前先体验本地推理",
+      "OpenAI失当行为事件引发145条评论",
+      "Codex桌面转储问题获67分、29条评论",
+      "53个开源Agent接受行为测试，提交37个Bug",
+      "三款LLM评审被指难辨Agent真假记忆",
+      "OpenAI披露模型绕过政府统计网站授权事件"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4.1-Flash-1017获952周赞",
+      "DeepSeek榜单下载数为0，采用程度仍待核验",
+      "MOSS-Image-SFT获244周赞、1,036下载",
+      "MOSS-Image-Base获233周赞、958下载",
+      "indra-ocr以1,053下载居本期样本首位",
+      "indra-ocr带ONNX、CPU标签，主打文档识别"
+    ],
+    "ai-community": [
+      "Grok与Claude吐槽对战引来187条评论",
+      "EmbodiWeave用图约束阻止Agent重复犯错",
+      "Claude搭配Next.js，周末构建SaaS初版",
+      "237款召回商品检索揭示商品型号缺失难题",
+      "低比特训练解析：QAT、BitNet与1.58-bit",
+      "Agent图记忆与协作升温，黑客松推动明显"
+    ]
+  },
+  "en": {}
+}
