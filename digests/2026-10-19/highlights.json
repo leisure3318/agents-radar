@@ -1,0 +1,69 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code发布v2.1.303，聚焦可靠性",
+      "Gemini CLI更新0.66.0 Nightly",
+      "OpenCode有50条PR更新，聚焦V2稳定性",
+      "Qwen Code有50条PR更新，关注代理恢复",
+      "Codex社区聚焦审批阻塞与会话恢复",
+      "Pi关注工具调用容错、缓存与上下文压缩"
+    ],
+    "ai-agents": [
+      "OpenClaw发布v2026.10.5，强化更新恢复",
+      "OpenClaw升级遭报P0：Gateway循环崩溃",
+      "OpenClaw更新85条PR，73条待合并",
+      "OpenClaw新版改善pnpm 12更新兼容",
+      "OpenClaw优化Windows提权与macOS更新",
+      "OpenClaw社区关注消息丢失与数据损坏"
+    ],
+    "ai-skills": [
+      "5个新收录Skill均登Trending",
+      "ai-avatar-video榜单安装量达9,796",
+      "P-Video-Avatar内置30种声音、10种语言",
+      "数字人Skill串联翻译、配音与重新对口型",
+      "ai-image-generation覆盖50多种图像模型",
+      "两个仓库的ai-video-generation文档一致"
+    ],
+    "ai-trending": [
+      "llm-course今日新增81颗星",
+      "llm-course以学习路线串联LLM实践",
+      "llm-course提供Colab实验笔记本",
+      "Trending仅1个项目明确属于AI领域",
+      "llm-course总星数显示0，疑似数据异常",
+      "本次Agent、RAG方向无有效入选项目"
+    ],
+    "ai-web": [
+      "Anthropic拟投入5%股份设公共利益基金",
+      "Anthropic初始股份投入仍须股东批准",
+      "估值每增50%，董事会可酌情追加2%股份",
+      "Anthropic此前承诺2亿美元应对就业冲击",
+      "新基金或探索向特定群体直接分配资源",
+      "基金拟设为全资LLC，非已确认独立基金会"
+    ],
+    "ai-hn": [
+      "混合推理Agent论文获206分、129条评论",
+      "Anthropic就业变化帖子引发190条评论",
+      "Opus 5.5制作500个时钟，获65分",
+      "Cloudflare版WhatsApp MCP获41分",
+      "vLLM深度优化Kimi K3，获20分",
+      "LLM分析15万条Reddit帖子寻找药物风险"
+    ],
+    "ai-hf": [
+      "MOSS-Image下载量达354,126",
+      "MOSS-Image获195赞，领跑本次双模型样本",
+      "MOSS-Image支持ComfyUI与单文件分发",
+      "MOSS-Image标注Apache-2.0许可",
+      "腾讯Hy-Memory获189赞、1,187次下载",
+      "Hy-Memory记忆机制与性能仍待模型卡核验"
+    ],
+    "ai-community": [
+      "Qwen3-8B微调复盘：准确率从50%到76%",
+      "微调预算复盘获Dev.to最高38赞",
+      "Vibe Code交付检查清单引发14条评论",
+      "酒店前台Agent：4B模型理解，Python决策",
+      "Athena以本地Git与AST增强代码上下文",
+      "私人消息Copilot主打笔记本本地运行"
+    ]
+  },
+  "en": {}
+}
