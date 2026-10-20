@@ -1,0 +1,61 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code发布v2.1.304",
+      "Codex连发3个0.164.0 Alpha版本",
+      "Gemini CLI推出v0.66.0 Nightly",
+      "Copilot CLI发布v1.0.100等两版",
+      "Qwen Code发布覆盖CLI、桌面与SDK",
+      "OpenCode更新50条Issue、50条PR"
+    ],
+    "ai-agents": [
+      "OpenClaw发布v2026.10.10-beta.2",
+      "OpenClaw补丁预检查避免部分文件先被改",
+      "OpenClaw仍有未关闭P0升级问题",
+      "OpenClaw更新42条Issue、51条PR",
+      "OpenClaw聚焦SQLite状态一致性",
+      "Codex运行时版本差异触发启动告警"
+    ],
+    "ai-skills": [
+      "5个新Skill同时进入Trending与Hot",
+      "HyperFrames包揽4个新上榜Skill",
+      "motion-graphics安装量467，主攻短动效",
+      "agent-browser安装量417，支持网页自动化",
+      "agent-browser动态提供匹配版本的指南",
+      "HyperFrames渲染前要求明确批准"
+    ],
+    "ai-web": [
+      "Anthropic向METR提供类员工访问权限",
+      "METR将公开前沿模型风险评估结果",
+      "AI获诺奖级成果预期：公众39%、员工91%",
+      "超半数Anthropic员工预期八成工作可被AI完成",
+      "Anthropic研究：26%用户称任务耗时降至四分一",
+      "OpenAI新增页面正文缺失，技术进展待核"
+    ],
+    "ai-hn": [
+      "Tmux配Claude Code获149分、114条评论",
+      "Anthropic IPO信托报道获132分",
+      "KiviDB向量缓存获63分、39条评论",
+      "Laminar用强化学习定位Agent轨迹错误",
+      "Maxwell模型获43分，定位代码与硬件之间",
+      "OpenRouter用量平台期引发增长讨论"
+    ],
+    "ai-hf": [
+      "Timestral-209M获196赞，领跑本组",
+      "Nemotron多模态模型下载达9,322次",
+      "Beam-1.0-501B-A23B获168赞",
+      "Muse-Spark下载3,672次，获184赞",
+      "Nemotron与Muse-Spark均提供NVFP4版",
+      "Timestral以时间序列预测切入专用模型"
+    ],
+    "ai-community": [
+      "Agent重试故障讨论获21赞、18条评论",
+      "AWS仓库风险评分Agent获19赞",
+      "AI代码验证成本引发资深工程师效率争论",
+      "日志代理揭示LLM客户端隐式重试",
+      "MCP工具定义被指每轮消耗3万Token",
+      "Agent安全关注延伸至跨会话秘密泄露"
+    ]
+  },
+  "en": {}
+}
