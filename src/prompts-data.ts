@@ -19,14 +19,20 @@ import type { Lang } from "./i18n.ts";
 export function buildSkillsTrendingPrompt(skills: TrendingSkill[], dateStr: string): string {
   const rows = skills
     .map((skill) => {
-      const heat = skill.views.map((view) => (view === "hot" ? "Hot（小时爆发）" : "Trending（24小时趋势）")).join(" + ");
+      const heat = skill.views
+        .map((view) => (view === "hot" ? "Hot（小时爆发）" : "Trending（24小时趋势）"))
+        .join(" + ");
       return [
         `### [${skill.name}](${skill.url})`,
         `- ID：${skill.id}${skill.source ? ` | 来源：${skill.source}` : ""} | 榜单：${heat}${skill.installs !== null ? ` | 安装量：${skill.installs.toLocaleString()}` : ""}`,
         skill.description ? `- 原始说明：${skill.description}` : "- 原始说明：未提供",
-        skill.skillMd ? `- 来源 SKILL.md（原文，可能被截断）：\n\n${skill.skillMd}` : "- 来源 SKILL.md：未读取到",
+        skill.skillMd
+          ? `- 来源 SKILL.md（原文，可能被截断）：\n\n${skill.skillMd}`
+          : "- 来源 SKILL.md：未读取到",
         skill.installCommand ? `- 安装命令：\`${skill.installCommand}\`` : "",
-      ].filter(Boolean).join("\n");
+      ]
+        .filter(Boolean)
+        .join("\n");
     })
     .join("\n\n");
 

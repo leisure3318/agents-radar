@@ -147,7 +147,9 @@ async function fetchView(proxyUrl: string, view: SkillsView): Promise<TrendingSk
 }
 
 /** Fetch and merge the current Trending and Hot leaderboards. */
-export async function fetchSkillsTrendingData(proxyUrl = process.env["SKILLS_PROXY_URL"] ?? ""): Promise<SkillsData> {
+export async function fetchSkillsTrendingData(
+  proxyUrl = process.env["SKILLS_PROXY_URL"] ?? "",
+): Promise<SkillsData> {
   if (!proxyUrl) {
     console.log("  [skills.sh] SKILLS_PROXY_URL is not configured — skipping.");
     return { skills: [], fetchSuccess: false };
@@ -157,7 +159,10 @@ export async function fetchSkillsTrendingData(proxyUrl = process.env["SKILLS_PRO
     const merged = new Map<string, TrendingSkill>();
     for (const skill of results.flat()) {
       const previous = merged.get(skill.id);
-      merged.set(skill.id, previous ? { ...skill, views: [...new Set([...previous.views, ...skill.views])] } : skill);
+      merged.set(
+        skill.id,
+        previous ? { ...skill, views: [...new Set([...previous.views, ...skill.views])] } : skill,
+      );
     }
     const skills = [...merged.values()].slice(0, 60);
     console.log(`  [skills.sh] ${skills.length} unique skills from Trending + Hot`);
