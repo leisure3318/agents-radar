@@ -1,48 +1,46 @@
 <!DOCTYPE html>
-<html lang="zh-CN" data-theme="dark">
+<html lang="zh-CN" data-theme="light">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>📡 agents-radar</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap" rel="stylesheet">
   <link rel="alternate" type="application/rss+xml" title="agents-radar RSS" href="./feed.xml">
   <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/dompurify@3/dist/purify.min.js"></script>
   <style>
     :root {
-      --bg:         #0B0D14;
-      --bg-side:    #080A10;
-      --bg-hover:   #12151F;
-      --bg-active:  #1A1E2E;
-      --border:     #1E2235;
-      --text:       #C9D1D9;
-      --muted:      #636E82;
-      --dim:        #2E3547;
-      --accent:     #E8A03D;
-      --accent-bg:  rgba(232,160,61,0.10);
-      --code-bg:    #0D1017;
-      --link:       #79B8FF;
+      --bg:         #161a20;
+      --bg-side:    #1b2027;
+      --bg-hover:   #242b34;
+      --bg-active:  #293440;
+      --border:     #303943;
+      --text:       #dce2e9;
+      --muted:      #a0acba;
+      --dim:        #748292;
+      --accent:     #8fb9ec;
+      --accent-bg:  rgba(143,185,236,0.10);
+      --code-bg:    #1e252e;
+      --link:       #9dc4f3;
     }
     [data-theme="light"] {
-      --bg:         #FAFBFC;
-      --bg-side:    #F0F2F5;
-      --bg-hover:   #E8ECF1;
-      --bg-active:  #DDE3EA;
-      --border:     #D2D8E0;
-      --text:       #1C1E26;
-      --muted:      #5A6678;
-      --dim:        #B8C2D0;
-      --accent:     #B57200;
-      --accent-bg:  rgba(181,114,0,0.08);
-      --code-bg:    #F0F2F5;
-      --link:       #0451A5;
+      --bg:         #ffffff;
+      --bg-side:    #f6f8fa;
+      --bg-hover:   #edf1f5;
+      --bg-active:  #e6edf6;
+      --border:     #e3e8ee;
+      --text:       #263343;
+      --muted:      #657387;
+      --dim:        #7a8797;
+      --accent:     #326596;
+      --accent-bg:  rgba(50,101,150,0.08);
+      --code-bg:    #f6f8fa;
+      --link:       #286294;
     }
 
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     html, body { height: 100%; }
     body {
-      font-family: 'Space Mono', 'Courier New', monospace;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif;
       background: var(--bg);
       color: var(--text);
       line-height: 1.5;
@@ -55,25 +53,18 @@
     /* ── Header ── */
     #hdr {
       display: flex; align-items: center; justify-content: space-between;
-      padding: 0 20px; height: 50px;
+      padding: 0 28px; height: 64px;
       background: var(--bg-side); border-bottom: 1px solid var(--border);
       flex-shrink: 0;
     }
-    .brand { font-size: 14px; font-weight: 700; letter-spacing: -0.03em; display: flex; align-items: center; gap: 10px; }
-    .brand-icon { font-size: 18px; animation: breathe 3s ease-in-out infinite; }
-    @keyframes breathe { 0%,100%{opacity:1} 50%{opacity:0.55} }
-    .brand em { color: var(--accent); font-style: normal; }
+    .brand { font-size: 17px; font-weight: 700; letter-spacing: -0.03em; display: flex; align-items: center; gap: 10px; }
+    .brand-icon { font-size: 20px; }
+     .brand em { color: var(--text); font-style: normal; }
     .hdr-right { display: flex; align-items: center; gap: 10px; }
-    .signal {
-      width: 6px; height: 6px; border-radius: 50%;
-      background: var(--accent); box-shadow: 0 0 6px var(--accent);
-      animation: blink 2s ease-in-out infinite;
-    }
-    @keyframes blink { 0%,100%{opacity:1} 50%{opacity:0.25} }
     .hdr-btn {
       background: none; border: 1px solid var(--border); color: var(--muted);
       padding: 4px 12px; border-radius: 4px; cursor: pointer;
-      font-family: inherit; font-size: 10px; letter-spacing: 0.06em;
+      font-family: inherit; font-size: 12px; letter-spacing: 0;
       text-decoration: none; display: inline-flex; align-items: center; gap: 5px;
       transition: border-color 0.15s, color 0.15s;
     }
@@ -86,22 +77,22 @@
 
     /* ── Sidebar ── */
     #sidebar {
-      width: 300px; flex-shrink: 0;
+      width: 292px; flex-shrink: 0;
       background: var(--bg-side); border-right: 1px solid var(--border);
-      overflow-y: auto; padding: 10px 0;
+      overflow-y: auto; padding: 22px 12px;
     }
     #sidebar::-webkit-scrollbar { width: 3px; }
     #sidebar::-webkit-scrollbar-thumb { background: var(--dim); border-radius: 2px; }
     .side-label {
-      font-size: 9px; letter-spacing: 0.14em; text-transform: uppercase;
-      color: var(--dim); padding: 4px 16px 10px;
+      font-size: 12px; letter-spacing: 0;
+      color: var(--muted); padding: 4px 12px 16px;
     }
     .search-wrap { padding: 0 12px 10px; }
     #searchInput {
-      width: 100%; height: 28px; padding: 0 9px;
+      width: 100%; height: 38px; padding: 0 11px;
       border: 1px solid var(--border); border-radius: 4px;
       background: var(--bg); color: var(--text);
-      font-family: inherit; font-size: 11px;
+      font-family: inherit; font-size: 13px;
     }
     #searchInput:focus {
       outline: none; border-color: var(--accent);
@@ -114,9 +105,9 @@
     /* ── Month group ── */
     .month-hdr {
       display: flex; align-items: center; justify-content: space-between;
-      padding: 6px 14px; cursor: pointer;
-      font-size: 12px; font-weight: 700; color: var(--dim);
-      letter-spacing: 0.08em; text-transform: uppercase;
+      padding: 12px 12px; cursor: pointer;
+      font-size: 13px; font-weight: 600; color: var(--muted);
+      letter-spacing: 0;
       transition: color 0.15s; user-select: none;
     }
     .month-hdr:hover { color: var(--muted); }
@@ -127,7 +118,7 @@
 
     .date-hdr {
       display: flex; align-items: center; justify-content: space-between;
-      padding: 5px 14px 5px 22px; cursor: pointer;
+      padding: 9px 12px 9px 18px; cursor: pointer;
       font-size: 13px; font-weight: 700; color: var(--muted);
       letter-spacing: 0.04em; transition: color 0.15s; user-select: none;
     }
@@ -142,20 +133,20 @@
     .rpt-list { max-height: 0; overflow: hidden; transition: max-height 0.25s ease; }
     .date-group.open .rpt-list { max-height: 600px; }
     .rpt-btn {
-      display: block; width: 100%; padding: 5px 14px 5px 26px;
+      display: block; width: 100%; padding: 9px 10px 9px 22px;
       background: none; border: none; border-left: 2px solid transparent;
       text-align: left; cursor: pointer; font-family: inherit; font-size: 13px;
       color: var(--muted); transition: color 0.1s, background 0.1s, border-color 0.1s;
     }
     .rpt-btn:hover { background: var(--bg-hover); color: var(--text); }
     .rpt-btn.active { color: var(--accent); border-left-color: var(--accent); background: var(--accent-bg); }
-    .rpt-row { display: flex; align-items: center; padding: 5px 14px 5px 26px; }
+    .rpt-row { display: flex; align-items: center; padding: 9px 10px 9px 22px; }
     .rpt-label { flex: 1; font-size: 13px; color: var(--muted); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
     .lang-btns { display: flex; gap: 3px; flex-shrink: 0; }
     .lang-btn {
       background: none; border: 1px solid var(--dim); color: var(--dim);
-      padding: 2px 7px; border-radius: 3px; cursor: pointer;
-      font-family: inherit; font-size: 11px; letter-spacing: 0.06em;
+      padding: 2px 7px; border-radius: 5px; cursor: pointer;
+      font-family: inherit; font-size: 13px; letter-spacing: 0.06em;
       transition: border-color 0.1s, color 0.1s;
     }
     .lang-btn:hover { border-color: var(--muted); color: var(--muted); }
@@ -165,7 +156,7 @@
     #cwrap { flex: 1; overflow-y: auto; }
     #cwrap::-webkit-scrollbar { width: 5px; }
     #cwrap::-webkit-scrollbar-thumb { background: var(--dim); border-radius: 3px; }
-    #content { max-width: 820px; margin: 0 auto; padding: 36px 48px 72px; }
+    #content { max-width: 900px; margin: 0 auto; padding: 52px 56px 96px; }
 
     .msg {
       display: flex; flex-direction: column; align-items: center;
@@ -175,41 +166,49 @@
     .msg-icon { font-size: 36px; opacity: 0.35; }
 
     @keyframes fadein { from{opacity:0;transform:translateY(5px)} to{opacity:1;transform:none} }
-    .fade { animation: fadein 0.3s ease; }
+    .fade { animation: fadein 0.2s ease; }
+    :focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
+    .md { overflow-wrap: anywhere; }
+    .md img { max-width: 100%; height: auto; }
+    .md blockquote em { font-style: normal; }
+    #cwrap { min-width: 0; }
+    @media (prefers-reduced-motion: reduce) {
+      *, *::before, *::after { animation: none !important; transition: none !important; }
+    }
 
     /* ── Markdown ── */
     .md {
-      font-family: 'Source Serif 4', Georgia, 'PingFang SC', 'Microsoft YaHei', serif;
-      font-size: 16px; line-height: 1.8; color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif;
+      font-size: 16px; line-height: 1.9; color: var(--text);
     }
-    .md h1 { font-size: 22px; font-weight: 600; margin-bottom: 20px; line-height: 1.3; letter-spacing: -0.02em; }
-    .md h2 { font-size: 17px; font-weight: 600; margin: 30px 0 12px; padding-bottom: 8px; border-bottom: 1px solid var(--border); }
-    .md h3 { font-size: 15px; font-weight: 600; margin: 20px 0 8px; }
-    .md h4 { font-size: 13px; font-weight: 700; margin: 16px 0 6px; color: var(--muted); font-family: 'Space Mono', monospace; letter-spacing: 0.03em; }
-    .md p { margin-bottom: 12px; }
+    .md h1 { font-size: 30px; font-weight: 700; margin-bottom: 24px; line-height: 1.45; letter-spacing: -0.02em; }
+    .md h2 { font-size: 21px; font-weight: 650; margin: 40px 0 18px; padding-bottom: 12px; border-bottom: 1px solid var(--border); }
+    .md h3 { font-size: 18px; font-weight: 600; margin: 28px 0 12px; }
+    .md h4 { font-size: 13px; font-weight: 700; margin: 16px 0 6px; color: var(--muted); font-family: ui-monospace, SFMono-Regular, Consolas, monospace; letter-spacing: 0.03em; }
+    .md p { margin-bottom: 18px; }
     .md a { color: var(--link); text-decoration: none; }
     .md a:hover { text-decoration: underline; }
     .md strong { font-weight: 600; }
     .md hr { border: none; border-top: 1px solid var(--border); margin: 22px 0; }
     .md ul, .md ol { padding-left: 22px; margin-bottom: 12px; }
-    .md li { margin-bottom: 4px; }
+    .md li { margin-bottom: 10px; }
     .md li > ul, .md li > ol { margin-top: 4px; margin-bottom: 0; }
-    .md blockquote { border-left: 3px solid var(--accent); padding: 6px 16px; margin: 12px 0; color: var(--muted); font-style: italic; }
+    .md blockquote { border-left: 2px solid var(--border); padding: 4px 18px; margin: 20px 0; color: var(--muted); font-size: 14px; font-style: normal; }
     .md code {
-      font-family: 'Space Mono', monospace; font-size: 12.5px;
+      font-family: ui-monospace, SFMono-Regular, Consolas, monospace; font-size: 12.5px;
       background: var(--code-bg); border: 1px solid var(--border);
       padding: 1px 6px; border-radius: 3px;
     }
     .md pre { background: var(--code-bg); border: 1px solid var(--border); border-radius: 6px; padding: 16px; overflow-x: auto; margin: 14px 0; }
     .md pre code { background: none; border: none; padding: 0; font-size: 12px; }
-    .md table { width: 100%; border-collapse: collapse; margin: 14px 0; font-size: 13px; font-family: 'Space Mono', monospace; }
-    .md th { background: var(--code-bg); border: 1px solid var(--border); padding: 7px 12px; font-size: 10px; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; color: var(--muted); }
+    .md table { display: block; max-width: 100%; overflow-x: auto; border-collapse: collapse; margin: 24px 0; font-size: 14px; }
+    .md th { background: var(--code-bg); border: 1px solid var(--border); padding: 7px 12px; font-size: 13px; font-weight: 600; letter-spacing: 0; color: var(--muted); }
     .md td { border: 1px solid var(--border); padding: 7px 12px; vertical-align: top; }
     .md tr:nth-child(even) td { background: var(--bg-hover); }
     .md details { border: 1px solid var(--border); border-radius: 6px; margin: 10px 0; overflow: hidden; }
     .md summary {
       cursor: pointer; padding: 8px 14px;
-      font-family: 'Space Mono', monospace; font-size: 12px; color: var(--muted);
+      font-family: ui-monospace, SFMono-Regular, Consolas, monospace; font-size: 12px; color: var(--muted);
       background: var(--code-bg); user-select: none; list-style: none;
       display: flex; align-items: center; gap: 8px; transition: color 0.15s;
     }
@@ -240,15 +239,17 @@
       #sidebar.open { max-height: 60vh; overflow-y: auto; padding: 0 0 8px; }
       #mob-toggle {
         display: flex; align-items: center; gap: 8px;
-        height: 48px; padding: 0 16px; cursor: pointer;
-        font-size: 11px; color: var(--muted); border-bottom: 1px solid transparent;
+        width: 100%; background: none; border: 0; font-family: inherit; height: 48px; padding: 0 22px; cursor: pointer;
+        font-size: 14px; color: var(--muted); border-bottom: 1px solid transparent;
         transition: color 0.15s;
       }
       #mob-toggle:hover { color: var(--text); }
       #sidebar.open #mob-toggle { border-bottom-color: var(--border); }
       .side-label { margin-top: 8px; }
-      #content { padding: 20px 16px 48px; }
-      .md { font-size: 15px; }
+      #content { padding: 30px 22px 64px; }
+      .md { font-size: 16px; }
+      .md h1 { font-size: 25px; }
+      .md h2 { font-size: 20px; }
     }
   </style>
 </head>
@@ -260,8 +261,8 @@
       <span>agents-<em>radar</em></span>
     </div>
     <div class="hdr-right">
-      <div class="signal"></div>
-      <a class="hdr-btn icon-only" href="https://github.com/duanyytop/agents-radar" target="_blank" rel="noopener noreferrer" title="GitHub" aria-label="GitHub">
+
+      <a class="hdr-btn icon-only" href="https://github.com/leisure3318/agents-radar" target="_blank" rel="noopener noreferrer" title="GitHub" aria-label="GitHub">
         <svg width="14" height="14" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true">
           <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
         </svg>
@@ -275,12 +276,12 @@
 
   <div id="body">
     <div id="sidebar">
-      <div id="mob-toggle" onclick="document.getElementById('sidebar').classList.toggle('open')">
+      <button type="button" id="mob-toggle" aria-expanded="false" onclick="this.setAttribute('aria-expanded', document.getElementById('sidebar').classList.toggle('open'))">
         ☰ &nbsp;选择报告
-      </div>
-      <div class="side-label">REPORTS</div>
+      </button>
+      <div class="side-label">报告归档</div>
       <div class="search-wrap">
-        <input id="searchInput" type="search" placeholder="搜索全文，如 Claude">
+        <input id="searchInput" aria-label="搜索报告全文" type="search" placeholder="搜索全文，如 Claude">
         <div id="searchStatus"></div>
       </div>
       <div id="nav"></div>
@@ -337,7 +338,7 @@ const LABELS = {
 // ── Theme ──
 const htmlEl = document.documentElement;
 const themeBtn = document.getElementById('themeBtn');
-let theme = localStorage.getItem('ar-theme') || 'dark';
+let theme = localStorage.getItem('ar-theme') || 'light';
 
 const themeIcon = themeBtn.querySelector('.hdr-icon');
 const themeLabel = themeBtn.querySelector('.hdr-label');
@@ -346,7 +347,7 @@ function applyTheme(t) {
   theme = t;
   htmlEl.dataset.theme = t;
   themeIcon.textContent = t === 'dark' ? '◐' : '●';
-  themeLabel.textContent = t === 'dark' ? 'LIGHT' : 'DARK';
+  themeLabel.textContent = t === 'dark' ? '浅色' : '深色';
   localStorage.setItem('ar-theme', t);
 }
 applyTheme(theme);
@@ -498,6 +499,14 @@ function setContent(html) {
 
 async function loadReport(date, report, push = true) {
   const key = `${date}/${report}`;
+  // Close mobile sidebar
+  document.getElementById('sidebar').classList.remove('open');
+  if (window.matchMedia('(max-width: 680px)').matches) {
+    document.getElementById('sidebar').scrollTop = 0;
+  }
+  document.getElementById('mob-toggle').setAttribute('aria-expanded', 'false');
+
+
   if (key === currentKey) return;
   currentKey = key;
 
@@ -525,8 +534,6 @@ async function loadReport(date, report, push = true) {
     }
   });
 
-  // Close mobile sidebar
-  document.getElementById('sidebar').classList.remove('open');
 
   const cwrap = document.getElementById('cwrap');
   setContent('<div class="msg"><div class="msg-icon">⏳</div><div>Loading…</div></div>');
