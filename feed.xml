@@ -6,7 +6,538 @@
     <description>AI 开源生态每日简报 · Daily AI ecosystem digest</description>
     <language>zh-CN</language>
     <atom:link href="https://duanyytop.github.io/agents-radar/feed.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Tue, 20 Oct 2026 02:12:52 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 21 Oct 2026 02:03:25 +0000</lastBuildDate>
+    <item>
+      <title>AI CLI 工具社区动态日报 2026-10-21</title>
+      <link>https://duanyytop.github.io/agents-radar/#2026-10-21/ai-cli</link>
+      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-10-21/ai-cli</guid>
+      <pubDate>Wed, 21 Oct 2026 00:00:00 +0000</pubDate>
+      <description>AI CLI 工具社区动态日报 2026-10-21 生成时间: 2026-10-21 01:59 UTC | 覆盖工具: 9 个 Claude Code OpenAI Codex Gemini CLI GitHub Copilot CLI Kimi Code CLI OpenCode Pi Qwen Code DeepSeek TUI Claude Code Skills 横向对比 各工具详细报告 Claude Code — anthropics/claude-code Claude Code Skills 社区热点 数据来源: anthropics/skills ⚠️ Skills 摘要生成失败。 ⚠️ 摘要生成失败。 OpenAI Codex — openai/codex ⚠️ 摘要生成失败。 Gemini CLI — google-gemini/gemini-cli ⚠️ 摘要生成失败。 GitHub Copilot CLI — github/copilot-cli ⚠️ 摘要生成失败。 Kimi Code CLI — MoonshotAI/kimi-cli 过去24小时无活动...</description>
+      <content:encoded><![CDATA[<h1>AI CLI 工具社区动态日报 2026-10-21</h1>
+<blockquote>
+<p>生成时间: 2026-10-21 01:59 UTC | 覆盖工具: 9 个</p>
+</blockquote>
+<ul>
+<li><a href="https://github.com/anthropics/claude-code">Claude Code</a></li>
+<li><a href="https://github.com/openai/codex">OpenAI Codex</a></li>
+<li><a href="https://github.com/google-gemini/gemini-cli">Gemini CLI</a></li>
+<li><a href="https://github.com/github/copilot-cli">GitHub Copilot CLI</a></li>
+<li><a href="https://github.com/MoonshotAI/kimi-cli">Kimi Code CLI</a></li>
+<li><a href="https://github.com/anomalyco/opencode">OpenCode</a></li>
+<li><a href="https://github.com/badlogic/pi-mono">Pi</a></li>
+<li><a href="https://github.com/QwenLM/qwen-code">Qwen Code</a></li>
+<li><a href="https://github.com/Hmbown/DeepSeek-TUI">DeepSeek TUI</a></li>
+<li><a href="https://github.com/anthropics/skills">Claude Code Skills</a></li>
+</ul>
+<hr>
+<h2>横向对比</h2>
+<hr>
+<h2>各工具详细报告</h2>
+<details>
+<summary><strong>Claude Code</strong> — <a href="https://github.com/anthropics/claude-code">anthropics/claude-code</a></summary>
+
+<h2>Claude Code Skills 社区热点</h2>
+<blockquote>
+<p>数据来源: <a href="https://github.com/anthropics/skills">anthropics/skills</a></p>
+</blockquote>
+<p>⚠️ Skills 摘要生成失败。</p>
+<hr>
+<p>⚠️ 摘要生成失败。</p>
+</details>
+
+<details>
+<summary><strong>OpenAI Codex</strong> — <a href="https://github.com/openai/codex">openai/codex</a></summary>
+
+<p>⚠️ 摘要生成失败。</p>
+</details>
+
+<details>
+<summary><strong>Gemini CLI</strong> — <a href="https://github.com/google-gemini/gemini-cli">google-gemini/gemini-cli</a></summary>
+
+<p>⚠️ 摘要生成失败。</p>
+</details>
+
+<details>
+<summary><strong>GitHub Copilot CLI</strong> — <a href="https://github.com/github/copilot-cli">github/copilot-cli</a></summary>
+
+<p>⚠️ 摘要生成失败。</p>
+</details>
+
+<details>
+<summary><strong>Kimi Code CLI</strong> — <a href="https://github.com/MoonshotAI/kimi-cli">MoonshotAI/kimi-cli</a></summary>
+
+<p>过去24小时无活动。</p>
+</details>
+
+<details>
+<summary><strong>OpenCode</strong> — <a href="https://github.com/anomalyco/opencode">anomalyco/opencode</a></summary>
+
+<p>⚠️ 摘要生成失败。</p>
+</details>
+
+<details>
+<summary><strong>Pi</strong> — <a href="https://github.com/badlogic/pi-mono">badlogic/pi-mono</a></summary>
+
+<p>⚠️ 摘要生成失败。</p>
+</details>
+
+<details>
+<summary><strong>Qwen Code</strong> — <a href="https://github.com/QwenLM/qwen-code">QwenLM/qwen-code</a></summary>
+
+<p>⚠️ 摘要生成失败。</p>
+</details>
+
+<details>
+<summary><strong>DeepSeek TUI</strong> — <a href="https://github.com/Hmbown/DeepSeek-TUI">Hmbown/DeepSeek-TUI</a></summary>
+
+<p>⚠️ 摘要生成失败。</p>
+</details>
+
+<hr>
+<p><em>本日报由 <a href="https://github.com/leisure3318/agents-radar">agents-radar</a> 自动生成。</em></p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>AI CLI Tools Digest 2026-10-21</title>
+      <link>https://duanyytop.github.io/agents-radar/#2026-10-21/ai-cli-en</link>
+      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-10-21/ai-cli-en</guid>
+      <pubDate>Wed, 21 Oct 2026 00:00:00 +0000</pubDate>
+      <description>AI CLI Tools Community Digest 2026-10-21 Generated: 2026-10-21 01:59 UTC | Tools covered: 9 Claude Code OpenAI Codex Gemini CLI GitHub Copilot CLI Kimi Code CLI OpenCode Pi Qwen Code DeepSeek TUI Claude Code Skills Cross-Tool Comparison (English digest skipped to save LLM tokens — see the Chinese report for full details.) Per-Tool Reports Claude Code — anthropics/claude-code Claude Code Skills Highlights Source: anthropics/skills (English digest skipped to save LLM tokens — see the Chinese repor...</description>
+      <content:encoded><![CDATA[<h1>AI CLI Tools Community Digest 2026-10-21</h1>
+<blockquote>
+<p>Generated: 2026-10-21 01:59 UTC | Tools covered: 9</p>
+</blockquote>
+<ul>
+<li><a href="https://github.com/anthropics/claude-code">Claude Code</a></li>
+<li><a href="https://github.com/openai/codex">OpenAI Codex</a></li>
+<li><a href="https://github.com/google-gemini/gemini-cli">Gemini CLI</a></li>
+<li><a href="https://github.com/github/copilot-cli">GitHub Copilot CLI</a></li>
+<li><a href="https://github.com/MoonshotAI/kimi-cli">Kimi Code CLI</a></li>
+<li><a href="https://github.com/anomalyco/opencode">OpenCode</a></li>
+<li><a href="https://github.com/badlogic/pi-mono">Pi</a></li>
+<li><a href="https://github.com/QwenLM/qwen-code">Qwen Code</a></li>
+<li><a href="https://github.com/Hmbown/DeepSeek-TUI">DeepSeek TUI</a></li>
+<li><a href="https://github.com/anthropics/skills">Claude Code Skills</a></li>
+</ul>
+<hr>
+<h2>Cross-Tool Comparison</h2>
+<p><em>(English digest skipped to save LLM tokens — see the Chinese report for full details.)</em></p>
+<hr>
+<h2>Per-Tool Reports</h2>
+<details>
+<summary><strong>Claude Code</strong> — <a href="https://github.com/anthropics/claude-code">anthropics/claude-code</a></summary>
+
+<h2>Claude Code Skills Highlights</h2>
+<blockquote>
+<p>Source: <a href="https://github.com/anthropics/skills">anthropics/skills</a></p>
+</blockquote>
+<p><em>(English digest skipped to save LLM tokens — see the Chinese report for full details.)</em></p>
+<hr>
+<p><em>(English digest skipped to save LLM tokens — see the Chinese report for full details.)</em></p>
+</details>
+
+<details>
+<summary><strong>OpenAI Codex</strong> — <a href="https://github.com/openai/codex">openai/codex</a></summary>
+
+<p><em>(English digest skipped to save LLM tokens — see the Chinese report for full details.)</em></p>
+</details>
+
+<details>
+<summary><strong>Gemini CLI</strong> — <a href="https://github.com/google-gemini/gemini-cli">google-gemini/gemini-cli</a></summary>
+
+<p><em>(English digest skipped to save LLM tokens — see the Chinese report for full details.)</em></p>
+</details>
+
+<details>
+<summary><strong>GitHub Copilot CLI</strong> — <a href="https://github.com/github/copilot-cli">github/copilot-cli</a></summary>
+
+<p><em>(English digest skipped to save LLM tokens — see the Chinese report for full details.)</em></p>
+</details>
+
+<details>
+<summary><strong>Kimi Code CLI</strong> — <a href="https://github.com/MoonshotAI/kimi-cli">MoonshotAI/kimi-cli</a></summary>
+
+<p>No activity in the last 24 hours.</p>
+</details>
+
+<details>
+<summary><strong>OpenCode</strong> — <a href="https://github.com/anomalyco/opencode">anomalyco/opencode</a></summary>
+
+<p><em>(English digest skipped to save LLM tokens — see the Chinese report for full details.)</em></p>
+</details>
+
+<details>
+<summary><strong>Pi</strong> — <a href="https://github.com/badlogic/pi-mono">badlogic/pi-mono</a></summary>
+
+<p><em>(English digest skipped to save LLM tokens — see the Chinese report for full details.)</em></p>
+</details>
+
+<details>
+<summary><strong>Qwen Code</strong> — <a href="https://github.com/QwenLM/qwen-code">QwenLM/qwen-code</a></summary>
+
+<p><em>(English digest skipped to save LLM tokens — see the Chinese report for full details.)</em></p>
+</details>
+
+<details>
+<summary><strong>DeepSeek TUI</strong> — <a href="https://github.com/Hmbown/DeepSeek-TUI">Hmbown/DeepSeek-TUI</a></summary>
+
+<p><em>(English digest skipped to save LLM tokens — see the Chinese report for full details.)</em></p>
+</details>
+
+<hr>
+<p><em>This digest is auto-generated by <a href="https://github.com/leisure3318/agents-radar">agents-radar</a>.</em></p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>AI Agents 生态日报 2026-10-21</title>
+      <link>https://duanyytop.github.io/agents-radar/#2026-10-21/ai-agents</link>
+      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-10-21/ai-agents</guid>
+      <pubDate>Wed, 21 Oct 2026 00:00:00 +0000</pubDate>
+      <description>OpenClaw 生态日报 2026-10-21 Issues: 43 | PRs: 37 | 覆盖项目: 13 个 | 生成时间: 2026-10-21 01:59 UTC OpenClaw NanoBot Hermes Agent PicoClaw NanoClaw NullClaw IronClaw LobsterAI TinyClaw Moltis CoPaw ZeptoClaw ZeroClaw OpenClaw 项目深度报告 ⚠️ 摘要生成失败。 横向生态对比 同赛道项目详细报告 NanoBot — HKUDS/nanobot ⚠️ 摘要生成失败。 Hermes Agent — nousresearch/hermes-agent ⚠️ 摘要生成失败。 PicoClaw — sipeed/picoclaw 过去24小时无活动。 NanoClaw — qwibitai/nanoclaw ⚠️ 摘要生成失败。 NullClaw — nullclaw/nullclaw 过去24小时无活动。 IronClaw — nearai/ironclaw ⚠️ 摘要生成失败。 LobsterA...</description>
+      <content:encoded><![CDATA[<h1>OpenClaw 生态日报 2026-10-21</h1>
+<blockquote>
+<p>Issues: 43 | PRs: 37 | 覆盖项目: 13 个 | 生成时间: 2026-10-21 01:59 UTC</p>
+</blockquote>
+<ul>
+<li><a href="https://github.com/openclaw/openclaw">OpenClaw</a></li>
+<li><a href="https://github.com/HKUDS/nanobot">NanoBot</a></li>
+<li><a href="https://github.com/nousresearch/hermes-agent">Hermes Agent</a></li>
+<li><a href="https://github.com/sipeed/picoclaw">PicoClaw</a></li>
+<li><a href="https://github.com/qwibitai/nanoclaw">NanoClaw</a></li>
+<li><a href="https://github.com/nullclaw/nullclaw">NullClaw</a></li>
+<li><a href="https://github.com/nearai/ironclaw">IronClaw</a></li>
+<li><a href="https://github.com/netease-youdao/LobsterAI">LobsterAI</a></li>
+<li><a href="https://github.com/TinyAGI/tinyagi">TinyClaw</a></li>
+<li><a href="https://github.com/moltis-org/moltis">Moltis</a></li>
+<li><a href="https://github.com/agentscope-ai/CoPaw">CoPaw</a></li>
+<li><a href="https://github.com/qhkm/zeptoclaw">ZeptoClaw</a></li>
+<li><a href="https://github.com/zeroclaw-labs/zeroclaw">ZeroClaw</a></li>
+</ul>
+<hr>
+<h2>OpenClaw 项目深度报告</h2>
+<p>⚠️ 摘要生成失败。</p>
+<hr>
+<h2>横向生态对比</h2>
+<hr>
+<h2>同赛道项目详细报告</h2>
+<details>
+<summary><strong>NanoBot</strong> — <a href="https://github.com/HKUDS/nanobot">HKUDS/nanobot</a></summary>
+
+<p>⚠️ 摘要生成失败。</p>
+</details>
+
+<details>
+<summary><strong>Hermes Agent</strong> — <a href="https://github.com/nousresearch/hermes-agent">nousresearch/hermes-agent</a></summary>
+
+<p>⚠️ 摘要生成失败。</p>
+</details>
+
+<details>
+<summary><strong>PicoClaw</strong> — <a href="https://github.com/sipeed/picoclaw">sipeed/picoclaw</a></summary>
+
+<p>过去24小时无活动。</p>
+</details>
+
+<details>
+<summary><strong>NanoClaw</strong> — <a href="https://github.com/qwibitai/nanoclaw">qwibitai/nanoclaw</a></summary>
+
+<p>⚠️ 摘要生成失败。</p>
+</details>
+
+<details>
+<summary><strong>NullClaw</strong> — <a href="https://github.com/nullclaw/nullclaw">nullclaw/nullclaw</a></summary>
+
+<p>过去24小时无活动。</p>
+</details>
+
+<details>
+<summary><strong>IronClaw</strong> — <a href="https://github.com/nearai/ironclaw">nearai/ironclaw</a></summary>
+
+<p>⚠️ 摘要生成失败。</p>
+</details>
+
+<details>
+<summary><strong>LobsterAI</strong> — <a href="https://github.com/netease-youdao/LobsterAI">netease-youdao/LobsterAI</a></summary>
+
+<p>⚠️ 摘要生成失败。</p>
+</details>
+
+<details>
+<summary><strong>TinyClaw</strong> — <a href="https://github.com/TinyAGI/tinyagi">TinyAGI/tinyagi</a></summary>
+
+<p>过去24小时无活动。</p>
+</details>
+
+<details>
+<summary><strong>Moltis</strong> — <a href="https://github.com/moltis-org/moltis">moltis-org/moltis</a></summary>
+
+<p>⚠️ 摘要生成失败。</p>
+</details>
+
+<details>
+<summary><strong>CoPaw</strong> — <a href="https://github.com/agentscope-ai/CoPaw">agentscope-ai/CoPaw</a></summary>
+
+<p>⚠️ 摘要生成失败。</p>
+</details>
+
+<details>
+<summary><strong>ZeptoClaw</strong> — <a href="https://github.com/qhkm/zeptoclaw">qhkm/zeptoclaw</a></summary>
+
+<p>过去24小时无活动。</p>
+</details>
+
+<details>
+<summary><strong>ZeroClaw</strong> — <a href="https://github.com/zeroclaw-labs/zeroclaw">zeroclaw-labs/zeroclaw</a></summary>
+
+<p>⚠️ 摘要生成失败。</p>
+</details>
+
+<hr>
+<p><em>本日报由 <a href="https://github.com/leisure3318/agents-radar">agents-radar</a> 自动生成。</em></p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>AI Agents Ecosystem Digest 2026-10-21</title>
+      <link>https://duanyytop.github.io/agents-radar/#2026-10-21/ai-agents-en</link>
+      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-10-21/ai-agents-en</guid>
+      <pubDate>Wed, 21 Oct 2026 00:00:00 +0000</pubDate>
+      <description>OpenClaw Ecosystem Digest 2026-10-21 Issues: 43 | PRs: 37 | Projects covered: 13 | Generated: 2026-10-21 01:59 UTC OpenClaw NanoBot Hermes Agent PicoClaw NanoClaw NullClaw IronClaw LobsterAI TinyClaw Moltis CoPaw ZeptoClaw ZeroClaw OpenClaw Deep Dive (English digest skipped to save LLM tokens — see the Chinese report for full details.) Cross-Ecosystem Comparison (English digest skipped to save LLM tokens — see the Chinese report for full details.) Peer Project Reports NanoBot — HKUDS/nanobot (En...</description>
+      <content:encoded><![CDATA[<h1>OpenClaw Ecosystem Digest 2026-10-21</h1>
+<blockquote>
+<p>Issues: 43 | PRs: 37 | Projects covered: 13 | Generated: 2026-10-21 01:59 UTC</p>
+</blockquote>
+<ul>
+<li><a href="https://github.com/openclaw/openclaw">OpenClaw</a></li>
+<li><a href="https://github.com/HKUDS/nanobot">NanoBot</a></li>
+<li><a href="https://github.com/nousresearch/hermes-agent">Hermes Agent</a></li>
+<li><a href="https://github.com/sipeed/picoclaw">PicoClaw</a></li>
+<li><a href="https://github.com/qwibitai/nanoclaw">NanoClaw</a></li>
+<li><a href="https://github.com/nullclaw/nullclaw">NullClaw</a></li>
+<li><a href="https://github.com/nearai/ironclaw">IronClaw</a></li>
+<li><a href="https://github.com/netease-youdao/LobsterAI">LobsterAI</a></li>
+<li><a href="https://github.com/TinyAGI/tinyagi">TinyClaw</a></li>
+<li><a href="https://github.com/moltis-org/moltis">Moltis</a></li>
+<li><a href="https://github.com/agentscope-ai/CoPaw">CoPaw</a></li>
+<li><a href="https://github.com/qhkm/zeptoclaw">ZeptoClaw</a></li>
+<li><a href="https://github.com/zeroclaw-labs/zeroclaw">ZeroClaw</a></li>
+</ul>
+<hr>
+<h2>OpenClaw Deep Dive</h2>
+<p><em>(English digest skipped to save LLM tokens — see the Chinese report for full details.)</em></p>
+<hr>
+<h2>Cross-Ecosystem Comparison</h2>
+<p><em>(English digest skipped to save LLM tokens — see the Chinese report for full details.)</em></p>
+<hr>
+<h2>Peer Project Reports</h2>
+<details>
+<summary><strong>NanoBot</strong> — <a href="https://github.com/HKUDS/nanobot">HKUDS/nanobot</a></summary>
+
+<p><em>(English digest skipped to save LLM tokens — see the Chinese report for full details.)</em></p>
+</details>
+
+<details>
+<summary><strong>Hermes Agent</strong> — <a href="https://github.com/nousresearch/hermes-agent">nousresearch/hermes-agent</a></summary>
+
+<p><em>(English digest skipped to save LLM tokens — see the Chinese report for full details.)</em></p>
+</details>
+
+<details>
+<summary><strong>PicoClaw</strong> — <a href="https://github.com/sipeed/picoclaw">sipeed/picoclaw</a></summary>
+
+<p>No activity in the last 24 hours.</p>
+</details>
+
+<details>
+<summary><strong>NanoClaw</strong> — <a href="https://github.com/qwibitai/nanoclaw">qwibitai/nanoclaw</a></summary>
+
+<p><em>(English digest skipped to save LLM tokens — see the Chinese report for full details.)</em></p>
+</details>
+
+<details>
+<summary><strong>NullClaw</strong> — <a href="https://github.com/nullclaw/nullclaw">nullclaw/nullclaw</a></summary>
+
+<p>No activity in the last 24 hours.</p>
+</details>
+
+<details>
+<summary><strong>IronClaw</strong> — <a href="https://github.com/nearai/ironclaw">nearai/ironclaw</a></summary>
+
+<p><em>(English digest skipped to save LLM tokens — see the Chinese report for full details.)</em></p>
+</details>
+
+<details>
+<summary><strong>LobsterAI</strong> — <a href="https://github.com/netease-youdao/LobsterAI">netease-youdao/LobsterAI</a></summary>
+
+<p><em>(English digest skipped to save LLM tokens — see the Chinese report for full details.)</em></p>
+</details>
+
+<details>
+<summary><strong>TinyClaw</strong> — <a href="https://github.com/TinyAGI/tinyagi">TinyAGI/tinyagi</a></summary>
+
+<p>No activity in the last 24 hours.</p>
+</details>
+
+<details>
+<summary><strong>Moltis</strong> — <a href="https://github.com/moltis-org/moltis">moltis-org/moltis</a></summary>
+
+<p><em>(English digest skipped to save LLM tokens — see the Chinese report for full details.)</em></p>
+</details>
+
+<details>
+<summary><strong>CoPaw</strong> — <a href="https://github.com/agentscope-ai/CoPaw">agentscope-ai/CoPaw</a></summary>
+
+<p><em>(English digest skipped to save LLM tokens — see the Chinese report for full details.)</em></p>
+</details>
+
+<details>
+<summary><strong>ZeptoClaw</strong> — <a href="https://github.com/qhkm/zeptoclaw">qhkm/zeptoclaw</a></summary>
+
+<p>No activity in the last 24 hours.</p>
+</details>
+
+<details>
+<summary><strong>ZeroClaw</strong> — <a href="https://github.com/zeroclaw-labs/zeroclaw">zeroclaw-labs/zeroclaw</a></summary>
+
+<p><em>(English digest skipped to save LLM tokens — see the Chinese report for full details.)</em></p>
+</details>
+
+<hr>
+<p><em>This digest is auto-generated by <a href="https://github.com/leisure3318/agents-radar">agents-radar</a>.</em></p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Official AI Content Report 2026-10-21</title>
+      <link>https://duanyytop.github.io/agents-radar/#2026-10-21/ai-web-en</link>
+      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-10-21/ai-web-en</guid>
+      <pubDate>Wed, 21 Oct 2026 00:00:00 +0000</pubDate>
+      <description>Official AI Content Report 2026-10-21 Today&amp;#39;s update | New content: 476 articles | Generated: 2026-10-21 01:59 UTC Sources: Anthropic: anthropic.com — 475 new articles (sitemap total: 476) OpenAI: openai.com — 1 new articles (sitemap total: 1072) (English digest skipped to save LLM tokens — see the Chinese report for full details.) This digest is auto-generated by agents-radar.</description>
+      <content:encoded><![CDATA[<h1>Official AI Content Report 2026-10-21</h1>
+<blockquote>
+<p>Today&#39;s update | New content: 476 articles | Generated: 2026-10-21 01:59 UTC</p>
+</blockquote>
+<p>Sources:</p>
+<ul>
+<li>Anthropic: <a href="https://www.anthropic.com">anthropic.com</a> — 475 new articles (sitemap total: 476)</li>
+<li>OpenAI: <a href="https://openai.com">openai.com</a> — 1 new articles (sitemap total: 1072)</li>
+</ul>
+<hr>
+<p><em>(English digest skipped to save LLM tokens — see the Chinese report for full details.)</em></p>
+<hr>
+<p><em>This digest is auto-generated by <a href="https://github.com/leisure3318/agents-radar">agents-radar</a>.</em></p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>AI 开源趋势日报 2026-10-21</title>
+      <link>https://duanyytop.github.io/agents-radar/#2026-10-21/ai-trending</link>
+      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-10-21/ai-trending</guid>
+      <pubDate>Wed, 21 Oct 2026 00:00:00 +0000</pubDate>
+      <description>AI 开源趋势日报 2026-10-21 数据来源: GitHub Trending + GitHub Search API | 生成时间: 2026-10-21 01:59 UTC ⚠️ 趋势报告生成失败。 本日报由 agents-radar 自动生成。</description>
+      <content:encoded><![CDATA[<h1>AI 开源趋势日报 2026-10-21</h1>
+<blockquote>
+<p>数据来源: GitHub Trending + GitHub Search API | 生成时间: 2026-10-21 01:59 UTC</p>
+</blockquote>
+<hr>
+<p>⚠️ 趋势报告生成失败。</p>
+<hr>
+<p><em>本日报由 <a href="https://github.com/leisure3318/agents-radar">agents-radar</a> 自动生成。</em></p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>AI Open Source Trends 2026-10-21</title>
+      <link>https://duanyytop.github.io/agents-radar/#2026-10-21/ai-trending-en</link>
+      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-10-21/ai-trending-en</guid>
+      <pubDate>Wed, 21 Oct 2026 00:00:00 +0000</pubDate>
+      <description>AI Open Source Trends 2026-10-21 Sources: GitHub Trending + GitHub Search API | Generated: 2026-10-21 01:59 UTC (English digest skipped to save LLM tokens — see the Chinese report for full details.) This digest is auto-generated by agents-radar.</description>
+      <content:encoded><![CDATA[<h1>AI Open Source Trends 2026-10-21</h1>
+<blockquote>
+<p>Sources: GitHub Trending + GitHub Search API | Generated: 2026-10-21 01:59 UTC</p>
+</blockquote>
+<hr>
+<p><em>(English digest skipped to save LLM tokens — see the Chinese report for full details.)</em></p>
+<hr>
+<p><em>This digest is auto-generated by <a href="https://github.com/leisure3318/agents-radar">agents-radar</a>.</em></p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>AI Skills 新上榜 2026-10-21</title>
+      <link>https://duanyytop.github.io/agents-radar/#2026-10-21/ai-skills</link>
+      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-10-21/ai-skills</guid>
+      <pubDate>Wed, 21 Oct 2026 00:00:00 +0000</pubDate>
+      <description>AI Skills 新上榜日报 2026-10-21 数据来源: skills.sh Trending + Hot（仅首次发现的 Skill） | 新发现: 5 个 | 生成时间: 2026-10-21 01:59 UTC ⚠️ AI Skills 新上榜报告生成失败。 本日报由 agents-radar 自动生成。</description>
+      <content:encoded><![CDATA[<h1>AI Skills 新上榜日报 2026-10-21</h1>
+<blockquote>
+<p>数据来源: skills.sh Trending + Hot（仅首次发现的 Skill） | 新发现: 5 个 | 生成时间: 2026-10-21 01:59 UTC</p>
+</blockquote>
+<hr>
+<p>⚠️ AI Skills 新上榜报告生成失败。</p>
+<hr>
+<p><em>本日报由 <a href="https://github.com/leisure3318/agents-radar">agents-radar</a> 自动生成。</em></p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Hacker News AI Community Digest 2026-10-21</title>
+      <link>https://duanyytop.github.io/agents-radar/#2026-10-21/ai-hn-en</link>
+      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-10-21/ai-hn-en</guid>
+      <pubDate>Wed, 21 Oct 2026 00:00:00 +0000</pubDate>
+      <description>Hacker News AI Community Digest 2026-10-21 Source: Hacker News | 30 stories | Generated: 2026-10-21 01:59 UTC (English digest skipped to save LLM tokens — see the Chinese report for full details.) This digest is auto-generated by agents-radar.</description>
+      <content:encoded><![CDATA[<h1>Hacker News AI Community Digest 2026-10-21</h1>
+<blockquote>
+<p>Source: <a href="https://news.ycombinator.com/">Hacker News</a> | 30 stories | Generated: 2026-10-21 01:59 UTC</p>
+</blockquote>
+<hr>
+<p><em>(English digest skipped to save LLM tokens — see the Chinese report for full details.)</em></p>
+<hr>
+<p><em>This digest is auto-generated by <a href="https://github.com/leisure3318/agents-radar">agents-radar</a>.</em></p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>ArXiv AI Research Digest 2026-10-21</title>
+      <link>https://duanyytop.github.io/agents-radar/#2026-10-21/ai-arxiv-en</link>
+      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-10-21/ai-arxiv-en</guid>
+      <pubDate>Wed, 21 Oct 2026 00:00:00 +0000</pubDate>
+      <description>ArXiv AI Research Digest 2026-10-21 Source: ArXiv (cs.AI, cs.CL, cs.LG) | 50 papers | Generated: 2026-10-21 01:59 UTC (English digest skipped to save LLM tokens — see the Chinese report for full details.) This digest is auto-generated by agents-radar.</description>
+      <content:encoded><![CDATA[<h1>ArXiv AI Research Digest 2026-10-21</h1>
+<blockquote>
+<p>Source: <a href="https://arxiv.org/">ArXiv</a> (cs.AI, cs.CL, cs.LG) | 50 papers | Generated: 2026-10-21 01:59 UTC</p>
+</blockquote>
+<hr>
+<p><em>(English digest skipped to save LLM tokens — see the Chinese report for full details.)</em></p>
+<hr>
+<p><em>This digest is auto-generated by <a href="https://github.com/leisure3318/agents-radar">agents-radar</a>.</em></p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Hugging Face Trending Models Digest 2026-10-21</title>
+      <link>https://duanyytop.github.io/agents-radar/#2026-10-21/ai-hf-en</link>
+      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-10-21/ai-hf-en</guid>
+      <pubDate>Wed, 21 Oct 2026 00:00:00 +0000</pubDate>
+      <description>Hugging Face Trending Models Digest 2026-10-21 Source: Hugging Face Hub | 4 models | Generated: 2026-10-21 01:59 UTC (English digest skipped to save LLM tokens — see the Chinese report for full details.) This digest is auto-generated by agents-radar.</description>
+      <content:encoded><![CDATA[<h1>Hugging Face Trending Models Digest 2026-10-21</h1>
+<blockquote>
+<p>Source: <a href="https://huggingface.co/">Hugging Face Hub</a> | 4 models | Generated: 2026-10-21 01:59 UTC</p>
+</blockquote>
+<hr>
+<p><em>(English digest skipped to save LLM tokens — see the Chinese report for full details.)</em></p>
+<hr>
+<p><em>This digest is auto-generated by <a href="https://github.com/leisure3318/agents-radar">agents-radar</a>.</em></p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Tech Community AI Digest 2026-10-21</title>
+      <link>https://duanyytop.github.io/agents-radar/#2026-10-21/ai-community-en</link>
+      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-10-21/ai-community-en</guid>
+      <pubDate>Wed, 21 Oct 2026 00:00:00 +0000</pubDate>
+      <description>Tech Community AI Digest 2026-10-21 Sources: Dev.to (29 articles) + Lobste.rs (0 stories) | Generated: 2026-10-21 01:59 UTC (English digest skipped to save LLM tokens — see the Chinese report for full details.) This digest is auto-generated by agents-radar.</description>
+      <content:encoded><![CDATA[<h1>Tech Community AI Digest 2026-10-21</h1>
+<blockquote>
+<p>Sources: <a href="https://dev.to/">Dev.to</a> (29 articles) + <a href="https://lobste.rs/">Lobste.rs</a> (0 stories) | Generated: 2026-10-21 01:59 UTC</p>
+</blockquote>
+<hr>
+<p><em>(English digest skipped to save LLM tokens — see the Chinese report for full details.)</em></p>
+<hr>
+<p><em>This digest is auto-generated by <a href="https://github.com/leisure3318/agents-radar">agents-radar</a>.</em></p>
+]]></content:encoded>
+    </item>
     <item>
       <title>AI CLI 工具社区动态日报 2026-10-20</title>
       <link>https://duanyytop.github.io/agents-radar/#2026-10-20/ai-cli</link>
@@ -6963,769 +7494,6 @@ npx hyperframes init &quot;videos/&lt;project&gt;&quot; --non-interactive --exam
 
 <hr>
 <p><em>本日报由 <a href="https://github.com/leisure3318/agents-radar">agents-radar</a> 自动生成。</em></p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>AI Agents Ecosystem Digest 2026-10-19</title>
-      <link>https://duanyytop.github.io/agents-radar/#2026-10-19/ai-agents-en</link>
-      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-10-19/ai-agents-en</guid>
-      <pubDate>Mon, 19 Oct 2026 00:00:00 +0000</pubDate>
-      <description>OpenClaw Ecosystem Digest 2026-10-19 Issues: 34 | PRs: 85 | Projects covered: 13 | Generated: 2026-10-19 01:37 UTC OpenClaw NanoBot Hermes Agent PicoClaw NanoClaw NullClaw IronClaw LobsterAI TinyClaw Moltis CoPaw ZeptoClaw ZeroClaw OpenClaw Deep Dive (English digest skipped to save LLM tokens — see the Chinese report for full details.) Cross-Ecosystem Comparison (English digest skipped to save LLM tokens — see the Chinese report for full details.) Peer Project Reports NanoBot — HKUDS/nanobot (En...</description>
-      <content:encoded><![CDATA[<h1>OpenClaw Ecosystem Digest 2026-10-19</h1>
-<blockquote>
-<p>Issues: 34 | PRs: 85 | Projects covered: 13 | Generated: 2026-10-19 01:37 UTC</p>
-</blockquote>
-<ul>
-<li><a href="https://github.com/openclaw/openclaw">OpenClaw</a></li>
-<li><a href="https://github.com/HKUDS/nanobot">NanoBot</a></li>
-<li><a href="https://github.com/nousresearch/hermes-agent">Hermes Agent</a></li>
-<li><a href="https://github.com/sipeed/picoclaw">PicoClaw</a></li>
-<li><a href="https://github.com/qwibitai/nanoclaw">NanoClaw</a></li>
-<li><a href="https://github.com/nullclaw/nullclaw">NullClaw</a></li>
-<li><a href="https://github.com/nearai/ironclaw">IronClaw</a></li>
-<li><a href="https://github.com/netease-youdao/LobsterAI">LobsterAI</a></li>
-<li><a href="https://github.com/TinyAGI/tinyagi">TinyClaw</a></li>
-<li><a href="https://github.com/moltis-org/moltis">Moltis</a></li>
-<li><a href="https://github.com/agentscope-ai/CoPaw">CoPaw</a></li>
-<li><a href="https://github.com/qhkm/zeptoclaw">ZeptoClaw</a></li>
-<li><a href="https://github.com/zeroclaw-labs/zeroclaw">ZeroClaw</a></li>
-</ul>
-<hr>
-<h2>OpenClaw Deep Dive</h2>
-<p><em>(English digest skipped to save LLM tokens — see the Chinese report for full details.)</em></p>
-<hr>
-<h2>Cross-Ecosystem Comparison</h2>
-<p><em>(English digest skipped to save LLM tokens — see the Chinese report for full details.)</em></p>
-<hr>
-<h2>Peer Project Reports</h2>
-<details>
-<summary><strong>NanoBot</strong> — <a href="https://github.com/HKUDS/nanobot">HKUDS/nanobot</a></summary>
-
-<p><em>(English digest skipped to save LLM tokens — see the Chinese report for full details.)</em></p>
-</details>
-
-<details>
-<summary><strong>Hermes Agent</strong> — <a href="https://github.com/nousresearch/hermes-agent">nousresearch/hermes-agent</a></summary>
-
-<p><em>(English digest skipped to save LLM tokens — see the Chinese report for full details.)</em></p>
-</details>
-
-<details>
-<summary><strong>PicoClaw</strong> — <a href="https://github.com/sipeed/picoclaw">sipeed/picoclaw</a></summary>
-
-<p>No activity in the last 24 hours.</p>
-</details>
-
-<details>
-<summary><strong>NanoClaw</strong> — <a href="https://github.com/qwibitai/nanoclaw">qwibitai/nanoclaw</a></summary>
-
-<p><em>(English digest skipped to save LLM tokens — see the Chinese report for full details.)</em></p>
-</details>
-
-<details>
-<summary><strong>NullClaw</strong> — <a href="https://github.com/nullclaw/nullclaw">nullclaw/nullclaw</a></summary>
-
-<p>No activity in the last 24 hours.</p>
-</details>
-
-<details>
-<summary><strong>IronClaw</strong> — <a href="https://github.com/nearai/ironclaw">nearai/ironclaw</a></summary>
-
-<p><em>(English digest skipped to save LLM tokens — see the Chinese report for full details.)</em></p>
-</details>
-
-<details>
-<summary><strong>LobsterAI</strong> — <a href="https://github.com/netease-youdao/LobsterAI">netease-youdao/LobsterAI</a></summary>
-
-<p>No activity in the last 24 hours.</p>
-</details>
-
-<details>
-<summary><strong>TinyClaw</strong> — <a href="https://github.com/TinyAGI/tinyagi">TinyAGI/tinyagi</a></summary>
-
-<p>No activity in the last 24 hours.</p>
-</details>
-
-<details>
-<summary><strong>Moltis</strong> — <a href="https://github.com/moltis-org/moltis">moltis-org/moltis</a></summary>
-
-<p><em>(English digest skipped to save LLM tokens — see the Chinese report for full details.)</em></p>
-</details>
-
-<details>
-<summary><strong>CoPaw</strong> — <a href="https://github.com/agentscope-ai/CoPaw">agentscope-ai/CoPaw</a></summary>
-
-<p><em>(English digest skipped to save LLM tokens — see the Chinese report for full details.)</em></p>
-</details>
-
-<details>
-<summary><strong>ZeptoClaw</strong> — <a href="https://github.com/qhkm/zeptoclaw">qhkm/zeptoclaw</a></summary>
-
-<p><em>(English digest skipped to save LLM tokens — see the Chinese report for full details.)</em></p>
-</details>
-
-<details>
-<summary><strong>ZeroClaw</strong> — <a href="https://github.com/zeroclaw-labs/zeroclaw">zeroclaw-labs/zeroclaw</a></summary>
-
-<p><em>(English digest skipped to save LLM tokens — see the Chinese report for full details.)</em></p>
-</details>
-
-<hr>
-<p><em>This digest is auto-generated by <a href="https://github.com/leisure3318/agents-radar">agents-radar</a>.</em></p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>AI 官方内容追踪报告 2026-10-19</title>
-      <link>https://duanyytop.github.io/agents-radar/#2026-10-19/ai-web</link>
-      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-10-19/ai-web</guid>
-      <pubDate>Mon, 19 Oct 2026 00:00:00 +0000</pubDate>
-      <description>AI 官方内容追踪报告 2026-10-19 今日更新 | 新增内容: 1 篇 | 生成时间: 2026-10-19 01:37 UTC 数据来源: Anthropic: anthropic.com — 新增 1 篇（sitemap 共 474 条） OpenAI: openai.com — 新增 0 篇（sitemap 共 1069 条） AI 官方内容追踪报告 追踪日期：2026 年 10 月 19 日本次范围：增量更新；Anthropic 新增 1 篇，OpenAI 新增 0 篇。 资料边界：本报告依据提供的官网抓取内容分析，未对原文进行额外核验。Anthropic 公告发布于 2026 年 10 月 18 日，于本次追踪中新增；其正文节选在组织形式说明处截断，涉及股权安排、治理和法律结构的结论均以已提供信息为限。下文明确区分公告事实与战略推断。 一、今日速览 Anthropic 宣布设立 Anthropic Public Benefit Fund（公共利益基金），拟在获得股东批准后，将公司 5% 的股份投入该实体，把部分公共利益承诺与公司股权价值挂钩，而非仅依赖日常经营预算或一...</description>
-      <content:encoded><![CDATA[<h1>AI 官方内容追踪报告 2026-10-19</h1>
-<blockquote>
-<p>今日更新 | 新增内容: 1 篇 | 生成时间: 2026-10-19 01:37 UTC</p>
-</blockquote>
-<p>数据来源:</p>
-<ul>
-<li>Anthropic: <a href="https://www.anthropic.com">anthropic.com</a> — 新增 1 篇（sitemap 共 474 条）</li>
-<li>OpenAI: <a href="https://openai.com">openai.com</a> — 新增 0 篇（sitemap 共 1069 条）</li>
-</ul>
-<hr>
-<h1>AI 官方内容追踪报告</h1>
-<p><strong>追踪日期：2026 年 10 月 19 日</strong><br><strong>本次范围：增量更新；Anthropic 新增 1 篇，OpenAI 新增 0 篇。</strong></p>
-<blockquote>
-<p><strong>资料边界</strong>：本报告依据提供的官网抓取内容分析，未对原文进行额外核验。Anthropic 公告发布于 <strong>2026 年 10 月 18 日</strong>，于本次追踪中新增；其正文节选在组织形式说明处截断，涉及股权安排、治理和法律结构的结论均以已提供信息为限。下文明确区分公告事实与战略推断。</p>
-</blockquote>
-<h2>一、今日速览</h2>
-<ol>
-<li>Anthropic 宣布设立 <strong>Anthropic Public Benefit Fund（公共利益基金）</strong>，拟在获得股东批准后，将公司 <strong>5% 的股份</strong>投入该实体，把部分公共利益承诺与公司股权价值挂钩，而非仅依赖日常经营预算或一次性现金捐赠。<a href="https://www.anthropic.com/news/public-benefit-fund">官方公告</a></li>
-<li>公告还提出增长联动机制：公司价值相对设定基准每增长 <strong>50%</strong>，董事会可酌情追加 <strong>2% 的股份</strong>。这一安排具有随公司成长扩大公共利益资源的设计意图，但不能视为自动触发、无条件执行的承诺。<a href="https://www.anthropic.com/news/public-benefit-fund">官方公告</a></li>
-<li>公告将 <strong>AI 对劳动市场的影响</strong>列为重要应用方向，并称 Anthropic 此前已承诺投入 <strong>2 亿美元</strong>研究和应对这一问题；新基金可能探索对传统非营利组织的大额捐赠，或面向特定群体的直接分配，但尚未公布具体执行方案。<a href="https://www.anthropic.com/news/public-benefit-fund">官方公告</a></li>
-<li>今日新增内容的核心是<strong>公共利益资源配置与组织机制</strong>，而非模型或产品发布。OpenAI 在本次抓取中没有新增内容，因此无法据此判断两家公司近期技术发布节奏或竞争领先关系。<a href="https://www.anthropic.com/news/public-benefit-fund">Anthropic 公告</a> · <a href="https://openai.com/">OpenAI 官网</a></li>
-</ol>
-<hr>
-<h2>二、Anthropic / Claude 内容精选</h2>
-<h3>news｜Investing in the public benefit</h3>
-<ul>
-<li><strong>发布日期</strong>：2026 年 10 月 18 日</li>
-<li><strong>本次收录日期</strong>：2026 年 10 月 19 日</li>
-<li><strong>原文链接</strong>：<a href="https://www.anthropic.com/news/public-benefit-fund">Anthropic — Investing in the public benefit</a></li>
-</ul>
-<p><strong>核心摘要</strong></p>
-<p>Anthropic 宣布设立公共利益基金，拟在股东批准后投入公司 5% 的股份，并设计由董事会酌情决定、与公司估值增长挂钩的追加机制。公告区分了两类使命活动：AI 安全、可解释性、应用生物医学研究，以及向非营利组织和科研机构提供 Claude 折扣等，兼有公共利益和商业价值，继续放在公司内部开展；新基金则旨在支持更灵活、规模更大的公共利益行动。劳动市场冲击是公告明确点出的方向，可能探索的方式包括大额捐赠与面向特定人群的直接分配，但这些仍属举例和探索，而不是已经启动的项目。</p>
-<h3>关键安排与解读边界</h3>
-<table>
-<thead>
-<tr>
-<th>事项</th>
-<th>公告已披露的信息</th>
-<th>分析时需要保留的边界</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>初始股份投入</td>
-<td>拟投入 Anthropic 5% 的股份，须经股东批准</td>
-<td>不宜表述为“已经完成划转”或“已到账资金”</td>
-</tr>
-<tr>
-<td>增长联动机制</td>
-<td>公司价值高于设定基准、每增长 50%，董事会可酌情追加 2% 的股份</td>
-<td>并非自动追加；基准、估值口径、股份计算方式和稀释处理未见完整披露</td>
-</tr>
-<tr>
-<td>基金组织形式</td>
-<td>公告称将设立为全资拥有的 LLC</td>
-<td>不能据此认定其为独立基金会，或具备独立受托治理机制</td>
-</tr>
-<tr>
-<td>潜在用途</td>
-<td>大额捐赠、面向特定群体的直接分配</td>
-<td>属于可能探索的方向，不等于已确定的资助计划</td>
-</tr>
-<tr>
-<td>劳动市场投入</td>
-<td>公告称此前已承诺 2 亿美元用于研究和应对相关影响</td>
-<td>不能视为该基金新增拨款，也不能直接认定为已全部支出</td>
-</tr>
-<tr>
-<td>公司内部使命活动</td>
-<td>安全、可解释性、生物医学研究及相关折扣</td>
-<td>是对现有活动的说明，不是本次新增技术成果</td>
-</tr>
-</tbody></table>
-<p><strong>业务意义</strong>：这次公告的重要变化，不只是“增加公益投入”，而是尝试建立一套与公司股权价值关联的公共利益资源机制。不过，<strong>股权价值并不等于可立即支配的现金</strong>；其实际资助能力仍取决于股份权利、流动性、分配方式及后续执行安排。<br><strong>来源</strong>：<a href="https://www.anthropic.com/news/public-benefit-fund">官方公告</a></p>
-<blockquote>
-<p>本次为增量追踪，不属于首次全量收录，因此不补列未经本批资料支持的历史里程碑。</p>
-</blockquote>
-<hr>
-<h2>三、OpenAI 内容精选</h2>
-<h3>本次无新增条目</h3>
-<p>本次提供的 OpenAI 增量为 <strong>0 篇</strong>，没有可按 research、release、company、safety 等类别整理的新增 URL 或文章记录，因此不生成标题、内容摘要或发布趋势推断。</p>
-<p>同时，“本次未抓取到新增内容”不等于 OpenAI 当日没有任何研发、产品或组织活动。后续若仅获得元数据，也应仅客观列示 URL、分类和可确认的日期，不从 URL 推导正文结论。</p>
-<p><strong>官网入口</strong>：<a href="https://openai.com/">OpenAI</a>（仅为来源入口，非本次新增文章）</p>
-<hr>
-<h2>四、战略信号解读</h2>
-<h3>1. Anthropic：今日重点是公共利益机制，而非模型能力竞赛</h3>
-<p><strong>事实基础</strong>：本次公告集中讨论股份投入、基金组织形式、资金用途和劳动市场影响，没有披露模型能力提升、训练方法、推理效率、API 更新或产品发布。</p>
-<p><strong>战略判断</strong>：Anthropic 正尝试将“公共利益公司”的使命表达进一步转化为资源配置安排。其关注点不只在于如何让 AI 系统更安全，也包括 AI 创造的经济价值如何部分转化为社会收益，以及如何应对技术扩散带来的调整成本。</p>
-<p>需要注意，这只能说明<strong>本次新增内容的议题重点</strong>，不能凭单篇公告推断 Anthropic 整体研发重心已从模型或产品转向公益治理。<br><strong>来源</strong>：<a href="https://www.anthropic.com/news/public-benefit-fund">官方公告</a></p>
-<h3>2. 安全议题有所扩展，但应区分技术安全与社会经济影响</h3>
-<p>公告同时提到 AI 安全与可解释性，以及劳动市场不稳定问题。前者主要涉及系统行为的可靠性、可理解性与可控性，后者涉及部署后的经济和社会后果，两者并不相同。</p>
-<p><strong>值得重视的信号</strong>是：Anthropic 将劳动市场影响纳入使命相关资源配置的讨论，并明确表示，考虑到 AI 进展速度，可能需要“更大胆的方法”。这显示公司至少在公开叙事上，不满足于只研究影响，也在考虑更直接的干预方式；但公告没有提供足够信息判断干预规模、受益群体或实施时间。<br><strong>来源</strong>：<a href="https://www.anthropic.com/news/public-benefit-fund">官方公告</a></p>
-<h3>3. 公司与基金形成不同用途的资源配置渠道</h3>
-<p>公告解释，具有公共利益和商业价值的研究及服务活动仍留在公司内部，而基金用于探索新的行动方式。</p>
-<p><strong>可能的战略意义</strong>是：公司可以继续承担与产品、研究和机构合作紧密相关的活动，基金则为不一定形成直接商业回报的支持方式提供组织空间。不过，<strong>“全资拥有的 LLC”不等于“独立于公司的公益治理机构”</strong>；其决策权、监督机制、受益人遴选及信息披露安排，仍需后续文件说明。<br><strong>来源</strong>：<a href="https://www.anthropic.com/news/public-benefit-fund">官方公告</a></p>
-<h3>4. 竞争态势：Anthropic 在本批样本中主动提出议题，无法判断谁在跟进</h3>
-<p>就今日新增内容而言，Anthropic 主动强化了“AI 经济收益与公共利益相连接”的议题，其可辨识之处是将股份投入、价值增长和潜在社会分配联系起来，而非仅发布原则性声明。</p>
-<p>但 OpenAI 本次没有新增记录，也缺乏足够历史对照，因此不能判断该安排是否构成行业首创，或 OpenAI 是否在跟进、滞后。<strong>本批数据支持“Anthropic 在发出这一信号”，不支持“两家公司战略领先关系已经改变”。</strong><br><strong>来源</strong>：<a href="https://www.anthropic.com/news/public-benefit-fund">Anthropic 公告</a> · <a href="https://openai.com/">OpenAI 官网</a></p>
-<h3>5. 对开发者和企业用户：短期功能影响有限，治理观察价值更高</h3>
-<ul>
-<li><strong>开发者</strong>：公告未改变 API、模型可用性、定价或开发工具，不能据此调整技术选型，也没有证据表明基金会开放开发者资助申请。后续更值得关注是否出现明确的申请入口、支持范围与项目条件。<a href="https://www.anthropic.com/news/public-benefit-fund">官方公告</a></li>
-<li><strong>企业采购与治理团队</strong>：该安排可作为供应商使命实践和长期治理的一项观察材料，但不能替代对数据保护、合规认证、模型风险、服务等级及合同责任的实际审查。<a href="https://www.anthropic.com/news/public-benefit-fund">官方公告</a></li>
-<li><strong>涉及岗位转型的企业</strong>：公告强化了一个管理层需要关注的问题——AI 部署评估不应只计算效率收益，还应考虑岗位调整、培训和过渡成本。但基金是否会向企业或受影响员工提供支持，现有资料不足以判断。<a href="https://www.anthropic.com/news/public-benefit-fund">官方公告</a></li>
-</ul>
-<hr>
-<h2>五、值得关注的细节</h2>
-<h3>1. “股份”而非“现金”：承诺规模与支付能力需要分开看</h3>
-<p>将股份投入基金，意味着其经济价值可能随公司成长变化，具有长期联动特征。但在没有流动性、变现和年度拨付信息的情况下，不能把股份比例换算为可立即投入公共项目的现金预算。后续应重点追踪<strong>何时可用、如何使用、如何披露</strong>。<br><strong>来源</strong>：<a href="https://www.anthropic.com/news/public-benefit-fund">官方公告</a></p>
-<h3>2. 两个条件性措辞决定承诺的执行强度</h3>
-<p>“<strong>Subject to stockholder approval</strong>”说明初始投入仍有股东批准前提；“<strong>at the board’s discretion</strong>”说明后续追加属于董事会裁量。这两处限定意味着，报告中更准确的说法是“拟投入”和“可酌情追加”，而非“已无条件划转”或“自动增持”。<br><strong>来源</strong>：<a href="https://www.anthropic.com/news/public-benefit-fund">官方公告</a></p>
-<h3>3. “直接分配”值得追踪，但不应提前贴上政策标签</h3>
-<p>“Direct distributions to specific populations”比一般研究资助或机构捐赠更接近直接面向受益人的资源分配。不过，它目前只是公告列举的一种可能方式，不能等同于已经推出全民基本收入、失业补偿或普遍性“AI 红利”计划。<br><strong>来源</strong>：<a href="https://www.anthropic.com/news/public-benefit-fund">官方公告</a></p>
-<h3>4. LLC 是已披露结构，后续法律解释尚不完整</h3>
-<p>节选确认了全资 LLC 这一组织形式，并开始与 501(c)(3) 等形式作对比，但后文被截断。因此，无法据此确定选择该形式的完整税务、监管或运营理由，也无法判断其法律性质是否与一般读者理解的“慈善基金会”一致。<br><strong>来源</strong>：<a href="https://www.anthropic.com/news/public-benefit-fund">官方公告</a></p>
-<h3>5. 本次不能证明“首次提出”或“密集发布”</h3>
-<p>公共利益基金、增长联动股份投入和直接分配，均是本次增量中的突出主题；但没有完整历史语料，不能认定它们是 Anthropic 首次提出。只有一篇新增公告，也不足以识别主题密集发布、预判产品节点，或推导其与某项政策、融资事件的时间关联。<br><strong>来源</strong>：<a href="https://www.anthropic.com/news/public-benefit-fund">官方公告</a></p>
-<hr>
-<h2>综合判断</h2>
-<p><strong>今日最重要的变化，是 Anthropic 尝试把公共利益承诺与公司股权价值建立更明确的联系，而不是发布了新的 AI 技术能力。</strong></p>
-<p>这一安排具有战略辨识度，但评价其实际效果还需要跨过三道验证关口：<strong>股东是否批准、资源何时具备可用性、基金如何治理并落实项目</strong>。对研究者和技术决策者而言，下一步最值得追踪的不是承诺比例本身，而是股份安排细则、治理与披露制度，以及劳动市场相关项目是否真正落地。<br><strong>来源</strong>：<a href="https://www.anthropic.com/news/public-benefit-fund">Anthropic — Investing in the public benefit</a></p>
-<hr>
-<p><em>本日报由 <a href="https://github.com/leisure3318/agents-radar">agents-radar</a> 自动生成。</em></p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>Official AI Content Report 2026-10-19</title>
-      <link>https://duanyytop.github.io/agents-radar/#2026-10-19/ai-web-en</link>
-      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-10-19/ai-web-en</guid>
-      <pubDate>Mon, 19 Oct 2026 00:00:00 +0000</pubDate>
-      <description>Official AI Content Report 2026-10-19 Today&amp;#39;s update | New content: 1 articles | Generated: 2026-10-19 01:37 UTC Sources: Anthropic: anthropic.com — 1 new articles (sitemap total: 474) OpenAI: openai.com — 0 new articles (sitemap total: 1069) (English digest skipped to save LLM tokens — see the Chinese report for full details.) This digest is auto-generated by agents-radar.</description>
-      <content:encoded><![CDATA[<h1>Official AI Content Report 2026-10-19</h1>
-<blockquote>
-<p>Today&#39;s update | New content: 1 articles | Generated: 2026-10-19 01:37 UTC</p>
-</blockquote>
-<p>Sources:</p>
-<ul>
-<li>Anthropic: <a href="https://www.anthropic.com">anthropic.com</a> — 1 new articles (sitemap total: 474)</li>
-<li>OpenAI: <a href="https://openai.com">openai.com</a> — 0 new articles (sitemap total: 1069)</li>
-</ul>
-<hr>
-<p><em>(English digest skipped to save LLM tokens — see the Chinese report for full details.)</em></p>
-<hr>
-<p><em>This digest is auto-generated by <a href="https://github.com/leisure3318/agents-radar">agents-radar</a>.</em></p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>AI 开源趋势日报 2026-10-19</title>
-      <link>https://duanyytop.github.io/agents-radar/#2026-10-19/ai-trending</link>
-      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-10-19/ai-trending</guid>
-      <pubDate>Mon, 19 Oct 2026 00:00:00 +0000</pubDate>
-      <description>AI 开源趋势日报 2026-10-19 数据来源: GitHub Trending + GitHub Search API | 生成时间: 2026-10-19 01:37 UTC AI 开源趋势日报 日期：2026-10-19｜基于所提供的 GitHub 榜单快照 数据口径：本次 Trending 共 2 个项目，筛选后保留 1 个明确与 AI/ML 相关的项目；主题搜索无结果。样本不足以支持每类列出 3～8 个项目，以下仅展示实际入选项目，不补入榜外仓库。总 stars 字段存在异常，今日新增 stars 按提供的 Trending 数据引用。 1. 今日速览 今日可确认的 AI 热点集中在 LLM 学习与实践资源：mlabonne/llm-course 今日新增 81 stars。该项目以学习路线和 Colab notebooks 为核心，反映出社区对系统化入门及动手实践的持续需求。本次样本未提供 Agent、RAG、推理引擎等方向的有效入选项目，但这不代表这些方向在整个 GitHub 生态中降温。 2. 各维度热门项目 🧠 大模型/训练 mlabonne/llm-cours...</description>
-      <content:encoded><![CDATA[<h1>AI 开源趋势日报 2026-10-19</h1>
-<blockquote>
-<p>数据来源: GitHub Trending + GitHub Search API | 生成时间: 2026-10-19 01:37 UTC</p>
-</blockquote>
-<hr>
-<h1>AI 开源趋势日报</h1>
-<p><strong>日期：2026-10-19｜基于所提供的 GitHub 榜单快照</strong></p>
-<blockquote>
-<p><strong>数据口径</strong>：本次 Trending 共 2 个项目，筛选后保留 1 个明确与 AI/ML 相关的项目；主题搜索无结果。样本不足以支持每类列出 3～8 个项目，以下仅展示实际入选项目，不补入榜外仓库。总 stars 字段存在异常，今日新增 stars 按提供的 Trending 数据引用。</p>
-</blockquote>
-<h2>1. 今日速览</h2>
-<p>今日可确认的 AI 热点集中在 <strong>LLM 学习与实践资源</strong>：<a href="https://github.com/mlabonne/llm-course">mlabonne/llm-course</a> 今日新增 <strong>81 stars</strong>。该项目以学习路线和 Colab notebooks 为核心，反映出社区对系统化入门及动手实践的持续需求。本次样本未提供 Agent、RAG、推理引擎等方向的有效入选项目，但这不代表这些方向在整个 GitHub 生态中降温。</p>
-<h2>2. 各维度热门项目</h2>
-<h3>🧠 大模型/训练</h3>
-<h4><a href="https://github.com/mlabonne/llm-course">mlabonne/llm-course</a></h4>
-<ul>
-<li><strong>Stars</strong>：总量原始字段为 <strong>0（疑似缺失或异常，无法据此判断项目规模）</strong>；今日新增 <strong>+81</strong>。</li>
-<li><strong>项目定位</strong>：面向大语言模型的课程资源，提供学习路线和 Colab notebooks。</li>
-<li><strong>关注理由</strong>：将学习路径与可操作的笔记本结合，降低 LLM 入门和实验门槛，今日获得了明确的社区关注增量。</li>
-<li><strong>分类说明</strong>：归入“大模型/训练”下的<strong>教育与实践资源</strong>，并非模型权重仓库或训练框架。</li>
-</ul>
-<h3>其他维度</h3>
-<table>
-<thead>
-<tr>
-<th>维度</th>
-<th>本次筛选结果</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>🔧 AI 基础工具</td>
-<td>无符合条件的项目</td>
-</tr>
-<tr>
-<td>🤖 AI 智能体/工作流</td>
-<td>无符合条件的项目</td>
-</tr>
-<tr>
-<td>📦 AI 应用</td>
-<td>无足够证据明确认定的项目</td>
-</tr>
-<tr>
-<td>🔍 RAG/知识库</td>
-<td>无符合条件的项目</td>
-</tr>
-</tbody></table>
-<h2>3. 趋势信号分析</h2>
-<p>今日唯一可确认的 AI 信号来自 <a href="https://github.com/mlabonne/llm-course">llm-course</a>：其新增 81 stars，说明系统化学习路径与可运行实验仍有吸引力。相较追逐新模型，开发者也需要将知识转化为实践的低门槛入口。不过，单日单项目的增量不足以认定某类工具正获得“爆发性关注”，也无法判断其增长是否加速。本次没有证据显示新技术栈首次登榜；主题搜索为空亦不等于相关生态停滞。数据未提供模型发布、版本更新或行业事件信息，因此不能将关注增长归因于某次大模型发布。后续应结合连续多日增星、提交记录和课程更新内容验证趋势。</p>
-<h2>4. 社区关注热点</h2>
-<ul>
-<li><strong>系统化 LLM 学习路线</strong>：<a href="https://github.com/mlabonne/llm-course">llm-course</a> 提供明确的学习路径，适合开发者梳理知识结构、规划入门顺序。</li>
-<li><strong>Colab 驱动的动手实践</strong>：<a href="https://github.com/mlabonne/llm-course">llm-course</a> 将课程与 notebooks 结合，可作为降低本地环境配置成本的学习入口；具体运行条件仍需查看项目说明。</li>
-<li><strong>教育资源的持续维护质量</strong>：关注 <a href="https://github.com/mlabonne/llm-course">llm-course</a> 后续的内容更新与笔记本可运行性，比仅凭单日增星更有助于判断长期使用价值。</li>
-</ul>
-<hr>
-<p><em>本日报由 <a href="https://github.com/leisure3318/agents-radar">agents-radar</a> 自动生成。</em></p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>AI Open Source Trends 2026-10-19</title>
-      <link>https://duanyytop.github.io/agents-radar/#2026-10-19/ai-trending-en</link>
-      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-10-19/ai-trending-en</guid>
-      <pubDate>Mon, 19 Oct 2026 00:00:00 +0000</pubDate>
-      <description>AI Open Source Trends 2026-10-19 Sources: GitHub Trending + GitHub Search API | Generated: 2026-10-19 01:37 UTC (English digest skipped to save LLM tokens — see the Chinese report for full details.) This digest is auto-generated by agents-radar.</description>
-      <content:encoded><![CDATA[<h1>AI Open Source Trends 2026-10-19</h1>
-<blockquote>
-<p>Sources: GitHub Trending + GitHub Search API | Generated: 2026-10-19 01:37 UTC</p>
-</blockquote>
-<hr>
-<p><em>(English digest skipped to save LLM tokens — see the Chinese report for full details.)</em></p>
-<hr>
-<p><em>This digest is auto-generated by <a href="https://github.com/leisure3318/agents-radar">agents-radar</a>.</em></p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>AI Skills 新上榜 2026-10-19</title>
-      <link>https://duanyytop.github.io/agents-radar/#2026-10-19/ai-skills</link>
-      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-10-19/ai-skills</guid>
-      <pubDate>Mon, 19 Oct 2026 00:00:00 +0000</pubDate>
-      <description>AI Skills 新上榜日报 2026-10-19 数据来源: skills.sh Trending + Hot（仅首次发现的 Skill） | 新发现: 5 个 | 生成时间: 2026-10-19 01:37 UTC 今日发现：本期 5 个首次收录条目均来自 Trending（24 小时趋势），集中在通过 inference.sh 的 belt CLI 完成图片生成、视频制作与 X 发布。两个不同仓库的 ai-video-generation 所提供的 SKILL.md 内容一致，下面按独立 Skill ID 分别列出；安装量是榜单提供的安装量，并非今日新增。 ai-avatar-video 它做什么：用肖像图片配合文字脚本或音频，生成数字人口播、虚拟讲解员和 UGC 风格视频。文档推荐 pruna/p-video-avatar，内置 TTS，可通过 voice_prompt 和 video_prompt 分别控制声音与画面；也提供 OmniHuman、Fabric 和 PixVerse 路径。完整工作流包括“生成人像→生成口播”，以及“转写→翻译→合成新语音→为原视频重新对口型...</description>
-      <content:encoded><![CDATA[<h1>AI Skills 新上榜日报 2026-10-19</h1>
-<blockquote>
-<p>数据来源: skills.sh Trending + Hot（仅首次发现的 Skill） | 新发现: 5 个 | 生成时间: 2026-10-19 01:37 UTC</p>
-</blockquote>
-<hr>
-<p>今日发现：本期 5 个首次收录条目均来自 Trending（24 小时趋势），集中在通过 inference.sh 的 <code>belt</code> CLI 完成图片生成、视频制作与 X 发布。两个不同仓库的 <code>ai-video-generation</code> 所提供的 SKILL.md 内容一致，下面按独立 Skill ID 分别列出；安装量是榜单提供的安装量，并非今日新增。</p>
-<h2><a href="https://www.skills.sh/its-a-skill-issue/superpowers/ai-avatar-video">ai-avatar-video</a></h2>
-<ul>
-<li><strong>它做什么</strong>：用肖像图片配合文字脚本或音频，生成数字人口播、虚拟讲解员和 UGC 风格视频。文档推荐 <code>pruna/p-video-avatar</code>，内置 TTS，可通过 <code>voice_prompt</code> 和 <code>video_prompt</code> 分别控制声音与画面；也提供 OmniHuman、Fabric 和 PixVerse 路径。完整工作流包括“生成人像→生成口播”，以及“转写→翻译→合成新语音→为原视频重新对口型”。</li>
-<li><strong>适合谁用</strong>：制作产品演示、课程讲解、营销短片、多语言配音和游戏角色对白的开发者或内容团队。前置条件是安装 inference.sh CLI，并准备肖像、脚本或清晰音频；也可先调用 <code>pruna/p-image</code> 生成人像。</li>
-<li><strong>为什么现在值得看</strong>：进入 Trending，提供的安装量为 <strong>9,796</strong>。值得关注的是它把人像、语音和视频串成了具体工作流，尤其是内置 TTS 路径可以省去单独生成音频的一步。</li>
-<li><strong>如何使用</strong>：先安装文档要求的 CLI Skill，并确保 <code>belt</code> CLI 已安装：<pre><code class="language-bash">npx skills add belt-sh/cli
-belt login
-belt app run pruna/p-video-avatar --input &#39;{
-  &quot;image&quot;: &quot;https://portrait.jpg&quot;,
-  &quot;voice_script&quot;: &quot;欢迎观看产品演示。&quot;,
-  &quot;voice&quot;: &quot;Zephyr (Female)&quot;
-}&#39;
-</code></pre>
-可用 <code>belt app list --category video</code> 浏览视频应用。选择 OmniHuman 或 PixVerse 时，先生成语音，再把音频 URL 传入 <code>audio_url</code>。</li>
-<li><strong>注意</strong>：P-Video-Avatar 文档列明内置 <strong>30 种声音、10 种语言</strong>，支持 1080p，输出宽高比跟随输入图片；竖屏可先生成 <code>9:16</code> 人像。OmniHuman、PixVerse 不内置 TTS；应使用正面、光照良好的高质量肖像和低噪声清晰音频。文中的速度、成本优势属于来源声明，不是本日报实测结果。</li>
-</ul>
-<h2><a href="https://www.skills.sh/its-a-skill-issue/superpowers/ai-image-generation">ai-image-generation</a></h2>
-<ul>
-<li><strong>它做什么</strong>：通过统一 CLI 调用文档所列的 50 多种图像模型，覆盖文生图、图像编辑、局部重绘、LoRA 风格生成与放大。示例包含 GPT-Image-2 生成与改背景、FLUX 生成、Reve 海报文字渲染，以及 Topaz 放大和多图横向拼接。实际产出包括产品图、营销视觉、插画和供后续视频使用的图片素材。</li>
-<li><strong>适合谁用</strong>：需要把多模型出图接入脚本或内容流水线的开发者、设计与营销团队。需安装并登录 <code>belt</code>；编辑、放大和拼接示例还需要提供源图片 URL。</li>
-<li><strong>为什么现在值得看</strong>：进入 Trending，提供的安装量为 <strong>9,796</strong>。它的实用之处在于集中给出了不同任务对应的 App ID 和调用示例，可作为多模型图像工作流的入口。</li>
-<li><strong>如何使用</strong>：<pre><code class="language-bash">npx skills add belt-sh/cli
-belt login
-belt app run falai/flux-dev-lora --input &#39;{&quot;prompt&quot;:&quot;摄影棚灯光下的咖啡杯产品照&quot;}&#39;
-belt app list --category image
-</code></pre>
-编辑图片可调用 <code>openai/gpt-image-2</code>，传入 <code>prompt</code> 与 <code>images</code> 数组；放大使用 <code>falai/topaz-image-upscaler</code> 的 <code>image_url</code> 参数。</li>
-<li><strong>注意</strong>：依赖 inference.sh CLI。不同模型的输入字段不统一，例如 GPT-Image-2 编辑用 <code>images</code>，Topaz 放大用 <code>image_url</code>；不能把同一组参数直接套用到全部模型。文档列出的价格和分辨率描述针对特定模型，不代表全部应用。</li>
-</ul>
-<h2><a href="https://www.skills.sh/its-a-skill-issue/superpowers/twitter-automation">twitter-automation</a></h2>
-<ul>
-<li><strong>它做什么</strong>：通过 <code>belt</code> 调用 X 应用，发布文字或带媒体的帖子，并执行点赞、转发、删除、私信和关注操作。也能按帖子 ID 读取帖子，或按用户名获取用户资料。文档给出了“生成图片或视频→取得媒体 URL→发布到 X”的两步内容分发流程。</li>
-<li><strong>适合谁用</strong>：希望将生成式内容接入 X 发布流程的开发者和社交媒体运营团队。需安装并登录 inference.sh CLI，并按文档链接配置 X 集成；媒体发布需要可传入的媒体 URL。</li>
-<li><strong>为什么现在值得看</strong>：进入 Trending，提供的安装量为 <strong>9,796</strong>。与本期图像、视频 Skill 相比，它承担的是发布和互动环节，适合评估内容生成后的分发衔接。</li>
-<li><strong>如何使用</strong>：<pre><code class="language-bash">npx skills add belt-sh/cli
-belt login
-belt app run x/post-tweet --input &#39;{&quot;text&quot;:&quot;新功能已上线！&quot;}&#39;
-</code></pre>
-带媒体发布时，先获取输入模板，再编辑并执行：<pre><code class="language-bash">belt app sample x/post-create --save input.json
-# 在 input.json 中填写 text 和 media_url
-belt app run x/post-create --input input.json
-</code></pre>
-读取帖子可用 <code>x/post-get</code>，传入 <code>tweet_id</code>。</li>
-<li><strong>注意</strong>：依赖 <code>belt</code> 和 X 集成配置；给定正文未展开 X 授权步骤。简介提到内容排期，但正文未提供定时发布命令或调度参数，不能据此视为已给出可直接执行的排期方案。发布、删除、私信和关注命令会执行对应账户操作，文档未描述额外审批机制。</li>
-</ul>
-<h2><a href="https://www.skills.sh/its-a-skill-issue/superpowers/ai-video-generation">ai-video-generation</a></h2>
-<ul>
-<li><strong>它做什么</strong>：通过 inference.sh 调用文档所列的 40 多种视频模型，覆盖文生视频、图生视频、参考图生成、数字人和口型同步。还提供自然语言视频编辑、补音效、视频放大，以及带转场的片段合并工具。可将 Seedance 生成、HappyHorse 编辑、Foley 配音效和 Media Merger 合并等步骤组合成制作流程。</li>
-<li><strong>适合谁用</strong>：制作社交短片、营销内容、产品演示，或构建多模型视频流水线的开发者。需安装并登录 <code>belt</code>，并按任务准备提示词、图片、音频或视频 URL。</li>
-<li><strong>为什么现在值得看</strong>：进入 Trending，提供的安装量为 <strong>9,796</strong>。其关注点不只在生成模型，也覆盖音效、编辑、放大与合并，便于开发者查找制作链路中的具体工具。</li>
-<li><strong>如何使用</strong>：<pre><code class="language-bash">npx skills add belt-sh/cli
-belt login
-belt app run google/veo-3-1-fast --input &#39;{&quot;prompt&quot;:&quot;无人机飞越森林&quot;}&#39;
-belt app list --category video
-</code></pre>
-需要同步音频时，文档提供 Seedance 示例：<pre><code class="language-bash">belt app run bytedance/seedance-2-0 --input &#39;{
-  &quot;prompt&quot;:&quot;昏暗俱乐部里演奏的爵士乐队&quot;,
-  &quot;generate_audio&quot;:true,
-  &quot;duration&quot;:10
-}&#39;
-</code></pre>
-</li>
-<li><strong>注意</strong>：依赖 inference.sh CLI，各模型参数和上限不同。文档列明 Seedance 2.0 最高 1080p，HappyHorse T2V 最长 15 秒、I2V 最高 1080P/15 秒，经济型 WAN-T2V/I2V 为 480p/720p。图像输入可能分别使用 <code>image</code>、<code>image_url</code> 或 <code>reference_image</code>，应按具体示例传参。</li>
-</ul>
-<h2><a href="https://www.skills.sh/101-skills/superpowers/ai-video-generation">ai-video-generation</a></h2>
-<ul>
-<li><strong>它做什么</strong>：该仓库提供的 SKILL.md 与上一条视频 Skill 内容一致，同样覆盖文生视频、图生视频、参考图生成、口型同步和视频编辑。辅助工具包括 <code>infsh/hunyuanvideo-foley</code> 补音效、<code>falai/topaz-video-upscaler</code> 放大，以及 <code>infsh/media-merger</code> 合并片段。给定资料未体现它相较上一条具有额外功能。</li>
-<li><strong>适合谁用</strong>：需要上述视频能力、并考虑从 <code>101-skills/superpowers</code> 来源使用该 Skill 的开发者。前置条件同样是安装并登录 <code>belt</code>，以及准备所选模型需要的素材。</li>
-<li><strong>为什么现在值得看</strong>：该独立 ID 也进入 Trending，提供的安装量为 <strong>9,726</strong>。它是不同来源的新收录条目，但不应将相同文档内容当作新的能力增量。</li>
-<li><strong>如何使用</strong>：<pre><code class="language-bash">npx skills add belt-sh/cli
-belt login
-belt app run google/veo-3-1-fast --input &#39;{&quot;prompt&quot;:&quot;花园里花朵绽放的延时摄影&quot;}&#39;
-belt app list --category video
-</code></pre>
-自然语言编辑已有视频的示例为：<pre><code class="language-bash">belt app run alibaba/happyhorse-1-0-video-edit --input &#39;{
-  &quot;video&quot;:&quot;https://your-video.mp4&quot;,
-  &quot;prompt&quot;:&quot;将背景改为雪山景观&quot;
-}&#39;
-</code></pre>
-</li>
-<li><strong>注意</strong>：依赖与模型限制和上一条一致，不能将某个模型的音频、分辨率或时长支持推广到全部模型。仅凭给定资料，无法确认两个仓库在版本维护或运行行为上是否存在差异。</li>
-</ul>
-<hr>
-<p><em>本日报由 <a href="https://github.com/leisure3318/agents-radar">agents-radar</a> 自动生成。</em></p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>Hacker News AI 社区动态日报 2026-10-19</title>
-      <link>https://duanyytop.github.io/agents-radar/#2026-10-19/ai-hn</link>
-      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-10-19/ai-hn</guid>
-      <pubDate>Mon, 19 Oct 2026 00:00:00 +0000</pubDate>
-      <description>Hacker News AI 社区动态日报 2026-10-19 数据来源: Hacker News | 共 30 条 | 生成时间: 2026-10-19 01:37 UTC Hacker News AI 社区动态日报 2026 年 10 月 19 日｜基于所提供的过去 24 小时榜单 **口径说明：**本文依据帖子标题、来源及分数／评论数整理，未核验原文与评论正文；“关注点”属于议题分析，不代表已确认的评论共识。明显非 AI 或关联不明的帖子未纳入，重复议题合并呈现。 一、今日速览 今日讨论呈现两条主线：一是潜空间推理、推理优化与 Agent 工程，二是 AI 企业的就业影响、安全监管与社会责任。混合推理 Agent 论文以 206 分领跑，Anthropic 就业变化则以 190 条评论成为评论量最高的帖子，显示技术探索与组织影响同样牵动社区。工程侧的关注落在工具接入、调用可观测性和生成代码可靠性，而不只是模型能力展示。整体信号是“对能力进展感兴趣，对部署后果保持警惕”；但仅凭榜单，不能判断评论的具体立场分布。 二、热门新闻与讨论 🔬 模型与研究 内容 热度 值得关注的原因与讨...</description>
-      <content:encoded><![CDATA[<h1>Hacker News AI 社区动态日报 2026-10-19</h1>
-<blockquote>
-<p>数据来源: <a href="https://news.ycombinator.com/">Hacker News</a> | 共 30 条 | 生成时间: 2026-10-19 01:37 UTC</p>
-</blockquote>
-<hr>
-<h1>Hacker News AI 社区动态日报</h1>
-<p><strong>2026 年 10 月 19 日｜基于所提供的过去 24 小时榜单</strong></p>
-<blockquote>
-<p>**口径说明：**本文依据帖子标题、来源及分数／评论数整理，未核验原文与评论正文；“关注点”属于议题分析，不代表已确认的评论共识。明显非 AI 或关联不明的帖子未纳入，重复议题合并呈现。</p>
-</blockquote>
-<h2>一、今日速览</h2>
-<p>今日讨论呈现两条主线：一是潜空间推理、推理优化与 Agent 工程，二是 AI 企业的就业影响、安全监管与社会责任。<strong>混合推理 Agent 论文以 206 分领跑，Anthropic 就业变化则以 190 条评论成为评论量最高的帖子</strong>，显示技术探索与组织影响同样牵动社区。工程侧的关注落在工具接入、调用可观测性和生成代码可靠性，而不只是模型能力展示。整体信号是“对能力进展感兴趣，对部署后果保持警惕”；但仅凭榜单，不能判断评论的具体立场分布。</p>
-<h2>二、热门新闻与讨论</h2>
-<h3>🔬 模型与研究</h3>
-<table>
-<thead>
-<tr>
-<th>内容</th>
-<th align="right">热度</th>
-<th>值得关注的原因与讨论信号</th>
-</tr>
-</thead>
-<tbody><tr>
-<td><strong><a href="https://arxiv.org/abs/2610.18861">混合推理 Agent：在潜空间思考，通过文本行动</a></strong> · <a href="https://news.ycombinator.com/item?id=50145337">HN 讨论</a></td>
-<td align="right"><strong>206 分／129 评论</strong></td>
-<td>本日最高分帖子，将内部推理表示与外部行动接口分离，值得检视其效率、任务表现及可解释性代价；高分、高评论说明该研究方向引发广泛兴趣。</td>
-</tr>
-<tr>
-<td><strong><a href="https://vllm.ai/blog/2026-10-16-kimi-k3-megakernel">在 vLLM 中深度优化 Kimi K3</a></strong> · <a href="https://news.ycombinator.com/item?id=50140784">HN 讨论</a></td>
-<td align="right"><strong>20 分／0 评论</strong></td>
-<td>指向模型部署与底层执行优化，适合关注推理成本和吞吐量的团队；目前有一定关注，但尚未形成评论讨论。</td>
-</tr>
-<tr>
-<td><strong><a href="https://www.engineering.upenn.edu/stories/penn-engineers-use-ai-reddit-to-identify-potential-side-effects-of-unapproved-new-glp-1/">用 LLM 分析 15 万条 Reddit 帖子，识别未获批 GLP-1 药物的潜在副作用</a></strong> · <a href="https://news.ycombinator.com/item?id=50142726">HN 讨论</a></td>
-<td align="right"><strong>6 分／0 评论</strong></td>
-<td>展示 LLM 从非结构化社区数据中提取健康信号的应用方向，但自述偏差、混杂因素与临床验证是阅读重点，不能将潜在线索等同于因果结论。</td>
-</tr>
-</tbody></table>
-<h3>🛠️ 工具与工程</h3>
-<table>
-<thead>
-<tr>
-<th>内容</th>
-<th align="right">热度</th>
-<th>值得关注的原因与讨论信号</th>
-</tr>
-</thead>
-<tbody><tr>
-<td><strong><a href="https://tkgally.github.io/500-clocks/">Show HN：由 Opus 5.5 制作、装入单个 6.3 MB HTML 文件的 500 个时钟</a></strong> · <a href="https://news.ycombinator.com/item?id=50137820">HN 讨论</a></td>
-<td align="right"><strong>65 分／27 评论</strong></td>
-<td>以可直接体验的作品展示 AI 编程能力，是工具类中较受关注的条目；评估价值不仅在生成数量，也在实现质量、性能与维护成本。</td>
-</tr>
-<tr>
-<td><strong><a href="https://github.com/finereli/whatsapp-mcp">Show HN：在 Cloudflare 上免费运行的 WhatsApp MCP</a></strong> · <a href="https://news.ycombinator.com/item?id=50145715">HN 讨论</a></td>
-<td align="right"><strong>41 分／23 评论</strong></td>
-<td>体现 Agent 工具链向日常通信渠道延伸，实用性与讨论度兼具；部署前应核查权限范围、消息隐私及“免费”的适用边界。</td>
-</tr>
-<tr>
-<td><strong><a href="https://jrdsgl.com/if-you-dont-run-your-own-llm-proxy-how-the-fuck-do-you-even-know-whats-going-on/">不运行自己的 LLM 代理，如何知道系统到底发生了什么？</a></strong> · <a href="https://news.ycombinator.com/item?id=50145507">HN 讨论</a></td>
-<td align="right"><strong>23 分／12 评论</strong></td>
-<td>将焦点从模型输出转向调用可观测性，适合审视日志、成本、路由与故障定位能力；标题也明确表达了对黑箱调用的不满。</td>
-</tr>
-<tr>
-<td><strong><a href="https://thenewstack.io/torvalds-claude-code-kernel/">Torvalds 使用 Claude 修复性能瓶颈，但发现竞态问题</a></strong> · <a href="https://news.ycombinator.com/item?id=50142323">HN 讨论</a></td>
-<td align="right"><strong>15 分／1 评论</strong></td>
-<td>标题所述案例提醒开发者：性能收益与并发正确性必须分别验证；当前评论很少，不宜据此推断社区对 AI 编程的整体态度。</td>
-</tr>
-</tbody></table>
-<h3>🏢 产业动态</h3>
-<table>
-<thead>
-<tr>
-<th>内容</th>
-<th align="right">热度</th>
-<th>值得关注的原因与讨论信号</th>
-</tr>
-</thead>
-<tbody><tr>
-<td><strong><a href="https://www.anthropic.com/research/employment-at-anthropic">Anthropic 内部的就业如何变化</a></strong> · <a href="https://news.ycombinator.com/item?id=50139873">HN 讨论</a></td>
-<td align="right"><strong>108 分／190 评论</strong></td>
-<td>本日评论量最高，说明 AI 对岗位、分工和组织结构的影响具有很强讨论动机；但单一公司的观察不能直接外推为整个劳动力市场的趋势。</td>
-</tr>
-<tr>
-<td><strong><a href="https://www.anthropic.com/news/public-benefit-fund">Anthropic：投资公共利益</a></strong> · <a href="https://news.ycombinator.com/item?id=50143755">HN 讨论</a></td>
-<td align="right"><strong>50 分／46 评论</strong></td>
-<td>公共利益安排获得较高讨论密度，值得关注资金用途、治理机制与可衡量成效，而非仅看企业承诺。</td>
-</tr>
-<tr>
-<td><strong><a href="https://www.economist.com/business/2026/10/18/the-ai-industrys-gigantic-debts-are-making-investors-nervous">AI 行业巨额债务令投资者不安</a></strong> · <a href="https://news.ycombinator.com/item?id=50146876">HN 讨论</a></td>
-<td align="right"><strong>4 分／2 评论</strong></td>
-<td>将视角转向 AI 扩张的融资可持续性；该帖发布时间较晚，当前低分不足以说明社区对这一风险缺乏关注。</td>
-</tr>
-</tbody></table>
-<h3>💬 观点与争议</h3>
-<table>
-<thead>
-<tr>
-<th>内容</th>
-<th align="right">热度</th>
-<th>值得关注的原因与讨论信号</th>
-</tr>
-</thead>
-<tbody><tr>
-<td><strong><a href="https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropics-proposed-ai-safety-bill-only-kicks-in-if-50-deaths-or-usd1-billion-in-damages-are-on-the-line-proposal-would-effectively-make-the-commerce-department-the-only-agency-capable-of-stopping-an-ai-model">Anthropic 提议的 AI 安全法案：涉及 50 人死亡或 10 亿美元损失的门槛</a></strong> · <a href="https://news.ycombinator.com/item?id=50141429">HN 讨论</a></td>
-<td align="right"><strong>157 分／161 评论</strong></td>
-<td>本日最突出的监管议题，核心在干预门槛、监管权限与企业参与立法的边界；标题中的门槛究竟约束何种措施，仍需核对法案文本。</td>
-</tr>
-<tr>
-<td><strong><a href="https://liveandletsfly.com/british-airways-meta-smart-glasses-filming/">英国航空：使用 Meta 眼镜拍摄机组人员可能导致机票被取消</a></strong> · <a href="https://news.ycombinator.com/item?id=50143218">HN 讨论</a></td>
-<td align="right"><strong>90 分／146 评论</strong></td>
-<td>智能眼镜将拍摄能力带入更难察觉的使用场景，高评论量表明隐私、同意和经营场所规则具有强烈讨论吸引力。</td>
-</tr>
-<tr>
-<td><strong><a href="https://apnews.com/article/ai-prices-dynamic-customers-technology-64c446cd117d3be664de4ab570fb9857">美国零售商采用 AI 辅助定价工具，消费者疑虑上升</a></strong> · <a href="https://news.ycombinator.com/item?id=50144597">HN 讨论</a></td>
-<td align="right"><strong>7 分／2 评论</strong></td>
-<td>连接 AI 应用与消费者利益，值得区分动态定价、个性化定价及价格歧视，避免将不同机制混为一谈；当前讨论规模较小。</td>
-</tr>
-</tbody></table>
-<p>**监管议题补充来源：**同一法案另有 <a href="https://www.politico.com/news/2026/10/16/anthropic-ai-safety-01124654">Politico 报道</a>及其 <a href="https://news.ycombinator.com/item?id=50146270">HN 讨论</a>（4 分／1 评论），不作为独立事件重复计数。</p>
-<h2>三、社区情绪信号</h2>
-<p>今日最活跃的是潜空间推理、Anthropic 就业变化与安全立法，三者均兼具高分和高评论。就业帖评论数高于分数，表明组织与劳动影响具有较强讨论动机，但不等于负面情绪占优。值得留意的争议集中于监管门槛、隐私边界和生成代码可靠性；仅凭标题与互动量，尚不能确认立场分布或社区共识。由于缺少上周期数据，无法判断关注方向是否发生显著变化。</p>
-<h2>四、值得深读</h2>
-<ol>
-<li><p><strong><a href="https://arxiv.org/abs/2610.18861">Hybrid Reasoning Agents</a></strong><br>适合 Agent 研究者。重点核查潜空间推理如何训练、与文本推理基线是否公平比较，以及效率收益是否伴随可审计性下降，而非只看总分提升。</p>
-</li>
-<li><p><strong><a href="https://vllm.ai/blog/2026-10-16-kimi-k3-megakernel">Hyper Optimizing Kimi K3 in vLLM</a></strong><br>适合推理基础设施开发者。阅读时关注优化对应的硬件、精度、批量与负载条件，判断收益能否迁移到自身生产环境。</p>
-</li>
-<li><p><strong><a href="https://jrdsgl.com/if-you-dont-run-your-own-llm-proxy-how-the-fuck-do-you-even-know-whats-going-on/">为什么需要自己的 LLM 代理</a></strong><br>适合正在将 LLM 应用投入生产的团队。可据此检查调用追踪、费用归因、错误诊断和敏感数据日志策略，同时权衡自建代理带来的运维负担。</p>
-</li>
-</ol>
-<hr>
-<p><em>本日报由 <a href="https://github.com/leisure3318/agents-radar">agents-radar</a> 自动生成。</em></p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>Hacker News AI Community Digest 2026-10-19</title>
-      <link>https://duanyytop.github.io/agents-radar/#2026-10-19/ai-hn-en</link>
-      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-10-19/ai-hn-en</guid>
-      <pubDate>Mon, 19 Oct 2026 00:00:00 +0000</pubDate>
-      <description>Hacker News AI Community Digest 2026-10-19 Source: Hacker News | 30 stories | Generated: 2026-10-19 01:37 UTC (English digest skipped to save LLM tokens — see the Chinese report for full details.) This digest is auto-generated by agents-radar.</description>
-      <content:encoded><![CDATA[<h1>Hacker News AI Community Digest 2026-10-19</h1>
-<blockquote>
-<p>Source: <a href="https://news.ycombinator.com/">Hacker News</a> | 30 stories | Generated: 2026-10-19 01:37 UTC</p>
-</blockquote>
-<hr>
-<p><em>(English digest skipped to save LLM tokens — see the Chinese report for full details.)</em></p>
-<hr>
-<p><em>This digest is auto-generated by <a href="https://github.com/leisure3318/agents-radar">agents-radar</a>.</em></p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>Hugging Face 热门模型日报 2026-10-19</title>
-      <link>https://duanyytop.github.io/agents-radar/#2026-10-19/ai-hf</link>
-      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-10-19/ai-hf</guid>
-      <pubDate>Mon, 19 Oct 2026 00:00:00 +0000</pubDate>
-      <description>Hugging Face 热门模型日报 2026-10-19 数据来源: Hugging Face Hub | 共 2 个模型 | 生成时间: 2026-10-19 01:37 UTC Hugging Face 热门模型日报 日期：2026-10-19｜按周点赞数排序｜样本：2 个模型 今日速览 今日样本的关注度集中在图像生成工作流与对话语言模型两个方向，两个模型的点赞数接近，但下载规模差异明显。Comfy-Org/MOSS-Image 下载量达 354,126，结合 ComfyUI 与单文件扩散模型标签，显示出较强的工具链分发信号。腾讯 Hy-Memory-30B-A3B 获得 189 个点赞，但下载量仅 1,187，呈现“关注度较高、下载规模较小”的特征。需要注意，本榜仅含两个模型，不能据此判断整个 Hub 的主流趋势，也不能将上榜等同于今日首发。 热门模型 🧠 语言模型（LLM、对话模型、指令微调） tencent/Hy-Memory-30B-A3B 作者： tencent 点赞： 189｜下载： 1,187 一句话说明： 面向文本生成与对话的语言模型，提供 Transform...</description>
-      <content:encoded><![CDATA[<h1>Hugging Face 热门模型日报 2026-10-19</h1>
-<blockquote>
-<p>数据来源: <a href="https://huggingface.co/">Hugging Face Hub</a> | 共 2 个模型 | 生成时间: 2026-10-19 01:37 UTC</p>
-</blockquote>
-<hr>
-<h1>Hugging Face 热门模型日报</h1>
-<p><strong>日期：2026-10-19｜按周点赞数排序｜样本：2 个模型</strong></p>
-<h2>今日速览</h2>
-<p>今日样本的关注度集中在<strong>图像生成工作流</strong>与<strong>对话语言模型</strong>两个方向，两个模型的点赞数接近，但下载规模差异明显。Comfy-Org/MOSS-Image 下载量达 354,126，结合 ComfyUI 与单文件扩散模型标签，显示出较强的工具链分发信号。腾讯 Hy-Memory-30B-A3B 获得 189 个点赞，但下载量仅 1,187，呈现“关注度较高、下载规模较小”的特征。需要注意，本榜仅含两个模型，不能据此判断整个 Hub 的主流趋势，也不能将上榜等同于今日首发。</p>
-<h2>热门模型</h2>
-<h3>🧠 语言模型（LLM、对话模型、指令微调）</h3>
-<p><strong><a href="https://huggingface.co/tencent/Hy-Memory-30B-A3B">tencent/Hy-Memory-30B-A3B</a></strong>  </p>
-<ul>
-<li><strong>作者：</strong> tencent</li>
-<li><strong>点赞：</strong> 189｜<strong>下载：</strong> 1,187</li>
-<li><strong>一句话说明：</strong> 面向文本生成与对话的语言模型，提供 Transformers、Safetensors 生态标签；当前点赞表现突出，但其记忆能力、架构及性能仍需结合模型卡验证。</li>
-</ul>
-<h3>🎨 多模态与生成（图像、视频、音频、文本到 X）</h3>
-<p><strong><a href="https://huggingface.co/Comfy-Org/MOSS-Image">Comfy-Org/MOSS-Image</a></strong>  </p>
-<ul>
-<li><strong>作者：</strong> Comfy-Org</li>
-<li><strong>点赞：</strong> 195｜<strong>下载：</strong> 354,126</li>
-<li><strong>一句话说明：</strong> 基于 OpenMOSS-Team/MOSS-Image-Base 的图像扩散模型衍生发布，带有 ComfyUI 和单文件分发标签，以本次样本最高的点赞数与下载量领跑。</li>
-</ul>
-<h3>🔧 专用模型（代码、数学、医疗、嵌入）</h3>
-<p>本次样本暂无明确属于此类的模型。</p>
-<h3>📦 微调与量化（社区微调、GGUF、AWQ）</h3>
-<ul>
-<li><strong>MOSS-Image 同时具有微调属性：</strong> <code>base_model:finetune</code> 标签表明其与基础模型存在微调衍生关系；已在图像生成类别列出，不重复计数。</li>
-<li>本次样本未出现明确的 <strong>GGUF、AWQ 或其他量化格式</strong>标签。</li>
-</ul>
-<h2>生态信号</h2>
-<p>在本次样本中，MOSS 图像模型生态凭借 ComfyUI 适配与单文件分发获得更大的下载规模，腾讯 Hy-Memory 则体现出对话模型方向的关注热度。MOSS-Image 标注 Apache-2.0，为开放许可下的使用与集成提供了积极信号；Hy-Memory 的许可信息未提供，不能据此判断其开放程度。微调活动可见于 MOSS 的衍生关系，但暂无明确量化信号，也不足以比较开放权重与闭源模型的整体走势。</p>
-<h2>值得探索</h2>
-<ol>
-<li><p><strong><a href="https://huggingface.co/Comfy-Org/MOSS-Image">Comfy-Org/MOSS-Image</a></strong><br>适合优先评估 ComfyUI 集成体验、单文件部署便利性，以及相较基础模型的生成效果变化。较高下载量是值得关注的分发信号，但不等同于质量保证。</p>
-</li>
-<li><p><strong><a href="https://huggingface.co/tencent/Hy-Memory-30B-A3B">tencent/Hy-Memory-30B-A3B</a></strong><br>适合研究其对话表现，并重点核验模型名称所暗示的记忆机制与参数配置。建议先查看模型卡中的许可证、推理要求和评测，再开展部署测试。</p>
-</li>
-</ol>
-<hr>
-<p><em>数据说明：点赞、下载及标签均来自所提供的榜单快照；未提供模型卡、发布时间或性能评测，不作额外事实推断。</em></p>
-<hr>
-<p><em>本日报由 <a href="https://github.com/leisure3318/agents-radar">agents-radar</a> 自动生成。</em></p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>Hugging Face Trending Models Digest 2026-10-19</title>
-      <link>https://duanyytop.github.io/agents-radar/#2026-10-19/ai-hf-en</link>
-      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-10-19/ai-hf-en</guid>
-      <pubDate>Mon, 19 Oct 2026 00:00:00 +0000</pubDate>
-      <description>Hugging Face Trending Models Digest 2026-10-19 Source: Hugging Face Hub | 2 models | Generated: 2026-10-19 01:37 UTC (English digest skipped to save LLM tokens — see the Chinese report for full details.) This digest is auto-generated by agents-radar.</description>
-      <content:encoded><![CDATA[<h1>Hugging Face Trending Models Digest 2026-10-19</h1>
-<blockquote>
-<p>Source: <a href="https://huggingface.co/">Hugging Face Hub</a> | 2 models | Generated: 2026-10-19 01:37 UTC</p>
-</blockquote>
-<hr>
-<p><em>(English digest skipped to save LLM tokens — see the Chinese report for full details.)</em></p>
-<hr>
-<p><em>This digest is auto-generated by <a href="https://github.com/leisure3318/agents-radar">agents-radar</a>.</em></p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>技术社区 AI 动态日报 2026-10-19</title>
-      <link>https://duanyytop.github.io/agents-radar/#2026-10-19/ai-community</link>
-      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-10-19/ai-community</guid>
-      <pubDate>Mon, 19 Oct 2026 00:00:00 +0000</pubDate>
-      <description>技术社区 AI 动态日报 2026-10-19 数据来源: Dev.to (30 篇) + Lobste.rs (0 条) | 生成时间: 2026-10-19 01:37 UTC 技术社区 AI 动态日报 2026 年 10 月 19 日 数据范围：Dev.to 30 篇，Lobste.rs 0 条。以下基于所提供的标题、摘要与互动数据整理；文章中的性能、效果及产品变更声明未经独立核验。 一、今日速览 今日 Dev.to 的 AI 内容主要围绕开源模型落地、Agent 工程化和 AI 编程质量展开，Hacktoberfest 挑战投稿占据显著位置。微调 Qwen3-8B 的成本与准确率复盘获得最高点赞（38 赞），而“避免交付损坏的 Vibe Code”获得最多评论（14 条），显示成本、可靠性与交付质量是高关注议题。本地优先、隐私保护与面向小商户的垂直应用也较突出，应用场景覆盖酒店、记账、零售和私人消息辅助。Agent 相关内容进一步关注评测门禁、持久化记忆，以及模型与确定性代码之间的职责划分。 二、Dev.to 精选 文章 互动 对开发者的核心价值 Fine-Tuning Qwe...</description>
-      <content:encoded><![CDATA[<h1>技术社区 AI 动态日报 2026-10-19</h1>
-<blockquote>
-<p>数据来源: <a href="https://dev.to/">Dev.to</a> (30 篇) + <a href="https://lobste.rs/">Lobste.rs</a> (0 条) | 生成时间: 2026-10-19 01:37 UTC</p>
-</blockquote>
-<hr>
-<h1>技术社区 AI 动态日报</h1>
-<p><strong>2026 年 10 月 19 日</strong></p>
-<blockquote>
-<p>数据范围：Dev.to 30 篇，Lobste.rs 0 条。以下基于所提供的标题、摘要与互动数据整理；文章中的性能、效果及产品变更声明未经独立核验。</p>
-</blockquote>
-<h2>一、今日速览</h2>
-<p>今日 Dev.to 的 AI 内容主要围绕<strong>开源模型落地、Agent 工程化和 AI 编程质量</strong>展开，Hacktoberfest 挑战投稿占据显著位置。微调 Qwen3-8B 的成本与准确率复盘获得最高点赞（38 赞），而“避免交付损坏的 Vibe Code”获得最多评论（14 条），显示成本、可靠性与交付质量是高关注议题。本地优先、隐私保护与面向小商户的垂直应用也较突出，应用场景覆盖酒店、记账、零售和私人消息辅助。Agent 相关内容进一步关注评测门禁、持久化记忆，以及模型与确定性代码之间的职责划分。</p>
-<h2>二、Dev.to 精选</h2>
-<table>
-<thead>
-<tr>
-<th>文章</th>
-<th>互动</th>
-<th>对开发者的核心价值</th>
-</tr>
-</thead>
-<tbody><tr>
-<td><a href="https://dev.to/gramli/fine-tuning-qwen3-8b-with-tinker-from-50-to-76-accuracy-and-burning-through-my-budget-48mh">Fine-Tuning Qwen3-8B with Tinker: From 50% to 76% Accuracy, and Burning Through My Budget</a></td>
-<td>👍 38 · 💬 12</td>
-<td>将准确率提升与预算消耗放在同一复盘中，适合评估小模型微调是否值得投入。</td>
-</tr>
-<tr>
-<td><a href="https://dev.to/tdk-cli/bookmark-it-stop-shipping-broken-vibe-code-10-checks-that-save-your-app-at-2-am-1308">Bookmark It! STOP Shipping Broken Vibe Code: 10 Checks That Save Your App at 2 AM</a></td>
-<td>👍 9 · 💬 14</td>
-<td>从“演示能跑”转向交付检查，提醒开发者关注 AI 生成应用在不同环境中的可靠性。</td>
-</tr>
-<tr>
-<td><a href="https://dev.to/arqamwd/my-fine-tuned-4b-lost-to-its-teacher-75-to-875-moving-the-arithmetic-into-code-made-it-30-for-33ka">Munshi: a WhatsApp front desk for small hotels. A 4B model reads, Python decides, Temporal holds the room.</a></td>
-<td>👍 7 · 💬 0</td>
-<td>以酒店前台为例，展示模型负责理解、代码负责规则、工作流负责状态的职责划分思路。</td>
-</tr>
-<tr>
-<td><a href="https://dev.to/aaryanrwt/athena-a-local-first-git-ast-change-intelligence-engine-and-mcp-server-eok">Athena: A Local-First Git &amp; AST Change-Intelligence Engine and MCP Server</a></td>
-<td>👍 7 · 💬 3</td>
-<td>为代码助手接入本地 Git 与 AST 变更信息提供参考，重点在于提供更结构化的代码上下文。</td>
-</tr>
-<tr>
-<td><a href="https://dev.to/r5x8ksvadel/is-mei-shi-really-fine-a-private-texting-copilot-that-runs-on-your-own-laptop-5agc">Is &quot;没事&quot; really fine? A private texting copilot that runs on your own laptop</a></td>
-<td>👍 7 · 💬 7</td>
-<td>用私人消息辅助这一敏感场景，呈现本地运行与隐私保护导向的产品设计。</td>
-</tr>
-<tr>
-<td><a href="https://dev.to/faishalwahiduddin/before-ai-moves-money-the-eval-gate-i-built-for-autokon-4f6a">Before AI Moves Money: The Eval Gate I Built for AutoKon</a></td>
-<td>👍 1 · 💬 3</td>
-<td>聚焦资金操作前的评测门禁，对设计高风险 Agent 的上线条件具有参考价值。</td>
-</tr>
-<tr>
-<td><a href="https://dev.to/jrpasolini/beyond-context-how-we-built-a-7-layer-memory-for-a-local-ai-agent-37bd">Beyond context: how we built a 7-layer memory for a local AI agent</a></td>
-<td>👍 1 · 💬 1</td>
-<td>摘要明确涉及持久化、检索、来源追踪、记忆评测与缺陷复盘，适合研究长期运行的 Agent。</td>
-</tr>
-<tr>
-<td><a href="https://dev.to/amals367/i-built-inferweave-a-python-sdk-for-deploying-ai-models-across-cloud-gpu-providers-6h7">I Built InferWeave: A Python SDK for Deploying AI Models Across Cloud GPU Providers</a></td>
-<td>👍 1 · 💬 1</td>
-<td>面向跨云 GPU 的模型部署问题，为减少供应商差异带来的工程负担提供工具思路。</td>
-</tr>
-</tbody></table>
-<h2>三、Lobste.rs 精选</h2>
-<p>**本次提供的数据中无 Lobste.rs 内容，不列精选。**因此无法提供文章链接、讨论链接、分数和评论数，也不能据此判断该平台当天是否存在相关讨论。</p>
-<h2>四、社区脉搏</h2>
-<p>本次没有 Lobste.rs 样本，无法判断两平台的共同议题。Dev.to 的讨论重心是如何把 AI 从演示带入真实业务：微调是否划算、生成代码能否可靠交付、敏感数据是否需要留在本地，以及 Agent 执行动作前如何验收。值得跟踪的工程模式包括模型与确定性代码分工、评测门禁、可追溯记忆及结构化代码上下文。不过，挑战赛投稿较多，当前题材分布也受到活动引导，不宜直接等同于整个开发者社区的需求排序。</p>
-<h2>五、值得精读</h2>
-<h3>1. 微调投入产出：先判断“值不值得训练”</h3>
-<p><a href="https://dev.to/gramli/fine-tuning-qwen3-8b-with-tinker-from-50-to-76-accuracy-and-burning-through-my-budget-48mh">Fine-Tuning Qwen3-8B with Tinker</a></p>
-<p>**适合：**准备微调开源模型的开发者。<br>**阅读重点：**准确率提升对应的预算、评测口径与实验条件；尤其应核对提升是否能迁移到自己的业务数据，而不只关注标题中的百分比。</p>
-<h3>2. 业务 Agent 架构：不要让模型承担所有职责</h3>
-<p><a href="https://dev.to/arqamwd/my-fine-tuned-4b-lost-to-its-teacher-75-to-875-moving-the-arithmetic-into-code-made-it-30-for-33ka">Munshi: a WhatsApp front desk for small hotels</a></p>
-<p>**适合：**构建预订、订单等有明确业务规则的 Agent 团队。<br>**阅读重点：**自然语言理解、规则计算与状态管理的边界，以及如何将需要确定性的环节交给代码和工作流。</p>
-<h3>3. 长期运行的 Agent：记忆不只是扩大上下文</h3>
-<p><a href="https://dev.to/jrpasolini/beyond-context-how-we-built-a-7-layer-memory-for-a-local-ai-agent-37bd">Beyond context: how we built a 7-layer memory for a local AI agent</a></p>
-<p>**适合：**设计本地助手、持久化 Agent 和检索系统的开发者。<br>**阅读重点：**记忆如何保存、检索、追溯与评测，以及作者披露的局限和缺陷是否能帮助避免类似设计问题。</p>
-<hr>
-<p><em>本日报由 <a href="https://github.com/leisure3318/agents-radar">agents-radar</a> 自动生成。</em></p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>Tech Community AI Digest 2026-10-19</title>
-      <link>https://duanyytop.github.io/agents-radar/#2026-10-19/ai-community-en</link>
-      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-10-19/ai-community-en</guid>
-      <pubDate>Mon, 19 Oct 2026 00:00:00 +0000</pubDate>
-      <description>Tech Community AI Digest 2026-10-19 Sources: Dev.to (30 articles) + Lobste.rs (0 stories) | Generated: 2026-10-19 01:37 UTC (English digest skipped to save LLM tokens — see the Chinese report for full details.) This digest is auto-generated by agents-radar.</description>
-      <content:encoded><![CDATA[<h1>Tech Community AI Digest 2026-10-19</h1>
-<blockquote>
-<p>Sources: <a href="https://dev.to/">Dev.to</a> (30 articles) + <a href="https://lobste.rs/">Lobste.rs</a> (0 stories) | Generated: 2026-10-19 01:37 UTC</p>
-</blockquote>
-<hr>
-<p><em>(English digest skipped to save LLM tokens — see the Chinese report for full details.)</em></p>
-<hr>
-<p><em>This digest is auto-generated by <a href="https://github.com/leisure3318/agents-radar">agents-radar</a>.</em></p>
 ]]></content:encoded>
     </item>
   </channel>
