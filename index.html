@@ -21,6 +21,8 @@
       --accent-bg:  rgba(143,185,236,0.10);
       --code-bg:    #1e252e;
       --link:       #9dc4f3;
+      --skill-use:  #79d2bb;
+      --skill-note: #e5bb79;
     }
     [data-theme="light"] {
       --bg:         #ffffff;
@@ -35,6 +37,8 @@
       --accent-bg:  rgba(50,101,150,0.08);
       --code-bg:    #f6f8fa;
       --link:       #286294;
+      --skill-use:  #167261;
+      --skill-note: #926019;
     }
 
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
@@ -219,14 +223,15 @@
     .md details > *:not(summary) { padding: 12px 14px; }
 
     .md .skill-card { border: 1px solid var(--border); border-radius: 14px; padding: 26px 28px; margin: 26px 0; background: var(--bg); }
-    .md .skill-card h2 { font-size: 21px; margin: 0; padding: 0; border: 0; overflow-wrap: anywhere; line-height: 1.4; }
+    .md .skill-card h2 { color: var(--accent); font-size: 21px; margin: 0; padding: 0; border: 0; overflow-wrap: anywhere; line-height: 1.4; }
     .md .skill-subtitle { color: var(--muted); font-size: 15px; margin: 7px 0 0; line-height: 1.6; }
     .md .skill-sources { display: flex; flex-wrap: wrap; gap: 8px; margin: 16px 0 22px; }
-    .md .skill-sources a { font-size: 12px; border: 1px solid var(--border); border-radius: 6px; padding: 3px 10px; }
+    .md .skill-sources a { background: var(--accent-bg); font-size: 12px; border: 1px solid var(--border); border-radius: 6px; padding: 3px 10px; }
     .md .skill-summary { font-size: 16px; line-height: 1.8; margin: 0 0 22px; }
     .md .skill-fields { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; border-top: 1px solid var(--border); padding-top: 20px; }
     .md .skill-field { min-width: 0; }
-    .md .skill-field h3 { font-size: 12px; color: var(--muted); margin: 0 0 8px; font-weight: 500; }
+    .md .skill-field h3 { font-size: 12px; color: var(--skill-use); margin: 0 0 8px; font-weight: 600; }
+    .md .skill-field[data-kind="boundary"] h3 { color: var(--skill-note); }
     .md .skill-field p { font-size: 14px; line-height: 1.8; margin: 0; }
     @media (max-width: 900px) {
       .md .skill-card { padding: 22px 20px; }
@@ -553,6 +558,7 @@ function styleSkillCards(root) {
       } else {
         const field = document.createElement('section');
         field.className = 'skill-field';
+        if (label === '使用边界') field.dataset.kind = 'boundary';
         const name = document.createElement('h3');
         name.textContent = label === '适用场景与开始方式' ? '适用场景 · 如何开始' : label || '更多说明';
         field.append(name, body);
