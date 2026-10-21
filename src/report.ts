@@ -58,6 +58,15 @@ function releaseSlot(): void {
 // LLM
 // ---------------------------------------------------------------------------
 
+const llmFailures: unknown[] = [];
+
+/** Prevent partial reports and dedup state from being committed as a successful run. */
+export function assertLlmSuccess(): void {
+  if (llmFailures.length) {
+    throw new AggregateError(llmFailures, `${llmFailures.length} LLM request(s) failed; publication aborted`);
+  }
+}
+
 const MAX_RETRIES = 3;
 const RETRY_BASE_MS = 5_000; // 5 s, 10 s, 20 s
 
@@ -86,8 +95,14 @@ export async function callLlm(prompt: string, maxTokens = LLM_TOKENS_DEFAULT): P
       }
       if (is403(err) && fallbackProvider) {
         console.error(`[llm] 403 quota exceeded — switching to fallback provider`);
-        return await fallbackProvider.call(prompt, maxTokens);
+        try {
+          return await fallbackProvider.call(prompt, maxTokens);
+        } catch (fallbackError) {
+          llmFailures.push(fallbackError);
+          throw fallbackError;
+        }
       }
+      llmFailures.push(err);
       throw err;
     } finally {
       if (!released) releaseSlot();

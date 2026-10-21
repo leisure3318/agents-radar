@@ -155,6 +155,10 @@ export async function saveSkillsReport(
     console.log("  [skills.sh] No newly discovered skills, skipping report.");
     return false;
   }
+  if (!summary.trim() || summary.trim().startsWith("⚠️")) {
+    console.error("  [skills.sh] Summary unavailable, preserving discoveries for retry.");
+    return false;
+  }
   const content =
     `# ${SKILLS_REPORT.title} ${dateStr}\n\n` +
     `> ${SKILLS_REPORT.source} | 新发现: ${data.skills.length} 个 | 生成时间: ${utcStr} UTC\n\n---\n\n` +
@@ -162,7 +166,11 @@ export async function saveSkillsReport(
     footer;
   console.log(`  Saved ${saveFile(content, dateStr, "ai-skills.md")}`);
   if (digestRepo) {
-    const issueUrl = await createGitHubIssue(SKILLS_REPORT.issueTitle(dateStr), content, ISSUE_LABELS.skills.zh);
+    const issueUrl = await createGitHubIssue(
+      SKILLS_REPORT.issueTitle(dateStr),
+      content,
+      ISSUE_LABELS.skills.zh,
+    );
     console.log(`  Created skills issue: ${issueUrl}`);
   }
   return true;

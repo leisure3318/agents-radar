@@ -31,6 +31,7 @@ import { buildTrendingPrompt, buildHighlightsPrompt, type ReportHighlights } fro
 import { buildSkillsTrendingPrompt } from "./prompts-data.ts";
 import {
   callLlmLang,
+  assertLlmSuccess,
   saveFile,
   autoGenFooter,
   LLM_TOKENS_TRENDING,
@@ -394,9 +395,16 @@ async function main(): Promise<void> {
   // A skill is deliberately reported only once, ever. We take the first five
   // unseen entries from the combined Trending + Hot boards to keep the daily
   // notification useful rather than exhaustive.
+  const skillsReportPath = path.join("digests", dateStr, "ai-skills.md");
+  const existingSkillsReport = fs.existsSync(skillsReportPath)
+    ? fs.readFileSync(skillsReportPath, "utf-8")
+    : "";
+  const skillsAlreadyPublished =
+    existingSkillsReport.includes("## ") &&
+    !existingSkillsReport.includes("⚠️ AI Skills 新上榜报告生成失败。");
   const filteredSkillsData: SkillsData = {
     ...skillsTrendingData,
-    skills: filterUnseenSkills(dedupDb, skillsTrendingData.skills).slice(0, 5),
+    skills: skillsAlreadyPublished ? [] : filterUnseenSkills(dedupDb, skillsTrendingData.skills).slice(0, 5),
   };
   filteredSkillsData.skills = await enrichSkillsWithSource(filteredSkillsData.skills);
 
@@ -510,6 +518,8 @@ async function main(): Promise<void> {
       )
     : "";
 
+  assertLlmSuccess();
+
   // 4. Build + save all reports (zh + en)
   const cliContent: Record<Lang, string> = {} as Record<Lang, string>;
   const openclawContent: Record<Lang, string> = {} as Record<Lang, string>;
@@ -552,14 +562,7 @@ async function main(): Promise<void> {
   }
 
   const [skillsReportWritten] = await Promise.all([
-    saveSkillsReport(
-      filteredSkillsData,
-      skillsSummary,
-      utcStr,
-      dateStr,
-      digestRepo,
-      autoGenFooter("zh"),
-    ),
+    saveSkillsReport(filteredSkillsData, skillsSummary, utcStr, dateStr, digestRepo, autoGenFooter("zh")),
     saveTrendingReport(
       filteredTrendingData,
       zhSummaries.trendingSummary,
@@ -605,6 +608,8 @@ async function main(): Promise<void> {
       "en",
     ),
   ]);
+
+  assertLlmSuccess();
 
   // Do not burn a discovery when report creation failed: a later successful
   // run must be able to notify it. SQLite is committed alongside digests.

@@ -230,3 +230,25 @@ describe("callLlm", () => {
     expect(results).toEqual(["ok", "ok", "ok", "ok", "ok"]);
   });
 });
+
+describe("publication health", () => {
+  beforeEach(() => {
+    vi.resetModules();
+    mockCall.mockReset();
+  });
+
+  it("blocks publication after a 502 even when the caller catches it", async () => {
+    const report = await import("../report.ts");
+    mockCall.mockRejectedValueOnce(Object.assign(new Error("Bad Gateway"), { status: 502 }));
+    await expect(report.callLlm("prompt")).rejects.toThrow("Bad Gateway");
+    expect(() => report.assertLlmSuccess()).toThrow("publication aborted");
+  });
+
+  it("allows successful requests and skipped English summaries", async () => {
+    const report = await import("../report.ts");
+    mockCall.mockResolvedValueOnce("summary");
+    await report.callLlm("prompt");
+    await report.callLlmLang("en", "prompt");
+    expect(() => report.assertLlmSuccess()).not.toThrow();
+  });
+});
