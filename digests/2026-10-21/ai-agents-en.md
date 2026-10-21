@@ -1,6 +1,6 @@
 # OpenClaw Ecosystem Digest 2026-10-21
 
-> Issues: 43 | PRs: 37 | Projects covered: 13 | Generated: 2026-10-21 01:59 UTC
+> Issues: 17 | PRs: 74 | Projects covered: 13 | Generated: 2026-10-21 05:04 UTC
 
 - [OpenClaw](https://github.com/openclaw/openclaw)
 - [NanoBot](https://github.com/HKUDS/nanobot)

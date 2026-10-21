@@ -1,4 +1,77 @@
 {
-  "zh": {},
+  "zh": {
+    "ai-cli": [
+      "Claude Code发布v2.1.305、v2.1.306",
+      "Codex发布0.164.0的alpha.7与alpha.8",
+      "Copilot CLI连发4版，聚焦子代理审批",
+      "Gemini CLI正式、预览、夜间版齐更新",
+      "Qwen Code发布3版，推进远程daemon",
+      "OpenCode聚焦V2兼容与子代理权限"
+    ],
+    "ai-agents": [
+      "OpenClaw更新74条PR，当日无新版本",
+      "OpenClaw尚有55条PR待合并",
+      "OpenClaw心跳异常被报或致任务频繁重跑",
+      "OpenClaw移动端聊天修复PR待评审",
+      "OpenClaw推进后台记忆索引恢复",
+      "OpenClaw出现会话清理失败与重复回复报告"
+    ],
+    "ai-skills": [
+      "embedded-captions提供35种字幕样式",
+      "embedded-captions支持人物遮挡字幕",
+      "seeker-domains支持.skr域名双向解析",
+      "seeker-domains查域名须用主网",
+      "solana-mobile支持一键检查Android环境",
+      "Solana钱包适配需原生构建，不能用Expo Go"
+    ],
+    "ai-trending": [
+      "wshobson/agents今日新增93星",
+      "agentic-awesome-skills今日新增83星",
+      "agentic-awesome-skills汇集2600+技能",
+      "wshobson/agents覆盖多种AI编程工具",
+      "技能目录走向本地MCP与工作流管理",
+      "OpenEBFM获116星，探索能量基础模型训练"
+    ],
+    "ai-web": [
+      "Anthropic拟捐5%股份，尚待股东批准",
+      "Anthropic探索用Claude缩减代码攻击面",
+      "Claude蛋白设计：211个实验中17个达标",
+      "Anthropic计划公开蛋白设计及实验数据",
+      "Anthropic探讨面向智能体重设计源码管理",
+      "OpenAI收购Orchestra Bio条目正文缺失"
+    ],
+    "ai-hn": [
+      "Claude蛋白设计研究获102分、64评论",
+      "OpenAI低资源语言研究引来67条评论",
+      "Penmentor用Claude批注手写数学，获59分",
+      "Rust AI网关Respan获46分、19评论",
+      "SIwithin为Claude Code设置隔离与美元预算",
+      "Anthropic巨额亏损报道领跑AI新闻得分"
+    ],
+    "ai-arxiv": [
+      "Lafa探索十亿参数级连续流语言模型",
+      "CoRAL融合扩散与自回归，挑战串行瓶颈",
+      "无奖励教师修复瞄准智能体策略蒸馏",
+      "弱模型能否靠辩论纠错？新论文提出质疑",
+      "Evolving Agent Interfaces探索接口自演化",
+      "Sage-A1.5以35B混合专家模型攻长程任务"
+    ],
+    "ai-hf": [
+      "MOSS图像8步衍生版下载达54,814次",
+      "MOSS图像家族两款模型入选热门样本",
+      "Kromoss获178赞，接入Diffusers生态",
+      "NVIDIA Dory 4B BF16获145赞",
+      "DeepSeek社区FP8衍生版获195赞",
+      "DeepSeek衍生版多模态能力仍待实测"
+    ],
+    "ai-community": [
+      "文档知识复用工具获70赞、18评论",
+      "编程不再有趣？Dev.to文章引发36条评论",
+      "GitLab贡献实践：Agent写代码，人工批准推送",
+      "OpenCode密钥风险文章追问云端托管边界",
+      "AI质量评估文章聚焦非确定性产品监控",
+      "Timestral仅领先0.003 MASE引发实测追问"
+    ]
+  },
   "en": {}
 }
