@@ -218,6 +218,21 @@
     .md summary:hover { color: var(--text); }
     .md details > *:not(summary) { padding: 12px 14px; }
 
+    .md .skill-card { border: 1px solid var(--border); border-radius: 14px; padding: 26px 28px; margin: 26px 0; background: var(--bg); }
+    .md .skill-card h2 { font-size: 21px; margin: 0; padding: 0; border: 0; overflow-wrap: anywhere; line-height: 1.4; }
+    .md .skill-subtitle { color: var(--muted); font-size: 15px; margin: 7px 0 0; line-height: 1.6; }
+    .md .skill-sources { display: flex; flex-wrap: wrap; gap: 8px; margin: 16px 0 22px; }
+    .md .skill-sources a { font-size: 12px; border: 1px solid var(--border); border-radius: 6px; padding: 3px 10px; }
+    .md .skill-summary { font-size: 16px; line-height: 1.8; margin: 0 0 22px; }
+    .md .skill-fields { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; border-top: 1px solid var(--border); padding-top: 20px; }
+    .md .skill-field { min-width: 0; }
+    .md .skill-field h3 { font-size: 12px; color: var(--muted); margin: 0 0 8px; font-weight: 500; }
+    .md .skill-field p { font-size: 14px; line-height: 1.8; margin: 0; }
+    @media (max-width: 900px) {
+      .md .skill-card { padding: 22px 20px; }
+      .md .skill-fields { grid-template-columns: 1fr; gap: 18px; }
+    }
+
     /* ── Mobile ── */
     #mob-toggle { display: none; }
     @media (max-width: 680px) {
@@ -493,6 +508,62 @@ searchInput.addEventListener('input', () => {
   searchDebounce = setTimeout(() => applyDateSearch(searchQuery), 120);
 });
 
+function styleSkillCards(root) {
+  root.querySelectorAll('h2').forEach(heading => {
+    const list = heading.nextElementSibling;
+    if (!list || list.tagName !== 'UL') return;
+    const items = Array.from(list.children);
+    const labels = items.map(item => item.querySelector(':scope > strong')?.textContent.trim());
+    if (!labels.includes('能做什么') || !labels.includes('使用边界')) return;
+
+    const card = document.createElement('article');
+    card.className = 'skill-card';
+    heading.before(card);
+    card.append(heading);
+    const title = heading.textContent.replace(/^\d+[.、]\s*/, '');
+    const parts = title.split(/\s+[—–]\s+/);
+    if (parts.length > 1) {
+      heading.textContent = parts.shift();
+      const subtitle = document.createElement('p');
+      subtitle.className = 'skill-subtitle';
+      subtitle.textContent = parts.join(' — ');
+      card.append(subtitle);
+    }
+    const fields = document.createElement('div');
+    fields.className = 'skill-fields';
+    items.forEach((item, index) => {
+      const label = labels[index];
+      if (label === '来源') {
+        const sources = document.createElement('div');
+        sources.className = 'skill-sources';
+        item.querySelectorAll('a').forEach(link => sources.append(link));
+        card.append(sources);
+        return;
+      }
+      const body = document.createElement('p');
+      body.append(...Array.from(item.childNodes));
+      if (label) {
+        body.querySelector(':scope > strong').remove();
+        const first = body.firstChild;
+        if (first?.nodeType === Node.TEXT_NODE) first.textContent = first.textContent.replace(/^\s*[：:]\s*/, '');
+      }
+      if (label === '能做什么') {
+        body.className = 'skill-summary';
+        card.append(body);
+      } else {
+        const field = document.createElement('section');
+        field.className = 'skill-field';
+        const name = document.createElement('h3');
+        name.textContent = label === '适用场景与开始方式' ? '适用场景 · 如何开始' : label || '更多说明';
+        field.append(name, body);
+        fields.append(field);
+      }
+    });
+    card.append(fields);
+    list.remove();
+  });
+}
+
 function setContent(html) {
   document.getElementById('content').innerHTML = html;
 }
@@ -544,6 +615,7 @@ async function loadReport(date, report, push = true) {
     const raw = await res.text();
     const safe = renderMarkdown(raw);
     setContent(`<div class="md fade">${safe}</div>`);
+    if (report === 'ai-skills') styleSkillCards(document.getElementById('content'));
   } catch (e) {
     // A failed request must remain retryable when the reader clicks it again.
     if (currentKey === key) currentKey = null;
