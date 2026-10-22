@@ -144,17 +144,6 @@
     }
     .rpt-btn:hover { background: var(--bg-hover); color: var(--text); }
     .rpt-btn.active { color: var(--accent); border-left-color: var(--accent); background: var(--accent-bg); }
-    .rpt-row { display: flex; align-items: center; padding: 9px 10px 9px 22px; }
-    .rpt-label { flex: 1; font-size: 13px; color: var(--muted); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
-    .lang-btns { display: flex; gap: 3px; flex-shrink: 0; }
-    .lang-btn {
-      background: none; border: 1px solid var(--dim); color: var(--dim);
-      padding: 2px 7px; border-radius: 5px; cursor: pointer;
-      font-family: inherit; font-size: 13px; letter-spacing: 0.06em;
-      transition: border-color 0.1s, color 0.1s;
-    }
-    .lang-btn:hover { border-color: var(--muted); color: var(--muted); }
-    .lang-btn.active { border-color: var(--accent); color: var(--accent); background: var(--accent-bg); }
 
     /* ── Content ── */
     #cwrap { flex: 1; overflow-y: auto; }
@@ -590,16 +579,15 @@ async function loadReport(date, report, push = true) {
   if (push) history.pushState(null, '', `#${key}`);
 
   // Sync sidebar
-  document.querySelectorAll('.rpt-btn').forEach(b => b.classList.toggle('active', b.dataset.key === key));
-  document.querySelectorAll('.lang-btn').forEach(b => b.classList.toggle('active', b.dataset.key === key));
+  document.querySelectorAll('.rpt-btn').forEach(b => b.classList.toggle('active', b.dataset.key === key.replace(/-en$/, '')));
   document.querySelectorAll('.date-hdr').forEach(h => {
     const grp = h.closest('.date-group');
-    const hasActive = grp.querySelector('.rpt-btn.active') || grp.querySelector('.lang-btn.active');
+    const hasActive = grp.querySelector('.rpt-btn.active');
     h.classList.toggle('lit', !!hasActive);
   });
   document.querySelectorAll('.month-hdr').forEach(h => {
     const mGrp = h.closest('.month-group');
-    const hasActive = mGrp.querySelector('.lang-btn.active') || mGrp.querySelector('.rpt-btn.active');
+    const hasActive = mGrp.querySelector('.rpt-btn.active');
     h.classList.toggle('lit', !!hasActive);
   });
   document.querySelectorAll('.date-group').forEach(g => {
@@ -651,45 +639,12 @@ function buildDateGroup(date, reports, isFirst) {
 
   const baseReports = reports.filter(r => !r.endsWith('-en'));
   baseReports.forEach(r => {
-    const enKey = r + '-en';
-    const hasEn = reports.includes(enKey);
-
-    if (hasEn) {
-      const row = document.createElement('div');
-      row.className = 'rpt-row';
-
-      const label = document.createElement('span');
-      label.className = 'rpt-label';
-      const baseLabel = LABELS[r] || r;
-      label.textContent = baseLabel;
-      label.title = baseLabel;
-
-      const btns = document.createElement('div');
-      btns.className = 'lang-btns';
-
-      const zhBtn = document.createElement('button');
-      zhBtn.className = 'lang-btn';
-      zhBtn.dataset.key = `${date}/${r}`;
-      zhBtn.textContent = 'ZH';
-      zhBtn.onclick = () => loadReport(date, r);
-
-      const enBtn = document.createElement('button');
-      enBtn.className = 'lang-btn';
-      enBtn.dataset.key = `${date}/${enKey}`;
-      enBtn.textContent = 'EN';
-      enBtn.onclick = () => loadReport(date, enKey);
-
-      btns.append(zhBtn, enBtn);
-      row.append(label, btns);
-      list.appendChild(row);
-    } else {
-      const btn = document.createElement('button');
-      btn.className = 'rpt-btn';
-      btn.dataset.key = `${date}/${r}`;
-      btn.textContent = LABELS[r] || r;
-      btn.onclick = () => loadReport(date, r);
-      list.appendChild(btn);
-    }
+    const btn = document.createElement('button');
+    btn.className = 'rpt-btn';
+    btn.dataset.key = `${date}/${r}`;
+    btn.textContent = LABELS[r] || r;
+    btn.onclick = () => loadReport(date, r);
+    list.appendChild(btn);
   });
 
   grp.append(hdr, list);
