@@ -1,0 +1,61 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.307新增API迁移命令",
+      "Codex连发3个Alpha，46条PR更新",
+      "Gemini CLI 0.67.0夜版推进容器沙箱",
+      "Copilot CLI v1.0.102改进审批继承",
+      "Pi v1.4.0为分类器加入图像输入",
+      "Qwen Code跨CLI、桌面与SDK发布5条更新"
+    ],
+    "ai-agents": [
+      "OpenClaw更新89条PR，87条仍待合并",
+      "OpenClaw beta.3聚焦Windows可靠性",
+      "OpenClaw恢复全新初始化与网关启动",
+      "OpenClaw更新时隐藏SQLite辅助窗口",
+      "OpenClaw推进Web UI异步状态重构",
+      "OpenClaw密钥边界与原生插件问题待审查"
+    ],
+    "ai-skills": [
+      "视频生成Skill串联40多种模型",
+      "视频生成Skill以9714次安装登趋势榜",
+      "X自动化Skill获9713次安装",
+      "三款Skill共用belt，打通生成与发布",
+      "HyperFrames迁移Skill要求逐帧验证",
+      "Seedance 2.0支持生成视频同步音频"
+    ],
+    "ai-web": [
+      "Anthropic EFS兼顾零数据保留与滥用检测",
+      "EFS联合超100家客户及三大云厂商开发",
+      "EFS计划覆盖Claude Code与企业平台",
+      "OSS Scanner凸显漏洞人工分诊瓶颈",
+      "Anthropic研究自复制AI与网络能力扩散",
+      "OpenAI收录8条记录，仅6个独立页面"
+    ],
+    "ai-hn": [
+      "Claude Duet主帖获316分、277条评论",
+      "OpenAI漏洞披露协调引发161条评论",
+      "数千AI Agent分析生物数据获135分",
+      "Claude缩减代码攻击面引发85条评论",
+      "Omnara开源替代托管Agent，获21分",
+      "LiteLLM发布安全更新，接入层用户需关注"
+    ],
+    "ai-hf": [
+      "flint以257赞领跑，下载数仍为零",
+      "OrcaCyber下载19697次，居本期首位",
+      "OrcaCyber聚焦网络安全与逆向工程",
+      "OrcaCyber带GGUF标签，本地部署待验证",
+      "Sage-A1.5获160赞、58次下载",
+      "Sage-A1.5带Qwen3.5 MoE与多模态标签"
+    ],
+    "ai-community": [
+      "开放模型破解内容推荐同质化，获33赞",
+      "Agent幂等键该绑定意图？讨论获14条评论",
+      "代理能改监控文件，谁来监督监督者？",
+      "Windows代理权限隔离：不再继承完整权限",
+      "Kule让Agent在副本工作，人工决定回写",
+      "AI写码更便宜，为何软件交付仍昂贵？"
+    ]
+  },
+  "en": {}
+}
