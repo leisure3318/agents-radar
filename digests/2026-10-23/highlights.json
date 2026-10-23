@@ -1,0 +1,77 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code发布v2.1.309并修复沙箱",
+      "Codex连发3个Alpha，推进多环境治理",
+      "Copilot CLI发布v1.0.103",
+      "OpenCode发布v1.19.4，推进V2迁移",
+      "Gemini CLI推进工具异常恢复与ACP重试",
+      "Qwen Code更新Nightly，强化Agent执行链"
+    ],
+    "ai-agents": [
+      "OpenClaw发布v2026.10.6",
+      "OpenClaw提高Node.js安全补丁门槛",
+      "Node.js 24须升级至24.22.1+",
+      "Node.js 26须升级至26.12.1+",
+      "OpenClaw待查Telegram回合丢失",
+      "OpenClaw大规模状态迁移被报OOM"
+    ],
+    "ai-skills": [
+      "Skills新发现5项，均来自24小时趋势榜",
+      "ai-image-generation显示9770次安装",
+      "ai-avatar-video显示9760次安装",
+      "Twitter自动化Skill显示9755次安装",
+      "ai-video-generation显示9683次安装",
+      "5项Skill均缺SKILL.md，安装前需审阅"
+    ],
+    "ai-trending": [
+      "Trending仅采集3库，无明确AI项目",
+      "AI主题搜索为空，热门项目榜暂缺",
+      "Agent、RAG等五类均无合格样本",
+      "总stars均标为0，数据有效性待核验",
+      "空样本不代表GitHub的AI热度下降",
+      "首次登榜与增速判断仍缺历史快照"
+    ],
+    "ai-web": [
+      "Claude为超100个软件库证明安全属性",
+      "Anthropic探索RISC-V汇编级形式化验证",
+      "Agent Skills捐赠AAIF，转向中立治理",
+      "Agent Skills已集成超70个智能体平台",
+      "Anthropic招募生命科学客座研究者",
+      "OpenAI新增两条路径，正文与能力待核验"
+    ],
+    "ai-hn": [
+      "OpenAI CLI获231分、109条评论",
+      "Anthropic形式化验证获114分",
+      "模型为何不创办百家公司？引62条评论",
+      "agent-usage-guard聚焦Claude用量保护",
+      "CATT 0.2.1将Agent测试引入CI",
+      "OCRia-1主打4B文档解析，宣称SOTA"
+    ],
+    "ai-arxiv": [
+      "扩散语言模型量化开始区分任务与时间步",
+      "长上下文研究对比Transformer与Mamba",
+      "奖励模型研究揭示跨提示分数可比性盲点",
+      "Delta N-gram探索仅前向持续知识写入",
+      "Post-Audit Mirage追问离线审计边界",
+      "多智能体共识研究追踪谁在影响群体"
+    ],
+    "ai-hf": [
+      "Spark-X2.6-4B以256赞领跑样本",
+      "Spark-X2.6-4B获482次下载",
+      "flint-GGUF获7401次下载、151赞",
+      "Unsloth为RecursiveSI/flint提供GGUF版",
+      "两款热门模型均聚焦文本生成",
+      "Spark点赞领先，flint-GGUF下载更高"
+    ],
+    "ai-community": [
+      "别当AI传话筒：责任边界讨论获50赞",
+      "模型自称93%确信，不等于概率校准",
+      "Agent Skill模拟四类新用户测试应用",
+      "Gemini长会话上GKE，聚焦状态持久化",
+      "重试循环或成最贵功能，引10条评论",
+      "HTTP 200也会失败：n8n工作流查漏"
+    ]
+  },
+  "en": {}
+}
