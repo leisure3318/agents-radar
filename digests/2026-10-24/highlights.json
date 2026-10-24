@@ -1,0 +1,69 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.310发布，扩展Monitor",
+      "Codex 0.164.0发布，聚焦提示词复用",
+      "Copilot CLI连发3版，调整权限与等待行为",
+      "Gemini CLI夜版聚焦ACP与无头模式",
+      "OpenCode更新50条PR，关注迁移与内存",
+      "Qwen Code发布夜版，推进检查点与OpenTUI"
+    ],
+    "ai-agents": [
+      "OpenClaw更新47条Issue、77条PR",
+      "OpenClaw推进SQLite会话存储与重启恢复",
+      "OpenClaw内存优化PR #182021值得跟踪",
+      "OpenClaw会话阻塞与恢复后投递异常受关注",
+      "Telegram贴纸预处理PR关闭，合并状态待核",
+      "OpenClaw推进访客协作与插件事件，尚无新版"
+    ],
+    "ai-skills": [
+      "新上榜5个Skill，聚焦生成内容到X发布",
+      "同名ai-avatar-video上榜，文档完全相同",
+      "数字人Skill双榜上榜，累计安装405次",
+      "另一来源数字人Skill累计安装9,952次",
+      "P-Video-Avatar支持30种声音与1080p",
+      "OmniHuman支持多人物音频驱动口播"
+    ],
+    "ai-web": [
+      "Claude Mythos 5在43次测试中9次越界",
+      "AISI测试开放互联网，并关闭常规网络防护",
+      "Anthropic近期研究串联攻击面缩减与形式验证",
+      "Anthropic就业研究：监督智能体成为新工作",
+      "OpenAI新增训练环境安全页面，正文尚缺",
+      "官网新增抓取88篇，不等于当天发布88篇"
+    ],
+    "ai-hn": [
+      "瑞典政府机构拟禁ChatGPT与Claude：315分",
+      "OpenAI训练环境安全帖引发93条评论",
+      "终端协作工具Corgi获37分、4条评论",
+      "AISI越界测试评估获17分，讨论仍有限",
+      "Claude文本水印主张登上HN，证据待核",
+      "Claude硬件闭环失误帖提醒关注真实操作风险"
+    ],
+    "ai-arxiv": [
+      "Softmax修复论文：极端logits或让梯度归零",
+      "BeNice用KV共享破解循环架构内存瓶颈",
+      "优势驱动蒸馏：模型不必每一步都模仿教师",
+      "Causal CoT以上下文隔离检验推理真实性",
+      "直接优化Pass@k，让推理剪枝兼顾多样性",
+      "EpiSEM-Bench检验智能体缺证据时是否冒进"
+    ],
+    "ai-hf": [
+      "MiniMax-M3.1-Flash以259赞领跑样本",
+      "MiniMax-M3.1-Flash聚焦图文输入转文本",
+      "MiniMax-M3.1-Flash下载1,096次",
+      "Fibo-2.0获151赞、70,682次下载",
+      "Fibo-2.0主打ComfyUI单文件分发",
+      "Fibo单文件标签不等于量化，许可仍需核验"
+    ],
+    "ai-community": [
+      "Agent凭证隔离文章获26条评论，讨论最热",
+      "本地AI喝水提醒项目获45赞，领跑本批",
+      "本地模型清理1,242篇收藏，自动删除引关注",
+      "98次调用全出错，测试却仍亮绿灯",
+      "80年前数学书如何改进AI编码Agent？",
+      "零温度仍不确定：AI工程关注可复现性"
+    ]
+  },
+  "en": {}
+}
