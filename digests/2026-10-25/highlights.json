@@ -1,0 +1,61 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Qwen Code CLI与桌面端同发v0.26.1",
+      "Copilot CLI发布v1.0.104-3，变更未详",
+      "OpenCode更新50条Issue、50条PR",
+      "Claude Code反馈聚焦权限与长任务连续性",
+      "Codex远程开发、审批与状态管理问题突出",
+      "Gemini CLI发布nightly，新增代码待确认"
+    ],
+    "ai-agents": [
+      "OpenClaw发布两版，更新86条PR",
+      "OpenClaw v2026.10.7强化会话恢复",
+      "OpenClaw中断恢复保留未完成工具结果",
+      "OpenClaw阻止被拒Claude草稿进入回复",
+      "OpenClaw两项P0涉及Windows与会话地址",
+      "OpenClaw优化聚焦Gateway与数据库缓存"
+    ],
+    "ai-skills": [
+      "新上榜5款Skill，串联媒体生产与开发提效",
+      "ai-image-generation榜单安装量9,725",
+      "belt统一调用50多种图像模型",
+      "ai-avatar-video支持人像加脚本生成视频",
+      "数字人Skill串联转写、翻译、配音与口型同步",
+      "开发类新Skill聚焦代码规范、依赖源码与Vite"
+    ],
+    "ai-trending": [
+      "cindy今日新增477星，领跑AI热榜样本",
+      "Gemini CLI今日新增44星",
+      "两款Agent项目合计新增521星",
+      "labmlai论文实现库累计67,598星",
+      "ICSFSurvey获172星，聚焦自我纠错研究",
+      "Trending总星数显示为0，项目规模待核实"
+    ],
+    "ai-hn": [
+      "AI就业冲击帖获138分、113条评论",
+      "陶哲轩社区修订OpenAI数学论述，获33分",
+      "媒体称OpenAI停止训练期间联网，边界待核",
+      "Claude Code被指外发用户邮箱，尚待核验",
+      "拆解Claude Code的免费工程课程登上HN",
+      "Multipeer亮相HN，探索人与Agent协作"
+    ],
+    "ai-hf": [
+      "DeepSeek GGUF量化版获210赞，样本居首",
+      "DeepSeek GGUF量化版下载32,479次",
+      "Raon-1-mini-preview获172赞",
+      "Raon预览版下载917次，使用规模待观察",
+      "Ornith-1.5-122B下载30,407次",
+      "Ornith带MoE与图文标签，视觉能力待核"
+    ],
+    "ai-community": [
+      "AI压缩安全响应窗口文章获23赞",
+      "Sloth Reads用开源模型夜间筛选待读文章",
+      "写作工具12项公开任务对比引来15条评论",
+      "Agent说完成后，测试证据在哪里？",
+      "开发者推出pip工具评测本地LLM工具调用",
+      "1.5B模型审计文章强调初筛不等于裁决"
+    ]
+  },
+  "en": {}
+}
