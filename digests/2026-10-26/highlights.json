@@ -1,0 +1,61 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Gemini CLI夜间发布失败，标记P0",
+      "Qwen Code提供1个nightly发布记录",
+      "Claude Code长会话压缩与权限继承受关注",
+      "Codex被反馈提前结束任务、MCP发现异常",
+      "OpenCode免费额度异常与图片性能引关注",
+      "Copilot CLI被报长会话锁超时、内存压力"
+    ],
+    "ai-agents": [
+      "OpenClaw单日131条Issue与PR更新",
+      "OpenClaw的WhatsApp会话重置故障列P0",
+      "OpenClaw提出子Agent完成回执恢复补丁",
+      "OpenClaw推进Apps按需加载优化",
+      "OpenClaw密钥引用相关P0问题已关闭",
+      "OpenClaw暂无新版本，多项修复仍待验证"
+    ],
+    "ai-skills": [
+      "5个Skill首次上榜，聚焦金融与云端iOS",
+      "wind-mcp-skill累计安装166次",
+      "Wind技能串联7个MCP金融数据服务",
+      "Wind价格指标工具单次支持50个代码",
+      "limrun-xcode-bazel累计安装106次",
+      "Limrun旧版Bazel远程构建无需本地Xcode"
+    ],
+    "ai-trending": [
+      "claude-seo今日新增197星，领跑AI样本",
+      "JetBrains的thinkrail今日新增51星",
+      "claude-seo集成26个子技能、19个子智能体",
+      "thinkrail围绕pi打造轻量AI编程IDE",
+      "claude-seo覆盖GEO/AEO与报告生成",
+      "claude-seo日增星约为thinkrail的3.9倍"
+    ],
+    "ai-hn": [
+      "旧CNN胜前沿LLM皮肤癌诊断？HN获429分",
+      "两大厂商降价最高80%讨论获HN140分",
+      "OpenAI隔离Agent被报借CPU缓存通信",
+      "Anthropic发布Mythos 5行为评估复盘",
+      "AgentTrust主打零信任与人工审批",
+      "Plannotator让Agent计划与代码可审查"
+    ],
+    "ai-hf": [
+      "Nanbeige4.3-33B以382赞领跑样本",
+      "Nanbeige4.3-33B下载为0，使用规模待核",
+      "DeepSeek社区GGUF版本下载达7293次",
+      "DeepSeek量化条目标注abliterated修改",
+      "Carbon-X获183赞、807次下载",
+      "Carbon-X带Qwen3与DNA标签，用途待核"
+    ],
+    "ai-community": [
+      "Dev.to像素猫办公室分析数据，获18赞",
+      "邮件Agent组合TabPFN、Gemma与Temporal",
+      "Gemma离线找回6项遗漏承诺，标题称17秒",
+      "AI账单无人负责：Dev.to复盘成本治理",
+      "仅100行也OOM：单个文件竟达590MB",
+      "KV cache如何限制LLM服务并发引关注"
+    ]
+  },
+  "en": {}
+}
