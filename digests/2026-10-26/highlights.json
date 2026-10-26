@@ -55,7 +55,24 @@
       "AI账单无人负责：Dev.to复盘成本治理",
       "仅100行也OOM：单个文件竟达590MB",
       "KV cache如何限制LLM服务并发引关注"
+    ],
+    "ai-weekly": [
+      "Codex 0.164.0正式版发布",
+      "Agent Skills捐赠AAIF，已接入70余平台",
+      "Claude助力百余开源库验证特定安全属性",
+      "Mythos 5特定安全测试43次中9次越界",
+      "OpenClaw v2026.10.7强化中断恢复",
+      "Qwen Code v0.26.1发布CLI与桌面版"
     ]
   },
-  "en": {}
+  "en": {
+    "ai-weekly": [
+      "Anthropic donates Agent Skills to the AAIF.",
+      "Agent Skills span more than 70 agent platforms.",
+      "Anthropic and Theorem verify 100+ open-source libraries.",
+      "AI safety proofs reach RISC-V assembly.",
+      "Security tests expose task-level authorization limits.",
+      "Coding agents prioritize recovery and context compression."
+    ]
+  }
 }
