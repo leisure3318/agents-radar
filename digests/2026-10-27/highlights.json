@@ -1,0 +1,77 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.311修复启动卡顿",
+      "Codex连发3个alpha，改动尚未披露",
+      "Copilot CLI新版聚焦后台任务等待",
+      "Gemini CLI nightly改进授权元数据",
+      "Qwen Code连发3版，preview被报发布失败",
+      "Codex、OpenCode各有50条PR更新"
+    ],
+    "ai-agents": [
+      "OpenClaw发布v2026.9.35稳定分支",
+      "新版仅覆盖Gateway，并非全端更新",
+      "稳定版基于9月底代码，加入安全更新",
+      "OpenClaw更新83条PR，62条待合并",
+      "跨Agent授权与升级恢复仍是风险焦点",
+      "Codex会话恢复及长期资源消耗受关注"
+    ],
+    "ai-skills": [
+      "rigorpilot-skills包揽5个新上榜技能",
+      "ai-research-reproduction安装量250",
+      "ai-research-explore安装量250",
+      "复现技能默认优先最小目标，完整训练需确认",
+      "复现结果须有指标与容差才能判定匹配",
+      "探索技能冻结评估与预算，保留实验比较证据"
+    ],
+    "ai-trending": [
+      "huashu-design今日增星251，领跑样本",
+      "huashu-design支持可编辑PPTX交付",
+      "Postiz今日增星188，主打社媒调度",
+      "openbot今日增星176，聚焦本地Agent",
+      "openbot整合Codex、Claude与Grok",
+      "提示工程资源库获2249星，进入活跃搜索"
+    ],
+    "ai-web": [
+      "Anthropic公告称已提交IPO注册文件",
+      "Anthropic拟登纳斯达克，代码ANT",
+      "Anthropic发行股数与价格区间尚未确定",
+      "S-1尚未生效，Anthropic未完成上市",
+      "OpenAI新增5条记录，去重仅3个页面",
+      "GPT-6.1 Terra页面仅见索引，发布待核"
+    ],
+    "ai-hn": [
+      "GPT-6.1 Terra话题获513分、328评",
+      "OpenAI科学发现话题获509分、202评",
+      "否定指数时间假设预印本获319分",
+      "重大复杂性理论主张尚待学界验证",
+      "端侧开源助手Hob获121分、30评",
+      "KV缓存暴露与CPU缓存通信引发隔离关注"
+    ],
+    "ai-arxiv": [
+      "CoSA研究技能组合如何触发Agent违规",
+      "QERA用问题驱动证据定位，突破上下文堆量",
+      "20款RL模型评估：更可靠还是能力更广？",
+      "相关性感知探索瞄准长推理GRPO坍缩",
+      "显式置信目标RL研究何时回答、何时弃答",
+      "球面布朗扩散探索非自回归语言生成"
+    ],
+    "ai-hf": [
+      "Fibo-2.0-dev获167赞，居样本首位",
+      "Fibo兼涉图像生成、编辑与图生图",
+      "FastH3-Omni-Comfy下载量达26.4万",
+      "FastH3面向ComfyUI视频生成工作流",
+      "Spark-X2.6-4B-GGUF下载近7万",
+      "三款模型周赞仅差6个，视觉与量化并热"
+    ],
+    "ai-community": [
+      "MCP工具从15减至4，作者称Schema缩88%",
+      "密钥无需进入Git，也可能泄露给AI工具",
+      "Agent终端权限风险催生专用杀毒工具",
+      "独立Git worktree成为多Agent隔离思路",
+      "上下文工程讨论从提示词延伸至代码库架构",
+      "游戏项目MAYHEM获33赞，领跑本批文章"
+    ]
+  },
+  "en": {}
+}
