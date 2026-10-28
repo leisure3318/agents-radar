@@ -1,0 +1,77 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.312加入企业OIDC",
+      "Codex 0.165.0支持Vertex AI",
+      "OpenCode v2.2.0推出实验性桌面插件",
+      "Copilot CLI修复长上下文模型切换",
+      "Qwen Code推进托管Agent与worktree",
+      "Pi聚焦会话持久化与摘要缓存"
+    ],
+    "ai-agents": [
+      "OpenClaw发布v2026.10.8",
+      "OpenClaw更新失败后可重启Gateway",
+      "OpenClaw修复孤立worker阻塞启动",
+      "OpenClaw两项Windows问题列为P0",
+      "OpenClaw推进运行中会话恢复重构",
+      "OpenClaw私有知识共享仍在开放PR阶段"
+    ],
+    "ai-skills": [
+      "5个新Skill齐登Hot小时爆发榜",
+      "review-pr在CI中审查PR实质缺陷",
+      "whobot电话Skill覆盖外呼与热线接听",
+      "whobot状态未知时禁止重复拨打",
+      "gh-issue-sync上榜，安装量24",
+      "higgsfield视频Skill上榜，功能待核验"
+    ],
+    "ai-trending": [
+      "ai-design-skills单日增1395星",
+      "ai-design-skills实际交付形态待核验",
+      "ai-design-skills总星数与日增量矛盾",
+      "jailbreaks日增902星，AI属性未明",
+      "Trending仅2个仓库，难代表全貌",
+      "AI主题搜索为空，不等于生态降温"
+    ],
+    "ai-web": [
+      "Anthropic提交S-1，拟首次公开募股",
+      "Claude政府采购新协议提供40%折扣",
+      "Anthropic称约500家美国政府组织使用Claude",
+      "Claude药物开发研究聚焦跨流程协作",
+      "Anthropic研究Agent参与下的人类判断权",
+      "Anthropic披露未发布模型漏洞发现能力"
+    ],
+    "ai-hn": [
+      "Anthropic盗版书训练报道获480分",
+      "Survival LLM本地应急助手获199分",
+      "Claude药物开发研究引来125条评论",
+      "LiquidAI发布全模态LFM3，获124分",
+      "Quickreview主打高召回率AI代码审查",
+      "Claude真实漏洞发现研究登上HN"
+    ],
+    "ai-arxiv": [
+      "Heads of Security用注意力门控防注入",
+      "SimpleLoRIF追踪微调安全退化源头",
+      "无标签RLVR研究揭示自我奖励坍塌风险",
+      "SynthAPI合成工具环境研究Agent扩展律",
+      "EnvSched优化Agent强化学习采样调度",
+      "MuonGS探索放宽权重范数的预训练"
+    ],
+    "ai-hf": [
+      "百度Unlimited-OCR-2以250赞领跑样本",
+      "LiquidAI LFM3-1.7B获196赞",
+      "NVIDIA Bolt模型下载量达44651",
+      "Qwen3.5-4B-3D-Coder瞄准3D开发",
+      "NVIDIA Bolt带GGUF标签，内存需求待核",
+      "Qwen 3D代码模型获178赞，支持GGUF"
+    ],
+    "ai-community": [
+      "AI日志能当证据？Dev.to热帖获57赞",
+      "测试不过不许说完成，AI插件获29赞",
+      "AI半天写完九成应用，收尾却花三周",
+      "Dart Agent用审批门禁约束付费操作",
+      "自托管MiniMax级模型聚焦数据合规",
+      "Lobste.rs关注AI与传统模糊测试对比"
+    ]
+  },
+  "en": {}
+}
