@@ -1,0 +1,77 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Codex连发3个0.166.0系列alpha",
+      "OpenCode发布v1.19.5",
+      "Qwen Code发布覆盖CLI、SDK与桌面端",
+      "Claude Code有50条Issue更新，无新版本",
+      "多款CLI共同面临取消、恢复与清理难题",
+      "Qwen Companion与托管运行时交付仍受阻"
+    ],
+    "ai-agents": [
+      "OpenClaw更新41条Issue、74条PR",
+      "OpenClaw聊天内更新死锁，P0仍未解决",
+      "OpenClaw集中处理PostgreSQL更新故障",
+      "Claude CLI会话回归问题尚未闭环",
+      "OpenClaw的Particle模型接入已有PR",
+      "PlanetScale Neki支持仍在架构讨论阶段"
+    ],
+    "ai-skills": [
+      "新发现5项Skill，聚焦交付与减少返工",
+      "HyperFrames演示技能上榜，安装量8447",
+      "slideshow交付可播放URL，而非MP4",
+      "演示文稿误用render会静默截断",
+      "HyperFrames的Figma技能安装量8255",
+      "Figma组件可转可编辑HTML，渲染无需联网"
+    ],
+    "ai-trending": [
+      "expo/skills今日新增90颗star",
+      "expo/skills面向Expo与EAS开发任务",
+      "expo/skills将生态操作知识封装为Agent技能",
+      "Trending样本仅1个明确相关AI项目",
+      "expo/skills总star数异常，仍待核验",
+      "AI主题搜索无结果，不代表生态不活跃"
+    ],
+    "ai-web": [
+      "Anthropic科研合作扩至20家机构与团队",
+      "Anthropic药物开发披露六家组织深度合作",
+      "Anthropic披露自身开展药物发现工作",
+      "未发布内部模型被称可构造多步骤漏洞攻击链",
+      "社会科学调查：编码智能体采用率仅20%",
+      "OpenAI新增ServiceNow合作扩展索引记录"
+    ],
+    "ai-hn": [
+      "纽约时报Cooking应用相关帖获74条评论",
+      "MicroZig拒绝AI相关讨论获52条评论",
+      "DeepSeek-v4.1-Flash探索缓存压缩极限",
+      "Claude漏洞利用研究获10分、4条评论",
+      "研究标题称86%决策遵循Agent随机偏好",
+      "Rocus用浏览器本地LLM整理笔记与文件"
+    ],
+    "ai-arxiv": [
+      "GEPA-Curator区分提示词与框架失败",
+      "多状态线性注意力探索长序列降本",
+      "元认知解码动态分配扩散模型推理计算",
+      "持续预训练语料尝试塑造生态福祉倾向",
+      "semanticfa无需作答数据分析量表语义结构",
+      "5篇论文均于10月27日发布，效果待核验"
+    ],
+    "ai-hf": [
+      "腾讯Hy-SimulMT FP8获382赞，本组最高",
+      "MiniCPM-OCR下载791次，本组领先",
+      "LiquidAI的2B全模态模型下载714次",
+      "NVIDIA Nemotron转写模型获208赞",
+      "Hy-SimulMT兼顾专用翻译与FP8部署",
+      "4个热门模型聚焦翻译、语音、OCR与全模态"
+    ],
+    "ai-community": [
+      "AI开发仅20%靠提示词？相关文章获27赞",
+      "AI推动更深工程讨论获23赞、15条评论",
+      "Agent输入token降本经验获15赞、9评",
+      "测试全绿也会骗人？测试反思获15赞、10评",
+      "本地LLM工作流开始重视中断与状态恢复",
+      "Agent零调用竟是采集Hook失真"
+    ]
+  },
+  "en": {}
+}
