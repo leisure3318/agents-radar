@@ -1,0 +1,77 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.314强化写入边界",
+      "Codex 0.166.0发布，审批治理成焦点",
+      "Gemini CLI推v0.67.0夜间版",
+      "OpenCode连发v2.2.1、v2.2.2",
+      "OpenCode以/goal探索持续执行",
+      "Qwen Code聚焦Managed Agent恢复"
+    ],
+    "ai-agents": [
+      "OpenClaw发布v2026.10.9安全更新",
+      "OpenClaw更新51条Issue、70条PR",
+      "v2026.9.36提供Gateway长期稳定渠道",
+      "OpenClaw仍有P0工作区冲突待解",
+      "OpenClaw加强MCP异常URI校验",
+      "OpenClaw关注Gateway响应与会话恢复"
+    ],
+    "ai-skills": [
+      "5个新收录Skill均来自mattpocock",
+      "grilling双榜上榜，安装量283",
+      "grilling按决策依赖逐轮追问",
+      "架构优化Skill双榜上榜，安装量248",
+      "架构优化Skill生成HTML重构候选报告",
+      "架构优化Skill用Git历史定位改动热点"
+    ],
+    "ai-trending": [
+      "OpenMausBot今日增星1199领跑",
+      "3个AI趋势项目合计增星1799",
+      "OpenMausBot为机器人提供虚拟机",
+      "Claude游戏工作室49个Agent，增星353",
+      "OpenBot今日增星247，提供独立电脑环境",
+      "OpenBot支持AG-UI并记录执行行为"
+    ],
+    "ai-web": [
+      "Anthropic政府产品优惠扩大至40%",
+      "Claude政府优惠扩至州与地方等层级",
+      "Anthropic为政府客户推出实施支持",
+      "Anthropic科学项目携手20家机构团队",
+      "Managed Agents文章为4月旧文入库",
+      "OpenAI规范与失配检测页面正文待核"
+    ],
+    "ai-hn": [
+      "Claude Duet获110分、97条评论",
+      "Simantic固件仿真获54分关注",
+      "Claude辅助抗体设计预印本获43分",
+      "Overtone字幕工具获37分",
+      "Claude漏洞发现研究引出双重用途议题",
+      "Agent如何影响专家判断成为研究议题"
+    ],
+    "ai-arxiv": [
+      "CopyLoop探索循环Transformer解码加速",
+      "弱化诱导自蒸馏探索无标签推理训练",
+      "教师演化为同策略自蒸馏寻找突破",
+      "Loss is Not Behavior追问遗忘评估",
+      "QUANTA将Agent引入自主量子测量",
+      "AtomTree让具身规划随环境状态调整"
+    ],
+    "ai-hf": [
+      "Mistral Large 4获1228赞领跑样本",
+      "Nemotron GGUF下载达90640次",
+      "LiquidAI LFM3-VL-2B获4193次下载",
+      "Clover MoE预览版获149赞",
+      "Mistral Large 4带vLLM、SGLang标签",
+      "Nemotron GGUF量化档位与兼容性待查"
+    ],
+    "ai-community": [
+      "日志能否劫持AI？Dev.to获43赞27评",
+      "LLM写代码更好？评价标准引36赞20评",
+      "AI总结不是修复：安全闭环引发讨论",
+      "Agent获批准仍做错，审批须绑定动作",
+      "Vibe Coding是探索，不等于正式交付",
+      "Qwenputer探索在Qwen3.5内实现CPU"
+    ]
+  },
+  "en": {}
+}
