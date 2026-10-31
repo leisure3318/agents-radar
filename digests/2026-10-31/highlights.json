@@ -1,0 +1,77 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code发布v2.1.316",
+      "OpenCode连发v2.2.3至v2.2.5",
+      "Gemini CLI推出v0.67.0夜间版",
+      "Qwen CUA Driver更新至v0.27.0",
+      "Codex聚焦Windows沙箱与权限",
+      "Pi推进工具搜索与持久化扩展"
+    ],
+    "ai-agents": [
+      "OpenClaw发布10.10-beta.5",
+      "OpenClaw恢复Node安装兼容范围",
+      "Node安全版本由硬性要求改为建议",
+      "OpenClaw修复Node 26 Worker退出",
+      "OpenClaw仍有P0级UGOS更新问题",
+      "OpenClaw模型回退与消息丢失待解"
+    ],
+    "ai-skills": [
+      "Skills新增5项，全部来自Hot榜",
+      "tiktok-scraper整合四类采集入口",
+      "tiktok-scraper要求Apify付费计划",
+      "reverse-any-video重建可编辑视频",
+      "视频重建工作流要求HyperFrames付费",
+      "桌面操作Skill明确重试与授权规则"
+    ],
+    "ai-trending": [
+      "Lightpanda单日新增626颗星",
+      "Lightpanda瞄准AI无头浏览器",
+      "Lightpanda采用Zig开发",
+      "Lightpanda成样本唯一AI热门项目",
+      "Lightpanda总星数异常，仍待核实",
+      "Lightpanda兼容性与恢复能力值得实测"
+    ],
+    "ai-web": [
+      "Anthropic详解Managed Agents稳定接口",
+      "Managed Agents旧文收录，非今日首发",
+      "Anthropic提醒旧模型运行支架易过时",
+      "Claude内部研究模型展示五条攻击链",
+      "漏洞研究能力不等同于公开Claude",
+      "OpenAI新增3条索引，正文尚待核验"
+    ],
+    "ai-hn": [
+      "Claude Code扩展后门报告获793分",
+      "扩展后门六帖合计1889分、520评",
+      "约25行SQL推导FlashAttention内核",
+      "Anthropic信用评级预期引发关注",
+      "Altman谈DRAM配置引发资源争议",
+      "AI训练与合理使用边界再成焦点"
+    ],
+    "ai-arxiv": [
+      "单一算法能否统一基础模型训练？",
+      "Multi-View MoE重审专家计算分配",
+      "PIVOT用教师在线纠正破解稀疏奖励",
+      "ShallowDefend聚焦多轮安全防御",
+      "VeriCUA以主动探索验证任务完成",
+      "协作Agent探索自主量子自旋实验"
+    ],
+    "ai-hf": [
+      "Pika-H3-Flex以198赞领跑周榜",
+      "LFM3-Audio-2B探索全向音频交互",
+      "idol图像转3D获153赞",
+      "Minimax社区合并模型下载近十万",
+      "LFM3-1.7B-GGUF下载达97184次",
+      "LiquidAI双模型上榜，兼顾音频与本地"
+    ],
+    "ai-community": [
+      "16GB显卡实测：MoE卸载未必更快",
+      "工具过度暴露，AI助手每轮花0.148美元",
+      "Agent记忆：多数应放进数据库表？",
+      "Claude Code扩展后门核查文章引关注",
+      "开源维护者正承受AI自动化审核负担",
+      "RAG删除后信息残留引发安全关注"
+    ]
+  },
+  "en": {}
+}
