@@ -1,0 +1,69 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Copilot CLI连发v1.0.106-1/-2修复版",
+      "OpenCode更新50条PR，聚焦调度与接口重构",
+      "Qwen Code更新49条PR，推进恢复与Web Shell",
+      "Claude Code权限边界与远程进程管理受关注",
+      "Codex反馈聚焦授权、桌面稳定性与Windows",
+      "DeepSeek TUI推进会话去重与目标续跑"
+    ],
+    "ai-agents": [
+      "OpenClaw更新92条Issue与PR，暂无新版本",
+      "OpenClaw仍有4条开放P1，涉及安全与可用性",
+      "OpenClaw目录v3基础合入，保留推理能力元数据",
+      "OpenClaw能力感知选择器仍待合并",
+      "OpenClaw推进Control UI性能优化",
+      "OpenClaw关键修复仍在审查，尚未正式交付"
+    ],
+    "ai-skills": [
+      "5个Skill首次登上Hot榜，非当日新增安装",
+      "last30days获43次安装，覆盖八类信息源",
+      "last30days先查来源健康，再做近30天调研",
+      "last30days读取浏览器Cookie须先获同意",
+      "gh-axi获11次安装，封装GitHub与CI操作",
+      "stageshow获39次安装，功能说明仍待核验"
+    ],
+    "ai-trending": [
+      "Orkas单日增星1,044，成样本唯一AI热点",
+      "Orkas以Commander协调16个专业智能体",
+      "Orkas接入Claude Code、Codex等代理",
+      "Orkas整合项目管理、定时自动化与连接器",
+      "Orkas支持macOS与Windows，采用MIT许可",
+      "Orkas主打本地优先，但不等于模型离线运行"
+    ],
+    "ai-web": [
+      "Anthropic开放真实Claude使用研究试点",
+      "三组外部团队自行设计研究并独立分析",
+      "Anthropic Insights代运行数据收集",
+      "Claude研究试点不等于公开原始对话",
+      "Anthropic开放未来研究合作意向登记",
+      "Anthropic收录文章实为8月26日发布"
+    ],
+    "ai-hn": [
+      "ChatGPT账户接管研究获303分、151条评论",
+      "LLM辅助恶意软件筛选目标，获234分",
+      "OpenAI融资未达目标报道引发最多评论",
+      "Anthropic训练用途与逆向限制引发关注",
+      "ChatGPT与Codex额度合并引发讨论",
+      "AI文本水印的质量代价获25分关注"
+    ],
+    "ai-hf": [
+      "Audio8-TTS以0.6B体量获163次周点赞",
+      "Audio8-TTS下载2,755次，效果仍待实测",
+      "LFM3量化版获156赞、38,382次下载",
+      "LFM3量化版下载量约为Audio8的13.9倍",
+      "LFM3以1.7B与GGUF格式瞄准本地部署",
+      "LFM3标注Uncensored，不代表能力更强"
+    ],
+    "ai-community": [
+      "AI遗留代码“招魂师”获28赞、9条评论",
+      "两行函数检测AI串谋，掀起26条评论",
+      "MoE卸载基准复测，作者修正部分结论",
+      "ChatGPT接管案例聚焦postMessage信任边界",
+      "n8n与Laravel构建人工审批客服Agent",
+      "技能漂移、请求取消与模型退役成工程焦点"
+    ]
+  },
+  "en": {}
+}
