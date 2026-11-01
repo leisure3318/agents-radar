@@ -63,7 +63,24 @@
       "ChatGPT接管案例聚焦postMessage信任边界",
       "n8n与Laravel构建人工审批客服Agent",
       "技能漂移、请求取消与模型退役成工程焦点"
+    ],
+    "ai-monthly": [
+      "Claude Code v2.1.287引入Claude Mods",
+      "Pi发布v1.0.0，迈入正式版本阶段",
+      "Qwen Code v0.25.0引入工作区Agent",
+      "Agent审计工具iFixAi单日增星2143",
+      "Anthropic宣布将Agent Skills捐赠AAIF",
+      "Anthropic披露已提交拟议IPO的S-1声明"
     ]
   },
-  "en": {}
+  "en": {
+    "ai-monthly": [
+      "Agent runtimes push beyond the CLI into desktop and cloud.",
+      "Auth races and broken state expose Agent reliability gaps.",
+      "Security scrutiny expands to inference-cache isolation.",
+      "Agent Skills governance puts portability in focus.",
+      "MCP and ACP integration signal a more modular ecosystem.",
+      "Auditing and cost controls challenge speed-first AI tools."
+    ]
+  }
 }
