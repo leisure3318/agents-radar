@@ -1,0 +1,69 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Qwen Code发布v0.26.6，重构事件投递循环",
+      "Pi发布v1.5.0，新增扩展更新日志展示",
+      "Qwen Code更新45条PR，聚焦托管运行时",
+      "Claude Code更新50条Issue，关注自动任务成本",
+      "Codex更新21条PR，多代理协作成重点",
+      "Gemini CLI关注Windows Git安全与ACP恢复"
+    ],
+    "ai-agents": [
+      "OpenClaw更新69条PR，62条仍待合并",
+      "OpenClaw的memory-wiki被报元数据静默丢失",
+      "OpenClaw长会话SQLite内存溢出列为P1",
+      "OpenClaw历史读取阻塞列为P1问题",
+      "OpenClaw上下文裁剪阻断Issue关闭，修复待确认",
+      "OpenClaw模型发现修复PR关闭，合并待确认"
+    ],
+    "ai-skills": [
+      "Skills新收录5项，全部来自小时热榜",
+      "Amplitude占新收录Skills的4席，聚焦埋点",
+      "remotion-license获98次安装，汇集授权资料",
+      "instrument-events只为priority:3事件规划埋点",
+      "instrument-events输出含代码锚点的埋点计划",
+      "add-analytics-instrumentation提供埋点总入口"
+    ],
+    "ai-trending": [
+      "agent-desktop单日新增2243颗星",
+      "agent-desktop借无障碍树读取桌面界面",
+      "agent-desktop强调稳定引用与安全重试",
+      "Rust项目agent-desktop成样本热度第一",
+      "Karpathy的nanochat单日新增325颗星",
+      "nanochat主打100美元构建类ChatGPT系统"
+    ],
+    "ai-web": [
+      "Anthropic新收录3篇科研文章，均非当日首发",
+      "物理学教授称Claude两周完成约一年研究",
+      "Claude物理项目耗3600万tokens、110余版草稿",
+      "Claude物理案例强调领域专家审核不可替代",
+      "Claude-shaped science介绍BootLoops计算工具",
+      "OpenAI收录记录去重仅2页，正文信息缺失"
+    ],
+    "ai-hn": [
+      "Anthropic财务报道获197分、209条评论",
+      "静默交互项目Subvocal获147分、110条评论",
+      "测试代理Momentic获50分，靠操作应用找缺陷",
+      "GPT-Rosalind-6系统卡补充说明获36条评论",
+      "CopilotKit案例称替换1.1万行AI聊天代码",
+      "Claude Opus 5.5建筑图纸案例引关注，合规待验"
+    ],
+    "ai-hf": [
+      "Audio8-TTS-Realistic-Air以7259次下载领跑",
+      "Audio8-TTS-Realistic-Air获241赞，样本第一",
+      "MiniMax-H3微调版Sulphur-3获228赞",
+      "Sulphur-3仅195次下载，关注先于采用",
+      "DeepSeek-V4.1-Flash衍生版获211赞",
+      "SenseNova-Loop-9B预览版获1536次下载"
+    ],
+    "ai-community": [
+      "Dev.to安全门禁文章获13赞，强调确定性约束",
+      "AI代码审查被质疑：第二意见可能并不独立",
+      "Dev.to文章称Cursor扩展商店遭SSH后门投递",
+      "bf16舍入被指吞掉99%强化学习更新，待核验",
+      "80行TypeScript实现BPE，揭示JSON的Token开销",
+      "文章称Claude长会话缓存重购由0.04涨至1美元"
+    ]
+  },
+  "en": {}
+}
