@@ -1,0 +1,61 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Codex发布0.167.0-alpha.2与.3",
+      "Qwen Code更新CLI稳定版、桌面版及nightly",
+      "OpenCode更新20条PR，聚焦执行超时与安全",
+      "Claude Code社区关注后台Agent与用量问题",
+      "Gemini CLI聚焦安全加固与内存回归",
+      "Copilot CLI暴露搜索正确性与缓存问题"
+    ],
+    "ai-agents": [
+      "OpenClaw更新34条Issue、46条PR",
+      "OpenClaw多项P1问题仍开放，今日未发版",
+      "OpenClaw子智能体完成通知存在风险",
+      "OpenClaw升级后数据库兼容性待解",
+      "OpenClaw推进移动端Control UI一致性",
+      "OpenClaw升级校验PR关闭，合并状态未明"
+    ],
+    "ai-skills": [
+      "飞书来源5个Skill首次收录，均登Hot榜",
+      "lark-apps安装量211，居本批首位",
+      "lark-vc-agent登Hot榜，安装量206",
+      "lark-note首次收录，安装量206",
+      "lark-minutes登榜，功能说明待核查",
+      "lark-vc未读到SKILL.md，能力待确认"
+    ],
+    "ai-trending": [
+      "ai-engineering-hub日增1191星",
+      "本地语音听写hex日增1179星",
+      "AiSOC日增446星，主打可追踪安全运营",
+      "离线语音转文字Handy日增339星",
+      "本地模型服务FreeToken日增242星",
+      "空间视觉库kornia日增101星"
+    ],
+    "ai-hn": [
+      "企业AI投入回报之争获190分、158评",
+      "Anthropic疑似模型泄露引关注，尚未证实",
+      "Heretic 2.0主打免训练修改语言模型",
+      "Avartha开放权重语音模型，速度主张待验证",
+      "LLM改造旧PHP代码为何反而破坏运行？",
+      "Rust IDE项目OpenIDEA获53条评论"
+    ],
+    "ai-hf": [
+      "Xiaomi-OCR-0获17143次下载",
+      "LiquidAI/d1-2B图文模型获158赞",
+      "Open-H3-Regenerate-2K主打视频精修",
+      "numbat获5846次下载，用途仍待确认",
+      "numbat带8-bit标签，量化效果待验证",
+      "视频模型获157赞，下载记录仍为零"
+    ],
+    "ai-community": [
+      "Agent提示注入指南获11赞、10评",
+      "服务器日志藏指令：模型会照做吗？",
+      "确定性执行层能否补齐Agent可靠性？",
+      "端侧照片编辑器引发72条评论",
+      "绕过类型检查的隐蔽写法获56赞",
+      "无GPU笔记本运行本地LLM引关注"
+    ]
+  },
+  "en": {}
+}
