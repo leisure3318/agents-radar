@@ -55,7 +55,24 @@
       "端侧照片编辑器引发72条评论",
       "绕过类型检查的隐蔽写法获56赞",
       "无GPU笔记本运行本地LLM引关注"
+    ],
+    "ai-weekly": [
+      "Anthropic提交IPO文件，拟用代码ANT",
+      "Claude Code迭代至v2.1.316",
+      "Codex发布0.165.0与0.166.0稳定版",
+      "OpenClaw发布v2026.10.9，恢复仍承压",
+      "Claude Code扩展被报后门，HN获793分",
+      "本地听写应用hex单日新增1179星"
     ]
   },
-  "en": {}
+  "en": {
+    "ai-weekly": [
+      "OpenCode’s /goal signals a push for persistent tasks.",
+      "Qwen Code advances Managed Agent work.",
+      "Pi’s feed highlights durable-execution work.",
+      "Reported Claude Code extension hack draws 793 HN points.",
+      "Desktop Agent workspaces attract GitHub attention.",
+      "HN debates AI security, user control, and sustainability."
+    ]
+  }
 }
