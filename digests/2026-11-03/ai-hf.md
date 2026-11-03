@@ -1,66 +1,51 @@
 # Hugging Face 热门模型日报 2026-11-03
 
-> 数据来源: [Hugging Face Hub](https://huggingface.co/) | 共 4 个模型 | 生成时间: 2026-11-02 18:29 UTC
+> 数据来源: [Hugging Face Hub](https://huggingface.co/) | 共 1 个模型 | 生成时间: 2026-11-03 04:00 UTC
 
 ---
 
 # Hugging Face 热门模型日报
 **日期：2026-11-03**
 
-> 数据范围：所提供的 4 个热门模型，按周点赞数排序。点赞、下载数沿用榜单数据，不代表当日新增；模型能力、许可证及部署要求仍需查阅模型卡确认。
+> 数据范围：本期仅包含用户提供的 1 个热门模型，按周点赞数排序；不代表 Hub 全站完整趋势。模型具体能力、来源与许可证尚未核验。
 
 ## 今日速览
 
-本期榜首是语音合成模型 **Audio8-TTS-Realistic-Air**，以 241 个点赞、7,259 次下载，在这组样本中同时领跑关注度与下载量。语言模型方向，MiniMax-H3 的社区微调版 **Sulphur-3** 与 DeepSeek 衍生版本均进入前列，显示基础模型周边的社区改造仍有吸引力。**SenseNova-Loop-9B-Preview** 则为榜单带来图文多模态方向的关注点。整体来看，音频、多模态与社区衍生模型共同占据热榜，但不能仅凭热度判断实际能力或生产可用性。
+本期唯一上榜模型是 AtomicChat 发布的 **DeepSeek-V4.1-Flash-1017-Uncensored-GSQ-RCO-GGUF**，获得 212 次点赞、30,284 次下载。其名称与标签指向 DeepSeek 相关的社区衍生版本，最明确的产品特征是 **GGUF 格式分发**，适合关注本地推理与量化部署的用户研究。该样本体现了社区对模型再加工和部署便利性的关注，但不足以判断整个 DeepSeek 家族或 Hub 的整体热度。名称中的 “Uncensored”“GSQ”“RCO” 不应直接视为已验证的能力或技术说明，需进一步查阅模型卡。
 
 ## 热门模型
 
 ### 🧠 语言模型（LLM、对话模型、指令微调）
-
-**[OBLITERATUS/DeepSeek-V4.1-Flash-1017-obliterated](https://huggingface.co/OBLITERATUS/DeepSeek-V4.1-Flash-1017-obliterated)**
-- **作者：** OBLITERATUS
-- **点赞：** 211 ｜ **下载：** 1,095
-- **一句话说明：** 一个 DeepSeek 系列文本生成衍生版本，进入热榜体现了社区对该家族改造版本的关注；“obliterated”的具体改动及效果需以模型卡和评测为准。
+本期模型的任务类型为 `text-generation`；因其主要分发特征是 GGUF，统一归入下方“微调与量化”，避免重复统计。
 
 ### 🎨 多模态与生成（图像、视频、音频、文本到 X）
-
-**[Edge0/Audio8-TTS-Realistic-Air](https://huggingface.co/Edge0/Audio8-TTS-Realistic-Air)**
-- **作者：** Edge0
-- **点赞：** 241 ｜ **下载：** 7,259
-- **一句话说明：** 一个文本转语音模型，在本组样本中点赞与下载均最高，是观察语音生成社区采用情况的首选对象，但音质与实时性仍需试听、实测。
-
-**[sensenova/SenseNova-Loop-9B-Preview](https://huggingface.co/sensenova/SenseNova-Loop-9B-Preview)**
-- **作者：** sensenova
-- **点赞：** 177 ｜ **下载：** 1,536
-- **一句话说明：** 一个标注为图文输入、文本输出的多模态预览模型，其上榜反映了社区对 SenseNova 多模态路线的兴趣。
+本期提供的数据中暂无相关模型。
 
 ### 🔧 专用模型（代码、数学、医疗、嵌入）
-
-本期样本中暂无明确归入此类的模型。
+本期提供的数据中暂无相关模型。
 
 ### 📦 微调与量化（社区微调、GGUF、AWQ）
 
-**[FusionCow/Sulphur-3](https://huggingface.co/FusionCow/Sulphur-3)**
-- **作者：** FusionCow
-- **点赞：** 228 ｜ **下载：** 195
-- **一句话说明：** 标签明确标注为 MiniMax-H3 的微调版本，点赞位居第二、下载量却在本组最低，呈现“关注先于下载”的特征，具体原因尚不能由榜单判断。
-
-*注：DeepSeek 衍生版本已列于语言模型栏，不重复收录；本期未出现明确的 GGUF、AWQ 量化标签。*
+#### [AtomicChat/DeepSeek-V4.1-Flash-1017-Uncensored-GSQ-RCO-GGUF](https://huggingface.co/AtomicChat/DeepSeek-V4.1-Flash-1017-Uncensored-GSQ-RCO-GGUF)
+- **作者：** AtomicChat
+- **点赞数：** 212
+- **下载数：** 30,284
+- **任务 / 标签：** `text-generation`；`gguf`、`atomic-chat`、`deepseek`、`deepseek41`、`gsq`
+- **一句话说明：** 一个以 DeepSeek 相关衍生版本命名、采用 GGUF 格式分发的文本生成模型，其社区再加工与本地部署定位可能是吸引关注的因素，实际热度原因仍需结合模型卡和社区讨论确认。
 
 ## 生态信号
 
-在这组样本中，MiniMax-H3 与 DeepSeek 家族的社区衍生版本均获较高关注，语音生成则在下载量上更突出。榜单显示可下载模型及社区微调具有活力，但不足以判断开放权重相对闭源服务的整体份额变化，权重可下载也不等于许可证完全开放。微调方面，Sulphur-3 的来源标签最明确；量化方面，暂未看到 GGUF、AWQ 等直接信号。
+本期样本显示，DeepSeek 相关社区衍生版本仍有关注度，但单个条目不足以证明整个家族势头领先。GGUF 分发体现了社区对本地推理、部署便利性与量化模型的持续需求；具体量化档位和质量损失仍需核验。该条目不能用于判断开源权重相对闭源服务的市场变化，公开下载也不等同于符合开源定义，仍须检查许可证及上游授权。
 
 ## 值得探索
 
-1. **[Audio8-TTS-Realistic-Air](https://huggingface.co/Edge0/Audio8-TTS-Realistic-Air)**  
-   **优先试听。** 下载量明显领先，适合重点验证音色自然度、长文本稳定性、语言覆盖及推理延迟。
+*本期仅提供 1 个模型，不额外补入未经提供或核验的候选；建议围绕该模型开展两项探索。*
 
-2. **[SenseNova-Loop-9B-Preview](https://huggingface.co/sensenova/SenseNova-Loop-9B-Preview)**  
-   **优先做多模态基准测试。** 可围绕图像问答、文字识别和图文推理评估表现，同时检查预览版的接口、资源需求与稳定性。
+1. **本地部署与资源评估**  
+   尝试 [该 GGUF 模型](https://huggingface.co/AtomicChat/DeepSeek-V4.1-Flash-1017-Uncensored-GSQ-RCO-GGUF)，先检查文件大小、量化档位和推理框架兼容性，再测试内存占用、生成速度及输出质量。
 
-3. **[Sulphur-3](https://huggingface.co/FusionCow/Sulphur-3)**  
-   **优先研究微调差异。** 建议先核查训练说明与许可证，再与 MiniMax-H3 基座对比，确认社区微调带来的能力变化，而非将高点赞直接视为性能提升。
+2. **衍生版本的来源与行为评估**  
+   研究[模型仓库及模型卡](https://huggingface.co/AtomicChat/DeepSeek-V4.1-Flash-1017-Uncensored-GSQ-RCO-GGUF)是否说明上游来源，以及 “Uncensored”“GSQ”“RCO” 的具体含义；如有可复现条件，再比较其指令遵循、事实准确性与安全边界，而非仅凭命名判断价值。
 
 ---
 *本日报由 [agents-radar](https://github.com/leisure3318/agents-radar) 自动生成。*
