@@ -1,0 +1,69 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Copilot CLI 发布 v1.0.106-6",
+      "OpenCode 更新44条PR，聚焦压缩与挂起",
+      "Codex 推进 Windows 与多代理状态改进",
+      "Claude Code 聚焦跨端会话与权限问题",
+      "Qwen Code 推进统一 Agent Loop",
+      "Pi 关注 MCP 清理与多模态消息"
+    ],
+    "ai-agents": [
+      "OpenClaw 更新63条PR，本期无新版本",
+      "OpenClaw P1报告：内部错误泄露至受限聊天",
+      "OpenClaw Telegram热重载阻断消息处理",
+      "OpenClaw MCP授权清理PR关闭，合并未明",
+      "OpenClaw 更新阻塞P1关闭，交付版本未明",
+      "OpenClaw Windows热重载P1关闭"
+    ],
+    "ai-skills": [
+      "微软 Azure Skills 包揽5个新收录席位",
+      "microsoft-foundry 安装量达25,770",
+      "Foundry Skill 串联开发、评估与运维",
+      "azure-validate 安装量达25,767",
+      "azure-validate 记录验证证据，不自动部署",
+      "Azure 新收录技能覆盖生产诊断与AKS规划"
+    ],
+    "ai-trending": [
+      "ai-goofish-monitor 单日新增204星",
+      "闲鱼AI监控整合 Playwright 与智能分析",
+      "ai-goofish-monitor 支持实时及定时监控",
+      "闲鱼AI监控将筛选与后台管理整合为产品",
+      "spotify/portal-ai-plugins 新增94星",
+      "趋势榜总星数均显示0，数据仍待核实"
+    ],
+    "ai-web": [
+      "Anthropic 披露可证明推理研究进展",
+      "FlashProve 探索证明回答来自承诺模型",
+      "Anthropic 研究瞄准模型偷换与输出篡改",
+      "可证明推理不等于回答真实、无幻觉",
+      "FlashProve 性能与商用成熟度尚不明确",
+      "Anthropic 探讨推理证明用于合规验证"
+    ],
+    "ai-hn": [
+      "OpenAI 扩展Git实践获253分、174评论",
+      "Anthropic IPO与巨额算力承诺成讨论焦点",
+      "Anthropic RSI相关报道引发62条评论",
+      "Octomind 主打节省Token，获31分",
+      "Codex 聊天训练设置引发用户控制权讨论",
+      "Anthropic 可证明推理获8分，暂无评论"
+    ],
+    "ai-arxiv": [
+      "Muon与AdamW微调差距随预训练规模反转",
+      "多轮预训练研究聚焦后期过拟合与集成",
+      "LoL 探索运行时自适应重排Transformer层",
+      "RLVR研究追问：推理策略能否真正泛化",
+      "Strategist 用元智能体演化推理策略",
+      "WebHarbor 将真实网站引入GUI代理环境"
+    ],
+    "ai-community": [
+      "Dev.to：缺少完整上下文的AI开发案例获21赞",
+      "Dev.to：被 || true 掩盖的验证失败获12赞",
+      "全天监督AI的疲劳话题获10赞",
+      "322M模型拦截代理命令实验引来15条评论",
+      "OpenRouter替代方案盘点获14赞",
+      "AI文档处理成本转向按审核完成量核算"
+    ]
+  },
+  "en": {}
+}
