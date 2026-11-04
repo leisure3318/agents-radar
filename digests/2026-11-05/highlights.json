@@ -1,0 +1,77 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Copilot CLI发布v1.0.106-8",
+      "Qwen Code发布v0.26.7",
+      "Codex社区聚焦浏览器控制与权限解释",
+      "Claude Code反馈聚焦桌面与IDE稳定性",
+      "OpenCode社区关注资源成本与执行状态",
+      "Pi推进MCP传输与细粒度会话控制"
+    ],
+    "ai-agents": [
+      "OpenClaw发布v2026.11.5-beta.1",
+      "OpenClaw新版引入知识捕获工作流",
+      "OpenClaw新版聚焦PostgreSQL数据平面",
+      "OpenClaw单日更新58条PR、22条Issue",
+      "OpenClaw出现macOS Codex工具崩溃反馈",
+      "OpenClaw认证与安全边界修复仍待验证"
+    ],
+    "ai-skills": [
+      "微软Azure Skills包揽5个新发现条目",
+      "azure-ai登榜，累计安装14,067次",
+      "azure-ai覆盖搜索、语音与OCR指引",
+      "azure-app-onboard累计安装14,065次",
+      "Azure上云工作流串联架构、成本与部署",
+      "Azure上云技能设生成与部署双审批门"
+    ],
+    "ai-trending": [
+      "NVIDIA auto-ontology单日增2,053星",
+      "auto-ontology占样本新增星数近68%",
+      "kimi-k3-in-c增351星，CPU推理宣称待验",
+      "PR-Agent单日增279星，聚焦AI代码审查",
+      "scenario-labs/skills增224星",
+      "Horizon增121星，主打中英文新闻简报"
+    ],
+    "ai-web": [
+      "OpenAI官网抓取新增2条页面记录",
+      "OpenAI新增页面日期均为11月4日",
+      "OpenAI GovCloud路径页面现身，正文待核",
+      "OpenAI收购Pierre路径现身，交易未核实",
+      "OpenAI两条记录均缺正文，业务主题待核",
+      "Anthropic本次官网抓取未发现新增"
+    ],
+    "ai-hn": [
+      "Gemini训练数据用户帖获377分、111评",
+      "LLM侦探游戏Uncracked City获108分",
+      "Codex服务器误操作报告引发31条评论",
+      "Anthropic可验证推理研究获HN重复提交",
+      "历史预测市场论文称LLM未跑赢市场",
+      "2.78亿参数PII模型宣称胜过三家厂商"
+    ],
+    "ai-arxiv": [
+      "ARLoop开放循环Transformer预训练模型",
+      "DNO实证研究探索一般偏好对齐",
+      "新研究追问失配行为抑制能否持久",
+      "Knowingly Wrong研究逆信念训练风险",
+      "对抗式推测推理探索提升长程Agent",
+      "MDSKILL尝试将技能记忆蒸馏进策略"
+    ],
+    "ai-hf": [
+      "NVIDIA DeepSeek量化版获167赞",
+      "DeepSeek-V4.1 NVFP4版下载3,648次",
+      "DeepSeek NVFP4版标记图文转文本任务",
+      "NVIDIA量化版带有ModelOpt优化标签",
+      "NVFP4版显存、吞吐与精度收益仍待实测",
+      "HF本期周点赞榜仅收录1个模型"
+    ],
+    "ai-community": [
+      "GPT Image 2.5成本解析获60赞、4评论",
+      "Qwen权重编辑案例探索减少思考循环",
+      "Agent提示注入防护文章引发5条评论",
+      "LLM路由讨论：简单任务别默认用贵模型",
+      "586条真实轨迹探讨Agent确定性",
+      "KV缓存优化成为推理降本讨论焦点"
+    ]
+  },
+  "en": {}
+}
