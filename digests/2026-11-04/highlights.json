@@ -1,68 +1,76 @@
 {
   "zh": {
     "ai-cli": [
-      "Copilot CLI 发布 v1.0.106-6",
-      "OpenCode 更新44条PR，聚焦压缩与挂起",
-      "Codex 推进 Windows 与多代理状态改进",
-      "Claude Code 聚焦跨端会话与权限问题",
-      "Qwen Code 推进统一 Agent Loop",
-      "Pi 关注 MCP 清理与多模态消息"
+      "Claude Code v2.1.318支持AWS跨账户角色",
+      "Codex发布0.168.0-alpha.1",
+      "Gemini CLI推出v0.67.0 Nightly",
+      "Copilot CLI更新/code与终端图像功能",
+      "OpenCode更新50条PR，聚焦模型兼容",
+      "Qwen Code推进Managed Runtime"
     ],
     "ai-agents": [
-      "OpenClaw 更新63条PR，本期无新版本",
-      "OpenClaw P1报告：内部错误泄露至受限聊天",
-      "OpenClaw Telegram热重载阻断消息处理",
-      "OpenClaw MCP授权清理PR关闭，合并未明",
-      "OpenClaw 更新阻塞P1关闭，交付版本未明",
-      "OpenClaw Windows热重载P1关闭"
+      "OpenClaw更新56条Issue、55条PR",
+      "OpenClaw仍有4条开放P0问题",
+      "OpenClaw升级阻断涉及macOS",
+      "OpenClaw提交会话恢复修复提案",
+      "OpenClaw拟增加Apple状态查询入口",
+      "OpenClaw推进Bedrock路由提案"
     ],
     "ai-skills": [
-      "微软 Azure Skills 包揽5个新收录席位",
-      "microsoft-foundry 安装量达25,770",
-      "Foundry Skill 串联开发、评估与运维",
-      "azure-validate 安装量达25,767",
-      "azure-validate 记录验证证据，不自动部署",
-      "Azure 新收录技能覆盖生产诊断与AKS规划"
+      "Azure Skills包揽本期5个新发现技能",
+      "microsoft-foundry页面安装量达25770",
+      "Foundry技能串联Agent开发、评估与运维",
+      "Foundry技能涵盖SFT、DPO、RFT微调",
+      "azure-validate页面安装量达25767",
+      "Azure验证须先有获批计划，通过不自动部署"
     ],
     "ai-trending": [
-      "ai-goofish-monitor 单日新增204星",
-      "闲鱼AI监控整合 Playwright 与智能分析",
-      "ai-goofish-monitor 支持实时及定时监控",
-      "闲鱼AI监控将筛选与后台管理整合为产品",
-      "spotify/portal-ai-plugins 新增94星",
-      "趋势榜总星数均显示0，数据仍待核实"
+      "ai-goofish-monitor今日新增204星",
+      "闲鱼监控项目整合Playwright与AI分析",
+      "ai-goofish-monitor支持多任务定时监控",
+      "portal-ai-plugins新增94星，功能待核",
+      "趋势样本仅1个项目明确具有AI相关性",
+      "榜单总星数均显示0，项目规模数据待核"
     ],
     "ai-web": [
-      "Anthropic 披露可证明推理研究进展",
-      "FlashProve 探索证明回答来自承诺模型",
-      "Anthropic 研究瞄准模型偷换与输出篡改",
-      "可证明推理不等于回答真实、无幻觉",
-      "FlashProve 性能与商用成熟度尚不明确",
-      "Anthropic 探讨推理证明用于合规验证"
+      "Anthropic探索用密码学证明模型来源",
+      "FlashProve亮相，部署成本尚未披露",
+      "推理证明针对模型偷换与输出篡改",
+      "Anthropic强调来源可验不等于答案正确",
+      "OpenAI物理世界工程页面被抓取，正文缺失",
+      "OpenAI新增Jill Hazelbaker相关页面"
     ],
     "ai-hn": [
-      "OpenAI 扩展Git实践获253分、174评论",
-      "Anthropic IPO与巨额算力承诺成讨论焦点",
-      "Anthropic RSI相关报道引发62条评论",
-      "Octomind 主打节省Token，获31分",
-      "Codex 聊天训练设置引发用户控制权讨论",
-      "Anthropic 可证明推理获8分，暂无评论"
+      "Codex训练设置争议获442分、139条评论",
+      "Revolut据报自托管模型降编码成本约90%",
+      "开源风控平台Kairos获66分、8条评论",
+      "278M参数PII模型声称超越三家大厂",
+      "Anthropic递归自我改进相关报道引热议",
+      "Anthropic可证明推理两帖均暂无评论"
     ],
     "ai-arxiv": [
-      "Muon与AdamW微调差距随预训练规模反转",
-      "多轮预训练研究聚焦后期过拟合与集成",
-      "LoL 探索运行时自适应重排Transformer层",
-      "RLVR研究追问：推理策略能否真正泛化",
-      "Strategist 用元智能体演化推理策略",
-      "WebHarbor 将真实网站引入GUI代理环境"
+      "Harness-S探索跨运行框架的Agent训练",
+      "多智能体安全辩论研究警示偏差放大",
+      "预注册研究追问：换LLM裁判会改变排名？",
+      "PACT聚焦扩散语言模型并行解码认证",
+      "Tokenizer Myths质疑跨模型指标前提",
+      "进化策略研究探讨较差扰动为何改善模型"
+    ],
+    "ai-hf": [
+      "Qwen图像Turbo量化版下载超250万",
+      "Qwen图像量化版获5624赞，适配ComfyUI",
+      "DeepSeek V4.1 Flash GGUF下载近60万",
+      "微软Mage-VL-Cowork获156赞",
+      "Qwen3.5-4B-Qwenputer获154赞",
+      "两款量化模型下载量领跑本期HF样本"
     ],
     "ai-community": [
-      "Dev.to：缺少完整上下文的AI开发案例获21赞",
-      "Dev.to：被 || true 掩盖的验证失败获12赞",
-      "全天监督AI的疲劳话题获10赞",
-      "322M模型拦截代理命令实验引来15条评论",
-      "OpenRouter替代方案盘点获14赞",
-      "AI文档处理成本转向按审核完成量核算"
+      "MCP安全文章获8条评论：工具列表并非权限边界",
+      "Green tests文章获19评：全绿仍可能失守",
+      "开发者称Agent的dry-run向生产写入7条文本",
+      "RAG安全评估聚焦语料投毒与无依据问题",
+      "AI账单涨4倍，开发者追问步骤级成本归因",
+      "OSWorld达80%的文章强调虚拟机快照回滚"
     ]
   },
   "en": {}

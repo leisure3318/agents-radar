@@ -1,6 +1,6 @@
 # OpenClaw Ecosystem Digest 2026-11-04
 
-> Issues: 28 | PRs: 63 | Projects covered: 13 | Generated: 2026-11-03 16:19 UTC
+> Issues: 56 | PRs: 55 | Projects covered: 13 | Generated: 2026-11-04 03:12 UTC
 
 - [OpenClaw](https://github.com/openclaw/openclaw)
 - [NanoBot](https://github.com/HKUDS/nanobot)
@@ -63,14 +63,14 @@ _(English digest skipped to save LLM tokens — see the Chinese report for full 
 <details>
 <summary><strong>NullClaw</strong> — <a href="https://github.com/nullclaw/nullclaw">nullclaw/nullclaw</a></summary>
 
-No activity in the last 24 hours.
+_(English digest skipped to save LLM tokens — see the Chinese report for full details.)_
 
 </details>
 
 <details>
 <summary><strong>IronClaw</strong> — <a href="https://github.com/nearai/ironclaw">nearai/ironclaw</a></summary>
 
-No activity in the last 24 hours.
+_(English digest skipped to save LLM tokens — see the Chinese report for full details.)_
 
 </details>
 
@@ -105,7 +105,7 @@ _(English digest skipped to save LLM tokens — see the Chinese report for full 
 <details>
 <summary><strong>ZeptoClaw</strong> — <a href="https://github.com/qhkm/zeptoclaw">qhkm/zeptoclaw</a></summary>
 
-No activity in the last 24 hours.
+_(English digest skipped to save LLM tokens — see the Chinese report for full details.)_
 
 </details>
 
