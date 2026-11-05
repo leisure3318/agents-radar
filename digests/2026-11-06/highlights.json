@@ -1,0 +1,69 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Codex发布0.167.0-alpha.3.2",
+      "Qwen Code发布v0.26.8，发布流程仍报错",
+      "Claude Code更新50条Issue，多为关联反馈",
+      "OpenCode集中治理异步状态一致性",
+      "Codex调整审批证据与运行时基础设施",
+      "Qwen Code强化工作区信任与Skills调用"
+    ],
+    "ai-agents": [
+      "OpenClaw发布v2026.11.1",
+      "OpenClaw修复配置保存失败覆盖凭据风险",
+      "OpenClaw关闭Tailscale暴露时保留认证",
+      "OpenClaw有54条PR待合并",
+      "OpenClaw升级后有iOS 18控制台访问故障报告",
+      "OpenClaw有24851条会话环境推理前超时报告"
+    ],
+    "ai-skills": [
+      "Skills榜新收录5项，4项聚焦Azure",
+      "Azure部署预检Skill展示13269次安装",
+      "Azure预检默认只读，禁止直接构建测试",
+      "Azure预检输出逐组件PASS／WARN／FAIL",
+      "Entra应用注册Skill展示13266次安装",
+      "Hot新上榜安全审计Skill强调源码与隔离验证"
+    ],
+    "ai-trending": [
+      "agent-browser今日新增181颗星",
+      "Vercel Labs浏览器CLI成唯一样本AI热点",
+      "agent-browser以Rust构建，面向AI智能体",
+      "agent-browser瞄准智能体网页操作",
+      "agent-browser累计星数原始值异常，待核实",
+      "GitHub AI主题搜索无结果，不代表赛道降温"
+    ],
+    "ai-hn": [
+      "OpenAI安全研究帖获451分、330条评论",
+      "报道指OpenAI发现948个Linux提权漏洞",
+      "Anthropic可证明推理研究获235分",
+      "GPT-6 Astra隐蔽降效报告获132分",
+      "Images 2.6跻身HN高关注话题",
+      "Claude参与Vault粒子研究，两次投稿暂无评论"
+    ],
+    "ai-arxiv": [
+      "LooM探索循环不变内存与可调推理计算",
+      "Alignment Myopia关注长期互动外部性",
+      "金融回测论文质疑模型自报知识时间边界",
+      "心理安全研究从伤害归因转向风险检测",
+      "逐轮Best-of-N探索长程Agent决策",
+      "FrontierPhysics评测端到端物理研究"
+    ],
+    "ai-hf": [
+      "Ripple-65B-Preview获214赞、939下载",
+      "Ripple预览版成所给周点赞榜唯一入选模型",
+      "Ripple标注Apache-2.0，开放程度仍待核验",
+      "Ripple含custom_code，加载前应审查代码",
+      "Ripple任务未标注，对话能力尚待确认",
+      "Ripple的65B规模仅由名称暗示，仍待核验"
+    ],
+    "ai-community": [
+      "WebMCP攻击实验获32赞、19条评论",
+      "Dev.to热议：用脚本替代Agent指令文档",
+      "AGENTS.md盲目信任引发Agent劫持讨论",
+      "Agent声称完成却未交付，社区呼吁实测验收",
+      "构建证明不等于安全证书，供应链讨论升温",
+      "AI降低代码生成成本，调试能力更难省略"
+    ]
+  },
+  "en": {}
+}
