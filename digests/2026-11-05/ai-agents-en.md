@@ -1,6 +1,6 @@
 # OpenClaw Ecosystem Digest 2026-11-05
 
-> Issues: 22 | PRs: 58 | Projects covered: 13 | Generated: 2026-11-04 16:23 UTC
+> Issues: 17 | PRs: 41 | Projects covered: 13 | Generated: 2026-11-05 03:42 UTC
 
 - [OpenClaw](https://github.com/openclaw/openclaw)
 - [NanoBot](https://github.com/HKUDS/nanobot)
@@ -49,7 +49,7 @@ _(English digest skipped to save LLM tokens — see the Chinese report for full 
 <details>
 <summary><strong>PicoClaw</strong> — <a href="https://github.com/sipeed/picoclaw">sipeed/picoclaw</a></summary>
 
-_(English digest skipped to save LLM tokens — see the Chinese report for full details.)_
+No activity in the last 24 hours.
 
 </details>
 
@@ -70,7 +70,7 @@ No activity in the last 24 hours.
 <details>
 <summary><strong>IronClaw</strong> — <a href="https://github.com/nearai/ironclaw">nearai/ironclaw</a></summary>
 
-_(English digest skipped to save LLM tokens — see the Chinese report for full details.)_
+No activity in the last 24 hours.
 
 </details>
 
@@ -91,7 +91,7 @@ No activity in the last 24 hours.
 <details>
 <summary><strong>Moltis</strong> — <a href="https://github.com/moltis-org/moltis">moltis-org/moltis</a></summary>
 
-_(English digest skipped to save LLM tokens — see the Chinese report for full details.)_
+No activity in the last 24 hours.
 
 </details>
 
@@ -105,7 +105,7 @@ _(English digest skipped to save LLM tokens — see the Chinese report for full 
 <details>
 <summary><strong>ZeptoClaw</strong> — <a href="https://github.com/qhkm/zeptoclaw">qhkm/zeptoclaw</a></summary>
 
-_(English digest skipped to save LLM tokens — see the Chinese report for full details.)_
+No activity in the last 24 hours.
 
 </details>
 
