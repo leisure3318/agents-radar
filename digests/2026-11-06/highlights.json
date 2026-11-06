@@ -1,68 +1,76 @@
 {
   "zh": {
     "ai-cli": [
-      "Codex发布0.167.0-alpha.3.2",
-      "Qwen Code发布v0.26.8，发布流程仍报错",
-      "Claude Code更新50条Issue，多为关联反馈",
-      "OpenCode集中治理异步状态一致性",
-      "Codex调整审批证据与运行时基础设施",
-      "Qwen Code强化工作区信任与Skills调用"
+      "Codex发布0.167.0及两项alpha版本",
+      "Copilot CLI发布v1.0.106",
+      "Qwen Code更新桌面端、SDK与nightly",
+      "OpenCode组件process-daemon升至0.5.0",
+      "Claude Code权限与指令遵循问题受关注",
+      "Gemini CLI夜间版发布失败"
     ],
     "ai-agents": [
-      "OpenClaw发布v2026.11.1",
-      "OpenClaw修复配置保存失败覆盖凭据风险",
-      "OpenClaw关闭Tailscale暴露时保留认证",
-      "OpenClaw有54条PR待合并",
-      "OpenClaw升级后有iOS 18控制台访问故障报告",
-      "OpenClaw有24851条会话环境推理前超时报告"
+      "OpenClaw更新44条Issue、53条PR",
+      "OpenClaw消息丢失问题值得警惕",
+      "子智能体完成通知存在竞态问题",
+      "OpenClaw长时间运行后执行工具报错",
+      "Control UI优化瞄准重复渲染开销",
+      "聊天订阅失败恢复方案尚未确认合并"
     ],
     "ai-skills": [
-      "Skills榜新收录5项，4项聚焦Azure",
-      "Azure部署预检Skill展示13269次安装",
-      "Azure预检默认只读，禁止直接构建测试",
+      "5个Skill首次收录，4个聚焦Azure",
+      "Azure部署预检Skill展示安装量13,269",
       "Azure预检输出逐组件PASS／WARN／FAIL",
-      "Entra应用注册Skill展示13266次安装",
-      "Hot新上榜安全审计Skill强调源码与隔离验证"
+      "Azure预检默认禁止安装、构建与测试",
+      "Entra认证Skill展示安装量13,266",
+      "安全审计Skill登Hot榜，强调隔离验证"
     ],
     "ai-trending": [
-      "agent-browser今日新增181颗星",
-      "Vercel Labs浏览器CLI成唯一样本AI热点",
-      "agent-browser以Rust构建，面向AI智能体",
-      "agent-browser瞄准智能体网页操作",
-      "agent-browser累计星数原始值异常，待核实",
-      "GitHub AI主题搜索无结果，不代表赛道降温"
+      "agent-browser单日新增181星",
+      "Vercel Labs浏览器CLI成为唯一样本热点",
+      "agent-browser以Rust构建网页自动化工具",
+      "浏览器CLI瞄准Agent网页任务执行",
+      "agent-browser总星数采集异常，待核实",
+      "Agent浏览器自动化权限边界值得审视"
+    ],
+    "ai-web": [
+      "Claude参与原核vault粒子首个三维结构研究",
+      "Anthropic药物研发合作延伸至分子设计之外",
+      "Anthropic招募外部研究者参与科研探索",
+      "Anthropic披露UK AISI测试越界行为",
+      "GPT-6 Cyber页面仅见路径，发布待确认",
+      "OpenAI澳洲高校页面缺正文，计划待核实"
     ],
     "ai-hn": [
-      "OpenAI安全研究帖获451分、330条评论",
-      "报道指OpenAI发现948个Linux提权漏洞",
-      "Anthropic可证明推理研究获235分",
-      "GPT-6 Astra隐蔽降效报告获132分",
-      "Images 2.6跻身HN高关注话题",
-      "Claude参与Vault粒子研究，两次投稿暂无评论"
+      "Claude Code被指外发邮箱，获654分",
+      "GPT-6 Astra被指在安全研究中隐蔽降效",
+      "Inkling 2 Small获96分、41条评论",
+      "Rivet以S3编排Agent，获80分",
+      "GPT-6 Cyber帖子获49分、7条评论",
+      "METR独立评估Anthropic的AI研发加速"
     ],
     "ai-arxiv": [
-      "LooM探索循环不变内存与可调推理计算",
-      "Alignment Myopia关注长期互动外部性",
-      "金融回测论文质疑模型自报知识时间边界",
-      "心理安全研究从伤害归因转向风险检测",
-      "逐轮Best-of-N探索长程Agent决策",
-      "FrontierPhysics评测端到端物理研究"
+      "TCSExam瞄准大模型理论计算机科研能力",
+      "压缩研究追问：模型越大为何越脆弱",
+      "掩码扩散解码研究速度与误差权衡",
+      "失控风险框架聚焦长时运行AI行为",
+      "AttnSR以注意力分配长程Agent步骤奖励",
+      "MCPHallu评测推理、执行与记忆幻觉"
     ],
     "ai-hf": [
-      "Ripple-65B-Preview获214赞、939下载",
-      "Ripple预览版成所给周点赞榜唯一入选模型",
-      "Ripple标注Apache-2.0，开放程度仍待核验",
-      "Ripple含custom_code，加载前应审查代码",
-      "Ripple任务未标注，对话能力尚待确认",
-      "Ripple的65B规模仅由名称暗示，仍待核验"
+      "Qwen3.5-4B-GLB-3D-Coder获186赞",
+      "该3D代码模型累计下载12,206次",
+      "Qwen衍生模型瞄准Three.js代码场景",
+      "模型带GGUF标签，本地部署条件待核实",
+      "名称涉及GLB，不代表可直接生成3D文件",
+      "垂直代码模型效果仍需对比通用模型"
     ],
     "ai-community": [
-      "WebMCP攻击实验获32赞、19条评论",
-      "Dev.to热议：用脚本替代Agent指令文档",
-      "AGENTS.md盲目信任引发Agent劫持讨论",
-      "Agent声称完成却未交付，社区呼吁实测验收",
-      "构建证明不等于安全证书，供应链讨论升温",
-      "AI降低代码生成成本，调试能力更难省略"
+      "Kaggle基准挑战获奖帖获60赞、13评论",
+      "AI测试推动组织变革，经验帖获30赞",
+      "Claude Code不听CLAUDE.md？先查上下文",
+      "开发者吐槽：用了Claude Code反成检查员",
+      "一句聊天指令让网店下线，授权边界引关注",
+      "AI会让代码抽象过时吗？开发者重新审视"
     ]
   },
   "en": {}

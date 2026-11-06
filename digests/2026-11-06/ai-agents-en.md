@@ -1,6 +1,6 @@
 # OpenClaw Ecosystem Digest 2026-11-06
 
-> Issues: 19 | PRs: 64 | Projects covered: 13 | Generated: 2026-11-05 16:30 UTC
+> Issues: 44 | PRs: 53 | Projects covered: 13 | Generated: 2026-11-06 03:38 UTC
 
 - [OpenClaw](https://github.com/openclaw/openclaw)
 - [NanoBot](https://github.com/HKUDS/nanobot)
@@ -49,7 +49,7 @@ _(English digest skipped to save LLM tokens — see the Chinese report for full 
 <details>
 <summary><strong>PicoClaw</strong> — <a href="https://github.com/sipeed/picoclaw">sipeed/picoclaw</a></summary>
 
-No activity in the last 24 hours.
+_(English digest skipped to save LLM tokens — see the Chinese report for full details.)_
 
 </details>
 

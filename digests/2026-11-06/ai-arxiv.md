@@ -1,98 +1,101 @@
 # ArXiv AI 研究日报 2026-11-06
 
-> 数据来源: [ArXiv](https://arxiv.org/) (cs.AI, cs.CL, cs.LG) | 共 50 篇论文 | 生成时间: 2026-11-05 16:30 UTC
+> 数据来源: [ArXiv](https://arxiv.org/) (cs.AI, cs.CL, cs.LG) | 共 50 篇论文 | 生成时间: 2026-11-06 03:38 UTC
 
 ---
 
 # ArXiv AI 研究日报
-**2026 年 11 月 6 日｜基于所提供的 50 篇论文**
+**2026 年 11 月 6 日｜基于所提供的 50 篇论文条目**
 
-> 本期列表所列论文发布日期均为 **2026 年 11 月 4 日**。以下依据标题与摘要节选筛选，不将研究目标或作者主张视为已独立验证的结论。
+> **阅读说明**：本日报依据提供的标题与截断摘要整理，未核验全文及实验结果；下文重点评价研究问题与方法价值，不将作者主张视为已验证结论。所列论文发布日期均为 2026 年 11 月 5 日。
 
 ## 一、今日速览
 
-今日最突出的主线是：**智能体评估正从孤立任务正确率，转向端到端研究质量与真实系统优化能力**，覆盖物理研究、模型压缩和推理服务设计。效率研究进一步深入系统内部，关注上下文压缩、视觉 token 筛选，以及面向 TPU 的线性注意力协同设计。模型可靠性的讨论则从单轮回答扩展到长期互动风险、知识时间边界和持续世界演化。具身智能方面，通用机器人策略的强化学习改进与自动化化学实验室评测值得关注，但具体效果仍需结合全文实验判断。
+今日最突出的主线是：**智能体研究从“完成任务”转向“解释过程、分配奖励与控制风险”**，涉及长程强化学习、工具调用幻觉和多智能体信息共享。大模型评估进一步走向研究级任务，TCSExam 将理论计算机科学研究能力作为系统性评测对象。效率研究也从单纯压缩成本，转向理解压缩损伤、并行解码误差及可解释性工具的数据需求。应用侧，化学工程可验证工作环境、多语言心脏病学模型与儿科 ECG 迁移学习，体现出领域适配和专业验证的重要性。
 
 ## 二、重点论文
 
-### 🧠 大语言模型｜架构、对齐与评估
+### 🧠 大语言模型｜架构、评估与可靠性
 
-**1. [LooM: Loop-Invariant Memory for Causal Encoder-Decoder Language Models](http://arxiv.org/abs/2611.06835v1)**  
-**作者：** L. Yang、M. Diao、Z. Yan 等  
-**核心贡献与关注点：** 提出面向循环 Transformer 的循环不变内存机制，针对内存随循环次数增长、计算粒度粗及训练后难以调整循环次数等问题，为可调推理计算量的架构设计提供新思路。
+**1. [TCSExam: Evaluating Frontier LLMs on the Full Range of TCS Research](http://arxiv.org/abs/2611.07962v1)**  
+**作者**：Y. Luo、Z. Liu、Y. Yuan 等  
+**核心贡献与关注点**：提出覆盖理论计算机科学多类研究任务的统一评测框架，包括定理证明与求解器工程，值得用于区分模型的“解题能力”与更接近实际科研的能力。
 
-**2. [Alignment Myopia in Generative AI](http://arxiv.org/abs/2611.06830v1)**  
-**作者：** R. Denton、A. Davani、C. L. Bennett 等  
-**核心贡献与关注点：** 指出以即时对话满意度为中心的对齐范式可能忽略长期人机互动的外部性，推动对齐目标从单轮偏好转向纵向影响。
+**2. [When Bigger Becomes Brittle: Why Compression Hurts More as Language Models Scale](http://arxiv.org/abs/2611.07891v1)**  
+**作者**：G. Gupta、D. Kukreja、U. Kumar 等  
+**核心贡献与关注点**：从模型内部组件损伤及网络补偿机制分析量化、剪枝影响，提示部署评估不能只看压缩后的最终基准分数。
 
-**3. [LLMs Don't Know What They Know: Benchmarking Temporal Self-Knowledge for Financial Backtesting](http://arxiv.org/abs/2611.06808v1)**  
-**作者：** L. Qian、Y. Wang、X. Peng 等  
-**核心贡献与关注点：** 围绕金融回测评估模型对自身知识时间边界的认知，提醒研究者不能仅凭厂商知识截止日期、自我报告或历史时点提示排除未来信息泄漏。
+**3. [Masked diffusion as random sequential adsorption: an exactly solvable model for parallel decoding](http://arxiv.org/abs/2611.07845v1)**  
+**作者**：A. Baule  
+**核心贡献与关注点**：将掩码扩散解码与随机顺序吸附建立联系，以可精确求解模型研究并行生成的速度—误差权衡，为非自回归文本生成提供理论分析视角。
 
-**4. [Measuring Risk, Not Harm: Detecting Psychological Harm Risk Factors in LLM Conversations](http://arxiv.org/abs/2611.06806v1)**  
-**作者：** N.-J. Akpinar、E. Kim、N. Isak 等  
-**核心贡献与关注点：** 将监测对象从难以直接归因的心理伤害转为对话中可观察的风险行为，为长期互动安全评估提供更可操作的路径，但风险指标不等同于实际伤害。
+### 🤖 智能体与推理｜长程决策、风险与协作
 
-### 🤖 智能体与推理｜推理扩展与自主研究
+**4. [A Behavioural Framework for Predicting and Understanding Loss of Control in Frontier Artificial Intelligence Systems](http://arxiv.org/abs/2611.07953v1)**  
+**作者**：Y. Huang、Y. Zhang、Y. Wang 等  
+**核心贡献与关注点**：面向长时间运行、人工监督减少的前沿系统提出失控风险行为分析框架，研究价值在于将安全讨论推进到可观察行为层面。
 
-**5. [On Turn-Level Best-of-N Sampling for Scaling LLM Agents](http://arxiv.org/abs/2611.06868v1)**  
-**作者：** J. Bhandari、D. Gupta、H. Zhan 等  
-**核心贡献与关注点：** 在长程任务中采用逐轮“生成多个候选—选择下一步”的框架，研究智能体测试时计算扩展，将关注点从完整轨迹采样转向局部行动决策。
+**5. [AttnSR: Attention Step Reward for Long-Horizon Agentic RL](http://arxiv.org/abs/2611.07932v1)**  
+**作者**：M. Wu、T. Zhou、Z. Su 等  
+**核心贡献与关注点**：利用训练回放中的策略注意力分配步骤级奖励，为仅有最终结果奖励的长程智能体提供更细粒度监督，切中多步决策的信用分配难题。
 
-**6. [FrontierPhysics: Evaluating Agents for End-to-End Physics Research](http://arxiv.org/abs/2611.06910v1)**  
-**作者：** B. You、W. Ke、R. Rosenauer 等  
-**核心贡献与关注点：** 面向端到端物理研究构建智能体评测，强调同时考察正确性与研究质量，比固定问答或给定解法的论文复现更贴近真实科研需求。
+**6. [MCPHallu: Benchmarking Reasoning, Execution, and Memory Hallucinations in MCP Agents](http://arxiv.org/abs/2611.07689v1)**  
+**作者**：Y. Jiang、H. Guo、T. Bai 等  
+**核心贡献与关注点**：围绕 MCP 智能体的推理、执行与记忆幻觉构建评测，将关注点从任务是否完成扩展到工具使用过程中的具体错误类型。
 
-**7. [CompressionBench: How can your coding agents compress LLMs?](http://arxiv.org/abs/2611.06858v1)**  
-**作者：** X. Zhong、Z. Li、Z. Wang 等  
-**核心贡献与关注点：** 将受存储预算约束的模型压缩作为编码智能体任务，以可测量的效率目标检验其改进模型基础设施的能力，为研究自动化自改进提供具体试验场。
+**7. [Who Should Know What? Empirical Information Design for Multi-Agent LLM Economies](http://arxiv.org/abs/2611.07667v1)**  
+**作者**：M. Erdogan、M. Suzgun、A. Pappu 等  
+**核心贡献与关注点**：研究信息共享策略及信息粒度如何影响多智能体系统表现，直接检验“给每个智能体更多信息是否总是更好”这一关键设计假设。
 
-**8. [ServerBench: How can your coding agents design specialized LLM serving systems?](http://arxiv.org/abs/2611.06841v1)**  
-**作者：** X. Zhong、Z. Wang、Y. Liu 等  
-**核心贡献与关注点：** 考察编码智能体能否在会话依赖和延迟约束下设计专用 LLM 服务系统，将代码能力评价推进到实现、配置与运行决策的联合优化。
+### 🔧 方法与框架｜自评估、上下文与研究效率
 
-### 🔧 方法与框架｜上下文、视觉与硬件效率
+**8. [Circe: Training-Free LLM Self-Evaluation via Component Interaction Consistency](http://arxiv.org/abs/2611.07948v1)**  
+**作者**：S. Miao、Z. Li、X. Xie 等  
+**核心贡献与关注点**：提出基于组件交互一致性的免训练自评估方法，面向实际部署中缺少参考答案的正确性判断需求，值得关注其一致性信号能否可靠反映真实错误。
 
-**9. [SpecCompact: Accelerating LLM Agent Context Compaction with Slot-Parallel Semantic Speculative Verification](http://arxiv.org/abs/2611.06876v1)**  
-**作者：** Y. An、Y. Feng、X. Yin  
-**核心贡献与关注点：** 围绕结构化摘要槽位，引入并行语义推测验证来加速智能体上下文压缩，直接针对长程交互中的信息保留与压缩延迟权衡。
+**9. [CORE: Coarse-to-Fine Search with Context Management for Deep Research](http://arxiv.org/abs/2611.07859v1)**  
+**作者**：H. T. Vuong、N. Q. Pham、H. Bui 等  
+**核心贡献与关注点**：结合粗到细搜索与上下文管理，处理深度研究智能体中“检索需要长文本、推理上下文却受限”的系统性矛盾。
 
-**10. [Visual Token Routing: Learning to keep tokens that matter](http://arxiv.org/abs/2611.06854v1)**  
-**作者：** P. Aggarwal、S. Welleck  
-**核心贡献与关注点：** 研究学习式视觉 token 保留机制，瞄准计算机使用智能体每张截图包含大量 token 的成本瓶颈，对长程任务和实时交互具有直接工程价值。
+**10. [The Intrusion Pathway: How Non-Evidential Context Degrades Language Model Performance](http://arxiv.org/abs/2611.07778v1)**  
+**作者**：D. Kukreja、G. Gupta、A. Mittal 等  
+**核心贡献与关注点**：研究无竞争答案、甚至与问题无语义重叠的无关上下文如何降低模型准确率，为 RAG、工具返回内容及长上下文管理提供重要诊断视角。
 
-**11. [Systolic Linear Attention: Co-Designing Tile-Grouped Gated Delta Attention for TPUs](http://arxiv.org/abs/2611.06828v1)**  
-**作者：** G. Amirkhanyan、N. Cheng  
-**核心贡献与关注点：** 针对 TPU 脉动阵列特点协同设计分块门控 Delta 注意力，提示线性注意力的实际效率不仅取决于算法复杂度，也取决于算子与硬件的匹配。
+**11. [Scaling Laws for SAE Training Data](http://arxiv.org/abs/2611.07756v1)**  
+**作者**：N. Koriagin、N. Balagansky、D. Gavrilov  
+**核心贡献与关注点**：在固定训练预算下研究稀疏自编码器所需的独特激活样本量，摘要报告数据缓冲区扩大后收益趋于平台，为降低激活存储成本提供依据。
 
-### 📊 应用｜具身实验、机器人与世界模型
+### 📊 应用｜工程与医疗领域模型
 
-**12. [BEAKER: An Expert-Curated Benchmark for Embodied Brains in Self-Driving Chemical Laboratories](http://arxiv.org/abs/2611.06911v1)**  
-**作者：** F. Lin、T. Zhang、Z. Gong 等  
-**核心贡献与关注点：** 为自动化化学实验室建立专家策划的具身智能基准，将场景感知、实验状态推理及物理、流程和安全约束纳入同一应用背景。
+**12. [ChemE-as-Code: An Open-Source Platform for Agentic AI in Chemical Engineering](http://arxiv.org/abs/2611.07947v1)**  
+**作者**：A. M. Schweidtmann  
+**核心贡献与关注点**：提供覆盖催化、流程模拟、工厂布局、危险与可操作性分析及生命周期评估的开源环境，将智能体执行与工程师检查放在同一工作流程中。
 
-**13. [Reinforcement Learning Enables Scaling Generalist Robot Policy Improvement](http://arxiv.org/abs/2611.06905v1)**  
-**作者：** M. Korniak、M. Bagatella、R. Römer 等  
-**核心贡献与关注点：** 探索用强化学习规模化改进预训练通用机器人策略，聚焦从广泛的零样本能力走向满足实际任务要求的策略适配环节。
+**13. [CardioLM: A multilingual suite of small language models for the cardiology domain](http://arxiv.org/abs/2611.07940v1)**  
+**作者**：M.-D. Danu、M. Rodríguez-Ortega、A. Becerra-Tome 等  
+**核心贡献与关注点**：面向心脏病学推出多语言小模型系列，并针对临床 NLP 资源偏重英语、缺少专科多语言基准的问题展开研究，兼具领域适配与本地语言应用价值。
 
-**14. [EvoWorld: Towards Out-of-Sight World Evolution in Generative Video Models](http://arxiv.org/abs/2611.06748v1)**  
-**作者：** Y. Bie、D. Jiang、Z. Chen 等  
-**核心贡献与关注点：** 将生成视频研究从可见画面的逼真度推进到视野之外的世界演化，关注事件后果与跨视角状态一致性，是检验视频模型能否充当世界模拟器的重要方向。
+**14. [Pediatric ECG foundation model via adult-to-pediatric fine-tuning: downstream tasks and clinical evaluation](http://arxiv.org/abs/2611.07717v1)**  
+**作者**：Y. Cao、H. Xu、X. Li 等  
+**核心贡献与关注点**：利用来自 238,189 名儿童的 339,563 份十二导联 ECG，研究成人基础模型向儿科迁移的问题，重点回应年龄相关生理差异带来的领域偏移。
 
 ## 三、研究趋势信号
 
-今日投稿呈现三条信号：一是评测从“答案是否正确”走向“过程是否可靠、系统是否有效”，科研、压缩与服务部署成为新试验场；二是效率优化从模型规模下沉到上下文、视觉 token 和硬件算子；三是安全与一致性开始强调时间维度，覆盖知识泄漏、长期互动风险及不可见世界状态。共同趋势是：研究对象正从单次模型调用转向持续运行的系统。
+今日投稿显示，AI 系统设计正从“增加模型能力”转向“管理信息与执行过程”：检索上下文、个人记忆、多智能体信息粒度和步骤奖励成为共同优化对象。可靠性研究也从答案正确率扩展到推理、执行、记忆及失控行为。与此同时，领域应用更强调可检查的工具环境、专科数据与跨人群迁移，表明通用能力之外，部署质量越来越依赖系统工程和领域验证。
 
 ## 四、值得精读
 
-### 1. [FrontierPhysics](http://arxiv.org/abs/2611.06910v1)
-**理由：** 它触及科研智能体最关键的评估难题——“做对一道题”与“完成有质量的研究”如何区分。建议重点检查研究质量的定义、评分机制，以及是否控制已有答案或论文泄漏。
+### 1. [AttnSR](http://arxiv.org/abs/2611.07932v1)
+**理由**：长程任务的信用分配是智能体训练的重要瓶颈，利用模型自身注意力构造步骤奖励具有方法复用潜力。  
+**精读重点**：注意力与步骤实际贡献是否一致；相较简单奖励分配的增益；是否存在奖励偏差或额外计算开销。
 
-### 2. [LooM](http://arxiv.org/abs/2611.06835v1)
-**理由：** 同时涉及参数复用、内存成本和可变推理深度，具有架构层面的研究价值。精读时应区分训练与推理阶段的内存收益，并关注改变循环次数后的能力稳定性。
+### 2. [The Intrusion Pathway](http://arxiv.org/abs/2611.07778v1)
+**理由**：它提出的问题直接影响 RAG、长上下文和工具调用系统，且挑战了“只要不包含错误答案，无关内容就无害”的直觉。  
+**精读重点**：是否控制上下文长度、位置和分布差异；干扰效应能否跨模型复现；结论能否转化为有效的过滤策略。
 
-### 3. [LLMs Don't Know What They Know](http://arxiv.org/abs/2611.06808v1)
-**理由：** 对金融回测及其他历史预测实验具有直接的方法论意义。重点关注时间泄漏如何被检测，以及模型“自称不知道”与实际不能利用未来信息之间的区别。
+### 3. [TCSExam](http://arxiv.org/abs/2611.07962v1)
+**理由**：研究级能力评测有助于判断模型是否真正超越标准题库表现，对 AI 辅助科研尤其重要。  
+**精读重点**：任务是否贴近真实研究；如何防范数据污染；如何验证证明与求解器产出，以及评测结果能否支持对科研能力的推断。
 
 ---
 *本日报由 [agents-radar](https://github.com/leisure3318/agents-radar) 自动生成。*
