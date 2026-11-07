@@ -1,0 +1,77 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.319调整自动模式检查",
+      "Codex发布0.169.0-alpha.2",
+      "OpenCode v2.2.6确认引入MCP连接池",
+      "Copilot CLI连发三版，修复沙箱与IDE衔接",
+      "Qwen Code发布v0.26.9，推进长会话",
+      "Gemini CLI夜间发布失败，故障标为P0"
+    ],
+    "ai-agents": [
+      "OpenClaw更新41条PR，30条仍待合并",
+      "OpenClaw会话阻塞问题#194403待跟进",
+      "OpenClaw升级失败与语音提前结束引关注",
+      "OpenClaw大附件超时PR关闭，交付待确认",
+      "OpenClaw图像描述取消PR关闭，合并待确认",
+      "OpenClaw暂无新版本，会话恢复成修复重点"
+    ],
+    "ai-skills": [
+      "新发现5个Skill，Azure部署与排障上榜",
+      "Python部署Skill安装量达10,690",
+      "Azure部署Skill支持Flask与FastAPI",
+      "Azure部署Skill禁止使用az webapp up",
+      "azure-messaging覆盖断连、续锁与重复消息",
+      "SoundCraft音频自动化进入Hot榜"
+    ],
+    "ai-trending": [
+      "Project_Chronos获207星，聚焦MoE推理",
+      "Project_Chronos用前瞻预测缓解I/O等待",
+      "Project_Chronos探索异步DMA预取",
+      "Project_Chronos结合MLA与滑动窗口注意力",
+      "Project_Chronos零停顿主张缺基准验证",
+      "10个Trending项目均未确认属AI领域"
+    ],
+    "ai-web": [
+      "Anthropic拆解Agent记忆：即时记录与离线整理",
+      "Project EVE让Claude挑战长期MMORPG任务",
+      "Anthropic研究如何教AI构建科学模型",
+      "Anthropic追踪科研人员如何使用Claude",
+      "Anthropic生命科学合作招募进入本次收录",
+      "OpenAI新增湿实验Agent评测记录，正文缺失"
+    ],
+    "ai-hn": [
+      "Jev按需求助Opus，降本主张获361分",
+      "Anthropic上市估值话题引发500条评论",
+      "ChatGPT连接器串流数据指控获82分",
+      "Memorilla潜在语义记忆论文获92分",
+      "Claude科研使用研究获88分、37条评论",
+      "OpenAI SIP外呼向所有组织开放引关注"
+    ],
+    "ai-arxiv": [
+      "OPD对比GRPO：谁更省训练算力？",
+      "Muir用门控与匹配滤波改进线性注意力",
+      "SpecCTMC探索扩散语言模型精确推测采样",
+      "MAEMs从残差流方向生成高激活文本",
+      "Scientist World让AI科研走向可执行实验",
+      "SwarmEvolve探索潜空间智能体群体优化"
+    ],
+    "ai-hf": [
+      "TwIL-8B下载达8,209次，获179赞",
+      "ERNIE-5.5-Flash-Base获212赞",
+      "TwIL-8B带GGUF标签，本地部署值得跟踪",
+      "ERNIE-5.5-Flash-Base带MoE架构标签",
+      "TwIL-8B同时标注safetensors与GGUF",
+      "ERNIE-5.5-Flash-Base下载量为526次"
+    ],
+    "ai-community": [
+      "Agent说“完成”算交付吗？引发21条评论",
+      "用状态机替代while循环，提升Agent可恢复性",
+      "确定性交付靠架构，而非模型参数",
+      "Claude Code被指泄露邮箱，运行时审计受关注",
+      "自托管LLM算成本：别漏掉人员与运维",
+      "8模型代码审查评测，先发现自家流程Bug"
+    ]
+  },
+  "en": {}
+}
