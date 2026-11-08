@@ -1,0 +1,69 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Codex发布0.169.0-alpha.3预览版",
+      "OpenCode近24小时更新50条PR",
+      "Qwen Code发布覆盖CLI、桌面与SDK",
+      "Codex推进动态工具与会话基础设施",
+      "Claude Code反馈较多涉及桌面端",
+      "长任务可靠性与权限治理成CLI共同挑战"
+    ],
+    "ai-agents": [
+      "OpenClaw近24小时更新71条PR",
+      "OpenClaw更新27条Issue，关闭6条",
+      "OpenClaw聚焦会话并发与上下文压缩",
+      "多Agent模型目录刷新已有修复提案",
+      "P1轮次中断与文件夹会话故障待跟踪",
+      "展示的30条PR均待合并，暂无新版本"
+    ],
+    "ai-skills": [
+      "5个新发现Skill均登上小时Hot榜",
+      "html-slides以22次安装领跑本期",
+      "byted-ark-seedream-skill获10次安装",
+      "x-scraper支持X高级搜索与线程抓取",
+      "x-scraper支持同步返回与异步采集",
+      "仅x-scraper读到文档，需Apify付费套餐"
+    ],
+    "ai-trending": [
+      "billion-context今日新增191颗星",
+      "nvke今日新增123颗星，聚焦GPU集群",
+      "billion-context主打长会话上下文压缩",
+      "billion-context称省5倍Token，待验证",
+      "nvke提供裸金属GPU Kubernetes管理平面",
+      "多模态预训练论文清单累计447颗星"
+    ],
+    "ai-web": [
+      "Anthropic新增追踪文章聚焦AI科学建模",
+      "科学建模文章由AI for Science受资助者撰写",
+      "图宾根研究者探讨AI构建科学模型",
+      "文章围绕约束、构建、解释模型展开",
+      "现有节选不足以确认Claude实际参与程度",
+      "OpenAI本次官网增量追踪无新增"
+    ],
+    "ai-hn": [
+      "Claude Code凭据泄露报道获197分",
+      "凭据泄露报道引发133条HN评论",
+      "Anthropic代理记忆研究获152分",
+      "TokiRecur探索llama.cpp缓存回收复用",
+      "Jacq尝试将模型与内核描述编译为CUDA",
+      "OpenAI湿实验代理评估进入HN榜单"
+    ],
+    "ai-hf": [
+      "Viggle-Remake下载量达64,942次",
+      "Viggle-Remake主打视频编辑与角色替换",
+      "Arete-27B获217赞，走监督微调路线",
+      "xtools-at社区9B模型以522赞领跑",
+      "两款热门语言模型带有qwen3_5标签",
+      "社区模型名含DeepSeek，不代表官方来源"
+    ],
+    "ai-community": [
+      "Agent称部署成功，容器却已一天未更新",
+      "部署核验文章获61赞、13条评论",
+      "LiveReview关注代码变更影响，获46赞",
+      "Agent违规日志文章获22赞、12条评论",
+      "Warrant将Agent变更追溯至人类授权",
+      "Lobste.rs关注虚拟机逃逸与PDF提示注入"
+    ]
+  },
+  "en": {}
+}
