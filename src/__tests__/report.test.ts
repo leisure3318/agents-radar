@@ -6,7 +6,8 @@ import fs from "node:fs";
 // in report.ts uses our controllable mock instead of a real SDK client.
 // ---------------------------------------------------------------------------
 
-const { mockCall } = vi.hoisted(() => ({
+const { mockCall, fallbackCall } = vi.hoisted(() => ({
+  fallbackCall: vi.fn<(prompt: string, maxTokens: number) => Promise<string>>(),
   mockCall: vi.fn<(prompt: string, maxTokens: number) => Promise<string>>(),
 }));
 
@@ -17,6 +18,13 @@ vi.mock("../providers/index.ts", async (importOriginal) => {
     createProvider: () => ({ name: "mock", call: mockCall }),
   };
 });
+
+vi.mock("../providers/deepseek.ts", () => ({
+  DeepSeekProvider: class {
+    name = "deepseek";
+    call = fallbackCall;
+  },
+}));
 
 import { is429, callLlm, saveFile, autoGenFooter } from "../report.ts";
 
@@ -206,6 +214,23 @@ describe("callLlm", () => {
     expect(mockCall).toHaveBeenCalledTimes(4);
   });
 
+  it.each([408, 500, 502, 503, 504])("recovers from transient HTTP %s", async (status) => {
+    mockCall.mockRejectedValueOnce(Object.assign(new Error("unavailable"), { status }));
+    mockCall.mockResolvedValueOnce("recovered");
+    const promise = callLlm("prompt");
+    await vi.advanceTimersByTimeAsync(5_000);
+    expect(await promise).toBe("recovered");
+    expect(mockCall).toHaveBeenCalledTimes(2);
+  });
+
+  it.each(["APIConnectionError", "APIConnectionTimeoutError"])("retries %s", async (name) => {
+    mockCall.mockRejectedValueOnce(Object.assign(new Error("connection failed"), { name }));
+    mockCall.mockResolvedValueOnce("recovered");
+    const promise = callLlm("prompt");
+    await vi.advanceTimersByTimeAsync(5_000);
+    expect(await promise).toBe("recovered");
+  });
+
   it("throws immediately on non-429 errors", async () => {
     mockCall.mockRejectedValueOnce(new Error("server error"));
 
@@ -239,8 +264,12 @@ describe("publication health", () => {
 
   it("blocks publication after a 502 even when the caller catches it", async () => {
     const report = await import("../report.ts");
-    mockCall.mockRejectedValueOnce(Object.assign(new Error("Bad Gateway"), { status: 502 }));
-    await expect(report.callLlm("prompt")).rejects.toThrow("Bad Gateway");
+    vi.useFakeTimers();
+    mockCall.mockRejectedValue(Object.assign(new Error("Bad Gateway"), { status: 502 }));
+    const failed = expect(report.callLlm("prompt")).rejects.toThrow("Bad Gateway");
+    await vi.runAllTimersAsync();
+    await failed;
+    vi.useRealTimers();
     expect(() => report.assertLlmSuccess()).toThrow("publication aborted");
   });
 
@@ -250,5 +279,57 @@ describe("publication health", () => {
     await report.callLlm("prompt");
     await report.callLlmLang("en", "prompt");
     expect(() => report.assertLlmSuccess()).not.toThrow();
+  });
+});
+
+describe("provider failover", () => {
+  beforeEach(() => {
+    vi.resetModules();
+    vi.useFakeTimers();
+    vi.stubEnv("DEEPSEEK_API_KEY", "test-key");
+    mockCall.mockReset();
+    fallbackCall.mockReset();
+  });
+
+  afterEach(() => {
+    vi.useRealTimers();
+    vi.unstubAllEnvs();
+  });
+
+  it("falls back after persistent 503 and permits publication", async () => {
+    const report = await import("../report.ts");
+    mockCall.mockRejectedValue(Object.assign(new Error("Service Unavailable"), { status: 503 }));
+    fallbackCall.mockResolvedValue("backup summary");
+    const result = report.callLlm("prompt", 2048);
+    await vi.runAllTimersAsync();
+    expect(await result).toBe("backup summary");
+    expect(mockCall).toHaveBeenCalledTimes(4);
+    expect(fallbackCall).toHaveBeenCalledWith("prompt", 2048);
+    expect(() => report.assertLlmSuccess()).not.toThrow();
+  });
+
+  it("preserves immediate fallback for 403", async () => {
+    const report = await import("../report.ts");
+    mockCall.mockRejectedValue(Object.assign(new Error("quota"), { status: 403 }));
+    fallbackCall.mockResolvedValue("backup summary");
+    expect(await report.callLlm("prompt")).toBe("backup summary");
+    expect(mockCall).toHaveBeenCalledOnce();
+  });
+
+  it("blocks publication if both providers fail", async () => {
+    const report = await import("../report.ts");
+    mockCall.mockRejectedValue(Object.assign(new Error("unavailable"), { status: 503 }));
+    fallbackCall.mockRejectedValue(new Error("backup failed"));
+    const failed = expect(report.callLlm("prompt")).rejects.toThrow("backup failed");
+    await vi.runAllTimersAsync();
+    await failed;
+    expect(() => report.assertLlmSuccess()).toThrow("publication aborted");
+  });
+
+  it("does not mask invalid requests with fallback", async () => {
+    const report = await import("../report.ts");
+    mockCall.mockRejectedValue(Object.assign(new Error("bad request"), { status: 400 }));
+    await expect(report.callLlm("prompt")).rejects.toThrow("bad request");
+    expect(fallbackCall).not.toHaveBeenCalled();
   });
 });

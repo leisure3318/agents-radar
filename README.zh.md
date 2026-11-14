@@ -232,6 +232,9 @@ openclaw_peers:
 
 > `GITHUB_TOKEN` 由 GitHub Actions 自动提供，无需手动添加。使用 `github-copilot` 作为 Provider 时，同一 `GITHUB_TOKEN` 也用于 LLM 调用。
 
+
+当前仓库的日报、周报和月报工作流使用 OpenAI 兼容接口：在 **Variables** 中设置 `OPENAI_BASE_URL` 和 `OPENAI_MODEL`，可覆盖工作流中的默认地址和模型；密钥仍放在 **Secrets** 的 `OPENAI_API_KEY`。可选配置 `DEEPSEEK_API_KEY` Secret 启用 DeepSeek 备用。遇到 408、429、5xx 或连接超时会退避重试；重试耗尽或遇到 403 时切备用。两个接口均失败时，任务会失败并保留未发布状态，不会把残缺日报标记为成功。
+
 **配置 Telegram 推送**（可选）：
 1. 向 [@BotFather](https://t.me/BotFather) 创建 bot，复制 token
 2. 将 bot 加入频道 / 群组，或直接与 bot 私聊

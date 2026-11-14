@@ -233,6 +233,9 @@ Go to **Settings → Secrets and variables → Actions** and add:
 
 > `GITHUB_TOKEN` is provided automatically by GitHub Actions. When using `github-copilot` as the provider, the same `GITHUB_TOKEN` is used for LLM calls.
 
+
+This repository's daily, weekly, and monthly workflows use an OpenAI-compatible endpoint. Set `OPENAI_BASE_URL` and `OPENAI_MODEL` under **Variables** to override the workflow defaults; keep `OPENAI_API_KEY` under **Secrets**. Optionally add a `DEEPSEEK_API_KEY` Secret to enable the DeepSeek fallback. HTTP 408, 429, 5xx, and connection failures are retried with backoff; exhausted retries or HTTP 403 trigger fallback. If neither provider succeeds, publication remains failed rather than marking an incomplete digest as published.
+
 **Setting up Telegram notifications** (optional):
 1. Message [@BotFather](https://t.me/BotFather) on Telegram, create a bot, and copy the token
 2. Add the bot to your channel/group, or start a DM with it

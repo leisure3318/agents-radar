@@ -57,8 +57,9 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           LLM_PROVIDER: openai
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-          OPENAI_BASE_URL: https://api3.myweb3.cc/v1
-          OPENAI_MODEL: gpt-6.1-sol
+          OPENAI_BASE_URL: ${{ vars.OPENAI_BASE_URL || 'https://api3.myweb3.cc/v1' }}
+          OPENAI_MODEL: ${{ vars.OPENAI_MODEL || 'gpt-6.1-sol' }}
+          DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
           PRODUCTHUNT_TOKEN: ${{ secrets.PRODUCTHUNT_TOKEN }}
           # A Vercel OIDC-backed proxy for skills.sh. See README.zh.md.
           SKILLS_PROXY_URL: ${{ secrets.SKILLS_PROXY_URL }}

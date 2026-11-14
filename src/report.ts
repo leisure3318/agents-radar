@@ -74,6 +74,17 @@ export function is429(err: unknown): boolean {
   return (err as { status?: number })?.status === 429 || String(err).includes("429");
 }
 
+function isTransient(err: unknown): boolean {
+  const error = err as { status?: number; name?: string } | null;
+  return (
+    is429(err) ||
+    error?.status === 408 ||
+    (typeof error?.status === "number" && error.status >= 500 && error.status <= 599) ||
+    error?.name === "APIConnectionError" ||
+    error?.name === "APIConnectionTimeoutError"
+  );
+}
+
 function is403(err: unknown): boolean {
   return (err as { status?: number })?.status === 403 || String(err).includes("permission_error");
 }
@@ -85,16 +96,18 @@ export async function callLlm(prompt: string, maxTokens = LLM_TOKENS_DEFAULT): P
     try {
       return await provider.call(prompt, maxTokens);
     } catch (err) {
-      if (attempt < MAX_RETRIES && is429(err)) {
+      if (attempt < MAX_RETRIES && isTransient(err)) {
         releaseSlot();
         released = true;
         const wait = RETRY_BASE_MS * 2 ** attempt;
-        console.error(`[llm] 429 — retry ${attempt + 1}/${MAX_RETRIES} in ${wait / 1000}s...`);
+        console.error(
+          `[llm] Transient provider failure — retry ${attempt + 1}/${MAX_RETRIES} in ${wait / 1000}s...`,
+        );
         await sleep(wait);
         continue;
       }
-      if (is403(err) && fallbackProvider) {
-        console.error(`[llm] 403 quota exceeded — switching to fallback provider`);
+      if ((is403(err) || isTransient(err)) && fallbackProvider) {
+        console.error(`[llm] Primary provider unavailable — switching to fallback provider`);
         try {
           return await fallbackProvider.call(prompt, maxTokens);
         } catch (fallbackError) {
