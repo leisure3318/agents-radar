@@ -1,0 +1,77 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.325修复zstd解码安全问题",
+      "Codex发布0.171.0-alpha.4和alpha.5",
+      "Copilot CLI发布v1.0.112",
+      "Gemini CLI夜间发布失败，被标为P0",
+      "OpenCode v2升级暴露数据库迁移问题",
+      "Qwen Code聚焦ACP与Web Shell"
+    ],
+    "ai-agents": [
+      "OpenClaw更新61条PR，47条仍待合并",
+      "OpenClaw Templates集中出现12条问题报告",
+      "Templates出现P0：创建Agent后流程失败",
+      "OpenClaw会话写入冲突引关注",
+      "OpenClaw隐身会话首轮失败问题已关闭",
+      "OpenClaw推进大规模测试去重，暂无新版本"
+    ],
+    "ai-skills": [
+      "新发现5个Skill，视频方向占3席",
+      "website-builder上榜，展示安装量14,669",
+      "style-sampling上榜，展示安装量12,874",
+      "HyperFrames提供五类视频模板，需Pro权限",
+      "style-sampling要求分镜与草稿两次人工确认",
+      "Remotion技能入口覆盖React、地图与字幕"
+    ],
+    "ai-trending": [
+      "Chrome Web实践项目今日新增1,925星",
+      "openai/codex-security今日新增751星",
+      "plannotator新增108星，主打Agent计划审阅",
+      "Claude交易研究技能今日新增69星",
+      "Veyra-NRVideo新增256星，性能宣传待核验",
+      "本期入选5个AI项目，总星数均待核实"
+    ],
+    "ai-web": [
+      "Anthropic新文聚焦安全评估如何可信",
+      "Anthropic隔离机制材料强调部署权限边界",
+      "Claude电子设计案例拓展科研工作流",
+      "Anthropic研究科学家如何使用Claude",
+      "OpenAI抓取出现Wallet路径，上线状态待核",
+      "官网新增抓取109篇，不等于当日发布"
+    ],
+    "ai-hn": [
+      "英伟达投资促GPU采购争议获558分、329评",
+      "Claude Code并行工作者获88分、81评",
+      "llama.cpp v1.0与macOS原生应用引关注",
+      "Langfuse展示开源Rust网关，追踪LLM调用",
+      "Memro为Claude Code等工具提供持久记忆",
+      "开放模型含Blackwell特征？研究员主张待验证"
+    ],
+    "ai-arxiv": [
+      "Goal Encoding研究LLM行动前的目标表征",
+      "Negative-Only探索仅靠纠错信号优化策略",
+      "辩论学习理论追问弱监督者如何监督强模型",
+      "蒸馏新理论：收益或来自更易优化的损失景观",
+      "AgentSSL检验工程智能体能否利用未标注数据",
+      "CoReMem将编码记忆的读写成本纳入决策"
+    ],
+    "ai-hf": [
+      "MiniMax-H3-Image获1,064赞、43.7万下载",
+      "DINOv3获2,233赞、69.2万下载",
+      "hyperflow-h3-flash获38.9万下载，聚焦视频",
+      "Qwen3.8-27B-DSpine-b16聚焦推测解码",
+      "ZONOS3-Mini获321赞，支持GGUF格式",
+      "Underdog-Woof主打CPU语音，下载仅10次"
+    ],
+    "ai-community": [
+      "LFM3-1.7B浏览器离线学习应用获关注",
+      "Gemini Decisions API实测获10赞、3评",
+      "单位错配致阈值放大400倍，特征契约成焦点",
+      "MCP实践：用工具验证阻止Agent走捷径",
+      "Agent盲信工具返回值？开发者讨论信任边界",
+      "提取流水线四路实测，关注漏项与虚构数值"
+    ]
+  },
+  "en": {}
+}
