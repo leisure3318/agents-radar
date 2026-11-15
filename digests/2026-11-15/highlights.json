@@ -1,0 +1,61 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Codex推进预算控制与Hooks",
+      "Claude Code长会话与跨端同步受关注",
+      "Gemini CLI推进ACP并行化",
+      "OpenCode更新34条PR，聚焦稳定性",
+      "Qwen Code更新44条PR，推进托管智能体",
+      "Copilot CLI后台轮询效率引关注"
+    ],
+    "ai-agents": [
+      "OpenClaw发布v2026.11.5-beta.3",
+      "OpenClaw更新57条Issue、65条PR",
+      "新版降低长会话索引与压缩内存压力",
+      "会话恢复载荷引入流式处理",
+      "消息链路被指请求已接受却未完成",
+      "macOS ARM64出现新版更新失败报告"
+    ],
+    "ai-skills": [
+      "remotion-render上榜，安装量7077",
+      "Remotion支持视频、静帧与批量抽帧",
+      "Remotion导出需留意许可与浏览器配置",
+      "explore-code进入Hot，安装量239",
+      "explore-code支持LoRA与模型模块移植",
+      "探索改码须明确授权，并隔离分支运行"
+    ],
+    "ai-trending": [
+      "Qwen Code今日增64星，领跑本次样本",
+      "TensorFold增37星，探索跨硬件推理",
+      "腾讯LoopForge增33星，串联编程Agent",
+      "AG-UI增9星，连接Agent与前端",
+      "AIHawk累计32529星，主打自动求职",
+      "编程Agent与交付编排占样本增星约68%"
+    ],
+    "ai-hn": [
+      "《The Claude Delusion》获183条评论",
+      "双DGX运行GLM-5.3，标题称607.8词元/秒",
+      "Claude误删文件报道引发可靠性讨论",
+      "15美元触摸屏提醒Claude会话待处理",
+      "前OpenAI研究员称发现模型硬件痕迹",
+      "Anthropic发布安全评估研究"
+    ],
+    "ai-hf": [
+      "Haru-4B主打全双工语音交互",
+      "Haru-4B获237赞、1262次下载",
+      "qwen-concept-27b下载量达63439",
+      "qwen-concept-27b获261赞",
+      "Qwen衍生模型探索概念与权重编辑",
+      "GGUF与权重编辑交汇，效果仍待验证"
+    ],
+    "ai-community": [
+      "代码生成更便宜，审查与学徒培养成瓶颈",
+      "Agent的600字总结可能掩盖关键变更",
+      "多人编程Agent缺乏共享工作状态",
+      "Agent权限授权不等于支出授权",
+      "Rust推理项目自称4GB显存达209词元/秒",
+      "WebMCP推动网站从供人浏览转向Agent调用"
+    ]
+  },
+  "en": {}
+}
