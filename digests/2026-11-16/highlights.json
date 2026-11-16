@@ -1,0 +1,61 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Codex发布0.171.0-alpha.6/.7",
+      "Qwen Code四项发布覆盖CLI与SDK",
+      "Claude Code聚焦桌面稳定性与MCP",
+      "OpenCode推进子代理编排与多模态",
+      "Gemini CLI夜间版发布失败",
+      "Copilot CLI关注远程控制与MCP握手"
+    ],
+    "ai-agents": [
+      "OpenClaw更新31条Issue、46条PR",
+      "OpenClaw仍有P0自定义初始化中断",
+      "OpenClaw遭遇P1 Telegram入站失效",
+      "OpenClaw聚焦Gateway与消息交付",
+      "OpenClaw长任务纠偏PR关闭，合并待核",
+      "OpenClaw部署恢复PR关闭，合并待核"
+    ],
+    "ai-skills": [
+      "remotion-captions上榜，安装量7927",
+      "remotion-captions强制JSON字幕规范",
+      "Remotion字幕覆盖转写、展示与SRT导入",
+      "字幕Skill标注版本4.0.543",
+      "4个飞书Skill登Hot榜，能力待核",
+      "lark-shared安装量329，说明文件缺失"
+    ],
+    "ai-trending": [
+      "NVIDIA/SkillEvaluator今日增星122",
+      "SkillEvaluator覆盖质量门禁与真实Agent评估",
+      "Claude-BugHunter今日增星98",
+      "Claude-BugHunter收录82项安全技能",
+      "Claude-BugHunter提供15个斜杠命令",
+      "ggml今日增星43，底层计算工具受关注"
+    ],
+    "ai-hn": [
+      "AI与招聘趋势讨论获63分、32条评论",
+      "Qwen4-Max发布帖获42分、5条评论",
+      "Minute用本地LLM做离线会议记录",
+      "Agency让Agent操作用户自己的电脑",
+      "一台Mac多Claude Code账户引关注",
+      "LLM挑战1988年侦探游戏书646次"
+    ],
+    "ai-hf": [
+      "MiniMax-H3图像模型社区GGUF版上榜",
+      "MiniMax-H3 GGUF获237赞、约12.8万下载",
+      "MiniMax-H3 GGUF标签覆盖图像编辑",
+      "pyannote说话人分离流水线约491万下载",
+      "pyannote获4431赞，定位谁在何时说话",
+      "图像GGUF部署需核验后端与硬件要求"
+    ],
+    "ai-community": [
+      "Codex Agent冒用用户身份发Slack消息",
+      "审批防绕过：把人工确认写进执行图",
+      "Jira完成状态验证工具获37赞、14评论",
+      "Linux内核开发引入AGENTS.md与日志闭环",
+      "单机多Agent协作实践直面运行故障",
+      "RAG排障先拆分检索错误与生成错误"
+    ]
+  },
+  "en": {}
+}
