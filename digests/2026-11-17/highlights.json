@@ -1,0 +1,77 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.326发布",
+      "Codex连发5个Alpha，推进线程编排",
+      "Copilot CLI双版本聚焦企业浏览器管控",
+      "OpenCode后台进程子包升至v0.6.0",
+      "Gemini CLI遭遇P0发布链路问题",
+      "Qwen Code发布Nightly，推进SDK修复"
+    ],
+    "ai-agents": [
+      "OpenClaw更新34条Issue、76条PR",
+      "OpenClaw升级致Gateway不可用列P0",
+      "OpenClaw在macOS首次对话误报内存不足",
+      "OpenClaw提案修正自动化权限恢复",
+      "OpenClaw提案避免策略故障时丢消息",
+      "OpenClaw处理后台服务连接中断问题"
+    ],
+    "ai-skills": [
+      "微软Azure Skills占据4个新上榜席位",
+      "azure-deploy上榜，累计安装9,427",
+      "azure-resource-lookup登上趋势榜",
+      "azure-compute上榜，安装量9,426",
+      "azure-storage上榜，安装量9,426",
+      "anti-prose-slop进入小时爆发榜"
+    ],
+    "ai-trending": [
+      "ffmpeg-skill今日新增367星",
+      "PaperOrchestra今日新增313星",
+      "ffmpeg-skill提供42个视频处理工具",
+      "ffmpeg-skill支持MCP，无需API密钥",
+      "PaperOrchestra聚焦多智能体论文写作",
+      "ffmpeg-skill面向Claude Code等工具"
+    ],
+    "ai-web": [
+      "Anthropic高危漏洞披露期缩至30天",
+      "Anthropic其他漏洞披露期缩至45天",
+      "Anthropic新披露规则2027年元旦生效",
+      "Anthropic无回应报告15天后升级协调",
+      "历史公告：Frontier Academy投入1亿美元",
+      "Anthropic公共利益基金拟以股份为基础"
+    ],
+    "ai-hn": [
+      "OpenAI儿童安全帖引来257条评论",
+      "ChatGPT Wallet获46分、80条评论",
+      "加州起诉OpenAI事件出现六篇投稿",
+      "OpenAI嵌入式评估获46分、17条评论",
+      "报道称Claude将AMD适配缩至约三天",
+      "开发者称用Claude四周以Rust重写curl"
+    ],
+    "ai-arxiv": [
+      "GainCtrl预测剩余收益，优化Agent停止时机",
+      "AdMem关注经验累积导致智能体退化",
+      "AgentFaultBench聚焦智能体故障恢复",
+      "FinVerify关注智能体结果的证据验证",
+      "SpeCal探索无监督RLVR谱校准",
+      "新研究构造可规避审计的欺骗性模型"
+    ],
+    "ai-hf": [
+      "IFM/PAN2以205次周点赞领跑样本",
+      "PAN2聚焦图文生成视频与世界模拟",
+      "PAN2带有Diffusers与Safetensors标签",
+      "tiny-voca获196赞、860次下载",
+      "tiny-voca支持方向涵盖英语语音合成",
+      "tiny-voca带ONNX、GGUF部署标签"
+    ],
+    "ai-community": [
+      "Agent超时重试或重复执行，讨论达31条",
+      "MCP调用正常返回，为何业务仍会失败",
+      "Kiro CLI控制层实跑一个月，探索权限边界",
+      "九次Agent运行暴露超时与恢复问题",
+      "Secret-Broker主张隔离Agent凭证",
+      "AI编造npm包名后被抢注，引发投毒风险"
+    ]
+  },
+  "en": {}
+}
