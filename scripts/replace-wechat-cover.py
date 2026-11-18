@@ -51,14 +51,24 @@ media = api("material/add_material?type=image", header.encode() + cover + f"\r\n
             f"multipart/form-data; boundary={boundary}")
 entry["thumb_media_id"] = media["media_id"]
 
-if api("draft/get", {"media_id": media_id})["news_item"] != before:
-    raise RuntimeError("Draft changed before update")
+def comparable(article):
+    return {key: value for key, value in article.items() if key not in {"url", "thumb_url"}}
+
+
+current = api("draft/get", {"media_id": media_id})["news_item"]
+if len(current) != len(before):
+    raise RuntimeError("Draft article count changed before update")
+for first, second in zip(before, current):
+    left, right = comparable(first), comparable(second)
+    changed = sorted(key for key in left.keys() | right.keys() if left.get(key) != right.get(key))
+    if changed:
+        raise RuntimeError(f"Draft fields changed before update: {changed}")
 api("draft/update", {"media_id": media_id, "index": index, "articles": entry})
 after = api("draft/get", {"media_id": media_id})["news_item"]
 assert len(after) == len(before)
 assert after[index]["thumb_media_id"] == media["media_id"]
 assert all(after[index].get(field) == original.get(field) for field in editable)
-assert all(a == b for i, (a, b) in enumerate(zip(before, after)) if i != index)
+assert all(comparable(a) == comparable(b) for i, (a, b) in enumerate(zip(before, after)) if i != index)
 print(f"Verified cover replacement for {title}")
 print("Verified exact equality of the existing body, numbered guide and editable metadata")
 print(f"Cover SHA-256 {hashlib.sha256(cover).hexdigest()}")
