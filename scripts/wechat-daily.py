@@ -222,13 +222,16 @@ cover_prompt 描述一张无字、宽幅的编辑插画，把视觉主体放在�
 
 
 def render(article, image_urls=None):
+    publishing = image_urls is not None
     image_urls = image_urls or {}
     esc = html.escape
     sections = article["sections"]
     parts = [f"<h1>{esc(article['title'])}</h1>",
              f'<p style="color:#53677d">{esc(article["intro"])}</p>',
              '<section style="padding:16px;background:#edf4fb"><strong>今日导读</strong>']
-    parts += [f'<p><a href="#section-{i}">{esc(s["heading"])}</a></p>' for i, s in enumerate(sections)]
+    for i, section in enumerate(sections):
+        heading = esc(section["heading"])
+        parts.append(f"<p>{heading}</p>" if publishing else f'<p><a href="#section-{i}">{heading}</a></p>')
     parts.append("</section>")
     for i, section in enumerate(sections):
         parts.append(f'<h2 id="section-{i}" style="color:#12476e">{esc(section["heading"])}</h2>')
@@ -238,7 +241,9 @@ def render(article, image_urls=None):
                 url = image_urls.get(item["image"], item["image"])
                 parts.append(f'<img src="{esc(url)}" style="width:100%;height:auto" alt="{esc(item["title"])}">')
             if item.get("url"):
-                parts.append(f'<p style="font-size:13px"><a href="{esc(item["url"])}">原文来源</a></p>')
+                source = esc(item["url"])
+                reference = f"原文来源：{source}" if publishing else f'<a href="{source}">原文来源</a>'
+                parts.append(f'<p style="font-size:13px;word-break:break-all">{reference}</p>')
     return '<section style="color:#223047;font-size:16px">' + "".join(parts) + "</section>"
 
 
@@ -284,7 +289,7 @@ def publish(folder, receipt):
             cover = upload("material/add_material?type=image", "cover.jpg")
             urls = {p.name: upload("media/uploadimg", p.name)["url"] for p in folder.glob("source-*.jpg")}
             result = api("draft/add", {"articles": [{
-                "title": article["title"], "digest": article["intro"][:120], "content": render(article, urls),
+                "article_type": "news", "title": article["title"], "digest": article["intro"][:120], "content": render(article, urls),
                 "thumb_media_id": cover["media_id"], "need_open_comment": 0,
             }]})
         receipt.parent.mkdir(parents=True, exist_ok=True)
