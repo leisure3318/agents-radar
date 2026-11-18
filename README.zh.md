@@ -436,7 +436,7 @@ GET $SKILLS_PROXY_URL?view=hot&per_page=30
 
 ### 微信公众号草稿
 
-`WeChat Daily Draft` 在 `Daily Agents Radar` 结束后读取北京时间当天已落盘的中文日报。公众号标题组合当天两到三个新闻短标题。正文采用参考 Baoyu 的移动端内联排版，包含编号导读、分节精选和原文地址。网页预览可点击导读跳转。提交草稿时优先保留导读锚点，若微信拒收则退回编号导读。正文逐条尝试从原文页面提取有效配图并去重，封面优先由图片 API 生成，接口失败时使用带日期的固定版式。生成结果可在 Actions 运行页下载，保存草稿成功后通过 Bark 提醒。
+`WeChat Daily Draft` 在 `Daily Agents Radar` 结束后读取北京时间当天已落盘的中文日报。公众号标题组合当天两到三个新闻短标题。正文采用参考 Baoyu 的移动端内联排版，包含编号导读、分节精选和原文地址。网页预览可点击导读跳转。微信草稿使用与正文标题一致的编号导读。正文逐条尝试从原文页面提取有效配图并去重，封面使用参考 WeWrite Pipeline 的 Baoyu 结构化提示词，由图片 API 生成，接口失败时使用带日期的固定版式。生成结果和封面提示词可在 Actions 运行页下载，保存草稿成功后通过 Bark 提醒。
 
 已有文字 API 配置沿用 `OPENAI_API_KEY`、`OPENAI_BASE_URL` 和 `OPENAI_MODEL`。图片服务支持 `IMAGE_API_KEY` Secret 和 `IMAGE_API_BASE`、`IMAGE_MODEL` Variables。上传与提醒使用下列 Secrets。
 
