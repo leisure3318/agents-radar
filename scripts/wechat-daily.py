@@ -262,7 +262,8 @@ cover_prompt 描述一张无字、宽幅的编辑插画，把视觉主体放在�
 
     (folder / "article.json").write_text(json.dumps(article, ensure_ascii=False, indent=2))
     preview_cover = '<img src="cover.jpg" alt="封面" style="width:100%">' if cover.exists() else ""
-    (folder / "index.html").write_text('<meta charset="utf-8">' + preview_cover + render(article))
+    preview_head = '<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">'
+    (folder / "index.html").write_text(preview_head + preview_cover + render(article))
     print(f"Prepared {len(article['sections'])} sections with {len(fingerprints)} source images")
 
 
@@ -271,7 +272,7 @@ def render(article, image_urls=None, anchors=True):
     image_urls = image_urls or {}
     esc = html.escape
     sections = article["sections"]
-    parts = ['<section style="max-width:680px;margin:0 auto;padding:0 16px;color:#253442;font-size:16px;line-height:1.85;letter-spacing:.02em">']
+    parts = ['<section style="max-width:680px;margin:0 auto;padding:0 16px;color:#253442;font-size:16px;line-height:1.85;letter-spacing:.02em;overflow-wrap:break-word">']
     if not publishing:
         parts.append(f'<h1 style="font-size:26px;line-height:1.4;margin:24px 0 16px">{esc(article["title"])}</h1>')
     parts.extend([
