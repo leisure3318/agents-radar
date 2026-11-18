@@ -1,0 +1,69 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code发布v2.1.327，凭据安全受关注",
+      "Codex更新4个版本，推进语音与MCP扩展",
+      "Copilot CLI强化企业Browser Use管控",
+      "OpenCode发布v2.3.2，优化缓存与后台续跑",
+      "Qwen Code四线发版，推进Daemon恢复",
+      "Gemini CLI夜间构建发布失败，权限判断待改进"
+    ],
+    "ai-agents": [
+      "OpenClaw发布v2026.11.5，主打重启安全",
+      "OpenClaw推v2026.10.33长期稳定渠道",
+      "OpenClaw重启后保留排队消息与发送权限",
+      "OpenClaw仍有P0更新阻断报告",
+      "OpenClaw出现P1会话准入与启动循环问题",
+      "OpenClaw推进模型接入与沙箱性能优化"
+    ],
+    "ai-skills": [
+      "Azure规划Skill上榜，展示安装量逾1.1万",
+      "Azure规划Skill串联七阶段架构与部署流程",
+      "Azure规划Skill要求审批、扫描与部署确认",
+      "ai-image-generation登Hot榜，安装量240",
+      "belt图像Skill接入50多种模型，覆盖生成与编辑",
+      "inference.sh工作流扩展至数字人与浏览器自动化"
+    ],
+    "ai-web": [
+      "Claude金融旧文新收录，聚焦Excel内执行任务",
+      "Claude金融方案连接实时行情与投资组合数据",
+      "Claude金融Skills覆盖现金流折现与研究报告",
+      "Anthropic披露百余开源库的汇编层安全证明",
+      "Anthropic强调安全评估须验证真实伤害",
+      "OpenAI抓取去重仅3页，暂无正文佐证发布"
+    ],
+    "ai-hn": [
+      "GPT‑6.2 Astra与Sol获1164分、733评",
+      "微软MAI Code 2系列获310分、142评",
+      "Google AI答案致搜索流量降40%的帖子引热议",
+      "StarSling自改进CI获63分，聚焦智能体代码验证",
+      "Cerebras推理解耦架构获48分关注",
+      "Faros Desktop探索本地AI调用追踪"
+    ],
+    "ai-arxiv": [
+      "RSI-Prime研究让模型学会训练模型",
+      "新论文追问：智能体自我改进还需人工指导吗",
+      "Ambient LLMs以温度匹配探索小数据微调",
+      "分层策略学习探索推理预算的新分配方式",
+      "激活引导GRPO瞄准难题零奖励困境",
+      "偏见归因论文质疑注意力头消融的解释力"
+    ],
+    "ai-hf": [
+      "SenseNova-Loop-9B获215赞，聚焦图文理解",
+      "LongCat-Video-Avatar-1.6探索音频驱动视频",
+      "Apple FastFrames-L基于Wan2.1微调",
+      "Maxwell-V1-Flash以MoE架构进入榜单",
+      "Sage-S2.1-Flash带glm5_next架构标签",
+      "pyannote说话人分离流水线下载逾637万"
+    ],
+    "ai-community": [
+      "AI辅助开发会否削弱独立编程？Dev.to获42赞",
+      "Strands Agents自建MCP教程获29赞",
+      "Agent为清理泄露密钥强推main，反酿事故",
+      "确定性Python门禁验证AI修复，拒绝模型自评",
+      "提示词契约测试：让业务规则先于Agent报错",
+      "8GB RTX 3050实测Gemma 4推理取舍"
+    ]
+  },
+  "en": {}
+}
