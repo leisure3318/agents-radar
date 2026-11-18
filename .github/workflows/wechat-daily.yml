@@ -15,7 +15,13 @@ jobs:
           run-id: 44247689044
           name: wechat-2026-11-17
           path: cover-source
-      - name: Replace and verify cover
+      - uses: actions/download-artifact@v4
+        with:
+          github-token: ${{ github.token }}
+          run-id: 44240251714
+          name: wechat-2026-11-18
+          path: original-draft
+      - name: Verify the existing draft
         env:
           WECHAT_APP_ID: ${{ secrets.WECHAT_APP_ID }}
           WECHAT_APP_SECRET: ${{ secrets.WECHAT_APP_SECRET }}

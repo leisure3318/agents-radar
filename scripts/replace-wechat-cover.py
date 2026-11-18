@@ -1,10 +1,12 @@
-import hashlib
+import json
+from html.parser import HTMLParser
 import os
 from pathlib import Path
 import runpy
 from urllib.parse import quote
 
-request = runpy.run_path("scripts/wechat-daily.py")["request"]
+daily = runpy.run_path("scripts/wechat-daily.py")
+request = daily["request"]
 origin = "https://api.weixin.qq.com/cgi-bin/"
 token = request(origin + "stable_token", {
     "grant_type": "client_credential",
@@ -41,34 +43,42 @@ before = api("draft/get", {"media_id": media_id})["news_item"]
 original = before[index]
 if original["title"] != title or "今日导读" not in original["content"]:
     raise RuntimeError("Draft changed or does not have the expected guide")
-editable = ("article_type", "title", "author", "digest", "content",
-            "content_source_url", "show_cover_pic", "need_open_comment", "only_fans_can_comment")
-entry = {field: original[field] for field in editable if field in original}
-cover = Path("cover-source/cover.jpg").read_bytes()
-boundary = "cover-" + os.urandom(12).hex()
-header = f'--{boundary}\r\nContent-Disposition: form-data; name="media"; filename="cover.jpg"\r\nContent-Type: image/jpeg\r\n\r\n'
-media = api("material/add_material?type=image", header.encode() + cover + f"\r\n--{boundary}--\r\n".encode(),
-            f"multipart/form-data; boundary={boundary}")
-entry["thumb_media_id"] = media["media_id"]
+class Snapshot(HTMLParser):
+    def __init__(self, content):
+        super().__init__()
+        self.text = []
+        self.tags = []
+        self.images = []
+        self.feed(content)
+        self.close()
 
-def comparable(article):
-    return {key: value for key, value in article.items() if key not in {"url", "thumb_url"}}
+    def handle_data(self, data):
+        if data.strip():
+            self.text.append(" ".join(data.split()))
 
+    def handle_starttag(self, tag, attrs):
+        if tag == "img":
+            self.images.append(dict(attrs)["src"])
+        self.tags.append((tag, dict(attrs)))
 
-current = api("draft/get", {"media_id": media_id})["news_item"]
-if len(current) != len(before):
-    raise RuntimeError("Draft article count changed before update")
-for first, second in zip(before, current):
-    left, right = comparable(first), comparable(second)
-    changed = sorted(key for key in left.keys() | right.keys() if left.get(key) != right.get(key))
-    if changed:
-        raise RuntimeError(f"Draft fields changed before update: {changed}")
-api("draft/update", {"media_id": media_id, "index": index, "articles": entry})
-after = api("draft/get", {"media_id": media_id})["news_item"]
-assert len(after) == len(before)
-assert after[index]["thumb_media_id"] == media["media_id"]
-assert all(after[index].get(field) == original.get(field) for field in editable)
-assert all(comparable(a) == comparable(b) for i, (a, b) in enumerate(zip(before, after)) if i != index)
-print(f"Verified cover replacement for {title}")
-print("Verified exact equality of the existing body, numbered guide and editable metadata")
-print(f"Cover SHA-256 {hashlib.sha256(cover).hexdigest()}")
+baseline = json.loads(Path("original-draft/article.json").read_text())
+sources = [
+    item["image"]
+    for section in baseline["sections"]
+    for item in section["items"]
+    if item.get("image")
+]
+actual = Snapshot(original["content"])
+assert len(actual.images) == len(sources), (len(actual.images), len(sources))
+assert len(set(actual.images)) == len(actual.images)
+assert all(url.startswith("https://mmbiz.qpic.cn/") or url.startswith("http://mmbiz.qpic.cn/") for url in actual.images)
+expected = Snapshot(daily["render"](baseline, dict(zip(sources, actual.images))))
+assert original["title"] == baseline["title"]
+assert expected.text == actual.text, (len(expected.text), len(actual.text))
+assert [tag for tag, _ in expected.tags] == [tag for tag, _ in actual.tags]
+assert expected.images == actual.images
+assert "今日导读" in actual.text
+print(f"Verified {title}")
+print(f"Verified all article text, the numbered guide, HTML element order and {len(actual.images)} inline photos against the original publishing artifact")
+if expected.tags != actual.tags:
+    print("WeChat read-back HTML attributes differ from original upload HTML")
