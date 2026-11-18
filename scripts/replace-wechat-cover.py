@@ -76,11 +76,17 @@ with tempfile.TemporaryDirectory() as folder:
 editable = ("article_type", "title", "author", "digest", "content", "thumb_media_id",
             "content_source_url", "show_cover_pic", "need_open_comment", "only_fans_can_comment")
 entry = {key: original[key] for key in editable if key in original}
-first_tag = re.search(r"<img\b[^>]*>", original["content"], re.I)
-assert first_tag and snapshot.images[0] in first_tag[0]
-entry["content"] = (original["content"][:first_tag.start()]
-                    + first_tag[0].replace(snapshot.images[0], new_image)
-                    + original["content"][first_tag.end():])
+image_index = iter(range(len(snapshot.images)))
+
+def submit_image(match):
+    tag = match.group()
+    index = next(image_index)
+    url = new_image if index == 0 else snapshot.images[index]
+    assert url
+    tag = re.sub(r'\s(?:data-src|src)="[^"]*"', "", tag)
+    return re.sub(r"(?=/?>$)", lambda _: ' src="' + url + '"', tag, count=1)
+
+entry["content"] = re.sub(r"<img\b[^>]*>", submit_image, original["content"], flags=re.I)
 latest = api("draft/get", {"media_id": media_id})["news_item"][index]
 assert all(latest.get(key) == original.get(key) for key in editable)
 api("draft/update", {"media_id": media_id, "index": index, "articles": entry})
@@ -89,7 +95,10 @@ after = Snapshot(saved["content"])
 def image_identity(url):
     return url.removeprefix("https://").removeprefix("http://")
 
-assert image_identity(after.images[0]) == image_identity(new_image)
+print(f"Image count before/after: {len(snapshot.images)}/{len(after.images)}")
+assert image_identity(after.images[0]) == image_identity(new_image), (
+    f"Read-back URL suffix: {after.images[0].split('/')[-1]}, expected: {new_image.split('/')[-1]}"
+)
 assert list(map(image_identity, after.images[1:])) == list(map(image_identity, snapshot.images[1:]))
 assert after.text == snapshot.text
 assert [tag for tag, _ in after.tags] == [tag for tag, _ in snapshot.tags]
