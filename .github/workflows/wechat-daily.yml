@@ -122,7 +122,8 @@ jobs:
         env:
           WECHAT_APP_ID: ${{ secrets.WECHAT_APP_ID }}
           WECHAT_APP_SECRET: ${{ secrets.WECHAT_APP_SECRET }}
-          WECHAT_HTTPS_PROXY: ${{ secrets.WECHAT_HTTPS_PROXY }}
+          WECHAT_SSH_KEY: ${{ secrets.WECHAT_SSH_KEY }}
+          WECHAT_SSH_KNOWN_HOSTS: ${{ vars.WECHAT_SSH_KNOWN_HOSTS }}
           BARK_PUSH_URL: ${{ secrets.BARK_PUSH_URL }}
         run: |
           git config user.name 'github-actions[bot]'
@@ -138,12 +139,23 @@ jobs:
             return 1
           }
           if [ ! -f ".wechat-drafts/$DAY.json" ]; then
-            for key in WECHAT_APP_ID WECHAT_APP_SECRET WECHAT_HTTPS_PROXY; do
+            for key in WECHAT_APP_ID WECHAT_APP_SECRET WECHAT_SSH_KEY WECHAT_SSH_KNOWN_HOSTS; do
               if [ -z "${!key}" ]; then
-                echo "::error::Missing GitHub Secret $key"
+                echo "::error::Missing GitHub Actions configuration $key"
                 exit 1
               fi
             done
+            umask 077
+            tunnel_dir=$(mktemp -d)
+            trap 'ssh -S "$tunnel_dir/control" -O exit radar-wechat@107.174.65.61 >/dev/null 2>&1 || true; rm -r -- "$tunnel_dir"' EXIT
+            printf '%s\n' "$WECHAT_SSH_KEY" > "$tunnel_dir/key"
+            printf '%s\n' "$WECHAT_SSH_KNOWN_HOSTS" > "$tunnel_dir/known_hosts"
+            unset WECHAT_SSH_KEY
+            ssh -fNT -i "$tunnel_dir/key" -o BatchMode=yes -o IdentitiesOnly=yes \
+              -o StrictHostKeyChecking=yes -o UserKnownHostsFile="$tunnel_dir/known_hosts" \
+              -o ConnectTimeout=15 -o ExitOnForwardFailure=yes -o ServerAliveInterval=30 \
+              -o ControlMaster=yes -o ControlPath="$tunnel_dir/control" \
+              -L 127.0.0.1:18844:api.weixin.qq.com:443 radar-wechat@107.174.65.61
             python3 scripts/wechat-daily.py publish "$DAY"
             record ".wechat-drafts/$DAY.json" "Remember WeChat drafts to avoid duplicate uploads"
           fi

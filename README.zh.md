@@ -444,7 +444,7 @@ GET $SKILLS_PROXY_URL?view=hot&per_page=30
 | --- | --- |
 | `WECHAT_APP_ID` | 公众号 AppID |
 | `WECHAT_APP_SECRET` | 公众号 AppSecret |
-| `WECHAT_HTTPS_PROXY` | 有固定 IPv4 的认证 HTTPS CONNECT 代理 URL，允许访问 `api.weixin.qq.com:443` |
+| `WECHAT_SSH_KEY` | RackNerd 专用 SSH 私钥，仅允许转发到 `api.weixin.qq.com:443` |
 | `BARK_PUSH_URL` | Bark App 中含设备密钥的 HTTPS 推送地址，末尾无需标题和正文 |
 
-将代理的固定出口 IPv4 加入微信公众号 IP 白名单。可从 Actions 手动运行，勾选 `preview` 下载生成结果，取消勾选即可创建草稿并提醒。确认试跑成功后将仓库 Variable `WECHAT_DRAFT_ENABLED` 设为 `true`，启用日报后的自动运行。日期状态记录在 `.wechat-drafts/`，用于避免重复创建和重复通知。公众号的正式发布仍由运营者在后台操作。
+将 RackNerd 固定出口 IPv4 `107.174.65.61` 加入微信公众号 IP 白名单，并在仓库 Variable `WECHAT_SSH_KNOWN_HOSTS` 固定服务器的 SSH 主机公钥。可从 Actions 手动运行，勾选 `preview` 下载生成结果，取消勾选即可创建草稿并提醒。确认试跑成功后将仓库 Variable `WECHAT_DRAFT_ENABLED` 设为 `true`，启用日报后的自动运行。日期状态记录在 `.wechat-drafts/`，用于避免重复创建和重复通知。公众号的正式发布仍由运营者在后台操作。

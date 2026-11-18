@@ -23,17 +23,19 @@ CATEGORIES = dict(zip(
 ))
 
 
-def request(url, payload=None, key=None, content_type="application/json", opener=None, proxy=None):
+def request(url, payload=None, key=None, content_type="application/json", opener=None, wechat_tunnel=False):
     headers = {"Content-Type": content_type, "Accept": "application/json", "User-Agent": "curl/8.7.1"}
     if key:
         headers["Authorization"] = "Bearer " + key
     data = json.dumps(payload, ensure_ascii=False).encode() if isinstance(payload, dict) else payload
     try:
-        if proxy:
-            command = ["curl", "--silent", "--fail", "--max-time", "180", "--noproxy", "",
+        if wechat_tunnel:
+            if urllib.parse.urlsplit(url).netloc != "api.weixin.qq.com":
+                raise ValueError("The SSH tunnel is only for api.weixin.qq.com")
+            command = ["curl", "--silent", "--fail", "--max-time", "180", "--noproxy", "*",
+                       "--connect-to", "api.weixin.qq.com:443:127.0.0.1:18844",
                        "-H", "Content-Type: " + content_type, "--data-binary", "@-", url]
-            response = subprocess.run(command, input=data, capture_output=True,
-                                      env={**os.environ, "HTTPS_PROXY": proxy})
+            response = subprocess.run(command, input=data, capture_output=True)
             if response.returncode:
                 raise RuntimeError(f"WeChat connection failed (curl {response.returncode})")
             result = json.loads(response.stdout)
@@ -242,19 +244,16 @@ def render(article, image_urls=None):
 
 def publish(folder, receipt):
     article = json.loads((folder / "article.json").read_text())
-    proxy = os.environ["WECHAT_HTTPS_PROXY"]
-    if urllib.parse.urlsplit(proxy).scheme != "https":
-        raise ValueError("Expected an HTTPS CONNECT proxy URL")
     origin = "https://api.weixin.qq.com/cgi-bin/"
     token = request(origin + "stable_token", {
         "grant_type": "client_credential", "appid": os.environ["WECHAT_APP_ID"],
         "secret": os.environ["WECHAT_APP_SECRET"],
-    }, proxy=proxy)["access_token"]
+    }, wechat_tunnel=True)["access_token"]
 
     def api(path, data, content_type="application/json"):
         query = "&" if "?" in path else "?"
         return request(origin + path + query + "access_token=" + urllib.parse.quote(token),
-                       data, content_type=content_type, proxy=proxy)
+                       data, content_type=content_type, wechat_tunnel=True)
 
     if receipt.exists():
         result = json.loads(receipt.read_text())
