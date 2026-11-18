@@ -2,8 +2,8 @@ name: Daily Agents Radar
 
 on:
   schedule:
-    # 08:17 CST, with 12:17 and 16:17 catch-up attempts away from hourly peaks.
-    - cron: "17 0,4,8 * * *"
+    # 08:19 CST, with 12:19 and 16:19 catch-up attempts away from hourly peaks.
+    - cron: "19 0,4,8 * * *"
   workflow_dispatch:
 
 concurrency:
