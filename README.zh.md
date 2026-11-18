@@ -433,3 +433,18 @@ GET $SKILLS_PROXY_URL?view=hot&per_page=30
 ## Star History
 
 [![Star History Chart](https://api.star-history.com/svg?repos=duanyytop/agents-radar&type=Date)](https://star-history.com/#duanyytop/agents-radar&Date)
+
+### 微信公众号草稿
+
+`WeChat Daily Draft` 在 `Daily Agents Radar` 结束后读取北京时间当天已落盘的中文日报。文章包含开头导读、分节精选和原文链接。正文配图来自可读取的原文页面，封面由图片 API 生成。生成结果可在 Actions 运行页下载，保存草稿成功后通过 Bark 提醒。
+
+已有文字 API 配置沿用 `OPENAI_API_KEY`、`OPENAI_BASE_URL` 和 `OPENAI_MODEL`。图片服务支持 `IMAGE_API_KEY` Secret 和 `IMAGE_API_BASE`、`IMAGE_MODEL` Variables。上传与提醒使用下列 Secrets。
+
+| Secret | 内容 |
+| --- | --- |
+| `WECHAT_APP_ID` | 公众号 AppID |
+| `WECHAT_APP_SECRET` | 公众号 AppSecret |
+| `WECHAT_HTTPS_PROXY` | 有固定 IPv4 的认证 HTTPS CONNECT 代理 URL，允许访问 `api.weixin.qq.com:443` |
+| `BARK_PUSH_URL` | Bark App 中含设备密钥的 HTTPS 推送地址，末尾无需标题和正文 |
+
+将代理的固定出口 IPv4 加入微信公众号 IP 白名单。可从 Actions 手动运行，勾选 `preview` 下载生成结果，取消勾选即可创建草稿并提醒。确认试跑成功后将仓库 Variable `WECHAT_DRAFT_ENABLED` 设为 `true`，启用日报后的自动运行。日期状态记录在 `.wechat-drafts/`，用于避免重复创建和重复通知。公众号的正式发布仍由运营者在后台操作。
