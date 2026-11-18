@@ -301,13 +301,21 @@ def publish(folder, receipt):
 
 def notify(day):
     url = os.environ["BARK_PUSH_URL"].rstrip("/")
-    message = "/".join(urllib.parse.quote(s, safe="") for s in ("Agents Radar 草稿已就绪", f"{day} 日报已进入公众号草稿箱"))
     parsed = urllib.parse.urlsplit(url)
-    if parsed.scheme != "https" or parsed.query or parsed.fragment:
+    device_key = parsed.path.lstrip("/")
+    if (parsed.scheme != "https" or not parsed.hostname or parsed.username or parsed.password
+            or parsed.query or parsed.fragment or not re.fullmatch(r"[A-Za-z0-9_-]+", device_key)):
         raise ValueError("Expected a Bark HTTPS device URL without query or fragment")
-    response = request(url + "/" + message, opener=urllib.request.build_opener(NoRedirect()))
+    endpoint = urllib.parse.urlunsplit((parsed.scheme, parsed.netloc, "/push", "", ""))
+    response = request(endpoint, {
+        "device_key": device_key,
+        "title": "Agents Radar 草稿已就绪",
+        "body": f"{day} 日报已进入公众号草稿箱",
+        "group": "Agents Radar",
+    }, content_type="application/json; charset=utf-8")
     if response.get("code") != 200:
         raise RuntimeError("Bark did not confirm delivery")
+    print("Bark accepted the draft reminder")
 
 
 def main():
