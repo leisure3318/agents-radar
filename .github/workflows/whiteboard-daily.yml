@@ -1,0 +1,67 @@
+name: Daily Whiteboard Storyboard
+on:
+  workflow_run:
+    workflows: [Daily Agents Radar]
+    types: [completed]
+    branches: [master]
+  workflow_dispatch:
+    inputs:
+      date:
+        description: Published Shanghai digest date (YYYY-MM-DD)
+        type: string
+        required: true
+
+permissions:
+  contents: read
+  actions: read
+
+concurrency:
+  group: whiteboard-storyboard
+  cancel-in-progress: false
+
+jobs:
+  storyboard:
+    if: >-
+      github.repository == 'leisure3318/agents-radar' &&
+      (github.event_name == 'workflow_dispatch' ||
+       github.event.workflow_run.head_repository.full_name == github.repository)
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: master
+          persist-credentials: false
+      - name: Find published digest without a storyboard
+        id: date
+        env:
+          GH_TOKEN: ${{ github.token }}
+          REPORT_DATE: ${{ inputs.date }}
+          RUN_START: ${{ github.event.workflow_run.run_started_at }}
+        run: |
+          if [ -n "$REPORT_DATE" ]; then
+            [[ "$REPORT_DATE" =~ ^[0-9]{4}-[0-9]{2}-[0-9]{2}$ ]]
+            DAY=$REPORT_DATE
+          else
+            DAY=$(TZ=Asia/Shanghai date -d "$RUN_START" +%F)
+          fi
+          if [ ! -f "digests/$DAY/.published" ]; then
+            [ -z "$REPORT_DATE" ]
+            exit
+          fi
+          existing=$(gh api -X GET "repos/$GITHUB_REPOSITORY/actions/artifacts" -f "name=whiteboard-$DAY" --jq '.artifacts | any(.expired == false)')
+          if [ "$existing" = false ]; then echo "day=$DAY" >> "$GITHUB_OUTPUT"; fi
+      - name: Select stories and write the storyboard
+        if: steps.date.outputs.day != ''
+        env:
+          OPENAI_BASE_URL: ${{ vars.OPENAI_BASE_URL || 'https://api3.985211.win/v1' }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          OPENAI_MODEL: ${{ vars.OPENAI_MODEL }}
+          REPORT_DATE: ${{ steps.date.outputs.day }}
+        run: python3 scripts/whiteboard-plan.py "$REPORT_DATE"
+      - uses: actions/upload-artifact@v4
+        if: steps.date.outputs.day != ''
+        with:
+          name: whiteboard-${{ steps.date.outputs.day }}
+          path: storyboard.json
+          retention-days: 7

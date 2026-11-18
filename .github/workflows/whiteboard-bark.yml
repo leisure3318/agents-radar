@@ -1,0 +1,38 @@
+name: Whiteboard Bark Reminder
+run-name: Whiteboard ready · ${{ github.event.client_payload.date }}
+on:
+  repository_dispatch:
+    types: [whiteboard-ready]
+permissions: {}
+concurrency:
+  group: whiteboard-bark-${{ github.event.client_payload.date }}
+  cancel-in-progress: false
+jobs:
+  bark:
+    if: github.repository == 'leisure3318/agents-radar' && github.actor == 'leisure3318'
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - name: Send review reminder
+        env:
+          DAY: ${{ github.event.client_payload.date }}
+          BARK_PUSH_URL: ${{ secrets.BARK_PUSH_URL }}
+        run: |
+          python3 - <<'PY'
+          import json, os, re
+          from urllib.parse import quote
+          from urllib.request import urlopen
+
+          day = os.environ["DAY"]
+          assert re.fullmatch(r"\d{4}-\d{2}-\d{2}", day)
+          base = os.environ["BARK_PUSH_URL"].rstrip("/")
+          text = f"{day} 视频已生成。请在 Mac 的影片/Agents Radar 白板中审看。"
+          try:
+              with urlopen(f"{base}/{quote('白板日报待审')}/{quote(text)}?group=agents-radar-whiteboard", timeout=20) as response:
+                  status = json.load(response)
+              if status.get("code") != 200:
+                  raise ValueError("Bark rejected the request")
+          except Exception:
+              raise SystemExit("Bark request failed") from None
+          print("Bark accepted the review reminder.")
+          PY
