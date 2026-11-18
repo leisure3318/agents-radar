@@ -1,0 +1,77 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Codex发布0.171.0-alpha.13预览版",
+      "Copilot CLI发布v1.0.114",
+      "Qwen Code更新39条PR，推进共享Agent Loop",
+      "Claude Code权限边界与编排需求受关注",
+      "Gemini CLI聚焦超长会话内存与用量统计",
+      "OpenCode聚焦v2稳定性与服务权限隔离"
+    ],
+    "ai-agents": [
+      "OpenClaw更新36条Issue、65条PR",
+      "OpenClaw出现1条P0，另有7条P1仍开放",
+      "OpenClaw升级失败与子智能体委派受阻",
+      "OpenClaw拟防止活跃会话工作区被误清理",
+      "OpenClaw拟避免模型发布替代引发启动中断",
+      "OpenClaw收紧beta测试豁免的PR已关闭"
+    ],
+    "ai-skills": [
+      "5个Skill首次进入日报，均来自Hot榜",
+      "thinkui以32次安装领跑本批，能力待核查",
+      "runpod-cloud-migrate覆盖多云GPU迁移",
+      "Runpod迁移流程要求成本审批与真实请求验证",
+      "Runpod迁移禁止擅自停删源平台资源",
+      "likec4-dsl上榜，尚未读取到SKILL.md"
+    ],
+    "ai-trending": [
+      "OpenVINO成为今日样本唯一AI项目",
+      "OpenVINO今日新增18颗star",
+      "OpenVINO聚焦AI推理优化与部署",
+      "5个Trending项目仅1个符合AI筛选",
+      "AI主题搜索零结果，未补充榜外项目",
+      "OpenVINO累计star未确认，原始字段为0"
+    ],
+    "ai-web": [
+      "Claude助力100多个开源库的特定安全性质证明",
+      "Anthropic与Theorem探索汇编级形式化验证",
+      "8.1万Claude用户调查：提速伴随失业担忧",
+      "Anthropic用随机对照试验研究AI编程技能",
+      "OpenAI抓取新增芯片设计页面，正文缺失",
+      "11个独立页面含旧文，并非集中发布新公告"
+    ],
+    "ai-hn": [
+      "GPT-6.2 Astra与Sol获1326分、837评",
+      "Claude蛋白质序列训练说法获141分，待核验",
+      "微软七款新模型帖子获74分、39评",
+      "Agent编码CI工具StarSling获85分",
+      "Mastra Factory展示开源软件工厂",
+      "网站安全评估工具挑战Agent绕过防护"
+    ],
+    "ai-arxiv": [
+      "ATI提出跨组织Agent身份、信任与问责架构",
+      "Dynamic Task Allocation研究对话式任务分配",
+      "Colombo探索自组织AI研究与优化",
+      "结构—残差归纳偏置挑战纯预测式预训练",
+      "极性组合假说用因果证据检验否定推理",
+      "隐藏状态相似性或能预测有害行为再诱发"
+    ],
+    "ai-hf": [
+      "腾讯Hy4-flash获205赞、159次下载",
+      "SmolVLM2视频模型下载达43,594次",
+      "SmolVLM2以256M规模切入轻量视频理解",
+      "KORMo-Web-11B主打网页与GUI Agent",
+      "RMBG-3.0聚焦背景移除与透明度抠图",
+      "SmolVLM2带ONNX标签，但不等于量化"
+    ],
+    "ai-community": [
+      "AI编程真能省钱提速？Dev.to热帖获101赞",
+      "跨进程Agent暴露token漏记与失败误报",
+      "RAG调用顺序正确，不代表检索结果已就绪",
+      "别让数据库事务等LLM：开发者讨论边界设计",
+      "SkillSpector将Agent技能纳入安全扫描",
+      "编码Agent总装旧依赖，版本指引成痛点"
+    ]
+  },
+  "en": {}
+}
