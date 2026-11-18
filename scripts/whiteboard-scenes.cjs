@@ -10,6 +10,7 @@ const reports = plan.stories.map((story,i)=>({
     .replace(/^(?:[A-Za-z][A-Za-z0-9_-]* +)+(?=研究)/u,'这项')
     .replace(/^(?:[A-Za-z][A-Za-z0-9_-]* +)+(?=新版)/u,'这个项目的'))
 }));
+if(plan.intro) reports.unshift({name:'00-intro',intro:plan.intro,narration:plan.intro.narration});
 reports.push({name:'04-recap',narration:[plan.recap],number:4});
 const scenes = reports.map(({name,narration})=>{
   const scene = new Scene(name,narration.join('|'));
@@ -23,10 +24,10 @@ const presenter = {x:270,y:890,s:.68,fr:'talk'};
 const viewport = {x:0,y:0,w:1920,h:960};
 const worlds = {};
 const keys = {};
-for(const {name,story,number} of reports){
+for(const {name,story,number,intro} of reports){
   keys[name] = {keys:[{t:0,pose:'think',...presenter}]};
   if(story) keys[name].keys.push({beat:1,pose:'stick'},{beat:2,pose:'present'});
-  const data = {story,number,date:plan.date,summary:plan.stories.map(item=>item.title)};
+  const data = {story,number,intro,date:plan.date,summary:plan.stories.map(item=>item.title)};
   // Draw functions run inside Chromium. Embed only validated JSON as data.
   const draw = `function(g,t,context){(${drawBoard.toString()})(g,t,context,${JSON.stringify(data)})}`;
   worlds[name] = {scenes:[name],assets:[],viewport,presenterSpace:'world',camera:[{t:0,x:960,y:480,z:1}],draw:new Function('return ('+draw+')')()};
@@ -42,8 +43,9 @@ function drawBoard(g,t,{info,lead},data){
     g.fillStyle=color;g.textAlign='left';g.font=size+'px Xiaolai';g.fillText(s,x,y,maxWidth);
   };
   text(data.date+'   /   AI 情报',537,128,34,green);
-  text(data.story?.title??'今天的三条情报',532,237,74);
+  text(data.intro?.question??data.story?.title??'今天的三条情报',532,237,74);
   text('个人观点，仅供参考',1503,886,25);
+  if(data.intro && t < info.segmentStarts[1]+lead) return;
   if(!data.story){
     data.summary.forEach((line,i)=>{
       const y=330+i*158;
