@@ -93,7 +93,7 @@ api("draft/update", {"media_id": media_id, "index": index, "articles": entry})
 saved = api("draft/get", {"media_id": media_id})["news_item"][index]
 after = Snapshot(saved["content"])
 def image_identity(url):
-    return url.removeprefix("https://").removeprefix("http://")
+    return re.sub(r"/[0-9]+$", "", url.removeprefix("https://").removeprefix("http://").split("?", 1)[0])
 
 print(f"Image count before/after: {len(snapshot.images)}/{len(after.images)}")
 assert image_identity(after.images[0]) == image_identity(new_image), (
