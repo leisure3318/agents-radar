@@ -9,19 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: actions/download-artifact@v4
-        with:
-          github-token: ${{ github.token }}
-          run-id: 44247689044
-          name: wechat-2026-11-17
-          path: cover-source
-      - uses: actions/download-artifact@v4
-        with:
-          github-token: ${{ github.token }}
-          run-id: 44240251714
-          name: wechat-2026-11-18
-          path: original-draft
-      - name: Verify the existing draft
+      - name: Replace the first inline image
         env:
           WECHAT_APP_ID: ${{ secrets.WECHAT_APP_ID }}
           WECHAT_APP_SECRET: ${{ secrets.WECHAT_APP_SECRET }}
@@ -39,4 +27,5 @@ jobs:
             -o ConnectTimeout=15 -o ExitOnForwardFailure=yes -o ServerAliveInterval=30 \
             -o ControlMaster=yes -o ControlPath="$tunnel_dir/control" \
             -L 127.0.0.1:18844:api.weixin.qq.com:443 radar-wechat@107.174.65.61
+          curl --fail --silent --show-error --location https://raw.githubusercontent.com/openai/codex/main/.github/codex-cli-splash.png -o codex-splash.png
           python3 scripts/replace-wechat-cover.py
