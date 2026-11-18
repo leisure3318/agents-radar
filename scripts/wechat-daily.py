@@ -366,8 +366,13 @@ def publish(folder, receipt):
                 try:
                     saved = api("draft/get", {"media_id": result["media_id"]})
                     content = saved["news_item"][0]["content"]
-                    if not all(part in content for part in ('href="#section-1"', 'id="section-1"')):
-                        print("::warning::WeChat did not retain both parts of the guide link")
+                    count = len(article["sections"])
+                    retained = sum(
+                        all(re.search(rf"""\b{attr}=["']{prefix}section-{i}["']""", content)
+                            for attr, prefix in (("href", "#"), ("id", "")))
+                        for i in range(1, count + 1)
+                    )
+                    print(f"WeChat read-back retained {retained}/{count} guide links with targets")
                 except (RuntimeError, KeyError, IndexError, ValueError):
                     print("::warning::WeChat saved the draft, but guide links could not be verified")
         receipt.parent.mkdir(parents=True, exist_ok=True)

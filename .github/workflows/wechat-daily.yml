@@ -13,6 +13,9 @@ on:
         description: Generate an artifact without uploading to WeChat
         type: boolean
         default: true
+      preview_run_id:
+        description: Optional successful preview run to publish without regenerating
+        type: string
       skip_cover:
         description: Preview without calling the image API
         type: boolean
@@ -50,6 +53,7 @@ jobs:
           REPORT_DATE: ${{ inputs.date || github.event.workflow_run.run_started_at }}
           PREVIEW: ${{ inputs.preview }}
           SKIP_COVER: ${{ inputs.skip_cover }}
+          PREVIEW_RUN_ID: ${{ inputs.preview_run_id }}
           EVENT_NAME: ${{ github.event_name }}
         run: |
           if [ -z "$REPORT_DATE" ]; then
@@ -71,6 +75,10 @@ jobs:
             [ ! -f ".wechat-drafts/$DAY.notified" ] || exit 0
             echo "publish=true" >> "$GITHUB_OUTPUT"
             [ ! -f ".wechat-drafts/$DAY.json" ] || exit 0
+          fi
+          if [ -n "$PREVIEW_RUN_ID" ]; then
+            [[ "$PREVIEW_RUN_ID" =~ ^[0-9]+$ && "$PREVIEW" == false ]]
+            exit 0
           fi
           echo "generate=true" >> "$GITHUB_OUTPUT"
       - name: Generate article and images
@@ -106,6 +114,7 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 15
     permissions:
+      actions: read
       contents: write
     env:
       DAY: ${{ needs.prepare.outputs.date }}
@@ -116,6 +125,30 @@ jobs:
       - uses: actions/download-artifact@v4
         if: needs.prepare.outputs.generate == 'true'
         with:
+          name: wechat-${{ needs.prepare.outputs.date }}
+          path: wechat-preview
+      - name: Verify the source run
+        if: inputs.preview_run_id != '' && needs.prepare.outputs.generate != 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          PREVIEW_RUN_ID: ${{ inputs.preview_run_id }}
+        run: |
+          [[ "$PREVIEW_RUN_ID" =~ ^[0-9]+$ ]]
+          if [ -f ".wechat-drafts/$DAY.json" ]; then
+            exit 0
+          fi
+          gh api "repos/$GITHUB_REPOSITORY/actions/runs/$PREVIEW_RUN_ID" |
+            jq -e --arg repo "$GITHUB_REPOSITORY" '
+              .head_repository.full_name == $repo and .head_branch == "master" and
+              .path == ".github/workflows/wechat-daily.yml" and .event == "workflow_dispatch" and
+              .conclusion == "success"
+            ' > /dev/null
+          echo "DOWNLOAD_PREVIEW=true" >> "$GITHUB_ENV"
+      - uses: actions/download-artifact@v4
+        if: env.DOWNLOAD_PREVIEW == 'true'
+        with:
+          github-token: ${{ github.token }}
+          run-id: ${{ inputs.preview_run_id }}
           name: wechat-${{ needs.prepare.outputs.date }}
           path: wechat-preview
       - name: Save draft and remember successful steps
