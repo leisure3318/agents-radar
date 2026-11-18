@@ -92,6 +92,7 @@ jobs:
           IMAGE_API_BASE: ${{ vars.IMAGE_API_BASE }}
           IMAGE_API_KEY: ${{ secrets.IMAGE_API_KEY }}
           IMAGE_MODEL: ${{ vars.IMAGE_MODEL }}
+          WECHAT_BLOCKED_DOMAINS: ${{ vars.WECHAT_BLOCKED_DOMAINS }}
         run: |
           args=()
           if [ "$SKIP_COVER" = true ]; then args+=(--skip-cover); fi
