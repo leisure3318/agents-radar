@@ -58,7 +58,8 @@ class Snapshot(HTMLParser):
 
     def handle_starttag(self, tag, attrs):
         if tag == "img":
-            self.images.append(dict(attrs)["src"])
+            attributes = dict(attrs)
+            self.images.append(attributes.get("data-src") or attributes.get("src") or "")
         self.tags.append((tag, dict(attrs)))
 
 baseline = json.loads(Path("original-draft/article.json").read_text())
