@@ -25,7 +25,7 @@ prompt = """从当天中文 AI 日报挑 3 条最值得用白板解释、来自�
 stories 每条含 title（≤16 字）, product（≤24 字）, source（日报中支持该条事实的原始发布链接或论文链接）, category（日报键）, stages（严格 3 项）。
 每项 stage 含 label（≤7 字）, detail（≤12 字，具体对象或动作）, narration（12～52 字、单句、以中文句末标点结束）。
 stages 按实际机制的起始状态→关键动作→结果组织，为状态变化或信息传递设计，不设套话。
-第一段第一句用具体问题或事实切入，每条第一句介绍主体。研究保留适用条件与基准，避免泛化。数字优先在 detail 标注，旁白可用定性描述。
+第一条第一句用具体问题或事实切入。产品英文原名、版本号与数字写在 product 或 detail，旁白和 recap 使用中文通用称呼与定性描述，禁止拉丁字母和阿拉伯数字。研究保留适用条件与基准，避免泛化。
 仅输出指定 JSON，不生成代码或 Markdown。"""
 payload = {
     "model": os.environ.get("OPENAI_MODEL") or "gpt-6.1-sol",

@@ -6,7 +6,9 @@ const {writePresenterPlan} = require(path.join(root,'lib/presenter-plan.cjs'));
 const plan = JSON.parse(fs.readFileSync(path.join(__dirname,'storyboard.json')));
 const reports = plan.stories.map((story,i)=>({
   name: `0${i+1}-story`, story, number:i+1,
-  narration:story.stages.map(stage=>stage.narration)
+  narration:story.stages.map(stage=>stage.narration
+    .replace(/^(?:[A-Za-z][A-Za-z0-9_-]* +)+(?=研究)/u,'这项')
+    .replace(/^(?:[A-Za-z][A-Za-z0-9_-]* +)+(?=新版)/u,'这个项目的'))
 }));
 reports.push({name:'04-recap',narration:[plan.recap],number:4});
 const scenes = reports.map(({name,narration})=>{
