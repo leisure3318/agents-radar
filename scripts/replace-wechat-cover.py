@@ -65,13 +65,12 @@ class Snapshot(HTMLParser):
 
 snapshot = Snapshot(original["content"])
 assert title.startswith("Codex") and snapshot.images
-with tempfile.TemporaryDirectory() as folder:
-    photo = Path(folder) / "codex.jpg"
-    daily["jpeg"](Path("codex-splash.png").read_bytes(), photo)
-    boundary = "photo-" + os.urandom(12).hex()
-    header = f'--{boundary}\r\nContent-Disposition: form-data; name="media"; filename="codex.jpg"\r\nContent-Type: image/jpeg\r\n\r\n'
-    body = header.encode() + photo.read_bytes() + f"\r\n--{boundary}--\r\n".encode()
-    new_image = api("media/uploadimg", body, f"multipart/form-data; boundary={boundary}")["url"]
+photo = Path("codex-splash.png")
+assert photo.stat().st_size < 1024 * 1024
+boundary = "photo-" + os.urandom(12).hex()
+header = f'--{boundary}\r\nContent-Disposition: form-data; name="media"; filename="codex.png"\r\nContent-Type: image/png\r\n\r\n'
+body = header.encode() + photo.read_bytes() + f"\r\n--{boundary}--\r\n".encode()
+new_image = api("media/uploadimg", body, f"multipart/form-data; boundary={boundary}")["url"]
 
 editable = ("article_type", "title", "author", "digest", "content", "thumb_media_id",
             "content_source_url", "show_cover_pic", "need_open_comment", "only_fans_can_comment")
