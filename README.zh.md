@@ -436,7 +436,7 @@ GET $SKILLS_PROXY_URL?view=hot&per_page=30
 
 ### 微信公众号草稿
 
-`WeChat Daily Draft` 在 `Daily Agents Radar` 结束后读取北京时间当天已落盘的中文日报。文章包含开头导读、分节精选和原文链接。正文配图来自可读取的原文页面，封面由图片 API 生成。生成结果可在 Actions 运行页下载，保存草稿成功后通过 Bark 提醒。
+`WeChat Daily Draft` 在 `Daily Agents Radar` 结束后读取北京时间当天已落盘的中文日报。文章包含开头导读、分节精选和原文链接。正文配图来自可读取的原文页面，封面优先由图片 API 生成，接口失败时使用带日期的固定版式。生成结果可在 Actions 运行页下载，保存草稿成功后通过 Bark 提醒。
 
 已有文字 API 配置沿用 `OPENAI_API_KEY`、`OPENAI_BASE_URL` 和 `OPENAI_MODEL`。图片服务支持 `IMAGE_API_KEY` Secret 和 `IMAGE_API_BASE`、`IMAGE_MODEL` Variables。上传与提醒使用下列 Secrets。
 
