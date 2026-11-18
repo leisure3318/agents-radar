@@ -1,203 +1,36 @@
 name: WeChat Daily Draft
 on:
-  workflow_run:
-    workflows: [Daily Agents Radar]
-    types: [completed]
-    branches: [master]
   workflow_dispatch:
-    inputs:
-      date:
-        description: Shanghai report date (YYYY-MM-DD), blank for today
-        type: string
-      preview:
-        description: Generate an artifact without uploading to WeChat
-        type: boolean
-        default: true
-      preview_run_id:
-        description: Optional successful preview run to publish without regenerating
-        type: string
-      skip_cover:
-        description: Preview without calling the image API
-        type: boolean
-        default: false
-
-concurrency:
-  group: wechat-daily-draft
-  cancel-in-progress: false
-
 permissions:
   contents: read
-
+  actions: read
 jobs:
-  prepare:
-    if: >-
-      github.repository == 'leisure3318/agents-radar' &&
-      github.ref == 'refs/heads/master' &&
-      (github.event_name == 'workflow_dispatch' ||
-       (github.event.workflow_run.head_repository.full_name == github.repository &&
-        vars.WECHAT_DRAFT_ENABLED == 'true'))
+  replace-cover:
     runs-on: ubuntu-latest
-    timeout-minutes: 25
-    outputs:
-      date: ${{ steps.date.outputs.date }}
-      generate: ${{ steps.date.outputs.generate }}
-      publish: ${{ steps.date.outputs.publish }}
     steps:
       - uses: actions/checkout@v4
-        with:
-          ref: master
-          persist-credentials: false
-      - name: Select published report
-        id: date
-        env:
-          REPORT_DATE: ${{ inputs.date || github.event.workflow_run.run_started_at }}
-          PREVIEW: ${{ inputs.preview }}
-          SKIP_COVER: ${{ inputs.skip_cover }}
-          PREVIEW_RUN_ID: ${{ inputs.preview_run_id }}
-          EVENT_NAME: ${{ github.event_name }}
-        run: |
-          if [ -z "$REPORT_DATE" ]; then
-            DAY=$(TZ=Asia/Shanghai date +%F)
-          else
-            if [ "$EVENT_NAME" = workflow_dispatch ]; then
-              [[ "$REPORT_DATE" =~ ^[0-9]{4}-[0-9]{2}-[0-9]{2}$ ]]
-            fi
-            DAY=$(TZ=Asia/Shanghai date -d "$REPORT_DATE" +%F)
-          fi
-          if [ ! -f "digests/$DAY/.published" ]; then
-            echo "No published digest for $DAY"
-            [ "$EVENT_NAME" = workflow_run ]
-            exit
-          fi
-          echo "date=$DAY" >> "$GITHUB_OUTPUT"
-          if [ "$PREVIEW" != true ]; then
-            [ "$SKIP_COVER" != true ]
-            [ ! -f ".wechat-drafts/$DAY.notified" ] || exit 0
-            echo "publish=true" >> "$GITHUB_OUTPUT"
-            [ ! -f ".wechat-drafts/$DAY.json" ] || exit 0
-          fi
-          if [ -n "$PREVIEW_RUN_ID" ]; then
-            [[ "$PREVIEW_RUN_ID" =~ ^[0-9]+$ && "$PREVIEW" == false ]]
-            exit 0
-          fi
-          echo "generate=true" >> "$GITHUB_OUTPUT"
-      - name: Generate article and images
-        if: steps.date.outputs.generate == 'true'
-        env:
-          DAY: ${{ steps.date.outputs.date }}
-          SKIP_COVER: ${{ inputs.skip_cover }}
-          OPENAI_BASE_URL: ${{ vars.OPENAI_BASE_URL }}
-          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-          OPENAI_MODEL: ${{ vars.OPENAI_MODEL || 'gpt-6.1-sol' }}
-          IMAGE_API_BASE: ${{ vars.IMAGE_API_BASE }}
-          IMAGE_API_KEY: ${{ secrets.IMAGE_API_KEY }}
-          IMAGE_MODEL: ${{ vars.IMAGE_MODEL }}
-        run: |
-          args=()
-          if [ "$SKIP_COVER" = true ]; then args+=(--skip-cover); fi
-          if ! command -v convert >/dev/null; then
-            sudo apt-get update
-            sudo apt-get install -y imagemagick
-          fi
-          python3 scripts/wechat-daily.py generate "$DAY" "${args[@]}"
-      - uses: actions/upload-artifact@v4
-        if: steps.date.outputs.generate == 'true'
-        with:
-          name: wechat-${{ steps.date.outputs.date }}
-          path: wechat-preview/
-          overwrite: true
-          retention-days: 7
-
-  draft:
-    needs: prepare
-    if: needs.prepare.outputs.publish == 'true'
-    runs-on: ubuntu-latest
-    timeout-minutes: 15
-    permissions:
-      actions: read
-      contents: write
-    env:
-      DAY: ${{ needs.prepare.outputs.date }}
-    steps:
-      - uses: actions/checkout@v4
-        with:
-          ref: master
       - uses: actions/download-artifact@v4
-        if: needs.prepare.outputs.generate == 'true'
-        with:
-          name: wechat-${{ needs.prepare.outputs.date }}
-          path: wechat-preview
-      - name: Verify the source run
-        if: inputs.preview_run_id != '' && needs.prepare.outputs.generate != 'true'
-        env:
-          GH_TOKEN: ${{ github.token }}
-          PREVIEW_RUN_ID: ${{ inputs.preview_run_id }}
-        run: |
-          [[ "$PREVIEW_RUN_ID" =~ ^[0-9]+$ ]]
-          if [ -f ".wechat-drafts/$DAY.json" ]; then
-            exit 0
-          fi
-          gh api "repos/$GITHUB_REPOSITORY/actions/runs/$PREVIEW_RUN_ID" |
-            jq -e --arg repo "$GITHUB_REPOSITORY" '
-              .head_repository.full_name == $repo and .head_branch == "master" and
-              .path == ".github/workflows/wechat-daily.yml" and .event == "workflow_dispatch" and
-              .conclusion == "success"
-            ' > /dev/null
-          echo "DOWNLOAD_PREVIEW=true" >> "$GITHUB_ENV"
-      - uses: actions/download-artifact@v4
-        if: env.DOWNLOAD_PREVIEW == 'true'
         with:
           github-token: ${{ github.token }}
-          run-id: ${{ inputs.preview_run_id }}
-          name: wechat-${{ needs.prepare.outputs.date }}
-          path: wechat-preview
-      - name: Save draft and remember successful steps
+          run-id: 44247689044
+          name: wechat-2026-11-17
+          path: cover-source
+      - name: Replace and verify cover
         env:
           WECHAT_APP_ID: ${{ secrets.WECHAT_APP_ID }}
           WECHAT_APP_SECRET: ${{ secrets.WECHAT_APP_SECRET }}
           WECHAT_SSH_KEY: ${{ secrets.WECHAT_SSH_KEY }}
           WECHAT_SSH_KNOWN_HOSTS: ${{ vars.WECHAT_SSH_KNOWN_HOSTS }}
-          BARK_PUSH_URL: ${{ secrets.BARK_PUSH_URL }}
         run: |
-          git config user.name 'github-actions[bot]'
-          git config user.email 'github-actions[bot]@users.noreply.github.com'
-          record() {
-            git add "$1"
-            git commit -m "$2" -m "Scope-risk: narrow"
-            for attempt in 1 2 3; do
-              git pull --rebase
-              if git push; then return 0; fi
-              sleep 3
-            done
-            return 1
-          }
-          if [ ! -f ".wechat-drafts/$DAY.json" ]; then
-            for key in WECHAT_APP_ID WECHAT_APP_SECRET WECHAT_SSH_KEY WECHAT_SSH_KNOWN_HOSTS; do
-              if [ -z "${!key}" ]; then
-                echo "::error::Missing GitHub Actions configuration $key"
-                exit 1
-              fi
-            done
-            umask 077
-            tunnel_dir=$(mktemp -d)
-            trap 'ssh -S "$tunnel_dir/control" -O exit radar-wechat@107.174.65.61 >/dev/null 2>&1 || true; rm -r -- "$tunnel_dir"' EXIT
-            printf '%s\n' "$WECHAT_SSH_KEY" > "$tunnel_dir/key"
-            printf '%s\n' "$WECHAT_SSH_KNOWN_HOSTS" > "$tunnel_dir/known_hosts"
-            unset WECHAT_SSH_KEY
-            ssh -fNT -i "$tunnel_dir/key" -o BatchMode=yes -o IdentitiesOnly=yes \
-              -o StrictHostKeyChecking=yes -o UserKnownHostsFile="$tunnel_dir/known_hosts" \
-              -o ConnectTimeout=15 -o ExitOnForwardFailure=yes -o ServerAliveInterval=30 \
-              -o ControlMaster=yes -o ControlPath="$tunnel_dir/control" \
-              -L 127.0.0.1:18844:api.weixin.qq.com:443 radar-wechat@107.174.65.61
-            python3 scripts/wechat-daily.py publish "$DAY"
-            record ".wechat-drafts/$DAY.json" "Remember WeChat drafts to avoid duplicate uploads"
-          fi
-          if [ ! -f ".wechat-drafts/$DAY.notified" ]; then
-            if [ -z "$BARK_PUSH_URL" ]; then
-              echo "::error::Missing GitHub Secret BARK_PUSH_URL; WeChat draft is already saved"
-              exit 1
-            fi
-            python3 scripts/wechat-daily.py notify "$DAY"
-            touch ".wechat-drafts/$DAY.notified"
-            record ".wechat-drafts/$DAY.notified" "Remember delivery of the WeChat draft reminder"
-          fi
+          umask 077
+          tunnel_dir=$(mktemp -d)
+          trap 'ssh -S "$tunnel_dir/control" -O exit radar-wechat@107.174.65.61 >/dev/null 2>&1 || true; rm -r -- "$tunnel_dir"' EXIT
+          printf '%s\n' "$WECHAT_SSH_KEY" > "$tunnel_dir/key"
+          printf '%s\n' "$WECHAT_SSH_KNOWN_HOSTS" > "$tunnel_dir/known_hosts"
+          unset WECHAT_SSH_KEY
+          ssh -fNT -i "$tunnel_dir/key" -o BatchMode=yes -o IdentitiesOnly=yes \
+            -o StrictHostKeyChecking=yes -o UserKnownHostsFile="$tunnel_dir/known_hosts" \
+            -o ConnectTimeout=15 -o ExitOnForwardFailure=yes -o ServerAliveInterval=30 \
+            -o ControlMaster=yes -o ControlPath="$tunnel_dir/control" \
+            -L 127.0.0.1:18844:api.weixin.qq.com:443 radar-wechat@107.174.65.61
+          python3 scripts/replace-wechat-cover.py
