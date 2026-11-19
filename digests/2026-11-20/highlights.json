@@ -1,0 +1,77 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Codex发布0.172.0-alpha.2预发布版",
+      "Copilot CLI连发两个1.0.115版本",
+      "Claude Code聚焦删除防护与桌面稳定性",
+      "OpenCode更新50条PR，聚焦V2稳定性",
+      "Qwen Code推进Managed Agent与Web Shell",
+      "多款CLI直面MCP认证与信任边界难题"
+    ],
+    "ai-agents": [
+      "OpenClaw推出2026.11.10-beta.1",
+      "OpenClaw支持从ClawHub安装智能体模板",
+      "单一CLAW.md整合模板与随包技能",
+      "OpenClaw模板安装接入原生信任检查",
+      "OpenClaw仍有1个P0、6个P1问题开放",
+      "OpenClaw更新60条PR，升级与认证成焦点"
+    ],
+    "ai-skills": [
+      "5款Skill首次入榜，全部来自Hot榜",
+      "software-factory获46次安装，设计多代理工厂",
+      "software-factory要求逐个增加自动触发器",
+      "software-factory强调每个PR保留人工审查",
+      "unslop-ui获26次安装，以20条规则清理界面",
+      "Google ADK编码Skill覆盖Python与Go"
+    ],
+    "ai-trending": [
+      "app-store-compliance今日新增542星",
+      "app-store-compliance汇总117类拒审模式",
+      "应用上架合规知识开始封装为Agent技能",
+      "AI编程配套工具延伸至隐私与提交前检查",
+      "合规工具能否接入CI，决定自动化价值",
+      "5个趋势仓库仅1个明确关联AI生态"
+    ],
+    "ai-web": [
+      "Anthropic携Theorem探索规模化形式验证",
+      "Claude为超100个开源库证明安全属性",
+      "Claude形式验证深入RISC-V汇编层",
+      "安全属性获证明，不等于软件零漏洞",
+      "Anthropic研究正文标注10月22日发布",
+      "OpenAI新增ChatGPT性能相关路径，正文缺失"
+    ],
+    "ai-hn": [
+      "Anthropic IPO定价帖获385分、727条评论",
+      "OpenAI芯片设计帖获218分、163条评论",
+      "端侧AI讨论获95分，聚焦本地推理价值",
+      "OpenAI实时通信问题帖获66分",
+      "Codex沙箱引关注，代码代理隔离成焦点",
+      "KradleBench用Minecraft评测多智能体"
+    ],
+    "ai-arxiv": [
+      "On-Policy Morphing探索混合注意力改造",
+      "新论文追问通用进步能否替代特定训练数据",
+      "越狱检测研究尝试绕开下游分类器",
+      "Agentic Harness以用户需求驱动框架演化",
+      "Kaer聚焦多智能体动态重规划安全",
+      "Creative AI Researcher强调构思可追溯"
+    ],
+    "ai-hf": [
+      "DaisyRose-27B入榜，支持图文输入",
+      "DaisyRose-27B获147赞、166次下载",
+      "Rumble-2-Flash聚焦自动语音识别",
+      "Rumble-2-Flash获149赞、929次下载",
+      "两款热门模型标签均指向Qwen相关架构",
+      "Rumble-2-Flash尚缺低延迟实测证据"
+    ],
+    "ai-community": [
+      "普通表格能否劫持Agent？讨论获12条评论",
+      "两个Agent各自决策正确，却破坏共享状态",
+      "AI记住三件真事，仍可能用错上下文",
+      "Cedar策略让Agent权限脱离提示词约定",
+      "Gemini Decision 1接受800场景测试",
+      "AI生成测试被质疑是在给自己批作业"
+    ]
+  },
+  "en": {}
+}
