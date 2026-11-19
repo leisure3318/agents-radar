@@ -1,6 +1,6 @@
 # ArXiv AI Research Digest 2026-11-19
 
-> Source: [ArXiv](https://arxiv.org/) (cs.AI, cs.CL, cs.LG) | 20 papers | Generated: 2026-11-18 17:15 UTC
+> Source: [ArXiv](https://arxiv.org/) (cs.AI, cs.CL, cs.LG) | 50 papers | Generated: 2026-11-19 04:29 UTC
 
 ---
 

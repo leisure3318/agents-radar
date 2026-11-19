@@ -1,76 +1,76 @@
 {
   "zh": {
     "ai-cli": [
-      "Codex发布0.171.0-alpha.13预览版",
-      "Copilot CLI发布v1.0.114",
-      "Qwen Code更新39条PR，推进共享Agent Loop",
-      "Claude Code权限边界与编排需求受关注",
-      "Gemini CLI聚焦超长会话内存与用量统计",
-      "OpenCode聚焦v2稳定性与服务权限隔离"
+      "Claude Code v2.1.328扩展自动模式",
+      "Codex 0.172.0-alpha.1改进沙箱",
+      "Gemini CLI v0.69.0正式发布",
+      "Gemini CLI预览版发布，Nightly构建失败",
+      "OpenCode推进Code Mode与插件权限",
+      "Qwen Code推进托管Agent与记忆一致性"
     ],
     "ai-agents": [
-      "OpenClaw更新36条Issue、65条PR",
-      "OpenClaw出现1条P0，另有7条P1仍开放",
-      "OpenClaw升级失败与子智能体委派受阻",
-      "OpenClaw拟防止活跃会话工作区被误清理",
-      "OpenClaw拟避免模型发布替代引发启动中断",
-      "OpenClaw收紧beta测试豁免的PR已关闭"
+      "OpenClaw更新32条Issue、52条PR",
+      "OpenClaw出现P0级Windows启动阻塞报告",
+      "OpenClaw多条P1报告涉及消息丢失",
+      "OpenClaw升级预检拟缓解数据库繁忙问题",
+      "OpenClaw迁移PR拟降低磁盘空间要求",
+      "OpenClaw模型发现拟摆脱npm可达性依赖"
     ],
     "ai-skills": [
-      "5个Skill首次进入日报，均来自Hot榜",
-      "thinkui以32次安装领跑本批，能力待核查",
-      "runpod-cloud-migrate覆盖多云GPU迁移",
-      "Runpod迁移流程要求成本审批与真实请求验证",
-      "Runpod迁移禁止擅自停删源平台资源",
-      "likec4-dsl上榜，尚未读取到SKILL.md"
+      "5个新发现Skill均来自Hot小时榜",
+      "thinkui以32次安装领跑本批新发现",
+      "Runpod迁移Skill覆盖AWS等云平台",
+      "Runpod迁移流程纳入成本审批与回滚",
+      "Runpod迁移要求真实请求对比新旧服务",
+      "likec4-dsl上榜，SKILL.md仍待核查"
     ],
     "ai-trending": [
-      "OpenVINO成为今日样本唯一AI项目",
-      "OpenVINO今日新增18颗star",
-      "OpenVINO聚焦AI推理优化与部署",
-      "5个Trending项目仅1个符合AI筛选",
-      "AI主题搜索零结果，未补充榜外项目",
-      "OpenVINO累计star未确认，原始字段为0"
+      "OpenSPG/KAG累计获9178颗星",
+      "KAG将逻辑推理引入知识检索",
+      "KAG瞄准专业领域事实问答",
+      "KAG值得检验相对纯向量RAG的增益",
+      "KAG评估需兼顾证据追溯与集成成本",
+      "Trending抓取缺失，KAG为唯一有效样本"
     ],
     "ai-web": [
-      "Claude助力100多个开源库的特定安全性质证明",
-      "Anthropic与Theorem探索汇编级形式化验证",
-      "8.1万Claude用户调查：提速伴随失业担忧",
-      "Anthropic用随机对照试验研究AI编程技能",
-      "OpenAI抓取新增芯片设计页面，正文缺失",
-      "11个独立页面含旧文，并非集中发布新公告"
+      "Anthropic宣布IPO定价每股83美元",
+      "Anthropic基础发行总额约813.4亿美元",
+      "Anthropic预计以ANT代码于19日交易",
+      "Anthropic网络安全CVP扩展三级访问",
+      "Anthropic称Claude解决两项黑洞相关问题",
+      "OpenAI新增3个独立页面，正文尚缺"
     ],
     "ai-hn": [
-      "GPT-6.2 Astra与Sol获1326分、837评",
-      "Claude蛋白质序列训练说法获141分，待核验",
-      "微软七款新模型帖子获74分、39评",
-      "Agent编码CI工具StarSling获85分",
-      "Mastra Factory展示开源软件工厂",
-      "网站安全评估工具挑战Agent绕过防护"
+      "OpenAI芯片设计帖获173分、112条评论",
+      "LLM辅助逆向工程获106分",
+      "Mastra开源软件工厂获88分",
+      "Maritime推出生产级Agent托管云",
+      "Anthropic IPO引发股权与责任讨论",
+      "KradleBench用Minecraft评估多智能体"
     ],
     "ai-arxiv": [
-      "ATI提出跨组织Agent身份、信任与问责架构",
-      "Dynamic Task Allocation研究对话式任务分配",
-      "Colombo探索自组织AI研究与优化",
-      "结构—残差归纳偏置挑战纯预测式预训练",
-      "极性组合假说用因果证据检验否定推理",
-      "隐藏状态相似性或能预测有害行为再诱发"
+      "MoE-Context探索按需筛选上下文",
+      "LoopCache加速循环模型长上下文解码",
+      "注意力网络尝试转为可解释硬逻辑电路",
+      "RSIBench-Infra评估生产级设施自优化",
+      "长任务Agent研究语义交接与按需取证",
+      "PIPETTE以紫队攻防应对提示注入"
     ],
     "ai-hf": [
-      "腾讯Hy4-flash获205赞、159次下载",
-      "SmolVLM2视频模型下载达43,594次",
-      "SmolVLM2以256M规模切入轻量视频理解",
-      "KORMo-Web-11B主打网页与GUI Agent",
-      "RMBG-3.0聚焦背景移除与透明度抠图",
-      "SmolVLM2带ONNX标签，但不等于量化"
+      "Inworld语音隔离模型获94个赞",
+      "voice-isolator为本批唯一入选模型",
+      "voice-isolator聚焦语音增强与降噪",
+      "voice-isolator下载数为0，使用量待核",
+      "Inworld语音模型可探索识别前处理",
+      "voice-isolator权重与许可证仍待核查"
     ],
     "ai-community": [
-      "AI编程真能省钱提速？Dev.to热帖获101赞",
-      "跨进程Agent暴露token漏记与失败误报",
-      "RAG调用顺序正确，不代表检索结果已就绪",
-      "别让数据库事务等LLM：开发者讨论边界设计",
-      "SkillSpector将Agent技能纳入安全扫描",
-      "编码Agent总装旧依赖，版本指引成痛点"
+      "AI何时该停止尝试？Dev.to文章获12评",
+      "Agent长任务讨论从提示词转向运行框架",
+      "LLM按队列扩容，竟在满载时缩容",
+      "Gemma 4无服务器GPU部署实践受关注",
+      "Agent成本评估：别数工具，改数交互轮次",
+      "编码Agent测试通过，仍可能越界改文件"
     ]
   },
   "en": {}

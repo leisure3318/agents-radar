@@ -1,6 +1,6 @@
 # OpenClaw 生态日报 2026-11-19
 
-> Issues: 36 | PRs: 65 | 覆盖项目: 13 个 | 生成时间: 2026-11-18 17:15 UTC
+> Issues: 32 | PRs: 52 | 覆盖项目: 13 个 | 生成时间: 2026-11-19 04:29 UTC
 
 - [OpenClaw](https://github.com/openclaw/openclaw)
 - [NanoBot](https://github.com/HKUDS/nanobot)
@@ -21,246 +21,262 @@
 ## OpenClaw 项目深度报告
 
 # OpenClaw 项目动态日报
-**日期：2026-11-19｜仓库：[openclaw/openclaw](https://github.com/openclaw/openclaw)**
+**日期：2026-11-19｜统计窗口：过去 24 小时｜项目：[openclaw/openclaw](https://github.com/openclaw/openclaw)**
 
-> **统计口径**：依据提供的过去 24 小时快照，记录更新时间主要为 11 月 18 日。PR 明细仅覆盖部分更新，且评论数为 `undefined`；未提供评论正文及合并标记，因此下文严格区分“已关闭”“已合并”和“拟修复”，不将关闭等同于修复上线。
+> **数据口径**：本日报基于所提供的 32 条 Issue 和 30 条 PR 明细（PR 更新总计 52 条）。PR 的 `CLOSED` 状态不能单独证明已经合并；评论正文、PR 评论数及合并记录未提供，因此不将“关闭”等同于“修复已上线”，也不推断评论内容。
 
 ## 1. 今日速览
 
-过去 24 小时共有 **36 条 Issue 更新、65 条 PR 更新**，其中 Issue 新开/活跃 30 条、关闭 6 条，PR 待合并 41 条、合并或关闭 24 条，项目开发与反馈活动较为密集。今日**没有新版本发布**，工作重心主要落在升级链路、Doctor 迁移、会话状态与多运行时工具权限的稳定性治理。风险端出现 **1 条 P0、7 条仍开放的 P1 Issue**，升级失败与子智能体委派受阻值得优先关注。整体呈现“修复投入活跃、稳定性压力仍高”的状态，尚不能据此认定近期回归已经消除。
+过去 24 小时共有 **32 条 Issue 更新、52 条 PR 更新**，其中 Issue 仍开放 28 条、关闭 4 条，PR 待合并 30 条、合并或关闭 22 条，项目开发与问题分诊活跃。今日无新版本发布，工作重点集中在 **2026.11.5 相关稳定性、升级恢复、数据库迁移和多会话性能**。风险端出现一条标为 P0 的 Windows 启动阻塞报告，以及多条涉及会话中断、消息丢失和 Gateway 可用性的 P1 问题，表明当前可靠性压力较高。积极信号是部分数据库迁移问题已出现直接对应的修复 PR，但多项高影响问题仍需补充信息或维护者确认，尚不能据此认定风险已经收敛。
 
 ## 2. 项目进展
 
-### 已关闭的重要 PR：有推进信号，但不能确认已合并
+### 今日已关闭的重要 PR
 
-| 方向 | 重要变更 | 状态与价值 |
+以下仅确认“已关闭”，实际是否合并、是否进入发布版本仍需核验。
+
+| 方向 | 重要 PR | 推进内容与意义 |
 |---|---|---|
-| 工作区生命周期 | [#201333](https://github.com/openclaw/openclaw/pull/201333)：避免近期使用过的会话 worktree 被闲置清理 | **CLOSED**；针对活动时间未刷新导致误清理，以及已移除目录被重新创建为空目录的问题 |
-| Gateway 启动 | [#201312](https://github.com/openclaw/openclaw/pull/201312)：模型准备被新发布替代时继续启动 | **CLOSED**；旨在避免旧模型运行时发布的取消信号中断启动 |
-| 发布验证边界 | [#201343](https://github.com/openclaw/openclaw/pull/201343)：只接受精确匹配的低风险 beta 测试豁免 | **CLOSED**；收紧整批测试豁免可能掩盖其他产品故障的风险 |
-| 发布可观测性 | [#201196](https://github.com/openclaw/openclaw/pull/201196)、[#201201](https://github.com/openclaw/openclaw/pull/201201)：显示验证当前步骤、保留 npm registry 失败诊断 | 均为 **CLOSED**；改善发布排障信息，不代表新增终端用户能力 |
-| 测试覆盖与发布审计 | [#201200](https://github.com/openclaw/openclaw/pull/201200)、[#201197](https://github.com/openclaw/openclaw/pull/201197)：保留直接消费者测试、支持浅克隆发布审计 | 均为 **CLOSED**；侧重工程可靠性与发布流程可用性 |
+| 升级可靠性 | [#201545](https://github.com/openclaw/openclaw/pull/201545)、[#201579](https://github.com/openclaw/openclaw/pull/201579) | 分别针对繁忙 agent 数据库导致更新预检失败、迁移前数据库镜像空间要求过高的问题，着力降低升级门槛。 |
+| 模型发现 | [#201493](https://github.com/openclaw/openclaw/pull/201493) | 尝试让 ChatGPT 模型发现不再依赖 npm 可达性；对应 Issue [#201480](https://github.com/openclaw/openclaw/issues/201480) 同日关闭。两者状态同步，但仍需确认合并及发布情况。 |
+| 大规模会话性能 | [#201602](https://github.com/openclaw/openclaw/pull/201602)、[#201566](https://github.com/openclaw/openclaw/pull/201566)、[#201591](https://github.com/openclaw/openclaw/pull/201591) | 分别优化大型子代理注册表的 spawn 检查、转录搜索片段生成，以及会话列表刷新 CPU 开销，面向长期运行和多 agent 场景。 |
+| 开发工作流 | [#201597](https://github.com/openclaw/openclaw/pull/201597) | 复用不同 base commit 对应的 worktree 模板，减少会话交替启动时的重复准备。 |
+| Codex 降级策略 | [#201596](https://github.com/openclaw/openclaw/pull/201596) | 高速服务档位不可用时，先尝试同一模型的较低速度档位，再触发模型回退，目标是保留模型与线程连续性。 |
+| OpenClaw ID 体验 | [#201556](https://github.com/openclaw/openclaw/pull/201556)、[#201555](https://github.com/openclaw/openclaw/pull/201555) | 分别处理插件白名单阻断 Access 页面，以及 macOS 登录未使用默认浏览器的问题。 |
 
-**进展判断**：本日可见成果以基础设施、生命周期与发布质量治理为主，而非大规模功能扩张。快照显示 24 条 PR 已合并或关闭，但无法拆分实际合并数量，也无法确认上述变更是否进入默认分支或发行版。
+**整体判断**：本日推进以“可靠性修补和规模化优化”为主，而非大型新功能交付。关闭记录覆盖升级、模型接入、会话性能等关键路径，但缺少合并信息，不宜计算实际功能交付率。
 
-### 值得跟踪的开放修复
+### 仍在推进的关键修复
 
-- **运行中会话保护**：[PR #201271](https://github.com/openclaw/openclaw/pull/201271) 拟避免用户在生成过程中发送 `/think` 等命令时，当前回答因 transcript 重写冲突而丢失；标记 **P1、待维护者审阅**。
-- **只读配置下的更新**：[PR #201331](https://github.com/openclaw/openclaw/pull/201331) 拟允许插件未改变配置时完成更新，减少受管、只读 `openclaw.json` 环境的错误失败。
-- **后台进程清理**：[PR #201315](https://github.com/openclaw/openclaw/pull/201315) 拟补齐 cron 等会话结束后遗留进程及后续子进程的清理边界；规模 XL，存在兼容性风险，仍待作者处理。
+- **Git 安装升级恢复**：[PR #201600](https://github.com/openclaw/openclaw/pull/201600) 修复新版本已启动却仍报告 `post-update-failed`；[PR #201538](https://github.com/openclaw/openclaw/pull/201538) 处理版本链接已切换、Gateway 尚未启动时被误判为“当前版本”的半完成状态。二者均为 P1，后者仍等待作者处理。
+- **脚本与符号链接兼容性**：[PR #201598](https://github.com/openclaw/openclaw/pull/201598) 已标注证据充分、等待维护者，关联 macOS 打包问题 [#201528](https://github.com/openclaw/openclaw/issues/201528)。
 
 ## 3. 社区热点
 
-**讨论热度整体有限**：已列 Issue 最高仅 3 条评论，所有提供的 👍 均为 0；PR 缺少有效评论计数，不能据此给出可信的 PR 热度排名。
+所列 Issue 的最高评论数仅为 4，所有条目的 👍 均为 0；因此下列是**相对活跃话题**，不代表已形成大规模社区共识。PR 评论数为 `undefined`，无法进行讨论热度排名。
 
-1. **升级失败是最高讨论项**  
-   [Issue #201057](https://github.com/openclaw/openclaw/issues/201057) 有 **3 条评论**，标记 **P0、用户体验发布阻断**。报告涉及 macOS ARM64 上的 2026.11.2 更新失败，目前仍需维护者审阅和现场复现。其核心诉求是恢复可依赖的升级路径，而非增加功能。
-
-2. **升级成本显著超出预期**  
-   [Issue #201251](https://github.com/openclaw/openclaw/issues/201251) 有 **2 条评论**：报告一次升级窗口耗时 **5,409 秒，约 90 分钟**，涉及保护目录全量扫描与数据库集合重复复制。该案例说明更新安全机制本身可能成为可用性瓶颈，但不能外推为所有环境的平均表现。
-
-3. **长期运行后的恢复行为不符合预期**  
-   [Issue #201183](https://github.com/openclaw/openclaw/issues/201183) 有 **2 条评论**：`deliver:false` 后交付状态停留在 `prepared`，重启恢复可能持续重放数周前的会话。诉求集中在恢复的时效边界、幂等性和状态收敛。
-
-4. **安装器问题快速吸引重复修复贡献**  
-   [Issue #201335](https://github.com/openclaw/openclaw/issues/201335) 已出现两个开放方案：[PR #201350](https://github.com/openclaw/openclaw/pull/201350) 聚焦 `--beta`，而 [PR #201349](https://github.com/openclaw/openclaw/pull/201349) 同时处理无法解析 release tag 时静默回落 `main` 的提示问题。响应积极，但需要维护者协调范围，避免重复评审。
+| 热点 | 可见热度 | 背后诉求 |
+|---|---:|---|
+| [#201540：主会话持续拒绝所有 turn](https://github.com/openclaw/openclaw/issues/201540) | 4 条评论，最高 | 用户需要会话恢复失败后的明确自救路径，而不是让 heartbeat、记忆整理和正常交互一并失效。 |
+| [#201561：Windows 升级后 Gateway 停止](https://github.com/openclaw/openclaw/issues/201561) | 3 条评论 | 用户关注“安装成功”是否意味着服务真正恢复，以及 repair 是否能可靠完成。 |
+| [#201058：PostgreSQL 冷启动失败](https://github.com/openclaw/openclaw/issues/201058) | 3 条评论 | 后端迁移之后，插件元数据和 secrets 初始化必须在真实启动路径上可用。 |
+| [#201549：kimi-claw 丢弃图像工具调用](https://github.com/openclaw/openclaw/issues/201549) | 3 条评论 | 本地 OpenAI-compatible 模型的结构化工具调用需要被一致识别，避免静默退化为文本。 |
 
 ## 4. Bug 与稳定性
 
-以下按现有优先级与潜在影响排序；**标签反映分诊状态，不等于根因已经确认**。
+### P0：优先核实的可用性阻断
 
-### P0：升级阻断
+- **Windows Defender 扫描导致 CLI、Gateway 和 repair 静默挂起**  
+  [Issue #201599](https://github.com/openclaw/openclaw/issues/201599) 标注 P0、release blocker，但仍为 `needs-info`。报告影响面广，不过根因尚需补证；**所给明细未见对应 fix PR**。建议优先收集进程等待、扫描与启动日志，不应仅凭该报告认定所有 Windows 环境都会受影响。
+
+### P1：会话连续性、升级与资源风险
 
 | 问题 | 影响 | Fix PR 状态 |
 |---|---|---|
-| [#201057 更新失败](https://github.com/openclaw/openclaw/issues/201057) | macOS ARM64 更新失败，标记发布阻断 | 未见关联修复 PR；需现场复现、维护者审阅 |
+| [#201540：`session-rebound` 后永久拒绝 turn](https://github.com/openclaw/openclaw/issues/201540) | 主会话、heartbeat、记忆整理均被阻断，无明确操作恢复路径 | 未见；需信息与维护者审核 |
+| [#201592：普通入站消息触发转录冲突](https://github.com/openclaw/openclaw/issues/201592) | 运行中的 turn 因 `SqliteTranscriptMutationConflictError` 失败 | 未见；报告指出既有 #201271 仅覆盖命令交互 |
+| [#201605：子代理重试丢失原任务](https://github.com/openclaw/openclaw/issues/201605) | 流错误后同模型重试改写首条消息，任务消失并提前结束 | 未见；待维护者确认 |
+| [#201058：PostgreSQL 冷启动失败](https://github.com/openclaw/openclaw/issues/201058) | secrets 插件准备阶段阻断 Gateway 启动 | **标签显示关联开放 PR**，但本次未提供编号 |
+| [#201561：Windows 升级后服务停止](https://github.com/openclaw/openclaw/issues/201561) | `doctor --fix` 后 Gateway 未恢复，repair 超时 | 未见 |
+| [#201607：子进程致命退出后仍等待 90 分钟](https://github.com/openclaw/openclaw/issues/201607) | 故障反馈严重延迟，增加排障成本 | 未见；已标记可排队修复 |
+| [#201589：Windows 路径大小写比较错误](https://github.com/openclaw/openclaw/issues/201589) | 更新后通道持续被插件 peer-link 审计阻断 | 未见；已标记可排队修复 |
+| [#201588：已删除 SQLite 快照仍被持有](https://github.com/openclaw/openclaw/issues/201588) | 报告称运行 35 小时后占用 23 GB，`du` 不易发现 | 未见；已标记可排队修复 |
+| [#201576：watchdog 提前中止自动压缩](https://github.com/openclaw/openclaw/issues/201576) | 约 360 秒中止，早于配置的 600 秒超时 | 未见；仍需补充信息 |
 
-### P1：工具能力、迁移和交互可靠性
+### P2 与未定级：迁移、模型接入及长运行风险
 
-| 问题 | 主要影响 | Fix PR 状态 |
-|---|---|---|
-| [#201337 Codex 旧状态迁移失败](https://github.com/openclaw/openclaw/issues/201337) | 历史 `turn_completed` 记录可能使插件持续处于 `pending-state-migration` 不可用状态 | **标记有关联开放 PR**，快照未给编号 |
-| [#201180 Windows Doctor `EPERM fsync`](https://github.com/openclaw/openclaw/issues/201180) | 修复前恢复副本创建失败，阻断认证资料迁移 | 未见关联 PR |
-| [#201234 多智能体委派回归](https://github.com/openclaw/openclaw/issues/201234) | 从 agent 的 exec 调用 CLI 被归因检查阻止；报告子智能体在 `claude-cli` 下无工具 | 未见关联 PR |
-| [#201233 Tool Search 包装后的 spawn 失败](https://github.com/openclaw/openclaw/issues/201233) | `dispatch_action → sessions_spawn` 无法通过 Gateway 调用者权限检查 | 未见关联 PR |
-| [#201348 Slack 拒绝交互覆盖原消息](https://github.com/openclaw/openclaw/issues/201348) | 未授权用户按按钮后，问题消息被拒绝提示覆盖；标记消息丢失 | 未见关联 PR |
-| [#201206 Teams 会议无法完成 talk-back 加入](https://github.com/openclaw/openclaw/issues/201206) | 当前工作会议链接与加入流程兼容性受阻 | 未见关联 PR |
-
-### P2：状态一致性、性能与权限衔接
-
-- **恢复与交付状态不一致**：[Issue #201339](https://github.com/openclaw/openclaw/issues/201339) 报告子智能体先被判为 `permanent_failure`，随后结果却经 `subagent_settle` 送达；与旧会话重复恢复问题共同提示，需要重点验证完成判定与持久交付证据的时序。两者均未见明确关联修复 PR。
-- **PostgreSQL 迁移正确性与性能**：[Issue #201250](https://github.com/openclaw/openclaw/issues/201250) 涉及 schema 元数据不一致导致迁移失败；[#201249](https://github.com/openclaw/openclaw/issues/201249) 涉及逐行 INSERT 使 WAN 迁移耗时数小时。均已有源码复现、可排队修复标签，但未见关联 PR。
-- **CLI/MCP 上下文缺失**：[Issue #201195](https://github.com/openclaw/openclaw/issues/201195) 报告 CLI 运行时经 MCP bridge 调用 `github_read` 持续失败；未见关联 PR。
-- **权限上下文衔接失败**：[Issue #201262](https://github.com/openclaw/openclaw/issues/201262)、[#201344](https://github.com/openclaw/openclaw/issues/201344) 分别涉及 Codex 人工触发轮次的 spawn、owner 认证定时续执行的节点工具被拒绝。**目前是授权拒绝报告，不应解读为已证实的权限绕过漏洞**。
-- **Mac 打包回归**：[Issue #201255](https://github.com/openclaw/openclaw/issues/201255) 涉及 Codex 0.169 语音 helper 的 rpath 检查，已标记关联开放 PR，但编号未提供。
-
-**关闭不等于已修复**：例如 [#201326](https://github.com/openclaw/openclaw/issues/201326) 的插件迁移冲突、[#201172](https://github.com/openclaw/openclaw/issues/201172) 的隔离心跳复用 Codex 线程问题均已关闭，但当前材料不足以确认关闭原因或修复版本。
+- **PostgreSQL 迁移形成集中问题簇**：运行时配置未准备 [#201575](https://github.com/openclaw/openclaw/issues/201575) 已有开放修复 [PR #201594](https://github.com/openclaw/openclaw/pull/201594)；零序列值导致迁移失败 [#201573](https://github.com/openclaw/openclaw/issues/201573) 已有 [PR #201583](https://github.com/openclaw/openclaw/pull/201583)，两者均仍需证据。另有 NUL 字符阻断迁移 [#201572](https://github.com/openclaw/openclaw/issues/201572)、512 MB worker 内存上限导致索引 OOM [#201571](https://github.com/openclaw/openclaw/issues/201571)、Matrix 账户级状态未准备 [#201574](https://github.com/openclaw/openclaw/issues/201574)，所给明细未见对应 PR。
+- **认证与模型回归**：OAuth 重新登录改写 `thinkingLevelMap` [#201558](https://github.com/openclaw/openclaw/issues/201558)、`gpt-6-luna` 在订阅路由被拒绝 [#201513](https://github.com/openclaw/openclaw/issues/201513)、多用户 observer 忽略会话所有者模型账户 [#201585](https://github.com/openclaw/openclaw/issues/201585)，均未见直接修复 PR。
+- **Linux 长运行 spawn broker 失效**：[Issue #201609](https://github.com/openclaw/openclaw/issues/201609) 报告约 1–2 天后所有 exec/MCP/CLI backend spawn 失败，重启 Gateway 才恢复。当前尚待复现、未定级，未见 fix PR，但影响范围值得优先验证。
+- **已关闭问题不等于已发布修复**：插件错误信息隐藏 [#201581](https://github.com/openclaw/openclaw/issues/201581)、Ollama SecretRef 余额缺失 [#201559](https://github.com/openclaw/openclaw/issues/201559)、Doctor 错误导入旧 heartbeat 模板 [#201593](https://github.com/openclaw/openclaw/issues/201593) 今日关闭，具体解决方式未提供。
 
 ## 5. 功能请求与路线图信号
 
-| 需求或方向 | 用户价值 | 下一版本信号 |
-|---|---|---|
-| [decisionModel 支持主模型与回退模型 #201194](https://github.com/openclaw/openclaw/issues/201194) | 在 402、429 或超时后自动切换，减少自动化停摆 | 尚需产品决策，未见实现 PR |
-| [iOS 保存/分享助手媒体 #201171](https://github.com/openclaw/openclaw/issues/201171) | 将收到的图片、视频以原始附件形式保存或分享 | 尚需产品决策，未见实现 PR |
-| [macOS 欢迎页与一屏模型选择 #201267](https://github.com/openclaw/openclaw/issues/201267) | 在自动连接前，让用户理解并选择 AI | 邻近方向已有 [PR #201004](https://github.com/openclaw/openclaw/pull/201004) 延后本地网络权限请求，但不等于完整欢迎流程已实现 |
-| [CLI 引导区分可用推理连接与运行就绪 #201182](https://github.com/openclaw/openclaw/issues/201182) | 避免“配置完成”被误认为“系统已可运行” | [PR #200859](https://github.com/openclaw/openclaw/pull/200859)、[#200858](https://github.com/openclaw/openclaw/pull/200858) 改善诊断输出和完成提示，但未覆盖全部诉求 |
-| [WhatsApp 文本与媒体突发合批 PR #200755](https://github.com/openclaw/openclaw/pull/200755) | 将连续文字、图片、语音作为一个语义完整轮次处理 | 已有实现，待维护者处理；有兼容性风险 |
-| [定时提醒统一使用 task prompts PR #201275](https://github.com/openclaw/openclaw/pull/201275) | 统一编辑器、CLI、工具的调度语义 | 已有 XL 级重构，待作者处理，短期落地不确定 |
+### 已有实现载体，值得跟踪
 
-**判断**：范围较小、已有证据并待审阅的安装器和引导修复，比尚待产品决策的新增能力更具近期落地条件；没有发布计划证据，不能承诺进入下一版本。
+- **OpenClaw ID 权限统一与成员暂停**：[PR #201610](https://github.com/openclaw/openclaw/pull/201610) 正在统一成员权限与 Gateway profile role，并允许管理员暂停成员。该 PR 为 XL 且涉及敏感权限逻辑，已有实现不代表即将发布。
+- **所有者访问恢复与密钥边界**：[PR #201586](https://github.com/openclaw/openclaw/pull/201586) 限制仅凭复制的 Gateway key 重置 owner；[PR #201587](https://github.com/openclaw/openclaw/pull/201587) 提供本机恢复 owner 访问的机制，且依赖前者。路线图明显转向多人访问治理与恢复安全。
+- **内存索引分块上限**：[PR #201611](https://github.com/openclaw/openclaw/pull/201611) 限制仅标题 chunk 连续合并后的尺寸，是较明确的小范围修复候选；暂无发布承诺。
+
+### 用户需求明确，但尚待产品决策或验证
+
+| 请求 | 路线图信号 |
+|---|---|
+| [#201606：自动化不投递时也保存输出](https://github.com/openclaw/openclaw/issues/201606) | 希望解耦“执行结果留存”和“消息投递”，增强运行历史可观测性；待产品决策。 |
+| [#201580：插件 hook 暴露投递意图](https://github.com/openclaw/openclaw/issues/201580) | 区分 Codex async agent 消息与流式块输出，支持更准确的插件投递策略；待产品决策。 |
+| [#201565：现有 Codex 会话实时重连 MCP](https://github.com/openclaw/openclaw/issues/201565) | 希望凭证或配置变化后无需重启 Gateway、重置会话；暂无对应 PR。 |
+| [#201552：只读会话查询绕过 writer admission](https://github.com/openclaw/openclaw/issues/201552) | 反映多 agent 控制台读请求被写入排队拖慢；仍需真实环境验证。 |
+| [#201541：`/btw` 使用模型 fallback 链](https://github.com/openclaw/openclaw/issues/201541) | 用户期待侧问与主会话具有一致的限流容错能力；待产品决策。 |
+
+**下一版本判断**：已有直接修复 PR 的迁移问题更具短期落地条件；OpenClaw ID 系列已有开发投入，但涉及权限、兼容性和依赖关系。其余请求目前不足以判断会进入下一版本。
 
 ## 6. 用户反馈摘要
 
-> 未提供评论正文，以下仅提炼 Issue 描述中的用户报告，不代拟评论或推断满意度。
+由于未提供评论正文，以下提炼自 Issue 描述，**不代表对评论情绪的统计**。
 
-- **“升级需要可预测、可恢复”**：升级耗时约 90 分钟，以及 Windows Doctor 在恢复副本阶段失败，说明维护操作本身可能阻断日常使用。见 [#201251](https://github.com/openclaw/openclaw/issues/201251)、[#201180](https://github.com/openclaw/openclaw/issues/201180)。
-- **“多智能体能力必须跨运行时一致”**：用户已在 Telegram、CLI 与第三方后端中使用委派和工具调用；普通对话能运行，不代表压缩、spawn 或 MCP 工具可用。见 [#201262](https://github.com/openclaw/openclaw/issues/201262)、[#201190](https://github.com/openclaw/openclaw/issues/201190)、[#201195](https://github.com/openclaw/openclaw/issues/201195)。
-- **“完成状态应与真实交付一致”**：旧任务反复恢复、已交付结果被判失败，削弱无人值守自动化的可信度。见 [#201183](https://github.com/openclaw/openclaw/issues/201183)、[#201339](https://github.com/openclaw/openclaw/issues/201339)。
-- **“基础体验仍有明显断点”**：字号不覆盖工具卡片、归档会话搜不到、macOS 粘贴仅出现文件名，均直接影响高频操作。见 [#201328](https://github.com/openclaw/openclaw/issues/201328)、[#201210](https://github.com/openclaw/openclaw/issues/201210)、[#201170](https://github.com/openclaw/openclaw/issues/201170)。
+- **“成功”提示与实际可用性不一致**：升级成功却未恢复 Gateway、迁移返回成功却未完成记忆重建，增加了用户自行核验成本。参见 [#201561](https://github.com/openclaw/openclaw/issues/201561)、[#201575](https://github.com/openclaw/openclaw/issues/201575)。
+- **长期运行需求正在暴露资源生命周期问题**：磁盘空间被删除快照占住、spawn broker 失效不自愈，说明用户需要的是持续运行而非短时演示可靠性。参见 [#201588](https://github.com/openclaw/openclaw/issues/201588)、[#201609](https://github.com/openclaw/openclaw/issues/201609)。
+- **复杂部署场景增多**：PostgreSQL、Matrix、多用户 Gateway 和 25-agent 环境均出现在报告中，对迁移完整性、凭证归属和读写隔离提出更高要求。参见 [#201574](https://github.com/openclaw/openclaw/issues/201574)、[#201585](https://github.com/openclaw/openclaw/issues/201585)、[#201552](https://github.com/openclaw/openclaw/issues/201552)。
+- **可解释失败与结果留存受到重视**：用户不仅需要任务执行，还需要看到错误原因和未投递的输出。参见 [#201581](https://github.com/openclaw/openclaw/issues/201581)、[#201606](https://github.com/openclaw/openclaw/issues/201606)。
 
-当前样本以问题反馈为主，**没有足够材料衡量整体满意度或正向口碑**。
+可见数据没有明确的正向满意度反馈，不宜将关闭数量视为用户满意度指标。
 
-## 7. 待处理积压与维护者关注项
+## 7. 待处理积压与维护者提醒
 
-**本快照不能识别“长期未响应”积压**：可见记录主要创建于 11 月 17—18 日，也缺少维护者最后响应时间。以下是当前重要待办，而非已证实的长期搁置项：
+**本批条目均在 11 月 18–19 日创建，无法识别“长期未响应”的历史积压。** 当前更适合关注以下高影响待办：
 
-1. **优先完成 P0 现场复现与责任归属**：[Issue #201057](https://github.com/openclaw/openclaw/issues/201057) 尚无明确修复 PR，应先形成可验证的更新失败诊断。
-2. **集中排查工具调用权限传递链**：[#201233](https://github.com/openclaw/openclaw/issues/201233)、[#201234](https://github.com/openclaw/openclaw/issues/201234)、[#201262](https://github.com/openclaw/openclaw/issues/201262)。这些报告存在相邻症状，建议统一测试矩阵，但不能直接认定为同一根因。
-3. **优先审阅可能造成回答丢失的修复**：[PR #201271](https://github.com/openclaw/openclaw/pull/201271) 为 P1、待维护者审阅，应重点验证命令并发与 transcript 一致性。
-4. **处理重复安装器方案**：[PR #201349](https://github.com/openclaw/openclaw/pull/201349)、[#201350](https://github.com/openclaw/openclaw/pull/201350)，明确合并范围与无 npm 环境验证要求。
-5. **推动可评审 PR 收敛**：[PR #201347](https://github.com/openclaw/openclaw/pull/201347) 的工作区扫描优化、[#201004](https://github.com/openclaw/openclaw/pull/201004) 的权限弹窗时机调整均已有充分证据标签，可作为审阅队列中的明确候选。
+1. **补齐 P0/P1 复现与恢复方案**：优先推进 Windows 挂起 [#201599](https://github.com/openclaw/openclaw/issues/201599)、主会话锁死 [#201540](https://github.com/openclaw/openclaw/issues/201540) 和普通消息转录冲突 [#201592](https://github.com/openclaw/openclaw/issues/201592)。
+2. **及时处理已有充分证据的开放 PR**：符号链接脚本修复 [#201598](https://github.com/openclaw/openclaw/pull/201598)、Tailscale Funnel 认证指导修复 [#201577](https://github.com/openclaw/openclaw/pull/201577) 均等待维护者。
+3. **补齐迁移修复验证**：[#201594](https://github.com/openclaw/openclaw/pull/201594)、[#201583](https://github.com/openclaw/openclaw/pull/201583) 已对准具体故障，但仍需证明完整迁移与重建流程有效。
+4. **防止恢复类 PR 停滞**：半完成 Git 升级修复 [#201538](https://github.com/openclaw/openclaw/pull/201538) 和 owner 恢复 [#201587](https://github.com/openclaw/openclaw/pull/201587) 均等待作者，且涉及兼容性风险。
 
-**项目健康度结论**：贡献和修复活动保持活跃，但升级、状态迁移与跨运行时委派是当前主要风险面。下一阶段最有价值的成果不是增加修复条目数量，而是把关键问题推进到“可复现—修复合入—回归验证—明确发布版本”的闭环。
+**项目健康度结论：开发活跃、修复覆盖面广，但稳定性风险尚未收敛。** 下一阶段最重要的不是增加关闭数量，而是验证高优先级问题的修复是否真正合并、发布，并在升级、重启和长期运行场景中闭环。
 
 ---
 
 ## 横向生态对比
 
 # 个人 AI 助手与自主智能体开源生态横向分析
-**日期：2026-11-19｜基于所提供的过去 24 小时快照**
+**日期：2026-11-19｜统计窗口：过去 24 小时**
 
-> **口径说明**：以下数量均为更新条目数，不等于新增数量或独立贡献者数量；记录时间主要为 11 月 18 日。多数项目缺少 PR 合并标记，因此“关闭”不计为已交付；“无活动”也仅代表本观察窗口，不能据此判断项目停滞。
+> **口径说明**：以下基于所提供的日报，不代表仓库全部活动。Issue、PR 数量指窗口内更新条目，不等于新增数量；`CLOSED` 不等于已合并或已发布。OpenClaw、Hermes 的明细仅覆盖部分统计条目；NanoClaw、CoPaw 存在项目指定仓库与原始链接不一致的情况，涉及发布、代码归属时需进一步核验。
 
 ## 1. 生态全景
 
-本次覆盖的 **13 个项目**共记录 **98 条 Issue 更新、163 条 PR 更新和 2 个版本发布**，活动主要集中在 OpenClaw、Hermes Agent、ZeroClaw 和 NanoBot。多个项目的工作重心指向同一方向：相比继续增加工具，当前更迫切的是解决升级、会话恢复、跨渠道路由、权限传递和真实交付的可靠性问题。架构上同时出现“核心轻量化、能力插件化”和“多入口统一上下文”的需求，但由此带来的插件兼容与迁移成本已经显现。整体可概括为：**能力扩展仍在继续，但生产可用性的竞争正在上升；修复提案充足，合并、验证与发布闭环仍需观察。**
+个人 AI 助手开源生态的当日工作重心，正在从“增加能力”转向“让复杂部署持续可靠运行”：升级恢复、长会话一致性、资源回收和权限边界成为主要议题。13 个项目合计记录 **91 条 Issue 更新、119 条 PR 更新**，其中 OpenClaw 与 Hermes 占 Issue 更新约 **90%**、PR 更新约 **86%**，可见开发活动高度集中。多 Profile、多 agent、群聊与远程部署需求同时出现，表明部分用户已进入持续运维和多人使用阶段，但这还不能证明生态整体已达到生产成熟度。唯一明确的新版本交付来自 NanoClaw 的 **`v2026.11.0-rc.2`**；其余活跃项目多数仍处于问题分诊和待审改动阶段。
 
 ## 2. 各项目活跃度对比
 
 | 项目 | Issue 更新 | PR 更新 | Release 情况 | 当日健康度评估 |
 |---|---:|---:|---|---|
-| **OpenClaw** | 36 | 65 | 无 | 高活跃；升级 P0、迁移及委派问题突出，稳定性压力较高 |
-| **Hermes Agent** | 50 | 50 | 1 个 Canary | 高活跃；插件和 Windows 修复响应可见，会话与 Gateway 可靠性待巩固 |
-| **ZeroClaw** | 2 | 23 | 无 | 安全与运行时修复密集；全部 PR 待合并，交付效果未验证 |
-| **NanoBot** | 2 | 14 | 无 | WebUI、启动与会话恢复迭代集中；本批 PR 来自同一贡献者 |
-| **CoPaw** | 7 | 4 | `v2.3.0.post1` | 有实际发布；插件化推进，同时出现渠道升级和执行安全反馈 |
-| **NanoClaw** | 1 | 5 | 无 | 小规模定点维护；指令截断与回复路由已有修复提案 |
-| **LobsterAI** | 0 | 2 | 无 | 修复导向，有定向测试投入；合并状态与模型端到端验收仍缺 |
-| PicoClaw | 0 | 0 | 未见 | 窗口内无活动，健康度证据不足 |
-| NullClaw | 0 | 0 | 未见 | 同上 |
-| IronClaw | 0 | 0 | 未见 | 同上 |
-| TinyClaw | 0 | 0 | 未见 | 同上 |
-| Moltis | 0 | 0 | 未见 | 同上 |
-| ZeptoClaw | 0 | 0 | 未见 | 同上 |
+| **OpenClaw** | 32 | 52 | 无 | **高活跃、可靠性承压**：升级、迁移及性能修补面广，但 P0/P1 风险尚未闭环 |
+| **Hermes Agent** | 50 | 50 | 无 | **高活跃、待审压力较高**：多 Profile、缓存及远程连接问题集中，隔离边界需优先验证 |
+| **ZeroClaw** | 6 | 8 | 无 | **持续迭代、交付待验证**：配置与依赖安全已有方案，安全 PR 存在重复工作 |
+| **NanoClaw** | 0 | 5 | **`v2026.11.0-rc.2`** | **候选版收敛中**：已有 RC 交付，停机生命周期、挂载权限仍有待审改动 |
+| **LobsterAI** | 0 | 3 | 无 | **小步迭代**：桌面体验修复与垂直创作工作流并进，合并及用户验证证据有限 |
+| **CoPaw** | 2 | 0 | 无 | **问题输入、暂无可见修复闭环**：渠道静默失效的运营风险值得优先跟进 |
+| **NanoBot** | 1 | 1 | 无 | **低量持续迭代**：聚焦 WebUI 状态反馈与模型辅助调用兼容性 |
+| PicoClaw | 0* | 0* | 未观测到 | 单日无活动，无法据此评价维护状态 |
+| NullClaw | 0* | 0* | 未观测到 | 同上 |
+| IronClaw | 0* | 0* | 未观测到 | 同上 |
+| TinyClaw / TinyAGI | 0* | 0* | 未观测到 | 同上 |
+| Moltis | 0* | 0* | 未观测到 | 同上 |
+| ZeptoClaw | 0* | 0* | 未观测到 | 同上 |
+| **合计** | **91** | **119** | **1 个 RC 版本** | 活动集中，不能以更新量代替交付质量 |
 
-**数据边界**：Hermes 的详细条目仅覆盖汇总的一部分；ZeroClaw 提供了 23 条 PR 中的 20 条详情。NanoClaw 条目链接指向 `nanocoai/nanoclaw`，CoPaw 链接指向 `agentscope-ai/QwenPaw`，不能仅凭这些材料推断仓库迁移关系。
+\* “0”仅表示给定窗口内没有记录到活动，不表示仓库没有积压、用户或持续开发。
 
 ## 3. OpenClaw 在生态中的定位
 
-### 优势：覆盖面广，具备生态基础组件属性
+### 综合型运行平台特征最为突出
 
-- **本窗口 PR 活动最多**：65 条，高于 Hermes 的 50 条和 ZeroClaw 的 23 条；Issue 与 PR 合计 101 条，与 Hermes 的 100 条处于同一量级。
-- **集成面较广**：反馈覆盖 macOS、Windows、iOS、CLI、Gateway，以及 Slack、Teams、WhatsApp、Telegram 等入口，同时涉及多运行时、子智能体、MCP 和数据库迁移。
-- **存在下游集成证据**：LobsterAI 明确围绕其使用的 OpenClaw v2026.8.1 优化技能目录与交付流程，说明 OpenClaw 不只是终端产品，也被用于其他产品的能力集成。
+从当日议题覆盖面看，OpenClaw 已不仅是对话或工具调用入口，而是在处理 **Gateway、数据库迁移、多会话、多 agent、身份治理、插件和跨平台升级**组成的完整运行体系。
 
-### 技术路线：多入口、多运行时的统一编排
+其相对优势主要体现在：
 
-相较 NanoBot 当日偏向 WebUI 与启动体验、NanoClaw 偏向常驻智能体运行器、ZeroClaw 偏向安全与运行时边界治理，OpenClaw 展现出更广的**渠道接入—会话管理—工具授权—子智能体委派—交付恢复**覆盖面。Hermes 与其最接近，同样涉及 Gateway、桌面、多渠道和长期记忆，但当日更突出插件兼容、桌面交互及会话可访问性。
+- **平台治理覆盖较广**：OpenClaw ID 成员权限、成员暂停、owner 恢复及 Gateway key 边界已有实现 PR，显示出明确的多人访问治理投入。
+- **规模化优化目标具体**：子代理注册表、转录搜索、会话列表 CPU、worktree 复用均有针对性改动，说明长期运行与多 agent 性能已进入工程优化范围。
+- **故障分诊结构较清晰**：P0/P1、证据充分程度、作者或维护者等待状态，为判断处理优先级提供了较多信息；但不代表问题已经解决。
 
-### 代价：集成广度带来更大的回归验证面
+### 与同类项目的路线差异
 
-OpenClaw 当前的核心风险不是缺少能力，而是**已有能力能否跨运行时、跨渠道保持一致**：升级阻断、Doctor 迁移失败、工具调用者归因拒绝和交付状态不收敛，均发生在子系统交界处。
+| 对比对象 | OpenClaw 的相对侧重 | 对方当日更突出的方向 |
+|---|---|---|
+| **Hermes Agent** | 升级与迁移可靠性、Gateway 治理、大规模会话性能 | 多 Profile 隔离、Desktop/终端体验、提示缓存与调用记录完整性 |
+| **NanoClaw** | 综合运行平台与访问治理 | 容器运行边界、本机隐私处理、技能扩展及候选版发布 |
+| **ZeroClaw** | 端到端运行恢复与平台整合 | Rust 依赖安全、配置约束、渠道审批和可插拔记忆后端 |
+| **NanoBot / LobsterAI** | 平台底层与运维复杂性 | 分别偏向 WebUI 体验，以及桌面交互与垂直创作流程 |
 
-**定位结论**：OpenClaw 是本窗口中覆盖面最广、开发活动最密集的核心参照之一；但其广度不能直接等同于更高可靠性。现有数据也不足以比较各项目的长期社区规模、用户量或贡献者多样性。
+### 社区规模：只能确认“活动领先”，不能确认“用户最多”
+
+OpenClaw 的 **52 条 PR 更新**在本组项目中最多，Hermes 则以 **50 条 Issue 更新**领先，两者属于同一活动量级。但缺少贡献者数、独立报告者数、安装量和长期趋势，**无法据此给真实社区规模或市场采用率排序**。
+
+OpenClaw 的问题数量与覆盖面也具有双重含义：既反映复杂场景下的使用深度，也暴露出平台扩展后的维护成本，不能简单解释为更成熟或更不稳定。
 
 ## 4. 共同关注的技术方向
 
-| 共同方向 | 涉及项目 | 具体诉求 |
+| 共同方向 | 涉及项目 | 具体诉求及技术含义 |
 |---|---|---|
-| **会话生命周期与状态一致性** | OpenClaw、NanoBot、Hermes、NanoClaw、ZeroClaw | 避免旧任务重复恢复、漏收结束帧后持续“运行中”、压缩后会话不可达、排队输入路由滞后及取消覆盖完成结果 |
-| **跨渠道上下文与回复归属** | OpenClaw、NanoBot、Hermes、NanoClaw | 同一任务跨 WebUI、消息渠道和 CLI 延续；正确区分操作入口、回复目的地和历史写入位置 |
-| **最小权限与执行安全** | OpenClaw、CoPaw、ZeroClaw、Hermes、LobsterAI | 权限上下文正确传递、Shell 外发审批、审批文本安全展示、凭据脱敏及沙箱策略一致性 |
-| **升级、迁移与部署可靠性** | OpenClaw、Hermes、NanoBot、NanoClaw、CoPaw | 可恢复升级、只读配置支持、Windows 兼容、渠道组件迁移、更新前检查 |
-| **上下文预算与信息保真** | NanoBot、Hermes、CoPaw、NanoClaw、LobsterAI | 确认稿原样保留、压缩摘要验证、工具结果限量、避免指令截断、统一技能目录 |
-| **插件化与按需加载** | CoPaw、Hermes、NanoBot | 核心解耦、SDK 延迟加载、插件兼容与 MCP 接入便利性 |
-| **可验证的任务完成** | OpenClaw、Hermes、LobsterAI | 完成状态匹配真实交付、独立检查 DONE、校验文件名、位置及最终链接 |
-
-这些方向具有相关性，但**不能据相似症状认定不同项目存在同一根因**。
+| **长期运行与资源生命周期** | OpenClaw、Hermes、NanoClaw、CoPaw、ZeroClaw | SQLite 快照释放、spawn broker 恢复、僵尸进程回收、停机排空、响应路由清理、过期邀请清理；核心是容量有界、资源可回收、故障可恢复 |
+| **执行状态与结果可观测性** | NanoBot、CoPaw、OpenClaw、Hermes、ZeroClaw | 区分送达与接手、展示定时任务进度、保存未投递输出、留存 thinking 记录、解释成本图表；“没有报错”已不足以证明任务正常 |
+| **权限、身份与隔离边界** | OpenClaw、Hermes、NanoClaw、ZeroClaw | owner 恢复、Profile 文件与凭据隔离、容器写权限、群组信任和工具审批；共享助手需要明确主体、资源与权限作用域 |
+| **模型与协议兼容性** | OpenClaw、NanoBot、Hermes | 工具调用结构识别、辅助请求 token 预算、模型别名匹配、异常返回重试与降级；接口兼容不等于行为兼容 |
+| **持久化、记忆与会话一致性** | OpenClaw、Hermes、ZeroClaw | 数据库迁移、转录冲突、父子会话恢复、历史消息重载、外部记忆与缓存回退；持久化语义直接影响任务连续性 |
+| **多入口与跨端体验** | Hermes、ZeroClaw、CoPaw、LobsterAI、NanoBot | Desktop/WebSocket、Matrix 线程审批、微信渠道、macOS 全屏菜单、WebUI 排队提示；渠道适配需要覆盖状态、授权和错误反馈，而非只保证收发 |
 
 ## 5. 差异化定位分析
 
-以下定位依据当日可见工作推断，不替代完整产品评测。
+以下为**基于当日工程议题推断的定位**，并非完整产品能力排名。
 
-| 项目 | 功能与架构侧重 | 更相关的用户或场景 | 主要验证成本 |
+| 项目 | 功能侧重 | 更契合的用户/场景 | 可见架构特征与主要代价 |
 |---|---|---|---|
-| **OpenClaw** | Gateway、多运行时、多渠道与子智能体编排 | 需要复杂自动化和广泛入口集成的用户 | 权限、迁移、恢复和跨运行时一致性 |
-| **Hermes** | Gateway＋Desktop＋外部记忆插件 | 长期工作会话、桌面多任务与记忆扩展 | 插件兼容、会话可达性、异步回复路由 |
-| **NanoBot** | WebUI、渠道续聊、启动路径优化 | 重视浏览器交互与日常办公助手体验的用户 | 内容保真、重连状态和性能回归 |
-| **NanoClaw** | 常驻智能体、容器运行及 CLI 提供商适配 | 希望拥有和维护自身常驻助手的开发者 | 指令预算、输入队列与回复归属 |
-| **CoPaw** | 核心轻量化、插件扩展、Console 与工作渠道 | 通过钉钉、飞书及 MCP 执行工作流的用户 | 插件迁移、外发审批、工具上下文预算 |
-| **ZeroClaw** | 安全边界、运行时隔离、声明式调度 | 关注凭据保护、部署与执行治理的开发者 | 安全修复合入及高风险运行时变更 |
-| **LobsterAI** | Cowork、执行策略、OpenClaw 集成与文件交付 | 文档生成和交付物导向的办公场景 | 沙箱策略恢复、真实模型端到端验收 |
+| **OpenClaw** | 综合助手运行平台、多 agent、访问治理 | 需要多渠道、长期运行及复杂部署的团队和高级用户 | Gateway、持久化存储、插件与身份体系协同；升级和跨组件一致性成本较高 |
+| **Hermes Agent** | Profile 化助手、跨端交互、调度与插件 | 多身份/多机器人使用者、终端及远程桌面用户 | 多 Profile、多入口共享运行体系；隔离、历史一致性和缓存稳定性成为重点 |
+| **NanoClaw** | 容器化任务执行、隐私技能 | 重视执行边界、本机数据处理的个人助手用户 | 宿主机与容器边界明确可见；需仔细管理挂载授权与生命周期 |
+| **ZeroClaw** | 多渠道工具授权、配置治理、记忆扩展 | 自托管、多渠道集成及希望扩展后端的开发者 | Rust 依赖体系、HTTP sidecar、可选 SQLite 热缓存；需处理后端一致性与治理规则 |
+| **NanoBot** | WebUI 对话与消息交互 | 主要通过浏览器使用助手的用户 | 当日改动集中于界面状态与模型辅助调用；不足以推断完整架构 |
+| **LobsterAI** | 桌面伴侣、专家预设、创作流程 | 桌面助手用户和内容创作者 | 强调桌面交互及带审核的分阶段工作流；需验证预设升级与真实任务效果 |
+| **CoPaw** | 渠道助手、后台定时任务 | 微信渠道和自动化任务使用者 | 渠道响应路由与 Web Console 状态同步是当前关键运行路径 |
 
-其余六个项目缺少当日活动证据，不宜据此补充架构或目标用户判断。
+PicoClaw、NullClaw、IronClaw、TinyClaw、Moltis、ZeptoClaw 缺少当日技术信息，不宜仅凭项目名称推断定位或架构优势。
 
 ## 6. 社区热度与成熟度
 
 ### 活跃度分层
 
-- **高活动量：OpenClaw、Hermes**  
-  两者合计占本次 Issue 与 PR 更新的约 **77%**。覆盖问题广、贡献和反馈密集，但活动量并不代表已交付修复更多。
-- **集中迭代：ZeroClaw、NanoBot、CoPaw**  
-  ZeroClaw 偏安全修补，NanoBot 偏交互与恢复，CoPaw 同时推进发布、插件化和升级治理。
-- **定点质量巩固：NanoClaw、LobsterAI**  
-  改动范围较聚焦，围绕可复现的指令、路由、配置及交付问题推进。
-- **窗口静默：其余六个项目**  
-  不能由单日零活动推导出维护中断。
+- **高密度迭代：OpenClaw、Hermes**  
+  两者均有约 50 条 PR 更新。OpenClaw 更突出升级、迁移和性能质量巩固；Hermes 则同时推进 Profile、远程部署、调度等扩展与可靠性修补。高活动量也意味着更大的评审和回归验证压力。
 
-### 热度不等于成熟度
+- **持续工程推进：ZeroClaw、NanoClaw**  
+  ZeroClaw 以安全、配置和扩展提案为主；NanoClaw 有明确 RC 交付，最接近当日可观察的发布收敛阶段。但 RC 发布并不自动代表稳定性优于其他项目。
 
-可见 Issue 的最高评论数仅为 **3 条**，PR 评论数据普遍缺失，因此本日报更适合比较**工程活动与风险面**，不适合给出社区影响力排名。OpenClaw、Hermes 表现出较广的使用场景，但也暴露更多系统边界问题；NanoClaw、LobsterAI 的问题更集中，却不能据此认定质量更高。
+- **小范围迭代或反馈输入：LobsterAI、NanoBot、CoPaw**  
+  前两者有具体体验或场景改动；CoPaw 当日只有问题反馈。数据量不足以评价维护效率。
 
-**成熟度更应看闭环证据**：可复现问题、修复合入、回归测试、明确发布版本及用户验证，而非关闭数量或 PR 总量。
+- **静默观察层：其余六个项目**  
+  单日无活动不构成停滞证据，应结合更长周期分析。
+
+### 热度与成熟度需要分开判断
+
+可见 Issue 互动普遍很少：OpenClaw 最高 **4 条评论**、Hermes 最高 **2 条**，其他多数为 0–1 条，且没有可见点赞聚集。因此，当日主要体现的是**工程活动密度，而非广泛社区讨论热潮**。
+
+成熟度也不能用关闭量排序：更有价值的指标应是高优先级问题从复现、修复、合并、发布到现场验证的闭环，以及升级成功率、长运行故障率和恢复耗时；当前数据尚不足以完成这类排名。
 
 ## 7. 值得关注的趋势信号
 
-### ① 智能体的难点正转向“状态与交付”
-多项目出现“结果已经送达却判失败”“消息发出但未进入会话”“界面仍显示运行中”等问题。  
-**开发参考**：将执行完成、结果持久化、消息投递和用户可见状态分别建模，并验证恢复幂等性。
+### ① 智能体正在从单次任务工具变成长驻服务
+OpenClaw 的长运行资源问题、CoPaw 的路由容量问题、Hermes 的进程清理和 NanoClaw 的停机协调，都说明服务生命周期已成为核心能力。
 
-### ② 多入口体验需要明确上下文和路由规则
-WebUI 续聊、ACP 后台完成通知、WhatsApp 定时消息都要求区分“谁触发、在哪继续、发往哪里”。  
-**开发参考**：将会话标识、入口、回复目标和授权主体作为显式元数据贯穿异步事件，避免仅靠当前连接推断。
+**开发参考：**将资源上限、过期回收、超时取消、优雅停机和自动恢复纳入基础设计，而非发布后的补丁。
 
-### ③ 安全治理必须同时解决“越权”与“合法操作被拒”
-CoPaw、ZeroClaw 关注审批和敏感信息边界；OpenClaw 则出现合法工具调用被拒。  
-**开发参考**：安全测试应同时覆盖未授权操作的阻断，以及授权上下文跨子智能体、CLI、MCP 的正确传递。
+### ② “任务状态”正在成为产品契约
+NanoBot 要区分送达与接手，CoPaw 要显示运行过程，OpenClaw 要保存未投递结果。这些需求共同指向：执行、持久化和消息投递不能混为一谈。
 
-### ④ 上下文管理正在从节省 token 转向保障正确性
-NanoBot 的确认稿变化、NanoClaw 的指令截断、CoPaw 的工具结果超限和 Hermes 的摘要验证诉求，说明上下文丢失会直接改变任务行为。  
-**开发参考**：将确认稿、关键指令和交付证据作为可检索、可校验的独立数据保存，而非完全依赖压缩后的对话历史。
+**开发参考：**建立明确状态机，区分“已接收、排队、执行中、已完成、结果已保存、已投递”，并分别处理失败与重试。
 
-### ⑤ 插件化降低核心复杂度，也引入升级兼容成本
-CoPaw 的渠道升级反馈与 Hermes 的记忆插件导入失败构成直接提醒。  
-**开发参考**：插件化应配套版本兼容声明、启动健康检查、显式降级提示及迁移测试，避免静默失效。
+### ③ 多用户与多 Profile 正在重塑安全模型
+OpenClaw 的 owner 恢复、Hermes 的凭据作用域、ZeroClaw 的群组信任表明，个人助手开始承载共享使用，但“可访问助手”不应自动等于“可使用全部工具和秘密”。
 
-### ⑥ “完成”应由产物证据定义
-LobsterAI 校验文件位置和链接，Hermes 提议独立 critic，OpenClaw 暴露完成状态与交付不一致。  
-**开发参考**：重要任务应使用文件存在性、内容检查、远端回执或独立验收定义成功，而非仅接受模型声明 DONE。
+**开发参考：**明确账户、Profile、会话、渠道和工具的权限边界，避免将进程级环境变量直接当作多租户凭据隔离方案。
+
+### ④ 成本治理开始深入上下文和历史数据
+Hermes 用户关注提示缓存与已计费 thinking 留存，ZeroClaw 出现成本图表语义问题，OpenClaw 则优化长会话与压缩路径。
+
+**开发参考：**将历史消息格式稳定性、缓存命中、压缩触发和结果留存纳入成本监测，而不只统计 token 总数。
+
+### ⑤ 模型兼容性测试必须覆盖辅助链路
+NanoBot 主回复正常但标题失败，OpenClaw 出现工具调用丢弃与模型路由问题，Hermes 需要处理异常返回。这说明单轮聊天成功不足以验证提供商兼容性。
+
+**开发参考：**测试应覆盖标题、工具调用、多模态、流式中断、重试、降级和会话恢复。
+
+### ⑥ 差异化正从“支持哪些模型”转向“可信工作流”
+NanoClaw 强调消息不进入容器、不离开 Mac；LobsterAI 强调创作审核与分阶段交付；OpenClaw 强调访问治理。竞争焦点开始延伸到数据边界、授权过程和成果验收。
+
+**开发参考：**优先构建可审计的数据流、明确的审批点与可验证的输出，而非单纯增加工具或模型数量。
 
 ---
 
-**决策结论**：本窗口中，OpenClaw 与 Hermes 是广覆盖平台路线的主要观察对象；其他活跃项目体现了 WebUI、常驻运行、插件化、安全治理及办公交付等侧重点。对选型和工程投入而言，下一步最值得验证的不是“支持多少功能”，而是**升级可恢复、权限可解释、会话可延续、结果可验收**。
+**综合判断：**OpenClaw 与 Hermes 是当日工程活动的双核心；前者更突出综合平台治理和运行可靠性，后者更突出多 Profile 与跨端使用。NanoClaw 提供了最明确的候选版交付信号，ZeroClaw 在配置、安全及渠道治理上持续推进。对技术选型而言，当前最值得验证的不是功能清单长度，而是目标部署环境中的**权限隔离、升级恢复、长时间运行和任务状态闭环**。
 
 ---
 
@@ -269,97 +285,80 @@ LobsterAI 校验文件位置和链接，Hermes 提议独立 critic，OpenClaw �
 <details>
 <summary><strong>NanoBot</strong> — <a href="https://github.com/HKUDS/nanobot">HKUDS/nanobot</a></summary>
 
-# NanoBot 项目动态日报
-**日期：2026-11-19** · [项目仓库](https://github.com/HKUDS/nanobot)
-
-> 统计范围为所提供的过去 24 小时数据，条目时间均显示为 2026-11-18。PR 数据仅区分 OPEN/CLOSED，无法确认 CLOSED 是否代表已合并；下文不将关闭状态等同于功能已落地。今日无新版本发布。
+# NanoBot 项目动态日报｜2026-11-19
 
 ## 1. 今日速览
 
-过去 24 小时，NanoBot 共更新 **2 条 Issue、14 条 PR**，其中 **5 条 PR 待处理、9 条已关闭**，呈现较高的代码迭代活跃度。工作重心集中在 **WebUI 体验、启动性能与会话恢复可靠性**，同时涉及会话上下文保真和 URL 校验安全加固。启动优化出现 Windows 首次新建会话变慢的问题，随后通过恢复原启动流程、拆分优化方案继续推进，体现出对回归风险的关注。社区讨论规模仍小：已知 Issue 合计仅 1 条评论，且本批 14 条 PR 均来自同一贡献者，说明开发推进集中，但尚不能据此判断整个项目的维护者结构。  
-相关：[启动优化拆分 #6712](https://github.com/HKUDS/nanobot/pull/6712) · [会话回放修复 #6717](https://github.com/HKUDS/nanobot/pull/6717)
+过去 24 小时，NanoBot 共更新 **1 条 Issue、1 条 PR**，均处于开放状态；没有 PR 合并或关闭，也没有新版本发布，整体活跃度偏低。今日动态集中在 WebUI：一项是 Kimi K3.1 Pro 场景下的自动标题生成失败，另一项是改善排队消息的处理状态提示。前者涉及模型兼容性与辅助请求的输出预算，后者旨在让用户区分“消息已送达”和“智能体已接手”。当前可见工作仍处于问题反馈与待合并阶段，尚无已交付成果；仅凭这一天的数据，不宜判断项目长期活跃度或维护效率。
+
+相关动态：[Issue #6718](https://github.com/HKUDS/nanobot/issues/6718) · [PR #6719](https://github.com/HKUDS/nanobot/pull/6719)
 
 ## 2. 项目进展
 
-### 启动性能：由整体优化转向分拆验证
-**状态：相关 PR 已关闭，后续方案仍开放**
+### WebUI 排队消息状态提示进入待合并阶段
 
-- [#6708](https://github.com/HKUDS/nanobot/pull/6708) 尝试批量恢复启动状态、提前认证，但摘要明确指出端到端目标尚未达成，Windows 桌面端新建会话命令响应变慢。
-- [#6712](https://github.com/HKUDS/nanobot/pull/6712) 随后提出恢复此前的浏览器及启动器流程，同时保留恢复批处理优化。
-- 拆出的 [#6713](https://github.com/HKUDS/nanobot/pull/6713) 仍开放，继续单独验证提前认证与延迟导入。
+[PR #6719：feat(webui): show when the agent picks up queued messages](https://github.com/HKUDS/nanobot/pull/6719) 由 chengyongru 于今日提交，目前为 **OPEN**，标记包括 `webui`、`feature`、`test`、`documentation` 和 `priority: p2`。
 
-**进展判断：** 优化方向更加可验证、风险边界更清晰，但目前不能认定整体启动性能已经改善。
+- **解决的问题**：用户在智能体忙碌时发送后续消息，界面容易让人误以为消息已进入处理流程，但网关确认收件并不等于智能体已接手。
+- **可见方案**：为排队消息增加呼吸式虚线边框，且不改变消息尺寸，以提示其等待状态。
+- **进展判断**：相关改动已形成 PR，但尚未合并。由于摘要不完整，无法确认完整状态切换逻辑、测试结果或最终交互效果。
 
-### WebUI 使用体验：多项细节进入关闭状态
-**状态：以下 PR 均已关闭，是否合并待确认**
-
-| 方向 | 主要变化 | PR |
-|---|---|---|
-| 操作反馈 | 为瞬时操作引入统一、本地化 Toast，改善错误提示及归档、删除后的撤销体验 | [#6702](https://github.com/HKUDS/nanobot/pull/6702) |
-| 长文本输入 | 改善长草稿展开及聊天输入框、模型选择器滚动条 | [#6709](https://github.com/HKUDS/nanobot/pull/6709) |
-| 侧栏体验 | 搜索与归档入口随列表滚动；修复会话改名后的异常焦点框 | [#6706](https://github.com/HKUDS/nanobot/pull/6706)、[#6710](https://github.com/HKUDS/nanobot/pull/6710) |
-| 模型控制 | 修复推理级别加载时控件闪变，调整速度按钮对齐并保留触控目标 | [#6707](https://github.com/HKUDS/nanobot/pull/6707)、[#6703](https://github.com/HKUDS/nanobot/pull/6703) |
-| 前端资源 | 避免打开差异视图时冗余加载 Markdown 解析器及重复打包 Shiki 资源 | [#6711](https://github.com/HKUDS/nanobot/pull/6711) |
-
-**整体判断：** 本日主要是面向日常使用的增量打磨，而非大型能力发布。若相关关闭 PR 已合并，收益将集中体现为更清晰的操作反馈、更一致的交互和更少的冗余资源加载。
+**今日交付情况**：提供的数据中没有合并或关闭的重要 PR，因此今日推进主要体现在新增候选改进，而非已落地主分支的功能。
 
 ## 3. 社区热点
 
-### ① 通知草稿无法原样保留：唯一有评论的 Issue
-[#6704](https://github.com/HKUDS/nanobot/issues/6704) · **1 条评论、0 个赞**
+| 议题 | 可见互动 | 背后诉求 |
+|---|---|---|
+| [#6718：Kimi K3.1 Pro 自动标题生成失败](https://github.com/HKUDS/nanobot/issues/6718) | 1 条评论、0 个 👍，开放中 | 希望 OpenAI 兼容提供商下，不仅主对话可用，标题生成等辅助功能也能正常工作。 |
+| [#6719：提示智能体何时接手排队消息](https://github.com/HKUDS/nanobot/pull/6719) | 评论数未提供、0 个 👍，开放中 | 希望界面准确表达消息的处理阶段，减少等待时的不确定性。 |
 
-用户使用 NanoBot 起草欢迎新员工的 Python `message()` 通知，后续要求重复草稿时，文本及文具清单细节发生变化。诉求不是重新生成“意思相近”的内容，而是保留已经确认的准确文本。已有对应修复提案 [#6717](https://github.com/HKUDS/nanobot/pull/6717)，但尚未关闭。
-
-### ② 官方托管 MCP 服务接入预设
-[#6705](https://github.com/HKUDS/nanobot/issues/6705) · **0 条评论、0 个赞**
-
-AI/ML API 方面希望将其官方托管 MCP 服务加入预设列表，减少用户手动填写 URL 的步骤。这反映了服务提供方对 NanoBot 集成入口的兴趣，但目前没有评论或反应数据支持将其视为广泛用户需求。
-
-**热度限制：** 所有 PR 的评论数均缺失，不能进行可靠的讨论热度排名；已有数据更能反映开发活动，而非社区共识。
+在已知评论数的条目中，#6718 讨论量最高，但只有 1 条评论，**尚不足以称为高热度议题**。两项动态共同指向 WebUI 的状态反馈质量：用户需要清楚知道系统正在做什么，以及哪些辅助操作未成功。
 
 ## 4. Bug 与稳定性
 
-以下按**潜在影响优先级**排列，并非官方严重性评级。
+### 中低严重度：Kimi K3.1 Pro 下 WebUI 自动标题生成失败
 
-| 优先级 | 问题与影响 | 修复状态 |
-|---|---|---|
-| 高：安全边界 | URL 校验未提前拒绝主机名中的空白或原始控制字符，连接检查可能对无效目标执行 DNS 解析。现有摘要未显示可利用攻击或已发生安全事件。 | 已有开放修复 [#6716](https://github.com/HKUDS/nanobot/pull/6716) |
-| 高：内容保真 | 通知草稿在后续上下文中丢失，重复请求产生不同内容；影响用户对助手记忆和确认稿件的信任。 | Issue [#6704](https://github.com/HKUDS/nanobot/issues/6704)；开放修复 [#6717](https://github.com/HKUDS/nanobot/pull/6717)，拟保留字面工具草稿及时间标题 |
-| 中：运行状态一致性 | 浏览器漏收回合结束帧后，重连仍显示 Agent 正在运行；历史读取失败时无法纠正。 | 已有开放修复 [#6715](https://github.com/HKUDS/nanobot/pull/6715)，拟利用 Gateway 的运行状态进行校正 |
-| 中：性能回归 | 启动优化导致 Windows 首次新建会话命令变慢。 | 恢复流程提案 [#6712](https://github.com/HKUDS/nanobot/pull/6712) 已关闭；独立优化 [#6713](https://github.com/HKUDS/nanobot/pull/6713) 待验证 |
-| 低：交互异常 | 推理滑块加载期间短暂变成下拉框；侧栏改名后出现异常焦点框。 | [#6707](https://github.com/HKUDS/nanobot/pull/6707)、[#6710](https://github.com/HKUDS/nanobot/pull/6710) 已关闭，合并状态未知 |
+[Issue #6718](https://github.com/HKUDS/nanobot/issues/6718) 由 MonsieurV 于 11 月 18 日创建，今日仍有更新，目前未关闭。
 
-本批数据未出现明确的崩溃报告。稳定性风险主要集中在**会话回放、断线恢复及启动优化回归**。
+- **使用场景**：通过 OpenAI 兼容提供商使用 Kimi K3.1 Pro。
+- **症状**：主助手回复成功，但话题标题一直保留为 “Untitled”。
+- **可见诊断线索**：标题生成请求在输出恰好达到 **96 tokens** 时，以 `finish_reason=length` 结束。
+- **影响评估**：影响话题命名和会话整理体验；现有信息未显示主对话失败、崩溃或数据丢失，因此暂评为中低严重度。这是日报分析评级，并非维护者定级。
+- **修复状态**：所提供数据中**未见对应 fix PR**；[#6719](https://github.com/HKUDS/nanobot/pull/6719) 处理的是排队消息提示，不是此标题问题。
+
+建议维护者优先确认标题生成的输出预算是否适配该模型，并排查是否需要模型级配置或失败回退。现有摘要只能证明输出触及上限，尚不能确定完整根因。
 
 ## 5. 功能请求与路线图信号
 
-- **跨渠道会话在 WebUI 中继续：近期候选功能。**  
-  开放 PR [#6714](https://github.com/HKUDS/nanobot/pull/6714) 希望让 Telegram 等渠道中开始的会话可从 WebUI 侧栏继续，避免新建 WebUI 话题丢失上下文。它同时涉及回复路由边界：不能让用户在 WebUI 的操作意外向原渠道发送消息。已有实现提案，是较强的近期路线图信号，但尚无发布承诺。
+### 排队消息的可观测性是近期明确的改进方向
 
-- **MCP 预设扩展：仍处需求阶段。**  
-  [#6705](https://github.com/HKUDS/nanobot/issues/6705) 提议修改 `nanobot/webui/mcp_presets.json` 并补充文档表格；本批数据未提供对应 PR，是否进入下一版本仍待维护者评估。
+[PR #6719](https://github.com/HKUDS/nanobot/pull/6719) 已提出具体实现，说明“智能体是否已接手消息”的状态提示不再只是抽象需求，而是进入了待审查阶段。
 
-- **可靠性修复可能优先于新能力。**  
-  会话回放 [#6717](https://github.com/HKUDS/nanobot/pull/6717)、重连校正 [#6715](https://github.com/HKUDS/nanobot/pull/6715) 和安全校验 [#6716](https://github.com/HKUDS/nanobot/pull/6716) 均已有开放 PR，具备近期推进基础，但不能据此确认版本归属。
+- **产品价值**：让用户区分消息送达与实际处理，降低忙碌期间继续追问时的困惑。
+- **纳入下一版本的可能性**：已有 PR，具备成为近期版本候选的条件；但尚无合并、发布计划或维护者承诺，不能确认会随下一版本交付。
+- **优先级信号**：PR 标注为 `priority: p2`，但数据未说明项目对该级别的具体定义。
+
+此外，[Issue #6718](https://github.com/HKUDS/nanobot/issues/6718) 释放出一项兼容性信号：标题生成等辅助调用可能需要更灵活的模型适配策略。不过，目前它仍是 Bug 报告，不能视为已确定的路线图项目。
 
 ## 6. 用户反馈摘要
 
-> 未提供 Issue 评论正文，因此以下仅提炼自 Issue 描述，不推测评论观点或用户满意度。
+**数据限制**：输入仅提供 Issue 摘要和评论数量，没有提供评论正文，因此无法从评论中提炼观点分布、维护者回应或用户满意度。以下结论仅来自问题描述和 PR 动机。
 
-- **实际场景：办公通知起草与复用。** 用户需要助手保存已经拟好的消息，而不是每次请求时重新创作。核心痛点是“确认过的内容不可稳定复现”，而非语言表达质量。[#6704](https://github.com/HKUDS/nanobot/issues/6704)
-- **集成场景：降低 MCP 配置门槛。** 服务提供方希望通过内置预设减少手工填写地址的步骤；这是接入便利性诉求，不能直接等同于终端用户的采用意愿。[#6705](https://github.com/HKUDS/nanobot/issues/6705)
-- **满意度证据不足。** 当前数据没有明确的正向评价，也没有足够评论支撑整体不满意的结论。
+- **“主回复正常，但辅助功能失效”影响完整体验**：用户可以继续与助手对话，却无法获得自动标题，说明主链路成功不代表 WebUI 各环节均正常。[Issue #6718](https://github.com/HKUDS/nanobot/issues/6718)
+- **忙碌时追加消息，需要明确等待状态**：PR 描述指出，当前界面可能让排队消息看起来已经就绪，而用户真正关心的是智能体何时开始处理。[PR #6719](https://github.com/HKUDS/nanobot/pull/6719)
 
-## 7. 待处理积压与维护提醒
+现有反馈体现的是具体使用痛点，尚不能推断社区整体满意或不满意。
 
-**本批条目均为近期创建，无法识别长期未响应积压。** 建议关注以下开放事项，而非将其标记为“长期滞留”：
+## 7. 待处理积压
 
-1. **优先审查会话内容保真与安全校验**：[#6717](https://github.com/HKUDS/nanobot/pull/6717)、[#6716](https://github.com/HKUDS/nanobot/pull/6716)。
-2. **补足重连与跨平台验证**：关注漏收结束帧、历史读取失败及 Windows 首次新建会话场景，避免局部优化带来新的状态或性能回归。[#6715](https://github.com/HKUDS/nanobot/pull/6715)、[#6713](https://github.com/HKUDS/nanobot/pull/6713)
-3. **明确跨渠道续聊的消息发送边界**：在功能进入发布前验证上下文延续与原渠道投递行为。[#6714](https://github.com/HKUDS/nanobot/pull/6714)
-4. **回应外部 MCP 接入申请**：明确预设收录条件及后续责任，避免需求停留在无人反馈状态。[#6705](https://github.com/HKUDS/nanobot/issues/6705)
+**当前数据未显示可确认的长期未响应积压。** 两个条目均在最近两天创建并于今日更新，不应归类为长期搁置。
 
-**健康度结论：** NanoBot 当前呈现“开发活跃、可靠性修补密集、社区反馈样本偏少”的状态。积极信号是用户报告已有对应修复提案，且性能回归被显式识别并拆分处理；主要观察点是这些开放修复能否完成验证，以及关闭 PR 的实际合并与发布情况。
+| 待跟进条目 | 当前状态 | 建议关注 |
+|---|---|---|
+| [Issue #6718](https://github.com/HKUDS/nanobot/issues/6718) | 开放；创建约 1 天；未见 fix PR | 确认复现条件、96-token 预算来源及受影响模型范围，明确修复归属。 |
+| [PR #6719](https://github.com/HKUDS/nanobot/pull/6719) | 今日新建、待合并 | 审查排队提示与实际接手状态是否一致，并核验相关测试和交互表现。 |
+
+**健康度结论**：今日可见动态围绕 WebUI 体验与兼容性展开，问题描述具有可操作线索，功能改进也已形成 PR；但更新量较小且没有合并交付。后续应重点观察 #6718 是否进入修复流程，以及 #6719 的审查与合并进度。
 
 </details>
 
@@ -367,151 +366,105 @@ AI/ML API 方面希望将其官方托管 MCP 服务加入预设列表，减少�
 <summary><strong>Hermes Agent</strong> — <a href="https://github.com/nousresearch/hermes-agent">nousresearch/hermes-agent</a></summary>
 
 # Hermes Agent 项目动态日报
-**日期：2026-11-19｜观察窗口：过去 24 小时**  
-项目：[NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent)
+**日期：2026-11-19** · [项目仓库](https://github.com/nousresearch/hermes-agent)
 
-> **数据口径**：本日报依据提供的 50 条 Issue 更新、50 条 PR 更新及 1 个 Release 汇总生成；可见明细为 30 条 Issue、20 条 PR，时间均为 11 月 18 日。Release 正文被截断，PR 评论数为 `undefined`，且未提供评论正文。因此，下文区分用户报告、待合并修复与已确认发布，不将提案视为落地结果。
+> 统计依据：所提供的近 24 小时更新数据。详细分析覆盖展示出的 30 条 Issues、20 条 PR；未提供评论正文，PR 评论数为 `undefined`，因此不推断评论观点、评审热度或未展示条目的具体内容。当前无新版本发布。
 
 ## 1. 今日速览
 
-过去 24 小时，项目记录 **50 条 Issue 更新和 50 条 PR 更新**，开发与反馈活动密集，但这不等同于新增 100 项工作。PR 汇总中 **47 条待合并、3 条已合并或关闭**，不过后三条没有可见明细，暂时无法量化实际交付成果。今日主要工作集中在 **Gateway 与会话可靠性、Windows 启动、插件兼容性以及桌面端体验**，部分高影响问题已出现对应修复 PR。另有一个 Canary 版本发布，但缺少完整变更日志；整体表现为“贡献活跃、修复响应可见，稳定性与合并验证仍需重点关注”。  
-参考：[项目 Issues](https://github.com/NousResearch/hermes-agent/issues) · [项目 PRs](https://github.com/NousResearch/hermes-agent/pulls)
+过去 24 小时，项目分别有 **50 条 Issue、50 条 PR 更新**，其中 Issue 新开/活跃 47 条、关闭 3 条，PR 待合并 48 条、合并/关闭 2 条，贡献活动密集。今日主线集中在 **多 Profile 隔离、会话与提示缓存一致性、Desktop 远程连接，以及 Gateway/Cron 稳定性**，例如[跨 Profile 文件访问问题](https://github.com/nousresearch/hermes-agent/issues/157590)与[排队消息破坏缓存问题](https://github.com/nousresearch/hermes-agent/issues/157662)。部分报告已出现直接对应的修复或实现 PR，包括[清理子进程僵尸问题](https://github.com/nousresearch/hermes-agent/pull/157665)和[请求转储保留策略](https://github.com/nousresearch/hermes-agent/pull/157656)，体现了较快的贡献响应。整体呈现“**开发活跃、问题面较广、待审压力较高**”的状态，但当前数据不足以确认今日有多少修复已经合并交付。
 
-## 2. 版本发布
+## 2. 项目进展
 
-### Canary：`v0.23.2+canary.20261118T064620Z`
+### 已关闭 PR：有收敛动作，但不能视为已交付
 
-- **发布日期**：2026-11-18。
-- **发布类型**：Canary 构建，不应等同于正式稳定版。
-- **已知内容**：发布说明包含 Hermes Desktop 下载表，可见 macOS Apple Silicon 的 DMG 下载项。
-- **更新内容与破坏性变更**：提供的正文在下载表处截断，**无法确认具体修复、功能变化、破坏性变更或官方迁移步骤**。
-- **升级建议**：先在测试环境验证插件加载、会话恢复及 Gateway 启停；当前主分支已有内部模块移动导致插件导入失败的报告，但**不能据此认定该 Canary 一定包含同一回归或其修复**。
+展示数据中的两条关闭 PR 均只标记为 `CLOSED`，**未提供是否合并的信息**：
 
-链接：[Release 详情](https://github.com/NousResearch/hermes-agent/releases/tag/v0.23.2%2Bcanary.20261118T064620Z) · [插件兼容问题 #157438](https://github.com/NousResearch/hermes-agent/issues/157438)
-
-## 3. 项目进展
-
-### 已合并/关闭成果：目前无法核验具体内容
-
-汇总显示 3 条 PR 已合并或关闭，但可见的 20 条 PR **全部为 OPEN**。因此，不能确认这 3 条分别属于合并还是未合并关闭，也不能把下面的待审修复计入已交付成果。  
-参考：[PR 列表](https://github.com/NousResearch/hermes-agent/pulls)
-
-### 重要待合并进展
-
-| 方向 | 当前进展与价值 | 状态 |
+| PR | 涉及改进 | 当前可确认的进展 |
 |---|---|---|
-| 记忆插件兼容 | 恢复因内部模块移动而无法加载的 OpenViking、Honcho 记忆插件，避免静默退回内置记忆 | [#157478](https://github.com/NousResearch/hermes-agent/pull/157478)，OPEN，带 `ci-reviewed` 标签 |
-| Windows 启动 | 从 System32 定位 `whoami.exe`，避免误调用内置 Git 的同名工具导致身份校验失败 | [#157479](https://github.com/NousResearch/hermes-agent/pull/157479)，OPEN |
-| Windows Gateway 可用性 | 处理一次 AcceptEx 异常后监听套接字关闭、进程仍存活却无法连接的问题 | [#157483](https://github.com/NousResearch/hermes-agent/pull/157483)，OPEN |
-| 容器部署 | 对只读 `config.yaml` 明确跳过启动配置迁移，改善只读挂载场景的失败处理与提示 | [#157476](https://github.com/NousResearch/hermes-agent/pull/157476)，OPEN |
-| 远程 Webapp 认证 | 为浏览器托管的 Desktop 使用 Gateway 公共 OAuth 回调，支持 MCP 登录 | [#157470](https://github.com/NousResearch/hermes-agent/pull/157470)，OPEN |
-| 压缩后的会话操作 | 修复压缩轮转后聊天执行“Move to project”时的会话标识处理 | [#157467](https://github.com/NousResearch/hermes-agent/pull/157467)，OPEN |
+| [#157649：归档会话搜索状态](https://github.com/nousresearch/hermes-agent/pull/157649) | 修复 Desktop 搜索结果丢失归档标记、导致归档会话状态呈现异常的问题 | PR 已关闭；是否合并、替代或放弃待确认 |
+| [#157645：无头环境 Webapp 引导发布](https://github.com/nousresearch/hermes-agent/pull/157645) | 为 Linux/systemd 无头主机提供发布向导 | 原 PR 已关闭；同作者另有相关方案 [#157650](https://github.com/nousresearch/hermes-agent/pull/157650)，将入口整合到 Gateway 设置菜单 |
 
-**进展判断**：今日可确认的是多个高价值修复已进入评审队列，而不是已经完成交付；实际向前推进的幅度，仍取决于合并、回归测试与后续发布。
+### 待审的重要推进
 
-## 4. 社区热点
+- **降低 Gateway 路由写入成本**：[PR #157659](https://github.com/nousresearch/hermes-agent/pull/157659) 拟将路由全量删除重建改为差量写入，减少结构性会话变更带来的数据库写入。
+- **改善异常恢复**：[PR #157657](https://github.com/nousresearch/hermes-agent/pull/157657) 拟在会话恢复前解析插件平台，避免启动恢复流程早于插件发现。
+- **提高模型调用容错**：[PR #157648](https://github.com/nousresearch/hermes-agent/pull/157648) 为 Gemini `MALFORMED_*` 返回引入纠正重试，而不是直接终止。
+- **修正聊天平台代码损坏**：[PR #157664](https://github.com/nousresearch/hermes-agent/pull/157664) 拟保留纯文本转换过程中的代码星号，避免函数参数、乘法表达式等被改写。
 
-可见 Issue 的最高评论数只有 **3 条**，且所有展示条目的 👍 均为 0，说明讨论量较分散，尚无明显高共识热点。PR 评论数缺失，无法按讨论热度排序。
+**进展判断：** 今日贡献集中于已有能力的可靠性补强，而非大型功能落地；上述重要 PR 均仍为 OPEN，实际收益取决于后续评审、合并和发布。
+
+## 3. 社区热点
+
+可见 Issues 的最高评论数仅为 **2 条**，所有展示条目点赞均为 **0**；尚未形成显著的高热讨论。PR 评论数缺失，无法进行讨论热度排名。
 
 | 热点 | 可见互动 | 背后的诉求 |
 |---|---:|---|
-| [OpenViking 插件导入失败 #157438](https://github.com/NousResearch/hermes-agent/issues/157438) | 3 评论 | 用户依赖外部长期记忆；插件失效却回退内置记忆，需要明确诊断和兼容性保障。已有 [修复 PR #157478](https://github.com/NousResearch/hermes-agent/pull/157478)。 |
-| [Windows 集成终端光标横跳 #157373](https://github.com/NousResearch/hermes-agent/issues/157373) | 3 评论 | 问题同时出现在普通 Shell 与经典 CLI，用户关注的是桌面终端基础可用性，而不只是模型输出。 |
-| [远程图片打开错误 #157431](https://github.com/NousResearch/hermes-agent/issues/157431) | 2 评论 | 网页图片 URL 被按 Gateway 文件处理，反映远程桌面使用中资源来源和文件访问路径的区分不足。 |
-| [WhatsApp 定时消息缺少会话上下文 #157454](https://github.com/NousResearch/hermes-agent/issues/157454) | 1 评论 | 用户期望主动推送不仅送达，还能进入同一会话记忆，使后续回复连续。 |
+| [#157615：带标签字段输出绕过秘密脱敏](https://github.com/nousresearch/hermes-agent/issues/157615) | 2 评论，OPEN | 用户希望常见凭据字段导出格式也能被可靠脱敏，而非只覆盖固定文本形态 |
+| [#157585：移动端漏显示本地会话](https://github.com/nousresearch/hermes-agent/issues/157585) | 2 评论，CLOSED | 相同会话库应在移动端、桌面端保持一致可见；关闭原因未提供 |
+| [#157542：模型选择器首字母 `q` 触发退出](https://github.com/nousresearch/hermes-agent/issues/157542) | 2 评论，OPEN | 搜索输入与快捷键冲突，影响 `qwen`、`qwq` 等模型的筛选 |
+| [#157598：流式 thinking 内容被丢弃](https://github.com/nousresearch/hermes-agent/issues/157598) | 1 评论，OPEN | 用户关注已付费推理内容的留存、展示与可审计性 |
 
-## 5. Bug 与稳定性
+## 4. Bug 与稳定性
 
-以下按**潜在用户影响**排序；原始标签主要为 P2/P3，不额外推定为已确认的更高等级事故。“未见修复”仅表示所给明细中未展示。
+以下按**潜在影响**排序，不替代仓库原有优先级标签。多数安全报告当前标签仍为 P3；“未见 fix PR”仅指本次展示数据中未发现明确对应项。
 
-### 优先关注：无法启动、会话不可达、回合收尾失败
-
-| 问题 | 影响与风险 | Fix PR |
+| 关注级别 | 问题与影响 | 修复状态 |
 |---|---|---|
-| [本地规范会话永久返回 503 #157440](https://github.com/NousResearch/hermes-agent/issues/157440) | 特定 `local-*` 会话无法恢复、删除或修改；属于会话可访问性问题，尚不能据此判断数据丢失 | 未见 |
-| [运行时页脚导致 `deepcopy` 失败 #157439](https://github.com/NousResearch/hermes-agent/issues/157439) | 报告称启用相关配置后，每个完成回合的结算/发布都会触发 `TypeError` | 未见 |
-| [Windows 身份校验失败 #157356](https://github.com/NousResearch/hermes-agent/issues/157356) | 异常断电后无法启动；PATH 中同名 `whoami.exe` 干扰身份校验 | [#157479](https://github.com/NousResearch/hermes-agent/pull/157479)，待合并 |
-| [Gateway 停机卡死 #157413](https://github.com/NousResearch/hermes-agent/issues/157413) | drain 完成后仍挂起，后续 SIGTERM 无效，需强制终止；影响重启与运维恢复 | 未见 |
-| [压缩后会话消失报告 #157437](https://github.com/NousResearch/hermes-agent/issues/157437) | 用户称重要聊天在压缩附近消失，但复现条件与数据状态尚未明确 | 未见直接修复 |
+| **高：隔离边界** | [#157590](https://github.com/nousresearch/hermes-agent/issues/157590)：Gateway 的 `@file:` 根目录解析可能允许次级 Profile 读取其他 Profile 文件 | 未见明确 fix PR |
+| **高：凭据作用域** | [#157606](https://github.com/nousresearch/hermes-agent/issues/157606)：同进程多 Profile 从实时 `os.environ` 解析凭据与设置，存在作用域混用风险 | 未见明确 fix PR |
+| **高：秘密泄露** | [#157615](https://github.com/nousresearch/hermes-agent/issues/157615)：特定带标签字段输出未被脱敏，秘密可能原样进入工具输出 | 未见明确 fix PR |
+| **高：主机可用性** | [#157633](https://github.com/nousresearch/hermes-agent/issues/157633)：本地终端命令无内存上限，重型构建可能触发 OOM，波及整个桌面会话 | 未见明确 fix PR |
+| **高：会话恢复错误** | [#157652](https://github.com/nousresearch/hermes-agent/issues/157652)：恢复父会话时打开委派子代理记录；报告称父记录仍在数据库中，但无法正常到达 | 未见明确 fix PR |
+| **中高：远程连接阻断** | [#157625](https://github.com/nousresearch/hermes-agent/issues/157625)：Desktop 通过 HTTPS LAN IP 登录后，WebSocket ticket 持续遭遇 `no_cookie` 拒绝 | 未见明确 fix PR |
+| **中：缓存与费用** | [#157662](https://github.com/nousresearch/hermes-agent/issues/157662)、[#157583](https://github.com/nousresearch/hermes-agent/issues/157583)：排队消息、图片消息重载改变历史消息形态，造成后续提示缓存失配 | 均未见明确 fix PR |
+| **中：流式数据完整性** | [#157598](https://github.com/nousresearch/hermes-agent/issues/157598)：typed thinking 内容未存储或展示，影响调用记录完整性 | 未见明确 fix PR |
+| **中：模型配置兼容性** | [#157658](https://github.com/nousresearch/hermes-agent/issues/157658)：Copilot 默认模型持久化使用别名，破坏 Desktop provider 匹配与实时目录 | 未见明确 fix PR |
+| **中：进程清理** | [#157661](https://github.com/nousresearch/hermes-agent/issues/157661)：定时 scratch 清理退出后遗留僵尸子进程 | 已有 OPEN 修复 [PR #157665](https://github.com/nousresearch/hermes-agent/pull/157665) |
 
-### 次优先：能力失效、消息路由与上下文不一致
+另有一组终端显示问题值得联合回归：CLI 单次调用将图片输出成 Python 元组文本（[#157632](https://github.com/nousresearch/hermes-agent/issues/157632)）、Zellij 下图片显示损坏（[#157605](https://github.com/nousresearch/hermes-agent/issues/157605)）、中断后重绘错位（[#157627](https://github.com/nousresearch/hermes-agent/issues/157627)）。它们反映了不同终端运行模式下的兼容性覆盖不足，本次数据中未见明确对应修复 PR。
 
-| 问题 | 影响与风险 | Fix PR |
-|---|---|---|
-| [外部记忆插件加载失败 #157438](https://github.com/NousResearch/hermes-agent/issues/157438) | 服务健康但插件未激活，实际退回内置记忆；错误原因不够显著 | [#157478](https://github.com/NousResearch/hermes-agent/pull/157478)，待合并 |
-| [ACP 后台任务完成回复误投 #157364](https://github.com/NousResearch/hermes-agent/issues/157364) | 完成通知触发的回复进入 Gateway 本地会话，ACP 客户端收不到；带 `needs-decision` 标签 | 未见 |
-| [WhatsApp LID 会话未镜像定时消息 #157454](https://github.com/NousResearch/hermes-agent/issues/157454) | 消息送达但上下文未写入对应 DM，会影响接续回复 | 未见 |
-| [真实浏览器配置选错二进制 #157428](https://github.com/NousResearch/hermes-agent/issues/157428) | 可能使用低版本 Chrome 打开较新版本配置文件，值得优先验证兼容性 | 未见 |
-| [Linux 图形浏览器启动失败 #157429](https://github.com/NousResearch/hermes-agent/issues/157429) | 子进程缺少 `DISPLAY`/`XAUTHORITY`，真实配置、有界面模式无法启动 | 未见 |
+## 5. 功能请求与路线图信号
 
-### 安全边界与体验问题
+### 已有实现 PR，近期落地信号较强
 
-- **审批规则持久化错误**：用户报告“Always allow”写入的是命令描述，而不是命令本身；需要核查审批配置的正确性，尚不能推定存在权限绕过。未见对应修复。  
-  [#157348](https://github.com/NousResearch/hermes-agent/issues/157348)
-- **后台 review 写入权限缺少配置收窄手段**：关注 `skill_manage` 默认可用带来的最小权限边界，属于设计与安全配置诉求。未见对应修复。  
-  [#157349](https://github.com/NousResearch/hermes-agent/issues/157349)
-- **桌面 Bot Chat 显示回复却缺少问题**：保存记录中消息齐全，但 UI 需强制重载才恢复，容易被误认为上下文丢失。未见对应修复。  
-  [#157466](https://github.com/NousResearch/hermes-agent/issues/157466)
-- **Telegram 流式编辑节流异常**：阈值使用累计文本长度而非未刷新增量，可能导致编辑间隔控制失效。未见对应修复。  
-  [#157481](https://github.com/NousResearch/hermes-agent/issues/157481)
+- **请求转储自动过期清理**：[Issue #157644](https://github.com/nousresearch/hermes-agent/issues/157644) 已有 [PR #157656](https://github.com/nousresearch/hermes-agent/pull/157656)，拟加入 `HERMES_DUMP_RETENTION_DAYS`。需求同时涉及磁盘占用、备份体积，以及完整提示副本的保留周期。
+- **更自然的 Cron 调度**：[PR #157655](https://github.com/nousresearch/hermes-agent/pull/157655) 支持“每月第二个周一”“最后一个周五”等表达；配套 [PR #157639](https://github.com/nousresearch/hermes-agent/pull/157639) 修正夏令时回拨时的漏跑、重复执行，显示调度能力正同步补强易用性与正确性。
+- **无头主机引导发布 Desktop**：[PR #157650](https://github.com/nousresearch/hermes-agent/pull/157650) 将浏览器版 Desktop 纳入 Gateway 设置，降低远程部署门槛。
+- **插件与 MCP 生态扩充**：[Agent Runs #157637](https://github.com/nousresearch/hermes-agent/pull/157637)、[TerminalUp Odds #157663](https://github.com/nousresearch/hermes-agent/pull/157663) 等目录贡献持续进入待审队列。
 
-## 6. 功能请求与路线图信号
+### 尚处需求阶段
 
-### 相对接近落地：已有实现 PR，但仍待评审
+- **插件统一安装、按 Profile 启停**：[Issue #157653](https://github.com/nousresearch/hermes-agent/issues/157653)。相关故障 [#157647](https://github.com/nousresearch/hermes-agent/issues/157647) 显示，新 Profile 可能继承其无法加载的插件 provider 配置，说明插件共享机制不仅是便利性问题。
+- **ACP 编辑审批默认策略**：[Issue #157635](https://github.com/nousresearch/hermes-agent/issues/157635)，希望通过配置统一会话创建时的审批行为。
+- **新增 Haven 消息平台**：[Issue #157629](https://github.com/nousresearch/hermes-agent/issues/157629)，体现自托管、跨设备通信入口的需求。
+- **Zellij 全分辨率图片**：[Issue #157628](https://github.com/nousresearch/hermes-agent/issues/157628)，希望从降级显示进一步提升到完整图片支持。
 
-- **多会话注意力管理**：让“等待用户输入”和“未读”在侧栏、Dock 更显著，适合多任务智能体使用。  
-  [PR #157477](https://github.com/NousResearch/hermes-agent/pull/157477)
-- **Google Workspace 集成**：拟加入 gws-oauth v0.8.0，覆盖多账户、Gmail/Drive/Calendar 工具及定向变更通知。  
-  [PR #157482](https://github.com/NousResearch/hermes-agent/pull/157482)
-- **工具结果压缩插件**：ctxprune 拟以社区插件形式进入目录，声明通过重复行计数等方式压缩工具输出；实际收益仍待验证。  
-  [PR #157465](https://github.com/NousResearch/hermes-agent/pull/157465)
-- **serve/dashboard 向 Gateway 迁移提示**：迁移系列继续推进，补充更新后旧后端识别及 Docker、Nix、Windows 手动迁移说明；当前 PR 依赖前序工作。  
-  [PR #157484](https://github.com/NousResearch/hermes-agent/pull/157484)
+以上仅为近期候选信号，**不能据此确认下一版本承诺**。
 
-### 中期信号：可靠性验证优先于单纯扩展能力
+## 6. 用户反馈摘要
 
-- **压缩摘要验证**：建议可选检查预生成摘要是否保留智能体随后实际使用的信息，指向长任务的信息完整性保障。  
-  [Issue #157486](https://github.com/NousResearch/hermes-agent/issues/157486)
-- **`/goal` 独立完成审查**：建议使用新上下文、可调用工具的独立 critic，再接受 DONE，指向结果验证与减少过早完成。  
-  [Issue #157485](https://github.com/NousResearch/hermes-agent/issues/157485)
-- **GUI 自动化增加 move/hover**：面向 macOS Java/Swing 菜单，具体场景为 IBKR TWS。  
-  [Issue #157434](https://github.com/NousResearch/hermes-agent/issues/157434)
-- **新模型目录、定价与上下文选择器登记**：用户请求补充 GPT-6.2 系列支持；这是 Issue 中的请求，提供数据不足以独立核实模型发布情况。  
-  [Issue #157463](https://github.com/NousResearch/hermes-agent/issues/157463)
+由于没有评论正文，以下提炼自 Issue 描述，而非对评论或情绪的直接引用：
 
-**下一版本判断**：已有 PR 的桌面提示、OAuth 和插件目录项目，比仅停留在 Issue 阶段的验证机制更接近交付，但没有发布承诺或排期证据。
+- **多机器人运维已成为实际场景。** 有用户描述管理 13 个本地 Profile；转储清理、插件共享、配置隔离正在成为运维需求，而非边缘功能。见 [#157644](https://github.com/nousresearch/hermes-agent/issues/157644)、[#157653](https://github.com/nousresearch/hermes-agent/issues/157653)。
+- **用户开始细查调用成本。** 图片和排队消息导致缓存命中下降、thinking 已计费却未留存，说明长会话用户需要可靠的费用与上下文可观测性。见 [#157583](https://github.com/nousresearch/hermes-agent/issues/157583)、[#157662](https://github.com/nousresearch/hermes-agent/issues/157662)、[#157598](https://github.com/nousresearch/hermes-agent/issues/157598)。
+- **跨端一致性仍有摩擦。** 相同会话库在移动端和桌面端显示不同；同一远程 URL 在浏览器可用、Desktop 不可用，都会增加排障成本。见 [#157585](https://github.com/nousresearch/hermes-agent/issues/157585)、[#157625](https://github.com/nousresearch/hermes-agent/issues/157625)。
+- **界面反馈可能误导用户。** 本地或 Git 安装的插件无法按 ID 搜索，容易被误认为安装失败；远程大段粘贴附件预览 404，则削弱文件输入的可信度。见 [#157603](https://github.com/nousresearch/hermes-agent/issues/157603)、[#157667](https://github.com/nousresearch/hermes-agent/issues/157667)。
 
-## 7. 用户反馈摘要
+本次数据没有足够依据提炼明确的满意评价；不能因缺少正向反馈而推断整体用户满意度偏低。
 
-> 未提供评论正文，以下根据 Issue 描述提炼，不作为评论原话或整体满意度调查。
+## 7. 待处理积压与维护建议
 
-- **“会话必须持续可用”是最强信号。** 用户将 Hermes 用于重要工作，担心压缩后找不到聊天、历史会话无法打开，以及长期 Bot Chat 无法轮转。  
-  [#157437](https://github.com/NousResearch/hermes-agent/issues/157437) · [#157440](https://github.com/NousResearch/hermes-agent/issues/157440) · [#157416](https://github.com/NousResearch/hermes-agent/issues/157416)
-- **用户期望跨入口保持同一上下文。** WhatsApp 定时推送与 ACP 后台任务说明，消息“发出”不代表用户能在正确入口看到它并继续讨论。  
-  [#157454](https://github.com/NousResearch/hermes-agent/issues/157454) · [#157364](https://github.com/NousResearch/hermes-agent/issues/157364)
-- **静默降级不利于建立信任。** OpenViking 未激活却保留内置记忆，可能让用户误判实际使用的记忆后端；可诊断性与功能本身同样重要。  
-  [#157438](https://github.com/NousResearch/hermes-agent/issues/157438)
-- **桌面与移动端的基础交互仍有摩擦。** 集成终端光标跳动，以及 Android 群聊阅读长回复时滚动回弹，都直接妨碍日常使用。  
-  [#157373](https://github.com/NousResearch/hermes-agent/issues/157373) · [#157446](https://github.com/NousResearch/hermes-agent/issues/157446)
+**无法识别“长期未响应”条目：** 展示条目均创建于 11 月 18—19 日，且缺少维护者响应、评审记录和完整历史。48 条待合并 PR 代表本次更新集合的待审量，**不等于全仓库积压总量**。
 
-当前样本以故障反馈为主，**没有足够证据归纳用户满意点或计算满意度**。
+建议优先关注：
 
-## 8. 待处理积压
+1. **安全边界联合排查**：将 [跨 Profile 文件读取 #157590](https://github.com/nousresearch/hermes-agent/issues/157590)、[凭据作用域 #157606](https://github.com/nousresearch/hermes-agent/issues/157606)、[脱敏绕过 #157615](https://github.com/nousresearch/hermes-agent/issues/157615) 纳入统一验证，避免逐点修复遗漏相邻路径。
+2. **会话与缓存一致性专项**：围绕 [父子会话恢复 #157652](https://github.com/nousresearch/hermes-agent/issues/157652)、[排队消息 #157662](https://github.com/nousresearch/hermes-agent/issues/157662)、[图片历史重载 #157583](https://github.com/nousresearch/hermes-agent/issues/157583) 增加跨轮次回归测试。
+3. **优先审查已有对应方案**：[僵尸子进程修复 #157665](https://github.com/nousresearch/hermes-agent/pull/157665)、[转储保留策略 #157656](https://github.com/nousresearch/hermes-agent/pull/157656) 已有明确问题来源，可优先完成验证与评审。
+4. **补齐关闭结果说明**：明确 [#157649](https://github.com/nousresearch/hermes-agent/pull/157649)、[#157645](https://github.com/nousresearch/hermes-agent/pull/157645) 的关闭原因及替代关系，便于用户判断功能是否真正可用。
 
-**无法确认长期未响应项**：展示的 Issue 和 PR 均于 11 月 18 日创建，没有更早历史、维护者回复身份或等待时长，不能将零评论解释为“长期无人处理”。以下更适合作为下一轮分诊队列：
-
-| 建议优先级 | 待关注项 | 维护建议 |
-|---|---|---|
-| 高 | [本地会话持续 503 #157440](https://github.com/NousResearch/hermes-agent/issues/157440) | 先确认影响范围，提供安全的诊断与恢复流程，避免用户误删状态库 |
-| 高 | [回合结算异常 #157439](https://github.com/NousResearch/hermes-agent/issues/157439) | 验证页脚配置触发条件，并覆盖结算/发布回归测试 |
-| 高 | [Gateway 停机挂起 #157413](https://github.com/NousResearch/hermes-agent/issues/157413) | 核查 watchdog 启动时机及停机各阶段超时边界 |
-| 高 | [ACP 回复路由 #157364](https://github.com/NousResearch/hermes-agent/issues/157364) | 明确异步完成事件的路由归属与等待策略，推进 `needs-decision` 决策 |
-| 中高 | [记忆插件修复 PR #157478](https://github.com/NousResearch/hermes-agent/pull/157478) | 验证 OpenViking、Honcho 的加载与错误提示，再决定合并和发布 |
-| 中高 | [Windows 身份修复 PR #157479](https://github.com/NousResearch/hermes-agent/pull/157479) | 覆盖 PATH 顺序差异、异常关机场景及不同安装渠道 |
-
-### 项目健康度结论
-
-**贡献供给活跃，但交付闭环与运行可靠性仍是当前重点。** 最积极的信号是插件兼容和 Windows 启动故障已迅速出现对应修复；主要风险则集中在会话生命周期、消息路由和 Gateway 运维边界。下一观察窗口应重点追踪：上述修复是否合并并进入可验证版本，以及会话不可达、结算失败、停机卡死等问题是否获得明确诊断和回归测试。
+**健康度结论：** 项目贡献活跃，且部分问题迅速获得实现响应；当前更需要关注多 Profile、远程部署与长会话场景的系统性稳定性，以及待审贡献能否转化为可验证的发布成果。
 
 </details>
 
@@ -525,81 +478,85 @@ AI/ML API 方面希望将其官方托管 MCP 服务加入预设列表，减少�
 <details>
 <summary><strong>NanoClaw</strong> — <a href="https://github.com/qwibitai/nanoclaw">qwibitai/nanoclaw</a></summary>
 
-# NanoClaw 项目动态日报｜2026-11-19
+# NanoClaw 项目动态日报
+**日期：2026-11-19｜统计范围：所提供的过去 24 小时更新数据**
 
-> 统计范围：所提供的过去 24 小时 GitHub 更新，条目更新时间均为 2026-11-18。项目入口标注为 `qwibitai/nanoclaw`，但条目链接均指向 `nanocoai/nanoclaw`；下文按条目提供的仓库生成链接，不推断仓库迁移关系。
+> **数据说明**：项目指定仓库为 [`qwibitai/nanoclaw`](https://github.com/qwibitai/nanoclaw)，但所提供的 PR 链接均指向 `nanocoai/nanoclaw`，下文 PR 链接按原始数据保留。部分记录更新时间为 11 月 18 日，因缺少时区与采集时间，仍按给定统计窗口纳入。评论数为 `undefined`，不能视为零评论，也无法据此判断讨论热度。
 
 ## 1. 今日速览
 
-过去 24 小时，NanoClaw 有 **1 条 Issue、5 条 PR 更新**，其中 4 条 PR 待合并、1 条已关闭，无新版本发布，整体呈现**小规模、以稳定性维护为主的活跃状态**。最明确的用户问题是默认 Slack + Codex 安装生成的指令文档超过 32 KiB 上限，导致 `ncl` 和 canvas 指令丢失，已有配套修复 PR。[Issue #4464](https://github.com/nanocoai/nanoclaw/issues/4464) · [PR #4465](https://github.com/nanocoai/nanoclaw/pull/4465)  
-维护工作还覆盖 Claude CLI 多轮输入的回复路由、无 Bun 主机上的更新校验，以及代理镜像刷新。[PR #4462](https://github.com/nanocoai/nanoclaw/pull/4462) · [PR #4461](https://github.com/nanocoai/nanoclaw/pull/4461) · [PR #4463](https://github.com/nanocoai/nanoclaw/pull/4463)  
-从健康度看，维护者对具体缺陷有及时响应，但目前数据**不能确认任何 PR 已合并**，因此不宜将待审修复视为已交付能力。
+过去 24 小时共收录 **5 条 PR 更新、0 条 Issue 更新和 1 个新版本**，开发活动主要围绕发布收敛、运行稳定性与技能扩展展开。新发布的 **`v2026.11.0-rc.2` 已进入稳定版前验证阶段**：发布说明称，若测试未发现问题，预期以该构建作为稳定版，不再安排 beta。4 个待合并 PR 分别涉及代理镜像刷新、容器挂载写权限、iMessage 摘要技能及停机生命周期修复。整体呈现**发布驱动的持续推进状态**，但缺少评论、评审与 CI 完整数据，无法进一步量化社区参与度或发布质量。[发布相关 PR #4466](https://github.com/nanocoai/nanoclaw/pull/4466)
 
-## 2. 项目进展
+## 2. 版本发布
 
-### 已关闭：补齐无 Bun 主机的更新类型检查
+### v2026.11.0-rc.2：接近稳定发布，但仍是候选版本
+[发布相关 PR #4466](https://github.com/nanocoai/nanoclaw/pull/4466)
 
-[PR #4461 — fix(update): typecheck agent-runner with the pinned Bun when the host has none](https://github.com/nanocoai/nanoclaw/pull/4461)
+- **版本定位**：2026.11.0 的第二个候选版本。按发布说明，若测试无异常，该构建预期转为稳定版。
+- **版本序列调整**：11 月版本取代原计划的 **2026.10.1**；后者不会发布稳定版。所提供的发布说明在此后截断，无法确认其余安排。
+- **变更范围**：发布 PR 摘要称，相较 `rc.1` 累计包含 **9 个 PR**；`channels` 部分自 `rc.1` 起未变，仍位于 `b563b332`。当前资料未列出这 9 项变更，不能将下文待合并 PR 视为已包含内容。
+- **破坏性变更**：现有数据未披露，**不等于已确认不存在**。
+- **迁移注意事项**：仍等待 2026.10.1 稳定版的用户应重新评估升级目标；生产环境需注意 RC 身份，在升级前核对完整发布说明并进行回归验证。
 
-- **问题背景**：此前 `/update-nanoclaw` 仅在宿主机存在 `bun` 时检查 agent-runner 类型；否则提示延后到镜像构建，但摘要指出镜像构建实际未执行该检查。
-- **拟推进内容**：在宿主机没有 Bun 时，使用固定版本的 Bun 对发生变更的 agent-runner 源码进行类型检查，补齐更新流程的验证盲区。
-- **状态边界**：数据仅标记为 **CLOSED**，未提供合并标记或关闭原因，不能确认修复已进入主分支。
+## 3. 项目进展
 
-**整体推进评估**：当天工作集中在指令完整性、对话调度和更新验证，属于可靠性补强，而非功能扩张。明确可见的是修复方案在推进，实际落地幅度仍需通过 PR 合并状态确认。
+### 发布流程推进：rc.2 已发布，发布 PR 已关闭
+[PR #4466 — chore(release): v2026.11.0-rc.2](https://github.com/nanocoai/nanoclaw/pull/4466)
 
-## 3. 社区热点
+这是本次数据中唯一已关闭的 PR，对应第二个发布候选版本的准备工作。结合新版本已发布的记录，可以确认项目向 2026.11.0 稳定版交付迈进一步。
 
-当前样本讨论量较低，尚无高热度议题。唯一 Issue 有 **1 条评论、0 个 👍**；PR 评论数为 `undefined`，应视为缺失数据，而非零评论。
+**状态边界**：数据仅标注 `CLOSED`，未提供合并标记，不能直接认定该 PR 已合并。其余 4 个 PR 均为 `OPEN`，因此今日可确认的主要成果是**候选版本交付**，而非这些新功能或修复已经落地。
 
-| 议题 | 可见热度与状态 | 背后的诉求 |
-|---|---|---|
-| [#4464：Slack + Codex 指令丢失](https://github.com/nanocoai/nanoclaw/issues/4464) | 1 条评论、0 个 👍，开放中；已有 [#4465](https://github.com/nanocoai/nanoclaw/pull/4465) | 默认安装组合应保留完整工具与能力说明，避免代理启动后缺少关键操作指令。 |
-| [#4462：排队输入的回复路由滞后](https://github.com/nanocoai/nanoclaw/pull/4462) | PR 开放中，评论数未知 | 用户连续追加消息时，系统需要正确识别哪些输入已被模型回答，维持后续回复路由的一致性。 |
-| [#4460：README 定位调整](https://github.com/nanocoai/nanoclaw/pull/4460) | PR 开放中，评论数未知 | 文档拟突出“你拥有的常驻智能体”，同时修正提供商中立性及描述准确性；这是维护方向信号，不等于已形成社区共识。 |
+## 4. 社区热点
 
-## 4. Bug 与稳定性
+**无法按讨论活跃度排序**：全部 PR 的评论数均缺失，所列 👍 均为 0，且没有 Issue 更新。以下仅为按影响范围筛选的关注项，不代表真实热度排名。
 
-以下严重程度为依据摘要作出的分析判断，并非官方分级。
-
-| 优先级 | 问题与影响 | 修复状态 |
-|---|---|---|
-| **较高：核心指令完整性** | [Issue #4464](https://github.com/nanocoai/nanoclaw/issues/4464)：Linux、`v2026.11.0-rc.1 (280cae014)` 的默认 Slack + Codex 安装生成 **39,393 字节**的 `AGENTS.md`，超过 32 KiB 上限，导致 `ncl`、canvas 指令丢失。报告称每次容器启动均记录错误，已出现 9 次。 | 已有开放中的 [PR #4465](https://github.com/nanocoai/nanoclaw/pull/4465)，拟将 Codex 的文档上限提高至 **64 KiB**。尚未确认合并。 |
-| **中高：对话回复路由一致性** | [PR #4462](https://github.com/nanocoai/nanoclaw/pull/4462)：Claude CLI 可能在一个 turn 中回答多个排队输入，但运行器仍按每个 `result` 推进一个 turn，造成回复路由落后。摘要未说明影响范围或是否属于回归。 | 修复 PR 开放中，拟移除已在其他 turn 中得到回答的排队 turn。 |
-| **中：更新验证缺口** | [PR #4461](https://github.com/nanocoai/nanoclaw/pull/4461)：无 Bun 的宿主机可能跳过 agent-runner 类型检查，降低更新前发现类型错误的能力；并非已确认的运行时崩溃。 | PR 已关闭，是否合并未知。 |
-
-此外，[PR #4463](https://github.com/nanocoai/nanoclaw/pull/4463) 拟将 `v2026.10.0` 对应的 hardened image 更新为 `v2026.10.0-20261118T0147`，并替换镜像摘要。该项属于维护性刷新，**不能仅凭摘要推断其修复了具体漏洞**。
-
-## 5. 功能请求与路线图信号
-
-本批数据没有独立的新功能请求，主要信号来自现有修复与文档 PR：
-
-- **Codex 默认安装兼容性优先**：[#4465](https://github.com/nanocoai/nanoclaw/pull/4465) 直接对应已报告问题，修复目标明确，是近期版本值得关注的候选项；但不能据此承诺纳入下一版本。
-- **多轮对话调度继续完善**：[#4462](https://github.com/nanocoai/nanoclaw/pull/4462) 表明项目正在处理提供商实际输出行为与内部 turn 队列之间的不一致，重点是连续交互可靠性。
-- **强化“常驻、用户拥有、提供商中立”的产品表达**：[#4460](https://github.com/nanocoai/nanoclaw/pull/4460) 拟调整 README 定位并修正事实表述。这是文档与产品叙事调整，不应解读为新增托管服务或新增提供商支持。
-- **镜像维护持续推进**：[#4463](https://github.com/nanocoai/nanoclaw/pull/4463) 显示已有版本的镜像仍在刷新，但它不是新的 Release。
-
-## 6. 用户反馈摘要
-
-**数据限制：未提供 Issue 评论正文，无法从那 1 条评论中提炼观点。**以下仅依据 [Issue #4464 的报告摘要](https://github.com/nanocoai/nanoclaw/issues/4464)：
-
-- **真实场景**：用户在 Linux 上使用默认 Slack 安装与 Codex provider，而非复杂定制配置。
-- **明确痛点**：每次容器启动都会出现错误，且代理缺失 `ncl`、canvas 相关指令，影响预期能力的完整性。
-- **维护价值**：报告提供了版本、提交、文档字节数及重复出现次数，有利于复现和验证修复。
-- **满意度边界**：没有可用的正面反馈、修复验证结果或评论正文，不能判断用户是否接受方案，也不能推断整体满意度。
-
-## 7. 待处理积压
-
-当前条目均创建于 2026-11-18，**没有足够证据识别长期未响应积压**。以下是近期应跟进的待办，而非长期积压：
-
-| 待办 | 建议关注点 |
+| 关注项 | 背后的需求或工程诉求 |
 |---|---|
-| [Issue #4464](https://github.com/nanocoai/nanoclaw/issues/4464) / [PR #4465](https://github.com/nanocoai/nanoclaw/pull/4465) | 验证提升至 64 KiB 后，默认 Slack + Codex 配置能完整加载指令，并确认重复启动报错消失。 |
-| [PR #4462](https://github.com/nanocoai/nanoclaw/pull/4462) | 重点验证连续追加输入、单次回答覆盖多个输入时，队列不会残留或误删 turn。 |
-| [PR #4461](https://github.com/nanocoai/nanoclaw/pull/4461) | 核实关闭原因与合并状态，避免更新校验缺口被误认为已解决。 |
-| [PR #4463](https://github.com/nanocoai/nanoclaw/pull/4463) | 确认新镜像摘要及兼容性验证结果。 |
-| [PR #4460](https://github.com/nanocoai/nanoclaw/pull/4460) | 审核定位与准确性调整，确保文档承诺与代码能力一致。 |
+| [#4468：iMessage 摘要技能](https://github.com/nanocoai/nanoclaw/pull/4468) | 希望智能体获取指定会话的摘要，同时保持原始消息不进入容器、不离开 Mac，体现个人助手场景下对隐私边界的重视。 |
+| [#4469：容器挂载可写配置](https://github.com/nanocoai/nanoclaw/pull/4469) | 表明部分容器工作流需要写入挂载目录；配置灵活性与权限控制需要兼顾。 |
+| [#4467：停机前排空 host sweep](https://github.com/nanocoai/nanoclaw/pull/4467) | 聚焦后台任务与停机流程的协调，属于运行生命周期可靠性改进。 |
 
-**总体判断**：今日项目体现出针对真实安装与对话场景的维护响应能力；主要风险不是缺乏修复方案，而是关键方案仍待合并或交付确认。后续应优先跟踪 Codex 指令完整性与回复路由修复的验证结果。
+## 5. Bug 与稳定性
+
+**本日没有新 Issue 报告**。以下为待合并 PR 暴露出的稳定性事项，排序依据潜在影响，非维护者确认的严重级别；现有资料均不足以认定为严重故障。
+
+| 优先关注顺序 | 问题与影响 | 修复状态 |
+|---|---|---|
+| 1 | **停机与 host sweep 并发协调**：PR 计划在停机期间停止调度新 sweep，并等待进行中的任务完成。若处理不当，可能影响清理流程的完整性；摘要未报告实际崩溃或数据丢失。 | **已有 fix PR，待合并**：[ #4467](https://github.com/nanocoai/nanoclaw/pull/4467)。作者报告 8 个文件中的 52 项测试通过，类型、格式与 diff 检查通过。 |
+| 2 | **容器挂载写权限配置**：标题指向无法按需求设置挂载点可写的问题，并关联既有 Bug #4150。具体复现条件与影响范围未提供。 | **已有 fix PR，待合并**：[ #4469](https://github.com/nanocoai/nanoclaw/pull/4469)；[关联 Issue #4150](https://github.com/nanocoai/nanoclaw/issues/4150)。 |
+
+**预防性加固**：[PR #4470](https://github.com/nanocoai/nanoclaw/pull/4470) 将 `v2026.10.0` 对应的加固镜像更新至 `v2026.10.0-20261118T1930`，并替换镜像摘要，目前仍待合并。没有漏洞编号或补丁明细，不能据此推断存在特定安全漏洞。
+
+## 6. 功能请求与路线图信号
+
+- **隐私优先的消息摘要能力**：[PR #4468](https://github.com/nanocoai/nanoclaw/pull/4468) 提议新增 `add-imessage-summaries` 技能，让 agent group 跟踪指定 iMessage 会话的摘要。这是明确的功能实现提案，但尚未合并，也无版本归属承诺。
+- **更灵活的容器工作流**：[PR #4469](https://github.com/nanocoai/nanoclaw/pull/4469) 反映挂载写权限需求，若落地将改善需要文件写回的容器使用场景。
+- **近期重心偏向发布验证与可靠性**：[rc.2 发布 PR #4466](https://github.com/nanocoai/nanoclaw/pull/4466) 与[停机修复 #4467](https://github.com/nanocoai/nanoclaw/pull/4467)共同表明当前关注发布收敛。不过，**无法确认任何待合并 PR 将进入 2026.11.0 稳定版**。
+
+## 7. 用户反馈摘要
+
+本次数据**不包含 Issue 评论或 PR 评论正文**，因此无法提炼真实用户的满意度、负面反馈频率或典型评价。
+
+仅从贡献者提案可识别两类需求信号：
+
+- **隐私与授权边界**：希望智能体利用消息信息，但避免原始消息直接进入通用执行环境。[PR #4468](https://github.com/nanocoai/nanoclaw/pull/4468)
+- **容器任务可用性**：部分工作流需要挂载目录可写，而不只是读取。[PR #4469](https://github.com/nanocoai/nanoclaw/pull/4469)
+
+以上是提案所反映的诉求，不能替代经评论验证的广泛用户反馈。
+
+## 8. 待处理积压
+
+**没有足够证据识别“长期未响应”的积压。** 本次列出的开放 PR 均创建于 11 月 18—19 日，不应仅因尚未合并就认定为维护滞后。
+
+建议维护者近期关注：
+
+1. **发布前稳定性评审**：核实停机修复是否应纳入当前候选版后续处置，并确认集成验证结果。[PR #4467](https://github.com/nanocoai/nanoclaw/pull/4467)
+2. **挂载写权限边界**：审查可写配置的默认行为、授权范围及回归测试覆盖。[PR #4469](https://github.com/nanocoai/nanoclaw/pull/4469)
+3. **镜像刷新验证**：核查新镜像兼容性与摘要更新；当前没有足够信息判断该刷新是否紧急。[PR #4470](https://github.com/nanocoai/nanoclaw/pull/4470)
+4. **隐私技能方案评审**：验证“消息不进入容器、不离开 Mac”的设计边界与实现。[PR #4468](https://github.com/nanocoai/nanoclaw/pull/4468)
+
+**健康度结论**：项目处于有明确交付节奏的候选版验证阶段，稳定性工作与自动化维护持续推进；但当前数据不足以评价长期积压、评审响应速度和实际用户满意度。
 
 </details>
 
@@ -624,81 +581,95 @@ AI/ML API 方面希望将其官方托管 MCP 服务加入预设列表，减少�
 **日期：2026-11-19**  
 **项目：[netease-youdao/LobsterAI](https://github.com/netease-youdao/LobsterAI)**
 
-> 统计口径：依据所提供的过去 24 小时数据；两条 PR 的创建、更新时间均标注为 2026-11-18。数据仅标记为 `CLOSED`，**无法据此确认是否已合并**。
-
 ## 1. 今日速览
-
-过去 24 小时，LobsterAI 有 **2 条 PR 更新、0 条 Issue 更新、0 个新版本发布**，整体呈现低频、集中于修复的维护节奏。两条已关闭 PR 均由同一贡献者提交，围绕 Cowork 执行模式与沙箱策略，以及 OpenClaw 技能目录和文件交付行为展开。改动重点是提高配置一致性、执行策略可预期性和交付物可靠性，而非扩展新功能。其中一条 PR 报告 **191 项定向测试通过**，但实际模型参与的 Word 验收用例被跳过，端到端效果仍需进一步验证。当前样本未显示新增问题集中出现，但也不足以判断整体缺陷趋势或社区满意度。
+过去 24 小时，LobsterAI 共有 **3 条 PR 更新、0 条 Issue 更新，无新版本发布**，呈现低讨论量、小步迭代的状态。PR 中 1 条处于开放状态、2 条已关闭，但数据未提供合并标记，因此不能将关闭等同于已合并。今日工作集中在桌面伴侣菜单可用性、模型选择器国际化，以及宠物视频制作专家工作流三个方向。整体开发活动仍在持续，但评论数缺失、缺少用户反馈样本，尚不足以判断社区参与度及修复落地效果。  
+相关 PR：[桌面伴侣修复 #3116](https://github.com/netease-youdao/LobsterAI/pull/3116) · [模型标签国际化 #3115](https://github.com/netease-youdao/LobsterAI/pull/3115) · [宠物视频工作流 #3117](https://github.com/netease-youdao/LobsterAI/pull/3117)
 
 ## 2. 项目进展
 
-### Cowork：修复执行模式读取，尊重显式沙箱策略
-**[PR #3114](https://github.com/netease-youdao/LobsterAI/pull/3114)** · 作者：fisherdaddy · 状态：已关闭，合并情况未确认
+### 桌面伴侣菜单：改善首次使用与全屏场景
+**[#3116 · fix(desktop-companion)](https://github.com/netease-youdao/LobsterAI/pull/3116)**  
+**状态：已关闭，是否合并待确认。**
 
-- **已知问题**：Cowork 将 `executionMode` 保存到 SQLite 后，读取时却始终返回 `local`，使保存配置与实际读取结果不一致。
-- **修复方向**：恢复读取已保存的执行模式，并处理旧有 `auto`、`sandbox` 值重新生效后的策略兼容问题；标题同时表明显式沙箱策略应得到遵守。
-- **关联工作**：摘要说明该 PR 保留原作者信息，并挑选了 [PR #3090](https://github.com/netease-youdao/LobsterAI/pull/3090) 的存储修复，关联 [Issue #735](https://github.com/netease-youdao/LobsterAI/issues/735)。
-- **推进价值**：提高配置持久化可靠性，也让企业部署中的执行环境选择更可预期。由于摘要截断，具体策略优先级和兼容边界仍需查看完整实现。
+该 PR 针对桌面伴侣悬浮菜单的显示时机与窗口层级进行修复：
+- 首次收到渲染器尺寸测量结果后，即显示悬浮菜单。
+- 初次加载较慢、未及时收到测量结果时，在加载完成后重试显示兜底逻辑。
+- 调整 macOS 全屏场景下启动器的窗口层级。
 
-### OpenClaw 与 Cowork：精简技能目录，规范交付文件路径
-**[PR #3113](https://github.com/netease-youdao/LobsterAI/pull/3113)** · 作者：fisherdaddy · 状态：已关闭，合并情况未确认
+**进展意义：**聚焦基础交互可靠性，旨在减少首次使用或全屏操作时菜单不可见的问题；修复是否进入主分支仍需核实。
 
-- 在 LobsterAI 使用的 **OpenClaw v2026.8.1** 中合并技能目录的公共路径，同时保留精确定位、技能顺序及现有预算限制。
-- 上下文报告与 Code Mode 使用同一份目录；持久化继续使用原生快照。
-- 更新 Cowork 托管工作区提示，要求按用户指定的文件名和位置保存交付物，并验证最终链接指向本次创建或更新的文件。
-- 加入 Word 文件名、保存位置、文档标题的验收样例与校验测试。
-- **验证结果**：报告 191 项定向 Vitest 通过；依赖实际模型输出目录的 Word 验收用例本次跳过。
+### 模型选择器：完善自定义标签的语言处理
+**[#3115 · feat(models)](https://github.com/netease-youdao/LobsterAI/pull/3115)**  
+**状态：已关闭，是否合并待确认。**
 
-**整体进展判断**：本次是执行配置、上下文组织与文件交付链路的定点加固，价值主要体现在可靠性和一致性。尚不能确认相关修复已进入主分支或正式版本。
+主要调整包括：
+- 有英文自定义标签时，优先展示服务端提供的英文版本。
+- 缺少对应翻译时，仍保留标签显示，避免信息丢失。
+- 英文界面中的内置徽标改为仅图标展示，自定义标签文本放入悬停详情。
+- 为标签解析与语言回退补充渲染器测试。
+
+**进展意义：**提升英文界面的信息一致性，并通过测试覆盖降低相关逻辑回归风险。
+
+**整体判断：**今日进展以局部体验完善为主，而非重大架构调整。两项已关闭 PR 均有明确的交互改进目标，但不能据此认定功能已交付。
 
 ## 3. 社区热点
 
-今日没有 Issue 更新，且两条 PR 的评论数均为 `undefined`、👍 均为 0，**无法识别“讨论最活跃”或“评论最多”的议题**。以下仅为改动关注点，不代表社区热度排名：
+**今日无法可靠评选“讨论最活跃”条目。**所给数据中，3 条 PR 的评论数均为 `undefined`，不能视为零评论；👍 均为 0，且无 Issue 更新。因此，下列仅为值得关注的开发议题，不代表社区热度排名。
 
-| 关注点 | 背后的诉求 |
-|---|---|
-| [#3114：执行模式与沙箱策略](https://github.com/netease-youdao/LobsterAI/pull/3114) | 已保存配置应被正确恢复，明确指定的执行策略不应被默认行为覆盖。 |
-| [#3113：技能目录与交付路径](https://github.com/netease-youdao/LobsterAI/pull/3113) | Agent 不仅要生成内容，还应按指定位置交付，并提供准确、可用的文件链接。 |
+| 议题 | 可观察到的诉求 | 链接 |
+|---|---|---|
+| 宠物视频制作工作流 | 将分镜、图像、片段和剪辑组织为带审核环节的创作流程 | [#3117](https://github.com/netease-youdao/LobsterAI/pull/3117) |
+| 桌面伴侣显示可靠性 | 让菜单在首次启动、慢加载和全屏环境下保持可访问 | [#3116](https://github.com/netease-youdao/LobsterAI/pull/3116) |
+| 多语言模型标签 | 兼顾英文界面可读性与翻译缺失时的信息完整性 | [#3115](https://github.com/netease-youdao/LobsterAI/pull/3115) |
 
 ## 4. Bug 与稳定性
 
-今日**没有新报告的 Bug Issue**。以下按潜在影响排序，为 PR 暴露的问题与修复方向；严重程度并非维护者正式评级。
+今日未提供新增 Bug Issue、崩溃报告或回归报告。以下风险依据修复 PR 摘要整理，严重程度为分析判断，并非维护者评级。
 
 | 优先级 | 问题与影响 | Fix PR 状态 |
 |---|---|---|
-| 较高关注 | 执行模式读取固定为 `local`，与持久化配置不一致；涉及执行环境及沙箱策略，应重点检查升级兼容性。现有信息不足以认定存在安全漏洞。 | [#3114](https://github.com/netease-youdao/LobsterAI/pull/3114)，已关闭，合并未确认 |
-| 中等关注 | 交付物文件名、位置或最终链接可能不符合用户要求，影响文档任务的可用性。 | [#3113](https://github.com/netease-youdao/LobsterAI/pull/3113)，已关闭，合并未确认 |
+| **中** | 桌面伴侣悬浮菜单在首次使用或初始慢加载时可能未及时显示；macOS 全屏场景也涉及窗口层级问题，影响功能入口可访问性。 | 已有 [#3116](https://github.com/netease-youdao/LobsterAI/pull/3116)，已关闭，合并及发布状态待确认。 |
+| **低** | 模型自定义标签的英文显示与翻译回退需要完善，主要影响信息呈现与理解。 | 已有 [#3115](https://github.com/netease-youdao/LobsterAI/pull/3115)，已关闭；摘要提及补充测试，但未提供测试执行结果。 |
 
-**验证缺口**：[#3113](https://github.com/netease-youdao/LobsterAI/pull/3113) 的单元测试结果积极，但不能替代实际模型参与的 Word 端到端验收；不宜据此认定文件交付问题已全面解决。
+现有样本未显示数据丢失、安全漏洞或阻断性崩溃，**但这不等于已确认不存在相关问题**。
 
 ## 5. 功能请求与路线图信号
 
-今日无新增功能请求，以下仅为现有 PR 体现的方向，**不代表下一版本承诺**：
+### 宠物视频制作专家工作流是今日最明确的新增功能信号
+**[#3117 · feat(experts)](https://github.com/netease-youdao/LobsterAI/pull/3117)**  
+**状态：开放，待合并。**
 
-- **执行策略治理**：持续完善本地、自动、沙箱模式之间的配置恢复和策略一致性，偏向企业使用可靠性。[PR #3114](https://github.com/netease-youdao/LobsterAI/pull/3114)
-- **面向交付的 Agent 工作流**：将文件名、保存位置、文档标题和最终链接纳入可验证要求，强化文档生成任务的完成标准。[PR #3113](https://github.com/netease-youdao/LobsterAI/pull/3113)
-- **上下文组织优化**：通过技能目录公共路径合并及共享目录来源，改善上下文组织一致性；暂无可量化的性能或 token 节省数据。[PR #3113](https://github.com/netease-youdao/LobsterAI/pull/3113)
+根据可见摘要，该 PR 拟新增 **Pet Vlog Director** 支持套件，并刷新已安装预设，覆盖：
+- 分镜、图像、视频片段和剪辑审核。
+- 已批准镜头混用独立镜头与匹配帧转场。
+- 基础剪辑保留源音频。
+- 字幕、音乐和叠加元素作为可选的第二次交付。
 
-若这些修复已合并，具备进入后续版本的可能，但当前数据无法确认发布计划。
+**路线图解读：**这表明项目正在探索更具体的垂直创作场景，并强调分阶段审核与基础/增强交付的区分。由于已有开放 PR，它是后续版本的候选功能；但当前没有合并结果、里程碑或发布计划，不能确认会进入下一版本。
+
+今日没有 Issue 层面的新功能请求数据，不能将该开发提案直接视为已验证的用户需求。
 
 ## 6. 用户反馈摘要
 
-**本次没有可供分析的 Issue 评论，无法提炼真实用户原话、满意度或反馈频率。**
+今日没有可用的 Issue 评论，**无法提炼可归属到真实用户的满意度、投诉或直接引述**。以下仅为 PR 所反映的潜在使用痛点：
 
-从 PR 修复目标中，可识别两类使用需求，但不能将其表述为已验证的社区共识：
-
-- **配置可预期**：用户设置执行模式后，后续读取和运行应保持一致，尤其是受沙箱策略约束的部署。[PR #3114](https://github.com/netease-youdao/LobsterAI/pull/3114)
-- **交付可定位**：Word 等文档任务需要按指定名称、目录和标题完成，最终链接应指向正确文件。[PR #3113](https://github.com/netease-youdao/LobsterAI/pull/3113)
+- **桌面助手用户：**需要在首次启动和全屏工作时稳定访问悬浮菜单。见 [#3116](https://github.com/netease-youdao/LobsterAI/pull/3116)。
+- **英文界面用户：**需要模型标签可读，且不因缺少翻译而丢失信息。见 [#3115](https://github.com/netease-youdao/LobsterAI/pull/3115)。
+- **视频创作者：**可能需要可审核、可分阶段交付的宠物视频制作流程；目前属于开发方向信号，尚无用户反馈验证。见 [#3117](https://github.com/netease-youdao/LobsterAI/pull/3117)。
 
 ## 7. 待处理积压
 
-当前数据不包含全量开放事项、等待时长或维护者响应记录，**无法确认长期未响应的重要积压**。建议优先核查：
+**当前数据不足以识别长期未响应的重要积压。**所列 PR 均于今日创建并更新，不能归类为长期滞留；没有 Issue 更新也不代表仓库没有历史积压。
 
-1. **关联问题是否闭环**：检查 [Issue #735](https://github.com/netease-youdao/LobsterAI/issues/735) 与 [PR #3090](https://github.com/netease-youdao/LobsterAI/pull/3090)、[#3114](https://github.com/netease-youdao/LobsterAI/pull/3114) 的关系，确认修复是否实际落地。
-2. **关闭原因与替代实现**：核实 [#3113](https://github.com/netease-youdao/LobsterAI/pull/3113)、[#3114](https://github.com/netease-youdao/LobsterAI/pull/3114) 是合并关闭、被替代，还是未采纳关闭，避免将关闭数量误计为交付量。
-3. **补齐端到端验证**：跟进 [#3113](https://github.com/netease-youdao/LobsterAI/pull/3113) 跳过的 Word 验收，覆盖真实模型输出后的文件位置与链接正确性。
+建议维护者关注以下待核实事项：
 
-**健康度结论**：今日呈现“小规模、修复导向”的维护特征，且有明确测试投入；主要信息缺口是合并状态、实际模型验收和用户侧验证，暂不宜对整体质量趋势作更强判断。
+| 事项 | 建议行动 | 链接 |
+|---|---|---|
+| 宠物视频工作流尚未合并 | 确认评审进展，并检查预设刷新对已有安装环境的影响 | [#3117](https://github.com/netease-youdao/LobsterAI/pull/3117) |
+| 桌面伴侣修复交付状态不明 | 确认是否合并，并验证首次启动、慢加载与 macOS 全屏场景 | [#3116](https://github.com/netease-youdao/LobsterAI/pull/3116) |
+| 模型标签调整交付状态不明 | 确认是否合并及测试结果，重点检查翻译缺失时的回退行为 | [#3115](https://github.com/netease-youdao/LobsterAI/pull/3115) |
+
+**健康度结论：**项目今日保持了明确的体验修复与场景扩展活动，模型标签 PR 中的测试补充也是正向信号。不过，发布、合并和用户验证信息仍不足，现阶段更适合评价为“持续迭代中”，而非“改进已完成交付”。
 
 </details>
 
@@ -719,109 +690,79 @@ AI/ML API 方面希望将其官方托管 MCP 服务加入预设列表，减少�
 <details>
 <summary><strong>CoPaw</strong> — <a href="https://github.com/agentscope-ai/CoPaw">agentscope-ai/CoPaw</a></summary>
 
-# CoPaw 项目动态日报
-**日期：2026-11-19｜统计范围：所提供的过去 24 小时 GitHub 更新**
+# CoPaw 项目动态日报｜2026-11-19
 
-> **数据说明：**项目名称按 CoPaw 展示；本批条目及发布链接均指向 `agentscope-ai/QwenPaw`，下文沿用原始链接。数据中的更新时间均为 2026-11-18；Release 说明存在截断，且未提供评论正文、PR 合并标记与历史响应记录，因此不将“已关闭”视为“已修复/已合并”，也不推断长期积压。
+> **统计范围：**过去 24 小时。报告基于所提供的 GitHub 数据，不代表仓库全部状态。  
+> **数据口径提示：**项目名称为 [CoPaw](https://github.com/agentscope-ai/CoPaw)，但两条 Issue 均指向 `agentscope-ai/QwenPaw`；以下保留原始 Issue 链接，不推断仓库更名或迁移关系。
 
 ## 1. 今日速览
 
-过去 24 小时共记录 **7 条 Issue 更新、4 条 PR 更新及 1 个版本发布**，项目保持持续活跃，但讨论规模较小，尚不足以判断长期活跃度趋势。新版本 [v2.3.0.post1](https://github.com/agentscope-ai/QwenPaw/releases/tag/v2.3.0.post1) 延续插件化与 Console 交互改进方向，同时出现渠道可用性、启动日志噪声和窄屏显示方面的升级反馈。当前最值得优先关注的是 [Shell 外发操作审批缺口](https://github.com/agentscope-ai/QwenPaw/pull/8810)、[Agent 异常继续执行](https://github.com/agentscope-ai/QwenPaw/issues/8806)及[连续 MCP 调用导致上下文超限](https://github.com/agentscope-ai/QwenPaw/issues/8802)。整体健康度表现为：**交付节奏持续、架构方向清晰，但升级体验与执行安全仍需重点验证。**
+过去 24 小时，项目有 **2 条新开/活跃 Issue，0 条关闭 Issue、0 条 PR 更新、0 个新版本发布**，整体呈现低活跃度、问题反馈驱动的状态。两条反馈均涉及稳定性与使用体验：一条是微信渠道长期运行后双向失效，另一条是定时任务执行期间会话消息不可见。两条 Issue 各有 1 条评论、均无点赞，目前讨论规模有限，尚未看到对应修复 PR。今日没有可确认的代码交付进展，维护重点应放在渠道持续可用性和后台任务可观测性上。  
+来源：[渠道失效 #8814](https://github.com/agentscope-ai/QwenPaw/issues/8814) · [定时任务消息不可见 #8815](https://github.com/agentscope-ai/QwenPaw/issues/8815)
 
-## 2. 版本发布
+## 2. 项目进展
 
-### [v2.3.0.post1](https://github.com/agentscope-ai/QwenPaw/releases/tag/v2.3.0.post1)
+- **今日无可确认的功能或修复落地。**提供的数据中没有新增、合并或关闭的 PR，也没有 Issue 关闭记录，因此无法确认项目在代码交付层面向前推进了多少。
+- **问题识别有所推进，但尚未形成修复闭环。**[#8814](https://github.com/agentscope-ai/QwenPaw/issues/8814) 的报告已提出响应路由未清理、触及数量上限的疑似原因；[#8815](https://github.com/agentscope-ai/QwenPaw/issues/8815) 则明确了后台定时任务执行过程缺少消息展示的问题。二者仍需维护者确认与验证。
 
-可见发布说明包含：
+## 3. 社区热点
 
-| 更新 | 内容与价值 |
-|---|---|
-| 第三方 Agent 插件化 | 将第三方 Agent 从核心中抽离为插件，推进核心轻量化和扩展解耦。关联 [PR #8426](https://github.com/agentscope-ai/QwenPaw/pull/8426)。 |
-| Console 选中文本引用 | 支持将回复中的选中内容引用到后续提问草稿，改善针对局部内容追问的体验。关联 [PR #8609](https://github.com/agentscope-ai/QwenPaw/pull/8609)。 |
-| Safari 相关修复 | 发布说明仅显示“fix(console): restore Safari”，具体修复范围无法确认。见[发布页](https://github.com/agentscope-ai/QwenPaw/releases/tag/v2.3.0.post1)。 |
+两条 Issue **均为 1 条评论、0 个 👍**，热度并列，暂无明显集中讨论的话题。
 
-**破坏性变更与迁移注意事项：**
-
-- **未见明确的 breaking change 声明，但不能据此认定升级完全无影响。**用户报告升级后钉钉、飞书 Channel 默认不可用，需手动更新后恢复，同时出现大量 `startup_diagnostic` WARNING 日志。生产环境升级前应验证渠道组件及其更新流程。见 [Issue #8812](https://github.com/agentscope-ai/QwenPaw/issues/8812)。
-- Console 用户应检查窄屏消息、宽表格和代码块的展示与横向滚动；已有用户报告从 2.3.0 升级后发生裁切。见 [Issue #8811](https://github.com/agentscope-ai/QwenPaw/issues/8811)。
-- 发布安装验证工单仍为 OPEN，现有数据不能确认平台验证是否全部通过。见 [Issue #8807](https://github.com/agentscope-ai/QwenPaw/issues/8807)。
-
-## 3. 项目进展
-
-### 已关闭条目：版本号推进，但合并状态不明
-
-[PR #8809：版本号调整为 2.3.1b1](https://github.com/agentscope-ai/QwenPaw/pull/8809) 已关闭。这是进入下一开发版本的信号，但**数据未说明是否合并**，不能据此认定版本变更已进入主分支，更不能视为 2.3.1 已发布。
-
-### 在途的重要改进
-
-| PR | 状态 | 推进方向 |
+| 议题 | 讨论情况 | 背后的诉求 |
 |---|---|---|
-| [#8810：Shell 外发操作审批](https://github.com/agentscope-ai/QwenPaw/pull/8810) | OPEN | 为邮件发送、HTTP 写请求及本地文件上传补充检测规则，收紧 AUTO/SMART 模式下的执行边界。 |
-| [#8804：延迟加载 Anthropic/Gemini SDK](https://github.com/agentscope-ai/QwenPaw/pull/8804) | OPEN | 避免仅使用 OpenAI 兼容接口时仍提前加载其他 SDK，旨在减少启动阶段开销；尚无量化收益数据。 |
-| [#8803：技能池卡片与内置技能状态](https://github.com/agentscope-ai/QwenPaw/pull/8803) | OPEN | 修正旧内置技能被误判为“过时”、通知红点持续存在的问题，并调整卡片信息与操作布局。 |
+| [#8814 微信渠道长期运行后静默失效](https://github.com/agentscope-ai/QwenPaw/issues/8814) | 1 条评论，0 👍 | 长驻个人助手需要稳定的双向通信，以及用户能够感知的故障提示；仅有内部错误日志不利于及时发现和恢复服务。 |
+| [#8815 定时任务执行期间会话无消息](https://github.com/agentscope-ai/QwenPaw/issues/8815) | 1 条评论，0 👍 | 用户希望在后台任务运行时看到触发消息、模型响应或执行进度，而不是等任务结束后才能了解情况。 |
 
-**进展判断：**本轮有实际版本交付，但这 4 条 PR 中没有可确认已合并的功能修复；安全、启动性能和技能管理改进仍处于待合入阶段。
+## 4. Bug 与稳定性
 
-## 4. 社区热点
+以下优先级为基于影响范围的分析判断，并非维护者官方定级。
 
-按已提供的评论数与反应数排序：
+### 高优先级：微信渠道触及响应路由上限后双向失效
 
-1. **[Issue #8806：出现未发送的 user 消息，驱动 Agent 继续执行](https://github.com/agentscope-ai/QwenPaw/issues/8806)**  
-   **3 条评论，已关闭**，为本批讨论最多的条目。用户描述 Agent 回答后仍持续开启新一轮工具调用，核心诉求是执行过程可控、会话来源可追踪；关闭原因及是否解决未知。
+- **Issue：**[#8814 — RESPONSE_SCOPE_LIMIT: active response routes are never evicted, channel silently dies at 128](https://github.com/agentscope-ai/QwenPaw/issues/8814)
+- **报告现象：**长时间运行后，微信渠道的入站与出站均停止工作，无用户可见错误；宿主日志仅显示 `-32603 internal error`。
+- **报告中的原因判断：**活跃响应路由未被清理，并触及 128 的上限；涉及 `src/qwenpaw/channel_protocol/shared_response_driver.py`。这是报告者的诊断，当前数据不足以确认其已获维护者验证。
+- **影响评估：**可能导致核心交互渠道不可用，且静默失败增加发现与排查难度，应优先处理。
+- **修复状态：**OPEN；**所提供数据中未见 fix PR**。
 
-2. **[Issue #8808：更轻量、更易扩展的架构方向](https://github.com/agentscope-ai/QwenPaw/issues/8808)**  
-   **1 条评论、1 个 👍**，是本批唯一获得点赞的 Issue。它更接近项目方向公告，传递出将非核心模块逐步插件化的信号；当前互动量尚不足以代表广泛社区共识。
+### 中优先级：定时任务运行期间会话消息不可见
 
-3. **[Issue #8812：升级后的日志噪声与渠道不可用](https://github.com/agentscope-ai/QwenPaw/issues/8812)**  
-   **1 条评论**。背后诉求是升级应保持可用、诊断信息应区分真正故障与常规提示，避免用户将 WARNING 误判为系统异常。
+- **Issue：**[#8815 — Scheduled task conversations show no messages until execution completes](https://github.com/agentscope-ai/QwenPaw/issues/8815)
+- **报告版本：**QwenPaw 2.3.0。
+- **报告现象：**后台定时 Agent 任务运行时，Web Console 对应会话不显示触发消息、模型响应及执行进度，直到执行完成后才显示消息。
+- **影响评估：**削弱长任务的过程可见性，用户难以区分正常执行、执行卡住和任务未启动；现有摘要未表明任务执行本身失败或消息永久丢失。
+- **修复状态：**OPEN；**所提供数据中未见 fix PR**。
 
-> PR 评论数均为 `undefined`，无法据此参与热度排名。
+## 5. 功能请求与路线图信号
 
-## 5. Bug 与稳定性
+今日没有独立的新功能请求，但两条 Bug 反馈释放出明确的产品改进信号：
 
-以下按潜在影响排序，属于日报分析优先级，并非官方严重性评级。
+- **长驻运行的资源生命周期管理。**[#8814](https://github.com/agentscope-ai/QwenPaw/issues/8814) 提示需要关注响应路由回收、容量边界处理与渠道健康监测。相关措施是基于问题的改进建议，并非已确认的开发计划。
+- **后台任务的实时可观测性。**[#8815](https://github.com/agentscope-ai/QwenPaw/issues/8815) 反映用户对运行中消息和进度可见性的需求，更接近现有能力的体验补齐，而非全新功能。
 
-| 优先级 | 问题与影响 | 状态及 fix PR |
-|---|---|---|
-| **高：安全审批边界** | Shell 命令发送邮件、执行 HTTP 写请求或上传文件，可能在 AUTO/SMART 模式下绕过审批。 | 已有 **OPEN 修复 [PR #8810](https://github.com/agentscope-ai/QwenPaw/pull/8810)**；尚不能视为已修复。 |
-| **高：异常自主继续执行** | Agent 回复后继续调用工具，且上下文出现用户声称未发送的消息；可能影响任务终止与操作可控性。 | [Issue #8806](https://github.com/agentscope-ai/QwenPaw/issues/8806) 已关闭；未提供 fix PR 或关闭原因。 |
-| **高：MCP 上下文超限** | 同一轮连续返回大量工具结果后触发 `MODEL_CONTEXT_LENGTH_EXCEEDED`，任务中断。 | [Issue #8802](https://github.com/agentscope-ai/QwenPaw/issues/8802) OPEN；未见对应 fix PR。报错环境确切版本未确认，且未在原版上游发行包验证。 |
-| **高：升级后渠道不可用** | 用户报告钉钉、飞书默认不可用，手动更新后才恢复。 | [Issue #8812](https://github.com/agentscope-ai/QwenPaw/issues/8812) OPEN；未见对应 fix PR，影响范围待确认。 |
-| **中高：容器内存占用** | 基础镜像缺少 `MALLOC_ARENA_MAX` 限制；报告环境主应用 RSS 达 2.67 GB，其中约 1.78 GB 关联 glibc arenas。 | [Issue #8805](https://github.com/agentscope-ai/QwenPaw/issues/8805) OPEN；既有 [PR #8654](https://github.com/agentscope-ai/QwenPaw/pull/8654) 被报告仅覆盖 Creator 入口，未覆盖基础镜像。 |
-| **中：Console 显示回归** | 窄屏整条消息、宽表格及代码块被裁切，且不能横向滚动。 | [Issue #8811](https://github.com/agentscope-ai/QwenPaw/issues/8811) OPEN；未见对应 fix PR。 |
-| **低：启动日志与技能状态噪声** | WARNING 刷屏、技能误报过时及持续红点，降低诊断与状态提示可信度。 | 日志问题见 [#8812](https://github.com/agentscope-ai/QwenPaw/issues/8812)，暂无可见修复；技能问题已有 OPEN [PR #8803](https://github.com/agentscope-ai/QwenPaw/pull/8803)。 |
+**下一版本判断：**当前无关联 PR、里程碑或发布计划信息，不能判断上述改进是否会进入下一版本。
 
-## 6. 功能请求与路线图信号
+## 6. 用户反馈摘要
 
-- **核心轻量化、非核心功能插件化：方向最明确。**[Issue #8808](https://github.com/agentscope-ai/QwenPaw/issues/8808) 明确表达持续推进意图，发布说明中的 [PR #8426](https://github.com/agentscope-ai/QwenPaw/pull/8426) 已体现第一步落地；这属于中长期架构方向，而非单一版本功能。
-- **启动路径按需加载：已有具体实现候选。**[PR #8804](https://github.com/agentscope-ai/QwenPaw/pull/8804) 与轻量化方向一致，可能成为后续版本优化内容，但尚无合入或排期承诺。
-- **技能管理可理解性：已有修复与界面优化。**[PR #8803](https://github.com/agentscope-ai/QwenPaw/pull/8803) 聚焦更新状态准确性和操作布局，适合后续维护版本纳入。
-- **更细粒度的执行治理：有明确安全需求。**[PR #8810](https://github.com/agentscope-ai/QwenPaw/pull/8810) 将检测覆盖到 Shell 包装的外发行为；相比纯功能扩展，更值得优先评审与回归验证。
+> 数据仅提供 Issue 正文摘要和评论数量，未提供评论正文，因此以下提炼来自问题描述，不将其表述为评论共识。
 
-## 7. 用户反馈摘要
+- **长期部署场景：可靠性之外，还需要故障可见性。**微信渠道双向失效且没有用户可见提示，意味着使用者可能无法及时判断助手是否仍在工作。来源：[#8814](https://github.com/agentscope-ai/QwenPaw/issues/8814)。
+- **定时任务场景：用户需要过程反馈，而不只是最终结果。**执行期间会话空白，会降低用户对任务是否正常推进的判断能力。来源：[#8815](https://github.com/agentscope-ai/QwenPaw/issues/8815)。
+- **满意度证据有限。**现有反馈主要体现具体使用障碍，没有足够信息判断整体满意度或这些问题的普遍程度。来源：[#8814](https://github.com/agentscope-ai/QwenPaw/issues/8814) · [#8815](https://github.com/agentscope-ai/QwenPaw/issues/8815)。
 
-**未提供评论正文，以下仅从 Issue 描述提炼，不代表完整讨论结论。**
+## 7. 待处理积压
 
-- **自动化任务需要明确停止。**用户希望 Agent 完成回答后结束当前任务，而非继续启动不明来源的操作；其自行排查仍未定位原因，说明执行链路可观测性也是痛点。见 [#8806](https://github.com/agentscope-ai/QwenPaw/issues/8806)。
-- **升级不应增加恢复成本。**钉钉、飞书使用者反馈升级后需额外手动更新才能恢复渠道，体现对渠道连续可用性的依赖。见 [#8812](https://github.com/agentscope-ai/QwenPaw/issues/8812)。
-- **工具调用成功不等于任务成功。**MCP 场景中多次调用显示成功，最终却因上下文超限中断，暴露出长链工具任务对上下文预算管理的需求。见 [#8802](https://github.com/agentscope-ai/QwenPaw/issues/8802)。
-- **真实使用覆盖移动端与高并发部署。**375px 手机视口的阅读问题，以及 56 核主机上的内存问题，表明稳定性验证需要同时覆盖小屏交互与高线程环境。见 [#8811](https://github.com/agentscope-ai/QwenPaw/issues/8811)、[#8805](https://github.com/agentscope-ai/QwenPaw/issues/8805)。
+**无法识别长期未响应的积压项。**两条 Issue 均于今日创建和更新，且各有 1 条评论；缺少评论作者及正文，不能判断维护者是否已经响应，也不能将其归为长期积压。
 
-本批反馈主要集中于故障与改进，**没有足够直接证据总结用户满意点**。
+建议纳入后续跟踪：
 
-## 8. 待处理积压
+1. **优先确认渠道失效问题的影响范围与复现条件**，验证路由上限及清理机制，并关联修复 PR。来源：[#8814](https://github.com/agentscope-ai/QwenPaw/issues/8814)。
+2. **确认定时任务消息展示的预期行为**，区分设计限制与缺陷，并补充运行中消息可见性的回归验证。来源：[#8815](https://github.com/agentscope-ai/QwenPaw/issues/8815)。
 
-**无法识别“长期未响应”条目：**所有给出的条目均创建于 2026-11-18，缺少历史等待时间和维护者响应记录。建议维护者优先跟踪以下待办：
+---
 
-| 待办 | 建议下一步 |
-|---|---|
-| [安全修复 PR #8810](https://github.com/agentscope-ai/QwenPaw/pull/8810) | 优先评审，并验证 AUTO/SMART 模式下外发审批覆盖与误报情况。 |
-| [渠道升级问题 #8812](https://github.com/agentscope-ai/QwenPaw/issues/8812)、[安装验证 #8807](https://github.com/agentscope-ai/QwenPaw/issues/8807) | 明确受影响渠道与平台，补充升级步骤及验证结论。 |
-| [基础镜像内存问题 #8805](https://github.com/agentscope-ai/QwenPaw/issues/8805) | 核对 Creator 与基础镜像入口配置差异，并验证修复效果。 |
-| [上下文超限 #8802](https://github.com/agentscope-ai/QwenPaw/issues/8802) | 先确认报错版本及上游复现，再定位工具结果累计与上下文管理行为。 |
-| [已关闭的异常执行 #8806](https://github.com/agentscope-ai/QwenPaw/issues/8806) | 补充关闭原因、解决方式或关联修复，避免高影响问题缺少可追溯结论。 |
-
-**维护建议：下一轮应优先验证安全审批、升级后渠道可用性及 Agent 执行终止行为，再推进启动性能与技能界面优化。**
+**项目健康度结论：**今日呈现“有问题输入、暂无可见交付闭环”的状态。其中渠道静默失效具有更高的运营风险，应优先分诊；但仅凭单日两条反馈，尚不足以判断项目整体稳定性正在恶化或维护停滞。
 
 </details>
 
@@ -839,83 +780,87 @@ AI/ML API 方面希望将其官方托管 MCP 服务加入预设列表，减少�
 **日期：2026-11-19**  
 **项目：[zeroclaw-labs/zeroclaw](https://github.com/zeroclaw-labs/zeroclaw)**
 
-> 统计口径：基于提供的过去 24 小时数据；所列条目的创建、更新时间均为 2026-11-18。23 条更新 PR 中仅提供了 20 条详情，以下分析不覆盖其余 3 条。PR 评论数字段为 `undefined`，不能据此判断讨论热度。
-
 ## 1. 今日速览
 
-过去 24 小时，项目有 **2 条 Issue、23 条 PR 更新**，提交侧活跃度较高，工作主要集中在安全加固、运行时一致性和认证可靠性。统计窗口内 **没有 PR 合并或关闭，也没有新版本发布**，因此今天体现的是修复方案储备，而不是已交付能力的增长。最值得关注的是 npm 审计报告的 **5 项高危/严重发现**、SMTP 依赖安全更新，以及凭据脱敏和 Matrix 审批提示的安全边界修复。整体呈现“**修复投入积极、交付效果待验证**”的状态，尚不能仅凭一天数据判断审核是否形成瓶颈。  
-相关：[npm 审计 #12548](https://github.com/zeroclaw-labs/zeroclaw/issues/12548) · [SMTP 修复 #12552](https://github.com/zeroclaw-labs/zeroclaw/pull/12552)
+过去 24 小时，所提供数据记录了 **6 条 Issue、8 条 PR 更新**，均处于开放状态，没有 Issue 关闭或 PR 合并/关闭，也没有新版本发布。项目保持一定提交活跃度，工作重点集中在 **配置校验、依赖安全、多渠道审批体验和记忆后端扩展**。当前成果主要仍处于提案与待审阶段，不能将开放 PR 视为已经交付。社区互动信号较弱：6 条 Issue 的评论和点赞均为 0，PR 评论数未提供，因此暂无法确认讨论热度或维护者响应速度。
+
+> 统计口径：沿用输入的“过去 24 小时”范围；部分条目的日期标记为 11 月 18 日，未提供具体时间和时区。
 
 ## 2. 项目进展
 
-### 已落地进展：本窗口无合并或关闭 PR
+**今日没有已合并或已关闭的重要 PR，无法确认新增落地成果。** 待审工作主要集中在以下方向：
 
-没有可确认已经进入主分支的新增功能或修复。以下均为 **OPEN、待审核合并**，不应视为当前稳定版本已具备的能力。
-
-| 方向 | 待合并进展 | 对项目的潜在价值 |
+| 方向 | 进展与价值 | 当前状态 |
 |---|---|---|
-| 安全边界 | [Matrix 审批参数惰性文本显示 #12554](https://github.com/zeroclaw-labs/zeroclaw/pull/12554)、[凭据脱敏补强 #12553](https://github.com/zeroclaw-labs/zeroclaw/pull/12553) | 降低模型生成内容被再次解释、敏感信息进入模型或日志的风险 |
-| 运行时与隔离 | [Docker 嵌套编码 CLI 保留工作区根目录 #12547](https://github.com/zeroclaw-labs/zeroclaw/pull/12547)、[Agent 路由通过 provider source 解析 #12545](https://github.com/zeroclaw-labs/zeroclaw/pull/12545) | 修正目录映射及模型路由语义；两项均带有 `risk:high` 标签，需重点回归 |
-| 调度与工作流 | [禁止修改声明拥有的 cron 字段 #12544](https://github.com/zeroclaw-labs/zeroclaw/pull/12544)、[SOP 取消竞争时保留完成结果 #12543](https://github.com/zeroclaw-labs/zeroclaw/pull/12543) | 提升配置一致性及并发执行状态的可靠性 |
-| 提供商可靠性 | [非流式聊天遵守 Retry-After #12542](https://github.com/zeroclaw-labs/zeroclaw/pull/12542) | 在 429/503 场景下优先采用服务端重试时间，改善限流恢复行为 |
-| 认证与界面 | [跨标签页登录通知 #12535](https://github.com/zeroclaw-labs/zeroclaw/pull/12535)、[丢弃跨越登出的会话检查结果 #12533](https://github.com/zeroclaw-labs/zeroclaw/pull/12533) | 减少多标签页认证状态不同步和异步响应覆盖登出状态的问题 |
+| 记忆后端扩展 | [PR #12567](https://github.com/zeroclaw-labs/zeroclaw/pull/12567) 提议新增 EverOS HTTP sidecar 后端，通过 `/api/v2/memory/*` 接口交互，并提供可选 SQLite 热缓存，用于降低延迟及离线回退 | 待合并 |
+| 配置健壮性 | [PR #12560](https://github.com/zeroclaw-labs/zeroclaw/pull/12560) 拒绝将 `NaN`、无穷大等非有限数值写入小数配置，与已报告缺陷直接对应 | 待合并 |
+| 依赖安全 | [PR #12555](https://github.com/zeroclaw-labs/zeroclaw/pull/12555)、[PR #12565](https://github.com/zeroclaw-labs/zeroclaw/pull/12565) 均将 `lettre` 最低版本提高至 `0.11.24`，避免下游继续解析到存在漏洞的版本 | 待合并，范围高度重叠 |
+| 常规依赖维护 | [PR #12556](https://github.com/zeroclaw-labs/zeroclaw/pull/12556) 包含 37 项 Rust 依赖更新 | 待合并，需关注兼容性与测试结果 |
+| 运行时治理 | [PR #12566](https://github.com/zeroclaw-labs/zeroclaw/pull/12566)、[PR #12564](https://github.com/zeroclaw-labs/zeroclaw/pull/12564)、[PR #12563](https://github.com/zeroclaw-labs/zeroclaw/pull/12563) 分别涉及会话所有权准入、MCP OAuth 入口姿态及受管 HTTP 凭据写入保护的 ADR-016 例外记录 | 文档类待审工作，不代表相关功能已落地 |
 
-**进展判断：**修复覆盖面较广，但实际推进幅度仍取决于后续审核、测试和合并结果。
+**整体判断：** 候选改动覆盖面较广，但本窗口内尚无合并产出。配置缺陷已有对应修复提案，是较明确的推进信号；安全依赖 PR 重叠则需要维护者协调。
 
 ## 3. 社区热点
 
-**目前无法生成可信的“讨论最热”榜单。** 两条 Issue 均为 0 评论、0 👍；PR 评论数缺失，已展示条目的 👍 均为 0。以下是按风险与关联工作选出的关注主题，而非互动量排名。
+由于 Issue 均为 **0 评论、0 点赞**，PR 评论数为 `undefined`、点赞均为 0，**无法按讨论量评选真实“热门”条目**。以下是按问题聚集度与潜在影响选出的关注点：
 
-- **安全更新与依赖约束如何兼容。** [Issue #12551](https://github.com/zeroclaw-labs/zeroclaw/issues/12551) 与 [PR #12552](https://github.com/zeroclaw-labs/zeroclaw/pull/12552) 配套：SMTP 安全升级引入 `base64 0.23.1`，但 HTTP/IMAP 等消费者仍使用 `0.22.1`。诉求是优先完成安全修补，同时对重复依赖设置明确、有限的例外。
-- **前端供应链风险需要闭环。** 自动化 [Issue #12548](https://github.com/zeroclaw-labs/zeroclaw/issues/12548) 报告 npm audit 失败及 5 项高危/严重发现。它体现的是 CI 安全信号，当前摘要不足以判断各漏洞是否可在部署环境中利用。
-- **Agent 输入输出边界持续收紧。** [PR #12554](https://github.com/zeroclaw-labs/zeroclaw/pull/12554) 与 [PR #12553](https://github.com/zeroclaw-labs/zeroclaw/pull/12553) 分别关注审批展示和凭据过滤，反映维护工作正在补齐不可信内容经过模型后仍需隔离的边界。
+- **聊天渠道中的工具审批体验**  
+  [Issue #12558](https://github.com/zeroclaw-labs/zeroclaw/issues/12558) 报告 Matrix 审批提示脱离当前线程；[Issue #12557](https://github.com/zeroclaw-labs/zeroclaw/issues/12557) 希望 Discord、Matrix 支持表情反应审批。共同诉求是让工具授权与对话上下文保持一致，并减少操作步骤。
+
+- **安全修复能否覆盖下游使用者**  
+  [PR #12555](https://github.com/zeroclaw-labs/zeroclaw/pull/12555) 与 [PR #12565](https://github.com/zeroclaw-labs/zeroclaw/pull/12565) 指向同一问题：仅更新仓库锁文件，不足以约束下游已有锁文件中的依赖版本。两项 PR 均提议提高清单中的版本下限。
+
+- **配置输入的边界校验**  
+  [Issue #12559](https://github.com/zeroclaw-labs/zeroclaw/issues/12559) 与 [PR #12560](https://github.com/zeroclaw-labs/zeroclaw/pull/12560) 形成直接的问题—修复对应关系，体现出对非法数值输入的加固需求。
 
 ## 4. Bug 与稳定性
 
-以下为**建议处理优先级**，并非统一的官方漏洞评级；所有列出的 fix PR 均尚未合并。
+按报告严重程度及潜在影响排列；本次数据**没有明确的崩溃或回归报告**。
 
-| 优先级 | 问题及影响 | 修复状态 |
+| 优先级 | 问题与影响 | 修复状态 |
 |---|---|---|
-| 高：审计明确告警 | npm audit 报告 5 项高危/严重发现，具体可利用性未知 | [Issue #12548](https://github.com/zeroclaw-labs/zeroclaw/issues/12548)；已提供条目中未见明确对应 fix PR |
-| 高：安全依赖 | SMTP 依赖需升级以处理 RUSTSEC-2026-0558 至 0565 | 已有 [fix #12552](https://github.com/zeroclaw-labs/zeroclaw/pull/12552)，升级 `lettre` 至 0.11.24、`email-encoding` 至 0.4.3 |
-| 高：凭据泄露风险 | 原脱敏规则未完整覆盖 Bearer/Basic 头、URL 密码及凭据查询参数，可能使敏感信息进入模型和日志 | 已有 [fix #12553](https://github.com/zeroclaw-labs/zeroclaw/pull/12553) |
-| 高：审批内容解释边界 | Matrix 审批参数进入会扫描附件标记、渲染 Markdown 的发送路径 | 已有 [fix #12554](https://github.com/zeroclaw-labs/zeroclaw/pull/12554)，拟改为惰性文本 |
-| 中：执行状态一致性 | SOP 步骤已完成，但取消操作抢先写入时可能无法保留结果 | 已有 [fix #12543](https://github.com/zeroclaw-labs/zeroclaw/pull/12543)，另有 [并发回归测试 #12539](https://github.com/zeroclaw-labs/zeroclaw/pull/12539) |
-| 中：配置一致性 | 声明式 cron 字段可被数据库更新，但启动后又以声明为准，造成更新成功的误导 | 已有 [fix #12544](https://github.com/zeroclaw-labs/zeroclaw/pull/12544) |
-| 中：认证状态竞争 | 登出前发出的会话检查可能在登出后应用结果 | 已有 [fix #12533](https://github.com/zeroclaw-labs/zeroclaw/pull/12533) |
+| **S2：行为退化** | [#12559](https://github.com/zeroclaw-labs/zeroclaw/issues/12559)：配置文本解析接受 `inf`、`Infinity`、`NaN` 及溢出值，使非有限数值进入配置，可能影响后续计算或校验 | 已有 [fix PR #12560](https://github.com/zeroclaw-labs/zeroclaw/pull/12560)，未合并 |
+| **S2：行为退化** | [#12558](https://github.com/zeroclaw-labs/zeroclaw/issues/12558)：开启 `reply_in_thread = true` 后，Matrix 工具审批提示仍发到房间主时间线，破坏线程内交互一致性 | 所给数据中未见对应 fix PR |
+| **S3：轻微问题** | [#12568](https://github.com/zeroclaw-labs/zeroclaw/issues/12568)：Dashboard 成本条按最大金额缩放，Monthly 条总是满格，容易被误读为预算使用率；报告称 Daily、Monthly 金额正确 | 所给数据中未见对应 fix PR |
 
-数据中未提供明确的崩溃报告，也未提供上述问题在真实部署中的发生频率。
+**补充稳定性关注：**
+
+- **依赖安全收尾：** [PR #12555](https://github.com/zeroclaw-labs/zeroclaw/pull/12555) 摘要指出，此前锁文件更新涉及 `RUSTSEC-2026-0560` 至 `RUSTSEC-2026-0565`，但清单仍允许较旧版本；本次提高版本下限的修复尚未合并。
+- **Matrix 邀请积压：** [Issue #12561](https://github.com/zeroclaw-labs/zeroclaw/issues/12561) 虽归类为增强请求，但其描述的未授权邀请长期挂起问题具有资源管理风险；暂无对应实现 PR。
 
 ## 5. 功能请求与路线图信号
 
-今天两条 Issue 均偏向安全与依赖维护，**没有明确的新功能请求**。待合并 PR 传递出的方向更接近稳定性完善：
+- **Telegram 群组级信任配置** — [Issue #12562](https://github.com/zeroclaw-labs/zeroclaw/issues/12562)  
+  希望新增 `channels.telegram.<alias>.trusted_groups`，让受信任群组内任意成员无需逐个加入发送者白名单即可与智能体交互。它指向多人共享助手场景，也需要明确群组信任与工具权限边界。目前仅有需求，未见实现 PR。
 
-- **更可靠的模型服务调用：**[Retry-After 支持 #12542](https://github.com/zeroclaw-labs/zeroclaw/pull/12542) 已有具体实现，是近期候选改进；但尚无版本承诺。
-- **更清晰的运维恢复体验：**[Codex refresh token 复用恢复提示 #12538](https://github.com/zeroclaw-labs/zeroclaw/pull/12538) 将明确的 reused-token 401 转化为 CLI 恢复指引。
-- **运行时边界治理：**[fail-closed 提示词底线门控例外文档 #12550](https://github.com/zeroclaw-labs/zeroclaw/pull/12550) 与 [cron 运行历史读取例外文档 #12549](https://github.com/zeroclaw-labs/zeroclaw/pull/12549) 为既有提案补充架构记录，不能据此认定相关功能已经实现或即将发布。
-- **交互性能细节优化：**[ZeroCode 文件卡片解析复用 #12536](https://github.com/zeroclaw-labs/zeroclaw/pull/12536) 减少重复解析，并让显式折叠卡片跳过解码。
+- **Matrix 过期邀请清理** — [Issue #12561](https://github.com/zeroclaw-labs/zeroclaw/issues/12561)  
+  希望通过有界清理机制，最终拒绝长期挂起的未授权邀请，减少持久化状态积压。目前处于需求阶段。
+
+- **Discord / Matrix 简化审批** — [Issue #12557](https://github.com/zeroclaw-labs/zeroclaw/issues/12557)  
+  提议用表情反应批准或拒绝工具调用，缩小与 Telegram 按钮审批体验的差距。目前未见实现 PR。
+
+- **EverOS 记忆集成** — [PR #12567](https://github.com/zeroclaw-labs/zeroclaw/pull/12567)  
+  已进入实现提案阶段，相比上述纯需求条目更接近可评审状态；但没有版本计划、评审结论或合并信息，**不能据此确认会进入下一版本**。
 
 ## 6. 用户反馈摘要
 
-**没有可直接提炼的用户评论反馈。** 两条 Issue 均无评论，PR 未提供评论正文，因此无法判断真实用户的满意度、投诉频率或受影响规模。
+**没有可供提炼的 Issue 评论。** 以下仅依据 Issue 正文归纳，不代表社区共识或满意度调查：
 
-从提交说明只能识别出开发者正在处理的使用场景：
-
-- 多标签页登录、登出后的状态同步：[登录通知 #12535](https://github.com/zeroclaw-labs/zeroclaw/pull/12535)、[登出竞争修复 #12533](https://github.com/zeroclaw-labs/zeroclaw/pull/12533)。
-- OAuth 刷新失败后缺少清晰恢复路径：[恢复提示 #12538](https://github.com/zeroclaw-labs/zeroclaw/pull/12538)。
-- 缓存 token 缺少可用定价时，成本告警可能不充分：[成本标记修复 #12541](https://github.com/zeroclaw-labs/zeroclaw/pull/12541)。
-
-这些是**修复说明反映的潜在痛点**，不是用户评论证实的反馈。
+- **多线程对话需要审批上下文一致：** Matrix 用户期望“在哪个线程发起任务，就在哪个线程完成授权”。[Issue #12558](https://github.com/zeroclaw-labs/zeroclaw/issues/12558)
+- **不同渠道的交互体验存在落差：** 请求者以 Telegram 按钮审批为参照，希望 Discord、Matrix 也能低成本完成授权操作。[Issue #12557](https://github.com/zeroclaw-labs/zeroclaw/issues/12557)
+- **群聊部署需要更低的维护成本：** Telegram 请求反映了逐个维护成员白名单的负担。[Issue #12562](https://github.com/zeroclaw-labs/zeroclaw/issues/12562)
+- **成本面板需要清晰表达指标含义：** 数字正确但进度条参照不明确，仍会影响用户判断。[Issue #12568](https://github.com/zeroclaw-labs/zeroclaw/issues/12568)
 
 ## 7. 待处理积压
 
-当前列表均为近期条目，且没有完整历史、审核状态和维护者响应记录，**无法认定任何项目长期未响应**。建议优先跟踪以下待办：
+所给条目均创建于 **11 月 18—19 日**，没有历史等待时长或维护者回复记录，**无法识别长期未响应积压**。当前更适合列为近期分流与评审清单：
 
-1. **为 npm 审计告警建立明确修复关联。** 核实受影响依赖、部署可达性、负责人及对应 PR，推动 [Issue #12548](https://github.com/zeroclaw-labs/zeroclaw/issues/12548) 闭环。
-2. **完成 SMTP 安全更新，并持续跟踪依赖例外。** 审核 [PR #12552](https://github.com/zeroclaw-labs/zeroclaw/pull/12552)，通过 [Issue #12551](https://github.com/zeroclaw-labs/zeroclaw/issues/12551) 跟踪 `base64 0.22.1` 有界重复的后续收敛。
-3. **优先审查高影响安全及运行时修复。** 重点覆盖 [凭据脱敏 #12553](https://github.com/zeroclaw-labs/zeroclaw/pull/12553)、[Matrix 审批 #12554](https://github.com/zeroclaw-labs/zeroclaw/pull/12554)、[Docker 工作区 #12547](https://github.com/zeroclaw-labs/zeroclaw/pull/12547) 和 [Agent 路由 #12545](https://github.com/zeroclaw-labs/zeroclaw/pull/12545)。
+1. **协调重复的安全依赖 PR**：明确 [#12555](https://github.com/zeroclaw-labs/zeroclaw/pull/12555) 与 [#12565](https://github.com/zeroclaw-labs/zeroclaw/pull/12565) 的保留方案，减少重复评审。
+2. **优先核验 S2 修复**：评审 [#12560](https://github.com/zeroclaw-labs/zeroclaw/pull/12560) 对文本配置入口及非有限数值的覆盖范围。
+3. **为 Matrix 审批错位安排处理路径**：[Issue #12558](https://github.com/zeroclaw-labs/zeroclaw/issues/12558) 当前未见对应修复，可与审批简化需求区分处理，避免缺陷修复被功能扩展拖延。
+4. **跟进运行时例外的独立审批**：[PR #12563](https://github.com/zeroclaw-labs/zeroclaw/pull/12563) 明确文档提案在独立 Core Team 审查批准前并不授予例外，应保持治理记录与实际授权状态一致。
 
-**健康度结论：**安全扫描和修复提交显示出积极的维护投入，但本窗口缺少合并与发布成果。下一步最重要的信号，是高优先级修复能否通过验证并形成可交付版本，而不是 PR 数量继续增长。
+**项目健康度结论：有提交活跃度，但交付与响应证据仍不足。** 当前积极信号是配置问题已有对应修复、安全依赖持续加固；需要继续观察待审 PR 的合并速度、重复工作协调以及渠道体验问题是否获得维护者确认。
 
 </details>
 
