@@ -315,9 +315,12 @@ def read_source(url, domains):
     for page, accept in pages:
         try:
             _, data = public_download(page, 1500000, accept=accept, domains=domains, truncate=True)
-            parser = SourceText()
-            parser.feed(data.decode(errors="replace"))
-            excerpt = " ".join(" ".join(parser.parts).split())[:6500]
+            content = data.decode(errors="replace")
+            if not page.endswith("/raw/main/README.md"):
+                parser = SourceText()
+                parser.feed(content)
+                content = " ".join(parser.parts)
+            excerpt = " ".join(content.split())[:6500]
             if len(excerpt) >= 120:
                 return excerpt
         except (OSError, ValueError, http.client.HTTPException):
@@ -364,6 +367,11 @@ scene 用一到两句描绘一个可画的画面，把其中至少两个实体�
         ))[:3]
         for label in CATEGORIES.values()
     }
+    hf = CATEGORIES["hf"]
+    model_cards = re.findall(r"^#### \d+\. \[.*?\]\((https://huggingface\.co/[\w.-]+/[\w.-]+)\)", reports.get(hf, ""), re.M)
+    candidates[hf] = list(dict.fromkeys(
+        url for url in model_cards + candidates[hf] if not blocked_source(url, domains)
+    ))[:3]
     urls = list(dict.fromkeys(url for group in candidates.values() for url in group))
     with ThreadPoolExecutor(max_workers=8) as pool:
         excerpts = dict(zip(urls, pool.map(lambda url: read_source(url, domains), urls)))
@@ -372,6 +380,8 @@ scene 用一到两句描绘一个可画的画面，把其中至少两个实体�
         for label, group in candidates.items()
     }
     print(f"Retrieved {sum(bool(value) for value in excerpts.values())}/{len(urls)} original sources", flush=True)
+    for label, group in sources.items():
+        print(f"{label}: {len(group)}/{len(candidates[label])} sources read", flush=True)
     source_material = {"原始日报": reports, "原文摘录": sources}
     eligible = {label: set(group) for label, group in sources.items()}
     for attempt in range(3):
