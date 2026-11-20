@@ -290,7 +290,7 @@ headlines 是 3 条重点新闻的短标题数组，按重要性排列，每条�
 公众号标题将组合前 2–3 条，仅写本期实际内容，禁止使用“AI 雷达”“Agents Radar”或泛泛的栏目名。
 intro 用一两句给出最有价值的具体变化，控制在 70 字以内。
 sections 是数组，每项包含 heading 和 items。items 每项包含 title、body、url。
-综合有价值的分类组织短栏目，不设栏目或条目配额。合并重复新闻；条目不足时缩短。每条正文通常一段、1–3 句，直接给变化、证据或做法，无最低字数要求。
+先通读所有分类，再按主题组织短栏目。选完头条后，从其他分类补选有独立价值的版本变更、可用工具、研究结果和实测。原始日报信息充足时，以约 11–14 条为参考，可保留更多有用的独立消息。合并重复新闻，事实不足时少写。每条正文通常一段、1–3 句，直接给变化、证据或做法，无最低字数要求。
 收到“可用条目”时，只重组和删改这些条目；可参考“原始日报”核实或补齐入选条目的事实，不补充其他消息。根据最终条目同步标题、导语和封面。
 每条 url 必须照抄资料中的一手链接。没有原文链接时填空串。禁止虚构。不要加文末分类导航。
 cover_concept 包含 theme、entities、scene。theme 是简短的视觉主题。entities 是从本期头条提取的 3–5 个具体产品、技术、物件或应用场景。
@@ -431,11 +431,6 @@ def render(article, image_urls=None):
                 url = image_urls.get(image) if publishing else image
                 if url:
                     parts.append(f'<p style="margin:14px 0 4px"><img src="{esc(url)}" style="display:block;width:100%;height:auto;border-radius:6px" alt="{title}"></p>')
-            if item.get("url"):
-                source = esc(item["url"])
-                host = esc(urllib.parse.urlsplit(item["url"]).hostname or "")
-                reference = f"原文来源 · {source}" if publishing else f'<a style="color:#165955" href="{source}">原文来源 · {host}</a>'
-                parts.append(f'<p style="margin:4px 0 20px;color:#536877;font-size:12px;word-break:break-all">{reference}</p>')
     return "".join(parts) + "</section>"
 
 
