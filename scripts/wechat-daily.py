@@ -310,6 +310,8 @@ def read_source(url, domains):
     pages = [(url, None)]
     if parsed.hostname == "github.com" and repo:
         pages.insert(0, (f"https://api.github.com/repos/{repo[1]}/readme", "application/vnd.github.html+json"))
+    if parsed.hostname == "huggingface.co" and repo:
+        pages.insert(0, (f"https://huggingface.co/{repo[1]}/raw/main/README.md", None))
     for page, accept in pages:
         try:
             _, data = public_download(page, 1500000, accept=accept, domains=domains, truncate=True)
