@@ -517,18 +517,16 @@ def render(article, image_urls=None):
         label = f"{i:02d}　{esc(section['heading'])}"
         parts.append(f'<p style="margin:4px 0;font-size:15px">{label}</p>')
     parts.append("</section>")
-    story_number = 0
     for i, section in enumerate(sections, 1):
         target = f' id="section-{i}"' if not publishing else ""
         parts.append(f'<h2{target} style="margin:36px 0 16px;padding:0 0 8px;border-bottom:2px solid #d4e5e3;color:#165955;font-size:21px;line-height:1.5">{i:02d}　{esc(section["heading"])}</h2>')
         if not section["items"]:
             parts.append('<p style="margin:0 0 12px;color:#576b73">本期暂无可核实条目。</p>')
-        for item in section["items"]:
-            story_number += 1
+        for story_number, item in enumerate(section["items"], 1):
             title = esc(item["title"])
             terms = item.get("highlights", [])
             key_point = item.get("key_point")
-            parts.append(f'<h3 style="margin:20px 0 6px;color:#172a38;font-size:18px;line-height:1.55">{story_number:02d}　{title}</h3>')
+            parts.append(f'<h3 style="margin:20px 0 6px;color:#172a38;font-size:18px;line-height:1.55">{story_number}. {title}</h3>')
             if key_point:
                 parts.append(
                     '<section style="margin:8px 0 16px;padding:12px 15px;background:#fff7ee;'
