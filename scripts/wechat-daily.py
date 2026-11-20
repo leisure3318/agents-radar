@@ -514,7 +514,7 @@ def render(article, image_urls=None):
     publishing = image_urls is not None
     image_urls = image_urls or {}
     esc = html.escape
-    sections = article["sections"]
+    sections = [section for section in article["sections"] if section["items"]]
     parts = ['<section style="max-width:680px;margin:0 auto;padding:0 16px;background:#fff;color:#253442;font-size:16px;line-height:1.85;letter-spacing:.02em;overflow-wrap:break-word">']
     if not publishing:
         parts.append(f'<h1 style="font-size:26px;line-height:1.4;margin:24px 0 16px">{esc(article["title"])}</h1>')
@@ -530,8 +530,6 @@ def render(article, image_urls=None):
     for i, section in enumerate(sections, 1):
         target = f' id="section-{i}"' if not publishing else ""
         parts.append(f'<h2{target} style="margin:36px 0 16px;padding:0 0 8px;border-bottom:2px solid #d4e5e3;color:#165955;font-size:21px;line-height:1.5">{i:02d}　{esc(section["heading"])}</h2>')
-        if not section["items"]:
-            parts.append('<p style="margin:0 0 12px;color:#576b73">本期暂无可核实条目。</p>')
         for story_number, item in enumerate(section["items"], 1):
             title = esc(item["title"])
             terms = item.get("highlights", [])
