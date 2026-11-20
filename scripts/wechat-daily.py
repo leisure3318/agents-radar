@@ -20,7 +20,7 @@ from html.parser import HTMLParser
 from pathlib import Path
 
 CATEGORIES = {
-    "cli": "AI CLI 工具",
+    "cli": "AI 编程工具",
     "agents": "AI Agents 生态",
     "web": "OpenAI & Anthropic 官网动态",
     "trending": "GitHub AI 趋势",
