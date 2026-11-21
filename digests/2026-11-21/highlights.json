@@ -1,68 +1,52 @@
 {
   "zh": {
     "ai-cli": [
-      "Claude Code v2.1.330加入企业组织登录",
-      "Codex连发3个Alpha，迭代沙箱与远程链路",
-      "Gemini CLI v0.71.0夜版关注会话恢复",
-      "Copilot CLI连发3版，改进沙箱与进程清理",
-      "Pi v1.6.0聚焦模型适配与退出可靠性",
-      "Qwen Code推进Managed Agent与SDK"
+      "9款AI CLI均无新版本，可靠性成焦点",
+      "OpenCode更新18条PR，聚焦Windows体验",
+      "Qwen Code更新14条Issue、8条PR",
+      "Claude Code用户呼吁压缩后检索原始对话",
+      "Codex聚焦技能发现、Windows与MCP",
+      "Qwen Code关注SDK、daemon与流式会话"
     ],
     "ai-agents": [
-      "OpenClaw录得61条Issue、68条PR更新",
-      "OpenClaw工作区清理拟不再阻塞会话读写",
-      "OpenClaw推进Telegram附件代理归属修复",
-      "OpenClaw升级回滚遭遇SQLite锁冲突",
-      "OpenClaw首次使用引导P0问题已关闭",
-      "OpenClaw认证冷却显示修正PR已关闭"
+      "OpenClaw更新33条PR，暂无新版本",
+      "OpenClaw P0会话问题涉及消息丢失风险",
+      "OpenClaw两项Claude会话分叉PR已关闭",
+      "OpenClaw修复提案瞄准订阅认证输入故障",
+      "OpenClaw推进共享Worker Host方案",
+      "OpenClaw FaceTime集中出现多项故障"
     ],
     "ai-skills": [
       "playwright-cli登Hot榜，安装量75",
-      "playwright-cli用页面快照驱动点击与填写",
-      "playwright-cli可录制操作并输出测试代码",
-      "Notion REST与Convex瘦身Skill首次收录",
-      "sentry-cli安装量58，功能文档仍待核实",
-      "agently-mail登Hot榜，尚缺SKILL.md"
+      "playwright-cli支持快照定位与测试代码生成",
+      "playwright-cli探索用WebMCP替代UI操作",
+      "notion-api聚焦Notion REST工作流",
+      "Convex部署包瘦身Skill首次收录",
+      "sentry-cli等两项Skill缺文档，采用前需核查"
     ],
     "ai-web": [
-      "Anthropic称Claude助力百余库形式化验证",
-      "Claude验证深入RISC-V汇编安全属性",
-      "Anthropic形式化证明不等于软件零漏洞",
-      "Anthropic公告称IPO募资毛额约935亿美元",
-      "Anthropic验证研究正文日期早于抓取近一月",
-      "OpenAI新增MedChemBench页面，正文缺失"
+      "Anthropic称Claude参与逾百开源库形式化证明",
+      "Claude研究瞄准RISC-V汇编安全属性",
+      "Anthropic强调形式化证明不等于完全无漏洞",
+      "据公告，Anthropic IPO募资毛额约935亿美元",
+      "Anthropic验证研究正文日期为10月22日",
+      "OpenAI新增MedChemBench页面，正文待核实"
     ],
     "ai-hn": [
-      "Anthropic IPO与AI抛售两帖获415条评论",
-      "OpenAI对抗性蒸馏议题引来49条评论",
-      "AI或参与破解重大数学难题，证明仍待验证",
-      "Anthropic数学家声称证明黎曼猜想",
-      "MCP实效质疑帖获30分、19条评论",
-      "Claude游戏开发开源工具登上HN"
-    ],
-    "ai-arxiv": [
-      "后训练改变模型读出方式：知道不等于答对",
-      "AutoMaster用Skill-FT改善自训练信号",
-      "GLiDE蒸馏推理教师，单次前向完成决策",
-      "Seer用共享决策模型指导小型研究Agent",
-      "MemFolder以记忆折叠降低检索与预填充成本",
-      "ROGUE-AI复现真实智能体安全事件"
-    ],
-    "ai-hf": [
-      "Inkling-2-Mini居周榜首，获744赞",
-      "Unsloth版Inkling-2-Mini GGUF同步上榜",
-      "腾讯Hy4入榜，聚焦图文理解",
-      "苹果DepthPro2覆盖单目与视频深度估计",
-      "Meta三维人体模型下载量达17,319次",
-      "Sentinel7/h3获310赞，任务信息仍不明"
+      "Anthropic上市后下跌话题前两帖获421条评论",
+      "AI或解黎曼猜想引关注，证明仍待独立审查",
+      "OpenAI对抗性蒸馏文章引发50条评论",
+      "MCP收益质疑帖获30分，强调实际效果",
+      "Claude游戏开发开源harness亮相HN",
+      "XSquads让Agent在自有harness中自主工作"
     ],
     "ai-community": [
-      "AGENTS.md与CLAUDE.md冲突时谁优先？",
-      "GitHub Agent只是套了外衣的循环？",
-      "Antigravity与Gemini 4实战家庭能源管理",
-      "RAG、GraphRAG与知识图谱该怎么选？",
-      "整段事故日志喂给模型，何时开始漏错？",
-      "Agent虚假完成引关注：如何验收真实交付？"
+      "Dev.to收录权重空间编程工具实践",
+      "Ayush Shekhar主张编辑模型权重前先筛查",
+      "权重空间编程探索让LLM修改另一模型权重",
+      "权重筛查文章仅1赞、零评论，尚非热门",
+      "权重筛查工具支持哪些模型？原文值得核查",
+      "权重编辑效果如何复现？现有摘要尚无答案"
     ]
   },
   "en": {}
