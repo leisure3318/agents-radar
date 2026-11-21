@@ -1,0 +1,69 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.330加入企业组织登录",
+      "Codex连发3个Alpha，迭代沙箱与远程链路",
+      "Gemini CLI v0.71.0夜版关注会话恢复",
+      "Copilot CLI连发3版，改进沙箱与进程清理",
+      "Pi v1.6.0聚焦模型适配与退出可靠性",
+      "Qwen Code推进Managed Agent与SDK"
+    ],
+    "ai-agents": [
+      "OpenClaw录得61条Issue、68条PR更新",
+      "OpenClaw工作区清理拟不再阻塞会话读写",
+      "OpenClaw推进Telegram附件代理归属修复",
+      "OpenClaw升级回滚遭遇SQLite锁冲突",
+      "OpenClaw首次使用引导P0问题已关闭",
+      "OpenClaw认证冷却显示修正PR已关闭"
+    ],
+    "ai-skills": [
+      "playwright-cli登Hot榜，安装量75",
+      "playwright-cli用页面快照驱动点击与填写",
+      "playwright-cli可录制操作并输出测试代码",
+      "Notion REST与Convex瘦身Skill首次收录",
+      "sentry-cli安装量58，功能文档仍待核实",
+      "agently-mail登Hot榜，尚缺SKILL.md"
+    ],
+    "ai-web": [
+      "Anthropic称Claude助力百余库形式化验证",
+      "Claude验证深入RISC-V汇编安全属性",
+      "Anthropic形式化证明不等于软件零漏洞",
+      "Anthropic公告称IPO募资毛额约935亿美元",
+      "Anthropic验证研究正文日期早于抓取近一月",
+      "OpenAI新增MedChemBench页面，正文缺失"
+    ],
+    "ai-hn": [
+      "Anthropic IPO与AI抛售两帖获415条评论",
+      "OpenAI对抗性蒸馏议题引来49条评论",
+      "AI或参与破解重大数学难题，证明仍待验证",
+      "Anthropic数学家声称证明黎曼猜想",
+      "MCP实效质疑帖获30分、19条评论",
+      "Claude游戏开发开源工具登上HN"
+    ],
+    "ai-arxiv": [
+      "后训练改变模型读出方式：知道不等于答对",
+      "AutoMaster用Skill-FT改善自训练信号",
+      "GLiDE蒸馏推理教师，单次前向完成决策",
+      "Seer用共享决策模型指导小型研究Agent",
+      "MemFolder以记忆折叠降低检索与预填充成本",
+      "ROGUE-AI复现真实智能体安全事件"
+    ],
+    "ai-hf": [
+      "Inkling-2-Mini居周榜首，获744赞",
+      "Unsloth版Inkling-2-Mini GGUF同步上榜",
+      "腾讯Hy4入榜，聚焦图文理解",
+      "苹果DepthPro2覆盖单目与视频深度估计",
+      "Meta三维人体模型下载量达17,319次",
+      "Sentinel7/h3获310赞，任务信息仍不明"
+    ],
+    "ai-community": [
+      "AGENTS.md与CLAUDE.md冲突时谁优先？",
+      "GitHub Agent只是套了外衣的循环？",
+      "Antigravity与Gemini 4实战家庭能源管理",
+      "RAG、GraphRAG与知识图谱该怎么选？",
+      "整段事故日志喂给模型，何时开始漏错？",
+      "Agent虚假完成引关注：如何验收真实交付？"
+    ]
+  },
+  "en": {}
+}
