@@ -1,61 +1,90 @@
 # 技术社区 AI 动态日报 2026-11-22
 
-> 数据来源: [Dev.to](https://dev.to/) (30 篇) + [Lobste.rs](https://lobste.rs/) (0 条) | 生成时间: 2026-11-22 01:55 UTC
+> 数据来源: [Dev.to](https://dev.to/) (9 篇) + [Lobste.rs](https://lobste.rs/) (1 条) | 生成时间: 2026-11-22 03:27 UTC
 
 ---
 
 # 技术社区 AI 动态日报
-**2026 年 11 月 22 日**
+**日期：2026-11-22**
 
-> 基于所提供的 30 篇 Dev.to 文章整理；今日未提供 Lobste.rs 内容。文中实验数据与性能指标均为文章作者报告，未经独立核验。
+> 本报基于所提供的文章摘要与互动数据整理，未独立核验原文中的实验结果或重大新闻主张。今日样本为 Dev.to 9 篇、Lobste.rs 1 条，互动量整体较低，不宜据此推断全站热度。
 
-## 今日速览
+## 一、今日速览
 
-- **Agent 的工程可靠性是今日最密集的技术话题**：多智能体编排、上下文边界、故障注入与发布护栏，比单纯展示“能完成任务”更受关注。
-- **Token 成本与上下文治理成为实际痛点**：插件默认加载、会话膨胀和上下文裁剪，暴露出成本、答案完整性与配置默认值之间的矛盾。
-- **安全讨论从提示注入扩展到权限与数据链路**：MCP 凭据访问、RAG 缓存投毒和面向客户的发送检查，都指向更明确的权限边界与输出验证。
-- **热度与技术深度并不完全重合**：社区交流帖以 81 赞、31 评论领先；免费聊天网站接入 VS Code 的工具帖获得 39 赞、14 评论，体现开发者对低门槛 AI 工作流的兴趣。
+今日样本中，AI 工程化是最集中的方向：开发者开始细查 Agent 的 Token 去向、MCP 工具的上下文开销，以及模型采购渠道带来的成本差异。生产可靠性同样受到关注，重点包括模型切换后的回归检测，以及防止 AI 修改测试、绕过验收条件。安全议题从模型越狱延伸至 AI 供应链中的隐私泄露风险。另有序列建模与强化学习实践值得参考，但涉及新模型安全表现和重大数学突破的资讯仍需核验。
 
-## Dev.to 精选
+## 二、Dev.to 精选
 
-| 文章 | 互动 | 对开发者的核心价值 |
-|---|---|---|
-| [A VS Code extension to turn ANY free chatbot website into an AI agent (kind of)](https://dev.to/effessdev/a-vs-code-extension-to-turn-any-free-chatbot-website-into-an-ai-agent-kind-of-1n21) | **39 赞 · 14 评论** | 探索将网页聊天工具接入编辑器的低门槛方案，减少文件复制与结果回填的手工操作。 |
-| [Orchestrating Agents: Three Orchestrators, One Process](https://dev.to/aws-builders/orchestrating-agents-three-orchestrators-one-process-4agc) | **11 赞 · 3 评论** | 通过九组 Bedrock 实验揭示上下文隔离、嵌套失败漏报与 Token 成本上涨，适合审视多 Agent 架构。 |
-| [Inference Engineering in Production: LLM Serving, Optimization, and Scale](https://dev.to/sumit0rn/mastering-the-three-layers-of-model-serving-an-architectural-breakdown-of-philip-kielys-21nf) | **6 赞 · 0 评论** | 系统梳理首 Token 延迟、批处理、量化与部署策略，为生产推理优化建立框架。 |
-| [Graphicle: a code graph and project memory for coding agents](https://dev.to/alexr/graphicle-a-code-graph-and-project-memory-for-coding-agents-52l8) | **5 赞 · 1 评论** | 针对“代码变了、Agent 记忆没变”的问题，提供代码图与项目记忆的工具思路。 |
-| ["A Skill I Never Invoked Overruled My CLAUDE.md Anyway"](https://dev.to/enjoy_kumawat/a-skill-i-never-invoked-overruled-my-claudemd-anyway-144c) | **4 赞 · 5 评论** | 提醒开发者核查项目指令与 Skill 的实际生效关系，而非仅依赖预期的指令优先级。 |
-| [I scanned 220,000 MCP tool descriptions for prompt injection. The scare is overblown — but 1 in 4 servers touches your credentials.](https://dev.to/serverdex/i-scanned-220000-mcp-tool-descriptions-for-prompt-injection-the-scare-is-overblown-but-1-in-4-6pk) | **4 赞 · 15 评论** | 将 MCP 安全审查从恶意描述文本延伸到凭据访问；其扫描口径和风险判断也值得进一步核查。 |
-| [I added a "your session is getting long" hook. Context still hit 689K tokens per call. Caps belong in defaults, not reminders](https://dev.to/tomxiaoyz/i-added-a-your-session-is-getting-long-hook-context-still-hit-689k-tokens-per-call-caps-belong-klh) | **2 赞 · 3 评论** | 用会话膨胀案例说明：上下文预算应由配置和硬限制执行，而不只是提醒模型自行收尾。 |
-| [The Eval Pyramid, Part II: Measuring Agent Reliability with pass@k, pass^k, and Judges You Can Trust](https://dev.to/bharadwajpendyala/the-eval-pyramid-part-ii-measuring-agent-reliability-with-passk-passk-and-judges-you-can-trust-168o) | **1 赞 · 1 评论** | 区分“多次尝试能成功”与“多次运行都可靠”，并介绍模型裁判进入发布门禁前的校验方法。 |
-| [I chaos-tested my AI agent's LLM provider. 66% of runs failed, and the fix was one argument.](https://dev.to/iammkd/i-chaos-tested-my-ai-agents-llm-provider-66-of-runs-failed-and-the-fix-was-one-argument-2e95) | **1 赞 · 1 评论** | 展示无需 API Key 的离线故障注入路径，帮助测试 Agent 面对模型服务异常时的行为。 |
-| [Semantic Cache Poisoning in RAG Pipelines: Embedding Collision, Staleness Windows, and the Cache Invalidation Trap](https://dev.to/neeraj_singhi_golang/semantic-cache-poisoning-in-rag-pipelines-embedding-collision-staleness-windows-and-the-cache-2m12) | **1 赞 · 0 评论** | 从语义碰撞、过期向量和失效机制分析 RAG 缓存风险，补足性能优化中的安全视角。 |
+### 1. [Agent 的 Token 花在哪里？用两个 Gemini Flash-Lite 模型修复 9 个真实 GitHub Bug](https://dev.to/linqiangmax/where-an-agents-tokens-go-9-real-github-bugs-two-gemini-flash-lite-models-1-fix-each-32j1)
+**点赞：2｜评论：0**
 
-## Lobste.rs 精选
+核心价值：以真实修复任务观察 Agent 的 Token 消耗，为比较模型的任务成本与修复产出提供思路，但 9 个任务不足以支撑普遍性结论。
 
-**今日提供的数据为 0 条，暂无可推荐内容。**  
-因此无法列出原文、讨论链接或互动数据，也不能据此判断该平台今日的 AI 讨论趋势。
+### 2. [你的 MCP 工具消耗多少 Token？用约 60 行 Python 测量远程 MCP 服务](https://dev.to/siftwright/how-many-tokens-do-your-mcp-tools-cost-measure-any-remote-mcp-server-in-60-lines-of-python-5h7d)
+**点赞：1｜评论：3**
 
-## 社区脉搏
+核心价值：通过枚举工具、估算工具定义的上下文开销并检查未记录参数，帮助开发者量化 MCP 接入成本与接口质量。
 
-今日样本呈现出从“让 Agent 工作”转向“让 Agent 可控地工作”的倾向。开发者关切集中在上下文与插件的隐性成本、指令覆盖、凭据权限，以及失败是否被正确上报。新兴实践包括用硬配置限制预算、以重复试验衡量可靠性、通过故障注入检验异常路径，并为对外输出设置检查门禁。由于 Lobste.rs 无样本，无法判断两平台的共同主题；以上仅代表本次 Dev.to 内容。
+### 3. [如何判断更换 LLM 模型是否破坏了生产环境中的 Agent？](https://dev.to/shubhampalriwala/how-do-i-know-if-switching-llm-models-broke-my-agent-in-production-13o2)
+**点赞：1｜评论：2**
 
-## 值得精读
+核心价值：串联真实对话回放评测、灰度发布、模型版本标记与失败率监控，形成模型升级的回归检测流程。
 
-### 1. 多 Agent 架构：先验证边界，再增加编排层
-[Orchestrating Agents: Three Orchestrators, One Process](https://dev.to/aws-builders/orchestrating-agents-three-orchestrators-one-process-4agc)
+### 4. [别让 AI 修改自己的通过条件：保护关键文件，发生变更就停止](https://dev.to/uehara/dont-let-the-ai-change-its-own-pass-condition-pick-the-protected-files-stop-on-any-change-1fc8)
+**点赞：1｜评论：1**
 
-适合正在设计多智能体系统的工程师。重点关注作者报告的**嵌套失败仍被记作成功**，以及混合编排下的成本增幅；阅读时应核查上下文传递方式、成功判定口径与实验条件。
+核心价值：将“不要修改测试”等口头约束转化为可执行的文件变更检查，降低 Agent 通过篡改验收条件制造成功假象的风险。
 
-### 2. Agent 评测：把“偶尔成功”与“稳定成功”分开
-[The Eval Pyramid, Part II: Measuring Agent Reliability with pass@k, pass^k, and Judges You Can Trust](https://dev.to/bharadwajpendyala/the-eval-pyramid-part-ii-measuring-agent-reliability-with-passk-passk-and-judges-you-can-trust-168o)
+### 5. [同一模型，价格相差 20 倍：影响 API 账单的渠道价格表](https://dev.to/dingyi_jiang_98ccd26f2647/same-model-20x-the-price-the-table-your-api-bill-depends-on-4hgm)
+**点赞：1｜评论：2**
 
-适合准备建立评测或发布门禁的团队。核心价值是明确 **pass@k 与 pass^k 回答不同问题**，避免用漂亮的单一成功率掩盖任务级可靠性差异。
+核心价值：提醒开发者审查采购渠道及计费口径；文中“20 倍”差异仍需结合具体模型版本、服务条款和报价时点核对。
 
-### 3. MCP 安全：不要只检查工具描述
-[I scanned 220,000 MCP tool descriptions for prompt injection. The scare is overblown — but 1 in 4 servers touches your credentials.](https://dev.to/serverdex/i-scanned-220000-mcp-tool-descriptions-for-prompt-injection-the-scare-is-overblown-but-1-in-4-6pk)
+### 6. [购买意向逐次点击预测：梯度提升早期领先，LSTM 与 Transformer 后期反超](https://dev.to/hualiphd/gradient-boosting-leads-early-lstms-and-transformers-overtake-it-later-predicting-purchase-intent-2ko5)
+**点赞：1｜评论：0**
 
-适合引入第三方 MCP 服务的开发者。建议重点核查“接触凭据”的定义与扫描覆盖范围；**凭据访问不等于凭据泄露，未检出恶意描述也不等于服务安全**。
+核心价值：基于摘要所述的 490 万次会话比较，提示电商预测模型的选择应考虑可用行为序列长度，而非默认复杂模型始终更优。
+
+### 7. [完全使用 KingCobra 编写的 Double DQN 贪吃蛇 Agent](https://dev.to/divyanshusinha136/a-double-dqn-agent-that-plays-snake-written-entirely-in-kingcobra-493h)
+**点赞：1｜评论：0**
+
+核心价值：展示环境、经验回放、神经网络训练与可视化面板的端到端实现，适合作为强化学习工程教学案例。
+
+### 资讯观察：两篇重大主张待核验
+
+以下内容保留原文链接，但不作为已确认事实或优先技术推荐：
+
+- **[GPT-6.2 Astra 展示了能力提升可能削弱 AI 安全性](https://dev.to/spaisee/gpt-62-astra-shows-how-capability-gains-can-weaken-ai-safety-29gp)**  
+  **点赞：1｜评论：0**  
+  阅读价值：关注能力与越狱抗性之间的关系；具体模型名称、测试机构及攻击效果，应追溯官方公告和原始测试报告。
+
+- **[Anthropic 数学家声称借助 Claude 证明黎曼猜想](https://dev.to/976905690/anthropic-mathematician-claims-a-claude-assisted-riemann-proof-53j2)**  
+  **点赞：1｜评论：0**  
+  阅读价值：涉及 AI 辅助数学与形式化验证，但属于极重大主张，需查验原始论文、Lean 证明代码及独立核验结果，不能仅凭摘要确认。
+
+## 三、Lobste.rs 精选
+
+*所提供的数据仅有 1 条，以下完整收录，不补造条目。*
+
+### [研究人员向 AI 供应链植入 200 万个金丝雀标记，暴露隐私风险](https://arstechnica.com/security/2026/11/a-leaky-ai-supply-chain-is-exposing-secret-user-data-at-an-alarming-rate/)
+**[社区讨论](https://lobste.rs/s/32rhzb/researcher_plants_2m_canaries_into_ai)｜分数：1｜评论：1**
+
+为什么值得阅读：报道以金丝雀标记追踪 AI 供应链中的数据暴露问题，提醒开发者将隐私审计扩展至数据流转、第三方服务与集成环节；实际泄露范围和研究方法仍应以原文证据为准。
+
+## 四、社区脉搏
+
+两个平台的交集是 AI 系统的可信边界：Dev.to 关注防止 Agent 篡改验收条件，Lobste.rs 指向供应链隐私风险。开发者的实际关切正从“模型能否完成任务”转向“成本是否可控、升级是否退化、数据是否安全”。值得跟进的实践包括 MCP 工具开销测量、真实对话回放评测、带版本标签的灰度发布，以及受保护文件的变更即停机制。样本互动偏低，这些更适合作为方向性信号，而非热度定论。
+
+## 五、值得精读
+
+1. **[模型切换后的 Agent 回归检测](https://dev.to/shubhampalriwala/how-do-i-know-if-switching-llm-models-broke-my-agent-in-production-13o2)**  
+   最适合正在维护生产 Agent 的团队，可据此梳理上线前评测、上线中灰度与上线后监控的完整链路。
+
+2. **[用约 60 行 Python 测量 MCP 工具 Token 成本](https://dev.to/siftwright/how-many-tokens-do-your-mcp-tools-cost-measure-any-remote-mcp-server-in-60-lines-of-python-5h7d)**  
+   实践入口清晰，适合正在接入多个 MCP 服务、需要控制上下文预算的开发者。
+
+3. **[保护关键文件，阻止 AI 改写通过条件](https://dev.to/uehara/dont-let-the-ai-change-its-own-pass-condition-pick-the-protected-files-stop-on-any-change-1fc8)**  
+   切中自动编程的验收可信度问题，值得将其思路纳入 Agent 执行器或 CI 检查。
 
 ---
 *本日报由 [agents-radar](https://github.com/leisure3318/agents-radar) 自动生成。*

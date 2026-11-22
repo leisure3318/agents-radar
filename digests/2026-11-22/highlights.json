@@ -1,52 +1,44 @@
 {
   "zh": {
     "ai-cli": [
-      "Copilot CLI发布v1.0.115-5、-6",
-      "Qwen Code更新49条PR，聚焦Daemon与恢复",
-      "Claude Code反馈集中于Windows与内存",
-      "Codex聚焦桌面权限与OAuth MCP接入",
-      "OpenCode v2稳定性与多模态成社区焦点",
-      "Gemini CLI发布nightly，新增代码尚不明确"
+      "Claude Code多账号隔离与权限继承引关注",
+      "Codex桌面端Full Access据报未生效",
+      "Gemini CLI推进ACP与沙箱启动兼容",
+      "OpenCode聚焦推理参数适配与工具结果展示",
+      "Qwen Code三项开放PR涉及Web Shell等",
+      "Pi遭遇tmux重连后终端能力检测问题"
     ],
     "ai-agents": [
-      "OpenClaw更新46条Issue、46条PR",
-      "OpenClaw macOS客户端两项P0仍未关闭",
-      "OpenClaw长期记忆损坏列为P1风险",
-      "OpenClaw备份失败后租约残留引关注",
-      "OpenClaw工具调用无限重试仍待解决",
-      "OpenClaw模型冷却隔离PR关闭，合并未确认"
+      "OpenClaw更新28条PR，25条仍开放",
+      "OpenClaw三条新增问题被标记为P1",
+      "OpenClaw的macOS升级修复列P0待验证",
+      "OpenClaw拟用常驻启动器降低升级恢复风险",
+      "OpenClaw关注自动化任务失败可见性",
+      "OpenClaw聚焦浏览器与语音通话稳定性"
     ],
     "ai-skills": [
-      "Skills榜新发现5项，聚焦Remotion与Link",
-      "remotion-create上榜，安装量7,084",
-      "remotion-markup上榜，安装量7,045",
+      "Remotion与Link包揽五个新上榜Skill",
+      "remotion-create上榜，安装量7084",
+      "remotion-markup上榜，安装量7045",
       "Remotion工作流要求先开Studio再改视频",
-      "Link只读财务查询工作流进入Hot榜",
-      "Link购买凭据审批工作流进入Hot榜"
+      "Link只读财务查询Skill进入Hot榜",
+      "Link购买凭据审批Skill进入Hot榜"
     ],
     "ai-hn": [
-      "自主武器管制谈判领跑HN样本：36分",
-      "Pandex用MCP接入欧洲官方法律，获32分",
-      "agent-mcts为Claude Code加入树搜索",
-      "Musset以AI永不代写定位开源写作工具",
-      "Anthropic IPO引发安全承诺与股东压力讨论",
-      "Anthropic数学家声称证明黎曼猜想，待验证"
-    ],
-    "ai-hf": [
-      "Sulphur-3获679赞，基于MiniMax-H3微调",
-      "Inkling-2 GGUF下载9,540次，获253赞",
-      "Inkling-2标注图文输入，并非图像生成模型",
-      "Inkling-2采用GGUF格式，面向本地部署",
-      "Sulphur-3许可证标为other，商用需核查",
-      "Inkling-2的uncensored标签不代表能力获验证"
+      "OpenRouter数据处理事件获29分、7条评论",
+      "agent-mcts为Claude Code叠加树搜索",
+      "Musset以AI“从不代写”保留创作主导权",
+      "Pencil让LLM生成JSON、浏览器绘制白板课",
+      "Anthropic上市与安全承诺议题密集出现",
+      "Anthropic数学家声称证明黎曼猜想，待核验"
     ],
     "ai-community": [
-      "VS Code接入免费聊天网站工具帖获39赞",
-      "Bedrock九组实验揭示多Agent嵌套失败漏报",
-      "Graphicle用代码图缓解Agent项目记忆过时",
-      "开发者报告未调用Skill也会覆盖CLAUDE.md",
-      "MCP扫描作者称四分之一服务器涉及凭据访问",
-      "Dev.to讨论RAG缓存投毒与发送前安全检查"
+      "Gemini Flash-Lite实测九个Bug的Token开销",
+      "约60行Python测量远程MCP工具上下文成本",
+      "模型切换怕出错？用对话回放与灰度检测回归",
+      "防AI篡改验收：关键文件一改就停止",
+      "同模型渠道价差20倍？API账单值得核查",
+      "490万次会话比较：序列长度影响模型胜负"
     ]
   },
   "en": {}
