@@ -47,7 +47,24 @@
       "本地AI代码审查：把查错提前到推送前",
       "Agent推送前先询问，探索人工授权边界",
       "738个MCP工具如何选？213次会话探路"
+    ],
+    "ai-weekly": [
+      "Claude Code v2.1.329强化Hooks可观测性",
+      "Codex发布0.171.0，完善线程与沙箱",
+      "OpenClaw v2026.11.6改善升级衔接",
+      "ffmpeg-skill单日新增367星",
+      "app-store-compliance单日增542星",
+      "Anthropic公告称IPO募资毛额约935亿美元"
     ]
   },
-  "en": {}
+  "en": {
+    "ai-weekly": [
+      "Claude Code shipped v2.1.326–v2.1.329 in four days.",
+      "Claude Code improved Code Mode/Agent Teams compatibility.",
+      "Claude Code broadened auto-mode support.",
+      "Claude Code added Hooks observability.",
+      "Codex and OpenClaw focused on agent recovery.",
+      "Anthropic’s reported IPO drew Hacker News attention."
+    ]
+  }
 }
