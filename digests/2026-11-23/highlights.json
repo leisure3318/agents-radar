@@ -1,52 +1,52 @@
 {
   "zh": {
     "ai-cli": [
-      "Copilot CLI发布v1.0.115-7",
-      "Qwen Code双端发布v0.28.4",
-      "Codewhale发布v0.10.3",
-      "Claude Code社区反馈命令安全与中断问题",
-      "Codex聚焦云会话恢复与自动化执行正确性",
-      "Gemini CLI夜版聚焦检查点与目录信任"
+      "OpenCode记录23条PR更新，聚焦执行安全",
+      "Codex有18条Issue更新，跨端会话成焦点",
+      "Claude Code关注worktree与MCP隔离",
+      "Qwen Code有8条PR更新，涉及Shell隔离",
+      "五款CLI遭遇Windows兼容性问题",
+      "Pi关注分支切换失败后的会话状态保护"
     ],
     "ai-agents": [
-      "OpenClaw发布v2026.11.7",
-      "OpenClaw重启后可恢复中断回复与子任务结果",
-      "ClippyClaw提案探索让智能体引导安装",
-      "Focus Week 5探索产品讲解与自助修复",
-      "OpenClaw更新41条Issue、63条PR",
-      "OpenClaw工具执行回归与CI修复仍受关注"
+      "OpenClaw更新20条PR，14条仍待审",
+      "OpenClaw升级问题占新增Issue的3/7",
+      "OpenClaw提出pnpm升级修复方案",
+      "OpenClaw低内存启动优化仍待审核",
+      "OpenClaw提出运行时任务交接修复",
+      "OpenClaw内存增长修复PR关闭，合并待核"
     ],
     "ai-skills": [
-      "Skills榜单首次发现5项：1项趋势、4项热门",
-      "remotion-multimedia上趋势榜，安装量7521",
-      "archify进入Hot榜，安装量13",
-      "vision进入Hot榜，能力说明仍待核实",
-      "technical-writing上Hot榜，安装量7",
-      "reviewing-technical-prose上Hot榜"
+      "今日新发现5个Skill，均缺少功能说明",
+      "remotion-multimedia上榜，安装量7521",
+      "archify进入Hot榜，所列安装量13",
+      "vision进入Hot榜，视觉能力尚未确认",
+      "technical-writing进入Hot榜",
+      "reviewing-technical-prose进入Hot榜"
     ],
     "ai-web": [
-      "OpenAI抓取到2条记录，去重后仅1页",
-      "OpenAI页面路径含perplexity与intelligence",
-      "OpenAI页面标注11月22日，日期性质未明",
-      "OpenAI页面正文缺失，研究结论尚不可知",
-      "OpenAI页面正式标题未核实，当前仅据URL推断",
-      "官网增量不足以判断OpenAI战略变化"
+      "OpenAI抓取到2条记录，去重仅1个页面",
+      "OpenAI出现困惑度与智能相关页面路径",
+      "OpenAI页面标注11月22日，日期性质待核",
+      "OpenAI页面正文缺失，研究结论无法确认",
+      "OpenAI页面正式标题与内容分类均待核",
+      "Anthropic未抓到新增，不代表研发放缓"
     ],
     "ai-hn": [
-      "Anthropic电力来源帖获898分、899条评论",
-      "OpenAI困惑度与智能话题获488分、338条评论",
-      "Lean数学形式化进度图获158分、133条评论",
-      "Claude零信任文章聚焦Agent权限边界",
-      "Trix显示哪个编程Agent正等待人工处理",
-      "Taskless将AGENTS.md与PR评论转为检查"
+      "Anthropic电力来源帖获914分、915评论",
+      "OpenAI困惑度与智能帖获518分",
+      "Lean数学形式化进度帖获175分",
+      "Agent零信任文章登上HN",
+      "Taskless将AGENTS.md转为可运行检查",
+      "Trix显示哪个编码Agent正在等待你"
     ],
     "ai-community": [
-      "PagedAttention入门文以8赞领跑样本",
-      "Android跑20亿参数模型，内存成核心难题",
-      "55款分词器测试：同价账单可差37%",
-      "4GB显存量化基准探索低资源部署边界",
-      "LLM路由与重试可能影响零数据保留承诺",
-      "Agent说完成就信？作者建议先独立验收"
+      "RAG逐句验证遇负载瓶颈，获35条评论",
+      "求职Agent开发者：表单比AI更难搞",
+      "AI提速却削弱代码理解？团队风险引关注",
+      "本地AI代码审查：把查错提前到推送前",
+      "Agent推送前先询问，探索人工授权边界",
+      "738个MCP工具如何选？213次会话探路"
     ]
   },
   "en": {}
