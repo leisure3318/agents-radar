@@ -360,7 +360,10 @@ def generate(day, folder, skip_cover=False):
         if path.is_file():
             body = path.read_text()[:18000]
             reports[label] = body
-            links[label] = list(dict.fromkeys(re.findall(r"\]\((https?://[^\s<>)]+)\)", body)))
+            report_links = re.findall(r"\]\((https?://[^\s<>)]+)\)", body)
+            links[label] = list(dict.fromkeys(
+                url for url in report_links if url.rstrip("/") != "https://github.com/leisure3318/agents-radar"
+            ))
     if not reports:
         raise RuntimeError("No Chinese reports found")
     base = (os.getenv("OPENAI_BASE_URL") or "https://api.openai.com/v1").rstrip("/")
