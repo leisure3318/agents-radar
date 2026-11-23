@@ -43,10 +43,13 @@ describe("saveSkillsReport", () => {
 });
 
 describe("saveHfReport", () => {
-  it.each(["zh", "en"] as const)("preserves the existing %s digest on an empty successful fetch", async (lang) => {
-    vi.clearAllMocks();
-    await saveHfReport({ fetchSuccess: true, models: [] }, "02:00", "2026-11-23", "owner/repo", "", lang);
-    expect(saveFile).not.toHaveBeenCalled();
-    expect(createGitHubIssue).not.toHaveBeenCalled();
-  });
+  it.each(["zh", "en"] as const)(
+    "preserves the existing %s digest on an empty successful fetch",
+    async (lang) => {
+      vi.clearAllMocks();
+      await saveHfReport({ fetchSuccess: true, models: [] }, "02:00", "2026-11-23", "owner/repo", "", lang);
+      expect(saveFile).not.toHaveBeenCalled();
+      expect(createGitHubIssue).not.toHaveBeenCalled();
+    },
+  );
 });
