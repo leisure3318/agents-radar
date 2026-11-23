@@ -1,0 +1,53 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Copilot CLI发布v1.0.115-7",
+      "Qwen Code双端发布v0.28.4",
+      "Codewhale发布v0.10.3",
+      "Claude Code社区反馈命令安全与中断问题",
+      "Codex聚焦云会话恢复与自动化执行正确性",
+      "Gemini CLI夜版聚焦检查点与目录信任"
+    ],
+    "ai-agents": [
+      "OpenClaw发布v2026.11.7",
+      "OpenClaw重启后可恢复中断回复与子任务结果",
+      "ClippyClaw提案探索让智能体引导安装",
+      "Focus Week 5探索产品讲解与自助修复",
+      "OpenClaw更新41条Issue、63条PR",
+      "OpenClaw工具执行回归与CI修复仍受关注"
+    ],
+    "ai-skills": [
+      "Skills榜单首次发现5项：1项趋势、4项热门",
+      "remotion-multimedia上趋势榜，安装量7521",
+      "archify进入Hot榜，安装量13",
+      "vision进入Hot榜，能力说明仍待核实",
+      "technical-writing上Hot榜，安装量7",
+      "reviewing-technical-prose上Hot榜"
+    ],
+    "ai-web": [
+      "OpenAI抓取到2条记录，去重后仅1页",
+      "OpenAI页面路径含perplexity与intelligence",
+      "OpenAI页面标注11月22日，日期性质未明",
+      "OpenAI页面正文缺失，研究结论尚不可知",
+      "OpenAI页面正式标题未核实，当前仅据URL推断",
+      "官网增量不足以判断OpenAI战略变化"
+    ],
+    "ai-hn": [
+      "Anthropic电力来源帖获898分、899条评论",
+      "OpenAI困惑度与智能话题获488分、338条评论",
+      "Lean数学形式化进度图获158分、133条评论",
+      "Claude零信任文章聚焦Agent权限边界",
+      "Trix显示哪个编程Agent正等待人工处理",
+      "Taskless将AGENTS.md与PR评论转为检查"
+    ],
+    "ai-community": [
+      "PagedAttention入门文以8赞领跑样本",
+      "Android跑20亿参数模型，内存成核心难题",
+      "55款分词器测试：同价账单可差37%",
+      "4GB显存量化基准探索低资源部署边界",
+      "LLM路由与重试可能影响零数据保留承诺",
+      "Agent说完成就信？作者建议先独立验收"
+    ]
+  },
+  "en": {}
+}
