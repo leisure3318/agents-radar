@@ -524,6 +524,18 @@ async function main(): Promise<void> {
   const cliContent: Record<Lang, string> = {} as Record<Lang, string>;
   const openclawContent: Record<Lang, string> = {} as Record<Lang, string>;
 
+  const hasActivity = (repos: RepoFetch[]) =>
+    repos.some(({ issues, prs, releases }) => issues.length || prs.length || releases.length);
+  const preserveEmptyReport = (fileName: string, hasData: boolean, content: string) => {
+    const file = path.join("digests", dateStr, fileName);
+    if (!hasData && fs.existsSync(file)) {
+      console.log(`  Preserving ${file}: no activity in this run`);
+      return fs.readFileSync(file, "utf-8");
+    }
+    console.log(`  Saved ${saveFile(content, dateStr, fileName)}`);
+    return content;
+  };
+
   for (const lang of ["zh", "en"] as const) {
     const s = summariesByLang[lang];
     const ft = autoGenFooter(lang);
@@ -552,8 +564,16 @@ async function main(): Promise<void> {
       lang,
     );
 
-    console.log(`  Saved ${saveFile(cliContent[lang], dateStr, `ai-cli${suffix}.md`)}`);
-    console.log(`  Saved ${saveFile(openclawContent[lang], dateStr, `ai-agents${suffix}.md`)}`);
+    cliContent[lang] = preserveEmptyReport(
+      `ai-cli${suffix}.md`,
+      hasActivity(fetchedCli) || skillsData.issues.length > 0 || skillsData.prs.length > 0,
+      cliContent[lang],
+    );
+    openclawContent[lang] = preserveEmptyReport(
+      `ai-agents${suffix}.md`,
+      hasActivity([fetchedOpenclaw, ...fetchedPeers]),
+      openclawContent[lang],
+    );
   }
 
   // Web report: zh saves state, en skips state save

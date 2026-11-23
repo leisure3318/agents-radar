@@ -7,7 +7,7 @@ const { saveFile, createGitHubIssue } = vi.hoisted(() => ({
 }));
 vi.mock("../report.ts", () => ({ saveFile, callLlmLang: vi.fn(), LLM_TOKENS_WEB: 8192 }));
 vi.mock("../github.ts", () => ({ createGitHubIssue }));
-import { saveSkillsReport } from "../report-savers.ts";
+import { saveHfReport, saveSkillsReport } from "../report-savers.ts";
 
 const data = {
   fetchSuccess: true,
@@ -39,5 +39,14 @@ describe("saveSkillsReport", () => {
     await expect(
       saveSkillsReport(data, "## example", "02:00", "2026-10-21", "owner/repo", ""),
     ).rejects.toThrow("GitHub unavailable");
+  });
+});
+
+describe("saveHfReport", () => {
+  it.each(["zh", "en"] as const)("preserves the existing %s digest on an empty successful fetch", async (lang) => {
+    vi.clearAllMocks();
+    await saveHfReport({ fetchSuccess: true, models: [] }, "02:00", "2026-11-23", "owner/repo", "", lang);
+    expect(saveFile).not.toHaveBeenCalled();
+    expect(createGitHubIssue).not.toHaveBeenCalled();
   });
 });

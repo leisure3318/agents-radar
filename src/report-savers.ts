@@ -188,7 +188,7 @@ export async function saveHnReport(
   footer: string,
   lang: Lang = "zh",
 ): Promise<void> {
-  if (!hnData.fetchSuccess) {
+  if (!hnData.fetchSuccess || hnData.stories.length === 0) {
     console.log(`  [hn/${lang}] No data available, skipping report.`);
     return;
   }
@@ -235,7 +235,7 @@ export async function savePhReport(
   footer: string,
   lang: Lang = "zh",
 ): Promise<void> {
-  if (!phData.fetchSuccess) {
+  if (!phData.fetchSuccess || phData.products.length === 0) {
     console.log(`  [ph/${lang}] No data available, skipping report.`);
     return;
   }
@@ -282,7 +282,7 @@ export async function saveArxivReport(
   footer: string,
   lang: Lang = "zh",
 ): Promise<void> {
-  if (!arxivData.fetchSuccess) {
+  if (!arxivData.fetchSuccess || arxivData.papers.length === 0) {
     console.log(`  [arxiv/${lang}] No data available, skipping report.`);
     return;
   }
@@ -329,7 +329,7 @@ export async function saveHfReport(
   footer: string,
   lang: Lang = "zh",
 ): Promise<void> {
-  if (!hfData.fetchSuccess) {
+  if (!hfData.fetchSuccess || hfData.models.length === 0) {
     console.log(`  [hf/${lang}] No data available, skipping report.`);
     return;
   }
@@ -377,7 +377,7 @@ export async function saveCommunityReport(
   footer: string,
   lang: Lang = "zh",
 ): Promise<void> {
-  const hasData = devtoData.fetchSuccess || lobstersData.fetchSuccess;
+  const hasData = devtoData.articles.length > 0 || lobstersData.stories.length > 0;
   if (!hasData) {
     console.log(`  [community/${lang}] No data available, skipping report.`);
     return;
