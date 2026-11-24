@@ -1,68 +1,68 @@
 {
   "zh": {
     "ai-cli": [
-      "Claude Code v2.1.331聚焦多云与企业身份",
-      "Codex 0.172.0正式版发布，强化审批与恢复",
-      "OpenCode连发v2.4.0、v2.4.1，主打内置浏览器",
-      "Gemini CLI发布4版，包含A2A安全补丁",
-      "Copilot CLI v1.0.115-8加入子代理用量统计",
-      "Qwen Code推进日志安全与分层沙箱"
+      "Codex发布0.173.0-alpha.5预览版",
+      "OpenCode更新15条PR，推进插件API",
+      "Claude Code社区关注GitHub集成",
+      "Codex跨设备会话与MCP授权问题待解",
+      "Qwen Code推进托管Agent暂停恢复",
+      "CLI生态聚焦工具调用与权限持久化"
     ],
     "ai-agents": [
-      "OpenClaw更新37条Issue、62条PR",
-      "OpenClaw连发两个Beta，升级恢复成重点",
-      "OpenClaw beta.3强化更新中断后的恢复",
-      "OpenClaw外置数据库回滚出现P1报告",
-      "OpenClaw遭遇PostgreSQL迁移恢复P1问题",
-      "OpenClaw Windows更新激活出现P1报告"
+      "OpenClaw更新38条PR，26条待合并",
+      "OpenClaw升级后Agent列表异常列为P1",
+      "Teams附件边界PR涉及跨会话泄露风险",
+      "OpenClaw拟防止旧Git安装被误回滚",
+      "Goal后台任务排序PR关闭，合并未确认",
+      "OpenClaw推进上下文压缩测试与Web UI"
     ],
     "ai-skills": [
       "5个新收录Skill全部登上Hot小时榜",
       "explore-run获240安装，主打预算内实验",
-      "explore-run按成本、成功率与收益筛选方案",
-      "explore-run要求明确授权，隔离可信基线",
-      "paper-context-resolver获240安装",
-      "paper-context-resolver补论文复现证据缺口"
+      "explore-run要求明确授权后再探索",
+      "paper-context-resolver补齐复现证据",
+      "image-to-ui聚焦截图还原界面",
+      "新上榜Skills覆盖架构与决策文档维护"
     ],
     "ai-web": [
-      "Anthropic《Working with AI》研究上线",
-      "Anthropic访谈58家企业，共完成66次访谈",
-      "Anthropic研究：企业AI价值更偏增产而非降本",
-      "Anthropic观察：编码智能体进入非技术岗位",
-      "Anthropic样本中，多数企业因AI减少招聘",
-      "Anthropic访谈中，AI直接导致本土裁员案例少"
+      "Anthropic新增抓取2个研究团队页面",
+      "Claude对齐研究将助手人格纳入职责",
+      "Anthropic聚焦模型非预期行动风险",
+      "可解释性研究转向真实模型内部诊断",
+      "Anthropic关注自述推理与内部过程差异",
+      "团队页列出未经授权访问事件历史研究"
     ],
     "ai-hn": [
-      "VP≠VNP证明主张引热议，三帖共266条评论",
-      "VP≠VNP尚待核验，不等于解决P vs. NP",
-      "Shirudo运行时防护获56分，涉及OpenAI与Cisco",
-      "Latent Introspection论文获50分",
-      "Claude Ship与Reddit实践聚焦AI代码审批",
-      "Agent安全讨论升温：技能扫描与逐次调用授权"
+      "VP≠VNP主张获311分，证明仍待审查",
+      "数学主张三帖合计286评论，成讨论焦点",
+      "OpenAI与Cisco的Shirudo获63分",
+      "LLM概念注入检测论文获52分",
+      "AI工程从写代码延伸至审查与批准",
+      "Claude零数据保留方案引企业治理关注"
     ],
     "ai-arxiv": [
-      "MMMem探索多模态经验整合，让Agent少犯旧错",
-      "RoboAda让冻结机器人策略适应未知物理变化",
-      "RoboThink分离智能体推理与实时动作控制",
-      "异构推理研究追问：SFT能否学会多种策略",
-      "持续学习研究用三接口诊断定位遗忘",
-      "Grokking新研究尝试训练前预测泛化终点"
+      "SchemaCaps警示兼容更新也会扩大权限",
+      "新论文探索拦截可信但未授权的工具参数",
+      "AnchorCredit细化多奖励信用分配",
+      "共情强化学习研究揭示普遍迎合风险",
+      "注意力修补探索降低上下文学习成本",
+      "单代校准尝试预测递归训练稀有模式坍塌"
     ],
     "ai-hf": [
-      "inclusionAI占3个热门模型中的两席",
-      "Ling-3.2-air获121赞，带视觉语言MoE标签",
+      "inclusionAI占据热门模型样本两席",
+      "Ling-3.2-air获121赞，带视觉MoE标签",
       "Ling-3.2-air标注FP8与MIT许可",
-      "LingSante-3.1-flash获121赞、397次下载",
-      "Inkling-2-Mini-Strata以1064次下载领跑",
-      "Inkling-2-Mini-Strata主打图文输入与量化"
+      "LingSante-3.1-flash获121赞",
+      "Inkling-2-Mini-Strata下载达1064次",
+      "Inkling-2-Mini-Strata主打图文理解"
     ],
     "ai-community": [
-      "MCP故障注入文章获31条评论，讨论量居首",
-      "60次MCP故障实验自述：验证器误报率曾达38%",
-      "工具注册表应按API审查，相关文章获20条评论",
-      "三Agent共用仓库，协调难题浮出水面",
-      "编码Agent能改自己的测试结果吗？",
-      "任务评测取代演示：校对与改写不能混测"
+      "多Agent共识值不值？Dev.to引24条评论",
+      "脚手架提升39分？文章引14条评论",
+      "385MB离线理财模型被禁止输出数字",
+      "研究任务显示完成，却零搜索零引用",
+      "LoRA与QLoRA教程拆解单卡7B微调成本",
+      "Aider教程聚焦终端AI结对编程"
     ]
   },
   "en": {}

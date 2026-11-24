@@ -1,9 +1,9 @@
 # Official AI Content Report 2026-11-24
 
-> Today's update | New content: 1 articles | Generated: 2026-11-24 05:45 UTC
+> Today's update | New content: 2 articles | Generated: 2026-11-24 07:04 UTC
 
 Sources:
-- Anthropic: [anthropic.com](https://www.anthropic.com) — 1 new articles (sitemap total: 503)
+- Anthropic: [anthropic.com](https://www.anthropic.com) — 2 new articles (sitemap total: 503)
 - OpenAI: [openai.com](https://openai.com) — 0 new articles (sitemap total: 1150)
 
 ---

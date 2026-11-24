@@ -1,98 +1,105 @@
 # ArXiv AI 研究日报 2026-11-24
 
-> 数据来源: [ArXiv](https://arxiv.org/) (cs.AI, cs.CL, cs.LG) | 共 50 篇论文 | 生成时间: 2026-11-24 05:45 UTC
+> 数据来源: [ArXiv](https://arxiv.org/) (cs.AI, cs.CL, cs.LG) | 共 50 篇论文 | 生成时间: 2026-11-24 07:04 UTC
 
 ---
 
 # ArXiv AI 研究日报
 **2026 年 11 月 24 日｜基于所提供的 50 篇论文条目**
 
-> 所列论文发布日期均为 11 月 23 日。本报依据题目及截断摘要筛选，未核验全文；下文重点介绍研究问题与方法方向，不将尚未核实的效果视为定论。
+> 本报依据标题与截断摘要筛选，未核验全文；下文区分论文提出的贡献与研究价值判断，不对未提供的实验结果作推断。
 
 ## 一、今日速览
 
-今日最鲜明的信号是：**研究关注点正从“模型能否完成任务”，转向“训练信号、评估结果与部署收益是否可信”**，涉及代码智能体奖励标签、安全评测归因和网页任务判定规则。智能体研究继续向长期运行推进，多模态经验整合、机器人测试时适应，以及推理与实时控制分工成为重要方向。大模型基础研究则聚焦异构推理策略的可学习性、持续学习中的遗忘定位与 Grokking 机制。效率研究更加重视实际工作负载：并发解码和包含输出阶段的成本核算，比单纯减少参数或输入 token 更接近部署需求。
+今日最突出的信号是：**智能体研究正从“能否完成任务”转向“是否获得授权、是否依据证据、是否被可靠评估”**，工具权限和评判器误差成为重要议题。大模型训练侧，研究进一步关注可验证奖励的细粒度信用分配，以及共情反馈可能带来的普遍迎合倾向。机器人方向，两篇工作共同探索从异构、无统一动作标注的视频中学习潜在动作，指向更可扩展的世界模型路线。此外，KL 散度计算的数值稳定性、上下文学习的推理成本等基础问题，也值得工程团队直接跟进。
 
 ## 二、重点论文
 
-### 🧠 大语言模型｜训练、机制与持续学习
+### 🧠 大语言模型｜训练、对齐与效率
 
-**1. [Learning Heterogeneous Reasoning in Large Language Models: From Mode Compatibility to Local Bottlenecks](http://arxiv.org/abs/2611.30281v1)**  
-**作者：** S. Li、D. Song、S. Ma 等  
-**核心贡献与关注点：** 研究标准 SFT 能否在没有显式模式条件的情况下学习不同教师或算法产生的推理策略，直接关系到混合推理数据是否能够有效转化为能力增益。
+#### 1. [AnchorCredit: Output-Anchored Credit Assignment for Structured Generation with Multiple Verifiable Rewards](http://arxiv.org/abs/2611.30881v1)
+**作者：** G. Li、P. Xie、X. Xiao 等  
+**核心贡献与看点：** 针对 GRPO 等方法将整段回答优势广播给所有 token 的粗粒度更新方式，提出输出锚定的信用分配，值得关注其能否让多项可验证奖励更准确地指导结构化生成。
 
-**2. [Revisiting Continual Learning in Language Models: A Three-Interface Diagnosis of Stability and Plasticity](http://arxiv.org/abs/2611.30151v1)**  
-**作者：** K. Kim、B. Lee、H. Kim 等  
-**核心贡献与关注点：** 提出三接口诊断视角，尝试区分持续学习中不同位置的遗忘，避免仅凭最终输出性能下降就认定模型内部知识已经丢失。
+#### 2. [Lowering the Bar for Everyone: Hidden Validation-Seeking Goals in Empathetic RL](http://arxiv.org/abs/2611.30702v1)
+**作者：** X. Zhang、S. Xie、Z. Ma 等  
+**核心贡献与看点：** 在共情式强化学习场景中，研究部分用户隐含的“寻求认可”目标是否会降低模型对所有人的赞同门槛，揭示用户反馈优化与迎合行为之间的潜在联系。
 
-**3. [Grokking as a Subspace Search: Computing the Destination Before Training](http://arxiv.org/abs/2611.30116v1)**  
-**作者：** S. Jeong、J. Kim、H. Hwang  
-**核心贡献与关注点：** 将 Grokking 解释为子空间搜索，并尝试在训练前计算其最终趋向，为延迟泛化提供可事前检验的机制假设。
+#### 3. [Learn the Effects, Not the Examples: Implicit ICL via Attention Patching](http://arxiv.org/abs/2611.30690v1)
+**作者：** S. Woo、H. Shin、W. Hwang  
+**核心贡献与看点：** 探索通过注意力修补隐式传递示例的作用，而非反复在上下文中放入示例，为降低少样本任务适配的上下文与推理成本提供新思路。
 
-### 🤖 智能体与推理｜经验积累、适应与控制
+#### 4. [Predicting Rare-Mode Collapse in Recursive Generative Training from Single-Generation Calibration](http://arxiv.org/abs/2611.30897v1)
+**作者：** J. Zhang、M. Du、L. Han  
+**核心贡献与看点：** 尝试以单代校准预测递归生成训练中的稀有模式坍塌，重点关注“样本数量仍在、特征核心却已退化”的隐蔽风险，对合成数据循环使用具有警示意义。
 
-**4. [MMMem: Self-Improving Agents with Task-Aware Multimodal Experience Consolidation](http://arxiv.org/abs/2611.30287v1)**  
-**作者：** Y. Chen、C. Lv、Y. Li 等  
-**核心贡献与关注点：** 围绕任务整合对话、图像和文档中的多模态经验，旨在保留跨记录推理所得的理解，让智能体不只是“存过信息”，还能减少重复犯错。
+### 🤖 智能体与推理｜权限、搜索与评估
 
-**5. [RoboAda: Adapting Frozen Robot Policies at Test Time to Physics They Cannot See](http://arxiv.org/abs/2611.30209v1)**  
-**作者：** Y. Zhang、Z. Jin、S. Niu 等  
-**核心贡献与关注点：** 探索冻结机器人策略在测试时适应不可见物理变化，针对质量、关节性能和控制延迟等视觉难以识别的部署偏移。
+#### 5. [SchemaCaps: When a Compatible Tool Update Silently Widens an AI Agent's Authority](http://arxiv.org/abs/2611.30750v1)
+**作者：** Y. Ameur、S. Bouzefrane、S. Banerjee  
+**核心贡献与看点：** 指出工具 JSON schema 的兼容性更新也可能悄然扩大智能体权限，并讨论权限不放大的约束，提醒 MCP 生态不能将“接口兼容”直接等同于“授权不变”。
 
-**6. [RoboThink: Let the Agent Think, Let the Policy Act](http://arxiv.org/abs/2611.30111v1)**  
-**作者：** Y. Zhang、Z. Jin、J. Wang 等  
-**核心贡献与关注点：** 探索由推理智能体诊断失败、由策略维持实时动作执行的分工，切中高层推理速度与低层控制频率不匹配的问题。
+#### 6. [Intent-Conditioned Argument Mediation for Tool-Using LLM Agents: Blocking Trusted-but-Unauthorized Arguments](http://arxiv.org/abs/2611.30745v1)
+**作者：** Y. Ameur、M. P. Mendes、S. Bouzefrane  
+**核心贡献与看点：** 提出基于用户意图的工具参数调解机制，补足仅检查参数来源的不足，强调“来源可信”并不代表用户授权了该收件人、文件或端点。
 
-### 🔧 方法与框架｜可信评估、数据构建与效率
+#### 7. [Transport-Safe Evaluation of LLM Agents: Trajectory-Dependent Judge Error and Anytime-Valid Auditing](http://arxiv.org/abs/2611.30742v1)
+**作者：** Y. Ameur、S. Bouzefrane、S. Banerjee  
+**核心贡献与看点：** 分析 LLM 裁判的错误率随智能体轨迹变化时，复用统一校准可能造成的排名偏差，为智能体评测的可靠性提供统计审计视角。
 
-**7. [Attributing Security Outcomes in LLM-Agent Evaluations: The Role of Content-Free State](http://arxiv.org/abs/2611.30259v1)**  
-**作者：** A. Bounite、Z. Iklassov  
-**核心贡献与关注点：** 指出智能体安全评测结果还可能受“无内容状态”影响，提醒研究者不能直接把攻击成功率差异全部归因于攻击、防御或模型能力。
+#### 8. [CocoonBench: Can Multilingual Search Agents Escape Language Information Cocoons?](http://arxiv.org/abs/2611.30727v1)
+**作者：** H. Zeng、B. Liu、C. Gao 等  
+**核心贡献与看点：** 将“能否跨越当前语言环境寻找充分证据”纳入搜索智能体评估，区分多语言理解能力与真正的跨语言信息获取能力。
 
-**8. [Same Executions, Different Gaps: Judgment Rules in Web-Agent Evaluation](http://arxiv.org/abs/2611.30190v1)**  
-**作者：** Z. Wang、W. Li、F. Xue 等  
-**核心贡献与关注点：** 分析成功定义、判定证据与判断规则如何影响网页智能体的性能差距，强调“排名领先”并不等于“领先幅度可靠”。
+### 🔧 方法与框架｜世界模型、数值可靠性与基准
 
-**9. [PackLoop: Row-Packed Self-Speculative Decoding for Looped Language Models under Concurrency](http://arxiv.org/abs/2611.30205v1)**  
-**作者：** R. Li、D. Lu  
-**核心贡献与关注点：** 面向循环语言模型提出行打包自推测解码，重点处理多请求共享 GPU 时加速收益衰减的问题，比单请求测速更贴近在线服务。
+#### 9. [World Models as Native Latent Action Models](http://arxiv.org/abs/2611.30898v1)
+**作者：** Q. Li、W. Qiao、Q. Tao 等  
+**核心贡献与看点：** 探索让世界模型原生承担潜在动作建模，以利用缺少动作标签或动作空间不一致的视频，为整合人类与机器人数据提供统一建模方向。
 
-**10. [When Does Optical Context Compression Pay Off? A Decode-Aware Cost Analysis of Reasoning VLMs](http://arxiv.org/abs/2611.30130v1)**  
-**作者：** Z. Ge  
-**核心贡献与关注点：** 将解码阶段纳入“文本转图像”上下文压缩的成本核算，检验输入 token 减少是否真正带来端到端节省。
+#### 10. [DexLatentWorld: 3D Cross-Embodiment Latent Action World Models for Zero-Shot Robotic Manipulation](http://arxiv.org/abs/2611.30907v1)
+**作者：** V. U. Mohan、X. Huang、R. A. Potamias  
+**核心贡献与看点：** 提出面向跨具身零样本操作的三维潜在动作世界模型，瞄准机器人交互标注昂贵、动作表示难以跨平台迁移的双重瓶颈。
 
-**11. [VADE: A Verifiable Agent Data Engine from Professional Sources](http://arxiv.org/abs/2611.30202v1)**  
-**作者：** X. Chen、Z. Lyu、K. Zhang 等  
-**核心贡献与关注点：** 探索从专业资料构建可验证智能体任务的数据引擎，回应法律、金融等领域缺少代码任务式可执行验证信号的难题。
+#### 11. [The KL Divergence Is Never Negative, Except in PyTorch](http://arxiv.org/abs/2611.30835v1)
+**作者：** Z. Yang、W. Tang、C. Chen 等  
+**核心贡献与看点：** 聚焦相近分布之间 KL 散度计算的数值失真，提醒负值可能只是更深层误差的表象，而简单截断为零未必能解决问题。
 
-### 📊 应用｜代码智能体与专业文档
+#### 12. [GameDojo: Benchmarking Real-Time Interactive Agents in Video Games](http://arxiv.org/abs/2611.30771v1)
+**作者：** K. Zhang、Z. Yang、Y. Chen 等  
+**核心贡献与看点：** 提供覆盖 20 款游戏、120 场 Boss 战的可控交互基准，为观察智能体在实时反馈中如何行动、纠错和适应提供更丰富的测试环境。
 
-**12. [What Makes Good Data for Training Coding Agents? A Systematic Study on SWE-Gym](http://arxiv.org/abs/2611.30207v1)**  
-**作者：** Y. Zhang、M. Xu、Y. Zhang 等  
-**核心贡献与关注点：** 审计 SWE-Gym 中训练奖励标签的正确性，指出“参考修复能通过测试”并不足以保证测试能够可靠评价智能体生成的其他修复。
+### 📊 应用｜医疗决策、多模态与代码生成
 
-**13. [Post-Training Agents for Long-Document Reasoning](http://arxiv.org/abs/2611.30090v1)**  
-**作者：** S. Mehta、L. Ritchie、E. Chen  
-**核心贡献与关注点：** 聚焦十个企业领域中的长文档智能体后训练，覆盖分散证据及图表、图纸、地图等信息，凸显检索式基准与真实专业阅读之间的差距。
+#### 13. [TrialAgentBench: Evaluating AI Agents for Clinical-Trial Analysis and Long-Horizon Drug-Development Decisions](http://arxiv.org/abs/2611.30916v1)
+**作者：** B. Segal、W. Bolton、P. Torr 等  
+**核心贡献与看点：** 面向临床试验分析与药物研发长期决策建立评测，将信息获取的时间、资金成本纳入问题背景，推动医疗智能体从回答问题走向序贯决策。
 
-**14. [Could This BE Any More Wrong? Teaching VLMs to Know What They Don't Know in Document Extraction](http://arxiv.org/abs/2611.30119v1)**  
-**作者：** V. Srivastava、V. Casas Hernandez  
-**核心贡献与关注点：** 通过 token 到字段跨度的对齐，从模型已有的 token 对数概率估计字段级置信度，为金融文档抽取中的人工复核与风险分流提供依据。
+#### 14. [Replay Before You Reply: Second-Look Prompting for Unified Multimodal Encoding](http://arxiv.org/abs/2611.30909v1)
+**作者：** Y. Zhang、X. Zhang、J. Ma 等  
+**核心贡献与看点：** 针对因果注意力下先出现模态无法利用后续信息的问题，提出“再次查看”的提示思路，值得检验其能否以较小改动改善图像与问题的联合理解。
+
+#### 15. [Bridging the Semantic Gap from Natural Language Specifications to RTL with Layered Formal Guidance](http://arxiv.org/abs/2611.30766v1)
+**作者：** Y. Tan、X. Meng、Y. Lyu  
+**核心贡献与看点：** 用分层形式化指导弥合自然语言规格到 RTL 的语义鸿沟，针对复杂控制逻辑和时序行为这一硬件代码生成的关键可靠性难点。
 
 ## 三、研究趋势信号
 
-今日投稿显示，智能体研究正由“完成任务”转向“可靠积累经验并适应部署环境”：多模态记忆、机器人测试时适应与持续个性化形成呼应。另一条主线是验证基础设施，研究者开始审计奖励标签、成功判定与安全评测中的混杂因素。效率评价也从参数量和输入 token，转向并发、解码及端到端成本。整体看，数据、评估和运行闭环正成为能力提升之外的重要竞争轴。
+今日投稿呈现三条值得跟踪的路线：一是智能体治理从内容安全下沉到工具 schema、参数授权和轨迹审计，安全边界更加细粒度；二是评测从静态答题转向实时交互、跨语言取证和有成本的长期决策；三是模型复用从复用数据转向复用内部作用机制，包括潜在动作、注意力干预与文档适配器。共同方向是：不仅追求更强能力，也要求能力可迁移、可核验、可约束。
 
 ## 四、值得精读
 
-### 1. [What Makes Good Data for Training Coding Agents?](http://arxiv.org/abs/2611.30207v1)
-**理由：** 奖励标签是否可靠，是代码智能体强化学习的基础问题；若评价器存在系统性误判，训练收益和基准进步都可能被误读。精读时应重点检查错误标签的定义、审计覆盖范围，以及它们对实际训练的影响。
+### 1. [SchemaCaps](http://arxiv.org/abs/2611.30750v1)
+**推荐对象：智能体平台、MCP 工具与安全工程团队。**  
+问题具体且贴近部署：工具升级后，原有批准是否仍然有效？精读重点应放在权限不放大的定义、schema 层检查的覆盖范围，以及何时必须重新征求用户授权。
 
-### 2. [Same Executions, Different Gaps](http://arxiv.org/abs/2611.30190v1)
-**理由：** 将关注点从智能体排行榜转向比较结论本身的可信度，对所有使用成功率评估的团队都有参考价值。重点看不同判定规则如何改变差距，以及作者如何表达比较中的不确定性。
+### 2. [World Models as Native Latent Action Models](http://arxiv.org/abs/2611.30898v1)
+**推荐对象：世界模型、机器人与视频预训练研究者。**  
+其价值在于尝试打通无动作标签视频和异构机器人数据。应重点检查潜在动作是否可辨识、是否具有跨数据源一致性，以及能否真正服务于下游控制。
 
-### 3. [Learning Heterogeneous Reasoning in Large Language Models](http://arxiv.org/abs/2611.30281v1)
-**理由：** 多教师、多算法推理轨迹混合已是常见数据策略，但“数据更多样”是否意味着“策略更兼容”仍需验证。重点看兼容性的操作性定义、局部瓶颈的诊断证据，以及结论能否跨模型与任务成立。
+### 3. [The KL Divergence Is Never Negative, Except in PyTorch](http://arxiv.org/abs/2611.30835v1)
+**推荐对象：训练框架、强化学习与数值计算工程师。**  
+这是可能影响广泛实验结论的基础问题。值得核查误差触发条件、精度与实现依赖，以及修正方法对损失值和梯度的实际影响；不宜仅凭标题推断所有 PyTorch KL 计算都存在问题。
 
 ---
 *本日报由 [agents-radar](https://github.com/leisure3318/agents-radar) 自动生成。*
