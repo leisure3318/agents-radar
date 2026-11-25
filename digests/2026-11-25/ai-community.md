@@ -1,60 +1,54 @@
 # 技术社区 AI 动态日报 2026-11-25
 
-> 数据来源: [Dev.to](https://dev.to/) (29 篇) + [Lobste.rs](https://lobste.rs/) (2 条) | 生成时间: 2026-11-25 04:47 UTC
+> 数据来源: [Dev.to](https://dev.to/) (4 篇) + [Lobste.rs](https://lobste.rs/) (0 条) | 生成时间: 2026-11-25 05:39 UTC
 
 ---
 
 # 技术社区 AI 动态日报
-**2026 年 11 月 25 日**
+**日期：2026-11-25**
 
-> 基于所提供的文章标题、摘要及互动数据整理；文中模型发布、定价和研究结论均为来源中的表述，未经独立核验。
+> 数据范围：Dev.to 4 篇，Lobste.rs 0 条。以下基于所提供的标题、摘要与互动数据整理；因内容数量有限，精选按实际数量收录，不补造条目。
 
-## 一、今日速览
+## 今日速览
 
-今天 Dev.to 的高互动讨论集中在一个问题：**AI 生成的结果，如何证明可信、可控、可交付？** 从发布说明幻觉、无法执行的测试，到仅写在提示词中的权限规则，开发者正在把注意力从“生成能力”转向“验证与约束”。AI 编程的瓶颈也开始向下游转移：代码产出增加，并不意味着审查与发布更快。Lobste.rs 的两条内容则偏向操作系统界面探索与基础数学研究，与 Dev.to 的工程实践形成互补。
+今日 Dev.to 的 AI 内容集中在**效果验证、自动化集成与本地部署兼容性**，讨论重点更偏向“如何可靠使用”，而非模型能力展示。提示词对照测试与模型互相面试的实验，都指向同一个问题：AI 的表现是否经得起可信的评估。工程实践方面，Gemini Decisions API 与 Google Apps Script 的结合，以及 Ollama 工作流升级前的兼容性检查，提供了具体切入点。所给样本中，提示词测试文章以 9 个点赞领先，但整体互动量较小；Lobste.rs 今日无可供分析的内容。
 
-## 二、Dev.to 精选
+## Dev.to 精选
 
-| 文章 | 互动 | 对开发者的核心价值 |
-|---|---|---|
-| [Why Your AI Release Notes Hallucinate: The "Why vs What" Problem in Git History](https://dev.to/necoz/why-your-ai-release-notes-hallucinate-the-why-vs-what-problem-in-git-history-5ch0) | 👍 36 · 💬 12 | 揭示代码差异只能解释“改了什么”，生成可信发布说明还需要关联议题、变更动机与评估证据。 |
-| [We Had Four Tests We Couldn't Run. We Refused to Fake Any of Them.](https://dev.to/debashish_ghosal/we-had-four-tests-we-couldnt-run-we-refused-to-fake-any-of-them-a55) | 👍 15 · 💬 9 | 为 Agent 安全测试提供重要原则：明确披露验证缺口，而不是把未执行的测试包装成通过。 |
-| [The Art of the Canary in the Age of AI](https://dev.to/copyleftdev/the-art-of-the-canary-in-the-age-of-ai-2o41) | 👍 14 · 💬 4 | 围绕金丝雀验证提供实验、源码与运行产物，适合研究如何让 AI 相关工程结论可复查。 |
-| [Your agent isn't breaking the rules. Your rules were never enforced.](https://dev.to/tokenlat/your-agent-isnt-breaking-the-rules-your-rules-were-never-enforced-2ngo) | 👍 10 · 💬 14 | 提醒开发者将退款额度等业务限制落实为执行层控制，而非仅依赖提示词中的规则。 |
-| [I tested Context7 on 6 libraries that changed in 2026](https://dev.to/thegdsks/i-tested-context7-on-6-libraries-that-changed-in-2026-52g4) | 👍 11 · 💬 1 | 通过库版本变化场景，帮助判断实时文档上下文能否减少编码 Agent 使用过时 API 的问题。 |
-| [Local Means Local: Test Firebase AI Logic Fallback Before Dispatch](https://dev.to/gde/local-means-local-test-firebase-ai-logic-fallback-before-dispatch-5fbh) | 👍 9 · 💬 3 | 强调在请求发出前验证本地推理的回退路径，避免“本地运行”承诺与实际数据流向不一致。 |
-| [AI Coding Agents Raised Code Output 30% and Slowed PR Reviews 49%: How to Fix the Queue](https://dev.to/seanjhkwon/ai-coding-agents-raised-code-output-30-and-slowed-pr-reviews-49-how-to-fix-the-queue-4db9) | 👍 5 · 💬 9 | 从审查队列而非代码产量衡量 AI 效率；标题所引研究数字仍需结合原文方法与适用范围理解。 |
-| [Building an offline-first React Native app with Turso Sync, Measure and Claude Code](https://dev.to/studio1hq/building-an-offline-first-react-native-app-with-turso-sync-measure-and-claude-code-fa5) | 👍 21 · 💬 3 | 提供 AI 辅助开发与离线优先移动架构结合的完整案例，适合关注同步和移动交付的团队。 |
-| [How I built memory that forgets on purpose: 90 days to stale, 365 to gone, and a pin that never expires](https://dev.to/krish_verma_77e28d3fd63ca/how-i-built-memory-that-forgets-on-purpose-90-days-to-stale-365-to-gone-and-a-pin-that-never-12gk) | 👍 3 · 💬 12 | 将记忆过期、删除与永久保留显式化，为 Agent 长期记忆的生命周期治理提供设计参考。 |
+### 1. [I Tested My Prompt Against Plain English. One Answer Changed the Result.](https://dev.to/gnomeman4201/i-tested-my-prompt-against-plain-english-one-answer-changed-the-result-4m3o)
+- **作者：**GnomeMan4201｜**点赞：9｜评论：0**
+- **核心价值：**通过六案例试验与盲评复核，提醒开发者不要默认结构化提示词优于普通表达，并关注模糊答案对评估结论的影响。
 
-## 三、Lobste.rs 精选
+### 2. [Zero-Output-Token AI in Google Apps Script with Gemini Decisions API](https://dev.to/gde/zero-output-token-ai-in-google-apps-script-with-gemini-decisions-api-2maj)
+- **作者：**Tanaike｜**点赞：3｜评论：1**
+- **核心价值：**介绍 Gemini Decisions API 在 Google Apps Script 中的应用，为 Google Workspace 自动化提供一种以决策结果而非长文本生成为中心的集成思路。
 
-*本次仅提供 2 条内容，全部收录，不补造条目。*
+### 3. [I let AI models interview each other for a job. The liars got hired](https://dev.to/vadim_albarov/i-let-ai-models-interview-each-other-for-a-job-the-liars-got-hired-jkp)
+- **作者：**vadim albarov｜**点赞：3｜评论：1**
+- **核心价值：**以 AI 模拟招聘实验提示开发者：模型评审可能奖励具有说服力的虚假陈述，不能将流畅表达直接视为可信能力。
 
-### 1. [9/UX: a Macintosh-inspired desktop for 9front](https://progrium.github.io/9ux/)
-- **分数：14｜评论：2**
-- **[讨论链接](https://lobste.rs/s/vciex6/9_ux_macintosh_inspired_desktop_for)**
-- **为什么值得阅读：**从 Macintosh 风格桌面与 9front 的结合观察系统交互设计；虽带有 AI 标签，但现有信息不足以判断 AI 在项目中的具体作用。
+### 4. [What Changed in Local AI by November 2026: What to Test Before Upgrading](https://dev.to/pavelespitia/what-changed-in-local-ai-by-november-2026-what-to-test-before-upgrading-45hl)
+- **作者：**Pavel Espitia｜**点赞：1｜评论：0**
+- **核心价值：**围绕 Ollama 工作流变化提供兼容性矩阵思路，帮助开发者在升级前针对自己的技术栈做验证，而非直接追随版本更新。
 
-### 2. [Matrix Multiplication is Θ(n^2.25)](https://raw.githubusercontent.com/openai/math/main/preprints/The-matrix-multiplication-exponent-is-nine-fourths-November-24-2026/paper.pdf)
-- **分数：3｜评论：3**
-- **[讨论链接](https://lobste.rs/s/kn0pmh/matrix_multiplication_is_n_2_25)**
-- **为什么值得阅读：**标题涉及矩阵乘法复杂度的重大主张，值得关注证明、假设与同行审查；不能据标题直接视为已获确认的突破，也不等同于现实 AI 计算立即提速。
+## Lobste.rs 精选
 
-## 四、社区脉搏
+**今日所提供的数据中无 Lobste.rs 内容。**因此不列精选，也无法提供对应的原文、讨论链接、分数及评论数；这不代表该平台没有 AI 讨论。
 
-两平台都触及 AI 与软件、计算基础设施的交叉，但共同议题证据有限：Dev.to 聚焦 Agent 交付，Lobste.rs 偏向系统界面与数学研究。开发者的实际关切是结果能否验证、权限能否强制执行、本地数据是否外流，以及代码增产是否加重审查负担。正在浮现的实践包括关联议题补全上下文、显式披露测试缺口、执行层策略控制、回退路径测试与记忆生命周期管理。
+## 社区脉搏
 
-## 五、值得精读
+今日样本呈现出从“会不会用 AI”转向“如何验证 AI”的倾向：提示词是否真正有效、模型评审是否偏爱善于包装的回答、本地工具升级是否破坏现有流程，都是实际关切。教程与实践线索则包括决策型 API 集成、盲评对照测试和兼容性矩阵。由于缺少 Lobste.rs 样本，无法判断两平台的共同主题；上述观察仅代表所提供的 Dev.to 内容，不宜外推为全社区共识。
 
-1. **[Why Your AI Release Notes Hallucinate](https://dev.to/necoz/why-your-ai-release-notes-hallucinate-the-why-vs-what-problem-in-git-history-5ch0)**  
-   今日点赞最高的文章。值得重点理解“变更事实”与“变更动机”的区别，并据此检查团队的发布说明生成流程。
+## 值得精读
 
-2. **[Your agent isn't breaking the rules. Your rules were never enforced.](https://dev.to/tokenlat/your-agent-isnt-breaking-the-rules-your-rules-were-never-enforced-2ngo)**  
-   今日 Dev.to 评论最多的文章。核心阅读问题是：哪些业务约束必须由工具、权限与审批机制执行，而不能交给模型自行遵守？
+1. **[提示词与普通英语的对照测试](https://dev.to/gnomeman4201/i-tested-my-prompt-against-plain-english-one-answer-changed-the-result-4m3o)**  
+   优先关注实验设计、盲评方式与模糊答案的判定规则。适合正在优化提示词、但缺少稳定评估方法的开发者。
 
-3. **[AI Coding Agents Raised Code Output 30% and Slowed PR Reviews 49%: How to Fix the Queue](https://dev.to/seanjhkwon/ai-coding-agents-raised-code-output-30-and-slowed-pr-reviews-49-how-to-fix-the-queue-4db9)**  
-   适合技术负责人精读。重点核查研究口径，并思考团队应如何用端到端交付时间、审查等待和返工成本衡量 AI 收益。
+2. **[AI 模型互相面试：说谎者被录用](https://dev.to/vadim_albarov/i-let-ai-models-interview-each-other-for-a-job-the-liars-got-hired-jkp)**  
+   适合将模型用于招聘辅助、内容筛选或自动评分的团队。阅读时应重点核查实验条件与结论边界，避免把单次模拟直接推广到真实业务。
+
+3. **[本地 AI 升级前该测试什么](https://dev.to/pavelespitia/what-changed-in-local-ai-by-november-2026-what-to-test-before-upgrading-45hl)**  
+   适合维护 Ollama 或本地 AI 工作流的开发者。重点是将文中的兼容性矩阵转化为自身环境可重复执行的升级前检查。
 
 ---
 *本日报由 [agents-radar](https://github.com/leisure3318/agents-radar) 自动生成。*

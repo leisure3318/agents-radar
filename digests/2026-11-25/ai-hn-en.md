@@ -1,6 +1,6 @@
 # Hacker News AI Community Digest 2026-11-25
 
-> Source: [Hacker News](https://news.ycombinator.com/) | 30 stories | Generated: 2026-11-25 04:47 UTC
+> Source: [Hacker News](https://news.ycombinator.com/) | 30 stories | Generated: 2026-11-25 05:39 UTC
 
 ---
 

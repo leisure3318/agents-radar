@@ -1,6 +1,6 @@
 {
   "anthropic": {
-    "lastChecked": "2026-11-25T04:47:01.200Z",
+    "lastChecked": "2026-11-25T05:39:45.080Z",
     "seenUrls": {
       "https://www.anthropic.com/news/responsible-scaling-policy-v3": "2026-11-13T22:37:05.591Z",
       "https://www.anthropic.com/research/deprecation-updates-opus-3": "2026-09-09T21:14:42.000Z",
@@ -564,7 +564,7 @@
     }
   },
   "openai": {
-    "lastChecked": "2026-11-25T04:47:02.660Z",
+    "lastChecked": "2026-11-25T05:39:46.399Z",
     "seenUrls": {
       "https://openai.com/index/arvind-kc-chief-people-officer/": "2026-11-03T13:34:40.079Z",
       "https://openai.com/index/put-ai-to-work-for-your-product-team/": "2026-11-10T09:52:35.698Z",
@@ -1535,7 +1535,7 @@
       "https://openai.com/business/learn/deploying-daybreak-red/": "2026-11-21T20:57:49.058Z",
       "https://openai.com/index/introducing-medchembench/": "2026-11-25T01:34:59.050Z",
       "https://openai.com/index/perplexity-and-intelligence/": "2026-11-25T01:34:05.998Z",
-      "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities/": "2026-11-25T03:12:47.328Z"
+      "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities/": "2026-11-25T05:34:40.429Z"
     }
   }
 }

@@ -1,102 +1,117 @@
 # ArXiv AI 研究日报 2026-11-25
 
-> 数据来源: [ArXiv](https://arxiv.org/) (cs.AI, cs.CL, cs.LG) | 共 50 篇论文 | 生成时间: 2026-11-25 04:47 UTC
+> 数据来源: [ArXiv](https://arxiv.org/) (cs.AI, cs.CL, cs.LG) | 共 26 篇论文 | 生成时间: 2026-11-25 05:39 UTC
 
 ---
 
 # ArXiv AI 研究日报
-**2026 年 11 月 25 日｜覆盖 cs.AI、cs.CL、cs.LG 等方向，共 50 篇候选论文**
+**2026 年 11 月 25 日｜覆盖 26 篇论文，所列发布日期均为 11 月 24 日**
 
-> 本期依据所提供的标题与摘要节选筛选，论文均标注发布于 11 月 24 日；以下侧重研究问题与潜在价值，未核验全文及实验结果。
+> 本报基于所提供的标题与截断摘要整理，未核验全文；以下重点区分论文提出的问题、方法与尚待验证的效果。
 
 ## 一、今日速览
 
-今日最突出的主线是 **LLM 效率优化从“单项压缩”走向“系统协同”**：低精度格式、量化技术交互，以及 MoE 通信依赖成为关注重点。模型训练方面，线性注意力的关联召回、超参数配置迁移，以及训练与执行策略不一致，分别触及架构能力、训练成本和强化学习可靠性。少样本上下文适应与多教师蒸馏，则反映出研究者正探索如何更有效地吸收经验、整合专长。与此同时，医疗数据泄漏与量化后门提醒我们：**性能提升必须与评估可信度、部署安全共同审视**。
+今日最鲜明的主线是：**AI 不仅要给出答案，还要判断证据是否充分、行动是否符合自身判断，以及评测结果是否可信**。智能体研究进一步转向系统层面，关注模型与运行框架的相对贡献，以及合法授权智能体被劫持后的安全边界。效率优化覆盖 KV 缓存、生成式验证和动态语法约束，体现出面向实际部署的精细化设计。多模态应用则聚焦自动驾驶、通用 CT 报告与交互视频生成，强调证据落地、空间定位和实时可控性。
 
 ## 二、重点论文
 
-### 🧠 大语言模型：架构、训练与评估
+### 🧠 大语言模型｜训练、能力认知与评估
 
-#### 1. [Eliciting the Recall Capacity of Linear Attention](http://arxiv.org/abs/2611.32969v1)
-**作者：** J. Lindqvist、A. Orvieto  
-**核心贡献与关注点：** 结合自然语言评估、合成关联召回任务与针对性训练干预，研究线性注意力的召回短板，为区分“架构容量限制”与“训练未充分激发能力”提供切入点。
+**1. [InstructReplay: Replaying Assistant Turns to Preserve General Behavior During Factual Fine-Tuning](http://arxiv.org/abs/2611.32918v1)**  
+**作者：** X. Shi、Q. Kou、H. Zhou  
+**核心贡献与关注点：** 提出通过回放助手轮次，在事实微调时保留通用行为，并将能力退化与回答长度坍缩联系起来，为理解和缓解微调后的行为遗忘提供切入点。
 
-#### 2. [Weight Scale Rebalancing: Transferable Training Recipes for Transformers](http://arxiv.org/abs/2611.32866v1)
-**作者：** Y. Hou、N. Graham、A. Yurtsever  
-**核心贡献与关注点：** 提出在成对权重矩阵之间引入辅助对角矩阵的 UDVR 重参数化，旨在改善 Transformer 训练配置的可迁移性，值得关注其能否降低大模型重复调参成本。
+**2. [Do Vision-Language Models Know Their Own Visual Weaknesses? Probing Capability-Level Metacognition](http://arxiv.org/abs/2611.32940v1)**  
+**作者：** D. Kim、T. Moon  
+**核心贡献与关注点：** 将元认知评估从“这次回答是否正确”推进到“模型是否预先知道自己不擅长哪些视觉任务”，有助于研究能力边界感知和任务分流。
 
-#### 3. [EPRO: Robust Policy Optimization Through an Imperfect Execution-Policy Predictor](http://arxiv.org/abs/2611.32810v1)
-**作者：** Y. Wang、C. Yang、Y. Liu 等  
-**核心贡献与关注点：** 针对 LLM 强化学习中训练引擎与 rollout 引擎即使共享参数也可能产生不同策略的问题，探索借助不完美执行策略预测器开展鲁棒优化，直面训练系统中的实际偏差。
+**3. [Measurement Artifacts in Trustworthiness Evaluations of Quantized Small Language Models](http://arxiv.org/abs/2611.32848v1)**  
+**作者：** T. Abbas、T. Zia、D. Windridge  
+**核心贡献与关注点：** 区分量化造成的真实可信度变化与测量工具引入的误差，提醒研究者不能将基准分数变化直接等同于量化的因果影响。
 
-#### 4. [Sample-Efficient In-Context Adaptation via Sleep](http://arxiv.org/abs/2611.32802v1)
-**作者：** S. Lee、Z. Enyan、M. Xu 等  
-**核心贡献与关注点：** 探索通过“Sleep”机制提升少量上下文经验的利用效率，关注模型能否从少数交互、陌生代码片段或实验结果中形成可泛化知识；机制与适用边界需进一步查阅全文。
+### 🤖 智能体与推理｜行为一致性、运行框架与安全
 
-#### 5. [Scaling Laws of Ensemble Uncertainty in Language Models](http://arxiv.org/abs/2611.32801v1)
-**作者：** S. Ravanbakhsh、D. Nitchi、K. Ngo  
-**核心贡献与关注点：** 研究语言模型集成中不确定性的缩放规律，并质疑固定模型族能否充分覆盖认知不确定性，对安全评估、探索和人机交互具有基础价值。
+**4. [Lazy Agents Answer Against Their Own Beliefs: Reinforcement Learning with Verifiable Beliefs Teaches Them to Act on What They Believe](http://arxiv.org/abs/2611.32884v1)**  
+**作者：** R. S. J. Xuan、P. Feng、W. Wang 等  
+**核心贡献与关注点：** 针对智能体在自身陈述仍保留多个候选答案时过早作答的问题，引入可验证信念强化学习，探索让行动与显式判断保持一致。
 
-#### 6. [Branch and Consolidate: A Unified Recipe for Multi-Teacher On-Policy Distillation](http://arxiv.org/abs/2611.32515v1)
-**作者：** Z. Liang、Z. Qu、B. Chen 等  
-**核心贡献与关注点：** 面向从共同检查点分化出的专家模型，提出多教师 on-policy 蒸馏方案，重点处理专家差异较大时能力难以合并的问题，契合专长模型整合需求。
+**5. [ShellBench: What Matters More for AI Agents, Models, or Harness for Everyday Tasks](http://arxiv.org/abs/2611.32946v1)**  
+**作者：** V. Koc、A. Washikar、R. N. Venkataraman 等  
+**核心贡献与关注点：** 以 100 项日常任务评估模型与智能体运行框架的作用，为区分“模型能力提升”和“系统工程收益”提供更贴近用户场景的基准。
 
-### 🤖 智能体与推理：多智能体决策与协调
+**6. [Attestation is All You Need: Toward a Zero-Trust Architecture for HPC AI Agents](http://arxiv.org/abs/2611.32958v1)**  
+**作者：** J. Li、C. Niu、T. Wang 等  
+**核心贡献与关注点：** 面向高性能计算环境中“已获授权但遭劫持”的智能体，探索基于证明机制的零信任架构，将安全关注点从身份授权延伸至执行过程。
 
-#### 7. [Breaking the Joint Action Space Dependence in Distributionally Robust Multi-Agent Reinforcement Learning](http://arxiv.org/abs/2611.32812v1)
-**作者：** Y. Wang  
-**核心贡献与关注点：** 在有限时域、一般和分布鲁棒马尔可夫博弈中研究鲁棒粗相关均衡的样本复杂度，尝试打破对联合动作空间规模的依赖，为多智能体鲁棒学习的可扩展性提供理论支撑。
+**7. [C3H: Compression-to-Consensus Criteria Hijacking in Multimodal LLM Recommender Systems](http://arxiv.org/abs/2611.32780v1)**  
+**作者：** G. Guan、Y. Hao、J. Zhang 等  
+**核心贡献与关注点：** 研究多模态推荐中的决策标准劫持，提示压缩与跨模态融合并不天然等于安全，需要审视内容操纵如何影响最终推荐依据。
 
-#### 8. [TeamFlowRL: Online Policy Optimization of Decentralized Flow Policies for Multi-Agent Coordination](http://arxiv.org/abs/2611.32645v1)
-**作者：** G. Zou、B. Zhang、H. Wang 等  
-**核心贡献与关注点：** 研究利用在线强化学习改进分散式流策略，将离线生成策略的表达能力与环境交互结合，关注多智能体协调能力能否持续超越固定数据集的限制。
+### 🔧 方法与框架｜推理效率、验证与约束生成
 
-### 🔧 方法与框架：推理效率与部署安全
+**8. [LoomKV: Lossless KV Cache Compression from GPU Memory to SSD for LLM Serving](http://arxiv.org/abs/2611.32954v1)**  
+**作者：** W. Zhu、Z. Sheng、P. Deng 等  
+**核心贡献与关注点：** 面向 GPU、主机内存与 SSD 的分层 KV 缓存提出无损压缩方案，直接关联多轮对话和智能体服务中的前缀复用与容量瓶颈。
 
-#### 9. [MXFP4 for LLM Inference: Complementary Post-Training Quantization Techniques and Their Interactions](http://arxiv.org/abs/2611.32873v1)
-**作者：** N. Frumkin、A. Khodamoradi、K. Denolf 等  
-**核心贡献与关注点：** 围绕 MXFP4 微缩放格式分析互补后训练量化技术及其交互，价值在于从“某种量化方法是否有效”转向“多种方法如何组合才有效”。
+**9. [Reading Decisions Before Spans: Efficient Generative Verification](http://arxiv.org/abs/2611.32931v1)**  
+**作者：** Y. Gong、L. Chen  
+**核心贡献与关注点：** 研究生成式验证器在完整输出错误片段与分类之前，能否提前读出判定结果，为只需要“是否有问题”的场景减少解码开销。
 
-#### 10. [Breaking Routing And Inter-device Dependencies in Mixture-of-Experts](http://arxiv.org/abs/2611.32572v1)
-**作者：** J. Zarka、D. Ahmed、E. Belilovsky 等  
-**核心贡献与关注点：** 针对 MoE 专家并行推理中的 token 分发、合并和跨设备依赖瓶颈展开优化，关注点是通信与计算能否更充分重叠，而非仅减少模型算术量。
+**10. [From Grammar Deltas to Token Masks: Incremental Constrained Decoding under Runtime Grammar Evolution](http://arxiv.org/abs/2611.32807v1)**  
+**作者：** H. Hua、J. Su、Y. Che 等  
+**核心贡献与关注点：** 将约束解码扩展至语法在生成过程中动态变化的场景，面向代码与领域专用语言中逐步出现的声明、类型和约束维护合法输出。
 
-#### 11. [ReQOR: Operator-Discrepancy Subspace Repair for Quantization-Conditioned Backdoors in Large Language Models](http://arxiv.org/abs/2611.32755v1)
-**作者：** W. Seo、M. Park、S. Park  
-**核心贡献与关注点：** 面向“高精度时正常、量化后触发”的条件后门，提出基于算子差异的子空间修复思路，凸显模型压缩也可能改变安全属性。
+### 📊 应用｜自动驾驶、医疗与交互生成
 
-### 📊 应用：视频、医疗与机器人
+**11. [Benchmarking Evidence Sufficiency in Vision-Language Models for Autonomous Driving](http://arxiv.org/abs/2611.32964v1)**  
+**作者：** N. H. Nguyen、S. Chowdhury、L. Das  
+**核心贡献与关注点：** 将视觉证据是否足以支持答案作为自动驾驶 VLM 的独立评估目标，补充仅看回答正确率和目标定位的安全盲区。
 
-#### 12. [Efficient Video Retrieval Augmented Generation via Token Allocation](http://arxiv.org/abs/2611.32938v1)
-**作者：** A. Barik、F. Lai、F. Y. Yan  
-**核心贡献与关注点：** 将长视频 RAG 的优化重点从选帧与压缩扩展到 token 分配，关注不同证据获得额外 token 的边际价值，为有限推理预算下的视频理解提供新视角。
+**12. [Reliable and grounded reporting of any computed tomography scan with FORA](http://arxiv.org/abs/2611.32823v1)**  
+**作者：** S. Er、U. Turkbey、A. Gur 等  
+**核心贡献与关注点：** 提出面向广泛 CT 检查的通用模型，强调综合报告与空间定位，值得关注其跨解剖区域泛化能力及临床可靠性的验证方式。
 
-#### 13. [Label leakage through file headers: geometry and batch confounds in public mammography datasets, and a pre-training acceptance gate](http://arxiv.org/abs/2611.32899v1)
-**作者：** A. Toufah、R. Saad、M. Y. El Hafidi  
-**核心贡献与关注点：** 在六个公开乳腺影像数据集上检查几何、纹理和子集合标识等非诊断信息的标签预测能力，并提出训练前验收关卡，提醒高分可能来自数据捷径而非临床识别能力。
+**13. [Residual Guidance for Real-Time Interactive Video Generation](http://arxiv.org/abs/2611.32820v1)**  
+**作者：** N. Park、K.-H. Moon、Y. Jeon 等  
+**核心贡献与关注点：** 针对流式视频在提示切换后仍沿用旧内容的“上下文惯性”，提出残差引导方法，聚焦实时生成中的控制响应问题。
 
-#### 14. [Simulator-as-Proxy World Model for Robot Manipulation](http://arxiv.org/abs/2611.32786v1)
-**作者：** T. Liao、M. Huo、H. Li 等  
-**核心贡献与关注点：** 提出以显式、可扰动模拟器状态作为代理的 SimPWM，用于检验机器人视频世界模型是否真正遵循代理场景，为评估可控性而非仅视觉逼真度提供抓手。
+**14. [Motion Conditioned World Modeling for Embodied Visual Tracking](http://arxiv.org/abs/2611.32900v1)**  
+**作者：** J. Zhang、X. Yao、J. Gao 等  
+**核心贡献与关注点：** 以运动条件化世界模型处理目标运动与机器人视角变化共同造成的预测困难，面向具身跟踪中的未来状态建模。
 
 ## 三、研究趋势信号
 
-今日投稿显示，效率研究正从单点压缩走向系统协同：低比特格式、量化组合与 MoE 通信依赖需要共同设计。学习机制则更强调经验利用与能力整合，少样本上下文适应、专家蒸馏和在线流策略均体现这一取向。另一条值得警惕的信号是“部署改变行为”：训练与执行策略偏差、量化后门及医疗数据捷径，推动评估从单一准确率转向全流程可信性验证。
+今日投稿呈现三条相互关联的趋势：一是从答案正确性转向证据充分性、能力自知与信念—行动一致性，可靠性评估开始深入决策过程；二是智能体竞争从单模型扩展到运行框架、缓存和验证链路，系统设计成为重要变量；三是安全边界从单次输入扩展到授权执行、跨轮历史与多模态融合。与此同时，量化评测和脑评分研究提醒我们，测量工具本身也必须接受检验。
 
 ## 四、值得精读
 
-### ① [Eliciting the Recall Capacity of Linear Attention](http://arxiv.org/abs/2611.32969v1)
-**理由：** 关联召回直接关系高效序列架构的实用上限。建议重点阅读其任务构造与训练干预对照，判断观察到的差距究竟来自容量、优化还是数据分布，而不只比较最终分数。
+### 1. [Lazy Agents Answer Against Their Own Beliefs](http://arxiv.org/abs/2611.32884v1)
+**理由：** 将“过早结束任务”具体化为显式信念与行动之间的不一致，比单看最终成功率更接近过程诊断。精读时应重点检查：信念如何被验证，以及方法是否真正提升信息搜集，而非仅改变表述。
 
-### ② [EPRO: Robust Policy Optimization Through an Imperfect Execution-Policy Predictor](http://arxiv.org/abs/2611.32810v1)
-**理由：** 问题来自真实 LLM 强化学习流水线，具有较强工程相关性。精读重点应是执行策略如何预测、预测误差如何影响更新，以及该方法适用的系统与偏差条件。
+### 2. [ShellBench](http://arxiv.org/abs/2611.32946v1)
+**理由：** 直接回答部署中的核心问题——应优先升级模型，还是优化运行框架。重点关注模型与框架的交叉实验、工具权限、预算控制及任务可复现性。
 
-### ③ [Label leakage through file headers](http://arxiv.org/abs/2611.32899v1)
-**理由：** 对医疗 AI 和基准建设具有直接的方法论价值。应关注非诊断基线如何设置、数据划分如何控制混杂，以及“训练前验收关卡”能否迁移到其他数据集。
+### 3. [LoomKV](http://arxiv.org/abs/2611.32954v1)
+**理由：** KV 缓存是长上下文和多轮智能体服务的重要资源瓶颈，无损方案具有明确工程吸引力。重点核查压缩率之外的压解开销、端到端延迟，以及不同缓存命中率下的净收益。
 
----
+## 五、其余论文索引
 
-**阅读建议：** 架构研究优先读 **线性注意力召回**；训练与系统团队优先读 **EPRO、MXFP4、MoE 通信优化**；评估与医疗团队优先读 **标签泄漏审计**。
+*以下保留其余 12 篇链接，便于完整追踪今日全部投稿。*
+
+| 方向 | 论文 |
+|---|---|
+| 欺诈与模型安全 | [“I Do Intend to Deliver”: Will LLMs Run a Marketplace Advance-Fee Scam?](http://arxiv.org/abs/2611.32957v1) |
+| 风险敏感强化学习 | [Beyond Expected Value: PPO with Distributional Critics for Systematic Conservation Planning](http://arxiv.org/abs/2611.32948v1) |
+| 文化价值与交互 | [One Style Fits All? Cultural Values Embedded in Conversational AI via a People-Pleasing Lens](http://arxiv.org/abs/2611.32939v1) |
+| 智能体搜索 | [SOARS: System One Assisted Reranking for Agentic Search](http://arxiv.org/abs/2611.32917v1) |
+| 在线内容治理 | [Joint Detection of Constructive Speech, Hate Speech and Agreement in Online Conversations](http://arxiv.org/abs/2611.32889v1) |
+| 数据中心数字孪生 | [Adaptive Electromagnetic Transient-level Digital Twins for Data Centers via In-Context Learning with LLMs](http://arxiv.org/abs/2611.32882v1) |
+| 跨轮隐私泄漏 | [Fresh Keys, Stale Secrets: Numeric Leakage across Linked LLM Prompts](http://arxiv.org/abs/2611.32864v1) |
+| 人工生命 | [Field Life: Particle Life as Interacting Chemical Fields](http://arxiv.org/abs/2611.32844v1) |
+| 自适应计算机交互 | [Interactive Neural Computers](http://arxiv.org/abs/2611.32811v1) |
+| 多机器人必要性推理 | [MRBench: Benchmarking Physical Necessity Reasoning in Heterogeneous Multi-Robot Manipulation](http://arxiv.org/abs/2611.32803v1) |
+| 语音表示 | [Is Prosody Encoded in the Neural Audio Codec Mimi?](http://arxiv.org/abs/2611.32795v1) |
+| 脑模型评估 | [Accuracy of Noise Ceiling Estimators for Brain Scores](http://arxiv.org/abs/2611.32792v1) |
 
 ---
 *本日报由 [agents-radar](https://github.com/leisure3318/agents-radar) 自动生成。*

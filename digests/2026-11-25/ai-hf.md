@@ -1,72 +1,52 @@
 # Hugging Face 热门模型日报 2026-11-25
 
-> 数据来源: [Hugging Face Hub](https://huggingface.co/) | 共 7 个模型 | 生成时间: 2026-11-25 04:47 UTC
+> 数据来源: [Hugging Face Hub](https://huggingface.co/) | 共 1 个模型 | 生成时间: 2026-11-25 05:39 UTC
 
 ---
 
 # Hugging Face 热门模型日报
-**日期：2026-11-25｜样本：7 个热门模型**
+**日期：2026-11-25｜按周点赞数排序**
 
-> 本报依据所提供的榜单与标签整理，未核验模型卡、许可证或性能。榜单称按周点赞数排序，但所列点赞数并非降序，可能存在统计口径差异；下文不据此重排热度。
+> 数据范围：本期仅提供 1 个模型；以下分析基于该样本，不代表 Hugging Face 全站趋势。点赞与下载数沿用所给数据口径。
 
 ## 今日速览
 
-本期热点集中在**本地量化部署、多模态生成与文档解析**三条方向。三个 GGUF 模型上榜，其中 Ternary-Bonsai 的三值、2-bit 标签凸显低位宽推理的关注度。Lakonik/pi-H3 以 **57,282 次下载、264 个赞**在本样本中均居首位，音视频生成方向值得重点观察。ERNIE-5.5-Flash-Preview 与 Kolibri-1.1 则带来 MoE 语言模型的关注信号，但点赞与下载差异较大，尚不能等同于实际采用规模。
+今日最值得关注的是 **MemTensor/MemT-1.0-Pro**，获得 **99 次点赞、397 次下载**。该模型面向文本生成，带有 `transformers`、`safetensors` 与 `custom_code` 标签，使用前应重点检查其自定义代码与加载要求。其架构标签为 `memt_nemotron_h`，但仅凭标签无法确认与其他模型家族的具体继承关系。当前样本没有覆盖多模态、专用模型或量化版本，尚不足以判断这些方向的热度变化。
 
 ## 热门模型
 
-*按主要发布形态归类，每个模型仅列一次；量化多模态模型统一归入“微调与量化”。*
-
 ### 🧠 语言模型（LLM、对话模型、指令微调）
 
-#### [Aleph-Alpha/Kolibri-1.1](https://huggingface.co/Aleph-Alpha/Kolibri-1.1)
-- **作者：** Aleph-Alpha ｜ **点赞：** 116 ｜ **下载：** 272
-- **一句话说明：** 带有 reasoning、MoE 和 vLLM 标签的文本生成模型，推理能力定位与部署生态支持构成其主要关注点。
+**[MemTensor/MemT-1.0-Pro](https://huggingface.co/MemTensor/MemT-1.0-Pro)**
 
-#### [baidu/ERNIE-5.5-Flash-Preview](https://huggingface.co/baidu/ERNIE-5.5-Flash-Preview)
-- **作者：** baidu ｜ **点赞：** 262 ｜ **下载：** 75
-- **一句话说明：** ERNIE 家族的文本生成预览模型，标签指向 MoE 架构及 Transformers 生态；高点赞、低下载显示关注度尚未转化为同等规模的下载活动。
+- **作者：** MemTensor
+- **点赞数：** 99
+- **下载数：** 397
+- **一句话说明：** 这是一个采用 `memt_nemotron_h` 架构标记的文本生成模型，以本期所列的周点赞表现进入观察名单；其具体能力、参数规模与训练方式仍需查阅模型卡确认。
+- **使用提示：** 存在 `custom_code` 标签，建议先审查仓库代码，再决定是否启用远程代码加载。
 
 ### 🎨 多模态与生成（图像、视频、音频、文本到 X）
 
-#### [Lakonik/pi-H3](https://huggingface.co/Lakonik/pi-H3)
-- **作者：** Lakonik ｜ **点赞：** 264 ｜ **下载：** 57,282
-- **一句话说明：** 面向图文到视频生成、同时带有文本到音视频标签的模型，结合 flow-matching 与蒸馏标签，是本样本中下载活跃度最突出的项目。
+本期提供的数据中暂无此类模型。
 
-### 🔧 专用模型（代码、数学、医疗、嵌入等）
+### 🔧 专用模型（代码、数学、医疗、嵌入）
 
-#### [llamaindex/OCRia-nano-1](https://huggingface.co/llamaindex/OCRia-nano-1)
-- **作者：** llamaindex ｜ **点赞：** 168 ｜ **下载：** 0
-- **一句话说明：** 面向 OCR 与 PDF 文档解析的图像转文本模型，ONNX、Markdown 和 liteparse 标签体现其文档处理工具链定位；零下载记录不宜直接解读为无人使用。
+本期提供的数据中暂无此类模型。尚无足够信息将 MemT-1.0-Pro 归入专用能力类别。
 
 ### 📦 微调与量化（社区微调、GGUF、AWQ）
 
-#### [prism-ml/Ternary-Bonsai-2.5-27B-GGUF](https://huggingface.co/prism-ml/Ternary-Bonsai-2.5-27B-GGUF)
-- **作者：** prism-ml ｜ **点赞：** 139 ｜ **下载：** 0
-- **一句话说明：** 名称标注为 27B 的 GGUF 文本生成模型，主打三值与 2-bit 表示，其低位宽部署路线值得关注，但实际内存和速度收益仍需实测。
-
-#### [nari-labs/Qwen3.8-27B-NariQ-GGUF](https://huggingface.co/nari-labs/Qwen3.8-27B-NariQ-GGUF)
-- **作者：** nari-labs ｜ **点赞：** 122 ｜ **下载：** 8,795
-- **一句话说明：** Qwen 系列的 GGUF 量化多模态模型，兼具图文输入任务与 coding-agent 标签，连接了本地部署、多模态和代码代理三个热点。
-
-#### [orcarouter/Inkling-2-Mini-abliterated-GGUF](https://huggingface.co/orcarouter/Inkling-2-Mini-abliterated-GGUF)
-- **作者：** orcarouter ｜ **点赞：** 155 ｜ **下载：** 5,446
-- **一句话说明：** 面向 llama.cpp 本地运行的 GGUF 社区衍生版本，名称中的 abl iterated（通常写作 abl iterated 的连写形式“abliterated”）指向拒答行为调整，适合研究行为变化及其安全性影响。
+本期提供的数据中暂无明确的微调或量化版本；`safetensors` 是权重存储格式，不等同于量化。
 
 ## 生态信号
 
-本样本中，Qwen 衍生量化与 ERNIE 预览版显示家族关注度，GGUF 占三席，反映本地推理和低位宽部署需求活跃。三值、2-bit 与 abl iterated 类行为调整，体现社区同时探索压缩效率和模型行为。Hub 发布及权重格式标签表明可分发制品受到关注，但不能据此认定许可证开放，也不足以判断开源相对闭源的整体份额变化；需结合许可、权重可用性与持续下载观察。
+本期关注点集中于 MemTensor 的文本生成模型，但单一样本不足以判定哪个模型家族正形成持续势头。`transformers`、`safetensors` 与 `custom_code` 的组合，提示其接入方式及自定义代码值得核查；仓库是否完整开放权重、许可证是否允许商用，仍需查阅模型卡，不能直接等同于开源。样本未出现 GGUF、AWQ 或明确的社区微调版本，暂无法推断量化与衍生活动的活跃程度。
 
 ## 值得探索
 
-1. **[Lakonik/pi-H3](https://huggingface.co/Lakonik/pi-H3)**  
-   适合关注视频与音视频生成的团队。优先核验支持的输入输出形式、生成质量、时序一致性及显存需求，判断高下载量能否对应实际可用性。
+本期仅有 **1 个可核实候选**，不额外补入未提供的模型：
 
-2. **[prism-ml/Ternary-Bonsai-2.5-27B-GGUF](https://huggingface.co/prism-ml/Ternary-Bonsai-2.5-27B-GGUF)**  
-   适合研究低位宽本地推理。重点比较其与常规量化方案的质量损失、内存占用、吞吐和 llama.cpp 兼容性，而非仅看位宽标签。
-
-3. **[llamaindex/OCRia-nano-1](https://huggingface.co/llamaindex/OCRia-nano-1)**  
-   适合文档智能与 RAG 团队。建议测试复杂 PDF 的阅读顺序、表格与版面还原、Markdown 输出质量，以及 ONNX 部署的集成成本。
+- **[MemTensor/MemT-1.0-Pro](https://huggingface.co/MemTensor/MemT-1.0-Pro)**  
+  值得从两方面研究：一是检查 `memt_nemotron_h` 的架构实现、加载依赖与硬件要求；二是在确认许可证和运行条件后，测试文本生成质量、推理延迟与显存占用，判断其社区关注度能否转化为实际应用价值。
 
 ---
 *本日报由 [agents-radar](https://github.com/leisure3318/agents-radar) 自动生成。*

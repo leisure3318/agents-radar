@@ -1,68 +1,68 @@
 {
   "zh": {
     "ai-cli": [
-      "Claude Code v2.1.332上线",
-      "Claude Code新增MCP Skills测试版",
-      "Codex连发4个0.174.0 Alpha版",
-      "Gemini CLI夜间发布失败列为P0",
-      "Qwen Code更新46条PR、34条Issue",
-      "Codewhale筹备0.10.5发布"
+      "Copilot CLI发布v1.0.116-4",
+      "Codex被报Hook静默失效",
+      "Qwen Code被报阻断遭allow覆盖",
+      "Qwen Code v0.28.5发布流程失败",
+      "OpenCode推进Windows路径与状态恢复修复",
+      "Claude Code桌面自动化结果验证受关注"
     ],
     "ai-agents": [
-      "OpenClaw发布v2026.11.9",
-      "OpenClaw更新66条PR、47条Issue",
-      "OpenClaw更新与回滚设计引发讨论",
-      "OpenClaw多人协作权限功能进入PR",
-      "OpenClaw用户报告pnpm升级后命令失效",
-      "OpenClaw会话静默结束问题列为P1"
+      "OpenClaw更新40条PR，暂无新版本",
+      "OpenClaw模型工具调用失败影响任务可用性",
+      "OpenClaw消息部分发送问题待关注",
+      "OpenClaw Docker启停状态被报误报",
+      "OpenClaw后台任务完成判定修复PR已关闭",
+      "OpenClaw未知费用不再记零，相关PR已关闭"
     ],
     "ai-skills": [
       "remotion-docs登趋势榜，安装量9413",
-      "remotion-docs用实时文档核验API",
-      "remotion-elements登小时热榜",
+      "remotion-docs先查文档再实现，减少API误用",
+      "remotion-elements登小时热榜，安装量166",
       "remotion-elements支持视频组件源码复用",
-      "Caveman精简表达，省token效果待验证",
-      "Caveman相关技能覆盖压缩与用量查看"
+      "Remotion组件可先dry run检查再安装",
+      "Caveman聚焦精简表达，省费效果尚未证实"
     ],
     "ai-web": [
-      "Anthropic对齐团队页新入库，非新论文",
-      "Anthropic公开对齐训练与监督两条主线",
-      "Anthropic将助手人格纳入对齐研究",
+      "Anthropic新增抓取Alignment团队页",
+      "Anthropic团队页并非可确认的新研究公告",
+      "Anthropic对齐框架涵盖人格、训练与监督",
       "Anthropic强调模型外围安全结构",
-      "OpenAI新增GPT-6蛋白质设计索引",
-      "GPT-6条目正文缺失，能力结论待核实"
+      "OpenAI新增GPT-6蛋白质设计相关索引",
+      "OpenAI条目正文缺失，无法确认模型发布"
     ],
     "ai-hn": [
-      "Anthropic跌破发行价话题获723条评论",
-      "矩阵乘法Θ(n²·²⁵)预印本获304分",
-      "GPT-6蛋白质设计帖子获213分",
-      "OpenAI声称先解VP≠VNP，证明待核验",
-      "Anthropic发布VP≠VNP稿件，待核验",
-      "Versine用MCP收付款，获62条评论"
+      "Anthropic跌破IPO价帖获731条评论",
+      "矩阵乘法Θ(n²·²⁵)宣称获368分",
+      "GPT-6蛋白质设计帖获226分，结论待核验",
+      "OpenAI的VP≠VNP优先权帖引91条评论",
+      "Anthropic预印本声称任意域上VP≠VNP",
+      "Versine用MCP收付款，获65条评论"
     ],
     "ai-arxiv": [
-      "线性注意力召回短板：架构还是训练？",
-      "UDVR探索Transformer训练配方迁移",
-      "EPRO应对训练与执行策略不一致",
-      "Sleep机制探索少样本上下文适应",
-      "语言模型集成能否覆盖认知不确定性？",
-      "Branch and Consolidate整合多教师"
+      "InstructReplay用助手轮次回放缓解微调遗忘",
+      "视觉语言模型能否预知自身视觉短板？",
+      "量化可信度评测：分数变化可能源于测量误差",
+      "可验证信念强化学习探索减少智能体过早作答",
+      "ShellBench用100项任务比较模型与运行框架",
+      "HPC智能体研究探索零信任架构"
     ],
     "ai-hf": [
-      "pi-H3音视频生成模型下载量达5.7万",
-      "ERNIE-5.5-Flash预览版获262赞",
-      "Kolibri-1.1主打MoE推理与vLLM",
-      "OCRia-nano-1聚焦OCR与PDF解析",
-      "Ternary-Bonsai以三值2-bit部署上榜",
-      "Qwen3.8-NariQ量化版下载8795次"
+      "MemT-1.0-Pro获99赞、397次下载",
+      "MemT-1.0-Pro为本期唯一模型样本",
+      "MemT-1.0-Pro定位文本生成",
+      "MemT-1.0-Pro标注memt_nemotron_h",
+      "MemT-1.0-Pro带custom_code，加载前宜审查",
+      "MemT-1.0-Pro参数规模与商用许可待核实"
     ],
     "ai-community": [
-      "AI发布说明为何幻觉？Git差异缺少动机",
-      "四项安全测试无法执行，作者拒绝伪造通过",
-      "Agent规则只写提示词，权限并未被强制执行",
-      "Context7实测6个库，检验过时API问题",
-      "Firebase本地推理回退或改变数据流向",
-      "社区文章称AI代码增30%，PR审查慢49%"
+      "提示词对比普通表达：六案例盲评挑战默认优势",
+      "提示词测试文章以9赞领跑Dev.to样本",
+      "Gemini Decisions API接入Apps Script",
+      "零输出token教程探索决策型自动化",
+      "AI模拟招聘实验：说谎者反而获聘",
+      "Ollama升级前，先用兼容性矩阵验证工作流"
     ]
   },
   "en": {}
