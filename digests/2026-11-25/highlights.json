@@ -1,0 +1,69 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.332上线",
+      "Claude Code新增MCP Skills测试版",
+      "Codex连发4个0.174.0 Alpha版",
+      "Gemini CLI夜间发布失败列为P0",
+      "Qwen Code更新46条PR、34条Issue",
+      "Codewhale筹备0.10.5发布"
+    ],
+    "ai-agents": [
+      "OpenClaw发布v2026.11.9",
+      "OpenClaw更新66条PR、47条Issue",
+      "OpenClaw更新与回滚设计引发讨论",
+      "OpenClaw多人协作权限功能进入PR",
+      "OpenClaw用户报告pnpm升级后命令失效",
+      "OpenClaw会话静默结束问题列为P1"
+    ],
+    "ai-skills": [
+      "remotion-docs登趋势榜，安装量9413",
+      "remotion-docs用实时文档核验API",
+      "remotion-elements登小时热榜",
+      "remotion-elements支持视频组件源码复用",
+      "Caveman精简表达，省token效果待验证",
+      "Caveman相关技能覆盖压缩与用量查看"
+    ],
+    "ai-web": [
+      "Anthropic对齐团队页新入库，非新论文",
+      "Anthropic公开对齐训练与监督两条主线",
+      "Anthropic将助手人格纳入对齐研究",
+      "Anthropic强调模型外围安全结构",
+      "OpenAI新增GPT-6蛋白质设计索引",
+      "GPT-6条目正文缺失，能力结论待核实"
+    ],
+    "ai-hn": [
+      "Anthropic跌破发行价话题获723条评论",
+      "矩阵乘法Θ(n²·²⁵)预印本获304分",
+      "GPT-6蛋白质设计帖子获213分",
+      "OpenAI声称先解VP≠VNP，证明待核验",
+      "Anthropic发布VP≠VNP稿件，待核验",
+      "Versine用MCP收付款，获62条评论"
+    ],
+    "ai-arxiv": [
+      "线性注意力召回短板：架构还是训练？",
+      "UDVR探索Transformer训练配方迁移",
+      "EPRO应对训练与执行策略不一致",
+      "Sleep机制探索少样本上下文适应",
+      "语言模型集成能否覆盖认知不确定性？",
+      "Branch and Consolidate整合多教师"
+    ],
+    "ai-hf": [
+      "pi-H3音视频生成模型下载量达5.7万",
+      "ERNIE-5.5-Flash预览版获262赞",
+      "Kolibri-1.1主打MoE推理与vLLM",
+      "OCRia-nano-1聚焦OCR与PDF解析",
+      "Ternary-Bonsai以三值2-bit部署上榜",
+      "Qwen3.8-NariQ量化版下载8795次"
+    ],
+    "ai-community": [
+      "AI发布说明为何幻觉？Git差异缺少动机",
+      "四项安全测试无法执行，作者拒绝伪造通过",
+      "Agent规则只写提示词，权限并未被强制执行",
+      "Context7实测6个库，检验过时API问题",
+      "Firebase本地推理回退或改变数据流向",
+      "社区文章称AI代码增30%，PR审查慢49%"
+    ]
+  },
+  "en": {}
+}
