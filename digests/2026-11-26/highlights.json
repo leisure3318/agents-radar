@@ -1,0 +1,69 @@
+{
+  "zh": {
+    "ai-cli": [
+      "OpenCode 发布 v2.4.2",
+      "Pi 发布 v1.6.1，更新31条Issue",
+      "Qwen Code 发布 v1.0.0-preview.2",
+      "Codex 发布 0.174.0-alpha.6",
+      "Gemini CLI 连续两日Nightly发布失败",
+      "Claude Code 更新50条Issue，无新版本"
+    ],
+    "ai-agents": [
+      "OpenClaw 发布 v2026.11.10",
+      "OpenClaw 更新40条Issue、62条PR",
+      "Knowledge 跨智能体读取风险待修复",
+      "OpenClaw 旧会话迁移失败引关注",
+      "OpenClaw 升级出现多智能体所有者丢失",
+      "OpenClaw 被报缺少vec0导致启动失败"
+    ],
+    "ai-skills": [
+      "user-interview-guide 双榜上榜",
+      "访谈Skill获719安装，强调中立提问",
+      "ui-design 进入Hot，获402安装",
+      "ui-design 先画布确认，再落地代码",
+      "ui-design 需连接UX Pilot MCP",
+      "新收录5项Skill，覆盖访谈与上线检查"
+    ],
+    "ai-web": [
+      "Anthropic 披露Messages API迁移案例",
+      "Messages API 从Python转向Rust",
+      "Claude 参与生产系统迁移，验证成焦点",
+      "Anthropic：测试难覆盖用户依赖的边界行为",
+      "迁移涉及Claude Code等内部应用接口",
+      "Rust迁移收益与验证细节尚未见完整披露"
+    ],
+    "ai-hn": [
+      "整数分解突破传闻获472分，尚待核验",
+      "GRH Lean验证帖获328分，非证明确认",
+      "OpenAI数学仓库论文称推翻多项式Hirsch猜想",
+      "裸机运行Qwen项目获86分",
+      "Anthropic Rust迁移案例登上HN",
+      "Cloudflare 推出面向Agent的AI Search"
+    ],
+    "ai-arxiv": [
+      "State Space Attention学习保留关键历史",
+      "扩散语言模型蒸馏研究揭示前向KL失效",
+      "Refusal Is Not Scored追问拒答评估盲区",
+      "EVA 用外部视觉证据抵抗多模态幻觉",
+      "PRIOR 研究RL后工具调用能力保持",
+      "The Detour Is the Danger警示恢复路径风险"
+    ],
+    "ai-hf": [
+      "NVIDIA图像模型以176周赞领跑本期",
+      "Raon-1-mini 获117周赞，位列第二",
+      "Raon-1-mini 下载264次，高于榜首",
+      "NVIDIA图像模型任务栏与文本标签不一致",
+      "Nemotron与Raon许可证仍待核验",
+      "本期两款热门模型均无明确量化标记"
+    ],
+    "ai-community": [
+      "APIC 端侧图像编辑拆解获41条评论",
+      "Strands Decider 2B用16例测试退款门禁",
+      "工具调用截断后JSON合法，却丢失字段",
+      "Agent称测试全过，实际只跑74/105文件",
+      "Gemma 4在8GB显卡上测试函数调用",
+      "Agent记忆系统报零失败，却有12处矛盾"
+    ]
+  },
+  "en": {}
+}
