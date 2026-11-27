@@ -1,52 +1,52 @@
 {
   "zh": {
     "ai-cli": [
-      "Codex发布0.174.0-alpha.8",
-      "Copilot CLI连发1.0.117系列三版",
-      "Qwen Code录得4条发布，覆盖CLI与SDK",
-      "Gemini CLI nightly发布失败",
-      "OpenCode聚焦无人值守执行与会话恢复",
-      "Claude Code云端权限与多会话稳定性受关注"
+      "9款AI CLI更新38条记录，均无新发布",
+      "OpenCode更新8条PR，聚焦工具生命周期",
+      "Codex关闭5条PR，是否合并尚待确认",
+      "Qwen Code关注大工作区性能与模型配置",
+      "Claude Code用户反馈Linux快捷键问题",
+      "Codex用户呼吁持久化可编辑进度面板"
     ],
     "ai-agents": [
-      "OpenClaw单日56条Issue、69条PR更新",
-      "OpenClaw出现P0认证引导问题",
-      "OpenClaw推进SQLite会话存储",
-      "OpenClaw升级恢复与语音生命周期成重点",
-      "OpenClaw多项P1涉及消息阻塞与服务启动",
-      "OpenClaw拟减少模型调用的无关配置扫描"
+      "OpenClaw更新61条PR，今日无新版本",
+      "OpenClaw有41条PR待合并，评审压力受关注",
+      "OpenClaw子智能体结果交付重构PR已关闭",
+      "OpenClaw看板并发覆盖修复PR已关闭",
+      "OpenClaw插件重载误报修复PR已关闭",
+      "OpenClaw仍有CPU异常、消息丢失问题待核实"
     ],
     "ai-skills": [
-      "Prisma包揽5个新上榜Skill，均进入Hot",
-      "prisma-cli上榜，所列安装量68",
+      "Prisma包揽5个新发现Skill，均进入Hot榜",
+      "prisma-cli登上Hot榜，安装量68",
       "Prisma驱动适配器Skill上榜，安装量68",
-      "prisma-compute上榜，功能说明待核验",
-      "Prisma Postgres升级Skill上榜，安装量67",
-      "Prisma v7升级Skill上榜，迁移范围待核验"
+      "prisma-compute上榜，安装量67",
+      "Prisma Postgres升级Skill上榜",
+      "Prisma v7升级Skill上榜，文档待核验"
     ],
     "ai-hn": [
-      "AI辅助自托管获407分，成为工程热点",
-      "AMD本地推理获303分，算力自主受关注",
-      "OpenAI成本控制猜测引发305条评论",
+      "AMD专用llama.cpp分支获312分",
+      "OpenAI成本控制话题引发316条评论",
       "DeepMind部分Gemini实验算力交由Agent控制",
-      "Opus 5.6路由猜测获37分，尚非官宣",
-      "Anthropic的Siren聚焦智能体沙箱逃逸"
+      "Opus 5.6疑似测试曝光，模型身份未确认",
+      "社区转述GLM-5.5计划12月发布，待官方确认",
+      "Agent与MCP扩展引出指令注入和权限争议"
     ],
     "ai-hf": [
-      "MAGI-2-preview获303赞，领跑三模型样本",
+      "MAGI-2-preview以303赞领跑样本",
       "MAGI-2-preview主打图文条件视频生成",
-      "Kandinsky-ImageSR-2.0获129赞",
-      "Inkling-2-Mini量化版获126赞",
-      "Inkling量化版聚焦GGUF与混合精度",
-      "三款热门模型合计仅4次下载，热度不等于部署"
+      "Kandinsky图像超分模型获129赞",
+      "Inkling-2-Mini GGUF量化版获126赞",
+      "Inkling量化版采用GSQ、RCO与混合精度标签",
+      "3款热门模型总下载仅4次，热度不等于部署"
     ],
     "ai-community": [
-      "Dev.to回归手测文章获83赞、73评论",
-      "AI生产力悖论获63赞，引发43条评论",
-      "基准全通过，真实测试仅70%：评估差距受关注",
-      "Agent获批调用与实际执行是否一致引热议",
-      "RAG安全成本被高估，作者复盘评估方法",
-      "Gemma 4 E2B长上下文检索实测受关注"
+      "纯C#推理引擎对比Ollama，五个月后再测",
+      "C#生成耗时据称从Ollama的1.74倍降至1.20倍",
+      "C#推理启用int8后，据称速度追平Ollama",
+      "C#引擎作者称int8精度损失与llama.cpp相近",
+      "黑五开发者工具优惠汇总获40赞",
+      "AI工具黑五采购：续费价格与额度值得先查"
     ]
   },
   "en": {}
