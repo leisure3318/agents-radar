@@ -1,0 +1,53 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Codex发布0.174.0-alpha.8",
+      "Copilot CLI连发1.0.117系列三版",
+      "Qwen Code录得4条发布，覆盖CLI与SDK",
+      "Gemini CLI nightly发布失败",
+      "OpenCode聚焦无人值守执行与会话恢复",
+      "Claude Code云端权限与多会话稳定性受关注"
+    ],
+    "ai-agents": [
+      "OpenClaw单日56条Issue、69条PR更新",
+      "OpenClaw出现P0认证引导问题",
+      "OpenClaw推进SQLite会话存储",
+      "OpenClaw升级恢复与语音生命周期成重点",
+      "OpenClaw多项P1涉及消息阻塞与服务启动",
+      "OpenClaw拟减少模型调用的无关配置扫描"
+    ],
+    "ai-skills": [
+      "Prisma包揽5个新上榜Skill，均进入Hot",
+      "prisma-cli上榜，所列安装量68",
+      "Prisma驱动适配器Skill上榜，安装量68",
+      "prisma-compute上榜，功能说明待核验",
+      "Prisma Postgres升级Skill上榜，安装量67",
+      "Prisma v7升级Skill上榜，迁移范围待核验"
+    ],
+    "ai-hn": [
+      "AI辅助自托管获407分，成为工程热点",
+      "AMD本地推理获303分，算力自主受关注",
+      "OpenAI成本控制猜测引发305条评论",
+      "DeepMind部分Gemini实验算力交由Agent控制",
+      "Opus 5.6路由猜测获37分，尚非官宣",
+      "Anthropic的Siren聚焦智能体沙箱逃逸"
+    ],
+    "ai-hf": [
+      "MAGI-2-preview获303赞，领跑三模型样本",
+      "MAGI-2-preview主打图文条件视频生成",
+      "Kandinsky-ImageSR-2.0获129赞",
+      "Inkling-2-Mini量化版获126赞",
+      "Inkling量化版聚焦GGUF与混合精度",
+      "三款热门模型合计仅4次下载，热度不等于部署"
+    ],
+    "ai-community": [
+      "Dev.to回归手测文章获83赞、73评论",
+      "AI生产力悖论获63赞，引发43条评论",
+      "基准全通过，真实测试仅70%：评估差距受关注",
+      "Agent获批调用与实际执行是否一致引热议",
+      "RAG安全成本被高估，作者复盘评估方法",
+      "Gemma 4 E2B长上下文检索实测受关注"
+    ]
+  },
+  "en": {}
+}
