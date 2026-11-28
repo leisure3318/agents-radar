@@ -1,0 +1,53 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Codex 发布 0.174.0-alpha.9，聚焦沙箱权限",
+      "Copilot CLI 连发4版，关注企业证书与MCP",
+      "Pi 发布 v1.7.0，聚焦会话恢复与内存边界",
+      "Gemini CLI Nightly 发布失败被标为P0",
+      "Qwen Code 推进托管Agent与共享Worker",
+      "Claude Code 权限边界与无人值守成焦点"
+    ],
+    "ai-agents": [
+      "OpenClaw 发布 v2026.12.1-beta.1",
+      "OpenClaw 更新准备阶段不再停止Gateway",
+      "OpenClaw 24小时更新54条Issue、78条PR",
+      "OpenClaw 数据库损坏等问题被标为P0",
+      "OpenClaw 消息丢失与进程生命周期问题集中",
+      "OpenClaw 聚焦订阅认证与多智能体结果交付"
+    ],
+    "ai-skills": [
+      "deep-research 上榜，支持并行子代理研究",
+      "deep-research 每个子代理限8～12步",
+      "deep-research 要求关键数字附准确引文",
+      "pptx-nova 获27次安装，功能说明仍缺失",
+      "writing-changelogs 区分实现、部署与验证",
+      "writing-changelogs 要求附实际验证命令及结果"
+    ],
+    "ai-hn": [
+      "DragDropMath 获112分，拖拽学数学成焦点",
+      "房东AI允诺延迟交租后驱逐报道引61条评论",
+      "单台GB10跑Inkling 2 Mini称达101 tok/s",
+      "OpenAI 数学预印本获34分、8条评论",
+      "Claude Code Skills 团队共享报道引关注",
+      "Claude静默修改代码指控集中出现，尚未证实"
+    ],
+    "ai-hf": [
+      "GigaChat4-708B-A41B 成本期唯一样本",
+      "GigaChat4 获118次点赞、287次下载",
+      "GigaChat4 同时标注MoE与FP8",
+      "GigaChat4 名称暗示708B总参，待模型卡确认",
+      "GigaChat4 带指令标签，实际能力仍待评测",
+      "GigaChat4 商用条件与显存需求需先核查"
+    ],
+    "ai-community": [
+      "自建操作系统项目获30赞、12条评论",
+      "开发者称AI令冲刺提速30%，却新增缺陷",
+      "Agent通过全部检查，却解决了错误问题",
+      "零重复回归讨论获10赞、11条评论",
+      "聊天记录删除后被重试任务恢复，暴露一致性风险",
+      "Agent指令文件被指可能成为新钓鱼入口"
+    ]
+  },
+  "en": {}
+}
